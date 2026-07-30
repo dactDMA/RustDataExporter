@@ -1,0 +1,6473 @@
+{
+  "generated_utc": "2026-07-30 14:13:39",
+  "target_build": "Protocol 2631.286.1 / Changeset 158240",
+  "count": 695,
+  "data": [
+    {
+      "name": "50cal.mounted",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/content/vehicles/boats/ptboat/turrets/50cal/entities/50cal.single.entity.prefab"
+    },
+    {
+      "name": "50cal.mounted.left",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/content/vehicles/boats/ptboat/turrets/50cal/entities/50cal.left.entity.prefab"
+    },
+    {
+      "name": "50cal.mounted.right",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/content/vehicles/boats/ptboat/turrets/50cal/entities/50cal.right.entity.prefab"
+    },
+    {
+      "name": "abovegroundpool",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "abyss.barrel.horizontal",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "abyss.barrel.vertical",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "anchor",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "arcade.machine.chippy",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "autoturret",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "axe.salvaged",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/salvaged_axe/axe_salvaged.entity.prefab"
+    },
+    {
+      "name": "ballista.mounted",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "ballista.static",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "bamboo.barrel",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "bandage",
+      "concrete_type": "MedicalTool",
+      "type_chain": [
+        "MedicalTool",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/bandage/bandage.entity.prefab"
+    },
+    {
+      "name": "barricade.concrete",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "barricade.medieval",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "barricade.metal",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "barricade.sandbags",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "barricade.stone",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "barricade.wood",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "barricade.wood.cover",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "barricade.woodwire",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "bathtub.planter",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "batteringram",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "bbq",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "beachchair",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "beachparasol",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "beachtable",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "beachtowel",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "beanbagseatfabric",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "beanbagseatleather",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "bed",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "beehive",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "blowpipe",
+      "concrete_type": "BlowPipeWeapon",
+      "type_chain": [
+        "BlowPipeWeapon",
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/blowpipe/blowpipe.entity.prefab"
+    },
+    {
+      "name": "blunderbuss",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/blunderbuss/blunderbuss.entity.prefab"
+    },
+    {
+      "name": "boat.planner",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/boat_planner.entity.prefab"
+    },
+    {
+      "name": "boatbuildingstation",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "bone.club",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/bone club/bone_club.entity.prefab"
+    },
+    {
+      "name": "boogieboard",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "boombox",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "boomerang",
+      "concrete_type": "Boomerang",
+      "type_chain": [
+        "Boomerang",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/boomerang/boomerang.entity.prefab"
+    },
+    {
+      "name": "botabag",
+      "concrete_type": "BaseLiquidVessel",
+      "type_chain": [
+        "BaseLiquidVessel",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/bota bag/bota_bag.entity.prefab"
+    },
+    {
+      "name": "bow.compound",
+      "concrete_type": "CompoundBowWeapon",
+      "type_chain": [
+        "CompoundBowWeapon",
+        "BowWeapon",
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/compound bow/compound_bow.entity.prefab"
+    },
+    {
+      "name": "bow.hunting",
+      "concrete_type": "BowWeapon",
+      "type_chain": [
+        "BowWeapon",
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/bow/bow_hunting.entity.prefab"
+    },
+    {
+      "name": "box.repair.bench",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "box.wooden",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "box.wooden.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "bucket.water",
+      "concrete_type": "BaseLiquidVessel",
+      "type_chain": [
+        "BaseLiquidVessel",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/waterbucket/waterbucket.entity.prefab"
+    },
+    {
+      "name": "building.planner",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "cakefiveyear",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/cake/cake.entity.prefab"
+    },
+    {
+      "name": "campfire",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "candycaneclub",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/misc/xmas/candy cane club/candy_cane.entity.prefab"
+    },
+    {
+      "name": "cannon",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "cardtable",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "carvable.pumpkin",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "catapult",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "catapult.ammo.explosive",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "catapult.ammo.incendiary",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "cctv.camera",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "ceilinglight",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "chainsaw",
+      "concrete_type": "Chainsaw",
+      "type_chain": [
+        "Chainsaw",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/chainsaw/chainsaw.entity.prefab"
+    },
+    {
+      "name": "chair",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "chair.ejector.seat",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "chair.icethrone",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "charity.plushie.05",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "charity.plushy.01",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "charity.plushy.02",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "charity.plushy.03",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "charity.plushy.04",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "chickencoop",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "chineselantern",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "chineselanternwhite",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "circleballoon2025",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "clantable",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "clone.black.berry",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "clone.blue.berry",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "clone.corn",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "clone.green.berry",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "clone.hemp",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "clone.orchid",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "clone.potato",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "clone.pumpkin",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "clone.red.berry",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "clone.rose",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "clone.sunflower",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "clone.wheat",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "clone.white.berry",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "clone.yellow.berry",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "coffin.storage",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "command.block",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "compass",
+      "concrete_type": "Compass",
+      "type_chain": [
+        "Compass",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/compass/compass.entity.prefab"
+    },
+    {
+      "name": "component.box.ammo.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "component.box.armor.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "component.box.charcoal.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "component.box.clothing.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "component.box.comps.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "component.box.explosives.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "component.box.food.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "component.box.guns.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "component.box.meds.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "component.box.metal.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "component.box.ore.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "component.box.scrap.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "component.box.stone.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "component.box.sulfur.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "component.box.tools.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "component.box.wood.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "composter",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "computerstation",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "concretehatchet",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/lumberjack_tools/concrete_hatchet.entity.prefab"
+    },
+    {
+      "name": "concretepickaxe",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/lumberjack_tools/concrete_pickaxe.entity.prefab"
+    },
+    {
+      "name": "confetticannon",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "connected.speaker",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "cookingworkbench",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "crossbow",
+      "concrete_type": "CrossbowWeapon",
+      "type_chain": [
+        "CrossbowWeapon",
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/crossbow/crossbow.entity.prefab"
+    },
+    {
+      "name": "crossbowbowless",
+      "concrete_type": "CrossbowWeapon",
+      "type_chain": [
+        "CrossbowWeapon",
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/crossbow/skins/bowless/crossbow_bowless.entity.prefab"
+    },
+    {
+      "name": "cupboard.tool",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "cupboard.tool.retro",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "cupboard.tool.shockbyte",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "cursedcauldron",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "discoball",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "discofloor",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "discofloor.largetiles",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "discord.plushie",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "discord.trophy",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "diverhatchet",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/diverhatchet/diver_hatchet.entity.prefab"
+    },
+    {
+      "name": "diverpickaxe",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/diverpickaxe/diver_pickaxe.entity.prefab"
+    },
+    {
+      "name": "divertorch",
+      "concrete_type": "TorchWeapon",
+      "type_chain": [
+        "TorchWeapon",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/divertorch/diver_torch.entity.prefab"
+    },
+    {
+      "name": "door.closer",
+      "concrete_type": "Deployer",
+      "type_chain": [
+        "Deployer",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab"
+    },
+    {
+      "name": "door.double.hinged.bardoors",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "door.double.hinged.metal",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "door.double.hinged.toptier",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "door.double.hinged.wood",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "door.hinged.boat.wood",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "door.hinged.industrial.a",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "door.hinged.metal",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "door.hinged.toptier",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "door.hinged.wood",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "dragondoorknocker",
+      "concrete_type": "Deployer",
+      "type_chain": [
+        "Deployer",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab"
+    },
+    {
+      "name": "drone",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "dropbox",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "drumkit",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "easel",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "easterbasket",
+      "concrete_type": "EasterBasket",
+      "type_chain": [
+        "EasterBasket",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/misc/easter/easter basket/easter_basket.entity.prefab"
+    },
+    {
+      "name": "easterdoorwreath",
+      "concrete_type": "Deployer",
+      "type_chain": [
+        "Deployer",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab"
+    },
+    {
+      "name": "electric.andswitch",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.audioalarm",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.battery.rechargable.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.battery.rechargable.medium",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.battery.rechargable.small",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.blocker",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.bulbstringlights",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.button",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.cabletunnel",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.chandelier",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.counter",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.digitalclock",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.doorcontroller",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.fairylights",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.flasherlight",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.fluorescentlight",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.fluorescentlight.ceiling",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.fuelgenerator.small",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.furnace",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.generator.small",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.hbhfsensor",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.heater",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.igniter",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.laserdetector",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.orswitch",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.pressurepad",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.random.switch",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.rf.broadcaster",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.rf.receiver",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.seismicsensor",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.simplelight",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.sirenlight",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.solarpanel.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.splitter",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.spotlight",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.spotlight.tripod",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.sprinkler",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.switch",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.tablelight",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.teslacoil",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.timer",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.wallcabinet",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electric.xorswitch",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electrical.branch",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electrical.combiner",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "electrical.memorycell",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "elevator",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "explosive.satchel",
+      "concrete_type": "ThrownWeapon",
+      "type_chain": [
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/satchelcharge/explosive.satchel.entity.prefab"
+    },
+    {
+      "name": "explosive.timed",
+      "concrete_type": "ThrownWeapon",
+      "type_chain": [
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/c4/explosive.timed.entity.prefab"
+    },
+    {
+      "name": "factorydoor",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "fireplace.stone",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "firework.boomer.blue",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "firework.boomer.champagne",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "firework.boomer.green",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "firework.boomer.orange",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "firework.boomer.pattern",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "firework.boomer.red",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "firework.boomer.violet",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "firework.romancandle.blue",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "firework.romancandle.green",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "firework.romancandle.red",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "firework.romancandle.violet",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "firework.volcano",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "firework.volcano.red",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "firework.volcano.violet",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "fishingrod.handmade",
+      "concrete_type": "BaseFishingRod",
+      "type_chain": [
+        "BaseFishingRod",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/fishing rod/fishing_rod.entity.prefab"
+    },
+    {
+      "name": "fishtrap.small",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "fishtrophy",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "flamethrower",
+      "concrete_type": "FlameThrower",
+      "type_chain": [
+        "FlameThrower",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/flamethrower/flamethrower.entity.prefab"
+    },
+    {
+      "name": "flameturret",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "flare",
+      "concrete_type": "GrenadeWeapon",
+      "type_chain": [
+        "GrenadeWeapon",
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/flareold/flare.weapon.prefab"
+    },
+    {
+      "name": "flashlight.held",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/flashlight/flashlight.entity.prefab"
+    },
+    {
+      "name": "floor.grill",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "floor.ladder.hatch",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "floor.ladder.hatch.toptier",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "floor.triangle.grill",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "floor.triangle.ladder.hatch",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "floor.triangle.ladder.hatch.toptier",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "fluid.combiner",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "fluid.splitter",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "fluid.switch",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "fogmachine",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "frankensteintable",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "fridge",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "frontier_hatchet",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/frontier hatchet/frontier_hatchet.entity.prefab"
+    },
+    {
+      "name": "frontiermirror.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "frontiermirror.medium",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "frontiermirror.small",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "frontiermirror.standing",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "fun.bass",
+      "concrete_type": "InstrumentToolGuitar",
+      "type_chain": [
+        "InstrumentToolGuitar",
+        "InstrumentTool",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/instruments/bass/bass.weapon.prefab"
+    },
+    {
+      "name": "fun.boomboxportable",
+      "concrete_type": "HeldBoomBox",
+      "type_chain": [
+        "HeldBoomBox",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/voiceaudio/boomboxportable/boomboxportable.weapon.prefab"
+    },
+    {
+      "name": "fun.casetterecorder",
+      "concrete_type": "RecorderTool",
+      "type_chain": [
+        "RecorderTool",
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/voiceaudio/cassetterecorder/cassetterecorder.weapon.prefab"
+    },
+    {
+      "name": "fun.cowbell",
+      "concrete_type": "InstrumentTool",
+      "type_chain": [
+        "InstrumentTool",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/instruments/cowbell/cowbell.weapon.prefab"
+    },
+    {
+      "name": "fun.flute",
+      "concrete_type": "InstrumentTool",
+      "type_chain": [
+        "InstrumentTool",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/instruments/flute/flute.weapon.prefab"
+    },
+    {
+      "name": "fun.guitar",
+      "concrete_type": "InstrumentToolGuitar",
+      "type_chain": [
+        "InstrumentToolGuitar",
+        "InstrumentTool",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/instruments/guitar/guitar.weapon.prefab"
+    },
+    {
+      "name": "fun.jerrycanguitar",
+      "concrete_type": "InstrumentToolGuitar",
+      "type_chain": [
+        "InstrumentToolGuitar",
+        "InstrumentTool",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/instruments/jerrycanguitar/jerrycanguitar.weapon.prefab"
+    },
+    {
+      "name": "fun.tambourine",
+      "concrete_type": "InstrumentTool",
+      "type_chain": [
+        "InstrumentTool",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/instruments/tambourine/tambourine.weapon.prefab"
+    },
+    {
+      "name": "fun.trumpet",
+      "concrete_type": "InstrumentTool",
+      "type_chain": [
+        "InstrumentTool",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/instruments/trumpet/trumpet.weapon.prefab"
+    },
+    {
+      "name": "fun.tuba",
+      "concrete_type": "InstrumentTool",
+      "type_chain": [
+        "InstrumentTool",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/instruments/tuba/tuba.weapon.prefab"
+    },
+    {
+      "name": "furnace",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "furnace.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "gates.external.high.adobe",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "gates.external.high.legacy",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "gates.external.high.stone",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "gates.external.high.wood",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "geiger.counter",
+      "concrete_type": "GeigerCounter",
+      "type_chain": [
+        "GeigerCounter",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/geiger counter/geiger_counter.entity.prefab"
+    },
+    {
+      "name": "generator.water",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "generator.wind.scrap",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "giantcandycanedecor",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "giantlollipops",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "goldframe.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "goldframe.medium",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "goldframe.small",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "goldframe.standing",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "goldframe.xl",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "goldframe.xxl",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "goldmirror.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "goldmirror.medium",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "goldmirror.small",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "goldmirror.standing",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "gravestone",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "grenade.beancan",
+      "concrete_type": "GrenadeWeapon",
+      "type_chain": [
+        "GrenadeWeapon",
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/beancan grenade/grenade.beancan.entity.prefab"
+    },
+    {
+      "name": "grenade.bee",
+      "concrete_type": "GrenadeWeapon",
+      "type_chain": [
+        "GrenadeWeapon",
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/bee grenade/grenade.bee.entity.prefab"
+    },
+    {
+      "name": "grenade.f1",
+      "concrete_type": "GrenadeWeapon",
+      "type_chain": [
+        "GrenadeWeapon",
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/f1 grenade/grenade.f1.entity.prefab"
+    },
+    {
+      "name": "grenade.flashbang",
+      "concrete_type": "GrenadeWeapon",
+      "type_chain": [
+        "GrenadeWeapon",
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/flashbang/grenade.flashbang.entity.prefab"
+    },
+    {
+      "name": "grenade.molotov",
+      "concrete_type": "MolotovCocktail",
+      "type_chain": [
+        "MolotovCocktail",
+        "GrenadeWeapon",
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/molotov cocktail/grenade.molotov.entity.prefab"
+    },
+    {
+      "name": "grenade.smoke",
+      "concrete_type": "GrenadeWeapon",
+      "type_chain": [
+        "GrenadeWeapon",
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/smoke grenade/smoke_grenade.weapon.prefab"
+    },
+    {
+      "name": "gun.water",
+      "concrete_type": "LiquidWeapon",
+      "type_chain": [
+        "LiquidWeapon",
+        "BaseLiquidVessel",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/misc/summer_dlc/watergun/watergun.entity.prefab"
+    },
+    {
+      "name": "gunrack.horizontal",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "gunrack.single.1.horizontal",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "gunrack.single.2.horizontal",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "gunrack.single.3.horizontal",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "gunrack_stand",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "gunrack_tall.horizontal",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "gunrack_wide.horizontal",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "guntrap",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "half.bamboo.shelves",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "halfheight.industrial.shelves",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "hammer",
+      "concrete_type": "Hammer",
+      "type_chain": [
+        "Hammer",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/hammer/hammer.entity.prefab"
+    },
+    {
+      "name": "hammer.salvaged",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/salvaged_hammer/hammer_salvaged.entity.prefab"
+    },
+    {
+      "name": "handcuffs",
+      "concrete_type": "Handcuffs",
+      "type_chain": [
+        "Handcuffs",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/handcuffs/handcuffs.entity.prefab"
+    },
+    {
+      "name": "hatchet",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/hatchet/hatchet.entity.prefab"
+    },
+    {
+      "name": "hazmat.plushy",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "hazmatyoutooz",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "heartballoon2025",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "heavy.scientist.plushie",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "heavyscientistyoutooz",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "hitchtroughcombo",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "hmlmg",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/hmlmg/hmlmg.entity.prefab"
+    },
+    {
+      "name": "hobobarrel",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "homingmissile.launcher",
+      "concrete_type": "LockOnLauncher",
+      "type_chain": [
+        "LockOnLauncher",
+        "BaseLauncher",
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/homingmissilelauncher/homing_missile_launcher.entity.prefab"
+    },
+    {
+      "name": "hopper",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "hosetool",
+      "concrete_type": "WireTool",
+      "type_chain": [
+        "WireTool",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/hose/hosetool.entity.prefab"
+    },
+    {
+      "name": "huntingtrophylarge",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "huntingtrophysmall",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "icepick.salvaged",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/salvaged_icepick/icepick_salvaged.entity.prefab"
+    },
+    {
+      "name": "improvised.shield",
+      "concrete_type": "Shield",
+      "type_chain": [
+        "Shield",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/improvised_shield/improvisedshield.entity.prefab"
+    },
+    {
+      "name": "industrial.autoturret",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "industrial.combiner",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "industrial.conveyor",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "industrial.crafter",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "industrial.electric.furnace",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "industrial.furnace.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "industrial.garagedoor",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "industrial.splitter",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "industrial.storage.horizontal",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "industrial.storage.vertical",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "industrial.torch",
+      "concrete_type": "IndustrialTorchWeapon",
+      "type_chain": [
+        "IndustrialTorchWeapon",
+        "TorchWeapon",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/torch/skins/industrial_torch/industrial_torch.entity.prefab"
+    },
+    {
+      "name": "industrial.wall.light",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "industrial.wall.light.blue",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "industrial.wall.light.green",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "industrial.wall.light.red",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "innertube",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "innertube.horse",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "innertube.unicorn",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "iotable",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "jackhammer",
+      "concrete_type": "Jackhammer",
+      "type_chain": [
+        "Jackhammer",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/jackhammer/jackhammer.entity.prefab"
+    },
+    {
+      "name": "jackolantern.angry",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "jackolantern.happy",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "jungle.rock",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/rock/skins/rock_a_jungle/rock.a.jungle.entity.prefab"
+    },
+    {
+      "name": "kayak",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "keycard_blue",
+      "concrete_type": "Keycard",
+      "type_chain": [
+        "Keycard",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/keycard/keycard.entity.prefab"
+    },
+    {
+      "name": "keycard_green",
+      "concrete_type": "Keycard",
+      "type_chain": [
+        "Keycard",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/keycard/keycard.entity.prefab"
+    },
+    {
+      "name": "keycard_red",
+      "concrete_type": "Keycard",
+      "type_chain": [
+        "Keycard",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/keycard/keycard.entity.prefab"
+    },
+    {
+      "name": "knife.bone",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/bone knife/knife_bone.entity.prefab"
+    },
+    {
+      "name": "knife.bone.obsidian",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/bone knife/skins/obsidian knife/bone.knife.obsidian.entity.prefab"
+    },
+    {
+      "name": "knife.butcher",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/halloween/butcher knife/butcherknife.entity.prefab"
+    },
+    {
+      "name": "knife.combat",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/knife/knife.combat.entity.prefab"
+    },
+    {
+      "name": "knife.skinning",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/misc/decor_dlc/skinning knife/skinningknife.entity.prefab"
+    },
+    {
+      "name": "krieg.chainsword",
+      "concrete_type": "Chainsaw",
+      "type_chain": [
+        "Chainsaw",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/warhammer/krieg chainsword/krieg_chainsword.entity.prefab"
+    },
+    {
+      "name": "krieg.shotgun",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/warhammer/krieg shotgun/krieg_shotgun.entity.prefab"
+    },
+    {
+      "name": "krieg.storage.horizontal",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "krieg.storage.vertical",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "ladder.wooden.boat",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "ladder.wooden.wall",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "lantern",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "largecandles",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "laserlight",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "latexballoon2025",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "latexclumpballoon2025",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "legacy bow",
+      "concrete_type": "BowWeapon",
+      "type_chain": [
+        "BowWeapon",
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/legacy bow/legacybow.entity.prefab"
+    },
+    {
+      "name": "legacy.shelter.wood",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "legacyfurnace",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "lightup.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "lightup.xl",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "lightup.xxl",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "lightupframe.medium",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "lightupframe.small",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "lightupframe.standing",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "lightupmirror.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "lightupmirror.medium",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "lightupmirror.small",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "lightupmirror.standing",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "lmg.m249",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/m249/m249.entity.prefab"
+    },
+    {
+      "name": "lock.code",
+      "concrete_type": "Deployer",
+      "type_chain": [
+        "Deployer",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab"
+    },
+    {
+      "name": "lock.code.a.pilot",
+      "concrete_type": "Deployer",
+      "type_chain": [
+        "Deployer",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab"
+    },
+    {
+      "name": "lock.key",
+      "concrete_type": "Deployer",
+      "type_chain": [
+        "Deployer",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab"
+    },
+    {
+      "name": "locker",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "longsword",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/sword big/longsword.entity.prefab"
+    },
+    {
+      "name": "lumberjack.hatchet",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/lumberjack_tools/lumberjack_axe.entity.prefab"
+    },
+    {
+      "name": "lumberjack.pickaxe",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/lumberjack_tools/lumberjack_pick.entity.prefab"
+    },
+    {
+      "name": "lunar.firecrackers",
+      "concrete_type": "GrenadeWeapon",
+      "type_chain": [
+        "GrenadeWeapon",
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/misc/chinesenewyear/throwablefirecrackers/firecrackers.entity.prefab"
+    },
+    {
+      "name": "m16a2",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/m16a2/m16a2.entity.prefab"
+    },
+    {
+      "name": "mace",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/mace/mace.entity.prefab"
+    },
+    {
+      "name": "mace.baseballbat",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/halloween/baseballbat/mace.baseballbat.prefab"
+    },
+    {
+      "name": "machete",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/machete/machete.weapon.prefab"
+    },
+    {
+      "name": "mailbox",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "mannequin",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "map",
+      "concrete_type": "MapEntity",
+      "type_chain": [
+        "MapEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/map/map.prefab"
+    },
+    {
+      "name": "medieval.box.wooden.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "medieval.door.double.hinged.metal",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "medieval.door.hinged.metal",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "megaphone",
+      "concrete_type": "Megaphone",
+      "type_chain": [
+        "Megaphone",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/voiceaudio/megaphone/megaphone.weapon.prefab"
+    },
+    {
+      "name": "metal.detector",
+      "concrete_type": "BaseMetalDetector",
+      "type_chain": [
+        "BaseMetalDetector",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/metaldetector/metal_detector.entity.prefab"
+    },
+    {
+      "name": "metal.shield",
+      "concrete_type": "Shield",
+      "type_chain": [
+        "Shield",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/metal_shield/metalshield.entity.prefab"
+    },
+    {
+      "name": "microphonestand",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "military flamethrower",
+      "concrete_type": "FlameThrower",
+      "type_chain": [
+        "FlameThrower",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/military flamethrower/militaryflamethrower.entity.prefab"
+    },
+    {
+      "name": "minecart.planter",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "mini fridge",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "minicrossbow",
+      "concrete_type": "MiniCrossbow",
+      "type_chain": [
+        "MiniCrossbow",
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/mini crossbow/mini_crossbow.entity.prefab"
+    },
+    {
+      "name": "minigun",
+      "concrete_type": "SpinUpWeapon",
+      "type_chain": [
+        "SpinUpWeapon",
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/minigun/minigun.entity.prefab"
+    },
+    {
+      "name": "mining.pumpjack",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "mining.quarry",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "mixedclumpballoon2025",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "mixingtable",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "mobilephone",
+      "concrete_type": "MobilePhone",
+      "type_chain": [
+        "MobilePhone",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/voiceaudio/mobilephone/mobilephone.weapon.prefab"
+    },
+    {
+      "name": "modularcarlift",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "mortar.deployable",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "multiplegrenadelauncher",
+      "concrete_type": "BaseLauncher",
+      "type_chain": [
+        "BaseLauncher",
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/grenade launcher/mgl.entity.prefab"
+    },
+    {
+      "name": "neonsigntr",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "newyeargong",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "outbreak.sprayer",
+      "concrete_type": "GeigerCounter",
+      "type_chain": [
+        "GeigerCounter",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/outbreaksprayer/outbreak_sprayer.entity.prefab"
+    },
+    {
+      "name": "paddle",
+      "concrete_type": "Paddle",
+      "type_chain": [
+        "Paddle",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/paddle/paddle.entity.prefab"
+    },
+    {
+      "name": "paddlingpool",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "paintabletarget.reactive",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "paintballgun",
+      "concrete_type": "PaintballGun",
+      "type_chain": [
+        "PaintballGun",
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/paintball_gun/paintballgun.entity.prefab"
+    },
+    {
+      "name": "photoframe.landscape",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "photoframe.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "photoframe.portrait",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "piano",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "pickaxe",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/pickaxe/pickaxe.entity.prefab"
+    },
+    {
+      "name": "pie.apple",
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
+      "name": "pie.bear",
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
+      "name": "pie.bigcat",
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
+      "name": "pie.chicken",
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
+      "name": "pie.crocodile",
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
+      "name": "pie.fish",
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
+      "name": "pie.hunters",
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
+      "name": "pie.pork",
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
+      "name": "pie.pumpkin",
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
+      "name": "pie.survivors",
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
+      "name": "pilot.hazmat.box.wooden",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "pinata",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "pipetool",
+      "concrete_type": "WireTool",
+      "type_chain": [
+        "WireTool",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/pipe/pipetool.entity.prefab"
+    },
+    {
+      "name": "pistol.eoka",
+      "concrete_type": "FlintStrikeWeapon",
+      "type_chain": [
+        "FlintStrikeWeapon",
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/eoka pistol/pistol_eoka.entity.prefab"
+    },
+    {
+      "name": "pistol.m92",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/m92/m92.entity.prefab"
+    },
+    {
+      "name": "pistol.nailgun",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/nailgun/nailgun.entity.prefab"
+    },
+    {
+      "name": "pistol.prototype17",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/glockskin/glock.entity.prefab"
+    },
+    {
+      "name": "pistol.python",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/python/python.entity.prefab"
+    },
+    {
+      "name": "pistol.revolver",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/revolver/pistol_revolver.entity.prefab"
+    },
+    {
+      "name": "pistol.semiauto",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/semi auto pistol/pistol_semiauto.entity.prefab"
+    },
+    {
+      "name": "pistol.semiauto.a.m15",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/pistol_semiauto.a.m15.entity.prefab"
+    },
+    {
+      "name": "pistol.water",
+      "concrete_type": "LiquidWeapon",
+      "type_chain": [
+        "LiquidWeapon",
+        "BaseLiquidVessel",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/misc/summer_dlc/waterpistol/waterpistol.entity.prefab"
+    },
+    {
+      "name": "pitchfork",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/halloween/pitchfork/pitchfork.entity.prefab"
+    },
+    {
+      "name": "plank",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "planter.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "planter.small",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "planter.triangle",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "plantpot.single",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "pookie.bear",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "powered.water.purifier",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "ptz.cctv.camera",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "pumpkinbasket",
+      "concrete_type": "EasterBasket",
+      "type_chain": [
+        "EasterBasket",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/misc/halloween/pumpkin_bucket/pumpkin_basket.entity.prefab"
+    },
+    {
+      "name": "rail.road.planter",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "reinforced.wooden.shield",
+      "concrete_type": "Shield",
+      "type_chain": [
+        "Shield",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/reinforcedwoodshield/reinforcedwoodshield.entity.prefab"
+    },
+    {
+      "name": "research.table",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "revolver.hc",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/high caliber revolver/hc_revolver.entity.prefab"
+    },
+    {
+      "name": "rf.detonator",
+      "concrete_type": "Detonator",
+      "type_chain": [
+        "Detonator",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/detonator/detonator.entity.prefab"
+    },
+    {
+      "name": "rifle.ak",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/ak47u/ak47u.entity.prefab"
+    },
+    {
+      "name": "rifle.ak.diver",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/ak47u/diver/ak47u_diver.entity.prefab"
+    },
+    {
+      "name": "rifle.ak.ice",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/ak47u/iceskin/ak47u_ice.entity.prefab"
+    },
+    {
+      "name": "rifle.ak.jungle",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/ak47u/jungle skin/ak47u_jungle.entity.prefab"
+    },
+    {
+      "name": "rifle.ak.med",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/ak47u/medieval skin/ak47u_med.entity.prefab"
+    },
+    {
+      "name": "rifle.bolt",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/bolt rifle/bolt_rifle.entity.prefab"
+    },
+    {
+      "name": "rifle.l96",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/l96/l96.entity.prefab"
+    },
+    {
+      "name": "rifle.lr300",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/lr300/lr300.entity.prefab"
+    },
+    {
+      "name": "rifle.lr300.space",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/lr300/skins/space/lr300_space.entity.prefab"
+    },
+    {
+      "name": "rifle.m39",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/m39 emr/m39.entity.prefab"
+    },
+    {
+      "name": "rifle.semiauto",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/semi auto rifle/semi_auto_rifle.entity.prefab"
+    },
+    {
+      "name": "rifle.sks",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/sks/sks.entity.prefab"
+    },
+    {
+      "name": "rock",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/rock/rock.entity.prefab"
+    },
+    {
+      "name": "rocket.launcher",
+      "concrete_type": "BaseLauncher",
+      "type_chain": [
+        "BaseLauncher",
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/rocketlauncher/rocket_launcher.entity.prefab"
+    },
+    {
+      "name": "rocket.launcher.dragon",
+      "concrete_type": "BaseLauncher",
+      "type_chain": [
+        "BaseLauncher",
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/rocket_launcher_dragon.entity.prefab"
+    },
+    {
+      "name": "rocket.launcher.rpg7",
+      "concrete_type": "RPGLauncher",
+      "type_chain": [
+        "RPGLauncher",
+        "BaseLauncher",
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/rocketlauncher/skins/rpg7/rpg7.entity.prefab"
+    },
+    {
+      "name": "rockingchair",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "rockingchair.rockingchair2",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "rockingchair.rockingchair3",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "rug",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "rug.bear",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "rustige_egg_a",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "rustige_egg_b",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "rustige_egg_c",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "rustige_egg_d",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "rustige_egg_e",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "rustige_egg_f",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "rustige_egg_g",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "rustige_egg_h",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sail",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "salvaged.bamboo.shelves",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "salvaged.cleaver",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/cleaver big/salvaged_cleaver.entity.prefab"
+    },
+    {
+      "name": "salvaged.industrial.shelves",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "salvaged.sword",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/sword/salvaged_sword.entity.prefab"
+    },
+    {
+      "name": "samsite",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "scarecrow",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "scientist.plushie",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "scrapframe.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "scrapframe.medium",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "scrapframe.small",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "scrapframe.standing",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "scrapframe.xl",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "scrapframe.xxl",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "scrapmirror.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "scrapmirror.medium",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "scrapmirror.small",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "scrapmirror.standing",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sculpture.ice",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "searchlight",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "secretlabchair",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "seed.black.berry",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "seed.blue.berry",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "seed.corn",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "seed.green.berry",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "seed.hemp",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "seed.orchid",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "seed.potato",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "seed.pumpkin",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "seed.red.berry",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "seed.rose",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "seed.sunflower",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "seed.wheat",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "seed.white.berry",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "seed.yellow.berry",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "shelves",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "shotgun.double",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/doubleshotgun/double_shotgun.entity.prefab"
+    },
+    {
+      "name": "shotgun.m4",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/m4 shotgun/m4_shotgun.entity.prefab"
+    },
+    {
+      "name": "shotgun.pump",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/sawnoff_shotgun/shotgun_pump.entity.prefab"
+    },
+    {
+      "name": "shotgun.spas12",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/spas12/spas12.entity.prefab"
+    },
+    {
+      "name": "shotgun.waterpipe",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/pipe shotgun/shotgun_waterpipe.entity.prefab"
+    },
+    {
+      "name": "shovel",
+      "concrete_type": "Shovel",
+      "type_chain": [
+        "Shovel",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/shovel/shovel.entity.prefab"
+    },
+    {
+      "name": "shutter.metal.embrasure.a",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "shutter.metal.embrasure.b",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "shutter.wood.a",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sickle",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/halloween/sickle/sickle.entity.prefab"
+    },
+    {
+      "name": "siegetower",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.artistcanvas.l",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.artistcanvas.m",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.artistcanvas.s",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.artistcanvas.xl",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.artistcanvas.xs",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.artistcanvas.xxl",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.hanging",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.hanging.banner.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.hanging.ornate",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.neon.125x125",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.neon.125x215",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.neon.125x215.animated",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.neon.xl",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.neon.xl.animated",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.pictureframe.landscape",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.pictureframe.portrait",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.pictureframe.tall",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.pictureframe.xl",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.pictureframe.xxl",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.pole.banner.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.post.double",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.post.single",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.post.town",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.post.town.roof",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.wooden.huge",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.wooden.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.wooden.medium",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sign.wooden.small",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "single.shallow.wall.shelves",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "skidoo",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "skull",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/halloween/skull_halloween/skull.entity.prefab"
+    },
+    {
+      "name": "skull.trophy",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "skull.trophy.jar",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "skull.trophy.jar2",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "skull.trophy.table",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "skull_fire_pit",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "skulldoorknocker",
+      "concrete_type": "Deployer",
+      "type_chain": [
+        "Deployer",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab"
+    },
+    {
+      "name": "skullspikes",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "skullspikes.candles",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "skullspikes.pumpkin",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "skylantern",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "skylantern.skylantern.green",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "skylantern.skylantern.orange",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "skylantern.skylantern.purple",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "skylantern.skylantern.red",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sled",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sled.xmas",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sleepingbag",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "small.oil.refinery",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "small_ramp",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "smallcandles",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "smallengine",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "smallwaterbottle",
+      "concrete_type": "BaseLiquidVessel",
+      "type_chain": [
+        "BaseLiquidVessel",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/small water bottle/smallwaterbottle.entity.prefab"
+    },
+    {
+      "name": "smart.alarm",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "smart.switch",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "smg.2",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/smg/smg.entity.prefab"
+    },
+    {
+      "name": "smg.mp5",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/mp5/mp5.entity.prefab"
+    },
+    {
+      "name": "smg.thompson",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/thompson/thompson.entity.prefab"
+    },
+    {
+      "name": "snowball",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/misc/xmas/snowball/snowball.entity.prefab"
+    },
+    {
+      "name": "snowballgun",
+      "concrete_type": "SnowballGun",
+      "type_chain": [
+        "SnowballGun",
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/misc/xmas/snowballgun/snowballgun.entity.prefab"
+    },
+    {
+      "name": "snowmachine",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "snowman",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sofa",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sofa.pattern",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "soundlight",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "spear.cny",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/cnyspear/cny_spear.entity.prefab"
+    },
+    {
+      "name": "spear.stone",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/stone spear/spear_stone.entity.prefab"
+    },
+    {
+      "name": "spear.wooden",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/wooden spear/spear_wooden.entity.prefab"
+    },
+    {
+      "name": "speargun",
+      "concrete_type": "Speargun",
+      "type_chain": [
+        "Speargun",
+        "CrossbowWeapon",
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/speargun/speargun.entity.prefab"
+    },
+    {
+      "name": "speechbubbleballoon2025",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "spiderweb",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "spikes.floor",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "spikes.trap",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "spinner.wheel",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "spookyspeaker",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "spraycan",
+      "concrete_type": "SprayCan",
+      "type_chain": [
+        "SprayCan",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/spraycan/spraycan.weapon.prefab"
+    },
+    {
+      "name": "starballoon2025",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "stash.small",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "steeringwheel.boat",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "stocking.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "stocking.small",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "stone.pickaxe",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/stone pickaxe/stone_pickaxe.entity.prefab"
+    },
+    {
+      "name": "stonehatchet",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/stone hatchet/stonehatchet.entity.prefab"
+    },
+    {
+      "name": "storage.monitor",
+      "concrete_type": "Deployer",
+      "type_chain": [
+        "Deployer",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab"
+    },
+    {
+      "name": "storage_barrel_a",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "storage_barrel_b",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "storage_barrel_c",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "storageadaptor",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "strobelight",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "sunken.knife",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/knife/skins/sunkenknife/sunken.knife.combat.entity.prefab"
+    },
+    {
+      "name": "supply.signal",
+      "concrete_type": "GrenadeWeapon",
+      "type_chain": [
+        "GrenadeWeapon",
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/supply signal/supplysignal.weapon.prefab"
+    },
+    {
+      "name": "surveycharge",
+      "concrete_type": "ThrownWeapon",
+      "type_chain": [
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/surveycharge/survey_charge.prefab"
+    },
+    {
+      "name": "syringe.medical",
+      "concrete_type": "MedicalTool",
+      "type_chain": [
+        "MedicalTool",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/medical syringe/syringe_medical.entity.prefab"
+    },
+    {
+      "name": "t1_smg",
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/t1 smg/t1_smg.entity.prefab"
+    },
+    {
+      "name": "table",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "target.reactive",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "telephone",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "tincan.alarm",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "tool.binoculars",
+      "concrete_type": "Binocular",
+      "type_chain": [
+        "Binocular",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/binoculars/binocular.entity.prefab"
+    },
+    {
+      "name": "tool.camera",
+      "concrete_type": "CameraTool",
+      "type_chain": [
+        "CameraTool",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/camera/tool_camera.prefab"
+    },
+    {
+      "name": "tool.instant_camera",
+      "concrete_type": "InstantCameraTool",
+      "type_chain": [
+        "InstantCameraTool",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/misc/summer_dlc/instantcamera/instant_camera.entity.prefab"
+    },
+    {
+      "name": "toolgun",
+      "concrete_type": "Toolgun",
+      "type_chain": [
+        "Toolgun",
+        "Hammer",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/toolgun/toolgun.entity.prefab"
+    },
+    {
+      "name": "torch",
+      "concrete_type": "TorchWeapon",
+      "type_chain": [
+        "TorchWeapon",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/torch/torch.entity.prefab"
+    },
+    {
+      "name": "torch.torch.skull",
+      "concrete_type": "TorchWeapon",
+      "type_chain": [
+        "TorchWeapon",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/halloween/skull torch/skulltorch.entity.prefab"
+    },
+    {
+      "name": "torchholder",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "trap.bear",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "trap.landmine",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "triangle.rail.road.planter",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "trophy",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "trophy2023",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "tunalight",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "twitchrivals2023desk",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "twitchrivals2025sofa",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "vampire.stake",
+      "concrete_type": "BaseMelee",
+      "type_chain": [
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/halloween/vampirestake/vampirestake.entity.prefab"
+    },
+    {
+      "name": "vehicle.car_radio",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "vending.machine",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.external.high",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.external.high.adobe",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.external.high.ice",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.external.high.legacy",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.external.high.stone",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.frame.cell",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.frame.cell.gate",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.frame.fence",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.frame.fence.gate",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.frame.garagedoor",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.frame.lunar2025_a",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.frame.lunar2025_b",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.frame.lunar2025_c",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.frame.netting",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.frame.shopfront",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.frame.shopfront.metal",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.graveyard.fence",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.ice.wall",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.shallow.industrial.shelves",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.window.bars.metal",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.window.bars.toptier",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.window.bars.wood",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.window.glass.reinforced",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wallpaper.tool",
+      "concrete_type": "WallpaperPlanner",
+      "type_chain": [
+        "WallpaperPlanner",
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/wallpaper/wallpaper.tool.entity.prefab"
+    },
+    {
+      "name": "wantedposter",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wantedposter.wantedposter2",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wantedposter.wantedposter3",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wantedposter.wantedposter4",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "watchtower.wood",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "water.barrel",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "water.catcher.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "water.catcher.small",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "water.purifier",
+      "concrete_type": "Deployer",
+      "type_chain": [
+        "Deployer",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab"
+    },
+    {
+      "name": "waterjug",
+      "concrete_type": "BaseLiquidVessel",
+      "type_chain": [
+        "BaseLiquidVessel",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/water jug/waterjug.entity.prefab"
+    },
+    {
+      "name": "waterpump",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wicker.barrel",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "window.paintable",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wiretool",
+      "concrete_type": "WireTool",
+      "type_chain": [
+        "WireTool",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/wire/wiretool.entity.prefab"
+    },
+    {
+      "name": "woodcross",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wooden.shield",
+      "concrete_type": "Shield",
+      "type_chain": [
+        "Shield",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/wooden shield/woodenshield.entity.prefab"
+    },
+    {
+      "name": "woodframe.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "woodframe.medium",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "woodframe.small",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "woodframe.standing",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "woodmirror.large",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "woodmirror.medium",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "woodmirror.small",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "woodmirror.standing",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "workbench1",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "workbench2",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "workbench3",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "xmas.advent",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "xmas.door.garland",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "xmas.double.door.garland",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "xmas.lightstring",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "xmas.lightstring.advanced",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "xmas.tree",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "xmas.window.garland",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "xmasdoorwreath",
+      "concrete_type": "Deployer",
+      "type_chain": [
+        "Deployer",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab"
+    },
+    {
+      "name": "xylophone",
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    }
+  ]
+}

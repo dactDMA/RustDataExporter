@@ -1,0 +1,4831 @@
+{
+  "generated_utc": "2026-07-30 14:13:39",
+  "target_build": "Protocol 2631.286.1 / Changeset 158240",
+  "count": 80,
+  "data": [
+    {
+      "name": "arrow_bone",
+      "prefab_path": "assets/prefabs/ammo/arrow/bone/arrow_bone.prefab",
+      "hash": 1175273260,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.01,
+      "gravity_modifier": 0.75,
+      "thickness": 0.22,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.1,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 60.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Arrow",
+          "amount": 40.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "arrow.bone",
+          "ammo_type": "BOW_ARROW",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 45.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 45.0,
+          "average_velocity": 45.0,
+          "max_velocity": 45.0,
+          "barrel_condition_loss": 0.0,
+          "category": "arrow",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "arrow_fire",
+      "prefab_path": "assets/prefabs/ammo/arrow/fire/arrow_fire.prefab",
+      "hash": 100479866,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.01,
+      "gravity_modifier": 1.0,
+      "thickness": 0.25,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.1,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 60.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Arrow",
+          "amount": 40.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "arrow.fire",
+          "ammo_type": "BOW_ARROW",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 40.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 40.0,
+          "average_velocity": 40.0,
+          "max_velocity": 40.0,
+          "barrel_condition_loss": 0.0,
+          "category": "arrow",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": false,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "arrow_hv",
+      "prefab_path": "assets/prefabs/ammo/arrow/arrow_hv.prefab",
+      "hash": 4135687601,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.005,
+      "gravity_modifier": 0.5,
+      "thickness": 0.1,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.1,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 100.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Arrow",
+          "amount": 40.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "arrow.hv",
+          "ammo_type": "BOW_ARROW",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 80.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 80.0,
+          "average_velocity": 80.0,
+          "max_velocity": 80.0,
+          "barrel_condition_loss": 0.0,
+          "category": "arrow",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "arrow_wooden",
+      "prefab_path": "assets/prefabs/ammo/arrow/arrow_wooden.prefab",
+      "hash": 70335961,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.005,
+      "gravity_modifier": 0.75,
+      "thickness": 0.1,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.1,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 60.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Arrow",
+          "amount": 50.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "arrow.wooden",
+          "ammo_type": "BOW_ARROW",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 50.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 50.0,
+          "average_velocity": 50.0,
+          "max_velocity": 50.0,
+          "barrel_condition_loss": 0.0,
+          "category": "arrow",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "axe_salvaged_projectile",
+      "prefab_path": "assets/prefabs/weapons/salvaged_axe/axe_salvaged.projectile.prefab",
+      "hash": 3381823385,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.1,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.7,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Slash",
+          "amount": 25.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "axe.salvaged",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "ballista_bolt_hammerhead_projectile",
+      "prefab_path": "assets/content/vehicles/siegeweapons/ballista/ammo/projectiles/ballista.bolt.hammerhead.projectile.prefab",
+      "hash": 3841293998,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.01,
+      "gravity_modifier": 0.9,
+      "thickness": 0.22,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 1.0,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 60.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Arrow",
+          "amount": 50.0
+        },
+        {
+          "type": "AntiVehicle",
+          "amount": 15.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "ballista.bolt.hammerhead",
+          "ammo_type": "BALLISTA_ARROW",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 80.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 80.0,
+          "average_velocity": 80.0,
+          "max_velocity": 80.0,
+          "barrel_condition_loss": 0.0,
+          "category": "ballista_arrow",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": false,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "ballista_bolt_incendiary_projectile",
+      "prefab_path": "assets/content/vehicles/siegeweapons/ballista/ammo/projectiles/ballista.bolt.incendiary.projectile.prefab",
+      "hash": 2634460531,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.01,
+      "gravity_modifier": 0.9,
+      "thickness": 0.22,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.1,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 60.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Arrow",
+          "amount": 75.0
+        },
+        {
+          "type": "AntiVehicle",
+          "amount": 15.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "ballista.bolt.incendiary",
+          "ammo_type": "BALLISTA_ARROW",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 100.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 100.0,
+          "average_velocity": 100.0,
+          "max_velocity": 100.0,
+          "barrel_condition_loss": 0.0,
+          "category": "arrow",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "ballista_bolt_piercer_projectile",
+      "prefab_path": "assets/content/vehicles/siegeweapons/ballista/ammo/projectiles/ballista.bolt.piercer.projectile.prefab",
+      "hash": 2301406582,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.005,
+      "gravity_modifier": 0.75,
+      "thickness": 0.22,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 2.0,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.1,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 100.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.6
+      },
+      "damage_types": [
+        {
+          "type": "Arrow",
+          "amount": 80.0
+        },
+        {
+          "type": "AntiVehicle",
+          "amount": 60.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "ballista.bolt.piercer",
+          "ammo_type": "BALLISTA_ARROW",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 100.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 100.0,
+          "average_velocity": 100.0,
+          "max_velocity": 100.0,
+          "barrel_condition_loss": 0.0,
+          "category": "ballista_arrow",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": false,
+      "can_refract": false,
+      "penetrates_vehicles": true,
+      "create_decals": true
+    },
+    {
+      "name": "ballista_bolt_pitchfork_projectile",
+      "prefab_path": "assets/content/vehicles/siegeweapons/ballista/ammo/projectiles/ballista.bolt.pitchfork.projectile.prefab",
+      "hash": 3329430643,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.02,
+      "gravity_modifier": 0.9,
+      "thickness": 0.22,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.2,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 100.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.6
+      },
+      "damage_types": [
+        {
+          "type": "Arrow",
+          "amount": 120.0
+        },
+        {
+          "type": "AntiVehicle",
+          "amount": 10.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "ballista.bolt.pitchfork",
+          "ammo_type": "BALLISTA_ARROW",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 100.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 100.0,
+          "average_velocity": 100.0,
+          "max_velocity": 100.0,
+          "barrel_condition_loss": 0.0,
+          "category": "arrow",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "bone_knife_obsidian_projectile",
+      "prefab_path": "assets/prefabs/weapons/bone knife/skins/obsidian knife/bone.knife.obsidian.projectile.prefab",
+      "hash": 916499682,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Slash",
+          "amount": 10.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "knife.bone.obsidian",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 20.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 20.0,
+          "average_velocity": 20.0,
+          "max_velocity": 20.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "boneclub_projectile",
+      "prefab_path": "assets/prefabs/weapons/bone club/boneclub.projectile.prefab",
+      "hash": 1871533806,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 12.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "bone.club",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 20.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 20.0,
+          "average_velocity": 20.0,
+          "max_velocity": 20.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "boneknife_projectile",
+      "prefab_path": "assets/prefabs/weapons/bone knife/boneknife.projectile.prefab",
+      "hash": 1077356552,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Slash",
+          "amount": 10.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "knife.bone",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 20.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 20.0,
+          "average_velocity": 20.0,
+          "max_velocity": 20.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "butcherknife_projectile",
+      "prefab_path": "assets/prefabs/weapons/halloween/butcher knife/butcherknife.projectile.prefab",
+      "hash": 1017853410,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.8,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Slash",
+          "amount": 10.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "knife.butcher",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 20.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 20.0,
+          "average_velocity": 20.0,
+          "max_velocity": 20.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "cake_projectile",
+      "prefab_path": "assets/prefabs/weapons/cake/cake.projectile.prefab",
+      "hash": 2714474319,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.8,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.0,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 30.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "cakefiveyear",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "candy_cane_projectile",
+      "prefab_path": "assets/prefabs/misc/xmas/candy cane club/candy_cane.projectile.prefab",
+      "hash": 1305651954,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 12.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "candycaneclub",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 20.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 20.0,
+          "average_velocity": 20.0,
+          "max_velocity": 20.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "cny_spear_projectile",
+      "prefab_path": "assets/prefabs/weapons/cnyspear/cny_spear.projectile.prefab",
+      "hash": 3091697167,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.1,
+      "gravity_modifier": 2.0,
+      "thickness": 0.2,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Arrow",
+          "amount": 40.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "spear.cny",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 25.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 25.0,
+          "average_velocity": 25.0,
+          "max_velocity": 25.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "coaxbullet",
+      "prefab_path": "assets/prefabs/npc/m2bradley/coaxbullet.prefab",
+      "hash": 229321643,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.0,
+      "gravity_modifier": 0.0,
+      "thickness": 0.05,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.0,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 100.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Bullet",
+          "amount": 45.0
+        }
+      ],
+      "ammo_sources": [],
+      "remain_in_world": false,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "concrete_hatchet_projectile",
+      "prefab_path": "assets/prefabs/tools/lumberjack_tools/concrete_hatchet.projectile.prefab",
+      "hash": 401287261,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.8,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Slash",
+          "amount": 15.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "concretehatchet",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 20.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 20.0,
+          "average_velocity": 20.0,
+          "max_velocity": 20.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "concrete_pickaxe_projectile",
+      "prefab_path": "assets/prefabs/tools/lumberjack_tools/concrete_pickaxe.projectile.prefab",
+      "hash": 2260704082,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 1.0,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.3,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Stab",
+          "amount": 10.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "concretepickaxe",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 20.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 20.0,
+          "average_velocity": 20.0,
+          "max_velocity": 20.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "dart_incapacitate",
+      "prefab_path": "assets/prefabs/ammo/darts/incapacitate/dart_incapacitate.prefab",
+      "hash": 1399561535,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.005,
+      "gravity_modifier": 0.75,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.1,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 60.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Arrow",
+          "amount": 15.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "dart.incapacitate",
+          "ammo_type": "DART",
+          "ammo_sub_type": "INCAPACITATE",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 55.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 55.0,
+          "average_velocity": 55.0,
+          "max_velocity": 55.0,
+          "barrel_condition_loss": 0.0,
+          "category": "dart",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "dart_radiation",
+      "prefab_path": "assets/prefabs/ammo/darts/radiation/dart_radiation.prefab",
+      "hash": 2535553873,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.005,
+      "gravity_modifier": 0.75,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.1,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 60.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Arrow",
+          "amount": 20.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "dart.radiation",
+          "ammo_type": "DART",
+          "ammo_sub_type": "RADIATION",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 55.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 55.0,
+          "average_velocity": 55.0,
+          "max_velocity": 55.0,
+          "barrel_condition_loss": 0.0,
+          "category": "dart",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "dart_scatter",
+      "prefab_path": "assets/prefabs/ammo/darts/scatter/dart_scatter.prefab",
+      "hash": 330613175,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.005,
+      "gravity_modifier": 0.75,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 1.0,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.1,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 5.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.25
+      },
+      "damage_types": [
+        {
+          "type": "Arrow",
+          "amount": 5.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "dart.scatter",
+          "ammo_type": "DART",
+          "ammo_sub_type": "SCATTER",
+          "num_projectiles": 12,
+          "projectile_spread": 8.0,
+          "projectile_velocity": 55.0,
+          "projectile_velocity_spread": 10.0,
+          "min_velocity": 45.0,
+          "average_velocity": 55.0,
+          "max_velocity": 65.0,
+          "barrel_condition_loss": 0.0,
+          "category": "dart",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": false,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "dart_wood",
+      "prefab_path": "assets/prefabs/ammo/darts/wood/dart_wood.prefab",
+      "hash": 273669429,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.005,
+      "gravity_modifier": 0.75,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.1,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 60.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Arrow",
+          "amount": 40.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "dart.wood",
+          "ammo_type": "DART",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 75.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 75.0,
+          "average_velocity": 75.0,
+          "max_velocity": 75.0,
+          "barrel_condition_loss": 0.0,
+          "category": "dart",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "diver_hatchet_projectile",
+      "prefab_path": "assets/prefabs/weapons/diverhatchet/diver_hatchet.projectile.prefab",
+      "hash": 1641313218,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.8,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Slash",
+          "amount": 15.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "diverhatchet",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 22.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 22.0,
+          "average_velocity": 22.0,
+          "max_velocity": 22.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "diver_pickaxe_projectile",
+      "prefab_path": "assets/prefabs/weapons/diverpickaxe/diver_pickaxe.projectile.prefab",
+      "hash": 343429,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.1,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.8,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Stab",
+          "amount": 20.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "diverpickaxe",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "food_pie_apple_projectile",
+      "prefab_path": "assets/prefabs/food/pies/projectiles/food_pie_apple.projectile.prefab",
+      "hash": 352441036,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.8,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 10.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "pie.apple",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "food_pie_bear_projectile",
+      "prefab_path": "assets/prefabs/food/pies/projectiles/food_pie_bear.projectile.prefab",
+      "hash": 353782585,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.8,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 10.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "pie.bear",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "food_pie_big_cat_projectile",
+      "prefab_path": "assets/prefabs/food/pies/projectiles/food_pie_big_cat.projectile.prefab",
+      "hash": 124739790,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.8,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 10.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "pie.bigcat",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "food_pie_chicken_projectile",
+      "prefab_path": "assets/prefabs/food/pies/projectiles/food_pie_chicken.projectile.prefab",
+      "hash": 3868670899,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.8,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 10.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "pie.chicken",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "food_pie_crocodile_projectile",
+      "prefab_path": "assets/prefabs/food/pies/projectiles/food_pie_crocodile.projectile.prefab",
+      "hash": 3109469561,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.8,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 10.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "pie.crocodile",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "food_pie_fish_projectile",
+      "prefab_path": "assets/prefabs/food/pies/projectiles/food_pie_fish.projectile.prefab",
+      "hash": 3669067830,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.8,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 10.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "pie.fish",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "food_pie_hunters_projectile",
+      "prefab_path": "assets/prefabs/food/pies/projectiles/food_pie_hunters.projectile.prefab",
+      "hash": 704560237,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.8,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 10.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "pie.hunters",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "food_pie_pork_projectile",
+      "prefab_path": "assets/prefabs/food/pies/projectiles/food_pie_pork.projectile.prefab",
+      "hash": 1238910629,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.8,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 10.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "pie.pork",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "food_pie_pumkin_projectile",
+      "prefab_path": "assets/prefabs/food/pies/projectiles/food_pie_pumkin.projectile.prefab",
+      "hash": 1357070519,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.8,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 10.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "pie.pumpkin",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "food_pie_survivors_projectile",
+      "prefab_path": "assets/prefabs/food/pies/projectiles/food_pie_survivors.projectile.prefab",
+      "hash": 1526226691,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.8,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 10.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "pie.survivors",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "frontier_hatchet_projectile",
+      "prefab_path": "assets/prefabs/weapons/frontier hatchet/frontier_hatchet.projectile.prefab",
+      "hash": 2365516520,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.8,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Slash",
+          "amount": 15.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "frontier_hatchet",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 22.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 22.0,
+          "average_velocity": 22.0,
+          "max_velocity": 22.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "hammer_salvaged_projectile",
+      "prefab_path": "assets/prefabs/weapons/salvaged_hammer/hammer_salvaged.projectile.prefab",
+      "hash": 1094174291,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.1,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 20.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "hammer.salvaged",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "handmade_shell_projectile",
+      "prefab_path": "assets/prefabs/ammo/handmade shell/handmade_shell.projectile.prefab",
+      "hash": 3767492197,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 1.0,
+      "gravity_modifier": 1.0,
+      "thickness": 0.1,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 1.0,
+      "ricochet_chance": 0.5,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 20.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.25
+      },
+      "damage_types": [
+        {
+          "type": "Bullet",
+          "amount": 9.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "ammo.handmade.shell",
+          "ammo_type": "HANDMADE_SHELL",
+          "ammo_sub_type": "BUCKSHOT",
+          "num_projectiles": 20,
+          "projectile_spread": 12.0,
+          "projectile_velocity": 100.0,
+          "projectile_velocity_spread": 20.0,
+          "min_velocity": 80.0,
+          "average_velocity": 100.0,
+          "max_velocity": 120.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": false,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "hatchet_projectile",
+      "prefab_path": "assets/prefabs/weapons/hatchet/hatchet.projectile.prefab",
+      "hash": 49111812,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.8,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Slash",
+          "amount": 15.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "hatchet",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 22.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 22.0,
+          "average_velocity": 22.0,
+          "max_velocity": 22.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "hatchet_stone_projectile",
+      "prefab_path": "assets/prefabs/weapons/stone hatchet/hatchet_stone.projectile.prefab",
+      "hash": 2075930968,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.8,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Slash",
+          "amount": 10.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "stonehatchet",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 20.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 20.0,
+          "average_velocity": 20.0,
+          "max_velocity": 20.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "helibullet",
+      "prefab_path": "assets/prefabs/npc/patrol helicopter/helibullet.prefab",
+      "hash": 1410987015,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.0,
+      "gravity_modifier": 0.0,
+      "thickness": 0.05,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.0,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 100.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Bullet",
+          "amount": 45.0
+        }
+      ],
+      "ammo_sources": [],
+      "remain_in_world": false,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "icepick_salvaged_projectile",
+      "prefab_path": "assets/prefabs/weapons/salvaged_icepick/icepick_salvaged.projectile.prefab",
+      "hash": 2329154564,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.1,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.8,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Stab",
+          "amount": 15.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "icepick.salvaged",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "knife_combat_projectile",
+      "prefab_path": "assets/prefabs/weapons/knife/knife.combat.projectile.prefab",
+      "hash": 742765807,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Slash",
+          "amount": 50.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "knife.combat",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 30.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 30.0,
+          "average_velocity": 30.0,
+          "max_velocity": 30.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "longsword_projectile",
+      "prefab_path": "assets/prefabs/weapons/sword big/longsword.projectile.prefab",
+      "hash": 151139324,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.1,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Slash",
+          "amount": 30.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "longsword",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "lumberjack_axe_projectile",
+      "prefab_path": "assets/prefabs/tools/lumberjack_tools/lumberjack_axe.projectile.prefab",
+      "hash": 623030135,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.8,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Slash",
+          "amount": 15.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "lumberjack.hatchet",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 22.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 22.0,
+          "average_velocity": 22.0,
+          "max_velocity": 22.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "lumberjack_pick_projectile",
+      "prefab_path": "assets/prefabs/tools/lumberjack_tools/lumberjack_pick.projectile.prefab",
+      "hash": 3896353015,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.8,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Slash",
+          "amount": 15.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "lumberjack.pickaxe",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "mace_baseballbat_projectile",
+      "prefab_path": "assets/prefabs/weapons/halloween/baseballbat/mace.baseballbat.projectile.prefab",
+      "hash": 1500539487,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.1,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 30.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "mace.baseballbat",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "mace_projectile",
+      "prefab_path": "assets/prefabs/weapons/mace/mace.projectile.prefab",
+      "hash": 3224207227,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.1,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 30.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "mace",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "machete_projectile",
+      "prefab_path": "assets/prefabs/weapons/machete/machete.projectile.prefab",
+      "hash": 1013976023,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.1,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.8,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Slash",
+          "amount": 20.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "machete",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 20.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 20.0,
+          "average_velocity": 20.0,
+          "max_velocity": 20.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "nail",
+      "prefab_path": "assets/prefabs/ammo/nails/nail.prefab",
+      "hash": 2577479505,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.005,
+      "gravity_modifier": 0.75,
+      "thickness": 0.1,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.1,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 60.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Arrow",
+          "amount": 18.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "ammo.nailgun.nails",
+          "ammo_type": "NAILS",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 50.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 50.0,
+          "average_velocity": 50.0,
+          "max_velocity": 50.0,
+          "barrel_condition_loss": 0.0,
+          "category": "arrow",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "paddle_projectile",
+      "prefab_path": "assets/prefabs/weapons/paddle/paddle.projectile.prefab",
+      "hash": 4180286157,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.1,
+      "gravity_modifier": 2.0,
+      "thickness": 0.2,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Arrow",
+          "amount": 40.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "paddle",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 20.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 20.0,
+          "average_velocity": 20.0,
+          "max_velocity": 20.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "paintballpellet",
+      "prefab_path": "assets/prefabs/ammo/paintball/paintballpellet.prefab",
+      "hash": 362629199,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.7,
+      "gravity_modifier": 1.0,
+      "thickness": 0.05,
+      "initial_distance": 5.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.0,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.2,
+      "water_integrity_loss": 1.0,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 60.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Paintball",
+          "amount": 0.2
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "ammo.paintball",
+          "ammo_type": "PAINTBALL",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 90.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 90.0,
+          "average_velocity": 90.0,
+          "max_velocity": 90.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": false,
+      "can_refract": false,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "pickaxe_projectile",
+      "prefab_path": "assets/prefabs/weapons/pickaxe/pickaxe.projectile.prefab",
+      "hash": 2826373220,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.1,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.8,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Stab",
+          "amount": 20.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "pickaxe",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "pistolbullet",
+      "prefab_path": "assets/prefabs/ammo/pistol/pistolbullet.prefab",
+      "hash": 2421548478,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.7,
+      "gravity_modifier": 1.0,
+      "thickness": 0.05,
+      "initial_distance": 15.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 1.0,
+      "ricochet_chance": 0.4,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 60.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Bullet",
+          "amount": 50.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "ammo.pistol",
+          "ammo_type": "PISTOL_9MM",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 300.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 300.0,
+          "average_velocity": 300.0,
+          "max_velocity": 300.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        },
+        {
+          "item_shortname": "ammo.pistol.hv",
+          "ammo_type": "PISTOL_9MM",
+          "ammo_sub_type": "HV",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 400.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 400.0,
+          "average_velocity": 400.0,
+          "max_velocity": 400.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": false,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "pistolbullet_fire",
+      "prefab_path": "assets/prefabs/ammo/pistol/pistolbullet_fire.prefab",
+      "hash": 3575118940,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.7,
+      "gravity_modifier": 1.0,
+      "thickness": 0.05,
+      "initial_distance": 15.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 1.0,
+      "ricochet_chance": 0.6,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 60.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Bullet",
+          "amount": 50.0
+        },
+        {
+          "type": "Heat",
+          "amount": 6.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "ammo.pistol.fire",
+          "ammo_type": "PISTOL_9MM",
+          "ammo_sub_type": "INCENDIARY",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 225.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 225.0,
+          "average_velocity": 225.0,
+          "max_velocity": 225.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": false,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "pitchfork_projectile",
+      "prefab_path": "assets/prefabs/weapons/halloween/pitchfork/pitchfork.projectile.prefab",
+      "hash": 294164989,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.1,
+      "gravity_modifier": 2.0,
+      "thickness": 0.2,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Arrow",
+          "amount": 50.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "pitchfork",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 25.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 25.0,
+          "average_velocity": 25.0,
+          "max_velocity": 25.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "riflebullet",
+      "prefab_path": "assets/prefabs/ammo/rifle/riflebullet.prefab",
+      "hash": 1887514499,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.6,
+      "gravity_modifier": 1.0,
+      "thickness": 0.05,
+      "initial_distance": 15.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 2.0,
+      "ricochet_chance": 0.4,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 20.0,
+        "y": 100.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Bullet",
+          "amount": 50.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "ammo.rifle",
+          "ammo_type": "RIFLE_556MM",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 375.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 375.0,
+          "average_velocity": 375.0,
+          "max_velocity": 375.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        },
+        {
+          "item_shortname": "ammo.rifle.hv",
+          "ammo_type": "RIFLE_556MM",
+          "ammo_sub_type": "HV",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 450.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 450.0,
+          "average_velocity": 450.0,
+          "max_velocity": 450.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": false,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "riflebullet_explosive",
+      "prefab_path": "assets/prefabs/ammo/rifle/riflebullet_explosive.prefab",
+      "hash": 1798302402,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.6,
+      "gravity_modifier": 1.25,
+      "thickness": 0.05,
+      "initial_distance": 15.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 1.0,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 20.0,
+        "y": 100.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Bullet",
+          "amount": 50.0
+        },
+        {
+          "type": "Explosion",
+          "amount": 0.01
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "ammo.rifle.explosive",
+          "ammo_type": "RIFLE_556MM",
+          "ammo_sub_type": "EXPLOSIVE",
+          "num_projectiles": 1,
+          "projectile_spread": 0.5,
+          "projectile_velocity": 225.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 225.0,
+          "average_velocity": 225.0,
+          "max_velocity": 225.0,
+          "barrel_condition_loss": 0.5,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": false,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "riflebullet_fire",
+      "prefab_path": "assets/prefabs/ammo/rifle/riflebullet_fire.prefab",
+      "hash": 2828814118,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.6,
+      "gravity_modifier": 1.0,
+      "thickness": 0.05,
+      "initial_distance": 15.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 1.0,
+      "ricochet_chance": 0.6,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 20.0,
+        "y": 100.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Bullet",
+          "amount": 50.0
+        },
+        {
+          "type": "Heat",
+          "amount": 6.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "ammo.rifle.incendiary",
+          "ammo_type": "RIFLE_556MM",
+          "ammo_sub_type": "INCENDIARY",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 225.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 225.0,
+          "average_velocity": 225.0,
+          "max_velocity": 225.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": false,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "rock_a_jungle_projectile",
+      "prefab_path": "assets/prefabs/weapons/rock/skins/rock_a_jungle/rock.a.jungle.projectile.prefab",
+      "hash": 1386261849,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.8,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 10.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "jungle.rock",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "rock_projectile",
+      "prefab_path": "assets/prefabs/weapons/rock/rock.projectile.prefab",
+      "hash": 3398080445,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.8,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 10.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "rock",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "salvaged_cleaver_projectile",
+      "prefab_path": "assets/prefabs/weapons/cleaver big/salvaged_cleaver.projectile.prefab",
+      "hash": 3761252112,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.1,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Slash",
+          "amount": 30.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "salvaged.cleaver",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "salvaged_sword_projectile",
+      "prefab_path": "assets/prefabs/weapons/sword/salvaged_sword.projectile.prefab",
+      "hash": 922652660,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.1,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.8,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Slash",
+          "amount": 20.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "salvaged.sword",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 20.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 20.0,
+          "average_velocity": 20.0,
+          "max_velocity": 20.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "scientist2_clientricochet",
+      "prefab_path": "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.clientricochet.prefab",
+      "hash": 3239136573,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.0,
+      "gravity_modifier": 0.0,
+      "thickness": 0.05,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.0,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 100.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [],
+      "ammo_sources": [],
+      "remain_in_world": false,
+      "can_refract": false,
+      "penetrates_vehicles": false,
+      "create_decals": false
+    },
+    {
+      "name": "shotgunbullet",
+      "prefab_path": "assets/prefabs/ammo/shotgun/shotgunbullet.prefab",
+      "hash": 1991236224,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 1.0,
+      "gravity_modifier": 1.0,
+      "thickness": 0.1,
+      "initial_distance": 3.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 1.0,
+      "ricochet_chance": 0.4,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.25
+      },
+      "damage_types": [
+        {
+          "type": "Bullet",
+          "amount": 15.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "ammo.grenadelauncher.buckshot",
+          "ammo_type": "AMMO_40MM",
+          "ammo_sub_type": "BUCKSHOT",
+          "num_projectiles": 18,
+          "projectile_spread": 15.0,
+          "projectile_velocity": 225.0,
+          "projectile_velocity_spread": 20.0,
+          "min_velocity": 205.0,
+          "average_velocity": 225.0,
+          "max_velocity": 245.0,
+          "barrel_condition_loss": 0.0,
+          "category": "rocket",
+          "skinned_weapon_prefab_id": 0
+        },
+        {
+          "item_shortname": "ammo.shotgun",
+          "ammo_type": "SHOTGUN_12GUAGE",
+          "ammo_sub_type": "0",
+          "num_projectiles": 14,
+          "projectile_spread": 12.0,
+          "projectile_velocity": 225.0,
+          "projectile_velocity_spread": 20.0,
+          "min_velocity": 205.0,
+          "average_velocity": 225.0,
+          "max_velocity": 245.0,
+          "barrel_condition_loss": 0.0,
+          "category": "shotgun",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": false,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "shotgunbullet_fire",
+      "prefab_path": "assets/prefabs/ammo/shotgun/shotgunbullet_fire.prefab",
+      "hash": 2206685111,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 1.0,
+      "gravity_modifier": 1.0,
+      "thickness": 0.2,
+      "initial_distance": 3.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 1.0,
+      "ricochet_chance": 0.5,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 20.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.25
+      },
+      "damage_types": [
+        {
+          "type": "Bullet",
+          "amount": 10.0
+        },
+        {
+          "type": "Heat",
+          "amount": 5.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "ammo.shotgun.fire",
+          "ammo_type": "SHOTGUN_12GUAGE",
+          "ammo_sub_type": "INCENDIARY",
+          "num_projectiles": 10,
+          "projectile_spread": 12.0,
+          "projectile_velocity": 100.0,
+          "projectile_velocity_spread": 40.0,
+          "min_velocity": 60.0,
+          "average_velocity": 100.0,
+          "max_velocity": 140.0,
+          "barrel_condition_loss": 0.0,
+          "category": "shotgun",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": false,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "shotgunslug",
+      "prefab_path": "assets/prefabs/ammo/shotgun/shotgunslug.prefab",
+      "hash": 648078183,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.6,
+      "gravity_modifier": 1.0,
+      "thickness": 0.1,
+      "initial_distance": 10.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 2.0,
+      "ricochet_chance": 0.4,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 20.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.5
+      },
+      "damage_types": [
+        {
+          "type": "Bullet",
+          "amount": 80.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "ammo.shotgun.slug",
+          "ammo_type": "SHOTGUN_12GUAGE",
+          "ammo_sub_type": "SLUG",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 225.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 225.0,
+          "average_velocity": 225.0,
+          "max_velocity": 225.0,
+          "barrel_condition_loss": 0.0,
+          "category": "shotgun",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": false,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "shovel_projectile",
+      "prefab_path": "assets/prefabs/tools/shovel/shovel.projectile.prefab",
+      "hash": 1418103607,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Slash",
+          "amount": 10.0
+        },
+        {
+          "type": "Stab",
+          "amount": 10.0
+        },
+        {
+          "type": "Generic",
+          "amount": 0.1
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "shovel",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 20.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 20.0,
+          "average_velocity": 20.0,
+          "max_velocity": 20.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "sickle_projectile",
+      "prefab_path": "assets/prefabs/weapons/halloween/sickle/sickle.projectile.prefab",
+      "hash": 1396162423,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.8,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Slash",
+          "amount": 15.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "sickle",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 22.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 22.0,
+          "average_velocity": 22.0,
+          "max_velocity": 22.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "skinningknife_projectile",
+      "prefab_path": "assets/prefabs/misc/decor_dlc/skinning knife/skinningknife.projectile.prefab",
+      "hash": 2093157093,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.8,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Slash",
+          "amount": 10.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "knife.skinning",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 20.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 20.0,
+          "average_velocity": 20.0,
+          "max_velocity": 20.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "skull_projectile",
+      "prefab_path": "assets/prefabs/weapons/halloween/skull_halloween/skull.projectile.prefab",
+      "hash": 361494112,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.8,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 10.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "skull",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "snowball_projectile",
+      "prefab_path": "assets/prefabs/misc/xmas/snowball/snowball.projectile.prefab",
+      "hash": 2931445184,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.8,
+      "gravity_modifier": 1.0,
+      "thickness": 0.2,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 1.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 25.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "snowball",
+          "ammo_type": "SNOWBALL",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 20.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 20.0,
+          "average_velocity": 20.0,
+          "max_velocity": 20.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": false
+    },
+    {
+      "name": "snowballgunbullet",
+      "prefab_path": "assets/prefabs/misc/xmas/snowballgun/snowballgunbullet.prefab",
+      "hash": 2018030618,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.0,
+      "gravity_modifier": 0.75,
+      "thickness": 0.3,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 1.0,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 20.0,
+        "y": 100.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 8.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "ammo.snowballgun",
+          "ammo_type": "SNOWBALL",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 50.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 50.0,
+          "average_velocity": 50.0,
+          "max_velocity": 50.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": false,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "speargun_spear",
+      "prefab_path": "assets/prefabs/ammo/speargun/speargun_spear.prefab",
+      "hash": 2551075186,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.05,
+      "gravity_modifier": 0.3,
+      "thickness": 0.2,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.0,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.1,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.0,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 60.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Arrow",
+          "amount": 50.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "speargun.spear",
+          "ammo_type": "SPEARGUN_BOLT",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 0.0,
+          "projectile_velocity": 25.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 25.0,
+          "average_velocity": 25.0,
+          "max_velocity": 25.0,
+          "barrel_condition_loss": 0.0,
+          "category": "arrow",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "stone_pickaxe_projectile",
+      "prefab_path": "assets/prefabs/weapons/stone pickaxe/stone_pickaxe.projectile.prefab",
+      "hash": 3575089225,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 1.0,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.3,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Stab",
+          "amount": 10.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "stone.pickaxe",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 20.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 20.0,
+          "average_velocity": 20.0,
+          "max_velocity": 20.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "stone_spear_projectile",
+      "prefab_path": "assets/prefabs/weapons/stone spear/stone_spear.projectile.prefab",
+      "hash": 1516542433,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.1,
+      "gravity_modifier": 2.0,
+      "thickness": 0.2,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Arrow",
+          "amount": 50.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "spear.stone",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 30.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 30.0,
+          "average_velocity": 30.0,
+          "max_velocity": 30.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "sunkenknife_projectile",
+      "prefab_path": "assets/prefabs/weapons/knife/skins/sunkenknife/sunkenknife.projectile.prefab",
+      "hash": 465698672,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 12.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "sunken.knife",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 20.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 20.0,
+          "average_velocity": 20.0,
+          "max_velocity": 20.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "trapbullet",
+      "prefab_path": "assets/prefabs/deployable/single shot trap/trapbullet.prefab",
+      "hash": 2237911942,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.7,
+      "gravity_modifier": 1.0,
+      "thickness": 0.05,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 1.0,
+      "ricochet_chance": 0.4,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 100.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Bullet",
+          "amount": 35.0
+        }
+      ],
+      "ammo_sources": [],
+      "remain_in_world": false,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": false
+    },
+    {
+      "name": "vampirestake_projectile",
+      "prefab_path": "assets/prefabs/weapons/halloween/vampirestake/vampirestake.projectile.prefab",
+      "hash": 950430757,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.5,
+      "gravity_modifier": 1.0,
+      "thickness": 0.15,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 0.0,
+      "break_probability": 1.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Slash",
+          "amount": 10.0
+        },
+        {
+          "type": "Stab",
+          "amount": 10.0
+        },
+        {
+          "type": "Generic",
+          "amount": 0.1
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "vampire.stake",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 20.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 20.0,
+          "average_velocity": 20.0,
+          "max_velocity": 20.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": false,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "wooden_spear_projectile",
+      "prefab_path": "assets/prefabs/weapons/wooden spear/wooden_spear.projectile.prefab",
+      "hash": 3022308042,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.1,
+      "gravity_modifier": 2.0,
+      "thickness": 0.2,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.5,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.04,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Arrow",
+          "amount": 40.0
+        }
+      ],
+      "ammo_sources": [
+        {
+          "item_shortname": "spear.wooden",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 25.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 25.0,
+          "average_velocity": 25.0,
+          "max_velocity": 25.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        }
+      ],
+      "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    }
+  ]
+}

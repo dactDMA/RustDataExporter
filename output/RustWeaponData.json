@@ -1,0 +1,5892 @@
+{
+  "generated_utc": "2026-07-30 14:13:39",
+  "target_build": "Protocol 2631.286.1 / Changeset 158240",
+  "count": 55,
+  "data": [
+    {
+      "name": "50cal.base",
+      "alias": "_50cal_base",
+      "prefab_path": "assets/content/vehicles/boats/ptboat/turrets/50cal/entities/50cal.base.entity.prefab",
+      "hash": 1234020621,
+      "damage_scale": 1.3,
+      "distance_scale": 1.3,
+      "projectile_velocity_scale": 1.3,
+      "automatic": true,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 100,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 1.25,
+        "yaw_max": 2.25,
+        "pitch_min": -3.0,
+        "pitch_max": -4.0,
+        "time_to_take_min": 0.15,
+        "time_to_take_max": 0.15,
+        "ads_scale": 0.5,
+        "movement_penalty": 1.25,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 20,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 20.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 2.5,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.2,
+        "hip_aim_cone": 4.0,
+        "penalty_per_shot": 1.5,
+        "penalty_max": 3.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 7.5,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.8,
+        "repeat_delay": 0.12,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 150.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 2.5,
+        "attack_length_max": 3.0,
+        "attack_spacing": 1.0,
+        "aim_sway_offset": 1.0,
+        "aim_cone": 3.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 20.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "50cal.mounted",
+      "alias": "_50cal_mounted",
+      "prefab_path": "assets/content/vehicles/boats/ptboat/turrets/50cal/entities/50cal.single.entity.prefab",
+      "hash": 3944162531,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": true,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 100,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 1.25,
+        "yaw_max": 2.25,
+        "pitch_min": -3.0,
+        "pitch_max": -4.0,
+        "time_to_take_min": 0.15,
+        "time_to_take_max": 0.15,
+        "ads_scale": 0.5,
+        "movement_penalty": 1.25,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 20,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 20.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 2.5,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.2,
+        "hip_aim_cone": 4.0,
+        "penalty_per_shot": 1.5,
+        "penalty_max": 3.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 7.5,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.3,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.8,
+        "repeat_delay": 0.12,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 150.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 2.5,
+        "attack_length_max": 3.0,
+        "attack_spacing": 1.0,
+        "aim_sway_offset": 1.0,
+        "aim_cone": 3.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 20.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "50cal.mounted.left",
+      "alias": "_50cal_mounted_left",
+      "prefab_path": "assets/content/vehicles/boats/ptboat/turrets/50cal/entities/50cal.left.entity.prefab",
+      "hash": 379001777,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": true,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 100,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 1.25,
+        "yaw_max": 2.25,
+        "pitch_min": -3.0,
+        "pitch_max": -4.0,
+        "time_to_take_min": 0.15,
+        "time_to_take_max": 0.15,
+        "ads_scale": 0.5,
+        "movement_penalty": 1.25,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 20,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 20.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 2.5,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.2,
+        "hip_aim_cone": 4.0,
+        "penalty_per_shot": 1.5,
+        "penalty_max": 3.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 14.8,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.2,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.8,
+        "repeat_delay": 0.12,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 150.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 2.5,
+        "attack_length_max": 3.0,
+        "attack_spacing": 1.0,
+        "aim_sway_offset": 1.0,
+        "aim_cone": 3.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 20.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "50cal.mounted.right",
+      "alias": "_50cal_mounted_right",
+      "prefab_path": "assets/content/vehicles/boats/ptboat/turrets/50cal/entities/50cal.right.entity.prefab",
+      "hash": 545211943,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": true,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 100,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 1.25,
+        "yaw_max": 2.25,
+        "pitch_min": -3.0,
+        "pitch_max": -4.0,
+        "time_to_take_min": 0.15,
+        "time_to_take_max": 0.15,
+        "ads_scale": 0.5,
+        "movement_penalty": 1.25,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 20,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 20.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 2.5,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.2,
+        "hip_aim_cone": 4.0,
+        "penalty_per_shot": 1.5,
+        "penalty_max": 3.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 15.5,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.2,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.8,
+        "repeat_delay": 0.12,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 150.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 2.5,
+        "attack_length_max": 3.0,
+        "attack_spacing": 1.0,
+        "aim_sway_offset": 1.0,
+        "aim_cone": 3.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 20.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "blowpipe",
+      "alias": "blowpipe",
+      "prefab_path": "assets/prefabs/weapons/blowpipe/blowpipe.entity.prefab",
+      "hash": 996318821,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 100.0,
+      "aim_sway": 3.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": false,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 1,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 0.0,
+        "yaw_max": 0.0,
+        "pitch_min": -1.0,
+        "pitch_max": -3.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.3,
+        "ads_scale": 0.6,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.0,
+        "hip_aim_cone": 1.0,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 3.0,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": 3.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 1.6,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 6.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "blunderbuss",
+      "alias": "blunderbuss",
+      "prefab_path": "assets/prefabs/weapons/blunderbuss/blunderbuss.entity.prefab",
+      "hash": 2557812813,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 100.0,
+      "aim_sway": 5.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 2,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 8.0,
+        "yaw_max": 15.0,
+        "pitch_min": -10.0,
+        "pitch_max": -15.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.2,
+        "ads_scale": 1.0,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.5,
+        "hip_aim_cone": 2.0,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 5.5,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.75,
+        "repeat_delay": 0.5,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 8.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "bow.compound",
+      "alias": "bow_compound",
+      "prefab_path": "assets/prefabs/weapons/compound bow/compound_bow.entity.prefab",
+      "hash": 1537401592,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 5.0,
+      "aim_sway": 5.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 1,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -3.0,
+        "yaw_max": 3.0,
+        "pitch_min": -3.0,
+        "pitch_max": -6.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.2,
+        "ads_scale": 0.6,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.2,
+        "hip_aim_cone": 0.2,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 0.0
+      },
+      "reload": {
+        "time": 1.0,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": true,
+        "damage_scale": 0.7,
+        "reload_duration_override": 4.5
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 1.25,
+        "animation_delay": 0.6
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 5.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "bow.hunting",
+      "alias": "bow_hunting",
+      "prefab_path": "assets/prefabs/weapons/bow/bow_hunting.entity.prefab",
+      "hash": 2836331625,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 5.0,
+      "aim_sway": 5.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 1,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -3.0,
+        "yaw_max": 3.0,
+        "pitch_min": -3.0,
+        "pitch_max": -6.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.2,
+        "ads_scale": 0.6,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 1.0,
+        "hip_aim_cone": 1.0,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 0.0
+      },
+      "reload": {
+        "time": 1.0,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": true,
+        "damage_scale": 0.7,
+        "reload_duration_override": 4.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 1.25,
+        "animation_delay": 0.6
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 5.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "crossbow",
+      "alias": "crossbow",
+      "prefab_path": "assets/prefabs/weapons/crossbow/crossbow.entity.prefab",
+      "hash": 2727391082,
+      "damage_scale": 1.2,
+      "distance_scale": 1.5,
+      "projectile_velocity_scale": 1.5,
+      "automatic": false,
+      "noise_radius": 10.0,
+      "aim_sway": 3.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 1,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -3.0,
+        "yaw_max": 3.0,
+        "pitch_min": -3.0,
+        "pitch_max": -6.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.2,
+        "ads_scale": 0.6,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 1.0,
+        "hip_aim_cone": 1.8,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 0.0
+      },
+      "reload": {
+        "time": 3.6,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.7,
+        "reload_duration_override": 4.0
+      },
+      "attack": {
+        "deploy_delay": 1.6,
+        "repeat_delay": 1.0,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 6.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "crossbowbowless",
+      "alias": "crossbowbowless",
+      "prefab_path": "assets/prefabs/weapons/crossbow/skins/bowless/crossbow_bowless.entity.prefab",
+      "hash": 777174364,
+      "damage_scale": 1.2,
+      "distance_scale": 1.5,
+      "projectile_velocity_scale": 1.5,
+      "automatic": false,
+      "noise_radius": 10.0,
+      "aim_sway": 3.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 1,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -3.0,
+        "yaw_max": 3.0,
+        "pitch_min": -3.0,
+        "pitch_max": -6.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.2,
+        "ads_scale": 0.6,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 1.0,
+        "hip_aim_cone": 1.8,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 0.0
+      },
+      "reload": {
+        "time": 3.6,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.7,
+        "reload_duration_override": 4.0
+      },
+      "attack": {
+        "deploy_delay": 1.6,
+        "repeat_delay": 1.0,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 6.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "hmlmg",
+      "alias": "hmlmg",
+      "prefab_path": "assets/prefabs/weapons/hmlmg/hmlmg.entity.prefab",
+      "hash": 3459133190,
+      "damage_scale": 1.15,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.4,
+      "automatic": true,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 60,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -1.25,
+        "yaw_max": -2.5,
+        "pitch_min": -3.0,
+        "pitch_max": -4.0,
+        "time_to_take_min": 0.15,
+        "time_to_take_max": 0.15,
+        "ads_scale": 0.5,
+        "movement_penalty": 1.25,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 20,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 20.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 4.25,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.2,
+        "hip_aim_cone": 4.0,
+        "penalty_per_shot": 1.5,
+        "penalty_max": 3.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 6.5,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.8,
+        "repeat_delay": 0.125,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 150.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 2.5,
+        "attack_length_max": 3.0,
+        "attack_spacing": 1.0,
+        "aim_sway_offset": 1.0,
+        "aim_cone": 3.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 20.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "homingmissile.launcher",
+      "alias": "homingmissile_launcher",
+      "prefab_path": "assets/prefabs/weapons/homingmissilelauncher/homing_missile_launcher.entity.prefab",
+      "hash": 542600037,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": false,
+      "default_on": false,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 1,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 8.0,
+        "yaw_max": 8.0,
+        "pitch_min": -8.0,
+        "pitch_max": -8.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.2,
+        "ads_scale": 0.75,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 2.25,
+        "hip_aim_cone": 1.8,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 5.92,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": false,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 2.0,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 10.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 20.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "krieg.shotgun",
+      "alias": "krieg_shotgun",
+      "prefab_path": "assets/prefabs/weapons/warhammer/krieg shotgun/krieg_shotgun.entity.prefab",
+      "hash": 1896956209,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 100.0,
+      "aim_sway": 5.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": true,
+      "reset_duration": 0.3,
+      "magazine_capacity": 8,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 4.0,
+        "yaw_max": 8.0,
+        "pitch_min": -10.0,
+        "pitch_max": -14.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.2,
+        "ads_scale": 0.7,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.0,
+        "hip_aim_cone": 1.8,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 5.5,
+        "start_duration": 0.9,
+        "fraction_duration": 0.578,
+        "end_duration": 0.8,
+        "fractional": true,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 1.1,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 15.0,
+        "damage_scale": 0.25,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 8.0,
+        "aim_cone": 1.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 8.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "legacy bow",
+      "alias": "legacy_bow",
+      "prefab_path": "assets/prefabs/weapons/legacy bow/legacybow.entity.prefab",
+      "hash": 1400027705,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 5.0,
+      "aim_sway": 5.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 1,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -3.0,
+        "yaw_max": 3.0,
+        "pitch_min": -3.0,
+        "pitch_max": -6.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.2,
+        "ads_scale": 0.6,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 1.0,
+        "hip_aim_cone": 1.0,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 0.0
+      },
+      "reload": {
+        "time": 1.0,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": true,
+        "damage_scale": 0.7,
+        "reload_duration_override": 4.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 1.25,
+        "animation_delay": 0.6
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 5.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "lmg.m249",
+      "alias": "lmg_m249",
+      "prefab_path": "assets/prefabs/weapons/m249/m249.entity.prefab",
+      "hash": 1440914039,
+      "damage_scale": 1.3,
+      "distance_scale": 1.3,
+      "projectile_velocity_scale": 1.3,
+      "automatic": true,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 100,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 1.25,
+        "yaw_max": 2.25,
+        "pitch_min": -3.0,
+        "pitch_max": -4.0,
+        "time_to_take_min": 0.15,
+        "time_to_take_max": 0.15,
+        "ads_scale": 0.5,
+        "movement_penalty": 1.25,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 20,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 20.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 2.5,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.2,
+        "hip_aim_cone": 4.0,
+        "penalty_per_shot": 1.5,
+        "penalty_max": 3.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 7.5,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.8,
+        "repeat_delay": 0.12,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 150.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 2.5,
+        "attack_length_max": 3.0,
+        "attack_spacing": 1.0,
+        "aim_sway_offset": 1.0,
+        "aim_cone": 3.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 20.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "m16a2",
+      "alias": "m16a2",
+      "prefab_path": "assets/prefabs/weapons/m16a2/m16a2.entity.prefab",
+      "hash": 4258809631,
+      "damage_scale": 0.7,
+      "distance_scale": 1.4,
+      "projectile_velocity_scale": 1.4,
+      "automatic": true,
+      "noise_radius": 75.0,
+      "aim_sway": 1.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": false,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.2,
+      "magazine_capacity": 30,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.15,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -0.5,
+        "yaw_max": 0.5,
+        "pitch_min": -2.0,
+        "pitch_max": -3.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.75,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 15,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 1.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.25,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.25,
+        "hip_aim_cone": 3.5,
+        "penalty_per_shot": 0.1,
+        "penalty_max": 1.0,
+        "penalty_recover_time": 0.12,
+        "penalty_recover_delay": 0.12,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 4.0,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": true,
+        "recoil_scale": 0.55,
+        "fire_rate_scale": 0.5,
+        "aim_cone_scale": 1.0
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.5,
+        "repeat_delay": 0.1,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 40.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 0.4,
+        "attack_length_max": 0.4,
+        "attack_spacing": 1.0,
+        "aim_sway_offset": 3.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 10.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 11.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "minicrossbow",
+      "alias": "minicrossbow",
+      "prefab_path": "assets/prefabs/weapons/mini crossbow/mini_crossbow.entity.prefab",
+      "hash": 4274044420,
+      "damage_scale": 1.0,
+      "distance_scale": 0.8,
+      "projectile_velocity_scale": 1.1,
+      "automatic": false,
+      "noise_radius": 10.0,
+      "aim_sway": 3.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 4,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -3.0,
+        "yaw_max": 3.0,
+        "pitch_min": -3.0,
+        "pitch_max": -6.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.2,
+        "ads_scale": 0.6,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 1.0,
+        "hip_aim_cone": 1.8,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 0.0
+      },
+      "reload": {
+        "time": 2.67,
+        "start_duration": 0.0,
+        "fraction_duration": 2.3,
+        "end_duration": 1.0,
+        "fractional": true,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.7,
+        "reload_duration_override": 4.0
+      },
+      "attack": {
+        "deploy_delay": 1.6,
+        "repeat_delay": 1.0,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": true,
+        "is_building_tool": false,
+        "hostility_score": 6.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "minigun",
+      "alias": "minigun",
+      "prefab_path": "assets/prefabs/weapons/minigun/minigun.entity.prefab",
+      "hash": 4007138847,
+      "damage_scale": 0.75,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.4,
+      "automatic": true,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": false,
+      "can_change_fire_modes": false,
+      "default_on": false,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 300,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": true,
+      "recoil": {
+        "yaw_min": 0.0,
+        "yaw_max": 0.0,
+        "pitch_min": -0.5,
+        "pitch_max": -1.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.5,
+        "movement_penalty": 3.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 0.75,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.5,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.8,
+        "hip_aim_cone": 0.8,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 3.5,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.4,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 2.5,
+        "repeat_delay": 0.1,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 150.0,
+        "damage_scale": 0.25,
+        "attack_length_min": 2.5,
+        "attack_length_max": 5.0,
+        "attack_spacing": 1.0,
+        "aim_sway_offset": 1.5,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 20.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "multiplegrenadelauncher",
+      "alias": "multiplegrenadelauncher",
+      "prefab_path": "assets/prefabs/weapons/grenade launcher/mgl.entity.prefab",
+      "hash": 1233562048,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 6,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 5.0,
+        "yaw_max": 10.0,
+        "pitch_min": -15.0,
+        "pitch_max": -20.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.2,
+        "ads_scale": 0.75,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 2.25,
+        "hip_aim_cone": 1.8,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 6.0,
+        "start_duration": 0.4,
+        "fraction_duration": 1.25,
+        "end_duration": 0.9,
+        "fractional": true,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": false,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 0.4,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 10.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 20.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "paintballgun",
+      "alias": "paintballgun",
+      "prefab_path": "assets/prefabs/weapons/paintball_gun/paintballgun.entity.prefab",
+      "hash": 3749252572,
+      "damage_scale": 0.75,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 0.9,
+      "automatic": true,
+      "noise_radius": 50.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": false,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 30,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.15,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -1.0,
+        "yaw_max": 1.0,
+        "pitch_min": -1.0,
+        "pitch_max": -3.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.5,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 10,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 0.5,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.5,
+        "hip_aim_cone": 3.0,
+        "penalty_per_shot": 0.1,
+        "penalty_max": 1.0,
+        "penalty_recover_time": 0.3,
+        "penalty_recover_delay": 0.3,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 4.0,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": true,
+        "recoil_scale": 0.5,
+        "fire_rate_scale": 0.7,
+        "aim_cone_scale": 0.5
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.6,
+        "repeat_delay": 0.1,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 20.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 0.4,
+        "attack_length_max": 0.4,
+        "attack_spacing": 0.8,
+        "aim_sway_offset": 3.0,
+        "aim_cone": 5.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 9.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "pistol.eoka",
+      "alias": "pistol_eoka",
+      "prefab_path": "assets/prefabs/weapons/eoka pistol/pistol_eoka.entity.prefab",
+      "hash": 2176761593,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": true,
+      "noise_radius": 100.0,
+      "aim_sway": 3.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": false,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 1,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 0.0,
+        "yaw_max": 0.0,
+        "pitch_min": 0.0,
+        "pitch_max": 0.0,
+        "time_to_take_min": 0.0,
+        "time_to_take_max": 0.0,
+        "ads_scale": 0.0,
+        "movement_penalty": 0.0,
+        "clamp_pitch": 0.0,
+        "shots_until_max": 0,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 0.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 0.0,
+        "ammo_aimcone_scale_multi_projectile": 0.0,
+        "ammo_aimcone_scale_single_projectile": 0.0
+      },
+      "aimcone": {
+        "aim_cone": 3.0,
+        "hip_aim_cone": 2.0,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 2.0,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 0.5,
+        "repeat_delay": 1.5,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 3.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "pistol.m92",
+      "alias": "pistol_m92",
+      "prefab_path": "assets/prefabs/weapons/m92/m92.entity.prefab",
+      "hash": 2293870814,
+      "damage_scale": 0.9,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 50.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 15,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.2,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -1.0,
+        "yaw_max": 1.0,
+        "pitch_min": -7.0,
+        "pitch_max": -8.0,
+        "time_to_take_min": 0.05,
+        "time_to_take_max": 0.05,
+        "ads_scale": 0.6,
+        "movement_penalty": 0.5,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 10,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.25,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 1.0,
+        "hip_aim_cone": 1.8,
+        "penalty_per_shot": 0.25,
+        "penalty_max": 1.5,
+        "penalty_recover_time": 0.2,
+        "penalty_recover_delay": 0.2,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 2.39,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 0.5,
+        "repeat_delay": 0.15,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 15.0,
+        "damage_scale": 0.25,
+        "attack_length_min": 0.0,
+        "attack_length_max": 0.46,
+        "attack_spacing": 0.8,
+        "aim_sway_offset": 3.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": true,
+        "is_building_tool": false,
+        "hostility_score": 10.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "pistol.nailgun",
+      "alias": "pistol_nailgun",
+      "prefab_path": "assets/prefabs/weapons/nailgun/nailgun.entity.prefab",
+      "hash": 4279856314,
+      "damage_scale": 1.0,
+      "distance_scale": 0.4,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 50.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 16,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.2,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -1.0,
+        "yaw_max": 1.0,
+        "pitch_min": -3.0,
+        "pitch_max": -6.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.6,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.75,
+        "hip_aim_cone": 2.0,
+        "penalty_per_shot": 0.25,
+        "penalty_max": 1.0,
+        "penalty_recover_time": 0.2,
+        "penalty_recover_delay": 0.2,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 3.1,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 0.5,
+        "repeat_delay": 0.15,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": true,
+        "is_building_tool": false,
+        "hostility_score": 5.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "pistol.prototype17",
+      "alias": "pistol_prototype17",
+      "prefab_path": "assets/prefabs/weapons/glockskin/glock.entity.prefab",
+      "hash": 636374895,
+      "damage_scale": 0.8,
+      "distance_scale": 0.5,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 50.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 18,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.15,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -1.0,
+        "yaw_max": 1.0,
+        "pitch_min": -2.0,
+        "pitch_max": -2.5,
+        "time_to_take_min": 0.05,
+        "time_to_take_max": 0.05,
+        "ads_scale": 0.6,
+        "movement_penalty": 0.5,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 10,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 2.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.75,
+        "hip_aim_cone": 2.0,
+        "penalty_per_shot": 0.5,
+        "penalty_max": 1.5,
+        "penalty_recover_time": 0.3,
+        "penalty_recover_delay": 0.3,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 2.9,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": true,
+        "recoil_scale": 0.65,
+        "fire_rate_scale": 0.7,
+        "aim_cone_scale": 0.65
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 0.5,
+        "repeat_delay": 0.1125,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": true,
+        "is_building_tool": false,
+        "hostility_score": 8.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "pistol.python",
+      "alias": "pistol_python",
+      "prefab_path": "assets/prefabs/weapons/python/python.entity.prefab",
+      "hash": 3305012504,
+      "damage_scale": 1.1,
+      "distance_scale": 0.8,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 6,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -2.0,
+        "yaw_max": 2.0,
+        "pitch_min": -15.0,
+        "pitch_max": -16.0,
+        "time_to_take_min": 0.05,
+        "time_to_take_max": 0.05,
+        "ads_scale": 0.5,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.5,
+        "hip_aim_cone": 2.0,
+        "penalty_per_shot": 1.0,
+        "penalty_max": 3.0,
+        "penalty_recover_time": 0.3,
+        "penalty_recover_delay": 0.3,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 3.75,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 0.5,
+        "repeat_delay": 0.15,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": true,
+        "is_building_tool": false,
+        "hostility_score": 7.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "pistol.revolver",
+      "alias": "pistol_revolver",
+      "prefab_path": "assets/prefabs/weapons/revolver/pistol_revolver.entity.prefab",
+      "hash": 2477536592,
+      "damage_scale": 0.7,
+      "distance_scale": 0.4,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 75.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 8,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -1.0,
+        "yaw_max": 1.0,
+        "pitch_min": -3.0,
+        "pitch_max": -6.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.6,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.75,
+        "hip_aim_cone": 2.0,
+        "penalty_per_shot": 1.0,
+        "penalty_max": 2.5,
+        "penalty_recover_time": 0.2,
+        "penalty_recover_delay": 0.2,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 3.4,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 0.5,
+        "repeat_delay": 0.175,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 15.0,
+        "damage_scale": 0.3,
+        "attack_length_min": 0.175,
+        "attack_length_max": 0.525,
+        "attack_spacing": 2.0,
+        "aim_sway_offset": 3.0,
+        "aim_cone": 2.0,
+        "only_in_range": true,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": true,
+        "is_building_tool": false,
+        "hostility_score": 5.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "pistol.semiauto",
+      "alias": "pistol_semiauto",
+      "prefab_path": "assets/prefabs/weapons/semi auto pistol/pistol_semiauto.entity.prefab",
+      "hash": 563371667,
+      "damage_scale": 0.8,
+      "distance_scale": 0.5,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 50.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 10,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.15,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -1.0,
+        "yaw_max": 1.0,
+        "pitch_min": -2.0,
+        "pitch_max": -2.5,
+        "time_to_take_min": 0.05,
+        "time_to_take_max": 0.05,
+        "ads_scale": 0.6,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 10,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 2.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.75,
+        "hip_aim_cone": 2.0,
+        "penalty_per_shot": 0.5,
+        "penalty_max": 1.5,
+        "penalty_recover_time": 0.3,
+        "penalty_recover_delay": 0.3,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 2.9,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 0.5,
+        "repeat_delay": 0.15,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": true,
+        "is_building_tool": false,
+        "hostility_score": 8.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "pistol.semiauto.a.m15",
+      "alias": "pistol_semiauto_a_m15",
+      "prefab_path": "assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/pistol_semiauto.a.m15.entity.prefab",
+      "hash": 2343718176,
+      "damage_scale": 0.8,
+      "distance_scale": 0.5,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 50.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 10,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.15,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -1.0,
+        "yaw_max": 1.0,
+        "pitch_min": -2.0,
+        "pitch_max": -2.5,
+        "time_to_take_min": 0.05,
+        "time_to_take_max": 0.05,
+        "ads_scale": 0.6,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 10,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 2.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.75,
+        "hip_aim_cone": 2.0,
+        "penalty_per_shot": 0.5,
+        "penalty_max": 1.5,
+        "penalty_recover_time": 0.3,
+        "penalty_recover_delay": 0.3,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 2.9,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 0.5,
+        "repeat_delay": 0.15,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": true,
+        "is_building_tool": false,
+        "hostility_score": 8.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "revolver.hc",
+      "alias": "revolver_hc",
+      "prefab_path": "assets/prefabs/weapons/high caliber revolver/hc_revolver.entity.prefab",
+      "hash": 2154182718,
+      "damage_scale": 1.3,
+      "distance_scale": 1.5,
+      "projectile_velocity_scale": 1.35,
+      "automatic": false,
+      "noise_radius": 100.0,
+      "aim_sway": 1.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 6,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -2.0,
+        "yaw_max": 2.0,
+        "pitch_min": -15.0,
+        "pitch_max": -16.0,
+        "time_to_take_min": 0.05,
+        "time_to_take_max": 0.05,
+        "ads_scale": 0.5,
+        "movement_penalty": 1.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.5,
+        "hip_aim_cone": 1.8,
+        "penalty_per_shot": 1.0,
+        "penalty_max": 3.0,
+        "penalty_recover_time": 0.3,
+        "penalty_recover_delay": 0.3,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 3.5,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.5,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 0.5,
+        "repeat_delay": 0.7,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": true,
+        "is_building_tool": false,
+        "hostility_score": 7.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "rifle.ak",
+      "alias": "rifle_ak",
+      "prefab_path": "assets/prefabs/weapons/ak47u/ak47u.entity.prefab",
+      "hash": 1978739833,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": true,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 30,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 1.5,
+        "yaw_max": 2.5,
+        "pitch_min": -2.5,
+        "pitch_max": -3.5,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.75,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 10,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 20.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.25,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.2,
+        "hip_aim_cone": 2.5,
+        "penalty_per_shot": 0.1,
+        "penalty_max": 1.0,
+        "penalty_recover_time": 0.3,
+        "penalty_recover_delay": 0.3,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 4.4,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 0.1333,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 30.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 0.2,
+        "attack_length_max": 0.4,
+        "attack_spacing": 1.0,
+        "aim_sway_offset": 3.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 10.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "rifle.ak.diver",
+      "alias": "rifle_ak_diver",
+      "prefab_path": "assets/prefabs/weapons/ak47u/diver/ak47u_diver.entity.prefab",
+      "hash": 4096772971,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": true,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 30,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 1.5,
+        "yaw_max": 2.5,
+        "pitch_min": -2.5,
+        "pitch_max": -3.5,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.75,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 10,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 20.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.25,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.2,
+        "hip_aim_cone": 2.5,
+        "penalty_per_shot": 0.1,
+        "penalty_max": 1.0,
+        "penalty_recover_time": 0.3,
+        "penalty_recover_delay": 0.3,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 4.4,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 0.1333,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 30.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 0.2,
+        "attack_length_max": 0.4,
+        "attack_spacing": 1.0,
+        "aim_sway_offset": 3.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 10.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "rifle.ak.ice",
+      "alias": "rifle_ak_ice",
+      "prefab_path": "assets/prefabs/weapons/ak47u/iceskin/ak47u_ice.entity.prefab",
+      "hash": 1942738569,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": true,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 30,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 1.5,
+        "yaw_max": 2.5,
+        "pitch_min": -2.5,
+        "pitch_max": -3.5,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.75,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 10,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 20.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.25,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.2,
+        "hip_aim_cone": 2.5,
+        "penalty_per_shot": 0.1,
+        "penalty_max": 1.0,
+        "penalty_recover_time": 0.3,
+        "penalty_recover_delay": 0.3,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 4.4,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 0.1333,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 30.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 0.2,
+        "attack_length_max": 0.4,
+        "attack_spacing": 1.0,
+        "aim_sway_offset": 3.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 10.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "rifle.ak.jungle",
+      "alias": "rifle_ak_jungle",
+      "prefab_path": "assets/prefabs/weapons/ak47u/jungle skin/ak47u_jungle.entity.prefab",
+      "hash": 1934468549,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": true,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 30,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 1.5,
+        "yaw_max": 2.5,
+        "pitch_min": -2.5,
+        "pitch_max": -3.5,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.75,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 10,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 20.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.25,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.2,
+        "hip_aim_cone": 2.5,
+        "penalty_per_shot": 0.1,
+        "penalty_max": 1.0,
+        "penalty_recover_time": 0.3,
+        "penalty_recover_delay": 0.3,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 4.4,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 0.1333,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 30.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 0.2,
+        "attack_length_max": 0.4,
+        "attack_spacing": 1.0,
+        "aim_sway_offset": 3.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 10.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "rifle.ak.med",
+      "alias": "rifle_ak_med",
+      "prefab_path": "assets/prefabs/weapons/ak47u/medieval skin/ak47u_med.entity.prefab",
+      "hash": 3192146626,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": true,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 30,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 1.5,
+        "yaw_max": 2.5,
+        "pitch_min": -2.5,
+        "pitch_max": -3.5,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.75,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 10,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 20.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.25,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.2,
+        "hip_aim_cone": 2.5,
+        "penalty_per_shot": 0.1,
+        "penalty_max": 1.0,
+        "penalty_recover_time": 0.3,
+        "penalty_recover_delay": 0.3,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 4.4,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 0.1333,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 30.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 0.2,
+        "attack_length_max": 0.4,
+        "attack_spacing": 1.0,
+        "aim_sway_offset": 3.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 10.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "rifle.bolt",
+      "alias": "rifle_bolt",
+      "prefab_path": "assets/prefabs/weapons/bolt rifle/bolt_rifle.entity.prefab",
+      "hash": 1665481300,
+      "damage_scale": 1.6,
+      "distance_scale": 1.75,
+      "projectile_velocity_scale": 1.75,
+      "automatic": false,
+      "noise_radius": 100.0,
+      "aim_sway": 3.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": true,
+      "no_aiming_while_cycling": true,
+      "reset_duration": 0.3,
+      "magazine_capacity": 4,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -4.0,
+        "yaw_max": 4.0,
+        "pitch_min": -2.0,
+        "pitch_max": -3.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.8,
+        "movement_penalty": 0.5,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.0,
+        "hip_aim_cone": 1.8,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 5.0,
+        "start_duration": 1.236,
+        "fraction_duration": 0.8664,
+        "end_duration": 1.4,
+        "fractional": true,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.8,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 1.7,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.5,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 10.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "rifle.l96",
+      "alias": "rifle_l96",
+      "prefab_path": "assets/prefabs/weapons/l96/l96.entity.prefab",
+      "hash": 2620171289,
+      "damage_scale": 1.6,
+      "distance_scale": 2.0,
+      "projectile_velocity_scale": 3.0,
+      "automatic": false,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": true,
+      "no_aiming_while_cycling": true,
+      "reset_duration": 0.3,
+      "magazine_capacity": 5,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -2.0,
+        "yaw_max": 2.0,
+        "pitch_min": -1.0,
+        "pitch_max": -1.5,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.8,
+        "movement_penalty": 0.5,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.0,
+        "hip_aim_cone": 1.8,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 3.0,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.8,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 2.6,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 10.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "rifle.lr300",
+      "alias": "rifle_lr300",
+      "prefab_path": "assets/prefabs/weapons/lr300/lr300.entity.prefab",
+      "hash": 844375121,
+      "damage_scale": 0.8,
+      "distance_scale": 1.5,
+      "projectile_velocity_scale": 1.5,
+      "automatic": true,
+      "noise_radius": 75.0,
+      "aim_sway": 1.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": false,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.25,
+      "magazine_capacity": 30,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.15,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -0.5,
+        "yaw_max": 0.5,
+        "pitch_min": -2.0,
+        "pitch_max": -3.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.75,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 15,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 1.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.25,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.2,
+        "hip_aim_cone": 3.0,
+        "penalty_per_shot": 0.1,
+        "penalty_max": 1.0,
+        "penalty_recover_time": 0.14,
+        "penalty_recover_delay": 0.14,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 4.0,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": true,
+        "recoil_scale": 0.65,
+        "fire_rate_scale": 0.7,
+        "aim_cone_scale": 0.5
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.5,
+        "repeat_delay": 0.12,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 40.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 0.4,
+        "attack_length_max": 0.4,
+        "attack_spacing": 1.0,
+        "aim_sway_offset": 3.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 10.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 11.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "rifle.lr300.space",
+      "alias": "rifle_lr300_space",
+      "prefab_path": "assets/prefabs/weapons/lr300/skins/space/lr300_space.entity.prefab",
+      "hash": 1407888186,
+      "damage_scale": 0.8,
+      "distance_scale": 1.5,
+      "projectile_velocity_scale": 1.5,
+      "automatic": true,
+      "noise_radius": 75.0,
+      "aim_sway": 1.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": false,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.25,
+      "magazine_capacity": 30,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.15,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -0.5,
+        "yaw_max": 0.5,
+        "pitch_min": -2.0,
+        "pitch_max": -3.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.75,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 15,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 1.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.25,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.2,
+        "hip_aim_cone": 3.0,
+        "penalty_per_shot": 0.1,
+        "penalty_max": 1.0,
+        "penalty_recover_time": 0.14,
+        "penalty_recover_delay": 0.14,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 4.0,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": true,
+        "recoil_scale": 0.65,
+        "fire_rate_scale": 0.7,
+        "aim_cone_scale": 0.5
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.5,
+        "repeat_delay": 0.12,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 40.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 0.4,
+        "attack_length_max": 0.4,
+        "attack_spacing": 1.0,
+        "aim_sway_offset": 3.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 10.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 11.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "rifle.m39",
+      "alias": "rifle_m39",
+      "prefab_path": "assets/prefabs/weapons/m39 emr/m39.entity.prefab",
+      "hash": 1517089664,
+      "damage_scale": 1.0,
+      "distance_scale": 1.5,
+      "projectile_velocity_scale": 1.25,
+      "automatic": false,
+      "noise_radius": 75.0,
+      "aim_sway": 1.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 20,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 1.5,
+        "yaw_max": 2.5,
+        "pitch_min": -3.0,
+        "pitch_max": -4.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.6,
+        "movement_penalty": 0.5,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 4,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 50.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.1,
+        "hip_aim_cone": 3.0,
+        "penalty_per_shot": 0.2,
+        "penalty_max": 1.0,
+        "penalty_recover_time": 0.14,
+        "penalty_recover_delay": 0.14,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 3.25,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.4,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 0.175,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 30.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 0.0,
+        "attack_length_max": 0.4,
+        "attack_spacing": 1.25,
+        "aim_sway_offset": 3.0,
+        "aim_cone": 1.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 10.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 11.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "rifle.semiauto",
+      "alias": "rifle_semiauto",
+      "prefab_path": "assets/prefabs/weapons/semi auto rifle/semi_auto_rifle.entity.prefab",
+      "hash": 4231282088,
+      "damage_scale": 0.8,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 100.0,
+      "aim_sway": 1.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 16,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.15,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -0.5,
+        "yaw_max": 0.5,
+        "pitch_min": -2.0,
+        "pitch_max": -3.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.6,
+        "movement_penalty": 0.5,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 3,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.25,
+        "hip_aim_cone": 1.8,
+        "penalty_per_shot": 0.4,
+        "penalty_max": 1.5,
+        "penalty_recover_time": 0.3,
+        "penalty_recover_delay": 0.3,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 4.4,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.15,
+        "repeat_delay": 0.175,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 20.0,
+        "damage_scale": 0.25,
+        "attack_length_min": 0.175,
+        "attack_length_max": 0.525,
+        "attack_spacing": 1.5,
+        "aim_sway_offset": 3.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 8.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "rifle.sks",
+      "alias": "rifle_sks",
+      "prefab_path": "assets/prefabs/weapons/sks/sks.entity.prefab",
+      "hash": 4228529517,
+      "damage_scale": 0.85,
+      "distance_scale": 1.25,
+      "projectile_velocity_scale": 1.25,
+      "automatic": false,
+      "noise_radius": 100.0,
+      "aim_sway": 1.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 15,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.15,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -0.3,
+        "yaw_max": 0.3,
+        "pitch_min": -3.0,
+        "pitch_max": -3.5,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.6,
+        "movement_penalty": 0.5,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 3,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.25,
+        "hip_aim_cone": 1.8,
+        "penalty_per_shot": 0.4,
+        "penalty_max": 1.5,
+        "penalty_recover_time": 0.3,
+        "penalty_recover_delay": 0.3,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 4.4,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.15,
+        "repeat_delay": 0.15,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 20.0,
+        "damage_scale": 0.25,
+        "attack_length_min": 0.175,
+        "attack_length_max": 0.525,
+        "attack_spacing": 1.5,
+        "aim_sway_offset": 3.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 8.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "rocket.launcher",
+      "alias": "rocket_launcher",
+      "prefab_path": "assets/prefabs/weapons/rocketlauncher/rocket_launcher.entity.prefab",
+      "hash": 601440135,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 1,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 5.0,
+        "yaw_max": 10.0,
+        "pitch_min": -15.0,
+        "pitch_max": -20.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.2,
+        "ads_scale": 0.75,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 2.25,
+        "hip_aim_cone": 1.8,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 6.162,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": false,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 3.0,
+        "repeat_delay": 2.0,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 10.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 20.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "rocket.launcher.dragon",
+      "alias": "rocket_launcher_dragon",
+      "prefab_path": "assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/rocket_launcher_dragon.entity.prefab",
+      "hash": 3704640358,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 1,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 5.0,
+        "yaw_max": 10.0,
+        "pitch_min": -15.0,
+        "pitch_max": -20.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.2,
+        "ads_scale": 0.75,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 2.25,
+        "hip_aim_cone": 1.8,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 6.162,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": false,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 3.0,
+        "repeat_delay": 2.0,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 10.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 20.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "rocket.launcher.rpg7",
+      "alias": "rocket_launcher_rpg7",
+      "prefab_path": "assets/prefabs/weapons/rocketlauncher/skins/rpg7/rpg7.entity.prefab",
+      "hash": 3445264346,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 1,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 5.0,
+        "yaw_max": 10.0,
+        "pitch_min": -15.0,
+        "pitch_max": -20.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.2,
+        "ads_scale": 0.75,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 2.25,
+        "hip_aim_cone": 1.8,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 6.162,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": false,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 3.0,
+        "repeat_delay": 2.0,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 10.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 20.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "shotgun.double",
+      "alias": "shotgun_double",
+      "prefab_path": "assets/prefabs/weapons/doubleshotgun/double_shotgun.entity.prefab",
+      "hash": 3474489095,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 100.0,
+      "aim_sway": 5.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 2,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 8.0,
+        "yaw_max": 15.0,
+        "pitch_min": -10.0,
+        "pitch_max": -15.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.2,
+        "ads_scale": 1.0,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.5,
+        "hip_aim_cone": 2.0,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 5.5,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.75,
+        "repeat_delay": 0.5,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 8.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "shotgun.m4",
+      "alias": "shotgun_m4",
+      "prefab_path": "assets/prefabs/weapons/m4 shotgun/m4_shotgun.entity.prefab",
+      "hash": 2416998201,
+      "damage_scale": 0.8,
+      "distance_scale": 1.5,
+      "projectile_velocity_scale": 1.3,
+      "automatic": false,
+      "noise_radius": 100.0,
+      "aim_sway": 3.0,
+      "aim_sway_speed": 1.5,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 6,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 2.0,
+        "yaw_max": 4.0,
+        "pitch_min": -7.0,
+        "pitch_max": -10.0,
+        "time_to_take_min": 0.05,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.4,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 0.1,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.0,
+        "hip_aim_cone": 0.7,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 5.8,
+        "start_duration": 1.03,
+        "fraction_duration": 0.488,
+        "end_duration": 1.09,
+        "fractional": true,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.6,
+        "repeat_delay": 0.3,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 15.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 0.3,
+        "attack_length_max": 1.0,
+        "attack_spacing": 2.0,
+        "aim_sway_offset": 8.0,
+        "aim_cone": 3.0,
+        "only_in_range": false,
+        "close_range_addition": 2.0,
+        "medium_range_addition": 5.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": false
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 8.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "shotgun.pump",
+      "alias": "shotgun_pump",
+      "prefab_path": "assets/prefabs/weapons/sawnoff_shotgun/shotgun_pump.entity.prefab",
+      "hash": 554582418,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 100.0,
+      "aim_sway": 5.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": true,
+      "reset_duration": 0.3,
+      "magazine_capacity": 8,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 4.0,
+        "yaw_max": 8.0,
+        "pitch_min": -10.0,
+        "pitch_max": -14.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.2,
+        "ads_scale": 0.7,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.0,
+        "hip_aim_cone": 1.8,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 5.5,
+        "start_duration": 0.9,
+        "fraction_duration": 0.578,
+        "end_duration": 0.8,
+        "fractional": true,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 1.1,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 15.0,
+        "damage_scale": 0.25,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 8.0,
+        "aim_cone": 1.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 8.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "shotgun.spas12",
+      "alias": "shotgun_spas12",
+      "prefab_path": "assets/prefabs/weapons/spas12/spas12.entity.prefab",
+      "hash": 1877401463,
+      "damage_scale": 0.75,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 100.0,
+      "aim_sway": 4.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 6,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 4.0,
+        "yaw_max": 8.0,
+        "pitch_min": -10.0,
+        "pitch_max": -14.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.2,
+        "ads_scale": 0.7,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.0,
+        "hip_aim_cone": 1.8,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 5.8,
+        "start_duration": 1.03,
+        "fraction_duration": 0.488,
+        "end_duration": 1.09,
+        "fractional": true,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.6,
+        "repeat_delay": 0.25,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 15.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 0.3,
+        "attack_length_max": 1.0,
+        "attack_spacing": 2.0,
+        "aim_sway_offset": 8.0,
+        "aim_cone": 3.0,
+        "only_in_range": false,
+        "close_range_addition": 2.0,
+        "medium_range_addition": 5.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": false
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 8.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "shotgun.waterpipe",
+      "alias": "shotgun_waterpipe",
+      "prefab_path": "assets/prefabs/weapons/pipe shotgun/shotgun_waterpipe.entity.prefab",
+      "hash": 2696589892,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 100.0,
+      "aim_sway": 5.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 1,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 4.0,
+        "yaw_max": 8.0,
+        "pitch_min": -10.0,
+        "pitch_max": -14.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.2,
+        "ads_scale": 0.7,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 1.0,
+        "hip_aim_cone": 2.0,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 4.5,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 2.4,
+        "repeat_delay": 2.0,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 7.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "smg.2",
+      "alias": "smg_2",
+      "prefab_path": "assets/prefabs/weapons/smg/smg.entity.prefab",
+      "hash": 3759841439,
+      "damage_scale": 0.6,
+      "distance_scale": 0.7,
+      "projectile_velocity_scale": 0.8,
+      "automatic": true,
+      "noise_radius": 75.0,
+      "aim_sway": 3.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 30,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -1.0,
+        "yaw_max": 1.0,
+        "pitch_min": -1.5,
+        "pitch_max": -2.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.5,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 0.75,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.5,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.5,
+        "hip_aim_cone": 1.8,
+        "penalty_per_shot": 0.25,
+        "penalty_max": 1.0,
+        "penalty_recover_time": 0.15,
+        "penalty_recover_delay": 0.15,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 4.0,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 0.1,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 5.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 8.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "smg.mp5",
+      "alias": "smg_mp5",
+      "prefab_path": "assets/prefabs/weapons/mp5/mp5.entity.prefab",
+      "hash": 2545523575,
+      "damage_scale": 0.75,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 0.9,
+      "automatic": true,
+      "noise_radius": 50.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": false,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 30,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.15,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -1.0,
+        "yaw_max": 1.0,
+        "pitch_min": -1.0,
+        "pitch_max": -3.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.5,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 10,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 0.5,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.5,
+        "hip_aim_cone": 3.0,
+        "penalty_per_shot": 0.1,
+        "penalty_max": 1.0,
+        "penalty_recover_time": 0.3,
+        "penalty_recover_delay": 0.3,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 4.0,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": true,
+        "recoil_scale": 0.5,
+        "fire_rate_scale": 0.7,
+        "aim_cone_scale": 0.5
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.6,
+        "repeat_delay": 0.1,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 20.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 0.4,
+        "attack_length_max": 0.4,
+        "attack_spacing": 0.8,
+        "aim_sway_offset": 3.0,
+        "aim_cone": 5.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 9.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "smg.thompson",
+      "alias": "smg_thompson",
+      "prefab_path": "assets/prefabs/weapons/thompson/thompson.entity.prefab",
+      "hash": 3243900999,
+      "damage_scale": 0.75,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": true,
+      "noise_radius": 75.0,
+      "aim_sway": 3.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 20,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -1.0,
+        "yaw_max": 1.0,
+        "pitch_min": -1.5,
+        "pitch_max": -2.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.5,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 0.75,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.5,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.5,
+        "hip_aim_cone": 1.8,
+        "penalty_per_shot": 0.25,
+        "penalty_max": 1.0,
+        "penalty_recover_time": 0.15,
+        "penalty_recover_delay": 0.15,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 4.0,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 0.13,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 4.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 8.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "snowballgun",
+      "alias": "snowballgun",
+      "prefab_path": "assets/prefabs/misc/xmas/snowballgun/snowballgun.entity.prefab",
+      "hash": 3228215527,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 0.5,
+      "automatic": true,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 50,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -0.5,
+        "yaw_max": 0.5,
+        "pitch_min": -2.0,
+        "pitch_max": -3.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.75,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 15,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 1.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.25,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 2.25,
+        "hip_aim_cone": 1.8,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 1.0,
+        "start_duration": 0.4,
+        "fraction_duration": 1.25,
+        "end_duration": 0.9,
+        "fractional": false,
+        "can_unload_ammo": false
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": false,
+        "large_turret": false,
+        "damage_scale": 1.0,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 0.15,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 10.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 20.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "speargun",
+      "alias": "speargun",
+      "prefab_path": "assets/prefabs/weapons/speargun/speargun.entity.prefab",
+      "hash": 4262383355,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": false,
+      "noise_radius": 10.0,
+      "aim_sway": 3.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 1,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -3.0,
+        "yaw_max": 3.0,
+        "pitch_min": -3.0,
+        "pitch_max": -6.0,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.2,
+        "ads_scale": 0.6,
+        "movement_penalty": 0.0,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 5.0,
+        "override_aimcone_with_curve": false,
+        "aimcone_curve_scale": 1.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 1.0,
+        "hip_aim_cone": 1.8,
+        "penalty_per_shot": 0.0,
+        "penalty_max": 0.0,
+        "penalty_recover_time": 0.1,
+        "penalty_recover_delay": 0.1,
+        "stance_penalty_scale": 0.0
+      },
+      "reload": {
+        "time": 3.6,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": false,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.6,
+        "repeat_delay": 1.0,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 6.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "t1_smg",
+      "alias": "t1_smg",
+      "prefab_path": "assets/prefabs/weapons/t1 smg/t1_smg.entity.prefab",
+      "hash": 4251501342,
+      "damage_scale": 0.4,
+      "distance_scale": 0.5,
+      "projectile_velocity_scale": 0.5,
+      "automatic": true,
+      "noise_radius": 75.0,
+      "aim_sway": 3.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 18,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": -1.0,
+        "yaw_max": 1.0,
+        "pitch_min": -2.0,
+        "pitch_max": -2.5,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.5,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 0.75,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.5,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.5,
+        "hip_aim_cone": 3.0,
+        "penalty_per_shot": 0.25,
+        "penalty_max": 1.0,
+        "penalty_recover_time": 0.15,
+        "penalty_recover_delay": 0.15,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 4.0,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 0.14,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 5.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 8.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    }
+  ]
+}
