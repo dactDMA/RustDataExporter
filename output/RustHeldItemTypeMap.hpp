@@ -1,6 +1,6 @@
 //
 // Auto-generated Rust Held Item Type Map
-// Generated: 2026-07-30 14:13:39 UTC
+// Generated: 2026-07-30 15:33:29 UTC
 // Target: Protocol 2631.286.1 / Changeset 158240
 // Total entries: 695
 // Generator: RustDataExporter
