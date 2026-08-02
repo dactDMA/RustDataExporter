@@ -12,8 +12,8 @@ using UnityEngine;
 
 namespace Oxide.Plugins
 {
-    [Info("Rust Data Exporter", "dactill", "1.2.2")]
-    [Description("Exports Rust item, weapon, projectile and held-item type data to C++ headers and optional JSON.")]
+    [Info("Rust Data Exporter", "dactill", "1.3.2")]
+    [Description("Exports Rust item, weapon, projectile, explosive and held-item data to C++ headers and optional JSON.")]
     public class RustDataExporter : RustPlugin
     {
         private const string PermissionUse = "rustdataexporter.use";
@@ -58,12 +58,13 @@ namespace Oxide.Plugins
             if (!TryParseArguments(commandArgs, out target, out includeJson, out error))
             {
                 arg.ReplyWith(error);
-                arg.ReplyWith("Usage: rustdata.dump [all|items|weapons|projectiles|held] [json]");
+                arg.ReplyWith("Usage: rustdata.dump [all|items|weapons|projectiles|held|explosives] [json]");
                 return;
             }
 
             GameManifest manifest = GameManifest.Current;
-            bool needsManifest = target == "all" || target == "weapons" || target == "projectiles";
+            bool needsManifest = target == "all" || target == "weapons" ||
+                                 target == "projectiles" || target == "explosives";
             if (needsManifest && (manifest == null || manifest.prefabProperties == null))
             {
                 arg.ReplyWith("GameManifest is not loaded. Run the command after server startup completes.");
@@ -110,7 +111,7 @@ namespace Oxide.Plugins
                 job.Prefabs.Length,
                 job.Items.Count));
 
-            if (WantsWeapons(job) || WantsProjectiles(job))
+            if (WantsWeapons(job) || WantsProjectiles(job) || WantsExplosives(job))
             {
                 ProcessPrefabBatch();
             }
@@ -164,7 +165,7 @@ namespace Oxide.Plugins
                 }
 
                 if (value == "all" || value == "items" || value == "weapons" ||
-                    value == "projectiles" || value == "held")
+                    value == "projectiles" || value == "held" || value == "explosives")
                 {
                     if (targetSeen)
                     {
@@ -204,6 +205,11 @@ namespace Oxide.Plugins
             return job.Target == "all" || job.Target == "held";
         }
 
+        private static bool WantsExplosives(DumpJob job)
+        {
+            return job.Target == "all" || job.Target == "explosives";
+        }
+
         private void BuildItemIndex(DumpJob job)
         {
             if (ItemManager.itemList == null)
@@ -228,7 +234,7 @@ namespace Oxide.Plugins
                     CaptureAmmoLinks(job, definition);
                 }
 
-                if (!WantsHeld(job) && !WantsWeapons(job))
+                if (!WantsHeld(job) && !WantsWeapons(job) && !WantsExplosives(job))
                 {
                     continue;
                 }
@@ -573,12 +579,32 @@ namespace Oxide.Plugins
                     job.HeldItems.Add(new HeldItemRecord
                     {
                         name = shortname,
+                        prefab_id = GetHeldPrefabId(job, pair.Key),
                         concrete_type = typeInfo.ConcreteType,
                         type_chain = new List<string>(typeInfo.TypeChain),
                         prefab_path = pair.Key
                     });
                 }
             }
+        }
+
+        private static uint GetHeldPrefabId(DumpJob job, string prefabPath)
+        {
+            ItemDefinition definition;
+            if (job.ItemDefinitionsByPrefab.TryGetValue(prefabPath, out definition))
+            {
+                ItemModEntity entityMod = FindItemModEntity(definition);
+                if (entityMod != null && entityMod.entityPrefab != null)
+                {
+                    uint resourceId = ReadUIntMember(entityMod.entityPrefab, 0U, "resourceID");
+                    if (resourceId != 0U)
+                    {
+                        return resourceId;
+                    }
+                }
+            }
+
+            return StringPool.Get(prefabPath);
         }
 
         private static HeldTypeInfo GetHeldTypeInfo(GameObject prefab)
@@ -692,6 +718,21 @@ namespace Oxide.Plugins
                     job.Projectiles.Add(CaptureProjectile(job, path, properties.hash, projectile));
                 }
             }
+
+            if (WantsExplosives(job))
+            {
+                TimedExplosive timedExplosive = prefab.GetComponent<TimedExplosive>();
+                if (timedExplosive != null && job.TimedExplosiveHashes.Add(properties.hash))
+                {
+                    job.TimedExplosives.Add(CaptureTimedExplosive(path, properties.hash, timedExplosive));
+                }
+
+                ThrownWeapon thrownWeapon = prefab.GetComponent<ThrownWeapon>();
+                if (thrownWeapon != null && job.ThrownWeaponHashes.Add(properties.hash))
+                {
+                    job.ThrownWeapons.Add(CaptureThrownWeapon(job, path, properties.hash, thrownWeapon));
+                }
+            }
         }
 
         private static string GetWeaponName(DumpJob job, string path)
@@ -709,6 +750,290 @@ namespace Oxide.Plugins
             }
 
             return fileName;
+        }
+
+        private static List<string> GetItemShortnames(DumpJob job, string path)
+        {
+            SortedSet<string> names;
+            return job.ItemNamesByPrefab.TryGetValue(path, out names)
+                ? names.ToList()
+                : new List<string>();
+        }
+
+        private static TimedExplosiveRecord CaptureTimedExplosive(
+            string path,
+            uint hash,
+            TimedExplosive explosive)
+        {
+            Rigidbody rigidbody = explosive.GetComponent<Rigidbody>();
+
+            return new TimedExplosiveRecord
+            {
+                name = MakeIdentifier(Path.GetFileNameWithoutExtension(path) ?? "unknown_explosive"),
+                prefab_path = path,
+                hash = hash,
+                concrete_type = explosive.GetType().FullName ?? explosive.GetType().Name,
+                type_chain = ReadTypeChain(explosive.GetType(), typeof(BaseEntity)),
+                timer_min = ReadFloatMember(explosive, 0f, "timerAmountMin"),
+                timer_max = ReadFloatMember(explosive, 0f, "timerAmountMax"),
+                min_explosion_radius = ReadFloatMember(explosive, 0f, "minExplosionRadius"),
+                explosion_radius = ReadFloatMember(explosive, 0f, "explosionRadius"),
+                explode_on_contact = ReadBoolMember(explosive, false, "explodeOnContact"),
+                can_stick = ReadBoolMember(explosive, false, "canStick"),
+                force_run_clipping_checks =
+                    ReadBoolMember(explosive, false, "forceRunClippingChecks"),
+                only_damage_parent = ReadBoolMember(explosive, false, "onlyDamageParent"),
+                ignore_ai = ReadBoolMember(explosive, false, "IgnoreAI"),
+                blind_ai = ReadBoolMember(explosive, false, "BlindAI"),
+                ai_blind_duration = ReadFloatMember(explosive, 0f, "aiBlindDuration"),
+                ai_blind_range = ReadFloatMember(explosive, 0f, "aiBlindRange"),
+                explosion_offset_mode =
+                    ValueText(ReadMember(explosive, "explosionOffsetMode")),
+                explosion_effect_offset =
+                    ReadVector3Member(explosive, "explosionEffectOffset"),
+                explosion_matches_normal =
+                    ReadBoolMember(explosive, false, "explosionMatchesNormal"),
+                explosion_uses_forward =
+                    ReadBoolMember(explosive, false, "explosionUsesForward"),
+                explosion_matches_orientation =
+                    ReadBoolMember(explosive, false, "explosionMatchesOrientation"),
+                explosion_matches_velocity =
+                    ReadBoolMember(explosive, false, "explosionMatchesVelocity"),
+                explosion_matches_inverse_velocity =
+                    ReadBoolMember(explosive, false, "explosionMatchesInverseVelocity"),
+                explosion_effect = ReadResourceRef(ReadMember(explosive, "explosionEffect")),
+                underwater_explosion_effect =
+                    ReadResourceRef(ReadMember(explosive, "underwaterExplosionEffect")),
+                stick_effect = ReadResourceRef(ReadMember(explosive, "stickEffect")),
+                bounce_effect = ReadResourceRef(ReadMember(explosive, "bounceEffect")),
+                watersurface_explosion_effect =
+                    ReadResourceRef(ReadMember(explosive, "watersurfaceExplosionEffect")),
+                underwater_explosion_depth =
+                    ReadFloatMember(explosive, 0f, "underwaterExplosionDepth"),
+                watersurface_explosion_depth =
+                    ReadMinMax(ReadMember(explosive, "watersurfaceExplosionDepth")),
+                water_causes_explosion =
+                    ReadBoolMember(explosive, false, "waterCausesExplosion"),
+                always_run_water_check =
+                    ReadBoolMember(explosive, false, "AlwaysRunWaterCheck"),
+                vibration_level = ReadIntMember(explosive, 0, "vibrationLevel"),
+                damage_types = ReadDamageEntries(ReadMember(explosive, "damageTypes")),
+                player_damage = ReadDamageEntries(ReadMember(explosive, "playerDamage")),
+                splash_wallpaper_through_walls =
+                    ReadBoolMember(explosive, false, "splashWallpaperThroughWalls"),
+                rigidbody = CaptureRigidbodyRecord(rigidbody),
+                extra_fields = ReadDerivedSerializedFields(explosive, typeof(TimedExplosive))
+            };
+        }
+
+        private static RigidbodyRecord CaptureRigidbodyRecord(object rigidbody)
+        {
+            return new RigidbodyRecord
+            {
+                present = rigidbody != null,
+                mass = ReadFloatMember(rigidbody, 0f, "mass"),
+                drag = ReadFloatMember(rigidbody, 0f, "linearDamping", "drag"),
+                angular_drag =
+                    ReadFloatMember(rigidbody, 0f, "angularDamping", "angularDrag"),
+                use_gravity = ReadBoolMember(rigidbody, false, "useGravity"),
+                is_kinematic = ReadBoolMember(rigidbody, false, "isKinematic"),
+                collision_detection_mode =
+                    ValueText(ReadMember(rigidbody, "collisionDetectionMode"))
+            };
+        }
+
+        private static ThrownWeaponRecord CaptureThrownWeapon(
+            DumpJob job,
+            string path,
+            uint hash,
+            ThrownWeapon weapon)
+        {
+            object prefabToThrow = ReadMember(weapon, "prefabToThrow");
+            ResourceRefRecord thrownPrefab = ReadResourceRef(prefabToThrow);
+            GameObject thrownObject = string.IsNullOrEmpty(thrownPrefab.path)
+                ? null
+                : GameManager.server.FindPrefab(thrownPrefab.path);
+            TimedExplosive thrownExplosive = thrownObject == null
+                ? null
+                : thrownObject.GetComponent<TimedExplosive>();
+            object throwObjectRoot = ReadMember(weapon, "throwObjectRoot");
+
+            return new ThrownWeaponRecord
+            {
+                name = GetWeaponName(job, path),
+                prefab_path = path,
+                hash = hash,
+                concrete_type = weapon.GetType().FullName ?? weapon.GetType().Name,
+                type_chain = ReadTypeChain(weapon.GetType(), typeof(HeldEntity)),
+                item_shortnames = GetItemShortnames(job, path),
+                prefab_to_throw = thrownPrefab,
+                throws_timed_explosive = thrownExplosive != null,
+                thrown_explosive_type = thrownExplosive == null
+                    ? string.Empty
+                    : thrownExplosive.GetType().FullName ?? thrownExplosive.GetType().Name,
+                max_throw_velocity = ReadFloatMember(weapon, 0f, "maxThrowVelocity"),
+                tumble_velocity = ReadFloatMember(weapon, 0f, "tumbleVelocity"),
+                override_angle = ReadVector3Member(weapon, "overrideAngle"),
+                can_stick = ReadBoolMember(weapon, false, "canStick"),
+                can_throw_underwater = ReadBoolMember(weapon, false, "canThrowUnderwater"),
+                can_throw_from_helicopter =
+                    ReadBoolMember(weapon, false, "canThrowFromHelicopter"),
+                throw_object_root_name = ValueText(ReadMember(throwObjectRoot, "name")),
+                attack = CaptureAttackRecord(weapon),
+                npc = CaptureNpcWeaponRecord(weapon),
+                held = CaptureHeldRecord(weapon),
+                extra_fields = ReadDerivedSerializedFields(weapon, typeof(ThrownWeapon))
+            };
+        }
+
+        private static List<ComponentFieldRecord> ReadDerivedSerializedFields(
+            object component,
+            Type baseType)
+        {
+            List<ComponentFieldRecord> result = new List<ComponentFieldRecord>();
+            if (component == null)
+            {
+                return result;
+            }
+
+            Type type = component.GetType();
+            while (type != null && type != baseType && baseType.IsAssignableFrom(type))
+            {
+                FieldInfo[] fields = type.GetFields(
+                    BindingFlags.Instance | BindingFlags.Public |
+                    BindingFlags.NonPublic | BindingFlags.DeclaredOnly);
+
+                foreach (FieldInfo field in fields.OrderBy(x => x.Name, StringComparer.Ordinal))
+                {
+                    if (field.IsStatic || HasAttributeNamed(field, "NonSerializedAttribute") ||
+                        (!field.IsPublic && !HasAttributeNamed(field, "SerializeField")))
+                    {
+                        continue;
+                    }
+
+                    object value;
+                    try
+                    {
+                        value = field.GetValue(component);
+                    }
+                    catch
+                    {
+                        continue;
+                    }
+
+                    result.Add(new ComponentFieldRecord
+                    {
+                        name = field.Name,
+                        declaring_type = type.FullName ?? type.Name,
+                        value_type = field.FieldType.FullName ?? field.FieldType.Name,
+                        value = FormatComponentFieldValue(value)
+                    });
+                }
+
+                type = type.BaseType;
+            }
+
+            return result;
+        }
+
+        private static bool HasAttributeNamed(MemberInfo member, string attributeTypeName)
+        {
+            foreach (object attribute in member.GetCustomAttributes(false))
+            {
+                if (attribute != null && attribute.GetType().Name == attributeTypeName)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        private static string FormatComponentFieldValue(object value)
+        {
+            if (value == null)
+            {
+                return string.Empty;
+            }
+
+            if (value is Vector3)
+            {
+                Vector3 vector = (Vector3)value;
+                return vector.x.ToString("R", Invariant) + "," +
+                       vector.y.ToString("R", Invariant) + "," +
+                       vector.z.ToString("R", Invariant);
+            }
+
+            Type type = value.GetType();
+            if (type.IsEnum || type.IsPrimitive || value is decimal || value is string)
+            {
+                return Convert.ToString(value, Invariant);
+            }
+
+            string resourcePath = ReadResourcePath(value);
+            if (!string.IsNullOrEmpty(resourcePath))
+            {
+                uint resourceId = ReadUIntMember(value, 0U, "resourceID");
+                return resourcePath + "|" + resourceId.ToString(Invariant);
+            }
+
+            IEnumerable values = value as IEnumerable;
+            if (values != null)
+            {
+                List<string> parts = new List<string>();
+                foreach (object item in values)
+                {
+                    parts.Add(FormatComponentFieldValue(item));
+                }
+                return string.Join(";", parts.ToArray());
+            }
+
+            return ValueText(value);
+        }
+
+        private static AttackRecord CaptureAttackRecord(object attack)
+        {
+            return new AttackRecord
+            {
+                deploy_delay = ReadFloatMember(attack, 0f, "deployDelay"),
+                repeat_delay = ReadFloatMember(attack, 0f, "repeatDelay"),
+                animation_delay = ReadFloatMember(attack, 0f, "animationDelay")
+            };
+        }
+
+        private static NpcWeaponRecord CaptureNpcWeaponRecord(object attack)
+        {
+            return new NpcWeaponRecord
+            {
+                effective_range = ReadFloatMember(attack, 0f, "effectiveRange"),
+                damage_scale = ReadFloatMember(attack, 0f, "npcDamageScale"),
+                attack_length_min = ReadFloatMember(attack, 0f, "attackLengthMin"),
+                attack_length_max = ReadFloatMember(attack, 0f, "attackLengthMax"),
+                attack_spacing = ReadFloatMember(attack, 0f, "attackSpacing"),
+                aim_sway_offset = ReadFloatMember(attack, 0f, "aiAimSwayOffset"),
+                aim_cone = ReadFloatMember(attack, 0f, "aiAimCone"),
+                only_in_range = ReadBoolMember(attack, false, "aiOnlyInRange"),
+                close_range_addition = ReadFloatMember(attack, 0f, "CloseRangeAddition"),
+                medium_range_addition = ReadFloatMember(attack, 0f, "MediumRangeAddition"),
+                long_range_addition = ReadFloatMember(attack, 0f, "LongRangeAddition"),
+                can_use_at_medium_range =
+                    ReadBoolMember(attack, false, "CanUseAtMediumRange"),
+                can_use_at_long_range =
+                    ReadBoolMember(attack, false, "CanUseAtLongRange")
+            };
+        }
+
+        private static HeldRecord CaptureHeldRecord(object held)
+        {
+            return new HeldRecord
+            {
+                can_use_with_shield = ReadBoolMember(held, false, "canBeUsedWithShield"),
+                is_building_tool = ReadBoolMember(held, false, "isBuildingTool"),
+                hostility_score = ReadFloatMember(held, 0f, "hostileScore"),
+                first_person_arm_offset = ReadVector3Member(held, "FirstPersonArmOffset"),
+                first_person_arm_rotation = ReadVector3Member(held, "FirstPersonArmRotation"),
+                first_person_rotation_strength =
+                    ReadFloatMember(held, 0f, "FirstPersonRotationStrength")
+            };
         }
 
         private static WeaponRecord CaptureWeapon(string name, string path, uint hash, BaseProjectile weapon)
@@ -930,6 +1255,58 @@ namespace Oxide.Plugins
                 x = ReadFloatMember(value, 0f, "min", "Min", "x", "X"),
                 y = ReadFloatMember(value, 0f, "max", "Max", "y", "Y")
             };
+        }
+
+        private static ResourceRefRecord ReadResourceRef(object reference)
+        {
+            return new ResourceRefRecord
+            {
+                path = ReadResourcePath(reference),
+                id = ReadUIntMember(reference, 0U, "resourceID"),
+                is_valid = ReadBoolMember(reference, false, "isValid")
+            };
+        }
+
+        private static List<DamageTypeRecord> ReadDamageEntries(object collection)
+        {
+            List<DamageTypeRecord> result = new List<DamageTypeRecord>();
+            IEnumerable entries = collection as IEnumerable;
+            if (entries == null)
+            {
+                return result;
+            }
+
+            foreach (object entry in entries)
+            {
+                if (entry == null)
+                {
+                    continue;
+                }
+
+                result.Add(new DamageTypeRecord
+                {
+                    type = ValueText(ReadMember(entry, "type", "Type")),
+                    amount = ReadFloatMember(entry, 0f, "amount", "Amount")
+                });
+            }
+
+            return result;
+        }
+
+        private static List<string> ReadTypeChain(Type concreteType, Type baseBoundary)
+        {
+            List<string> result = new List<string>();
+            Type type = concreteType;
+            while (type != null && baseBoundary.IsAssignableFrom(type))
+            {
+                result.Add(type.FullName ?? type.Name);
+                if (type == baseBoundary)
+                {
+                    break;
+                }
+                type = type.BaseType;
+            }
+            return result;
         }
 
         private static float ReadFloatMember(object instance, float fallback, params string[] names)
@@ -1207,6 +1584,15 @@ namespace Oxide.Plugins
                     .OrderBy(x => x.name, StringComparer.Ordinal)
                     .ToList();
 
+                job.TimedExplosives = job.TimedExplosives
+                    .OrderBy(x => x.prefab_path, StringComparer.Ordinal)
+                    .ToList();
+
+                job.ThrownWeapons = job.ThrownWeapons
+                    .OrderBy(x => x.name, StringComparer.Ordinal)
+                    .ThenBy(x => x.prefab_path, StringComparer.Ordinal)
+                    .ToList();
+
                 string directory = Path.Combine(Interface.Oxide.DataDirectory, "RustDataExporter");
                 Directory.CreateDirectory(directory);
 
@@ -1254,12 +1640,46 @@ namespace Oxide.Plugins
                     }
                 }
 
+                if (WantsExplosives(job))
+                {
+                    WriteText(
+                        directory,
+                        "RustTimedExplosiveData.hpp",
+                        BuildTimedExplosiveHeader(job),
+                        written);
+                    WriteText(
+                        directory,
+                        "RustThrownWeaponData.hpp",
+                        BuildThrownWeaponHeader(job),
+                        written);
+
+                    if (job.IncludeJson)
+                    {
+                        WriteJson(
+                            directory,
+                            "RustTimedExplosiveData.json",
+                            job.GeneratedUtc,
+                            job.TargetBuild,
+                            job.TimedExplosives,
+                            written);
+                        WriteJson(
+                            directory,
+                            "RustThrownWeaponData.json",
+                            job.GeneratedUtc,
+                            job.TargetBuild,
+                            job.ThrownWeapons,
+                            written);
+                    }
+                }
+
                 Puts(string.Format(
-                    "Rust data export complete. Items={0}, Weapons={1}, Projectiles={2}, Held items={3}, Errors={4}. Directory: {5}",
+                    "Rust data export complete. Items={0}, Weapons={1}, Projectiles={2}, Held items={3}, Timed explosives={4}, Thrown weapons={5}, Errors={6}. Directory: {7}",
                     job.Items.Count,
                     job.Weapons.Count,
                     job.Projectiles.Count,
                     job.HeldItems.Count,
+                    job.TimedExplosives.Count,
+                    job.ThrownWeapons.Count,
                     job.ErrorCount,
                     directory));
 
@@ -1684,6 +2104,434 @@ namespace Oxide.Plugins
             sb.AppendLine(comma ? "    }," : "    }");
         }
 
+        private static string BuildTimedExplosiveHeader(DumpJob job)
+        {
+            StringBuilder sb = NewHeader(
+                "Rust TimedExplosive Data",
+                job.GeneratedUtc,
+                job.TargetBuild,
+                job.TimedExplosives.Count);
+            sb.AppendLine("#pragma once");
+            sb.AppendLine("#ifndef RUST_DATA_TIMED_EXPLOSIVE_DATA_HPP");
+            sb.AppendLine("#define RUST_DATA_TIMED_EXPLOSIVE_DATA_HPP");
+            sb.AppendLine();
+            sb.AppendLine("#include <cstddef>");
+            sb.AppendLine("#include <cstdint>");
+            sb.AppendLine("#include <cstring>");
+            sb.AppendLine("#include <limits>");
+            sb.AppendLine();
+            sb.AppendLine("namespace RustData");
+            sb.AppendLine("{");
+            sb.AppendLine("namespace TimedExplosives");
+            sb.AppendLine("{");
+            sb.AppendLine();
+            sb.AppendLine("struct Vec2 { float x; float y; };");
+            sb.AppendLine("struct Vec3 { float x; float y; float z; };");
+            sb.AppendLine("struct DamageData { const char* type; float amount; };");
+            sb.AppendLine("struct ResourceRefData { const char* path; std::uint32_t id; bool is_valid; };");
+            sb.AppendLine("struct ExtraFieldData { const char* name; const char* declaring_type; const char* value_type; const char* value; };");
+            sb.AppendLine("struct RigidbodyData");
+            sb.AppendLine("{");
+            sb.AppendLine("    bool present; float mass; float drag; float angular_drag;");
+            sb.AppendLine("    bool use_gravity; bool is_kinematic; const char* collision_detection_mode;");
+            sb.AppendLine("};");
+            sb.AppendLine();
+            sb.AppendLine("struct TimedExplosiveData");
+            sb.AppendLine("{");
+            sb.AppendLine("    const char* name;");
+            sb.AppendLine("    const char* prefab_path;");
+            sb.AppendLine("    std::uint32_t hash;");
+            sb.AppendLine("    const char* concrete_type;");
+            sb.AppendLine("    std::size_t first_type;");
+            sb.AppendLine("    std::size_t type_count;");
+            sb.AppendLine("    float timer_min;");
+            sb.AppendLine("    float timer_max;");
+            sb.AppendLine("    float min_explosion_radius;");
+            sb.AppendLine("    float explosion_radius;");
+            sb.AppendLine("    bool explode_on_contact;");
+            sb.AppendLine("    bool can_stick;");
+            sb.AppendLine("    bool force_run_clipping_checks;");
+            sb.AppendLine("    bool only_damage_parent;");
+            sb.AppendLine("    bool ignore_ai;");
+            sb.AppendLine("    bool blind_ai;");
+            sb.AppendLine("    float ai_blind_duration;");
+            sb.AppendLine("    float ai_blind_range;");
+            sb.AppendLine("    const char* explosion_offset_mode;");
+            sb.AppendLine("    Vec3 explosion_effect_offset;");
+            sb.AppendLine("    bool explosion_matches_normal;");
+            sb.AppendLine("    bool explosion_uses_forward;");
+            sb.AppendLine("    bool explosion_matches_orientation;");
+            sb.AppendLine("    bool explosion_matches_velocity;");
+            sb.AppendLine("    bool explosion_matches_inverse_velocity;");
+            sb.AppendLine("    ResourceRefData explosion_effect;");
+            sb.AppendLine("    ResourceRefData underwater_explosion_effect;");
+            sb.AppendLine("    ResourceRefData stick_effect;");
+            sb.AppendLine("    ResourceRefData bounce_effect;");
+            sb.AppendLine("    ResourceRefData watersurface_explosion_effect;");
+            sb.AppendLine("    float underwater_explosion_depth;");
+            sb.AppendLine("    Vec2 watersurface_explosion_depth;");
+            sb.AppendLine("    bool water_causes_explosion;");
+            sb.AppendLine("    bool always_run_water_check;");
+            sb.AppendLine("    int vibration_level;");
+            sb.AppendLine("    std::size_t first_damage;");
+            sb.AppendLine("    std::size_t damage_count;");
+            sb.AppendLine("    std::size_t first_player_damage;");
+            sb.AppendLine("    std::size_t player_damage_count;");
+            sb.AppendLine("    bool splash_wallpaper_through_walls;");
+            sb.AppendLine("    RigidbodyData rigidbody;");
+            sb.AppendLine("    std::size_t first_extra_field;");
+            sb.AppendLine("    std::size_t extra_field_count;");
+            sb.AppendLine("};");
+            sb.AppendLine();
+
+            AppendStringArray(
+                sb,
+                "kTypeNames",
+                job.TimedExplosives.SelectMany(x => x.type_chain));
+            AppendDamageArray(
+                sb,
+                "kDamageTypes",
+                job.TimedExplosives.SelectMany(x => x.damage_types));
+            AppendDamageArray(
+                sb,
+                "kPlayerDamage",
+                job.TimedExplosives.SelectMany(x => x.player_damage));
+            AppendExtraFieldArray(
+                sb,
+                "kExtraFields",
+                job.TimedExplosives.SelectMany(x => x.extra_fields));
+
+            sb.AppendLine("inline constexpr std::size_t kCount = " + job.TimedExplosives.Count + ";");
+            sb.AppendLine("inline constexpr TimedExplosiveData kData[kCount == 0 ? 1 : kCount] =");
+            sb.AppendLine("{");
+
+            int firstType = 0;
+            int firstDamage = 0;
+            int firstPlayerDamage = 0;
+            int firstExtraField = 0;
+            for (int i = 0; i < job.TimedExplosives.Count; i++)
+            {
+                TimedExplosiveRecord item = job.TimedExplosives[i];
+                AppendTimedExplosive(
+                    sb,
+                    item,
+                    firstType,
+                    firstDamage,
+                    firstPlayerDamage,
+                    firstExtraField,
+                    i + 1 < job.TimedExplosives.Count);
+                firstType += item.type_chain.Count;
+                firstDamage += item.damage_types.Count;
+                firstPlayerDamage += item.player_damage.Count;
+                firstExtraField += item.extra_fields.Count;
+            }
+
+            sb.AppendLine("};");
+            sb.AppendLine();
+            AppendHashLookup(
+                sb,
+                "TimedExplosiveData",
+                job.TimedExplosives.Select(x => new HashEntry(x.hash, x.name)).ToList());
+            AppendPathLookup(sb, "TimedExplosiveData");
+            sb.AppendLine("} // namespace TimedExplosives");
+            sb.AppendLine("} // namespace RustData");
+            sb.AppendLine();
+            sb.AppendLine("#endif // RUST_DATA_TIMED_EXPLOSIVE_DATA_HPP");
+            return sb.ToString();
+        }
+
+        private static void AppendTimedExplosive(
+            StringBuilder sb,
+            TimedExplosiveRecord x,
+            int firstType,
+            int firstDamage,
+            int firstPlayerDamage,
+            int firstExtraField,
+            bool comma)
+        {
+            sb.AppendLine("    // " + x.prefab_path);
+            sb.AppendLine("    {");
+            sb.AppendLine("        \"" + EscapeCpp(x.name) + "\", \"" +
+                          EscapeCpp(x.prefab_path) + "\", " + x.hash + "U, \"" +
+                          EscapeCpp(x.concrete_type) + "\", " + firstType + ", " +
+                          x.type_chain.Count + ",");
+            sb.AppendLine("        " + F(x.timer_min) + ", " + F(x.timer_max) + ", " +
+                          F(x.min_explosion_radius) + ", " + F(x.explosion_radius) + ",");
+            sb.AppendLine("        " + B(x.explode_on_contact) + ", " + B(x.can_stick) + ", " +
+                          B(x.force_run_clipping_checks) + ", " + B(x.only_damage_parent) + ",");
+            sb.AppendLine("        " + B(x.ignore_ai) + ", " + B(x.blind_ai) + ", " +
+                          F(x.ai_blind_duration) + ", " + F(x.ai_blind_range) + ",");
+            sb.AppendLine("        \"" + EscapeCpp(x.explosion_offset_mode) + "\", " +
+                          V3(x.explosion_effect_offset) + ", " +
+                          B(x.explosion_matches_normal) + ", " +
+                          B(x.explosion_uses_forward) + ", " +
+                          B(x.explosion_matches_orientation) + ", " +
+                          B(x.explosion_matches_velocity) + ", " +
+                          B(x.explosion_matches_inverse_velocity) + ",");
+            sb.AppendLine("        " + ResourceRefCpp(x.explosion_effect) + ",");
+            sb.AppendLine("        " + ResourceRefCpp(x.underwater_explosion_effect) + ",");
+            sb.AppendLine("        " + ResourceRefCpp(x.stick_effect) + ",");
+            sb.AppendLine("        " + ResourceRefCpp(x.bounce_effect) + ",");
+            sb.AppendLine("        " + ResourceRefCpp(x.watersurface_explosion_effect) + ",");
+            sb.AppendLine("        " + F(x.underwater_explosion_depth) + ", " +
+                          V2(x.watersurface_explosion_depth) + ", " +
+                          B(x.water_causes_explosion) + ", " +
+                          B(x.always_run_water_check) + ", " + x.vibration_level + ",");
+            sb.AppendLine("        " + firstDamage + ", " + x.damage_types.Count + ", " +
+                          firstPlayerDamage + ", " + x.player_damage.Count + ", " +
+                          B(x.splash_wallpaper_through_walls) + ",");
+            sb.AppendLine("        { " + B(x.rigidbody.present) + ", " +
+                          F(x.rigidbody.mass) + ", " + F(x.rigidbody.drag) + ", " +
+                          F(x.rigidbody.angular_drag) + ", " +
+                          B(x.rigidbody.use_gravity) + ", " +
+                          B(x.rigidbody.is_kinematic) + ", \"" +
+                          EscapeCpp(x.rigidbody.collision_detection_mode) + "\" },");
+            sb.AppendLine("        " +
+                          firstExtraField + ", " + x.extra_fields.Count);
+            sb.AppendLine(comma ? "    }," : "    }");
+        }
+
+        private static string BuildThrownWeaponHeader(DumpJob job)
+        {
+            StringBuilder sb = NewHeader(
+                "Rust ThrownWeapon Data",
+                job.GeneratedUtc,
+                job.TargetBuild,
+                job.ThrownWeapons.Count);
+            sb.AppendLine("#pragma once");
+            sb.AppendLine("#ifndef RUST_DATA_THROWN_WEAPON_DATA_HPP");
+            sb.AppendLine("#define RUST_DATA_THROWN_WEAPON_DATA_HPP");
+            sb.AppendLine();
+            sb.AppendLine("#include <cstddef>");
+            sb.AppendLine("#include <cstdint>");
+            sb.AppendLine("#include <cstring>");
+            sb.AppendLine("#include <limits>");
+            sb.AppendLine();
+            sb.AppendLine("namespace RustData");
+            sb.AppendLine("{");
+            sb.AppendLine("namespace ThrownWeapons");
+            sb.AppendLine("{");
+            sb.AppendLine();
+            sb.AppendLine("struct Vec3 { float x; float y; float z; };");
+            sb.AppendLine("struct ResourceRefData { const char* path; std::uint32_t id; bool is_valid; };");
+            sb.AppendLine("struct ExtraFieldData { const char* name; const char* declaring_type; const char* value_type; const char* value; };");
+            sb.AppendLine("struct AttackData { float deploy_delay; float repeat_delay; float animation_delay; };");
+            sb.AppendLine("struct NpcData");
+            sb.AppendLine("{");
+            sb.AppendLine("    float effective_range; float damage_scale;");
+            sb.AppendLine("    float attack_length_min; float attack_length_max; float attack_spacing;");
+            sb.AppendLine("    float aim_sway_offset; float aim_cone; bool only_in_range;");
+            sb.AppendLine("    float close_range_addition; float medium_range_addition; float long_range_addition;");
+            sb.AppendLine("    bool can_use_at_medium_range; bool can_use_at_long_range;");
+            sb.AppendLine("};");
+            sb.AppendLine("struct HeldData");
+            sb.AppendLine("{");
+            sb.AppendLine("    bool can_use_with_shield; bool is_building_tool; float hostility_score;");
+            sb.AppendLine("    Vec3 first_person_arm_offset; Vec3 first_person_arm_rotation;");
+            sb.AppendLine("    float first_person_rotation_strength;");
+            sb.AppendLine("};");
+            sb.AppendLine();
+            sb.AppendLine("struct ThrownWeaponData");
+            sb.AppendLine("{");
+            sb.AppendLine("    const char* name;");
+            sb.AppendLine("    const char* prefab_path;");
+            sb.AppendLine("    std::uint32_t hash;");
+            sb.AppendLine("    const char* concrete_type;");
+            sb.AppendLine("    std::size_t first_type;");
+            sb.AppendLine("    std::size_t type_count;");
+            sb.AppendLine("    std::size_t first_item_shortname;");
+            sb.AppendLine("    std::size_t item_shortname_count;");
+            sb.AppendLine("    ResourceRefData prefab_to_throw;");
+            sb.AppendLine("    bool throws_timed_explosive;");
+            sb.AppendLine("    const char* thrown_explosive_type;");
+            sb.AppendLine("    float max_throw_velocity;");
+            sb.AppendLine("    float tumble_velocity;");
+            sb.AppendLine("    Vec3 override_angle;");
+            sb.AppendLine("    bool can_stick;");
+            sb.AppendLine("    bool can_throw_underwater;");
+            sb.AppendLine("    bool can_throw_from_helicopter;");
+            sb.AppendLine("    const char* throw_object_root_name;");
+            sb.AppendLine("    AttackData attack;");
+            sb.AppendLine("    NpcData npc;");
+            sb.AppendLine("    HeldData held;");
+            sb.AppendLine("    std::size_t first_extra_field;");
+            sb.AppendLine("    std::size_t extra_field_count;");
+            sb.AppendLine("};");
+            sb.AppendLine();
+
+            AppendStringArray(
+                sb,
+                "kTypeNames",
+                job.ThrownWeapons.SelectMany(x => x.type_chain));
+            AppendStringArray(
+                sb,
+                "kItemShortnames",
+                job.ThrownWeapons.SelectMany(x => x.item_shortnames));
+            AppendExtraFieldArray(
+                sb,
+                "kExtraFields",
+                job.ThrownWeapons.SelectMany(x => x.extra_fields));
+
+            sb.AppendLine("inline constexpr std::size_t kCount = " + job.ThrownWeapons.Count + ";");
+            sb.AppendLine("inline constexpr ThrownWeaponData kData[kCount == 0 ? 1 : kCount] =");
+            sb.AppendLine("{");
+
+            int firstType = 0;
+            int firstItem = 0;
+            int firstExtraField = 0;
+            for (int i = 0; i < job.ThrownWeapons.Count; i++)
+            {
+                ThrownWeaponRecord item = job.ThrownWeapons[i];
+                AppendThrownWeapon(
+                    sb,
+                    item,
+                    firstType,
+                    firstItem,
+                    firstExtraField,
+                    i + 1 < job.ThrownWeapons.Count);
+                firstType += item.type_chain.Count;
+                firstItem += item.item_shortnames.Count;
+                firstExtraField += item.extra_fields.Count;
+            }
+
+            sb.AppendLine("};");
+            sb.AppendLine();
+            AppendHashLookup(
+                sb,
+                "ThrownWeaponData",
+                job.ThrownWeapons.Select(x => new HashEntry(x.hash, x.name)).ToList());
+            AppendPathLookup(sb, "ThrownWeaponData");
+            sb.AppendLine();
+            sb.AppendLine("inline bool HasItemShortname(const ThrownWeaponData* weapon, const char* shortname) noexcept");
+            sb.AppendLine("{");
+            sb.AppendLine("    if (!weapon || !shortname) return false;");
+            sb.AppendLine("    for (std::size_t i = 0; i < weapon->item_shortname_count; ++i)");
+            sb.AppendLine("        if (std::strcmp(kItemShortnames[weapon->first_item_shortname + i], shortname) == 0) return true;");
+            sb.AppendLine("    return false;");
+            sb.AppendLine("}");
+            sb.AppendLine("} // namespace ThrownWeapons");
+            sb.AppendLine("} // namespace RustData");
+            sb.AppendLine();
+            sb.AppendLine("#endif // RUST_DATA_THROWN_WEAPON_DATA_HPP");
+            return sb.ToString();
+        }
+
+        private static void AppendThrownWeapon(
+            StringBuilder sb,
+            ThrownWeaponRecord x,
+            int firstType,
+            int firstItem,
+            int firstExtraField,
+            bool comma)
+        {
+            sb.AppendLine("    // " + x.prefab_path);
+            sb.AppendLine("    {");
+            sb.AppendLine("        \"" + EscapeCpp(x.name) + "\", \"" +
+                          EscapeCpp(x.prefab_path) + "\", " + x.hash + "U, \"" +
+                          EscapeCpp(x.concrete_type) + "\", " + firstType + ", " +
+                          x.type_chain.Count + ", " + firstItem + ", " +
+                          x.item_shortnames.Count + ",");
+            sb.AppendLine("        " + ResourceRefCpp(x.prefab_to_throw) + ", " +
+                          B(x.throws_timed_explosive) + ", \"" +
+                          EscapeCpp(x.thrown_explosive_type) + "\",");
+            sb.AppendLine("        " + F(x.max_throw_velocity) + ", " + F(x.tumble_velocity) +
+                          ", " + V3(x.override_angle) + ", " + B(x.can_stick) + ", " +
+                          B(x.can_throw_underwater) + ", " +
+                          B(x.can_throw_from_helicopter) + ", \"" +
+                          EscapeCpp(x.throw_object_root_name) + "\",");
+            sb.AppendLine("        { " + F(x.attack.deploy_delay) + ", " +
+                          F(x.attack.repeat_delay) + ", " +
+                          F(x.attack.animation_delay) + " },");
+            sb.AppendLine("        { " + F(x.npc.effective_range) + ", " +
+                          F(x.npc.damage_scale) + ", " + F(x.npc.attack_length_min) + ", " +
+                          F(x.npc.attack_length_max) + ", " + F(x.npc.attack_spacing) + ", " +
+                          F(x.npc.aim_sway_offset) + ", " + F(x.npc.aim_cone) + ", " +
+                          B(x.npc.only_in_range) + ", " + F(x.npc.close_range_addition) + ", " +
+                          F(x.npc.medium_range_addition) + ", " +
+                          F(x.npc.long_range_addition) + ", " +
+                          B(x.npc.can_use_at_medium_range) + ", " +
+                          B(x.npc.can_use_at_long_range) + " },");
+            sb.AppendLine("        { " + B(x.held.can_use_with_shield) + ", " +
+                          B(x.held.is_building_tool) + ", " + F(x.held.hostility_score) + ", " +
+                          V3(x.held.first_person_arm_offset) + ", " +
+                          V3(x.held.first_person_arm_rotation) + ", " +
+                          F(x.held.first_person_rotation_strength) + " },");
+            sb.AppendLine("        " + firstExtraField + ", " + x.extra_fields.Count);
+            sb.AppendLine(comma ? "    }," : "    }");
+        }
+
+        private static void AppendStringArray(
+            StringBuilder sb,
+            string name,
+            IEnumerable<string> values)
+        {
+            List<string> data = values.ToList();
+            sb.AppendLine("inline constexpr std::size_t " + name + "Count = " + data.Count + ";");
+            sb.AppendLine("inline constexpr const char* " + name + "[" + name + "Count == 0 ? 1 : " + name + "Count] =");
+            sb.AppendLine("{");
+            foreach (string value in data)
+            {
+                sb.AppendLine("    \"" + EscapeCpp(value) + "\",");
+            }
+            sb.AppendLine("};");
+            sb.AppendLine();
+        }
+
+        private static void AppendDamageArray(
+            StringBuilder sb,
+            string name,
+            IEnumerable<DamageTypeRecord> values)
+        {
+            List<DamageTypeRecord> data = values.ToList();
+            sb.AppendLine("inline constexpr std::size_t " + name + "Count = " + data.Count + ";");
+            sb.AppendLine("inline constexpr DamageData " + name + "[" + name + "Count == 0 ? 1 : " + name + "Count] =");
+            sb.AppendLine("{");
+            foreach (DamageTypeRecord value in data)
+            {
+                sb.AppendLine("    { \"" + EscapeCpp(value.type) + "\", " + F(value.amount) + " },");
+            }
+            sb.AppendLine("};");
+            sb.AppendLine();
+        }
+
+        private static void AppendExtraFieldArray(
+            StringBuilder sb,
+            string name,
+            IEnumerable<ComponentFieldRecord> values)
+        {
+            List<ComponentFieldRecord> data = values.ToList();
+            sb.AppendLine("inline constexpr std::size_t " + name + "Count = " + data.Count + ";");
+            sb.AppendLine("inline constexpr ExtraFieldData " + name + "[" + name + "Count == 0 ? 1 : " + name + "Count] =");
+            sb.AppendLine("{");
+            foreach (ComponentFieldRecord value in data)
+            {
+                sb.AppendLine("    { \"" + EscapeCpp(value.name) + "\", \"" +
+                              EscapeCpp(value.declaring_type) + "\", \"" +
+                              EscapeCpp(value.value_type) + "\", \"" +
+                              EscapeCpp(value.value) + "\" },");
+            }
+            sb.AppendLine("};");
+            sb.AppendLine();
+        }
+
+        private static void AppendPathLookup(StringBuilder sb, string typeName)
+        {
+            sb.AppendLine();
+            sb.AppendLine("inline const " + typeName + "* GetByPrefabPath(const char* path) noexcept");
+            sb.AppendLine("{");
+            sb.AppendLine("    if (!path) return nullptr;");
+            sb.AppendLine("    for (std::size_t i = 0; i < kCount; ++i)");
+            sb.AppendLine("        if (std::strcmp(kData[i].prefab_path, path) == 0) return &kData[i];");
+            sb.AppendLine("    return nullptr;");
+            sb.AppendLine("}");
+        }
+
+        private static string ResourceRefCpp(ResourceRefRecord value)
+        {
+            return "{ \"" + EscapeCpp(value.path) + "\", " +
+                   value.id.ToString(Invariant) + "U, " + B(value.is_valid) + " }";
+        }
+
         private static string BuildWeaponHeader(DumpJob job)
         {
             StringBuilder sb = NewHeader("Rust Weapon Data", job.GeneratedUtc, job.TargetBuild, job.Weapons.Count);
@@ -2037,6 +2885,7 @@ namespace Oxide.Plugins
             sb.AppendLine("#define RUST_DATA_ITEM_TYPE_MAP_HPP");
             sb.AppendLine();
             sb.AppendLine("#include <cstddef>");
+            sb.AppendLine("#include <cstdint>");
             sb.AppendLine("#include <cstring>");
             sb.AppendLine();
             sb.AppendLine("namespace RustData");
@@ -2048,6 +2897,7 @@ namespace Oxide.Plugins
             sb.AppendLine("{");
             sb.AppendLine("    const char* name;");
             sb.AppendLine("    const char* prefab_path;");
+            sb.AppendLine("    std::uint32_t prefab_id;");
             sb.AppendLine("    const char* concrete_type;");
             sb.AppendLine("    std::size_t first_type;");
             sb.AppendLine("    std::size_t type_count;");
@@ -2081,7 +2931,8 @@ namespace Oxide.Plugins
                 sb.AppendLine(
                     "    { \"" + EscapeCpp(item.name) +
                     "\", \"" + EscapeCpp(item.prefab_path) +
-                    "\", \"" + EscapeCpp(item.concrete_type) +
+                    "\", " + item.prefab_id.ToString(Invariant) + "U, \"" +
+                    EscapeCpp(item.concrete_type) +
                     "\", " + firstType +
                     ", " + item.type_chain.Count +
                     " }" + suffix);
@@ -2096,6 +2947,34 @@ namespace Oxide.Plugins
             sb.AppendLine("    for (std::size_t i = 0; i < kCount; ++i)");
             sb.AppendLine("        if (std::strcmp(kData[i].name, name) == 0) return &kData[i];");
             sb.AppendLine("    return nullptr;");
+            sb.AppendLine("}");
+            sb.AppendLine();
+            sb.AppendLine("inline const ItemTypeEntry* GetByPrefabId(std::uint32_t prefab_id) noexcept");
+            sb.AppendLine("{");
+            sb.AppendLine("    switch (prefab_id)");
+            sb.AppendLine("    {");
+
+            HashSet<uint> emittedPrefabIds = new HashSet<uint>();
+            for (int i = 0; i < job.HeldItems.Count; i++)
+            {
+                HeldItemRecord item = job.HeldItems[i];
+                if (item.prefab_id == 0U || !emittedPrefabIds.Add(item.prefab_id))
+                {
+                    continue;
+                }
+
+                sb.AppendLine("    case " + item.prefab_id.ToString(Invariant) +
+                              "U: return &kData[" + i + "]; // " + item.name);
+            }
+
+            sb.AppendLine("    default: return nullptr;");
+            sb.AppendLine("    }");
+            sb.AppendLine("}");
+            sb.AppendLine();
+            sb.AppendLine("inline std::uint32_t GetPrefabId(const char* name) noexcept");
+            sb.AppendLine("{");
+            sb.AppendLine("    const ItemTypeEntry* item = Get(name);");
+            sb.AppendLine("    return item ? item->prefab_id : 0U;");
             sb.AppendLine("}");
             sb.AppendLine();
             sb.AppendLine("inline const char* GetConcreteType(const char* name) noexcept");
@@ -2275,10 +3154,14 @@ namespace Oxide.Plugins
                 new Dictionary<string, List<AmmoSourceRecord>>(StringComparer.OrdinalIgnoreCase);
             public HashSet<string> WeaponKeys = new HashSet<string>(StringComparer.Ordinal);
             public HashSet<uint> ProjectileHashes = new HashSet<uint>();
+            public HashSet<uint> TimedExplosiveHashes = new HashSet<uint>();
+            public HashSet<uint> ThrownWeaponHashes = new HashSet<uint>();
             public List<ItemRecord> Items = new List<ItemRecord>();
             public List<WeaponRecord> Weapons = new List<WeaponRecord>();
             public List<ProjectileRecord> Projectiles = new List<ProjectileRecord>();
             public List<HeldItemRecord> HeldItems = new List<HeldItemRecord>();
+            public List<TimedExplosiveRecord> TimedExplosives = new List<TimedExplosiveRecord>();
+            public List<ThrownWeaponRecord> ThrownWeapons = new List<ThrownWeaponRecord>();
         }
 
         private sealed class JsonEnvelope<T>
@@ -2404,6 +3287,99 @@ namespace Oxide.Plugins
         {
             public string type;
             public float amount;
+        }
+
+        private sealed class ResourceRefRecord
+        {
+            public string path;
+            public uint id;
+            public bool is_valid;
+        }
+
+        private sealed class ComponentFieldRecord
+        {
+            public string name;
+            public string declaring_type;
+            public string value_type;
+            public string value;
+        }
+
+        private sealed class TimedExplosiveRecord
+        {
+            public string name;
+            public string prefab_path;
+            public uint hash;
+            public string concrete_type;
+            public List<string> type_chain;
+            public float timer_min;
+            public float timer_max;
+            public float min_explosion_radius;
+            public float explosion_radius;
+            public bool explode_on_contact;
+            public bool can_stick;
+            public bool force_run_clipping_checks;
+            public bool only_damage_parent;
+            public bool ignore_ai;
+            public bool blind_ai;
+            public float ai_blind_duration;
+            public float ai_blind_range;
+            public string explosion_offset_mode;
+            public Vec3Record explosion_effect_offset;
+            public bool explosion_matches_normal;
+            public bool explosion_uses_forward;
+            public bool explosion_matches_orientation;
+            public bool explosion_matches_velocity;
+            public bool explosion_matches_inverse_velocity;
+            public ResourceRefRecord explosion_effect;
+            public ResourceRefRecord underwater_explosion_effect;
+            public ResourceRefRecord stick_effect;
+            public ResourceRefRecord bounce_effect;
+            public ResourceRefRecord watersurface_explosion_effect;
+            public float underwater_explosion_depth;
+            public Vec2Record watersurface_explosion_depth;
+            public bool water_causes_explosion;
+            public bool always_run_water_check;
+            public int vibration_level;
+            public List<DamageTypeRecord> damage_types;
+            public List<DamageTypeRecord> player_damage;
+            public bool splash_wallpaper_through_walls;
+            public RigidbodyRecord rigidbody;
+            public List<ComponentFieldRecord> extra_fields;
+        }
+
+        private sealed class RigidbodyRecord
+        {
+            public bool present;
+            public float mass;
+            public float drag;
+            public float angular_drag;
+            public bool use_gravity;
+            public bool is_kinematic;
+            public string collision_detection_mode;
+        }
+
+        private sealed class ThrownWeaponRecord
+        {
+            public string name;
+            public string prefab_path;
+            public uint hash;
+            public string concrete_type;
+            public List<string> type_chain;
+            public List<string> item_shortnames;
+            public ResourceRefRecord prefab_to_throw;
+            public bool throws_timed_explosive;
+            public string thrown_explosive_type;
+            public float max_throw_velocity;
+            public float tumble_velocity;
+            public Vec3Record override_angle;
+            public bool can_stick;
+            public bool can_throw_underwater;
+            public bool can_throw_from_helicopter;
+            public string throw_object_root_name;
+            public AttackRecord attack;
+            public NpcWeaponRecord npc;
+            public HeldRecord held;
+            public List<ComponentFieldRecord> extra_fields;
         }
 
         private sealed class AmmoSourceRecord
@@ -2578,6 +3554,7 @@ namespace Oxide.Plugins
         private sealed class HeldItemRecord
         {
             public string name;
+            public uint prefab_id;
             public string concrete_type;
             public List<string> type_chain;
             public string prefab_path;

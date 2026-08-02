@@ -1,0 +1,4722 @@
+{
+  "generated_utc": "2026-08-02 15:05:05",
+  "target_build": "Protocol 2631.286.1 / Changeset 158240",
+  "count": 45,
+  "data": [
+    {
+      "name": "rocket_mlrs",
+      "prefab_path": "assets/content/vehicles/mlrs/rocket_mlrs.prefab",
+      "hash": 1467029527,
+      "concrete_type": "MLRSRocket",
+      "type_chain": [
+        "MLRSRocket",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 60.0,
+      "timer_max": 70.0,
+      "min_explosion_radius": 10.0,
+      "explosion_radius": 15.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/content/vehicles/mlrs/effects/pfx_mlrs_rocket_explosion_air.prefab",
+        "id": 2513205737,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 3,
+      "damage_types": [
+        {
+          "type": "Explosion",
+          "amount": 350.0
+        },
+        {
+          "type": "Blunt",
+          "amount": 75.0
+        },
+        {
+          "type": "AntiVehicle",
+          "amount": 75.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": true,
+        "mass": 300.0,
+        "drag": 0.0,
+        "angular_drag": 0.01,
+        "use_gravity": false,
+        "is_kinematic": true,
+        "collision_detection_mode": "Discrete"
+      },
+      "extra_fields": [
+        {
+          "name": "explosionGroundFXPrefab",
+          "declaring_type": "MLRSRocket",
+          "value_type": "GameObjectRef",
+          "value": "assets/content/vehicles/mlrs/effects/pfx_mlrs_rocket_explosion_ground.prefab|1161374517"
+        },
+        {
+          "name": "launchBlastFXPrefab",
+          "declaring_type": "MLRSRocket",
+          "value_type": "GameObjectRef",
+          "value": "assets/content/vehicles/mlrs/effects/pfx_mlrs_backfire.prefab|1350996199"
+        },
+        {
+          "name": "mapMarkerPrefab",
+          "declaring_type": "MLRSRocket",
+          "value_type": "GameObjectRef",
+          "value": "assets/content/vehicles/mlrs/mlrsrocketmarker.prefab|187601267"
+        },
+        {
+          "name": "serverProjectile",
+          "declaring_type": "MLRSRocket",
+          "value_type": "ServerProjectile",
+          "value": "rocket_mlrs (MLRSServerProjectile)"
+        }
+      ]
+    },
+    {
+      "name": "boulder",
+      "prefab_path": "assets/content/vehicles/siegeweapons/catapult/ammo/projectiles/boulder.prefab",
+      "hash": 362061794,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 20.0,
+      "timer_max": 20.0,
+      "min_explosion_radius": 1.0,
+      "explosion_radius": 3.0,
+      "explode_on_contact": true,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.75
+      },
+      "explosion_matches_normal": true,
+      "explosion_uses_forward": true,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/content/vehicles/siegeweapons/catapult/effects/boulder_explosion.prefab",
+        "id": 2469689133,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 0,
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 80.0
+        },
+        {
+          "type": "AntiVehicle",
+          "amount": 50.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "boulder_bee",
+      "prefab_path": "assets/content/vehicles/siegeweapons/catapult/ammo/projectiles/boulder_bee.prefab",
+      "hash": 2899117222,
+      "concrete_type": "BeeGrenade",
+      "type_chain": [
+        "BeeGrenade",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 20.0,
+      "timer_max": 20.0,
+      "min_explosion_radius": 1.0,
+      "explosion_radius": 3.0,
+      "explode_on_contact": true,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.75
+      },
+      "explosion_matches_normal": true,
+      "explosion_uses_forward": true,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/content/vehicles/siegeweapons/catapult/effects/boulder_explosion_bees.prefab",
+        "id": 553851056,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 0,
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 20.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": [
+        {
+          "name": "beeSwarmAmount",
+          "declaring_type": "BeeGrenade",
+          "value_type": "System.Int32",
+          "value": "3"
+        },
+        {
+          "name": "beeSwarmPrefab",
+          "declaring_type": "BeeGrenade",
+          "value_type": "GameObjectRef",
+          "value": "assets/prefabs/npc/beeswarm/beemasterswarm.prefab|3827650729"
+        },
+        {
+          "name": "spawnRadius",
+          "declaring_type": "BeeGrenade",
+          "value_type": "System.Single",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "name": "boulder_explosive",
+      "prefab_path": "assets/content/vehicles/siegeweapons/catapult/ammo/projectiles/boulder_explosive.prefab",
+      "hash": 1913489021,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 8.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 1.0,
+      "explosion_radius": 5.2,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -2.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": true,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/content/effects/explosions/explosion large catapult canisters.prefab",
+        "id": 1572450471,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 2,
+      "damage_types": [
+        {
+          "type": "Explosion",
+          "amount": 275.0
+        },
+        {
+          "type": "Blunt",
+          "amount": 75.0
+        }
+      ],
+      "player_damage": [
+        {
+          "type": "Explosion",
+          "amount": 325.0
+        }
+      ],
+      "splash_wallpaper_through_walls": true,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "boulder_explosive_deployed",
+      "prefab_path": "assets/content/vehicles/siegeweapons/catapult/ammo/projectiles/boulder_explosive_deployed.prefab",
+      "hash": 520730022,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 8.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 1.0,
+      "explosion_radius": 4.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -2.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": true,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 2,
+      "damage_types": [
+        {
+          "type": "Explosion",
+          "amount": 160.0
+        },
+        {
+          "type": "Blunt",
+          "amount": 75.0
+        }
+      ],
+      "player_damage": [
+        {
+          "type": "Explosion",
+          "amount": 225.0
+        }
+      ],
+      "splash_wallpaper_through_walls": true,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "boulder_incendiary",
+      "prefab_path": "assets/content/vehicles/siegeweapons/catapult/ammo/projectiles/boulder_incendiary.prefab",
+      "hash": 3871024251,
+      "concrete_type": "FlameExplosive",
+      "type_chain": [
+        "FlameExplosive",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 100.0,
+      "timer_max": 100.0,
+      "min_explosion_radius": 5.0,
+      "explosion_radius": 6.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.5
+      },
+      "explosion_matches_normal": true,
+      "explosion_uses_forward": true,
+      "explosion_matches_orientation": true,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/content/effects/explosions/explosion flame.prefab",
+        "id": 3922974043,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_large.prefab",
+        "id": 2593130125,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_medium.prefab",
+        "id": 4032387435,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 1,
+      "damage_types": [
+        {
+          "type": "Heat",
+          "amount": 50.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": [
+        {
+          "name": "blockCreateUnderwater",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Boolean",
+          "value": "False"
+        },
+        {
+          "name": "createOnExplode",
+          "declaring_type": "FlameExplosive",
+          "value_type": "GameObjectRef",
+          "value": "assets/bundled/prefabs/fireball_catapult.prefab|1409563449"
+        },
+        {
+          "name": "forceUpForExplosion",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Boolean",
+          "value": "False"
+        },
+        {
+          "name": "maxVelocity",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "6"
+        },
+        {
+          "name": "minVelocity",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "2"
+        },
+        {
+          "name": "numToCreate",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "4"
+        },
+        {
+          "name": "spreadAngle",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "90"
+        },
+        {
+          "name": "spreadCurve",
+          "declaring_type": "FlameExplosive",
+          "value_type": "UnityEngine.AnimationCurve",
+          "value": "UnityEngine.AnimationCurve"
+        },
+        {
+          "name": "velocityCurve",
+          "declaring_type": "FlameExplosive",
+          "value_type": "UnityEngine.AnimationCurve",
+          "value": "UnityEngine.AnimationCurve"
+        }
+      ]
+    },
+    {
+      "name": "boulder_incendiary_deployed",
+      "prefab_path": "assets/content/vehicles/siegeweapons/catapult/ammo/projectiles/boulder_incendiary_deployed.prefab",
+      "hash": 3051519634,
+      "concrete_type": "FlameExplosive",
+      "type_chain": [
+        "FlameExplosive",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 100.0,
+      "timer_max": 100.0,
+      "min_explosion_radius": 5.0,
+      "explosion_radius": 6.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.5
+      },
+      "explosion_matches_normal": true,
+      "explosion_uses_forward": true,
+      "explosion_matches_orientation": true,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 1,
+      "damage_types": [
+        {
+          "type": "Heat",
+          "amount": 50.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": [
+        {
+          "name": "blockCreateUnderwater",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Boolean",
+          "value": "False"
+        },
+        {
+          "name": "createOnExplode",
+          "declaring_type": "FlameExplosive",
+          "value_type": "GameObjectRef",
+          "value": "assets/bundled/prefabs/fireball_catapult.prefab|1409563449"
+        },
+        {
+          "name": "forceUpForExplosion",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Boolean",
+          "value": "False"
+        },
+        {
+          "name": "maxVelocity",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "6"
+        },
+        {
+          "name": "minVelocity",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "2"
+        },
+        {
+          "name": "numToCreate",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "4"
+        },
+        {
+          "name": "spreadAngle",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "90"
+        },
+        {
+          "name": "spreadCurve",
+          "declaring_type": "FlameExplosive",
+          "value_type": "UnityEngine.AnimationCurve",
+          "value": "UnityEngine.AnimationCurve"
+        },
+        {
+          "name": "velocityCurve",
+          "declaring_type": "FlameExplosive",
+          "value_type": "UnityEngine.AnimationCurve",
+          "value": "UnityEngine.AnimationCurve"
+        }
+      ]
+    },
+    {
+      "name": "boulder_mid",
+      "prefab_path": "assets/content/vehicles/siegeweapons/catapult/ammo/projectiles/boulder_mid.prefab",
+      "hash": 4081160652,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 20.0,
+      "timer_max": 20.0,
+      "min_explosion_radius": 1.0,
+      "explosion_radius": 3.0,
+      "explode_on_contact": true,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.75
+      },
+      "explosion_matches_normal": true,
+      "explosion_uses_forward": true,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/content/vehicles/siegeweapons/catapult/effects/boulder_explosion_mid.prefab",
+        "id": 1290556078,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 0,
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 40.0
+        },
+        {
+          "type": "AntiVehicle",
+          "amount": 25.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "boulder_small",
+      "prefab_path": "assets/content/vehicles/siegeweapons/catapult/ammo/projectiles/boulder_small.prefab",
+      "hash": 1034606242,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 20.0,
+      "timer_max": 20.0,
+      "min_explosion_radius": 1.0,
+      "explosion_radius": 3.0,
+      "explode_on_contact": true,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.75
+      },
+      "explosion_matches_normal": true,
+      "explosion_uses_forward": true,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/content/vehicles/siegeweapons/catapult/effects/boulder_explosion_small.prefab",
+        "id": 2157156918,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 0,
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 20.0
+        },
+        {
+          "type": "AntiVehicle",
+          "amount": 12.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "_40mm_grenade_he",
+      "prefab_path": "assets/prefabs/ammo/40mmgrenade/40mm_grenade_he.prefab",
+      "hash": 1859672190,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 8.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 1.0,
+      "explosion_radius": 4.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.2
+      },
+      "explosion_matches_normal": true,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/ammo/40mmgrenade/effects/40mm_he_explosion.prefab",
+        "id": 133790274,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_medium.prefab",
+        "id": 3262650776,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_medium.prefab",
+        "id": 4032387435,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 2,
+      "damage_types": [
+        {
+          "type": "Explosion",
+          "amount": 35.0
+        },
+        {
+          "type": "Blunt",
+          "amount": 55.0
+        }
+      ],
+      "player_damage": [
+        {
+          "type": "Explosion",
+          "amount": 90.0
+        }
+      ],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "_40mm_grenade_smoke",
+      "prefab_path": "assets/prefabs/ammo/40mmgrenade/40mm_grenade_smoke.prefab",
+      "hash": 1502533292,
+      "concrete_type": "SmokeGrenade",
+      "type_chain": [
+        "SmokeGrenade",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 3.0,
+      "timer_max": 3.0,
+      "min_explosion_radius": 1.5,
+      "explosion_radius": 4.5,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "bounce_effect": {
+        "path": "assets/prefabs/weapons/f1 grenade/effects/bounce.prefab",
+        "id": 977761430,
+        "is_valid": true
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 3,
+      "damage_types": [],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": [
+        {
+          "name": "fieldMax",
+          "declaring_type": "SmokeGrenade",
+          "value_type": "System.Single",
+          "value": "6"
+        },
+        {
+          "name": "fieldMin",
+          "declaring_type": "SmokeGrenade",
+          "value_type": "System.Single",
+          "value": "4"
+        },
+        {
+          "name": "igniteSound",
+          "declaring_type": "SmokeGrenade",
+          "value_type": "GameObjectRef",
+          "value": "assets/prefabs/tools/smoke grenade/effects/ignite.prefab|1277383634"
+        },
+        {
+          "name": "smokeDuration",
+          "declaring_type": "SmokeGrenade",
+          "value_type": "System.Single",
+          "value": "45"
+        },
+        {
+          "name": "smokeEffectPrefab",
+          "declaring_type": "SmokeGrenade",
+          "value_type": "GameObjectRef",
+          "value": "assets/prefabs/tools/smoke grenade/effects/smokegrenade_small.prefab|430600702"
+        },
+        {
+          "name": "soundLoop",
+          "declaring_type": "SmokeGrenade",
+          "value_type": "SoundPlayer",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "name": "rocket_basic",
+      "prefab_path": "assets/prefabs/ammo/rocket/rocket_basic.prefab",
+      "hash": 3046924118,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 8.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 1.0,
+      "explosion_radius": 3.8,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.75
+      },
+      "explosion_matches_normal": true,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/weapons/rocketlauncher/effects/rocket_explosion.prefab",
+        "id": 3053816283,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_large.prefab",
+        "id": 2593130125,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_medium.prefab",
+        "id": 4032387435,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 3,
+      "damage_types": [
+        {
+          "type": "Explosion",
+          "amount": 275.0
+        },
+        {
+          "type": "Blunt",
+          "amount": 75.0
+        }
+      ],
+      "player_damage": [
+        {
+          "type": "Explosion",
+          "amount": 350.0
+        }
+      ],
+      "splash_wallpaper_through_walls": true,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "rocket_basic_rpg",
+      "prefab_path": "assets/prefabs/ammo/rocket/rocket_basic_rpg.prefab",
+      "hash": 3967322771,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 8.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 1.0,
+      "explosion_radius": 3.8,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.75
+      },
+      "explosion_matches_normal": true,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/weapons/rocketlauncher/effects/rocket_explosion.prefab",
+        "id": 3053816283,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_large.prefab",
+        "id": 2593130125,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_medium.prefab",
+        "id": 4032387435,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 3,
+      "damage_types": [
+        {
+          "type": "Explosion",
+          "amount": 275.0
+        },
+        {
+          "type": "Blunt",
+          "amount": 75.0
+        }
+      ],
+      "player_damage": [
+        {
+          "type": "Explosion",
+          "amount": 350.0
+        }
+      ],
+      "splash_wallpaper_through_walls": true,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "rocket_fire",
+      "prefab_path": "assets/prefabs/ammo/rocket/rocket_fire.prefab",
+      "hash": 901927673,
+      "concrete_type": "FlameExplosive",
+      "type_chain": [
+        "FlameExplosive",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 8.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 5.0,
+      "explosion_radius": 5.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/weapons/rocketlauncher/effects/rocket_explosion_incendiary.prefab",
+        "id": 1437504946,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_large.prefab",
+        "id": 2593130125,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_medium.prefab",
+        "id": 4032387435,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 1,
+      "damage_types": [
+        {
+          "type": "Heat",
+          "amount": 50.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": [
+        {
+          "name": "blockCreateUnderwater",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Boolean",
+          "value": "False"
+        },
+        {
+          "name": "createOnExplode",
+          "declaring_type": "FlameExplosive",
+          "value_type": "GameObjectRef",
+          "value": "assets/bundled/prefabs/fireball.prefab|3369311876"
+        },
+        {
+          "name": "forceUpForExplosion",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Boolean",
+          "value": "False"
+        },
+        {
+          "name": "maxVelocity",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "6"
+        },
+        {
+          "name": "minVelocity",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "2"
+        },
+        {
+          "name": "numToCreate",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "10"
+        },
+        {
+          "name": "spreadAngle",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "90"
+        },
+        {
+          "name": "spreadCurve",
+          "declaring_type": "FlameExplosive",
+          "value_type": "UnityEngine.AnimationCurve",
+          "value": "UnityEngine.AnimationCurve"
+        },
+        {
+          "name": "velocityCurve",
+          "declaring_type": "FlameExplosive",
+          "value_type": "UnityEngine.AnimationCurve",
+          "value": "UnityEngine.AnimationCurve"
+        }
+      ]
+    },
+    {
+      "name": "rocket_fire_rpg",
+      "prefab_path": "assets/prefabs/ammo/rocket/rocket_fire_rpg.prefab",
+      "hash": 2649360180,
+      "concrete_type": "FlameExplosive",
+      "type_chain": [
+        "FlameExplosive",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 8.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 5.0,
+      "explosion_radius": 5.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/weapons/rocketlauncher/effects/rocket_explosion_incendiary.prefab",
+        "id": 1437504946,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_large.prefab",
+        "id": 2593130125,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_medium.prefab",
+        "id": 4032387435,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 1,
+      "damage_types": [
+        {
+          "type": "Heat",
+          "amount": 50.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": [
+        {
+          "name": "blockCreateUnderwater",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Boolean",
+          "value": "False"
+        },
+        {
+          "name": "createOnExplode",
+          "declaring_type": "FlameExplosive",
+          "value_type": "GameObjectRef",
+          "value": "assets/bundled/prefabs/fireball.prefab|3369311876"
+        },
+        {
+          "name": "forceUpForExplosion",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Boolean",
+          "value": "False"
+        },
+        {
+          "name": "maxVelocity",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "6"
+        },
+        {
+          "name": "minVelocity",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "2"
+        },
+        {
+          "name": "numToCreate",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "10"
+        },
+        {
+          "name": "spreadAngle",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "90"
+        },
+        {
+          "name": "spreadCurve",
+          "declaring_type": "FlameExplosive",
+          "value_type": "UnityEngine.AnimationCurve",
+          "value": "UnityEngine.AnimationCurve"
+        },
+        {
+          "name": "velocityCurve",
+          "declaring_type": "FlameExplosive",
+          "value_type": "UnityEngine.AnimationCurve",
+          "value": "UnityEngine.AnimationCurve"
+        }
+      ]
+    },
+    {
+      "name": "rocket_heatseeker",
+      "prefab_path": "assets/prefabs/ammo/rocket/rocket_heatseeker.prefab",
+      "hash": 288982380,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 12.0,
+      "timer_max": 12.0,
+      "min_explosion_radius": 1.0,
+      "explosion_radius": 3.5,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/weapons/homingmissilelauncher/effects/pfx_manpad_explosion.prefab",
+        "id": 3898459144,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_large.prefab",
+        "id": 2593130125,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_medium.prefab",
+        "id": 4032387435,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 1,
+      "damage_types": [
+        {
+          "type": "Explosion",
+          "amount": 10.0
+        },
+        {
+          "type": "Bullet",
+          "amount": 20.0
+        },
+        {
+          "type": "AntiVehicle",
+          "amount": 500.0
+        }
+      ],
+      "player_damage": [
+        {
+          "type": "Explosion",
+          "amount": 30.0
+        }
+      ],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "rocket_hv",
+      "prefab_path": "assets/prefabs/ammo/rocket/rocket_hv.prefab",
+      "hash": 1217937936,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 8.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 1.0,
+      "explosion_radius": 3.5,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.75
+      },
+      "explosion_matches_normal": true,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/weapons/rocketlauncher/effects/rocket_explosion_hv.prefab",
+        "id": 2253809414,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_large.prefab",
+        "id": 2593130125,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_medium.prefab",
+        "id": 4032387435,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 1,
+      "damage_types": [
+        {
+          "type": "Explosion",
+          "amount": 30.0
+        },
+        {
+          "type": "Bullet",
+          "amount": 150.0
+        },
+        {
+          "type": "AntiVehicle",
+          "amount": 300.0
+        }
+      ],
+      "player_damage": [
+        {
+          "type": "Explosion",
+          "amount": 180.0
+        }
+      ],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "rocket_hv_rpg",
+      "prefab_path": "assets/prefabs/ammo/rocket/rocket_hv_rpg.prefab",
+      "hash": 2062533425,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 8.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 1.0,
+      "explosion_radius": 3.5,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.75
+      },
+      "explosion_matches_normal": true,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/weapons/rocketlauncher/effects/rocket_explosion_hv.prefab",
+        "id": 2253809414,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_large.prefab",
+        "id": 2593130125,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_medium.prefab",
+        "id": 4032387435,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 1,
+      "damage_types": [
+        {
+          "type": "Explosion",
+          "amount": 30.0
+        },
+        {
+          "type": "Bullet",
+          "amount": 150.0
+        },
+        {
+          "type": "AntiVehicle",
+          "amount": 300.0
+        }
+      ],
+      "player_damage": [
+        {
+          "type": "Explosion",
+          "amount": 180.0
+        }
+      ],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "rocket_smoke",
+      "prefab_path": "assets/prefabs/ammo/rocket/rocket_smoke.prefab",
+      "hash": 1790390506,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 8.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 5.0,
+      "explosion_radius": 5.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/weapons/beancan grenade/effects/beancan_grenade_explosion.prefab",
+        "id": 701725454,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_large.prefab",
+        "id": 2593130125,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_medium.prefab",
+        "id": 4032387435,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 1,
+      "damage_types": [
+        {
+          "type": "Poison",
+          "amount": 5.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "torpedostraight",
+      "prefab_path": "assets/prefabs/ammo/torpedo/torpedostraight.prefab",
+      "hash": 110435217,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 15.0,
+      "timer_max": 20.0,
+      "min_explosion_radius": 5.0,
+      "explosion_radius": 5.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_large.prefab",
+        "id": 2588596879,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_large.prefab",
+        "id": 2593130125,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_large.prefab",
+        "id": 2588596879,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 20.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 2,
+      "damage_types": [
+        {
+          "type": "Explosion",
+          "amount": 10.0
+        },
+        {
+          "type": "AntiVehicle",
+          "amount": 300.0
+        },
+        {
+          "type": "Bullet",
+          "amount": 120.0
+        }
+      ],
+      "player_damage": [
+        {
+          "type": "Explosion",
+          "amount": 130.0
+        }
+      ],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "cannonball",
+      "prefab_path": "assets/prefabs/deployable/boatbuilding/cannon/cannonball.prefab",
+      "hash": 1199568476,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 8.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 0.5,
+      "explosion_radius": 3.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.75
+      },
+      "explosion_matches_normal": true,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/deployable/boatbuilding/cannon/effects/cannonball_explosion.prefab",
+        "id": 2284784967,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_large.prefab",
+        "id": 2593130125,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/prefabs/deployable/boatbuilding/cannon/effects/cannonball_explosion_water_surface.prefab",
+        "id": 869281,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 1,
+      "damage_types": [
+        {
+          "type": "AntiVehicle",
+          "amount": 50.0
+        },
+        {
+          "type": "Bullet",
+          "amount": 100.0
+        },
+        {
+          "type": "Blunt",
+          "amount": 100.0
+        },
+        {
+          "type": "Cannon",
+          "amount": 50.0
+        }
+      ],
+      "player_damage": [
+        {
+          "type": "Explosion",
+          "amount": 25.0
+        },
+        {
+          "type": "Bullet",
+          "amount": 100.0
+        }
+      ],
+      "splash_wallpaper_through_walls": true,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "mortar_shell_basic",
+      "prefab_path": "assets/prefabs/deployable/mortar/mortar_shell_basic.prefab",
+      "hash": 3093831259,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 90.0,
+      "timer_max": 120.0,
+      "min_explosion_radius": 1.0,
+      "explosion_radius": 4.5,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.75
+      },
+      "explosion_matches_normal": true,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/deployable/mortar/effects/mortar_explosion_he.prefab",
+        "id": 2221146001,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_large.prefab",
+        "id": 2593130125,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_medium.prefab",
+        "id": 4032387435,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 2,
+      "damage_types": [
+        {
+          "type": "Explosion",
+          "amount": 60.0
+        },
+        {
+          "type": "Blunt",
+          "amount": 75.0
+        },
+        {
+          "type": "AntiVehicle",
+          "amount": 100.0
+        }
+      ],
+      "player_damage": [
+        {
+          "type": "Explosion",
+          "amount": 350.0
+        }
+      ],
+      "splash_wallpaper_through_walls": true,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "mortar_shell_fragment",
+      "prefab_path": "assets/prefabs/deployable/mortar/mortar_shell_fragment.prefab",
+      "hash": 799615933,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 90.0,
+      "timer_max": 120.0,
+      "min_explosion_radius": 1.0,
+      "explosion_radius": 6.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.75
+      },
+      "explosion_matches_normal": true,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/deployable/mortar/effects/mortar_explosion_frag.prefab",
+        "id": 1679407465,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_large.prefab",
+        "id": 2593130125,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_medium.prefab",
+        "id": 4032387435,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 1,
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 75.0
+        },
+        {
+          "type": "AntiVehicle",
+          "amount": 50.0
+        }
+      ],
+      "player_damage": [
+        {
+          "type": "Explosion",
+          "amount": 250.0
+        }
+      ],
+      "splash_wallpaper_through_walls": true,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "firecrackers_deployed",
+      "prefab_path": "assets/prefabs/misc/chinesenewyear/throwablefirecrackers/firecrackers.deployed.prefab",
+      "hash": 3428971889,
+      "concrete_type": "StringFirecracker",
+      "type_chain": [
+        "StringFirecracker",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 15.0,
+      "timer_max": 15.0,
+      "min_explosion_radius": 0.0,
+      "explosion_radius": 1.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": true,
+      "always_run_water_check": false,
+      "vibration_level": 3,
+      "damage_types": [],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": true,
+        "mass": 10.0,
+        "drag": 0.5,
+        "angular_drag": 0.5,
+        "use_gravity": true,
+        "is_kinematic": false,
+        "collision_detection_mode": "ContinuousDynamic"
+      },
+      "extra_fields": [
+        {
+          "name": "clientFirecrackerTransform",
+          "declaring_type": "StringFirecracker",
+          "value_type": "UnityEngine.Transform",
+          "value": ""
+        },
+        {
+          "name": "clientMiddleBody",
+          "declaring_type": "StringFirecracker",
+          "value_type": "UnityEngine.Rigidbody",
+          "value": ""
+        },
+        {
+          "name": "clientParts",
+          "declaring_type": "StringFirecracker",
+          "value_type": "UnityEngine.Rigidbody[]",
+          "value": ";;;;;;;;;"
+        },
+        {
+          "name": "serverClientJoint",
+          "declaring_type": "StringFirecracker",
+          "value_type": "UnityEngine.SpringJoint",
+          "value": ""
+        },
+        {
+          "name": "serverRigidBody",
+          "declaring_type": "StringFirecracker",
+          "value_type": "UnityEngine.Rigidbody",
+          "value": "firecrackers.deployed (UnityEngine.Rigidbody)"
+        }
+      ]
+    },
+    {
+      "name": "eastereggprojectile",
+      "prefab_path": "assets/prefabs/misc/easter/easter basket/eastereggprojectile.prefab",
+      "hash": 3721260684,
+      "concrete_type": "SeasonalTimedExplosive",
+      "type_chain": [
+        "SeasonalTimedExplosive",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 8.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 1.0,
+      "explosion_radius": 2.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/misc/easter/easter basket/effects/eggexplosion.prefab",
+        "id": 2172435534,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 0,
+      "damage_types": [
+        {
+          "type": "Arrow",
+          "amount": 18.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": [
+        {
+          "name": "randomRenderer",
+          "declaring_type": "SeasonalTimedExplosive",
+          "value_type": "RandomRendererEnable",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "name": "candyprojectile",
+      "prefab_path": "assets/prefabs/misc/halloween/candies/candyprojectile.prefab",
+      "hash": 1465468950,
+      "concrete_type": "SeasonalTimedExplosive",
+      "type_chain": [
+        "SeasonalTimedExplosive",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 8.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 1.0,
+      "explosion_radius": 2.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/misc/halloween/candies/candyexplosion.prefab",
+        "id": 256035807,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 0,
+      "damage_types": [
+        {
+          "type": "Arrow",
+          "amount": 20.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": [
+        {
+          "name": "randomRenderer",
+          "declaring_type": "SeasonalTimedExplosive",
+          "value_type": "RandomRendererEnable",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "name": "maincannonshell",
+      "prefab_path": "assets/prefabs/npc/m2bradley/maincannonshell.prefab",
+      "hash": 3032863244,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 8.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 2.0,
+      "explosion_radius": 8.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": true,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/npc/m2bradley/effects/maincannonshell_explosion.prefab",
+        "id": 2977555271,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 1,
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 40.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "rocket_heli",
+      "prefab_path": "assets/prefabs/npc/patrol helicopter/rocket_heli.prefab",
+      "hash": 129320027,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 8.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 2.0,
+      "explosion_radius": 6.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/npc/patrol helicopter/effects/rocket_explosion.prefab",
+        "id": 1741616969,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_large.prefab",
+        "id": 2593130125,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_large.prefab",
+        "id": 2588596879,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 1,
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 175.0
+        },
+        {
+          "type": "Explosion",
+          "amount": 100.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "rocket_heli_airburst",
+      "prefab_path": "assets/prefabs/npc/patrol helicopter/rocket_heli_airburst.prefab",
+      "hash": 3253859536,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 8.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 2.0,
+      "explosion_radius": 6.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": true,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 1,
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 75.0
+        },
+        {
+          "type": "Explosion",
+          "amount": 200.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "rocket_heli_napalm",
+      "prefab_path": "assets/prefabs/npc/patrol helicopter/rocket_heli_napalm.prefab",
+      "hash": 200672762,
+      "concrete_type": "FlameExplosive",
+      "type_chain": [
+        "FlameExplosive",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 8.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 2.0,
+      "explosion_radius": 6.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/npc/patrol helicopter/effects/rocket_explosion.prefab",
+        "id": 1741616969,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_large.prefab",
+        "id": 2593130125,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_large.prefab",
+        "id": 2588596879,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 1,
+      "damage_types": [
+        {
+          "type": "Heat",
+          "amount": 25.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": [
+        {
+          "name": "blockCreateUnderwater",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Boolean",
+          "value": "True"
+        },
+        {
+          "name": "createOnExplode",
+          "declaring_type": "FlameExplosive",
+          "value_type": "GameObjectRef",
+          "value": "assets/bundled/prefabs/napalm.prefab|184893264"
+        },
+        {
+          "name": "forceUpForExplosion",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Boolean",
+          "value": "True"
+        },
+        {
+          "name": "maxVelocity",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "7"
+        },
+        {
+          "name": "minVelocity",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "3"
+        },
+        {
+          "name": "numToCreate",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "3"
+        },
+        {
+          "name": "spreadAngle",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "120"
+        },
+        {
+          "name": "spreadCurve",
+          "declaring_type": "FlameExplosive",
+          "value_type": "UnityEngine.AnimationCurve",
+          "value": "UnityEngine.AnimationCurve"
+        },
+        {
+          "name": "velocityCurve",
+          "declaring_type": "FlameExplosive",
+          "value_type": "UnityEngine.AnimationCurve",
+          "value": "UnityEngine.AnimationCurve"
+        }
+      ]
+    },
+    {
+      "name": "rocket_sam",
+      "prefab_path": "assets/prefabs/npc/sam_site_turret/rocket_sam.prefab",
+      "hash": 2160908677,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 8.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 3.0,
+      "explosion_radius": 5.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/npc/sam_site_turret/effects/rocket_sam_explosion.prefab",
+        "id": 3591459072,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 1,
+      "damage_types": [
+        {
+          "type": "AntiVehicle",
+          "amount": 120.0
+        },
+        {
+          "type": "Blunt",
+          "amount": 35.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "sam_ammo",
+      "prefab_path": "assets/prefabs/npc/sam_site_turret/sam_ammo.prefab",
+      "hash": 3414321847,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 8.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 5.0,
+      "explosion_radius": 5.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/weapons/beancan grenade/effects/beancan_grenade_explosion.prefab",
+        "id": 701725454,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 1,
+      "damage_types": [
+        {
+          "type": "Poison",
+          "amount": 5.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": false,
+        "mass": 0.0,
+        "drag": 0.0,
+        "angular_drag": 0.0,
+        "use_gravity": false,
+        "is_kinematic": false,
+        "collision_detection_mode": ""
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "explosive_timed_deployed",
+      "prefab_path": "assets/prefabs/tools/c4/explosive.timed.deployed.prefab",
+      "hash": 3898309212,
+      "concrete_type": "RFTimedExplosive",
+      "type_chain": [
+        "RFTimedExplosive",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 10.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 0.0,
+      "explosion_radius": 4.0,
+      "explode_on_contact": false,
+      "can_stick": true,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": true,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.3475
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": true,
+      "explosion_matches_orientation": true,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_explosion.prefab",
+        "id": 857997843,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_large.prefab",
+        "id": 2593130125,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_large.prefab",
+        "id": 2588596879,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 20.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 3,
+      "damage_types": [
+        {
+          "type": "Explosion",
+          "amount": 550.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": true,
+      "rigidbody": {
+        "present": true,
+        "mass": 0.2,
+        "drag": 0.0,
+        "angular_drag": 0.05,
+        "use_gravity": true,
+        "is_kinematic": false,
+        "collision_detection_mode": "ContinuousDynamic"
+      },
+      "extra_fields": [
+        {
+          "name": "beepLoop",
+          "declaring_type": "RFTimedExplosive",
+          "value_type": "SoundPlayer",
+          "value": ""
+        },
+        {
+          "name": "minutesUntilDecayed",
+          "declaring_type": "RFTimedExplosive",
+          "value_type": "System.Single",
+          "value": "1440"
+        },
+        {
+          "name": "pickupDefinition",
+          "declaring_type": "RFTimedExplosive",
+          "value_type": "ItemDefinition",
+          "value": "explosive.timed.item (ItemDefinition)"
+        }
+      ]
+    },
+    {
+      "name": "flare_deployed",
+      "prefab_path": "assets/prefabs/tools/flareold/flare.deployed.prefab",
+      "hash": 1693887801,
+      "concrete_type": "RoadFlare",
+      "type_chain": [
+        "RoadFlare",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 110.0,
+      "timer_max": 120.0,
+      "min_explosion_radius": 0.0,
+      "explosion_radius": 1.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": true,
+      "always_run_water_check": false,
+      "vibration_level": 3,
+      "damage_types": [],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": true,
+        "mass": 0.2,
+        "drag": 0.01,
+        "angular_drag": 0.05,
+        "use_gravity": true,
+        "is_kinematic": false,
+        "collision_detection_mode": "ContinuousDynamic"
+      },
+      "extra_fields": [
+        {
+          "name": "FlareLightEx",
+          "declaring_type": "RoadFlare",
+          "value_type": "LightEx",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "name": "grenade_smoke_deployed",
+      "prefab_path": "assets/prefabs/tools/smoke grenade/grenade.smoke.deployed.prefab",
+      "hash": 1464001967,
+      "concrete_type": "SmokeGrenade",
+      "type_chain": [
+        "SmokeGrenade",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 1.0,
+      "timer_max": 1.0,
+      "min_explosion_radius": 1.5,
+      "explosion_radius": 4.5,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "bounce_effect": {
+        "path": "assets/prefabs/weapons/f1 grenade/effects/bounce.prefab",
+        "id": 977761430,
+        "is_valid": true
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 3,
+      "damage_types": [],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": true,
+        "mass": 0.2,
+        "drag": 0.0,
+        "angular_drag": 0.05,
+        "use_gravity": true,
+        "is_kinematic": false,
+        "collision_detection_mode": "ContinuousDynamic"
+      },
+      "extra_fields": [
+        {
+          "name": "fieldMax",
+          "declaring_type": "SmokeGrenade",
+          "value_type": "System.Single",
+          "value": "8"
+        },
+        {
+          "name": "fieldMin",
+          "declaring_type": "SmokeGrenade",
+          "value_type": "System.Single",
+          "value": "5"
+        },
+        {
+          "name": "igniteSound",
+          "declaring_type": "SmokeGrenade",
+          "value_type": "GameObjectRef",
+          "value": "assets/prefabs/tools/smoke grenade/effects/ignite.prefab|1277383634"
+        },
+        {
+          "name": "smokeDuration",
+          "declaring_type": "SmokeGrenade",
+          "value_type": "System.Single",
+          "value": "45"
+        },
+        {
+          "name": "smokeEffectPrefab",
+          "declaring_type": "SmokeGrenade",
+          "value_type": "GameObjectRef",
+          "value": "assets/prefabs/tools/smoke grenade/effects/smokegrenade.prefab|2143839482"
+        },
+        {
+          "name": "soundLoop",
+          "declaring_type": "SmokeGrenade",
+          "value_type": "SoundPlayer",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "name": "grenade_supplysignal_deployed",
+      "prefab_path": "assets/prefabs/tools/supply signal/grenade.supplysignal.deployed.prefab",
+      "hash": 3350651790,
+      "concrete_type": "SupplySignal",
+      "type_chain": [
+        "SupplySignal",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 3.5,
+      "timer_max": 3.5,
+      "min_explosion_radius": 1.5,
+      "explosion_radius": 4.5,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "bounce_effect": {
+        "path": "assets/prefabs/weapons/f1 grenade/effects/bounce.prefab",
+        "id": 977761430,
+        "is_valid": true
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 3,
+      "damage_types": [],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": true,
+        "mass": 0.1,
+        "drag": 0.0,
+        "angular_drag": 0.05,
+        "use_gravity": true,
+        "is_kinematic": false,
+        "collision_detection_mode": "ContinuousDynamic"
+      },
+      "extra_fields": [
+        {
+          "name": "EntityToCreate",
+          "declaring_type": "SupplySignal",
+          "value_type": "GameObjectRef",
+          "value": "assets/prefabs/npc/cargo plane/cargo_plane.prefab|2383782438"
+        },
+        {
+          "name": "smokeEffectPrefab",
+          "declaring_type": "SupplySignal",
+          "value_type": "GameObjectRef",
+          "value": "assets/bundled/prefabs/fx/smoke_signal_full.prefab|2278592883"
+        }
+      ]
+    },
+    {
+      "name": "survey_charge_deployed",
+      "prefab_path": "assets/prefabs/tools/surveycharge/survey_charge.deployed.prefab",
+      "hash": 2141863453,
+      "concrete_type": "SurveyCharge",
+      "type_chain": [
+        "SurveyCharge",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 5.0,
+      "timer_max": 5.0,
+      "min_explosion_radius": 1.0,
+      "explosion_radius": 5.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/bundled/prefabs/fx/survey_explosion.prefab",
+        "id": 135533567,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "assets/bundled/prefabs/fx/weapons/survey_charge/survey_charge_stick.prefab",
+        "id": 3381208271,
+        "is_valid": true
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 0,
+      "damage_types": [
+        {
+          "type": "Explosion",
+          "amount": 8.0
+        },
+        {
+          "type": "Blunt",
+          "amount": 12.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": true,
+        "mass": 0.1,
+        "drag": 0.0,
+        "angular_drag": 0.05,
+        "use_gravity": true,
+        "is_kinematic": false,
+        "collision_detection_mode": "ContinuousDynamic"
+      },
+      "extra_fields": [
+        {
+          "name": "craterPrefab",
+          "declaring_type": "SurveyCharge",
+          "value_type": "GameObjectRef",
+          "value": "assets/prefabs/tools/surveycharge/survey_crater.prefab|2955484243"
+        },
+        {
+          "name": "craterPrefab_Oil",
+          "declaring_type": "SurveyCharge",
+          "value_type": "GameObjectRef",
+          "value": "assets/prefabs/tools/surveycharge/survey_crater_oil.prefab|1917257452"
+        }
+      ]
+    },
+    {
+      "name": "grenade_beancan_deployed",
+      "prefab_path": "assets/prefabs/weapons/beancan grenade/grenade.beancan.deployed.prefab",
+      "hash": 2144399804,
+      "concrete_type": "DudTimedExplosive",
+      "type_chain": [
+        "DudTimedExplosive",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 3.5,
+      "timer_max": 4.0,
+      "min_explosion_radius": 1.5,
+      "explosion_radius": 4.5,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": true,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "World",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/weapons/beancan grenade/effects/beancan_grenade_explosion.prefab",
+        "id": 701725454,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_small.prefab",
+        "id": 2189740440,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "assets/prefabs/weapons/beancan grenade/effects/bounce.prefab",
+        "id": 3052882219,
+        "is_valid": true
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_small.prefab",
+        "id": 286309678,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": true,
+      "vibration_level": 1,
+      "damage_types": [
+        {
+          "type": "Explosion",
+          "amount": 15.0
+        },
+        {
+          "type": "Blunt",
+          "amount": 50.0
+        },
+        {
+          "type": "Stab",
+          "amount": 50.0
+        }
+      ],
+      "player_damage": [
+        {
+          "type": "Explosion",
+          "amount": 115.0
+        }
+      ],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": true,
+        "mass": 0.2,
+        "drag": 0.0,
+        "angular_drag": 0.05,
+        "use_gravity": true,
+        "is_kinematic": false,
+        "collision_detection_mode": "ContinuousDynamic"
+      },
+      "extra_fields": [
+        {
+          "name": "becomeDudInWater",
+          "declaring_type": "DudTimedExplosive",
+          "value_type": "System.Boolean",
+          "value": "True"
+        },
+        {
+          "name": "dudChance",
+          "declaring_type": "DudTimedExplosive",
+          "value_type": "System.Single",
+          "value": "0.15"
+        },
+        {
+          "name": "fizzleEffect",
+          "declaring_type": "DudTimedExplosive",
+          "value_type": "GameObjectRef",
+          "value": "assets/prefabs/weapons/beancan grenade/effects/fuse_extinguish_beancan.prefab|4026468358"
+        },
+        {
+          "name": "itemToGive",
+          "declaring_type": "DudTimedExplosive",
+          "value_type": "ItemDefinition",
+          "value": "grenade.beancan.item (ItemDefinition)"
+        },
+        {
+          "name": "wickSound",
+          "declaring_type": "DudTimedExplosive",
+          "value_type": "UnityEngine.AudioSource",
+          "value": ""
+        },
+        {
+          "name": "wickSpark",
+          "declaring_type": "DudTimedExplosive",
+          "value_type": "UnityEngine.GameObject",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "name": "grenade_bee_deployed",
+      "prefab_path": "assets/prefabs/weapons/bee grenade/grenade.bee.deployed.prefab",
+      "hash": 4036845226,
+      "concrete_type": "BeeGrenade",
+      "type_chain": [
+        "BeeGrenade",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 10.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 2.0,
+      "explosion_radius": 4.0,
+      "explode_on_contact": true,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": true,
+      "ai_blind_duration": 3.0,
+      "ai_blind_range": 5.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": true,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/weapons/bee grenade/effects/bee-grenade-explode.prefab",
+        "id": 3152512321,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "assets/prefabs/weapons/bee grenade/effects/bounce.prefab",
+        "id": 1822198831,
+        "is_valid": true
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 0,
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 10.0
+        },
+        {
+          "type": "Slash",
+          "amount": 10.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": true,
+        "mass": 0.2,
+        "drag": 0.0,
+        "angular_drag": 0.05,
+        "use_gravity": true,
+        "is_kinematic": false,
+        "collision_detection_mode": "ContinuousDynamic"
+      },
+      "extra_fields": [
+        {
+          "name": "beeSwarmAmount",
+          "declaring_type": "BeeGrenade",
+          "value_type": "System.Int32",
+          "value": "1"
+        },
+        {
+          "name": "beeSwarmPrefab",
+          "declaring_type": "BeeGrenade",
+          "value_type": "GameObjectRef",
+          "value": "assets/prefabs/npc/beeswarm/beemasterswarm.prefab|3827650729"
+        },
+        {
+          "name": "spawnRadius",
+          "declaring_type": "BeeGrenade",
+          "value_type": "System.Single",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "name": "grenade_f1_deployed",
+      "prefab_path": "assets/prefabs/weapons/f1 grenade/grenade.f1.deployed.prefab",
+      "hash": 1128089209,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 2.5,
+      "timer_max": 2.5,
+      "min_explosion_radius": 2.0,
+      "explosion_radius": 6.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": true,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/weapons/f1 grenade/effects/f1grenade_explosion.prefab",
+        "id": 4089790239,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_medium.prefab",
+        "id": 3262650776,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "assets/prefabs/weapons/f1 grenade/effects/bounce.prefab",
+        "id": 977761430,
+        "is_valid": true
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_medium.prefab",
+        "id": 4032387435,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 15.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 1,
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 100.0
+        },
+        {
+          "type": "AntiVehicle",
+          "amount": 50.0
+        },
+        {
+          "type": "Bullet",
+          "amount": 75.0
+        }
+      ],
+      "player_damage": [
+        {
+          "type": "Explosion",
+          "amount": 175.0
+        }
+      ],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": true,
+        "mass": 0.2,
+        "drag": 0.0,
+        "angular_drag": 0.05,
+        "use_gravity": true,
+        "is_kinematic": false,
+        "collision_detection_mode": "ContinuousDynamic"
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "grenade_flashbang_deployed",
+      "prefab_path": "assets/prefabs/weapons/flashbang/grenade.flashbang.deployed.prefab",
+      "hash": 1436152685,
+      "concrete_type": "Flashbang",
+      "type_chain": [
+        "Flashbang",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 1.25,
+      "timer_max": 1.25,
+      "min_explosion_radius": 3.0,
+      "explosion_radius": 6.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": true,
+      "ai_blind_duration": 3.0,
+      "ai_blind_range": 5.0,
+      "explosion_offset_mode": "World",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.1,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/weapons/flashbang/effects/fx-flashbang-boom.prefab",
+        "id": 1872825961,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_small.prefab",
+        "id": 2189740440,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "assets/prefabs/weapons/f1 grenade/effects/bounce.prefab",
+        "id": 977761430,
+        "is_valid": true
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_small.prefab",
+        "id": 286309678,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 0,
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 20.0
+        }
+      ],
+      "player_damage": [
+        {
+          "type": "Explosion",
+          "amount": 10.0
+        }
+      ],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": true,
+        "mass": 0.2,
+        "drag": 0.0,
+        "angular_drag": 0.05,
+        "use_gravity": true,
+        "is_kinematic": false,
+        "collision_detection_mode": "ContinuousDynamic"
+      },
+      "extra_fields": [
+        {
+          "name": "deafLoopDef",
+          "declaring_type": "Flashbang",
+          "value_type": "SoundDefinition",
+          "value": "flashbang-deafloop (SoundDefinition)"
+        },
+        {
+          "name": "flashMaxRange",
+          "declaring_type": "Flashbang",
+          "value_type": "System.Single",
+          "value": "10"
+        },
+        {
+          "name": "flashMinRange",
+          "declaring_type": "Flashbang",
+          "value_type": "System.Single",
+          "value": "5"
+        },
+        {
+          "name": "flashReductionPerSecond",
+          "declaring_type": "Flashbang",
+          "value_type": "System.Single",
+          "value": "0.5"
+        },
+        {
+          "name": "flashToAdd",
+          "declaring_type": "Flashbang",
+          "value_type": "System.Single",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "name": "grenade_molotov_deployed",
+      "prefab_path": "assets/prefabs/weapons/molotov cocktail/grenade.molotov.deployed.prefab",
+      "hash": 2144253630,
+      "concrete_type": "FlameExplosive",
+      "type_chain": [
+        "FlameExplosive",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 8.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 1.0,
+      "explosion_radius": 3.0,
+      "explode_on_contact": true,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": true,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/weapons/molotov cocktail/effects/molotovexplode.prefab",
+        "id": 3731256754,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/prefabs/weapons/molotov cocktail/effects/molotovexplodeunderwater.prefab",
+        "id": 815882363,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "assets/prefabs/weapons/f1 grenade/effects/bounce.prefab",
+        "id": 977761430,
+        "is_valid": true
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 0,
+      "damage_types": [
+        {
+          "type": "Heat",
+          "amount": 35.0
+        }
+      ],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": true,
+        "mass": 0.2,
+        "drag": 0.0,
+        "angular_drag": 0.05,
+        "use_gravity": true,
+        "is_kinematic": false,
+        "collision_detection_mode": "ContinuousDynamic"
+      },
+      "extra_fields": [
+        {
+          "name": "blockCreateUnderwater",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Boolean",
+          "value": "True"
+        },
+        {
+          "name": "createOnExplode",
+          "declaring_type": "FlameExplosive",
+          "value_type": "GameObjectRef",
+          "value": "assets/bundled/prefabs/fireball_small_molotov.prefab|2673585394"
+        },
+        {
+          "name": "forceUpForExplosion",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Boolean",
+          "value": "True"
+        },
+        {
+          "name": "maxVelocity",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "8"
+        },
+        {
+          "name": "minVelocity",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "5"
+        },
+        {
+          "name": "numToCreate",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "5"
+        },
+        {
+          "name": "spreadAngle",
+          "declaring_type": "FlameExplosive",
+          "value_type": "System.Single",
+          "value": "120"
+        },
+        {
+          "name": "spreadCurve",
+          "declaring_type": "FlameExplosive",
+          "value_type": "UnityEngine.AnimationCurve",
+          "value": "UnityEngine.AnimationCurve"
+        },
+        {
+          "name": "velocityCurve",
+          "declaring_type": "FlameExplosive",
+          "value_type": "UnityEngine.AnimationCurve",
+          "value": "UnityEngine.AnimationCurve"
+        }
+      ]
+    },
+    {
+      "name": "explosive_satchel_deployed",
+      "prefab_path": "assets/prefabs/weapons/satchelcharge/explosive.satchel.deployed.prefab",
+      "hash": 2742759844,
+      "concrete_type": "DudTimedExplosive",
+      "type_chain": [
+        "DudTimedExplosive",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 6.0,
+      "timer_max": 12.0,
+      "min_explosion_radius": 0.0,
+      "explosion_radius": 4.0,
+      "explode_on_contact": false,
+      "can_stick": true,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": true,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.3475
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": true,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/weapons/satchelcharge/effects/satchel-charge-explosion.prefab",
+        "id": 1289728008,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_large.prefab",
+        "id": 2593130125,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_large.prefab",
+        "id": 2588596879,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 20.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 2,
+      "damage_types": [
+        {
+          "type": "Explosion",
+          "amount": 75.0
+        },
+        {
+          "type": "Blunt",
+          "amount": 200.0
+        },
+        {
+          "type": "Stab",
+          "amount": 200.0
+        }
+      ],
+      "player_damage": [
+        {
+          "type": "Explosion",
+          "amount": 400.0
+        }
+      ],
+      "splash_wallpaper_through_walls": true,
+      "rigidbody": {
+        "present": true,
+        "mass": 0.2,
+        "drag": 0.0,
+        "angular_drag": 0.05,
+        "use_gravity": true,
+        "is_kinematic": false,
+        "collision_detection_mode": "ContinuousDynamic"
+      },
+      "extra_fields": [
+        {
+          "name": "becomeDudInWater",
+          "declaring_type": "DudTimedExplosive",
+          "value_type": "System.Boolean",
+          "value": "False"
+        },
+        {
+          "name": "dudChance",
+          "declaring_type": "DudTimedExplosive",
+          "value_type": "System.Single",
+          "value": "0.2"
+        },
+        {
+          "name": "fizzleEffect",
+          "declaring_type": "DudTimedExplosive",
+          "value_type": "GameObjectRef",
+          "value": "assets/prefabs/weapons/satchelcharge/effects/fuse_extinguish_satchel.prefab|725886450"
+        },
+        {
+          "name": "itemToGive",
+          "declaring_type": "DudTimedExplosive",
+          "value_type": "ItemDefinition",
+          "value": "explosive.satchel.item (ItemDefinition)"
+        },
+        {
+          "name": "wickSound",
+          "declaring_type": "DudTimedExplosive",
+          "value_type": "UnityEngine.AudioSource",
+          "value": ""
+        },
+        {
+          "name": "wickSpark",
+          "declaring_type": "DudTimedExplosive",
+          "value_type": "UnityEngine.GameObject",
+          "value": "Sparks (UnityEngine.GameObject)"
+        }
+      ]
+    },
+    {
+      "name": "scientist2_grenade_f1_deployed",
+      "prefab_path": "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.grenade.f1.deployed.prefab",
+      "hash": 3292751488,
+      "concrete_type": "TimedExplosive",
+      "type_chain": [
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 0.0,
+      "timer_max": 0.0,
+      "min_explosion_radius": 2.0,
+      "explosion_radius": 6.0,
+      "explode_on_contact": false,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "assets/prefabs/weapons/f1 grenade/effects/f1grenade_explosion.prefab",
+        "id": 4089790239,
+        "is_valid": true
+      },
+      "underwater_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_medium.prefab",
+        "id": 3262650776,
+        "is_valid": true
+      },
+      "stick_effect": {
+        "path": "assets/prefabs/tools/c4/effects/c4_stick.prefab",
+        "id": 2722086713,
+        "is_valid": true
+      },
+      "bounce_effect": {
+        "path": "assets/prefabs/weapons/f1 grenade/effects/bounce.prefab",
+        "id": 977761430,
+        "is_valid": true
+      },
+      "watersurface_explosion_effect": {
+        "path": "assets/content/effects/explosions/underwater/explosion_underwater_surface_medium.prefab",
+        "id": 4032387435,
+        "is_valid": true
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 15.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 1,
+      "damage_types": [
+        {
+          "type": "Blunt",
+          "amount": 100.0
+        },
+        {
+          "type": "AntiVehicle",
+          "amount": 50.0
+        },
+        {
+          "type": "Bullet",
+          "amount": 75.0
+        }
+      ],
+      "player_damage": [
+        {
+          "type": "Explosion",
+          "amount": 70.0
+        }
+      ],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": true,
+        "mass": 0.2,
+        "drag": 0.0,
+        "angular_drag": 0.05,
+        "use_gravity": true,
+        "is_kinematic": false,
+        "collision_detection_mode": "ContinuousDynamic"
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "scientist2_grenade_smoke_deployed",
+      "prefab_path": "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.grenade.smoke.deployed.prefab",
+      "hash": 1013743524,
+      "concrete_type": "SmokeGrenade",
+      "type_chain": [
+        "SmokeGrenade",
+        "TimedExplosive",
+        "BaseEntity"
+      ],
+      "timer_min": 10.0,
+      "timer_max": 10.0,
+      "min_explosion_radius": 1.5,
+      "explosion_radius": 4.5,
+      "explode_on_contact": true,
+      "can_stick": false,
+      "force_run_clipping_checks": false,
+      "only_damage_parent": false,
+      "ignore_ai": false,
+      "blind_ai": false,
+      "ai_blind_duration": 2.5,
+      "ai_blind_range": 4.0,
+      "explosion_offset_mode": "Local",
+      "explosion_effect_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "explosion_matches_normal": false,
+      "explosion_uses_forward": false,
+      "explosion_matches_orientation": false,
+      "explosion_matches_velocity": false,
+      "explosion_matches_inverse_velocity": false,
+      "explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "stick_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "bounce_effect": {
+        "path": "assets/prefabs/weapons/f1 grenade/effects/bounce.prefab",
+        "id": 977761430,
+        "is_valid": true
+      },
+      "watersurface_explosion_effect": {
+        "path": "",
+        "id": 0,
+        "is_valid": false
+      },
+      "underwater_explosion_depth": 1.0,
+      "watersurface_explosion_depth": {
+        "x": 0.5,
+        "y": 10.0
+      },
+      "water_causes_explosion": false,
+      "always_run_water_check": false,
+      "vibration_level": 3,
+      "damage_types": [],
+      "player_damage": [],
+      "splash_wallpaper_through_walls": false,
+      "rigidbody": {
+        "present": true,
+        "mass": 0.2,
+        "drag": 0.0,
+        "angular_drag": 0.05,
+        "use_gravity": true,
+        "is_kinematic": false,
+        "collision_detection_mode": "ContinuousDynamic"
+      },
+      "extra_fields": [
+        {
+          "name": "fieldMax",
+          "declaring_type": "SmokeGrenade",
+          "value_type": "System.Single",
+          "value": "8"
+        },
+        {
+          "name": "fieldMin",
+          "declaring_type": "SmokeGrenade",
+          "value_type": "System.Single",
+          "value": "5"
+        },
+        {
+          "name": "igniteSound",
+          "declaring_type": "SmokeGrenade",
+          "value_type": "GameObjectRef",
+          "value": "assets/prefabs/tools/smoke grenade/effects/ignite.prefab|1277383634"
+        },
+        {
+          "name": "smokeDuration",
+          "declaring_type": "SmokeGrenade",
+          "value_type": "System.Single",
+          "value": "15"
+        },
+        {
+          "name": "smokeEffectPrefab",
+          "declaring_type": "SmokeGrenade",
+          "value_type": "GameObjectRef",
+          "value": "assets/prefabs/tools/smoke grenade/effects/smokegrenade.prefab|2143839482"
+        },
+        {
+          "name": "soundLoop",
+          "declaring_type": "SmokeGrenade",
+          "value_type": "SoundPlayer",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

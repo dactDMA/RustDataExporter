@@ -1,0 +1,958 @@
+{
+  "generated_utc": "2026-08-02 15:05:05",
+  "target_build": "Protocol 2631.286.1 / Changeset 158240",
+  "count": 13,
+  "data": [
+    {
+      "name": "explosive.satchel",
+      "prefab_path": "assets/prefabs/weapons/satchelcharge/explosive.satchel.entity.prefab",
+      "hash": 2671523489,
+      "concrete_type": "ThrownWeapon",
+      "type_chain": [
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "item_shortnames": [
+        "explosive.satchel"
+      ],
+      "prefab_to_throw": {
+        "path": "assets/prefabs/weapons/satchelcharge/explosive.satchel.deployed.prefab",
+        "id": 2742759844,
+        "is_valid": true
+      },
+      "throws_timed_explosive": true,
+      "thrown_explosive_type": "DudTimedExplosive",
+      "max_throw_velocity": 10.0,
+      "tumble_velocity": 0.0,
+      "override_angle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "can_stick": true,
+      "can_throw_underwater": true,
+      "can_throw_from_helicopter": true,
+      "throw_object_root_name": "",
+      "attack": {
+        "deploy_delay": 0.75,
+        "repeat_delay": 1.5,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 9.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "explosive.timed",
+      "prefab_path": "assets/prefabs/tools/c4/explosive.timed.entity.prefab",
+      "hash": 1915331115,
+      "concrete_type": "ThrownWeapon",
+      "type_chain": [
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "item_shortnames": [
+        "explosive.timed"
+      ],
+      "prefab_to_throw": {
+        "path": "assets/prefabs/tools/c4/explosive.timed.deployed.prefab",
+        "id": 3898309212,
+        "is_valid": true
+      },
+      "throws_timed_explosive": true,
+      "thrown_explosive_type": "RFTimedExplosive",
+      "max_throw_velocity": 10.0,
+      "tumble_velocity": 0.0,
+      "override_angle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "can_stick": true,
+      "can_throw_underwater": true,
+      "can_throw_from_helicopter": true,
+      "throw_object_root_name": "",
+      "attack": {
+        "deploy_delay": 0.75,
+        "repeat_delay": 1.5,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 10.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "flare",
+      "prefab_path": "assets/prefabs/tools/flareold/flare.weapon.prefab",
+      "hash": 2661658442,
+      "concrete_type": "GrenadeWeapon",
+      "type_chain": [
+        "GrenadeWeapon",
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "item_shortnames": [
+        "flare"
+      ],
+      "prefab_to_throw": {
+        "path": "assets/prefabs/tools/flareold/flare.deployed.prefab",
+        "id": 1693887801,
+        "is_valid": true
+      },
+      "throws_timed_explosive": true,
+      "thrown_explosive_type": "RoadFlare",
+      "max_throw_velocity": 13.0,
+      "tumble_velocity": 40.0,
+      "override_angle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "can_stick": true,
+      "can_throw_underwater": true,
+      "can_throw_from_helicopter": true,
+      "throw_object_root_name": "",
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 0.5,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 0.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "fun.casetterecorder",
+      "prefab_path": "assets/prefabs/voiceaudio/cassetterecorder/cassetterecorder.weapon.prefab",
+      "hash": 705457609,
+      "concrete_type": "RecorderTool",
+      "type_chain": [
+        "RecorderTool",
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "item_shortnames": [
+        "fun.casetterecorder"
+      ],
+      "prefab_to_throw": {
+        "path": "assets/prefabs/voiceaudio/cassetterecorder/cassetterecorder.deployed.prefab",
+        "id": 760079751,
+        "is_valid": true
+      },
+      "throws_timed_explosive": false,
+      "thrown_explosive_type": "",
+      "max_throw_velocity": 10.0,
+      "tumble_velocity": 0.0,
+      "override_angle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "can_stick": true,
+      "can_throw_underwater": true,
+      "can_throw_from_helicopter": true,
+      "throw_object_root_name": "",
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 0.5,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 0.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      },
+      "extra_fields": [
+        {
+          "name": "PlayTapeSfx",
+          "declaring_type": "RecorderTool",
+          "value_type": "SoundDefinition",
+          "value": "cassette-recorder-start (SoundDefinition)"
+        },
+        {
+          "name": "RecordFinishedSfx",
+          "declaring_type": "RecorderTool",
+          "value_type": "SoundDefinition",
+          "value": "cassette-recorder-recording-stop (SoundDefinition)"
+        },
+        {
+          "name": "RecordStartSfx",
+          "declaring_type": "RecorderTool",
+          "value_type": "SoundDefinition",
+          "value": "cassette-recorder-recording-start (SoundDefinition)"
+        },
+        {
+          "name": "RecorderAudioSource",
+          "declaring_type": "RecorderTool",
+          "value_type": "UnityEngine.AudioSource",
+          "value": ""
+        },
+        {
+          "name": "RewindSfx",
+          "declaring_type": "RecorderTool",
+          "value_type": "SoundDefinition",
+          "value": "cassette-recorder-rewind (SoundDefinition)"
+        },
+        {
+          "name": "StopTapeSfx",
+          "declaring_type": "RecorderTool",
+          "value_type": "SoundDefinition",
+          "value": "cassette-recorder-stop (SoundDefinition)"
+        },
+        {
+          "name": "ThrowScale",
+          "declaring_type": "RecorderTool",
+          "value_type": "System.Single",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "name": "grenade.beancan",
+      "prefab_path": "assets/prefabs/weapons/beancan grenade/grenade.beancan.entity.prefab",
+      "hash": 3654150932,
+      "concrete_type": "GrenadeWeapon",
+      "type_chain": [
+        "GrenadeWeapon",
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "item_shortnames": [
+        "grenade.beancan"
+      ],
+      "prefab_to_throw": {
+        "path": "assets/prefabs/weapons/beancan grenade/grenade.beancan.deployed.prefab",
+        "id": 2144399804,
+        "is_valid": true
+      },
+      "throws_timed_explosive": true,
+      "thrown_explosive_type": "DudTimedExplosive",
+      "max_throw_velocity": 13.0,
+      "tumble_velocity": 40.0,
+      "override_angle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "can_stick": true,
+      "can_throw_underwater": false,
+      "can_throw_from_helicopter": true,
+      "throw_object_root_name": "VisualRoot",
+      "attack": {
+        "deploy_delay": 0.5,
+        "repeat_delay": 0.5,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 5.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "grenade.bee",
+      "prefab_path": "assets/prefabs/weapons/bee grenade/grenade.bee.entity.prefab",
+      "hash": 3444797639,
+      "concrete_type": "GrenadeWeapon",
+      "type_chain": [
+        "GrenadeWeapon",
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "item_shortnames": [
+        "grenade.bee"
+      ],
+      "prefab_to_throw": {
+        "path": "assets/prefabs/weapons/bee grenade/grenade.bee.deployed.prefab",
+        "id": 4036845226,
+        "is_valid": true
+      },
+      "throws_timed_explosive": true,
+      "thrown_explosive_type": "BeeGrenade",
+      "max_throw_velocity": 13.0,
+      "tumble_velocity": 40.0,
+      "override_angle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "can_stick": false,
+      "can_throw_underwater": true,
+      "can_throw_from_helicopter": true,
+      "throw_object_root_name": "w_Bee_Grenade",
+      "attack": {
+        "deploy_delay": 0.5,
+        "repeat_delay": 0.5,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 15.0,
+        "damage_scale": 0.2,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 10.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": false
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 7.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "grenade.f1",
+      "prefab_path": "assets/prefabs/weapons/f1 grenade/grenade.f1.entity.prefab",
+      "hash": 45697420,
+      "concrete_type": "GrenadeWeapon",
+      "type_chain": [
+        "GrenadeWeapon",
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "item_shortnames": [
+        "grenade.f1"
+      ],
+      "prefab_to_throw": {
+        "path": "assets/prefabs/weapons/f1 grenade/grenade.f1.deployed.prefab",
+        "id": 1128089209,
+        "is_valid": true
+      },
+      "throws_timed_explosive": true,
+      "thrown_explosive_type": "TimedExplosive",
+      "max_throw_velocity": 13.0,
+      "tumble_velocity": 40.0,
+      "override_angle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "can_stick": true,
+      "can_throw_underwater": true,
+      "can_throw_from_helicopter": true,
+      "throw_object_root_name": "",
+      "attack": {
+        "deploy_delay": 0.5,
+        "repeat_delay": 0.5,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 15.0,
+        "damage_scale": 0.2,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 10.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": false
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 7.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "grenade.flashbang",
+      "prefab_path": "assets/prefabs/weapons/flashbang/grenade.flashbang.entity.prefab",
+      "hash": 758326244,
+      "concrete_type": "GrenadeWeapon",
+      "type_chain": [
+        "GrenadeWeapon",
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "item_shortnames": [
+        "grenade.flashbang"
+      ],
+      "prefab_to_throw": {
+        "path": "assets/prefabs/weapons/flashbang/grenade.flashbang.deployed.prefab",
+        "id": 1436152685,
+        "is_valid": true
+      },
+      "throws_timed_explosive": true,
+      "thrown_explosive_type": "Flashbang",
+      "max_throw_velocity": 13.0,
+      "tumble_velocity": 40.0,
+      "override_angle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "can_stick": true,
+      "can_throw_underwater": true,
+      "can_throw_from_helicopter": true,
+      "throw_object_root_name": "",
+      "attack": {
+        "deploy_delay": 0.5,
+        "repeat_delay": 0.5,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 15.0,
+        "damage_scale": 0.2,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 10.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": false
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 7.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "grenade.molotov",
+      "prefab_path": "assets/prefabs/weapons/molotov cocktail/grenade.molotov.entity.prefab",
+      "hash": 4104126979,
+      "concrete_type": "MolotovCocktail",
+      "type_chain": [
+        "MolotovCocktail",
+        "GrenadeWeapon",
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "item_shortnames": [
+        "grenade.molotov"
+      ],
+      "prefab_to_throw": {
+        "path": "assets/prefabs/weapons/molotov cocktail/grenade.molotov.deployed.prefab",
+        "id": 2144253630,
+        "is_valid": true
+      },
+      "throws_timed_explosive": true,
+      "thrown_explosive_type": "FlameExplosive",
+      "max_throw_velocity": 13.0,
+      "tumble_velocity": 40.0,
+      "override_angle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "can_stick": false,
+      "can_throw_underwater": false,
+      "can_throw_from_helicopter": true,
+      "throw_object_root_name": "",
+      "attack": {
+        "deploy_delay": 0.5,
+        "repeat_delay": 0.5,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 15.0,
+        "damage_scale": 0.2,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 10.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": false
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 7.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "grenade.smoke",
+      "prefab_path": "assets/prefabs/tools/smoke grenade/smoke_grenade.weapon.prefab",
+      "hash": 3642747736,
+      "concrete_type": "GrenadeWeapon",
+      "type_chain": [
+        "GrenadeWeapon",
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "item_shortnames": [
+        "grenade.smoke"
+      ],
+      "prefab_to_throw": {
+        "path": "assets/prefabs/tools/smoke grenade/grenade.smoke.deployed.prefab",
+        "id": 1464001967,
+        "is_valid": true
+      },
+      "throws_timed_explosive": true,
+      "thrown_explosive_type": "SmokeGrenade",
+      "max_throw_velocity": 10.0,
+      "tumble_velocity": 40.0,
+      "override_angle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "can_stick": true,
+      "can_throw_underwater": false,
+      "can_throw_from_helicopter": true,
+      "throw_object_root_name": "",
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 0.5,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 8.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "lunar.firecrackers",
+      "prefab_path": "assets/prefabs/misc/chinesenewyear/throwablefirecrackers/firecrackers.entity.prefab",
+      "hash": 628064879,
+      "concrete_type": "GrenadeWeapon",
+      "type_chain": [
+        "GrenadeWeapon",
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "item_shortnames": [
+        "lunar.firecrackers"
+      ],
+      "prefab_to_throw": {
+        "path": "assets/prefabs/misc/chinesenewyear/throwablefirecrackers/firecrackers.deployed.prefab",
+        "id": 3428971889,
+        "is_valid": true
+      },
+      "throws_timed_explosive": true,
+      "thrown_explosive_type": "StringFirecracker",
+      "max_throw_velocity": 3.0,
+      "tumble_velocity": 0.0,
+      "override_angle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "can_stick": true,
+      "can_throw_underwater": true,
+      "can_throw_from_helicopter": true,
+      "throw_object_root_name": "",
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 0.5,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 0.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "supply.signal",
+      "prefab_path": "assets/prefabs/tools/supply signal/supplysignal.weapon.prefab",
+      "hash": 775476535,
+      "concrete_type": "GrenadeWeapon",
+      "type_chain": [
+        "GrenadeWeapon",
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "item_shortnames": [
+        "supply.signal"
+      ],
+      "prefab_to_throw": {
+        "path": "assets/prefabs/tools/supply signal/grenade.supplysignal.deployed.prefab",
+        "id": 3350651790,
+        "is_valid": true
+      },
+      "throws_timed_explosive": true,
+      "thrown_explosive_type": "SupplySignal",
+      "max_throw_velocity": 10.0,
+      "tumble_velocity": 40.0,
+      "override_angle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "can_stick": true,
+      "can_throw_underwater": true,
+      "can_throw_from_helicopter": true,
+      "throw_object_root_name": "",
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 0.5,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 8.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      },
+      "extra_fields": []
+    },
+    {
+      "name": "surveycharge",
+      "prefab_path": "assets/prefabs/tools/surveycharge/survey_charge.prefab",
+      "hash": 2698594377,
+      "concrete_type": "ThrownWeapon",
+      "type_chain": [
+        "ThrownWeapon",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "item_shortnames": [
+        "surveycharge"
+      ],
+      "prefab_to_throw": {
+        "path": "assets/prefabs/tools/surveycharge/survey_charge.deployed.prefab",
+        "id": 2141863453,
+        "is_valid": true
+      },
+      "throws_timed_explosive": true,
+      "thrown_explosive_type": "SurveyCharge",
+      "max_throw_velocity": 4.0,
+      "tumble_velocity": 0.0,
+      "override_angle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "can_stick": true,
+      "can_throw_underwater": true,
+      "can_throw_from_helicopter": true,
+      "throw_object_root_name": "",
+      "attack": {
+        "deploy_delay": 0.5,
+        "repeat_delay": 0.75,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 0.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 5.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      },
+      "extra_fields": []
+    }
+  ]
+}

@@ -1,10 +1,11 @@
 {
-  "generated_utc": "2026-07-30 15:33:29",
+  "generated_utc": "2026-08-02 15:05:05",
   "target_build": "Protocol 2631.286.1 / Changeset 158240",
   "count": 695,
   "data": [
     {
       "name": "50cal.mounted",
+      "prefab_id": 3944162531,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -15,6 +16,7 @@
     },
     {
       "name": "50cal.mounted.left",
+      "prefab_id": 379001777,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -25,6 +27,7 @@
     },
     {
       "name": "50cal.mounted.right",
+      "prefab_id": 545211943,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -35,6 +38,7 @@
     },
     {
       "name": "abovegroundpool",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -44,6 +48,7 @@
     },
     {
       "name": "abyss.barrel.horizontal",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -53,6 +58,7 @@
     },
     {
       "name": "abyss.barrel.vertical",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -62,6 +68,7 @@
     },
     {
       "name": "anchor",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -71,6 +78,7 @@
     },
     {
       "name": "arcade.machine.chippy",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -80,6 +88,7 @@
     },
     {
       "name": "autoturret",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -89,6 +98,7 @@
     },
     {
       "name": "axe.salvaged",
+      "prefab_id": 3826414185,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -99,6 +109,7 @@
     },
     {
       "name": "ballista.mounted",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -108,6 +119,7 @@
     },
     {
       "name": "ballista.static",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -117,6 +129,7 @@
     },
     {
       "name": "bamboo.barrel",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -126,6 +139,7 @@
     },
     {
       "name": "bandage",
+      "prefab_id": 1383987667,
       "concrete_type": "MedicalTool",
       "type_chain": [
         "MedicalTool",
@@ -136,6 +150,7 @@
     },
     {
       "name": "barricade.concrete",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -145,6 +160,7 @@
     },
     {
       "name": "barricade.medieval",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -154,6 +170,7 @@
     },
     {
       "name": "barricade.metal",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -163,6 +180,7 @@
     },
     {
       "name": "barricade.sandbags",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -172,6 +190,7 @@
     },
     {
       "name": "barricade.stone",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -181,6 +200,7 @@
     },
     {
       "name": "barricade.wood",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -190,6 +210,7 @@
     },
     {
       "name": "barricade.wood.cover",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -199,6 +220,7 @@
     },
     {
       "name": "barricade.woodwire",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -208,6 +230,7 @@
     },
     {
       "name": "bathtub.planter",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -217,6 +240,7 @@
     },
     {
       "name": "batteringram",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -226,6 +250,7 @@
     },
     {
       "name": "bbq",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -235,6 +260,7 @@
     },
     {
       "name": "beachchair",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -244,6 +270,7 @@
     },
     {
       "name": "beachparasol",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -253,6 +280,7 @@
     },
     {
       "name": "beachtable",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -262,6 +290,7 @@
     },
     {
       "name": "beachtowel",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -271,6 +300,7 @@
     },
     {
       "name": "beanbagseatfabric",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -280,6 +310,7 @@
     },
     {
       "name": "beanbagseatleather",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -289,6 +320,7 @@
     },
     {
       "name": "bed",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -298,6 +330,7 @@
     },
     {
       "name": "beehive",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -307,6 +340,7 @@
     },
     {
       "name": "blowpipe",
+      "prefab_id": 996318821,
       "concrete_type": "BlowPipeWeapon",
       "type_chain": [
         "BlowPipeWeapon",
@@ -318,6 +352,7 @@
     },
     {
       "name": "blunderbuss",
+      "prefab_id": 2557812813,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -328,6 +363,7 @@
     },
     {
       "name": "boat.planner",
+      "prefab_id": 2721033560,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -337,6 +373,7 @@
     },
     {
       "name": "boatbuildingstation",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -346,6 +383,7 @@
     },
     {
       "name": "bone.club",
+      "prefab_id": 3097934597,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -356,6 +394,7 @@
     },
     {
       "name": "boogieboard",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -365,6 +404,7 @@
     },
     {
       "name": "boombox",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -374,6 +414,7 @@
     },
     {
       "name": "boomerang",
+      "prefab_id": 1402819630,
       "concrete_type": "Boomerang",
       "type_chain": [
         "Boomerang",
@@ -385,6 +426,7 @@
     },
     {
       "name": "botabag",
+      "prefab_id": 1851422019,
       "concrete_type": "BaseLiquidVessel",
       "type_chain": [
         "BaseLiquidVessel",
@@ -395,6 +437,7 @@
     },
     {
       "name": "bow.compound",
+      "prefab_id": 1537401592,
       "concrete_type": "CompoundBowWeapon",
       "type_chain": [
         "CompoundBowWeapon",
@@ -407,6 +450,7 @@
     },
     {
       "name": "bow.hunting",
+      "prefab_id": 2836331625,
       "concrete_type": "BowWeapon",
       "type_chain": [
         "BowWeapon",
@@ -418,6 +462,7 @@
     },
     {
       "name": "box.repair.bench",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -427,6 +472,7 @@
     },
     {
       "name": "box.wooden",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -436,6 +482,7 @@
     },
     {
       "name": "box.wooden.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -445,6 +492,7 @@
     },
     {
       "name": "bucket.water",
+      "prefab_id": 1182699531,
       "concrete_type": "BaseLiquidVessel",
       "type_chain": [
         "BaseLiquidVessel",
@@ -455,6 +503,7 @@
     },
     {
       "name": "building.planner",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -464,6 +513,7 @@
     },
     {
       "name": "cakefiveyear",
+      "prefab_id": 1980046596,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -474,6 +524,7 @@
     },
     {
       "name": "campfire",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -483,6 +534,7 @@
     },
     {
       "name": "candycaneclub",
+      "prefab_id": 3331777431,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -493,6 +545,7 @@
     },
     {
       "name": "cannon",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -502,6 +555,7 @@
     },
     {
       "name": "cardtable",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -511,6 +565,7 @@
     },
     {
       "name": "carvable.pumpkin",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -520,6 +575,7 @@
     },
     {
       "name": "catapult",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -529,6 +585,7 @@
     },
     {
       "name": "catapult.ammo.explosive",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -538,6 +595,7 @@
     },
     {
       "name": "catapult.ammo.incendiary",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -547,6 +605,7 @@
     },
     {
       "name": "cctv.camera",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -556,6 +615,7 @@
     },
     {
       "name": "ceilinglight",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -565,6 +625,7 @@
     },
     {
       "name": "chainsaw",
+      "prefab_id": 1802634117,
       "concrete_type": "Chainsaw",
       "type_chain": [
         "Chainsaw",
@@ -576,6 +637,7 @@
     },
     {
       "name": "chair",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -585,6 +647,7 @@
     },
     {
       "name": "chair.ejector.seat",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -594,6 +657,7 @@
     },
     {
       "name": "chair.icethrone",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -603,6 +667,7 @@
     },
     {
       "name": "charity.plushie.05",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -612,6 +677,7 @@
     },
     {
       "name": "charity.plushy.01",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -621,6 +687,7 @@
     },
     {
       "name": "charity.plushy.02",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -630,6 +697,7 @@
     },
     {
       "name": "charity.plushy.03",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -639,6 +707,7 @@
     },
     {
       "name": "charity.plushy.04",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -648,6 +717,7 @@
     },
     {
       "name": "chickencoop",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -657,6 +727,7 @@
     },
     {
       "name": "chineselantern",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -666,6 +737,7 @@
     },
     {
       "name": "chineselanternwhite",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -675,6 +747,7 @@
     },
     {
       "name": "circleballoon2025",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -684,6 +757,7 @@
     },
     {
       "name": "clantable",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -693,6 +767,7 @@
     },
     {
       "name": "clone.black.berry",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -702,6 +777,7 @@
     },
     {
       "name": "clone.blue.berry",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -711,6 +787,7 @@
     },
     {
       "name": "clone.corn",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -720,6 +797,7 @@
     },
     {
       "name": "clone.green.berry",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -729,6 +807,7 @@
     },
     {
       "name": "clone.hemp",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -738,6 +817,7 @@
     },
     {
       "name": "clone.orchid",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -747,6 +827,7 @@
     },
     {
       "name": "clone.potato",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -756,6 +837,7 @@
     },
     {
       "name": "clone.pumpkin",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -765,6 +847,7 @@
     },
     {
       "name": "clone.red.berry",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -774,6 +857,7 @@
     },
     {
       "name": "clone.rose",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -783,6 +867,7 @@
     },
     {
       "name": "clone.sunflower",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -792,6 +877,7 @@
     },
     {
       "name": "clone.wheat",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -801,6 +887,7 @@
     },
     {
       "name": "clone.white.berry",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -810,6 +897,7 @@
     },
     {
       "name": "clone.yellow.berry",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -819,6 +907,7 @@
     },
     {
       "name": "coffin.storage",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -828,6 +917,7 @@
     },
     {
       "name": "command.block",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -837,6 +927,7 @@
     },
     {
       "name": "compass",
+      "prefab_id": 2757054139,
       "concrete_type": "Compass",
       "type_chain": [
         "Compass",
@@ -846,6 +937,7 @@
     },
     {
       "name": "component.box.ammo.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -855,6 +947,7 @@
     },
     {
       "name": "component.box.armor.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -864,6 +957,7 @@
     },
     {
       "name": "component.box.charcoal.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -873,6 +967,7 @@
     },
     {
       "name": "component.box.clothing.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -882,6 +977,7 @@
     },
     {
       "name": "component.box.comps.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -891,6 +987,7 @@
     },
     {
       "name": "component.box.explosives.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -900,6 +997,7 @@
     },
     {
       "name": "component.box.food.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -909,6 +1007,7 @@
     },
     {
       "name": "component.box.guns.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -918,6 +1017,7 @@
     },
     {
       "name": "component.box.meds.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -927,6 +1027,7 @@
     },
     {
       "name": "component.box.metal.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -936,6 +1037,7 @@
     },
     {
       "name": "component.box.ore.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -945,6 +1047,7 @@
     },
     {
       "name": "component.box.scrap.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -954,6 +1057,7 @@
     },
     {
       "name": "component.box.stone.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -963,6 +1067,7 @@
     },
     {
       "name": "component.box.sulfur.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -972,6 +1077,7 @@
     },
     {
       "name": "component.box.tools.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -981,6 +1087,7 @@
     },
     {
       "name": "component.box.wood.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -990,6 +1097,7 @@
     },
     {
       "name": "composter",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -999,6 +1107,7 @@
     },
     {
       "name": "computerstation",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1008,6 +1117,7 @@
     },
     {
       "name": "concretehatchet",
+      "prefab_id": 1777756171,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -1018,6 +1128,7 @@
     },
     {
       "name": "concretepickaxe",
+      "prefab_id": 1480417083,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -1028,6 +1139,7 @@
     },
     {
       "name": "confetticannon",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1037,6 +1149,7 @@
     },
     {
       "name": "connected.speaker",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1046,6 +1159,7 @@
     },
     {
       "name": "cookingworkbench",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1055,6 +1169,7 @@
     },
     {
       "name": "crossbow",
+      "prefab_id": 2727391082,
       "concrete_type": "CrossbowWeapon",
       "type_chain": [
         "CrossbowWeapon",
@@ -1066,6 +1181,7 @@
     },
     {
       "name": "crossbowbowless",
+      "prefab_id": 777174364,
       "concrete_type": "CrossbowWeapon",
       "type_chain": [
         "CrossbowWeapon",
@@ -1077,6 +1193,7 @@
     },
     {
       "name": "cupboard.tool",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1086,6 +1203,7 @@
     },
     {
       "name": "cupboard.tool.retro",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1095,6 +1213,7 @@
     },
     {
       "name": "cupboard.tool.shockbyte",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1104,6 +1223,7 @@
     },
     {
       "name": "cursedcauldron",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1113,6 +1233,7 @@
     },
     {
       "name": "discoball",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1122,6 +1243,7 @@
     },
     {
       "name": "discofloor",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1131,6 +1253,7 @@
     },
     {
       "name": "discofloor.largetiles",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1140,6 +1263,7 @@
     },
     {
       "name": "discord.plushie",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1149,6 +1273,7 @@
     },
     {
       "name": "discord.trophy",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1158,6 +1283,7 @@
     },
     {
       "name": "diverhatchet",
+      "prefab_id": 1396987940,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -1168,6 +1294,7 @@
     },
     {
       "name": "diverpickaxe",
+      "prefab_id": 190635670,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -1178,6 +1305,7 @@
     },
     {
       "name": "divertorch",
+      "prefab_id": 1029607191,
       "concrete_type": "TorchWeapon",
       "type_chain": [
         "TorchWeapon",
@@ -1189,6 +1317,7 @@
     },
     {
       "name": "door.closer",
+      "prefab_id": 2686008770,
       "concrete_type": "Deployer",
       "type_chain": [
         "Deployer",
@@ -1198,6 +1327,7 @@
     },
     {
       "name": "door.double.hinged.bardoors",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1207,6 +1337,7 @@
     },
     {
       "name": "door.double.hinged.metal",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1216,6 +1347,7 @@
     },
     {
       "name": "door.double.hinged.toptier",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1225,6 +1357,7 @@
     },
     {
       "name": "door.double.hinged.wood",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1234,6 +1367,7 @@
     },
     {
       "name": "door.hinged.boat.wood",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1243,6 +1377,7 @@
     },
     {
       "name": "door.hinged.industrial.a",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1252,6 +1387,7 @@
     },
     {
       "name": "door.hinged.metal",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1261,6 +1397,7 @@
     },
     {
       "name": "door.hinged.toptier",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1270,6 +1407,7 @@
     },
     {
       "name": "door.hinged.wood",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1279,6 +1417,7 @@
     },
     {
       "name": "dragondoorknocker",
+      "prefab_id": 2686008770,
       "concrete_type": "Deployer",
       "type_chain": [
         "Deployer",
@@ -1288,6 +1427,7 @@
     },
     {
       "name": "drone",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1297,6 +1437,7 @@
     },
     {
       "name": "dropbox",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1306,6 +1447,7 @@
     },
     {
       "name": "drumkit",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1315,6 +1457,7 @@
     },
     {
       "name": "easel",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1324,6 +1467,7 @@
     },
     {
       "name": "easterbasket",
+      "prefab_id": 557749706,
       "concrete_type": "EasterBasket",
       "type_chain": [
         "EasterBasket",
@@ -1334,6 +1478,7 @@
     },
     {
       "name": "easterdoorwreath",
+      "prefab_id": 2686008770,
       "concrete_type": "Deployer",
       "type_chain": [
         "Deployer",
@@ -1343,6 +1488,7 @@
     },
     {
       "name": "electric.andswitch",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1352,6 +1498,7 @@
     },
     {
       "name": "electric.audioalarm",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1361,6 +1508,7 @@
     },
     {
       "name": "electric.battery.rechargable.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1370,6 +1518,7 @@
     },
     {
       "name": "electric.battery.rechargable.medium",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1379,6 +1528,7 @@
     },
     {
       "name": "electric.battery.rechargable.small",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1388,6 +1538,7 @@
     },
     {
       "name": "electric.blocker",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1397,6 +1548,7 @@
     },
     {
       "name": "electric.bulbstringlights",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1406,6 +1558,7 @@
     },
     {
       "name": "electric.button",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1415,6 +1568,7 @@
     },
     {
       "name": "electric.cabletunnel",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1424,6 +1578,7 @@
     },
     {
       "name": "electric.chandelier",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1433,6 +1588,7 @@
     },
     {
       "name": "electric.counter",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1442,6 +1598,7 @@
     },
     {
       "name": "electric.digitalclock",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1451,6 +1608,7 @@
     },
     {
       "name": "electric.doorcontroller",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1460,6 +1618,7 @@
     },
     {
       "name": "electric.fairylights",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1469,6 +1628,7 @@
     },
     {
       "name": "electric.flasherlight",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1478,6 +1638,7 @@
     },
     {
       "name": "electric.fluorescentlight",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1487,6 +1648,7 @@
     },
     {
       "name": "electric.fluorescentlight.ceiling",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1496,6 +1658,7 @@
     },
     {
       "name": "electric.fuelgenerator.small",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1505,6 +1668,7 @@
     },
     {
       "name": "electric.furnace",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1514,6 +1678,7 @@
     },
     {
       "name": "electric.generator.small",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1523,6 +1688,7 @@
     },
     {
       "name": "electric.hbhfsensor",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1532,6 +1698,7 @@
     },
     {
       "name": "electric.heater",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1541,6 +1708,7 @@
     },
     {
       "name": "electric.igniter",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1550,6 +1718,7 @@
     },
     {
       "name": "electric.laserdetector",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1559,6 +1728,7 @@
     },
     {
       "name": "electric.orswitch",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1568,6 +1738,7 @@
     },
     {
       "name": "electric.pressurepad",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1577,6 +1748,7 @@
     },
     {
       "name": "electric.random.switch",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1586,6 +1758,7 @@
     },
     {
       "name": "electric.rf.broadcaster",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1595,6 +1768,7 @@
     },
     {
       "name": "electric.rf.receiver",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1604,6 +1778,7 @@
     },
     {
       "name": "electric.seismicsensor",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1613,6 +1788,7 @@
     },
     {
       "name": "electric.simplelight",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1622,6 +1798,7 @@
     },
     {
       "name": "electric.sirenlight",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1631,6 +1808,7 @@
     },
     {
       "name": "electric.solarpanel.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1640,6 +1818,7 @@
     },
     {
       "name": "electric.splitter",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1649,6 +1828,7 @@
     },
     {
       "name": "electric.spotlight",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1658,6 +1838,7 @@
     },
     {
       "name": "electric.spotlight.tripod",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1667,6 +1848,7 @@
     },
     {
       "name": "electric.sprinkler",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1676,6 +1858,7 @@
     },
     {
       "name": "electric.switch",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1685,6 +1868,7 @@
     },
     {
       "name": "electric.tablelight",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1694,6 +1878,7 @@
     },
     {
       "name": "electric.teslacoil",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1703,6 +1888,7 @@
     },
     {
       "name": "electric.timer",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1712,6 +1898,7 @@
     },
     {
       "name": "electric.wallcabinet",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1721,6 +1908,7 @@
     },
     {
       "name": "electric.xorswitch",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1730,6 +1918,7 @@
     },
     {
       "name": "electrical.branch",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1739,6 +1928,7 @@
     },
     {
       "name": "electrical.combiner",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1748,6 +1938,7 @@
     },
     {
       "name": "electrical.memorycell",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1757,6 +1948,7 @@
     },
     {
       "name": "elevator",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1766,6 +1958,7 @@
     },
     {
       "name": "explosive.satchel",
+      "prefab_id": 2671523489,
       "concrete_type": "ThrownWeapon",
       "type_chain": [
         "ThrownWeapon",
@@ -1776,6 +1969,7 @@
     },
     {
       "name": "explosive.timed",
+      "prefab_id": 1915331115,
       "concrete_type": "ThrownWeapon",
       "type_chain": [
         "ThrownWeapon",
@@ -1786,6 +1980,7 @@
     },
     {
       "name": "factorydoor",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1795,6 +1990,7 @@
     },
     {
       "name": "fireplace.stone",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1804,6 +2000,7 @@
     },
     {
       "name": "firework.boomer.blue",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1813,6 +2010,7 @@
     },
     {
       "name": "firework.boomer.champagne",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1822,6 +2020,7 @@
     },
     {
       "name": "firework.boomer.green",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1831,6 +2030,7 @@
     },
     {
       "name": "firework.boomer.orange",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1840,6 +2040,7 @@
     },
     {
       "name": "firework.boomer.pattern",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1849,6 +2050,7 @@
     },
     {
       "name": "firework.boomer.red",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1858,6 +2060,7 @@
     },
     {
       "name": "firework.boomer.violet",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1867,6 +2070,7 @@
     },
     {
       "name": "firework.romancandle.blue",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1876,6 +2080,7 @@
     },
     {
       "name": "firework.romancandle.green",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1885,6 +2090,7 @@
     },
     {
       "name": "firework.romancandle.red",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1894,6 +2100,7 @@
     },
     {
       "name": "firework.romancandle.violet",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1903,6 +2110,7 @@
     },
     {
       "name": "firework.volcano",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1912,6 +2120,7 @@
     },
     {
       "name": "firework.volcano.red",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1921,6 +2130,7 @@
     },
     {
       "name": "firework.volcano.violet",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1930,6 +2140,7 @@
     },
     {
       "name": "fishingrod.handmade",
+      "prefab_id": 2057865657,
       "concrete_type": "BaseFishingRod",
       "type_chain": [
         "BaseFishingRod",
@@ -1939,6 +2150,7 @@
     },
     {
       "name": "fishtrap.small",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1948,6 +2160,7 @@
     },
     {
       "name": "fishtrophy",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1957,6 +2170,7 @@
     },
     {
       "name": "flamethrower",
+      "prefab_id": 3717106868,
       "concrete_type": "FlameThrower",
       "type_chain": [
         "FlameThrower",
@@ -1967,6 +2181,7 @@
     },
     {
       "name": "flameturret",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -1976,6 +2191,7 @@
     },
     {
       "name": "flare",
+      "prefab_id": 2661658442,
       "concrete_type": "GrenadeWeapon",
       "type_chain": [
         "GrenadeWeapon",
@@ -1987,6 +2203,7 @@
     },
     {
       "name": "flashlight.held",
+      "prefab_id": 72718095,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -1997,6 +2214,7 @@
     },
     {
       "name": "floor.grill",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2006,6 +2224,7 @@
     },
     {
       "name": "floor.ladder.hatch",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2015,6 +2234,7 @@
     },
     {
       "name": "floor.ladder.hatch.toptier",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2024,6 +2244,7 @@
     },
     {
       "name": "floor.triangle.grill",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2033,6 +2254,7 @@
     },
     {
       "name": "floor.triangle.ladder.hatch",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2042,6 +2264,7 @@
     },
     {
       "name": "floor.triangle.ladder.hatch.toptier",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2051,6 +2274,7 @@
     },
     {
       "name": "fluid.combiner",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2060,6 +2284,7 @@
     },
     {
       "name": "fluid.splitter",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2069,6 +2294,7 @@
     },
     {
       "name": "fluid.switch",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2078,6 +2304,7 @@
     },
     {
       "name": "fogmachine",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2087,6 +2314,7 @@
     },
     {
       "name": "frankensteintable",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2096,6 +2324,7 @@
     },
     {
       "name": "fridge",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2105,6 +2334,7 @@
     },
     {
       "name": "frontier_hatchet",
+      "prefab_id": 3662083119,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -2115,6 +2345,7 @@
     },
     {
       "name": "frontiermirror.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2124,6 +2355,7 @@
     },
     {
       "name": "frontiermirror.medium",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2133,6 +2365,7 @@
     },
     {
       "name": "frontiermirror.small",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2142,6 +2375,7 @@
     },
     {
       "name": "frontiermirror.standing",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2151,6 +2385,7 @@
     },
     {
       "name": "fun.bass",
+      "prefab_id": 2465202152,
       "concrete_type": "InstrumentToolGuitar",
       "type_chain": [
         "InstrumentToolGuitar",
@@ -2161,6 +2396,7 @@
     },
     {
       "name": "fun.boomboxportable",
+      "prefab_id": 617635188,
       "concrete_type": "HeldBoomBox",
       "type_chain": [
         "HeldBoomBox",
@@ -2170,6 +2406,7 @@
     },
     {
       "name": "fun.casetterecorder",
+      "prefab_id": 705457609,
       "concrete_type": "RecorderTool",
       "type_chain": [
         "RecorderTool",
@@ -2181,6 +2418,7 @@
     },
     {
       "name": "fun.cowbell",
+      "prefab_id": 52738779,
       "concrete_type": "InstrumentTool",
       "type_chain": [
         "InstrumentTool",
@@ -2190,6 +2428,7 @@
     },
     {
       "name": "fun.flute",
+      "prefab_id": 3789219502,
       "concrete_type": "InstrumentTool",
       "type_chain": [
         "InstrumentTool",
@@ -2199,6 +2438,7 @@
     },
     {
       "name": "fun.guitar",
+      "prefab_id": 4177390149,
       "concrete_type": "InstrumentToolGuitar",
       "type_chain": [
         "InstrumentToolGuitar",
@@ -2209,6 +2449,7 @@
     },
     {
       "name": "fun.jerrycanguitar",
+      "prefab_id": 1977067472,
       "concrete_type": "InstrumentToolGuitar",
       "type_chain": [
         "InstrumentToolGuitar",
@@ -2219,6 +2460,7 @@
     },
     {
       "name": "fun.tambourine",
+      "prefab_id": 1754256281,
       "concrete_type": "InstrumentTool",
       "type_chain": [
         "InstrumentTool",
@@ -2228,6 +2470,7 @@
     },
     {
       "name": "fun.trumpet",
+      "prefab_id": 1050701358,
       "concrete_type": "InstrumentTool",
       "type_chain": [
         "InstrumentTool",
@@ -2237,6 +2480,7 @@
     },
     {
       "name": "fun.tuba",
+      "prefab_id": 2388319642,
       "concrete_type": "InstrumentTool",
       "type_chain": [
         "InstrumentTool",
@@ -2246,6 +2490,7 @@
     },
     {
       "name": "furnace",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2255,6 +2500,7 @@
     },
     {
       "name": "furnace.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2264,6 +2510,7 @@
     },
     {
       "name": "gates.external.high.adobe",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2273,6 +2520,7 @@
     },
     {
       "name": "gates.external.high.legacy",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2282,6 +2530,7 @@
     },
     {
       "name": "gates.external.high.stone",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2291,6 +2540,7 @@
     },
     {
       "name": "gates.external.high.wood",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2300,6 +2550,7 @@
     },
     {
       "name": "geiger.counter",
+      "prefab_id": 47304962,
       "concrete_type": "GeigerCounter",
       "type_chain": [
         "GeigerCounter",
@@ -2310,6 +2561,7 @@
     },
     {
       "name": "generator.water",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2319,6 +2571,7 @@
     },
     {
       "name": "generator.wind.scrap",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2328,6 +2581,7 @@
     },
     {
       "name": "giantcandycanedecor",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2337,6 +2591,7 @@
     },
     {
       "name": "giantlollipops",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2346,6 +2601,7 @@
     },
     {
       "name": "goldframe.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2355,6 +2611,7 @@
     },
     {
       "name": "goldframe.medium",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2364,6 +2621,7 @@
     },
     {
       "name": "goldframe.small",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2373,6 +2631,7 @@
     },
     {
       "name": "goldframe.standing",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2382,6 +2641,7 @@
     },
     {
       "name": "goldframe.xl",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2391,6 +2651,7 @@
     },
     {
       "name": "goldframe.xxl",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2400,6 +2661,7 @@
     },
     {
       "name": "goldmirror.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2409,6 +2671,7 @@
     },
     {
       "name": "goldmirror.medium",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2418,6 +2681,7 @@
     },
     {
       "name": "goldmirror.small",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2427,6 +2691,7 @@
     },
     {
       "name": "goldmirror.standing",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2436,6 +2701,7 @@
     },
     {
       "name": "gravestone",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2445,6 +2711,7 @@
     },
     {
       "name": "grenade.beancan",
+      "prefab_id": 3654150932,
       "concrete_type": "GrenadeWeapon",
       "type_chain": [
         "GrenadeWeapon",
@@ -2456,6 +2723,7 @@
     },
     {
       "name": "grenade.bee",
+      "prefab_id": 3444797639,
       "concrete_type": "GrenadeWeapon",
       "type_chain": [
         "GrenadeWeapon",
@@ -2467,6 +2735,7 @@
     },
     {
       "name": "grenade.f1",
+      "prefab_id": 45697420,
       "concrete_type": "GrenadeWeapon",
       "type_chain": [
         "GrenadeWeapon",
@@ -2478,6 +2747,7 @@
     },
     {
       "name": "grenade.flashbang",
+      "prefab_id": 758326244,
       "concrete_type": "GrenadeWeapon",
       "type_chain": [
         "GrenadeWeapon",
@@ -2489,6 +2759,7 @@
     },
     {
       "name": "grenade.molotov",
+      "prefab_id": 4104126979,
       "concrete_type": "MolotovCocktail",
       "type_chain": [
         "MolotovCocktail",
@@ -2501,6 +2772,7 @@
     },
     {
       "name": "grenade.smoke",
+      "prefab_id": 3642747736,
       "concrete_type": "GrenadeWeapon",
       "type_chain": [
         "GrenadeWeapon",
@@ -2512,6 +2784,7 @@
     },
     {
       "name": "gun.water",
+      "prefab_id": 37937194,
       "concrete_type": "LiquidWeapon",
       "type_chain": [
         "LiquidWeapon",
@@ -2523,6 +2796,7 @@
     },
     {
       "name": "gunrack.horizontal",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2532,6 +2806,7 @@
     },
     {
       "name": "gunrack.single.1.horizontal",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2541,6 +2816,7 @@
     },
     {
       "name": "gunrack.single.2.horizontal",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2550,6 +2826,7 @@
     },
     {
       "name": "gunrack.single.3.horizontal",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2559,6 +2836,7 @@
     },
     {
       "name": "gunrack_stand",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2568,6 +2846,7 @@
     },
     {
       "name": "gunrack_tall.horizontal",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2577,6 +2856,7 @@
     },
     {
       "name": "gunrack_wide.horizontal",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2586,6 +2866,7 @@
     },
     {
       "name": "guntrap",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2595,6 +2876,7 @@
     },
     {
       "name": "half.bamboo.shelves",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2604,6 +2886,7 @@
     },
     {
       "name": "halfheight.industrial.shelves",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2613,6 +2896,7 @@
     },
     {
       "name": "hammer",
+      "prefab_id": 388861612,
       "concrete_type": "Hammer",
       "type_chain": [
         "Hammer",
@@ -2624,6 +2908,7 @@
     },
     {
       "name": "hammer.salvaged",
+      "prefab_id": 1744180387,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -2634,6 +2919,7 @@
     },
     {
       "name": "handcuffs",
+      "prefab_id": 3263286159,
       "concrete_type": "Handcuffs",
       "type_chain": [
         "Handcuffs",
@@ -2645,6 +2931,7 @@
     },
     {
       "name": "hatchet",
+      "prefab_id": 365233245,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -2655,6 +2942,7 @@
     },
     {
       "name": "hazmat.plushy",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2664,6 +2952,7 @@
     },
     {
       "name": "hazmatyoutooz",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2673,6 +2962,7 @@
     },
     {
       "name": "heartballoon2025",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2682,6 +2972,7 @@
     },
     {
       "name": "heavy.scientist.plushie",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2691,6 +2982,7 @@
     },
     {
       "name": "heavyscientistyoutooz",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2700,6 +2992,7 @@
     },
     {
       "name": "hitchtroughcombo",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2709,6 +3002,7 @@
     },
     {
       "name": "hmlmg",
+      "prefab_id": 3459133190,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -2719,6 +3013,7 @@
     },
     {
       "name": "hobobarrel",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2728,6 +3023,7 @@
     },
     {
       "name": "homingmissile.launcher",
+      "prefab_id": 542600037,
       "concrete_type": "LockOnLauncher",
       "type_chain": [
         "LockOnLauncher",
@@ -2740,6 +3036,7 @@
     },
     {
       "name": "hopper",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2749,6 +3046,7 @@
     },
     {
       "name": "hosetool",
+      "prefab_id": 3568270288,
       "concrete_type": "WireTool",
       "type_chain": [
         "WireTool",
@@ -2758,6 +3056,7 @@
     },
     {
       "name": "huntingtrophylarge",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2767,6 +3066,7 @@
     },
     {
       "name": "huntingtrophysmall",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2776,6 +3076,7 @@
     },
     {
       "name": "icepick.salvaged",
+      "prefab_id": 109244214,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -2786,6 +3087,7 @@
     },
     {
       "name": "improvised.shield",
+      "prefab_id": 3088514867,
       "concrete_type": "Shield",
       "type_chain": [
         "Shield",
@@ -2795,6 +3097,7 @@
     },
     {
       "name": "industrial.autoturret",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2804,6 +3107,7 @@
     },
     {
       "name": "industrial.combiner",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2813,6 +3117,7 @@
     },
     {
       "name": "industrial.conveyor",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2822,6 +3127,7 @@
     },
     {
       "name": "industrial.crafter",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2831,6 +3137,7 @@
     },
     {
       "name": "industrial.electric.furnace",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2840,6 +3147,7 @@
     },
     {
       "name": "industrial.furnace.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2849,6 +3157,7 @@
     },
     {
       "name": "industrial.garagedoor",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2858,6 +3167,7 @@
     },
     {
       "name": "industrial.splitter",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2867,6 +3177,7 @@
     },
     {
       "name": "industrial.storage.horizontal",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2876,6 +3187,7 @@
     },
     {
       "name": "industrial.storage.vertical",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2885,6 +3197,7 @@
     },
     {
       "name": "industrial.torch",
+      "prefab_id": 1288011403,
       "concrete_type": "IndustrialTorchWeapon",
       "type_chain": [
         "IndustrialTorchWeapon",
@@ -2897,6 +3210,7 @@
     },
     {
       "name": "industrial.wall.light",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2906,6 +3220,7 @@
     },
     {
       "name": "industrial.wall.light.blue",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2915,6 +3230,7 @@
     },
     {
       "name": "industrial.wall.light.green",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2924,6 +3240,7 @@
     },
     {
       "name": "industrial.wall.light.red",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2933,6 +3250,7 @@
     },
     {
       "name": "innertube",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2942,6 +3260,7 @@
     },
     {
       "name": "innertube.horse",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2951,6 +3270,7 @@
     },
     {
       "name": "innertube.unicorn",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2960,6 +3280,7 @@
     },
     {
       "name": "iotable",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2969,6 +3290,7 @@
     },
     {
       "name": "jackhammer",
+      "prefab_id": 3537156861,
       "concrete_type": "Jackhammer",
       "type_chain": [
         "Jackhammer",
@@ -2980,6 +3302,7 @@
     },
     {
       "name": "jackolantern.angry",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2989,6 +3312,7 @@
     },
     {
       "name": "jackolantern.happy",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -2998,6 +3322,7 @@
     },
     {
       "name": "jungle.rock",
+      "prefab_id": 1746720686,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -3008,6 +3333,7 @@
     },
     {
       "name": "kayak",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3017,6 +3343,7 @@
     },
     {
       "name": "keycard_blue",
+      "prefab_id": 3773357817,
       "concrete_type": "Keycard",
       "type_chain": [
         "Keycard",
@@ -3027,6 +3354,7 @@
     },
     {
       "name": "keycard_green",
+      "prefab_id": 3773357817,
       "concrete_type": "Keycard",
       "type_chain": [
         "Keycard",
@@ -3037,6 +3365,7 @@
     },
     {
       "name": "keycard_red",
+      "prefab_id": 3773357817,
       "concrete_type": "Keycard",
       "type_chain": [
         "Keycard",
@@ -3047,6 +3376,7 @@
     },
     {
       "name": "knife.bone",
+      "prefab_id": 1483241467,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -3057,6 +3387,7 @@
     },
     {
       "name": "knife.bone.obsidian",
+      "prefab_id": 1443663060,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -3067,6 +3398,7 @@
     },
     {
       "name": "knife.butcher",
+      "prefab_id": 1362182970,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -3077,6 +3409,7 @@
     },
     {
       "name": "knife.combat",
+      "prefab_id": 327944951,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -3087,6 +3420,7 @@
     },
     {
       "name": "knife.skinning",
+      "prefab_id": 995189561,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -3097,6 +3431,7 @@
     },
     {
       "name": "krieg.chainsword",
+      "prefab_id": 4148293472,
       "concrete_type": "Chainsaw",
       "type_chain": [
         "Chainsaw",
@@ -3108,6 +3443,7 @@
     },
     {
       "name": "krieg.shotgun",
+      "prefab_id": 1896956209,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -3118,6 +3454,7 @@
     },
     {
       "name": "krieg.storage.horizontal",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3127,6 +3464,7 @@
     },
     {
       "name": "krieg.storage.vertical",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3136,6 +3474,7 @@
     },
     {
       "name": "ladder.wooden.boat",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3145,6 +3484,7 @@
     },
     {
       "name": "ladder.wooden.wall",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3154,6 +3494,7 @@
     },
     {
       "name": "lantern",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3163,6 +3504,7 @@
     },
     {
       "name": "largecandles",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3172,6 +3514,7 @@
     },
     {
       "name": "laserlight",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3181,6 +3524,7 @@
     },
     {
       "name": "latexballoon2025",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3190,6 +3534,7 @@
     },
     {
       "name": "latexclumpballoon2025",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3199,6 +3544,7 @@
     },
     {
       "name": "legacy bow",
+      "prefab_id": 1400027705,
       "concrete_type": "BowWeapon",
       "type_chain": [
         "BowWeapon",
@@ -3210,6 +3556,7 @@
     },
     {
       "name": "legacy.shelter.wood",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3219,6 +3566,7 @@
     },
     {
       "name": "legacyfurnace",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3228,6 +3576,7 @@
     },
     {
       "name": "lightup.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3237,6 +3586,7 @@
     },
     {
       "name": "lightup.xl",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3246,6 +3596,7 @@
     },
     {
       "name": "lightup.xxl",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3255,6 +3606,7 @@
     },
     {
       "name": "lightupframe.medium",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3264,6 +3616,7 @@
     },
     {
       "name": "lightupframe.small",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3273,6 +3626,7 @@
     },
     {
       "name": "lightupframe.standing",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3282,6 +3636,7 @@
     },
     {
       "name": "lightupmirror.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3291,6 +3646,7 @@
     },
     {
       "name": "lightupmirror.medium",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3300,6 +3656,7 @@
     },
     {
       "name": "lightupmirror.small",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3309,6 +3666,7 @@
     },
     {
       "name": "lightupmirror.standing",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3318,6 +3676,7 @@
     },
     {
       "name": "lmg.m249",
+      "prefab_id": 1440914039,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -3328,6 +3687,7 @@
     },
     {
       "name": "lock.code",
+      "prefab_id": 2686008770,
       "concrete_type": "Deployer",
       "type_chain": [
         "Deployer",
@@ -3337,6 +3697,7 @@
     },
     {
       "name": "lock.code.a.pilot",
+      "prefab_id": 2686008770,
       "concrete_type": "Deployer",
       "type_chain": [
         "Deployer",
@@ -3346,6 +3707,7 @@
     },
     {
       "name": "lock.key",
+      "prefab_id": 2686008770,
       "concrete_type": "Deployer",
       "type_chain": [
         "Deployer",
@@ -3355,6 +3717,7 @@
     },
     {
       "name": "locker",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3364,6 +3727,7 @@
     },
     {
       "name": "longsword",
+      "prefab_id": 3395979968,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -3374,6 +3738,7 @@
     },
     {
       "name": "lumberjack.hatchet",
+      "prefab_id": 4035646930,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -3384,6 +3749,7 @@
     },
     {
       "name": "lumberjack.pickaxe",
+      "prefab_id": 1725165540,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -3394,6 +3760,7 @@
     },
     {
       "name": "lunar.firecrackers",
+      "prefab_id": 628064879,
       "concrete_type": "GrenadeWeapon",
       "type_chain": [
         "GrenadeWeapon",
@@ -3405,6 +3772,7 @@
     },
     {
       "name": "m16a2",
+      "prefab_id": 4258809631,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -3415,6 +3783,7 @@
     },
     {
       "name": "mace",
+      "prefab_id": 2927698044,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -3425,6 +3794,7 @@
     },
     {
       "name": "mace.baseballbat",
+      "prefab_id": 1769459881,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -3435,6 +3805,7 @@
     },
     {
       "name": "machete",
+      "prefab_id": 2942508801,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -3445,6 +3816,7 @@
     },
     {
       "name": "mailbox",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3454,6 +3826,7 @@
     },
     {
       "name": "mannequin",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3463,6 +3836,7 @@
     },
     {
       "name": "map",
+      "prefab_id": 491065559,
       "concrete_type": "MapEntity",
       "type_chain": [
         "MapEntity",
@@ -3472,6 +3846,7 @@
     },
     {
       "name": "medieval.box.wooden.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3481,6 +3856,7 @@
     },
     {
       "name": "medieval.door.double.hinged.metal",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3490,6 +3866,7 @@
     },
     {
       "name": "medieval.door.hinged.metal",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3499,6 +3876,7 @@
     },
     {
       "name": "megaphone",
+      "prefab_id": 3942416854,
       "concrete_type": "Megaphone",
       "type_chain": [
         "Megaphone",
@@ -3508,6 +3886,7 @@
     },
     {
       "name": "metal.detector",
+      "prefab_id": 892200099,
       "concrete_type": "BaseMetalDetector",
       "type_chain": [
         "BaseMetalDetector",
@@ -3517,6 +3896,7 @@
     },
     {
       "name": "metal.shield",
+      "prefab_id": 3703020820,
       "concrete_type": "Shield",
       "type_chain": [
         "Shield",
@@ -3526,6 +3906,7 @@
     },
     {
       "name": "microphonestand",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3535,6 +3916,7 @@
     },
     {
       "name": "military flamethrower",
+      "prefab_id": 1710208928,
       "concrete_type": "FlameThrower",
       "type_chain": [
         "FlameThrower",
@@ -3545,6 +3927,7 @@
     },
     {
       "name": "minecart.planter",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3554,6 +3937,7 @@
     },
     {
       "name": "mini fridge",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3563,6 +3947,7 @@
     },
     {
       "name": "minicrossbow",
+      "prefab_id": 4274044420,
       "concrete_type": "MiniCrossbow",
       "type_chain": [
         "MiniCrossbow",
@@ -3574,6 +3959,7 @@
     },
     {
       "name": "minigun",
+      "prefab_id": 4007138847,
       "concrete_type": "SpinUpWeapon",
       "type_chain": [
         "SpinUpWeapon",
@@ -3585,6 +3971,7 @@
     },
     {
       "name": "mining.pumpjack",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3594,6 +3981,7 @@
     },
     {
       "name": "mining.quarry",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3603,6 +3991,7 @@
     },
     {
       "name": "mixedclumpballoon2025",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3612,6 +4001,7 @@
     },
     {
       "name": "mixingtable",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3621,6 +4011,7 @@
     },
     {
       "name": "mobilephone",
+      "prefab_id": 2342841515,
       "concrete_type": "MobilePhone",
       "type_chain": [
         "MobilePhone",
@@ -3630,6 +4021,7 @@
     },
     {
       "name": "modularcarlift",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3639,6 +4031,7 @@
     },
     {
       "name": "mortar.deployable",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3648,6 +4041,7 @@
     },
     {
       "name": "multiplegrenadelauncher",
+      "prefab_id": 1233562048,
       "concrete_type": "BaseLauncher",
       "type_chain": [
         "BaseLauncher",
@@ -3659,6 +4053,7 @@
     },
     {
       "name": "neonsigntr",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3668,6 +4063,7 @@
     },
     {
       "name": "newyeargong",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3677,6 +4073,7 @@
     },
     {
       "name": "outbreak.sprayer",
+      "prefab_id": 3864758412,
       "concrete_type": "GeigerCounter",
       "type_chain": [
         "GeigerCounter",
@@ -3687,6 +4084,7 @@
     },
     {
       "name": "paddle",
+      "prefab_id": 1850172004,
       "concrete_type": "Paddle",
       "type_chain": [
         "Paddle",
@@ -3698,6 +4096,7 @@
     },
     {
       "name": "paddlingpool",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3707,6 +4106,7 @@
     },
     {
       "name": "paintabletarget.reactive",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3716,6 +4116,7 @@
     },
     {
       "name": "paintballgun",
+      "prefab_id": 3749252572,
       "concrete_type": "PaintballGun",
       "type_chain": [
         "PaintballGun",
@@ -3727,6 +4128,7 @@
     },
     {
       "name": "photoframe.landscape",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3736,6 +4138,7 @@
     },
     {
       "name": "photoframe.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3745,6 +4148,7 @@
     },
     {
       "name": "photoframe.portrait",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3754,6 +4158,7 @@
     },
     {
       "name": "piano",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3763,6 +4168,7 @@
     },
     {
       "name": "pickaxe",
+      "prefab_id": 1587077350,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -3773,6 +4179,7 @@
     },
     {
       "name": "pie.apple",
+      "prefab_id": 797425204,
       "concrete_type": "Food",
       "type_chain": [
         "Food",
@@ -3784,6 +4191,7 @@
     },
     {
       "name": "pie.bear",
+      "prefab_id": 797425204,
       "concrete_type": "Food",
       "type_chain": [
         "Food",
@@ -3795,6 +4203,7 @@
     },
     {
       "name": "pie.bigcat",
+      "prefab_id": 797425204,
       "concrete_type": "Food",
       "type_chain": [
         "Food",
@@ -3806,6 +4215,7 @@
     },
     {
       "name": "pie.chicken",
+      "prefab_id": 797425204,
       "concrete_type": "Food",
       "type_chain": [
         "Food",
@@ -3817,6 +4227,7 @@
     },
     {
       "name": "pie.crocodile",
+      "prefab_id": 797425204,
       "concrete_type": "Food",
       "type_chain": [
         "Food",
@@ -3828,6 +4239,7 @@
     },
     {
       "name": "pie.fish",
+      "prefab_id": 797425204,
       "concrete_type": "Food",
       "type_chain": [
         "Food",
@@ -3839,6 +4251,7 @@
     },
     {
       "name": "pie.hunters",
+      "prefab_id": 797425204,
       "concrete_type": "Food",
       "type_chain": [
         "Food",
@@ -3850,6 +4263,7 @@
     },
     {
       "name": "pie.pork",
+      "prefab_id": 797425204,
       "concrete_type": "Food",
       "type_chain": [
         "Food",
@@ -3861,6 +4275,7 @@
     },
     {
       "name": "pie.pumpkin",
+      "prefab_id": 797425204,
       "concrete_type": "Food",
       "type_chain": [
         "Food",
@@ -3872,6 +4287,7 @@
     },
     {
       "name": "pie.survivors",
+      "prefab_id": 797425204,
       "concrete_type": "Food",
       "type_chain": [
         "Food",
@@ -3883,6 +4299,7 @@
     },
     {
       "name": "pilot.hazmat.box.wooden",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3892,6 +4309,7 @@
     },
     {
       "name": "pinata",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -3901,6 +4319,7 @@
     },
     {
       "name": "pipetool",
+      "prefab_id": 3896504765,
       "concrete_type": "WireTool",
       "type_chain": [
         "WireTool",
@@ -3910,6 +4329,7 @@
     },
     {
       "name": "pistol.eoka",
+      "prefab_id": 2176761593,
       "concrete_type": "FlintStrikeWeapon",
       "type_chain": [
         "FlintStrikeWeapon",
@@ -3921,6 +4341,7 @@
     },
     {
       "name": "pistol.m92",
+      "prefab_id": 2293870814,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -3931,6 +4352,7 @@
     },
     {
       "name": "pistol.nailgun",
+      "prefab_id": 4279856314,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -3941,6 +4363,7 @@
     },
     {
       "name": "pistol.prototype17",
+      "prefab_id": 636374895,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -3951,6 +4374,7 @@
     },
     {
       "name": "pistol.python",
+      "prefab_id": 3305012504,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -3961,6 +4385,7 @@
     },
     {
       "name": "pistol.revolver",
+      "prefab_id": 2477536592,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -3971,6 +4396,7 @@
     },
     {
       "name": "pistol.semiauto",
+      "prefab_id": 563371667,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -3981,6 +4407,7 @@
     },
     {
       "name": "pistol.semiauto.a.m15",
+      "prefab_id": 2343718176,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -3991,6 +4418,7 @@
     },
     {
       "name": "pistol.water",
+      "prefab_id": 1502994528,
       "concrete_type": "LiquidWeapon",
       "type_chain": [
         "LiquidWeapon",
@@ -4002,6 +4430,7 @@
     },
     {
       "name": "pitchfork",
+      "prefab_id": 1009417331,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -4012,6 +4441,7 @@
     },
     {
       "name": "plank",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4021,6 +4451,7 @@
     },
     {
       "name": "planter.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4030,6 +4461,7 @@
     },
     {
       "name": "planter.small",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4039,6 +4471,7 @@
     },
     {
       "name": "planter.triangle",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4048,6 +4481,7 @@
     },
     {
       "name": "plantpot.single",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4057,6 +4491,7 @@
     },
     {
       "name": "pookie.bear",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4066,6 +4501,7 @@
     },
     {
       "name": "powered.water.purifier",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4075,6 +4511,7 @@
     },
     {
       "name": "ptz.cctv.camera",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4084,6 +4521,7 @@
     },
     {
       "name": "pumpkinbasket",
+      "prefab_id": 2763047865,
       "concrete_type": "EasterBasket",
       "type_chain": [
         "EasterBasket",
@@ -4094,6 +4532,7 @@
     },
     {
       "name": "rail.road.planter",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4103,6 +4542,7 @@
     },
     {
       "name": "reinforced.wooden.shield",
+      "prefab_id": 2274489607,
       "concrete_type": "Shield",
       "type_chain": [
         "Shield",
@@ -4112,6 +4552,7 @@
     },
     {
       "name": "research.table",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4121,6 +4562,7 @@
     },
     {
       "name": "revolver.hc",
+      "prefab_id": 2154182718,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -4131,6 +4573,7 @@
     },
     {
       "name": "rf.detonator",
+      "prefab_id": 3503830994,
       "concrete_type": "Detonator",
       "type_chain": [
         "Detonator",
@@ -4140,6 +4583,7 @@
     },
     {
       "name": "rifle.ak",
+      "prefab_id": 1978739833,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -4150,6 +4594,7 @@
     },
     {
       "name": "rifle.ak.diver",
+      "prefab_id": 4096772971,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -4160,6 +4605,7 @@
     },
     {
       "name": "rifle.ak.ice",
+      "prefab_id": 1942738569,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -4170,6 +4616,7 @@
     },
     {
       "name": "rifle.ak.jungle",
+      "prefab_id": 1934468549,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -4180,6 +4627,7 @@
     },
     {
       "name": "rifle.ak.med",
+      "prefab_id": 3192146626,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -4190,6 +4638,7 @@
     },
     {
       "name": "rifle.bolt",
+      "prefab_id": 1665481300,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -4200,6 +4649,7 @@
     },
     {
       "name": "rifle.l96",
+      "prefab_id": 2620171289,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -4210,6 +4660,7 @@
     },
     {
       "name": "rifle.lr300",
+      "prefab_id": 844375121,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -4220,6 +4671,7 @@
     },
     {
       "name": "rifle.lr300.space",
+      "prefab_id": 1407888186,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -4230,6 +4682,7 @@
     },
     {
       "name": "rifle.m39",
+      "prefab_id": 1517089664,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -4240,6 +4693,7 @@
     },
     {
       "name": "rifle.semiauto",
+      "prefab_id": 4231282088,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -4250,6 +4704,7 @@
     },
     {
       "name": "rifle.sks",
+      "prefab_id": 4228529517,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -4260,6 +4715,7 @@
     },
     {
       "name": "rock",
+      "prefab_id": 3940068399,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -4270,6 +4726,7 @@
     },
     {
       "name": "rocket.launcher",
+      "prefab_id": 601440135,
       "concrete_type": "BaseLauncher",
       "type_chain": [
         "BaseLauncher",
@@ -4281,6 +4738,7 @@
     },
     {
       "name": "rocket.launcher.dragon",
+      "prefab_id": 3704640358,
       "concrete_type": "BaseLauncher",
       "type_chain": [
         "BaseLauncher",
@@ -4292,6 +4750,7 @@
     },
     {
       "name": "rocket.launcher.rpg7",
+      "prefab_id": 3445264346,
       "concrete_type": "RPGLauncher",
       "type_chain": [
         "RPGLauncher",
@@ -4304,6 +4763,7 @@
     },
     {
       "name": "rockingchair",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4313,6 +4773,7 @@
     },
     {
       "name": "rockingchair.rockingchair2",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4322,6 +4783,7 @@
     },
     {
       "name": "rockingchair.rockingchair3",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4331,6 +4793,7 @@
     },
     {
       "name": "rug",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4340,6 +4803,7 @@
     },
     {
       "name": "rug.bear",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4349,6 +4813,7 @@
     },
     {
       "name": "rustige_egg_a",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4358,6 +4823,7 @@
     },
     {
       "name": "rustige_egg_b",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4367,6 +4833,7 @@
     },
     {
       "name": "rustige_egg_c",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4376,6 +4843,7 @@
     },
     {
       "name": "rustige_egg_d",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4385,6 +4853,7 @@
     },
     {
       "name": "rustige_egg_e",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4394,6 +4863,7 @@
     },
     {
       "name": "rustige_egg_f",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4403,6 +4873,7 @@
     },
     {
       "name": "rustige_egg_g",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4412,6 +4883,7 @@
     },
     {
       "name": "rustige_egg_h",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4421,6 +4893,7 @@
     },
     {
       "name": "sail",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4430,6 +4903,7 @@
     },
     {
       "name": "salvaged.bamboo.shelves",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4439,6 +4913,7 @@
     },
     {
       "name": "salvaged.cleaver",
+      "prefab_id": 3340056040,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -4449,6 +4924,7 @@
     },
     {
       "name": "salvaged.industrial.shelves",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4458,6 +4934,7 @@
     },
     {
       "name": "salvaged.sword",
+      "prefab_id": 1663991785,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -4468,6 +4945,7 @@
     },
     {
       "name": "samsite",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4477,6 +4955,7 @@
     },
     {
       "name": "scarecrow",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4486,6 +4965,7 @@
     },
     {
       "name": "scientist.plushie",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4495,6 +4975,7 @@
     },
     {
       "name": "scrapframe.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4504,6 +4985,7 @@
     },
     {
       "name": "scrapframe.medium",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4513,6 +4995,7 @@
     },
     {
       "name": "scrapframe.small",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4522,6 +5005,7 @@
     },
     {
       "name": "scrapframe.standing",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4531,6 +5015,7 @@
     },
     {
       "name": "scrapframe.xl",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4540,6 +5025,7 @@
     },
     {
       "name": "scrapframe.xxl",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4549,6 +5035,7 @@
     },
     {
       "name": "scrapmirror.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4558,6 +5045,7 @@
     },
     {
       "name": "scrapmirror.medium",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4567,6 +5055,7 @@
     },
     {
       "name": "scrapmirror.small",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4576,6 +5065,7 @@
     },
     {
       "name": "scrapmirror.standing",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4585,6 +5075,7 @@
     },
     {
       "name": "sculpture.ice",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4594,6 +5085,7 @@
     },
     {
       "name": "searchlight",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4603,6 +5095,7 @@
     },
     {
       "name": "secretlabchair",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4612,6 +5105,7 @@
     },
     {
       "name": "seed.black.berry",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4621,6 +5115,7 @@
     },
     {
       "name": "seed.blue.berry",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4630,6 +5125,7 @@
     },
     {
       "name": "seed.corn",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4639,6 +5135,7 @@
     },
     {
       "name": "seed.green.berry",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4648,6 +5145,7 @@
     },
     {
       "name": "seed.hemp",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4657,6 +5155,7 @@
     },
     {
       "name": "seed.orchid",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4666,6 +5165,7 @@
     },
     {
       "name": "seed.potato",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4675,6 +5175,7 @@
     },
     {
       "name": "seed.pumpkin",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4684,6 +5185,7 @@
     },
     {
       "name": "seed.red.berry",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4693,6 +5195,7 @@
     },
     {
       "name": "seed.rose",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4702,6 +5205,7 @@
     },
     {
       "name": "seed.sunflower",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4711,6 +5215,7 @@
     },
     {
       "name": "seed.wheat",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4720,6 +5225,7 @@
     },
     {
       "name": "seed.white.berry",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4729,6 +5235,7 @@
     },
     {
       "name": "seed.yellow.berry",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4738,6 +5245,7 @@
     },
     {
       "name": "shelves",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4747,6 +5255,7 @@
     },
     {
       "name": "shotgun.double",
+      "prefab_id": 3474489095,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -4757,6 +5266,7 @@
     },
     {
       "name": "shotgun.m4",
+      "prefab_id": 2416998201,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -4767,6 +5277,7 @@
     },
     {
       "name": "shotgun.pump",
+      "prefab_id": 554582418,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -4777,6 +5288,7 @@
     },
     {
       "name": "shotgun.spas12",
+      "prefab_id": 1877401463,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -4787,6 +5299,7 @@
     },
     {
       "name": "shotgun.waterpipe",
+      "prefab_id": 2696589892,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -4797,6 +5310,7 @@
     },
     {
       "name": "shovel",
+      "prefab_id": 3196650451,
       "concrete_type": "Shovel",
       "type_chain": [
         "Shovel",
@@ -4808,6 +5322,7 @@
     },
     {
       "name": "shutter.metal.embrasure.a",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4817,6 +5332,7 @@
     },
     {
       "name": "shutter.metal.embrasure.b",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4826,6 +5342,7 @@
     },
     {
       "name": "shutter.wood.a",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4835,6 +5352,7 @@
     },
     {
       "name": "sickle",
+      "prefab_id": 124547093,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -4845,6 +5363,7 @@
     },
     {
       "name": "siegetower",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4854,6 +5373,7 @@
     },
     {
       "name": "sign.artistcanvas.l",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4863,6 +5383,7 @@
     },
     {
       "name": "sign.artistcanvas.m",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4872,6 +5393,7 @@
     },
     {
       "name": "sign.artistcanvas.s",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4881,6 +5403,7 @@
     },
     {
       "name": "sign.artistcanvas.xl",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4890,6 +5413,7 @@
     },
     {
       "name": "sign.artistcanvas.xs",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4899,6 +5423,7 @@
     },
     {
       "name": "sign.artistcanvas.xxl",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4908,6 +5433,7 @@
     },
     {
       "name": "sign.hanging",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4917,6 +5443,7 @@
     },
     {
       "name": "sign.hanging.banner.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4926,6 +5453,7 @@
     },
     {
       "name": "sign.hanging.ornate",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4935,6 +5463,7 @@
     },
     {
       "name": "sign.neon.125x125",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4944,6 +5473,7 @@
     },
     {
       "name": "sign.neon.125x215",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4953,6 +5483,7 @@
     },
     {
       "name": "sign.neon.125x215.animated",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4962,6 +5493,7 @@
     },
     {
       "name": "sign.neon.xl",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4971,6 +5503,7 @@
     },
     {
       "name": "sign.neon.xl.animated",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4980,6 +5513,7 @@
     },
     {
       "name": "sign.pictureframe.landscape",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4989,6 +5523,7 @@
     },
     {
       "name": "sign.pictureframe.portrait",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -4998,6 +5533,7 @@
     },
     {
       "name": "sign.pictureframe.tall",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5007,6 +5543,7 @@
     },
     {
       "name": "sign.pictureframe.xl",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5016,6 +5553,7 @@
     },
     {
       "name": "sign.pictureframe.xxl",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5025,6 +5563,7 @@
     },
     {
       "name": "sign.pole.banner.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5034,6 +5573,7 @@
     },
     {
       "name": "sign.post.double",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5043,6 +5583,7 @@
     },
     {
       "name": "sign.post.single",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5052,6 +5593,7 @@
     },
     {
       "name": "sign.post.town",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5061,6 +5603,7 @@
     },
     {
       "name": "sign.post.town.roof",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5070,6 +5613,7 @@
     },
     {
       "name": "sign.wooden.huge",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5079,6 +5623,7 @@
     },
     {
       "name": "sign.wooden.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5088,6 +5633,7 @@
     },
     {
       "name": "sign.wooden.medium",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5097,6 +5643,7 @@
     },
     {
       "name": "sign.wooden.small",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5106,6 +5653,7 @@
     },
     {
       "name": "single.shallow.wall.shelves",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5115,6 +5663,7 @@
     },
     {
       "name": "skidoo",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5124,6 +5673,7 @@
     },
     {
       "name": "skull",
+      "prefab_id": 1140399555,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -5134,6 +5684,7 @@
     },
     {
       "name": "skull.trophy",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5143,6 +5694,7 @@
     },
     {
       "name": "skull.trophy.jar",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5152,6 +5704,7 @@
     },
     {
       "name": "skull.trophy.jar2",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5161,6 +5714,7 @@
     },
     {
       "name": "skull.trophy.table",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5170,6 +5724,7 @@
     },
     {
       "name": "skull_fire_pit",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5179,6 +5734,7 @@
     },
     {
       "name": "skulldoorknocker",
+      "prefab_id": 2686008770,
       "concrete_type": "Deployer",
       "type_chain": [
         "Deployer",
@@ -5188,6 +5744,7 @@
     },
     {
       "name": "skullspikes",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5197,6 +5754,7 @@
     },
     {
       "name": "skullspikes.candles",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5206,6 +5764,7 @@
     },
     {
       "name": "skullspikes.pumpkin",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5215,6 +5774,7 @@
     },
     {
       "name": "skylantern",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5224,6 +5784,7 @@
     },
     {
       "name": "skylantern.skylantern.green",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5233,6 +5794,7 @@
     },
     {
       "name": "skylantern.skylantern.orange",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5242,6 +5804,7 @@
     },
     {
       "name": "skylantern.skylantern.purple",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5251,6 +5814,7 @@
     },
     {
       "name": "skylantern.skylantern.red",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5260,6 +5824,7 @@
     },
     {
       "name": "sled",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5269,6 +5834,7 @@
     },
     {
       "name": "sled.xmas",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5278,6 +5844,7 @@
     },
     {
       "name": "sleepingbag",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5287,6 +5854,7 @@
     },
     {
       "name": "small.oil.refinery",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5296,6 +5864,7 @@
     },
     {
       "name": "small_ramp",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5305,6 +5874,7 @@
     },
     {
       "name": "smallcandles",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5314,6 +5884,7 @@
     },
     {
       "name": "smallengine",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5323,6 +5894,7 @@
     },
     {
       "name": "smallwaterbottle",
+      "prefab_id": 139849256,
       "concrete_type": "BaseLiquidVessel",
       "type_chain": [
         "BaseLiquidVessel",
@@ -5333,6 +5905,7 @@
     },
     {
       "name": "smart.alarm",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5342,6 +5915,7 @@
     },
     {
       "name": "smart.switch",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5351,6 +5925,7 @@
     },
     {
       "name": "smg.2",
+      "prefab_id": 3759841439,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -5361,6 +5936,7 @@
     },
     {
       "name": "smg.mp5",
+      "prefab_id": 2545523575,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -5371,6 +5947,7 @@
     },
     {
       "name": "smg.thompson",
+      "prefab_id": 3243900999,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -5381,6 +5958,7 @@
     },
     {
       "name": "snowball",
+      "prefab_id": 591451995,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -5391,6 +5969,7 @@
     },
     {
       "name": "snowballgun",
+      "prefab_id": 3228215527,
       "concrete_type": "SnowballGun",
       "type_chain": [
         "SnowballGun",
@@ -5402,6 +5981,7 @@
     },
     {
       "name": "snowmachine",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5411,6 +5991,7 @@
     },
     {
       "name": "snowman",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5420,6 +6001,7 @@
     },
     {
       "name": "sofa",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5429,6 +6011,7 @@
     },
     {
       "name": "sofa.pattern",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5438,6 +6021,7 @@
     },
     {
       "name": "soundlight",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5447,6 +6031,7 @@
     },
     {
       "name": "spear.cny",
+      "prefab_id": 3814317397,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -5457,6 +6042,7 @@
     },
     {
       "name": "spear.stone",
+      "prefab_id": 1943636975,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -5467,6 +6053,7 @@
     },
     {
       "name": "spear.wooden",
+      "prefab_id": 2828546575,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -5477,6 +6064,7 @@
     },
     {
       "name": "speargun",
+      "prefab_id": 4262383355,
       "concrete_type": "Speargun",
       "type_chain": [
         "Speargun",
@@ -5489,6 +6077,7 @@
     },
     {
       "name": "speechbubbleballoon2025",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5498,6 +6087,7 @@
     },
     {
       "name": "spiderweb",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5507,6 +6097,7 @@
     },
     {
       "name": "spikes.floor",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5516,6 +6107,7 @@
     },
     {
       "name": "spikes.trap",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5525,6 +6117,7 @@
     },
     {
       "name": "spinner.wheel",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5534,6 +6127,7 @@
     },
     {
       "name": "spookyspeaker",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5543,6 +6137,7 @@
     },
     {
       "name": "spraycan",
+      "prefab_id": 4251031431,
       "concrete_type": "SprayCan",
       "type_chain": [
         "SprayCan",
@@ -5552,6 +6147,7 @@
     },
     {
       "name": "starballoon2025",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5561,6 +6157,7 @@
     },
     {
       "name": "stash.small",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5570,6 +6167,7 @@
     },
     {
       "name": "steeringwheel.boat",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5579,6 +6177,7 @@
     },
     {
       "name": "stocking.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5588,6 +6187,7 @@
     },
     {
       "name": "stocking.small",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5597,6 +6197,7 @@
     },
     {
       "name": "stone.pickaxe",
+      "prefab_id": 1450582435,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -5607,6 +6208,7 @@
     },
     {
       "name": "stonehatchet",
+      "prefab_id": 3540736579,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -5617,6 +6219,7 @@
     },
     {
       "name": "storage.monitor",
+      "prefab_id": 2686008770,
       "concrete_type": "Deployer",
       "type_chain": [
         "Deployer",
@@ -5626,6 +6229,7 @@
     },
     {
       "name": "storage_barrel_a",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5635,6 +6239,7 @@
     },
     {
       "name": "storage_barrel_b",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5644,6 +6249,7 @@
     },
     {
       "name": "storage_barrel_c",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5653,6 +6259,7 @@
     },
     {
       "name": "storageadaptor",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5662,6 +6269,7 @@
     },
     {
       "name": "strobelight",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5671,6 +6279,7 @@
     },
     {
       "name": "sunken.knife",
+      "prefab_id": 2957160983,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -5681,6 +6290,7 @@
     },
     {
       "name": "supply.signal",
+      "prefab_id": 775476535,
       "concrete_type": "GrenadeWeapon",
       "type_chain": [
         "GrenadeWeapon",
@@ -5692,6 +6302,7 @@
     },
     {
       "name": "surveycharge",
+      "prefab_id": 2698594377,
       "concrete_type": "ThrownWeapon",
       "type_chain": [
         "ThrownWeapon",
@@ -5702,6 +6313,7 @@
     },
     {
       "name": "syringe.medical",
+      "prefab_id": 283937635,
       "concrete_type": "MedicalTool",
       "type_chain": [
         "MedicalTool",
@@ -5712,6 +6324,7 @@
     },
     {
       "name": "t1_smg",
+      "prefab_id": 4251501342,
       "concrete_type": "BaseProjectile",
       "type_chain": [
         "BaseProjectile",
@@ -5722,6 +6335,7 @@
     },
     {
       "name": "table",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5731,6 +6345,7 @@
     },
     {
       "name": "target.reactive",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5740,6 +6355,7 @@
     },
     {
       "name": "telephone",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5749,6 +6365,7 @@
     },
     {
       "name": "tincan.alarm",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5758,6 +6375,7 @@
     },
     {
       "name": "tool.binoculars",
+      "prefab_id": 436023350,
       "concrete_type": "Binocular",
       "type_chain": [
         "Binocular",
@@ -5768,6 +6386,7 @@
     },
     {
       "name": "tool.camera",
+      "prefab_id": 1410597758,
       "concrete_type": "CameraTool",
       "type_chain": [
         "CameraTool",
@@ -5777,6 +6396,7 @@
     },
     {
       "name": "tool.instant_camera",
+      "prefab_id": 509717370,
       "concrete_type": "InstantCameraTool",
       "type_chain": [
         "InstantCameraTool",
@@ -5786,6 +6406,7 @@
     },
     {
       "name": "toolgun",
+      "prefab_id": 417347909,
       "concrete_type": "Toolgun",
       "type_chain": [
         "Toolgun",
@@ -5798,6 +6419,7 @@
     },
     {
       "name": "torch",
+      "prefab_id": 1543342082,
       "concrete_type": "TorchWeapon",
       "type_chain": [
         "TorchWeapon",
@@ -5809,6 +6431,7 @@
     },
     {
       "name": "torch.torch.skull",
+      "prefab_id": 3258690150,
       "concrete_type": "TorchWeapon",
       "type_chain": [
         "TorchWeapon",
@@ -5820,6 +6443,7 @@
     },
     {
       "name": "torchholder",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5829,6 +6453,7 @@
     },
     {
       "name": "trap.bear",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5838,6 +6463,7 @@
     },
     {
       "name": "trap.landmine",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5847,6 +6473,7 @@
     },
     {
       "name": "triangle.rail.road.planter",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5856,6 +6483,7 @@
     },
     {
       "name": "trophy",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5865,6 +6493,7 @@
     },
     {
       "name": "trophy2023",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5874,6 +6503,7 @@
     },
     {
       "name": "tunalight",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5883,6 +6513,7 @@
     },
     {
       "name": "twitchrivals2023desk",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5892,6 +6523,7 @@
     },
     {
       "name": "twitchrivals2025sofa",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5901,6 +6533,7 @@
     },
     {
       "name": "vampire.stake",
+      "prefab_id": 2186616991,
       "concrete_type": "BaseMelee",
       "type_chain": [
         "BaseMelee",
@@ -5911,6 +6544,7 @@
     },
     {
       "name": "vehicle.car_radio",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5920,6 +6554,7 @@
     },
     {
       "name": "vending.machine",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5929,6 +6564,7 @@
     },
     {
       "name": "wall.external.high",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5938,6 +6574,7 @@
     },
     {
       "name": "wall.external.high.adobe",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5947,6 +6584,7 @@
     },
     {
       "name": "wall.external.high.ice",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5956,6 +6594,7 @@
     },
     {
       "name": "wall.external.high.legacy",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5965,6 +6604,7 @@
     },
     {
       "name": "wall.external.high.stone",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5974,6 +6614,7 @@
     },
     {
       "name": "wall.frame.cell",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5983,6 +6624,7 @@
     },
     {
       "name": "wall.frame.cell.gate",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -5992,6 +6634,7 @@
     },
     {
       "name": "wall.frame.fence",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6001,6 +6644,7 @@
     },
     {
       "name": "wall.frame.fence.gate",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6010,6 +6654,7 @@
     },
     {
       "name": "wall.frame.garagedoor",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6019,6 +6664,7 @@
     },
     {
       "name": "wall.frame.lunar2025_a",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6028,6 +6674,7 @@
     },
     {
       "name": "wall.frame.lunar2025_b",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6037,6 +6684,7 @@
     },
     {
       "name": "wall.frame.lunar2025_c",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6046,6 +6694,7 @@
     },
     {
       "name": "wall.frame.netting",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6055,6 +6704,7 @@
     },
     {
       "name": "wall.frame.shopfront",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6064,6 +6714,7 @@
     },
     {
       "name": "wall.frame.shopfront.metal",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6073,6 +6724,7 @@
     },
     {
       "name": "wall.graveyard.fence",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6082,6 +6734,7 @@
     },
     {
       "name": "wall.ice.wall",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6091,6 +6744,7 @@
     },
     {
       "name": "wall.shallow.industrial.shelves",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6100,6 +6754,7 @@
     },
     {
       "name": "wall.window.bars.metal",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6109,6 +6764,7 @@
     },
     {
       "name": "wall.window.bars.toptier",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6118,6 +6774,7 @@
     },
     {
       "name": "wall.window.bars.wood",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6127,6 +6784,7 @@
     },
     {
       "name": "wall.window.glass.reinforced",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6136,6 +6794,7 @@
     },
     {
       "name": "wallpaper.tool",
+      "prefab_id": 2811911262,
       "concrete_type": "WallpaperPlanner",
       "type_chain": [
         "WallpaperPlanner",
@@ -6146,6 +6805,7 @@
     },
     {
       "name": "wantedposter",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6155,6 +6815,7 @@
     },
     {
       "name": "wantedposter.wantedposter2",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6164,6 +6825,7 @@
     },
     {
       "name": "wantedposter.wantedposter3",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6173,6 +6835,7 @@
     },
     {
       "name": "wantedposter.wantedposter4",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6182,6 +6845,7 @@
     },
     {
       "name": "watchtower.wood",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6191,6 +6855,7 @@
     },
     {
       "name": "water.barrel",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6200,6 +6865,7 @@
     },
     {
       "name": "water.catcher.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6209,6 +6875,7 @@
     },
     {
       "name": "water.catcher.small",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6218,6 +6885,7 @@
     },
     {
       "name": "water.purifier",
+      "prefab_id": 2686008770,
       "concrete_type": "Deployer",
       "type_chain": [
         "Deployer",
@@ -6227,6 +6895,7 @@
     },
     {
       "name": "waterjug",
+      "prefab_id": 366999130,
       "concrete_type": "BaseLiquidVessel",
       "type_chain": [
         "BaseLiquidVessel",
@@ -6237,6 +6906,7 @@
     },
     {
       "name": "waterpump",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6246,6 +6916,7 @@
     },
     {
       "name": "wicker.barrel",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6255,6 +6926,7 @@
     },
     {
       "name": "window.paintable",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6264,6 +6936,7 @@
     },
     {
       "name": "wiretool",
+      "prefab_id": 4258987144,
       "concrete_type": "WireTool",
       "type_chain": [
         "WireTool",
@@ -6273,6 +6946,7 @@
     },
     {
       "name": "woodcross",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6282,6 +6956,7 @@
     },
     {
       "name": "wooden.shield",
+      "prefab_id": 3637711865,
       "concrete_type": "Shield",
       "type_chain": [
         "Shield",
@@ -6291,6 +6966,7 @@
     },
     {
       "name": "woodframe.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6300,6 +6976,7 @@
     },
     {
       "name": "woodframe.medium",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6309,6 +6986,7 @@
     },
     {
       "name": "woodframe.small",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6318,6 +6996,7 @@
     },
     {
       "name": "woodframe.standing",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6327,6 +7006,7 @@
     },
     {
       "name": "woodmirror.large",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6336,6 +7016,7 @@
     },
     {
       "name": "woodmirror.medium",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6345,6 +7026,7 @@
     },
     {
       "name": "woodmirror.small",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6354,6 +7036,7 @@
     },
     {
       "name": "woodmirror.standing",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6363,6 +7046,7 @@
     },
     {
       "name": "workbench1",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6372,6 +7056,7 @@
     },
     {
       "name": "workbench2",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6381,6 +7066,7 @@
     },
     {
       "name": "workbench3",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6390,6 +7076,7 @@
     },
     {
       "name": "xmas.advent",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6399,6 +7086,7 @@
     },
     {
       "name": "xmas.door.garland",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6408,6 +7096,7 @@
     },
     {
       "name": "xmas.double.door.garland",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6417,6 +7106,7 @@
     },
     {
       "name": "xmas.lightstring",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6426,6 +7116,7 @@
     },
     {
       "name": "xmas.lightstring.advanced",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6435,6 +7126,7 @@
     },
     {
       "name": "xmas.tree",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6444,6 +7136,7 @@
     },
     {
       "name": "xmas.window.garland",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
@@ -6453,6 +7146,7 @@
     },
     {
       "name": "xmasdoorwreath",
+      "prefab_id": 2686008770,
       "concrete_type": "Deployer",
       "type_chain": [
         "Deployer",
@@ -6462,6 +7156,7 @@
     },
     {
       "name": "xylophone",
+      "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
         "Planner",
