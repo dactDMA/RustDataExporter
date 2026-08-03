@@ -12,7 +12,7 @@ using UnityEngine;
 
 namespace Oxide.Plugins
 {
-    [Info("Rust Data Exporter", "dactill", "1.3.2")]
+    [Info("Rust Data Exporter", "dactill", "1.3.3")]
     [Description("Exports Rust item, weapon, projectile, explosive and held-item data to C++ headers and optional JSON.")]
     public class RustDataExporter : RustPlugin
     {
@@ -2995,14 +2995,22 @@ namespace Oxide.Plugins
             sb.AppendLine("    return &kTypeNames[item->first_type];");
             sb.AppendLine("}");
             sb.AppendLine();
-            sb.AppendLine("inline bool HasType(const char* name, const char* type) noexcept");
+            sb.AppendLine("inline bool HasType(const ItemTypeEntry* item, const char* type) noexcept");
             sb.AppendLine("{");
-            sb.AppendLine("    if (!type) return false;");
-            sb.AppendLine("    const ItemTypeEntry* item = Get(name);");
-            sb.AppendLine("    if (!item) return false;");
+            sb.AppendLine("    if (!item || !type) return false;");
             sb.AppendLine("    for (std::size_t i = 0; i < item->type_count; ++i)");
             sb.AppendLine("        if (std::strcmp(kTypeNames[item->first_type + i], type) == 0) return true;");
             sb.AppendLine("    return false;");
+            sb.AppendLine("}");
+            sb.AppendLine();
+            sb.AppendLine("inline bool HasType(const char* name, const char* type) noexcept");
+            sb.AppendLine("{");
+            sb.AppendLine("    return HasType(Get(name), type);");
+            sb.AppendLine("}");
+            sb.AppendLine();
+            sb.AppendLine("inline bool HasTypeByPrefabId(std::uint32_t prefab_id, const char* type) noexcept");
+            sb.AppendLine("{");
+            sb.AppendLine("    return HasType(GetByPrefabId(prefab_id), type);");
             sb.AppendLine("}");
             sb.AppendLine("} // namespace ItemTypes");
             sb.AppendLine("} // namespace RustData");

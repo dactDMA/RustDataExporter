@@ -1,6 +1,6 @@
 //
 // Auto-generated Rust Weapon Data
-// Generated: 2026-08-02 15:05:05 UTC
+// Generated: 2026-08-02 15:52:23 UTC
 // Target: Protocol 2631.286.1 / Changeset 158240
 // Total entries: 55
 // Generator: RustDataExporter

@@ -1,6 +1,6 @@
 //
 // Auto-generated Rust Held Item Type Map
-// Generated: 2026-08-02 15:05:05 UTC
+// Generated: 2026-08-02 15:52:23 UTC
 // Target: Protocol 2631.286.1 / Changeset 158240
 // Total entries: 695
 // Generator: RustDataExporter
@@ -2545,14 +2545,22 @@ inline const char* const* GetTypes(const char* name, std::size_t& count) noexcep
     return &kTypeNames[item->first_type];
 }
 
-inline bool HasType(const char* name, const char* type) noexcept
+inline bool HasType(const ItemTypeEntry* item, const char* type) noexcept
 {
-    if (!type) return false;
-    const ItemTypeEntry* item = Get(name);
-    if (!item) return false;
+    if (!item || !type) return false;
     for (std::size_t i = 0; i < item->type_count; ++i)
         if (std::strcmp(kTypeNames[item->first_type + i], type) == 0) return true;
     return false;
+}
+
+inline bool HasType(const char* name, const char* type) noexcept
+{
+    return HasType(Get(name), type);
+}
+
+inline bool HasTypeByPrefabId(std::uint32_t prefab_id, const char* type) noexcept
+{
+    return HasType(GetByPrefabId(prefab_id), type);
 }
 } // namespace ItemTypes
 } // namespace RustData

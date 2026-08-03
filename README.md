@@ -39,7 +39,7 @@ contains the thrown prefab link, throw parameters, item shortnames, and relevant
 `AttackEntity` and `HeldEntity` configuration.
 
 `RustHeldItemTypeMap` includes the held entity `prefab_id` and provides
-`GetByPrefabId` and `GetPrefabId` helpers.
+`GetByPrefabId`, `GetPrefabId`, and `HasTypeByPrefabId` helpers.
 
 Serialized fields declared by subclasses of `TimedExplosive` or `ThrownWeapon`
 are emitted in `extra_fields`. This preserves class-specific prefab settings such
