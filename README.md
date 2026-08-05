@@ -6,7 +6,7 @@ headers. JSON copies are optional.
 ## Command
 
 ```text
-rustdata.dump [all|items|weapons|projectiles|held|explosives] [json]
+rustdata.dump [all|prefabs|items|weapons|projectiles|held|explosives] [json]
 ```
 
 Examples:
@@ -14,6 +14,7 @@ Examples:
 ```text
 rustdata.dump explosives
 rustdata.dump explosives json
+rustdata.dump prefabs json
 rustdata.dump all json
 ```
 
@@ -32,6 +33,16 @@ The `explosives` target generates:
 - `RustThrownWeaponData.hpp`
 - `RustTimedExplosiveData.json` when `json` is requested
 - `RustThrownWeaponData.json` when `json` is requested
+
+The `prefabs` target generates `RustPrefabData.hpp` and optionally
+`RustPrefabData.json`. It contains loaded manifest prefabs that have a
+`BaseNetworkable` component, including prefab path, ID, concrete type, and
+inheritance chain.
+It also exports Rigidbody, NavMeshAgent, CharacterController and Unity static
+signals. The generated `mobility` value is `dynamic` when movement is detected by
+Rigidbody, navigation, controller, type, or path signals. Other `BaseNetworkable`
+prefabs are classified as `static`. Generated entries use the `Uncategorized`
+category and the prefab name without an extension as their image name.
 
 `RustTimedExplosiveData` contains fuse, radius, damage, AI, water, effects,
 sticking, orientation, Rigidbody mass/drag, prefab type and prefab hash data. `RustThrownWeaponData`

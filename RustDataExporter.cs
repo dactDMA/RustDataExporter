@@ -12,8 +12,8 @@ using UnityEngine;
 
 namespace Oxide.Plugins
 {
-    [Info("Rust Data Exporter", "dactill", "1.3.3")]
-    [Description("Exports Rust item, weapon, projectile, explosive and held-item data to C++ headers and optional JSON.")]
+    [Info("Rust Data Exporter", "dactill", "1.5.1")]
+    [Description("Exports Rust prefab, item, weapon, projectile, explosive and held-item data to C++ headers and optional JSON.")]
     public class RustDataExporter : RustPlugin
     {
         private const string PermissionUse = "rustdataexporter.use";
@@ -58,13 +58,14 @@ namespace Oxide.Plugins
             if (!TryParseArguments(commandArgs, out target, out includeJson, out error))
             {
                 arg.ReplyWith(error);
-                arg.ReplyWith("Usage: rustdata.dump [all|items|weapons|projectiles|held|explosives] [json]");
+                arg.ReplyWith("Usage: rustdata.dump [all|prefabs|items|weapons|projectiles|held|explosives] [json]");
                 return;
             }
 
             GameManifest manifest = GameManifest.Current;
             bool needsManifest = target == "all" || target == "weapons" ||
-                                 target == "projectiles" || target == "explosives";
+                                 target == "projectiles" || target == "explosives" ||
+                                 target == "prefabs";
             if (needsManifest && (manifest == null || manifest.prefabProperties == null))
             {
                 arg.ReplyWith("GameManifest is not loaded. Run the command after server startup completes.");
@@ -111,7 +112,8 @@ namespace Oxide.Plugins
                 job.Prefabs.Length,
                 job.Items.Count));
 
-            if (WantsWeapons(job) || WantsProjectiles(job) || WantsExplosives(job))
+            if (WantsWeapons(job) || WantsProjectiles(job) || WantsExplosives(job) ||
+                WantsPrefabs(job))
             {
                 ProcessPrefabBatch();
             }
@@ -165,7 +167,8 @@ namespace Oxide.Plugins
                 }
 
                 if (value == "all" || value == "items" || value == "weapons" ||
-                    value == "projectiles" || value == "held" || value == "explosives")
+                    value == "projectiles" || value == "held" || value == "explosives" ||
+                    value == "prefabs")
                 {
                     if (targetSeen)
                     {
@@ -210,6 +213,11 @@ namespace Oxide.Plugins
             return job.Target == "all" || job.Target == "explosives";
         }
 
+        private static bool WantsPrefabs(DumpJob job)
+        {
+            return job.Target == "all" || job.Target == "prefabs";
+        }
+
         private void BuildItemIndex(DumpJob job)
         {
             if (ItemManager.itemList == null)
@@ -234,7 +242,8 @@ namespace Oxide.Plugins
                     CaptureAmmoLinks(job, definition);
                 }
 
-                if (!WantsHeld(job) && !WantsWeapons(job) && !WantsExplosives(job))
+                if (!WantsHeld(job) && !WantsWeapons(job) && !WantsExplosives(job) &&
+                    !WantsPrefabs(job))
                 {
                     continue;
                 }
@@ -691,6 +700,17 @@ namespace Oxide.Plugins
             }
 
             GameObject prefab = GameManager.server.FindPrefab(path);
+
+            if (WantsPrefabs(job) && job.PrefabPaths.Add(path))
+            {
+                PrefabRecord prefabRecord =
+                    CapturePrefabRecord(job, path, properties.hash, prefab);
+                if (prefabRecord != null)
+                {
+                    job.PrefabData.Add(prefabRecord);
+                }
+            }
+
             if (prefab == null)
             {
                 return;
@@ -733,6 +753,212 @@ namespace Oxide.Plugins
                     job.ThrownWeapons.Add(CaptureThrownWeapon(job, path, properties.hash, thrownWeapon));
                 }
             }
+        }
+
+        private static PrefabRecord CapturePrefabRecord(
+            DumpJob job,
+            string path,
+            uint prefabId,
+            GameObject prefab)
+        {
+            if (prefab == null)
+            {
+                return null;
+            }
+
+            string name = Path.GetFileNameWithoutExtension(path) ?? string.Empty;
+            BaseNetworkable networkable = prefab.GetComponent<BaseNetworkable>();
+            if (networkable == null)
+            {
+                return null;
+            }
+
+            Type concreteType = networkable.GetType();
+            Rigidbody[] rigidbodies = prefab.GetComponentsInChildren<Rigidbody>(true);
+            bool hasRigidbody = rigidbodies.Length > 0;
+            bool allRigidbodiesKinematic = hasRigidbody;
+            bool anyRigidbodyUsesGravity = false;
+
+            for (int i = 0; i < rigidbodies.Length; i++)
+            {
+                Rigidbody rigidbody = rigidbodies[i];
+                if (rigidbody == null)
+                {
+                    continue;
+                }
+
+                allRigidbodiesKinematic &= rigidbody.isKinematic;
+                anyRigidbodyUsesGravity |= rigidbody.useGravity;
+            }
+
+            bool hasNavMeshAgent = HasComponentType(prefab, "UnityEngine.AI.NavMeshAgent");
+            bool hasCharacterController = HasComponentType(prefab, "UnityEngine.CharacterController");
+            bool isKnownDynamic = IsKnownDynamicPrefab(
+                path,
+                concreteType,
+                hasRigidbody && !allRigidbodiesKinematic,
+                hasNavMeshAgent,
+                hasCharacterController);
+            bool unityIsStatic = prefab != null && prefab.isStatic;
+            string mobility = isKnownDynamic ? "dynamic" : "static";
+
+            return new PrefabRecord
+            {
+                name = name,
+                display_name = GetPrefabDisplayName(job, path, name, networkable),
+                image_filename = name,
+                category = "Uncategorized",
+                prefab_path = path,
+                prefab_id = prefabId,
+                loaded = true,
+                is_base_networkable = true,
+                unity_is_static = unityIsStatic,
+                has_rigidbody = hasRigidbody,
+                rigidbody_is_kinematic = allRigidbodiesKinematic,
+                rigidbody_use_gravity = anyRigidbodyUsesGravity,
+                has_nav_mesh_agent = hasNavMeshAgent,
+                has_character_controller = hasCharacterController,
+                mobility = mobility,
+                is_static = string.Equals(mobility, "static", StringComparison.Ordinal),
+                concrete_type = concreteType.FullName ?? concreteType.Name,
+                type_chain = ReadTypeChain(concreteType, typeof(BaseNetworkable))
+            };
+        }
+
+        private static string GetPrefabDisplayName(
+            DumpJob job,
+            string path,
+            string fallbackName,
+            BaseNetworkable networkable)
+        {
+            ItemDefinition definition;
+            if (job.ItemDefinitionsByPrefab.TryGetValue(path, out definition))
+            {
+                PhraseRecord itemDisplayName =
+                    ReadPhrase(ReadMember(definition, "displayName"));
+                if (!string.IsNullOrEmpty(itemDisplayName.english))
+                {
+                    return itemDisplayName.english;
+                }
+            }
+
+            object entityDisplayName = ReadMember(networkable, "displayName", "DisplayName");
+            string directDisplayName = entityDisplayName as string;
+            if (!string.IsNullOrEmpty(directDisplayName))
+            {
+                return directDisplayName;
+            }
+
+            PhraseRecord entityPhrase = ReadPhrase(entityDisplayName);
+            if (!string.IsNullOrEmpty(entityPhrase.english))
+            {
+                return entityPhrase.english;
+            }
+
+            return MakePrefabDisplayName(fallbackName);
+        }
+
+        private static bool HasComponentType(GameObject prefab, string fullTypeName)
+        {
+            if (prefab == null)
+            {
+                return false;
+            }
+
+            Component[] components = prefab.GetComponentsInChildren<Component>(true);
+            for (int i = 0; i < components.Length; i++)
+            {
+                Component component = components[i];
+                if (component == null)
+                {
+                    continue;
+                }
+
+                Type type = component.GetType();
+                if (string.Equals(type.FullName, fullTypeName, StringComparison.Ordinal))
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        private static bool IsKnownDynamicPrefab(
+            string path,
+            Type concreteType,
+            bool hasDynamicRigidbody,
+            bool hasNavMeshAgent,
+            bool hasCharacterController)
+        {
+            if (hasDynamicRigidbody || hasNavMeshAgent || hasCharacterController)
+            {
+                return true;
+            }
+
+            string normalizedPath = NormalizePath(path);
+            if (normalizedPath.Contains("/rust.ai/agents/") ||
+                normalizedPath.Contains("/content/vehicles/"))
+            {
+                return true;
+            }
+
+            for (Type current = concreteType; current != null; current = current.BaseType)
+            {
+                string name = current.Name ?? string.Empty;
+                if (name.IndexOf("Player", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                    name.IndexOf("Npc", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                    name.IndexOf("Vehicle", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                    name.IndexOf("Projectile", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                    name.IndexOf("Helicopter", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                    name.IndexOf("Horse", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                    name.IndexOf("Boat", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                    name.IndexOf("Train", StringComparison.OrdinalIgnoreCase) >= 0)
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        private static string MakePrefabDisplayName(string name)
+        {
+            if (string.IsNullOrEmpty(name))
+            {
+                return string.Empty;
+            }
+
+            StringBuilder result = new StringBuilder(name.Length);
+            bool previousWasSpace = false;
+            for (int i = 0; i < name.Length; i++)
+            {
+                char character = name[i];
+                bool separator = character == '_' || character == '-' ||
+                                 character == '.' || character == '/';
+                if (separator)
+                {
+                    character = ' ';
+                }
+
+                if (character == ' ')
+                {
+                    if (previousWasSpace)
+                    {
+                        continue;
+                    }
+
+                    previousWasSpace = true;
+                }
+                else
+                {
+                    previousWasSpace = false;
+                }
+
+                result.Append(character);
+            }
+
+            return result.ToString().Trim();
         }
 
         private static string GetWeaponName(DumpJob job, string path)
@@ -1593,10 +1819,29 @@ namespace Oxide.Plugins
                     .ThenBy(x => x.prefab_path, StringComparer.Ordinal)
                     .ToList();
 
+                job.PrefabData = job.PrefabData
+                    .OrderBy(x => x.prefab_path, StringComparer.Ordinal)
+                    .ToList();
+
                 string directory = Path.Combine(Interface.Oxide.DataDirectory, "RustDataExporter");
                 Directory.CreateDirectory(directory);
 
                 List<string> written = new List<string>();
+                if (WantsPrefabs(job))
+                {
+                    WriteText(directory, "RustPrefabData.hpp", BuildPrefabHeader(job), written);
+                    if (job.IncludeJson)
+                    {
+                        WriteJson(
+                            directory,
+                            "RustPrefabData.json",
+                            job.GeneratedUtc,
+                            job.TargetBuild,
+                            job.PrefabData,
+                            written);
+                    }
+                }
+
                 if (WantsItems(job))
                 {
                     WriteText(directory, "RustItemData.hpp", BuildItemHeader(job), written);
@@ -1673,7 +1918,8 @@ namespace Oxide.Plugins
                 }
 
                 Puts(string.Format(
-                    "Rust data export complete. Items={0}, Weapons={1}, Projectiles={2}, Held items={3}, Timed explosives={4}, Thrown weapons={5}, Errors={6}. Directory: {7}",
+                    "Rust data export complete. Prefabs={0}, Items={1}, Weapons={2}, Projectiles={3}, Held items={4}, Timed explosives={5}, Thrown weapons={6}, Errors={7}. Directory: {8}",
+                    job.PrefabData.Count,
                     job.Items.Count,
                     job.Weapons.Count,
                     job.Projectiles.Count,
@@ -1731,6 +1977,135 @@ namespace Oxide.Plugins
                 fileName,
                 JsonConvert.SerializeObject(envelope, Formatting.Indented),
                 written);
+        }
+
+        private static string BuildPrefabHeader(DumpJob job)
+        {
+            StringBuilder sb = NewHeader(
+                "Rust Prefab Data",
+                job.GeneratedUtc,
+                job.TargetBuild,
+                job.PrefabData.Count);
+            sb.AppendLine("#pragma once");
+            sb.AppendLine("#ifndef RUST_DATA_PREFAB_DATA_HPP");
+            sb.AppendLine("#define RUST_DATA_PREFAB_DATA_HPP");
+            sb.AppendLine();
+            sb.AppendLine("#include <cstddef>");
+            sb.AppendLine("#include <cstdint>");
+            sb.AppendLine("#include <cstring>");
+            sb.AppendLine();
+            sb.AppendLine("namespace RustData");
+            sb.AppendLine("{");
+            sb.AppendLine("namespace Prefabs");
+            sb.AppendLine("{");
+            sb.AppendLine();
+            sb.AppendLine("struct PrefabData");
+            sb.AppendLine("{");
+            sb.AppendLine("    const char* name;");
+            sb.AppendLine("    const char* display_name;");
+            sb.AppendLine("    const char* image_filename;");
+            sb.AppendLine("    const char* category;");
+            sb.AppendLine("    const char* prefab_path;");
+            sb.AppendLine("    std::uint32_t prefab_id;");
+            sb.AppendLine("    bool loaded;");
+            sb.AppendLine("    bool is_base_networkable;");
+            sb.AppendLine("    bool unity_is_static;");
+            sb.AppendLine("    bool has_rigidbody;");
+            sb.AppendLine("    bool rigidbody_is_kinematic;");
+            sb.AppendLine("    bool rigidbody_use_gravity;");
+            sb.AppendLine("    bool has_nav_mesh_agent;");
+            sb.AppendLine("    bool has_character_controller;");
+            sb.AppendLine("    const char* mobility;");
+            sb.AppendLine("    bool is_static;");
+            sb.AppendLine("    const char* concrete_type;");
+            sb.AppendLine("    std::size_t first_type;");
+            sb.AppendLine("    std::size_t type_count;");
+            sb.AppendLine("};");
+            sb.AppendLine();
+
+            AppendStringArray(
+                sb,
+                "kTypeNames",
+                job.PrefabData.SelectMany(x => x.type_chain));
+
+            sb.AppendLine("inline constexpr std::size_t kCount = " + job.PrefabData.Count + ";");
+            sb.AppendLine("inline constexpr PrefabData kData[kCount == 0 ? 1 : kCount] =");
+            sb.AppendLine("{");
+
+            int firstType = 0;
+            for (int i = 0; i < job.PrefabData.Count; i++)
+            {
+                PrefabRecord prefab = job.PrefabData[i];
+                string suffix = i + 1 < job.PrefabData.Count ? "," : string.Empty;
+                sb.AppendLine(
+                    "    { \"" + EscapeCpp(prefab.name) +
+                    "\", \"" + EscapeCpp(prefab.display_name) +
+                    "\", \"" + EscapeCpp(prefab.image_filename) +
+                    "\", \"" + EscapeCpp(prefab.category) +
+                    "\", \"" + EscapeCpp(prefab.prefab_path) +
+                    "\", " + prefab.prefab_id.ToString(Invariant) + "U, " +
+                    B(prefab.loaded) + ", " + B(prefab.is_base_networkable) + ", " +
+                    B(prefab.unity_is_static) + ", " + B(prefab.has_rigidbody) + ", " +
+                    B(prefab.rigidbody_is_kinematic) + ", " +
+                    B(prefab.rigidbody_use_gravity) + ", " +
+                    B(prefab.has_nav_mesh_agent) + ", " +
+                    B(prefab.has_character_controller) +
+                    ", \"" + EscapeCpp(prefab.mobility) + "\", " +
+                    B(prefab.is_static) +
+                    ", \"" + EscapeCpp(prefab.concrete_type) + "\", " +
+                    firstType + ", " + prefab.type_chain.Count + " }" + suffix);
+                firstType += prefab.type_chain.Count;
+            }
+
+            sb.AppendLine("};");
+            sb.AppendLine();
+            sb.AppendLine("inline const PrefabData* GetByPrefabId(std::uint32_t prefab_id) noexcept");
+            sb.AppendLine("{");
+            sb.AppendLine("    switch (prefab_id)");
+            sb.AppendLine("    {");
+
+            HashSet<uint> emitted = new HashSet<uint>();
+            for (int i = 0; i < job.PrefabData.Count; i++)
+            {
+                PrefabRecord prefab = job.PrefabData[i];
+                if (prefab.prefab_id == 0U || !emitted.Add(prefab.prefab_id))
+                {
+                    continue;
+                }
+
+                sb.AppendLine("    case " + prefab.prefab_id.ToString(Invariant) +
+                              "U: return &kData[" + i + "]; // " + prefab.name);
+            }
+
+            sb.AppendLine("    default: return nullptr;");
+            sb.AppendLine("    }");
+            sb.AppendLine("}");
+            sb.AppendLine();
+            sb.AppendLine("inline const PrefabData* GetByPrefabPath(const char* path) noexcept");
+            sb.AppendLine("{");
+            sb.AppendLine("    if (!path) return nullptr;");
+            sb.AppendLine("    for (std::size_t i = 0; i < kCount; ++i)");
+            sb.AppendLine("        if (std::strcmp(kData[i].prefab_path, path) == 0) return &kData[i];");
+            sb.AppendLine("    return nullptr;");
+            sb.AppendLine("}");
+            sb.AppendLine();
+            sb.AppendLine("inline bool HasType(const PrefabData* prefab, const char* type) noexcept");
+            sb.AppendLine("{");
+            sb.AppendLine("    if (!prefab || !type) return false;");
+            sb.AppendLine("    for (std::size_t i = 0; i < prefab->type_count; ++i)");
+            sb.AppendLine("        if (std::strcmp(kTypeNames[prefab->first_type + i], type) == 0) return true;");
+            sb.AppendLine("    return false;");
+            sb.AppendLine("}");
+            sb.AppendLine();
+            sb.AppendLine("inline bool HasTypeByPrefabId(std::uint32_t prefab_id, const char* type) noexcept");
+            sb.AppendLine("{");
+            sb.AppendLine("    return HasType(GetByPrefabId(prefab_id), type);");
+            sb.AppendLine("}");
+            sb.AppendLine("} // namespace Prefabs");
+            sb.AppendLine("} // namespace RustData");
+            sb.AppendLine();
+            sb.AppendLine("#endif // RUST_DATA_PREFAB_DATA_HPP");
+            return sb.ToString();
         }
 
         private static string BuildItemHeader(DumpJob job)
@@ -3161,10 +3536,12 @@ namespace Oxide.Plugins
             public Dictionary<string, List<AmmoSourceRecord>> AmmoByProjectilePrefab =
                 new Dictionary<string, List<AmmoSourceRecord>>(StringComparer.OrdinalIgnoreCase);
             public HashSet<string> WeaponKeys = new HashSet<string>(StringComparer.Ordinal);
+            public HashSet<string> PrefabPaths = new HashSet<string>(StringComparer.Ordinal);
             public HashSet<uint> ProjectileHashes = new HashSet<uint>();
             public HashSet<uint> TimedExplosiveHashes = new HashSet<uint>();
             public HashSet<uint> ThrownWeaponHashes = new HashSet<uint>();
             public List<ItemRecord> Items = new List<ItemRecord>();
+            public List<PrefabRecord> PrefabData = new List<PrefabRecord>();
             public List<WeaponRecord> Weapons = new List<WeaponRecord>();
             public List<ProjectileRecord> Projectiles = new List<ProjectileRecord>();
             public List<HeldItemRecord> HeldItems = new List<HeldItemRecord>();
@@ -3178,6 +3555,28 @@ namespace Oxide.Plugins
             public string target_build;
             public int count;
             public List<T> data;
+        }
+
+        private sealed class PrefabRecord
+        {
+            public string name;
+            public string display_name;
+            public string image_filename;
+            public string category;
+            public string prefab_path;
+            public uint prefab_id;
+            public bool loaded;
+            public bool is_base_networkable;
+            public bool unity_is_static;
+            public bool has_rigidbody;
+            public bool rigidbody_is_kinematic;
+            public bool rigidbody_use_gravity;
+            public bool has_nav_mesh_agent;
+            public bool has_character_controller;
+            public string mobility;
+            public bool is_static;
+            public string concrete_type;
+            public List<string> type_chain;
         }
 
         private sealed class HashEntry
