@@ -42,7 +42,7 @@ It also exports Rigidbody, NavMeshAgent, CharacterController and Unity static
 signals. The generated `mobility` value is `dynamic` when movement is detected by
 Rigidbody, navigation, controller, type, or path signals. Other `BaseNetworkable`
 prefabs are classified as `static`. Generated entries use the `Uncategorized`
-category and the prefab name without an extension as their image name.
+category.
 
 `RustTimedExplosiveData` contains fuse, radius, damage, AI, water, effects,
 sticking, orientation, Rigidbody mass/drag, prefab type and prefab hash data. `RustThrownWeaponData`

@@ -806,7 +806,6 @@ namespace Oxide.Plugins
             {
                 name = name,
                 display_name = GetPrefabDisplayName(job, path, name, networkable),
-                image_filename = name,
                 category = "Uncategorized",
                 prefab_path = path,
                 prefab_id = prefabId,
@@ -2003,7 +2002,6 @@ namespace Oxide.Plugins
             sb.AppendLine("{");
             sb.AppendLine("    const char* name;");
             sb.AppendLine("    const char* display_name;");
-            sb.AppendLine("    const char* image_filename;");
             sb.AppendLine("    const char* category;");
             sb.AppendLine("    const char* prefab_path;");
             sb.AppendLine("    std::uint32_t prefab_id;");
@@ -2040,7 +2038,6 @@ namespace Oxide.Plugins
                 sb.AppendLine(
                     "    { \"" + EscapeCpp(prefab.name) +
                     "\", \"" + EscapeCpp(prefab.display_name) +
-                    "\", \"" + EscapeCpp(prefab.image_filename) +
                     "\", \"" + EscapeCpp(prefab.category) +
                     "\", \"" + EscapeCpp(prefab.prefab_path) +
                     "\", " + prefab.prefab_id.ToString(Invariant) + "U, " +
@@ -3561,7 +3558,6 @@ namespace Oxide.Plugins
         {
             public string name;
             public string display_name;
-            public string image_filename;
             public string category;
             public string prefab_path;
             public uint prefab_id;
