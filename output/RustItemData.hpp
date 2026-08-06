@@ -1,8 +1,8 @@
 //
 // Auto-generated Rust Item Data
-// Generated: 2026-08-05 19:24:38 UTC
-// Target: Protocol 2631.286.1 / Changeset 158240
-// Total entries: 1243
+// Generated: 2026-08-06 18:36:45 UTC
+// Target: Protocol 2632.287.1 / Changeset 160450
+// Total entries: 1252
 // Generator: RustDataExporter
 //
 // This file is generated from server-side Rust prefabs/components.
@@ -102,7 +102,7 @@ struct ItemData
     std::size_t child_count;
 };
 
-inline constexpr std::size_t kModTypeCount = 1637;
+inline constexpr std::size_t kModTypeCount = 1648;
 inline constexpr const char* kModTypes[kModTypeCount == 0 ? 1 : kModTypeCount] =
 {
     "ItemModContainer",
@@ -126,6 +126,7 @@ inline constexpr const char* kModTypes[kModTypeCount == 0 ? 1 : kModTypeCount] =
     "ItemModEntity",
     "ItemModConsume",
     "ItemModMenuOption",
+    "ItemModEntity",
     "ItemModConsume",
     "ItemModFoodSpoiling",
     "ItemModMenuOption",
@@ -157,6 +158,8 @@ inline constexpr const char* kModTypes[kModTypeCount == 0 ? 1 : kModTypeCount] =
     "ItemModWearable",
     "ItemModContainerArmorSlot",
     "ItemModWearable",
+    "ItemModEntity",
+    "ItemModEntity",
     "ItemModEntity",
     "ItemModEntity",
     "ItemModWearable",
@@ -295,7 +298,6 @@ inline constexpr const char* kModTypes[kModTypeCount == 0 ? 1 : kModTypeCount] =
     "ItemModEntity",
     "ItemModEntity",
     "ItemModEntity",
-    "ItemModEntity",
     "ItemModConsume",
     "ItemModMenuOption",
     "ItemModConsume",
@@ -409,7 +411,9 @@ inline constexpr const char* kModTypes[kModTypeCount == 0 ? 1 : kModTypeCount] =
     "ItemModContainer",
     "ItemModEntity",
     "ItemModApartmentTax",
+    "ItemModConsume",
     "ItemModCookable",
+    "ItemModEntity",
     "ItemModEntity",
     "ItemModEntity",
     "ItemModEntity",
@@ -632,6 +636,8 @@ inline constexpr const char* kModTypes[kModTypeCount == 0 ? 1 : kModTypeCount] =
     "ItemModCassetteContainer",
     "ItemModEntity",
     "ItemModCassetteContainer",
+    "ItemModEntity",
+    "ItemModEntity",
     "ItemModEntity",
     "ItemModEntity",
     "ItemModEntity",
@@ -895,6 +901,7 @@ inline constexpr const char* kModTypes[kModTypeCount == 0 ? 1 : kModTypeCount] =
     "ItemModEntity",
     "ItemModConsumeChance",
     "ItemModMenuOption",
+    "ItemModEntity",
     "ItemModWearable",
     "ItemModWearable",
     "ItemModWearable",
@@ -1159,6 +1166,7 @@ inline constexpr const char* kModTypes[kModTypeCount == 0 ? 1 : kModTypeCount] =
     "ItemModEntity",
     "ItemModEntity",
     "ItemModEntity",
+    "ItemModEntity",
     "ItemModConsume",
     "ItemModMenuOption",
     "ItemModConsume",
@@ -1296,6 +1304,8 @@ inline constexpr const char* kModTypes[kModTypeCount == 0 ? 1 : kModTypeCount] =
     "ItemModMenuOption",
     "ItemModConsume",
     "ItemModMenuOption",
+    "ItemModEntity",
+    "ItemModSculpture",
     "ItemModEntity",
     "ItemModSculpture",
     "ItemModEntity",
@@ -1705,6 +1715,7 @@ inline constexpr const char* kModTypes[kModTypeCount == 0 ? 1 : kModTypeCount] =
     "ItemModWorkbenchEfficiency",
     "ItemModWorkbenchPrototype",
     "ItemModWorkbenchRange",
+    "ItemModContainer",
     "ItemModWorkbenchRecycleBin",
     "ItemModWorkbenchReinforced",
     "ItemModWorkbenchSalvage",
@@ -1749,12 +1760,12 @@ inline constexpr const char* kChildren[kChildCount == 0 ? 1 : kChildCount] =
 {
 };
 
-inline constexpr std::size_t kCount = 1243;
+inline constexpr std::size_t kCount = 1252;
 inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
 {
-    // 2module car
+    // 2module.car
     {
-        -866121090, "2module car", "2module_car_spawned.item", "ItemDefinition",
+        -866121090, "2module.car", "2module_car_spawned.item", "ItemDefinition",
         { "2module car", "2 Module Car" }, { "motorbike.desc", "A motorbike." },
         "Misc", "None", "None", "Default", "None",
         "Rare", "None", "Generic", "Count", "None", 1LL,
@@ -1767,9 +1778,9 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         { false, 300.0f, true, true, false, 0.75f, 1.0f, false, "" },
         0, 0, 0, 0
     },
-    // 2module car chassis
+    // 2module.car.chassis
     {
-        -226151558, "2module car chassis", "car_chassis_2module.item", "ItemDefinition",
+        -226151558, "2module.car.chassis", "car_chassis_2module.item", "ItemDefinition",
         { "2module car chassis", "2 Module Car Chassis" }, { "2module car chassis", "2 Module Car Chassis" },
         "Misc", "None", "None", "Default", "None",
         "Rare", "None", "Generic", "Count", "None", 1LL,
@@ -1782,9 +1793,9 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         { false, 300.0f, true, true, false, 0.75f, 1.0f, false, "" },
         0, 0, 0, 0
     },
-    // 3module car
+    // 3module.car
     {
-        -831725027, "3module car", "3module_car_spawned.item", "ItemDefinition",
+        -831725027, "3module.car", "3module_car_spawned.item", "ItemDefinition",
         { "3module car", "3 Module Car" }, { "3module car", "3 Module Car" },
         "Misc", "None", "None", "Default", "None",
         "Rare", "None", "Generic", "Count", "None", 1LL,
@@ -1797,9 +1808,9 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         { false, 300.0f, true, true, false, 0.75f, 1.0f, false, "" },
         0, 0, 0, 0
     },
-    // 3module car chassis
+    // 3module.car.chassis
     {
-        1482871705, "3module car chassis", "car_chassis_3module.item", "ItemDefinition",
+        1482871705, "3module.car.chassis", "car_chassis_3module.item", "ItemDefinition",
         { "3module car chassis", "3 Module Car Chassis" }, { "3module car chassis", "3 Module Car Chassis" },
         "Misc", "None", "None", "Default", "None",
         "Rare", "None", "Generic", "Count", "None", 1LL,
@@ -1812,9 +1823,9 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         { false, 300.0f, true, true, false, 0.75f, 1.0f, false, "" },
         0, 0, 0, 0
     },
-    // 4module car
+    // 4module.car
     {
-        -935322684, "4module car", "4module_car_spawned.item", "ItemDefinition",
+        -935322684, "4module.car", "4module_car_spawned.item", "ItemDefinition",
         { "4module car", "4 Module Car" }, { "4module car", "4 Module Car" },
         "Misc", "None", "None", "Default", "None",
         "Rare", "None", "Generic", "Count", "None", 1LL,
@@ -1827,9 +1838,9 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         { false, 300.0f, true, true, false, 0.75f, 1.0f, false, "" },
         0, 0, 0, 0
     },
-    // 4module car chassis
+    // 4module.car.chassis
     {
-        385099196, "4module car chassis", "car_chassis_4module.item", "ItemDefinition",
+        385099196, "4module.car.chassis", "car_chassis_4module.item", "ItemDefinition",
         { "4module car chassis", "4 Module Car Chassis" }, { "4module car chassis", "4 Module Car Chassis" },
         "Misc", "None", "None", "Default", "None",
         "Rare", "None", "Generic", "Count", "None", 1LL,
@@ -2010,7 +2021,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
     // aiming.module.mlrs
     {
         343045591, "aiming.module.mlrs", "aiming_module_mlrs.item", "ItemDefinition",
-        { "aiming.module.mlrs", "MLRS Aiming Module" }, { "aiming.module.mlrs.desc", "An aiming system computer module for an MLRS vehicle." },
+        { "aiming.module", "Aiming Module" }, { "aiming.module.desc", "An aiming system computer module for MLRS vehicles and satellite control terminals." },
         "Component", "None", "Modern", "Default", "None",
         "None", "VeryRare", "Generic", "Count", "0", 0LL,
         0, 1, 10, 0, 0.0f, 15.0f,
@@ -2451,11 +2462,11 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         0, 1, 10, 0, 0.0f, 15.0f,
         false, false, false, "None", false, false,
         false, "PrioritizeBelt", 16LL, false, false, "Interesting", 8LL,
-        false, "Misc", false, false, false, false, 0, 0,
-        "", "", "NoListing", "", "", 0U,
+        false, "Misc", true, true, false, false, 0, 0,
+        "", "", "NoListing", "assets/prefabs/tools/master key/masterkey.worldmodel.prefab", "assets/prefabs/tools/master key/masterkey.entity.prefab", 1148470020U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        21, 0, 0, 0
+        21, 1, 0, 0
     },
     // apple
     {
@@ -2470,7 +2481,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/apple/apple.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        21, 3, 0, 0
+        22, 3, 0, 0
     },
     // apple.spoiled
     {
@@ -2485,7 +2496,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        24, 2, 0, 0
+        25, 2, 0, 0
     },
     // arcade.machine.chippy
     {
@@ -2500,7 +2511,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        26, 1, 0, 0
+        27, 1, 0, 0
     },
     // arrow.bone
     {
@@ -2515,7 +2526,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/ammo/arrow/bone/arrow_bone.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        27, 0, 0, 0
+        28, 0, 0, 0
     },
     // arrow.fire
     {
@@ -2530,7 +2541,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/ammo/arrow/fire/arrow_fire.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        27, 0, 0, 0
+        28, 0, 0, 0
     },
     // arrow.hv
     {
@@ -2545,7 +2556,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/ammo/arrow/arrow_hv.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        27, 0, 0, 0
+        28, 0, 0, 0
     },
     // arrow.wooden
     {
@@ -2560,7 +2571,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/ammo/arrow/arrow_wooden.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        27, 0, 0, 0
+        28, 0, 0, 0
     },
     // attackhelicopter
     {
@@ -2575,7 +2586,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 850.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        27, 0, 0, 0
+        28, 0, 0, 0
     },
     // attire.banditguard
     {
@@ -2590,7 +2601,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        27, 1, 0, 0
+        28, 1, 0, 0
     },
     // attire.bunny.onesie
     {
@@ -2605,7 +2616,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        28, 1, 0, 0
+        29, 1, 0, 0
     },
     // attire.bunnyears
     {
@@ -2620,7 +2631,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        29, 1, 0, 0
+        30, 1, 0, 0
     },
     // attire.egg.suit
     {
@@ -2635,7 +2646,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/easter/egg_suit/egg.suit.wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 80.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        30, 2, 0, 0
+        31, 2, 0, 0
     },
     // attire.hide.boots
     {
@@ -2650,7 +2661,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/shoes.hide/shoeshide_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        32, 1, 0, 0
+        33, 1, 0, 0
     },
     // attire.hide.helterneck
     {
@@ -2665,7 +2676,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        33, 1, 0, 0
+        34, 1, 0, 0
     },
     // attire.hide.pants
     {
@@ -2680,7 +2691,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        34, 1, 0, 0
+        35, 1, 0, 0
     },
     // attire.hide.poncho
     {
@@ -2695,7 +2706,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 250.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        35, 2, 0, 0
+        36, 2, 0, 0
     },
     // attire.hide.skirt
     {
@@ -2710,7 +2721,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        37, 1, 0, 0
+        38, 1, 0, 0
     },
     // attire.hide.vest
     {
@@ -2725,7 +2736,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        38, 1, 0, 0
+        39, 1, 0, 0
     },
     // attire.nesthat
     {
@@ -2733,14 +2744,14 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         { "attire.nesthat.name", "Nest Hat" }, { "attire.nesthat.itemdesc", "An extremely silly easter nest hat with googly eyes." },
         "Attire", "None", "None", "Default", "None",
         "None", "None", "Generic", "Count", "0", 0LL,
-        0, 1, 10, 0, 0.0f, 0.05f,
+        0, 1, 10, 0, 0.0f, 0.0f,
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting", 8LL,
         false, "Misc", false, false, true, false, 0, 0,
-        "", "", "NoListing", "", "", 0U,
+        "", "hat.wolf", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        39, 1, 0, 0
+        40, 1, 0, 0
     },
     // attire.ninja.suit
     {
@@ -2755,7 +2766,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        40, 1, 0, 0
+        41, 1, 0, 0
     },
     // attire.reindeer.headband
     {
@@ -2770,7 +2781,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        41, 1, 0, 0
+        42, 1, 0, 0
     },
     // attire.snowman.helmet
     {
@@ -2785,7 +2796,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/xmas/wearable/snowman_helmet/snowman_helmet_wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        42, 1, 0, 0
+        43, 1, 0, 0
     },
     // autoturret
     {
@@ -2793,14 +2804,14 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         { "autoturret", "Auto Turret" }, { "autoturret.desc", "This automated electric sentry turret will engage and neutralize any moving targets it has line of sight to. You must equip it with a projectile weapon and the corresponding ammunition. Note : The turret will search for targets in a 180 degree arc facing *you* when you place it. Requires 10 power." },
         "Electrical", "None", "None", "Default", "None",
         "VeryRare", "None", "Generic", "TurretLimit", "0", 0LL,
-        0, 1, 10, 0, 0.0f, 3.4f,
+        0, 1, 10, 0, 0.0f, 6.4f,
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting", 8LL,
         false, "Misc", true, true, false, true, 1, 13,
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        43, 1, 0, 0
+        44, 1, 0, 0
     },
     // axe.salvaged
     {
@@ -2815,7 +2826,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/salvaged_axe/axe_salvaged.worldmodel.prefab", "assets/prefabs/weapons/salvaged_axe/axe_salvaged.entity.prefab", 3826414185U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 500.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        44, 1, 0, 0
+        45, 1, 0, 0
     },
     // ball
     {
@@ -2830,7 +2841,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 850.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        45, 0, 0, 0
+        46, 0, 0, 0
     },
     // ballista.bolt.hammerhead
     {
@@ -2845,7 +2856,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/content/vehicles/siegeweapons/ballista/ammo/worldmodels/ballista.bolt.hammerhead.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        45, 0, 0, 0
+        46, 0, 0, 0
     },
     // ballista.bolt.incendiary
     {
@@ -2860,7 +2871,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/content/vehicles/siegeweapons/ballista/ammo/worldmodels/ballista.bolt.incendiary.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        45, 0, 0, 0
+        46, 0, 0, 0
     },
     // ballista.bolt.piercer
     {
@@ -2875,7 +2886,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/content/vehicles/siegeweapons/ballista/ammo/worldmodels/ballista.bolt.piercer.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        45, 0, 0, 0
+        46, 0, 0, 0
     },
     // ballista.bolt.pitchfork
     {
@@ -2890,7 +2901,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/content/vehicles/siegeweapons/ballista/ammo/worldmodels/ballista.bolt.pitchfork.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        45, 0, 0, 0
+        46, 0, 0, 0
     },
     // ballista.mounted
     {
@@ -2905,7 +2916,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        45, 1, 0, 0
+        46, 1, 0, 0
     },
     // ballista.static
     {
@@ -2920,7 +2931,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        46, 1, 0, 0
+        47, 1, 0, 0
     },
     // ballistic.helmet
     {
@@ -2935,7 +2946,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/ballistic.helmet/ballistic.helmet.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 800.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        47, 1, 0, 0
+        48, 1, 0, 0
     },
     // ballistic.legarmor
     {
@@ -2950,7 +2961,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/ballistic.legarmor/ballistic.legarmour.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 150.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        48, 2, 0, 0
+        49, 2, 0, 0
     },
     // ballistic.vest
     {
@@ -2965,7 +2976,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/ballistic.vest/ballistic.vest.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 300.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        50, 2, 0, 0
+        51, 2, 0, 0
     },
     // bamboo.barrel
     {
@@ -2980,7 +2991,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "base.vertical.barrel", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        52, 1, 0, 0
+        53, 1, 0, 0
     },
     // bandage
     {
@@ -2995,7 +3006,37 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/bandage/bandage.worldmodel.prefab", "assets/prefabs/weapons/bandage/bandage.entity.prefab", 1383987667U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        53, 1, 0, 0
+        54, 1, 0, 0
+    },
+    // bar.stool.metal
+    {
+        -1639742441, "bar.stool.metal", "bar.games.bar.stool.metal.item", "ItemDefinition",
+        { "metal.bar.stool", "Metal Bar Stool" }, { "metal.bar.stool.desc", "Pull up a stool and have a drink. A decorative item which provides comfort while seated." },
+        "Items", "None", "None", "Default", "None",
+        "None", "None", "Generic", "Count", "0", 0LL,
+        0, 5, 10, 0, 0.0f, 0.0f,
+        false, false, false, "None", false, false,
+        false, "0", 0LL, false, false, "Interesting", 8LL,
+        false, "Misc", true, true, false, false, 0, 0,
+        "", "chair", "NoListing", "assets/prefabs/deployable/chair/skins/bar_games_bar_stools/bar.games.bar.stool.metal_worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
+        false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
+        { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
+        55, 1, 0, 0
+    },
+    // bar.stool.wood
+    {
+        -1444366079, "bar.stool.wood", "bar.games.bar.stool.wood.item", "ItemDefinition",
+        { "wood.bar.stool", "Wooden Bar Stool" }, { "wood.bar.stool.desc", "Pull up a stool and have a drink. A decorative item which provides comfort while seated." },
+        "Items", "None", "None", "Default", "None",
+        "None", "None", "Generic", "Count", "0", 0LL,
+        0, 5, 10, 0, 0.0f, 0.0f,
+        false, false, false, "None", false, false,
+        false, "0", 0LL, false, false, "Interesting", 8LL,
+        false, "Misc", true, true, false, false, 0, 0,
+        "", "chair", "NoListing", "assets/prefabs/deployable/chair/skins/bar_games_bar_stools/bar.games.bar.stool.wood_worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
+        false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
+        { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
+        56, 1, 0, 0
     },
     // barrelcostume
     {
@@ -3010,7 +3051,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        54, 1, 0, 0
+        57, 1, 0, 0
     },
     // barricade.concrete
     {
@@ -3025,7 +3066,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        55, 1, 0, 0
+        58, 1, 0, 0
     },
     // barricade.medieval
     {
@@ -3040,7 +3081,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        56, 1, 0, 0
+        59, 1, 0, 0
     },
     // barricade.metal
     {
@@ -3055,7 +3096,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        57, 1, 0, 0
+        60, 1, 0, 0
     },
     // barricade.sandbags
     {
@@ -3070,7 +3111,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        58, 1, 0, 0
+        61, 1, 0, 0
     },
     // barricade.stone
     {
@@ -3085,7 +3126,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        59, 1, 0, 0
+        62, 1, 0, 0
     },
     // barricade.wood
     {
@@ -3100,7 +3141,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        60, 1, 0, 0
+        63, 1, 0, 0
     },
     // barricade.wood.cover
     {
@@ -3115,7 +3156,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        61, 1, 0, 0
+        64, 1, 0, 0
     },
     // barricade.woodwire
     {
@@ -3130,7 +3171,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        62, 1, 0, 0
+        65, 1, 0, 0
     },
     // base.half.shelves
     {
@@ -3145,7 +3186,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        63, 0, 0, 0
+        66, 0, 0, 0
     },
     // base.horizontal.barrel
     {
@@ -3160,7 +3201,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        63, 0, 0, 0
+        66, 0, 0, 0
     },
     // base.single.shelves
     {
@@ -3175,7 +3216,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        63, 0, 0, 0
+        66, 0, 0, 0
     },
     // base.vertical.barrel
     {
@@ -3190,7 +3231,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        63, 0, 0, 0
+        66, 0, 0, 0
     },
     // basicblueprintfragment
     {
@@ -3205,7 +3246,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/blueprint fragment/basicblueprintfragment.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        63, 1, 0, 0
+        66, 1, 0, 0
     },
     // bathtub.planter
     {
@@ -3220,7 +3261,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        64, 1, 0, 0
+        67, 1, 0, 0
     },
     // batteringram
     {
@@ -3235,7 +3276,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        65, 1, 0, 0
+        68, 1, 0, 0
     },
     // batteringram.head.repair
     {
@@ -3250,7 +3291,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        66, 0, 0, 0
+        69, 0, 0, 0
     },
     // battery.small
     {
@@ -3265,7 +3306,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        66, 0, 0, 0
+        69, 0, 0, 0
     },
     // bbq
     {
@@ -3280,7 +3321,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        66, 1, 0, 0
+        69, 1, 0, 0
     },
     // bdu.pants
     {
@@ -3295,7 +3336,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/bdu.pants/bdu.pants.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        67, 1, 0, 0
+        70, 1, 0, 0
     },
     // bdu.shirt
     {
@@ -3310,7 +3351,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/bdu.shirt/bdu.shirt.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        68, 1, 0, 0
+        71, 1, 0, 0
     },
     // beachchair
     {
@@ -3325,7 +3366,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        69, 1, 0, 0
+        72, 1, 0, 0
     },
     // beachparasol
     {
@@ -3340,7 +3381,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        70, 1, 0, 0
+        73, 1, 0, 0
     },
     // beachtable
     {
@@ -3355,7 +3396,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        71, 1, 0, 0
+        74, 1, 0, 0
     },
     // beachtowel
     {
@@ -3370,7 +3411,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, true, "" },
-        72, 1, 0, 0
+        75, 1, 0, 0
     },
     // beanbagseatfabric
     {
@@ -3385,7 +3426,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "chair", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        73, 1, 0, 0
+        76, 1, 0, 0
     },
     // beanbagseatleather
     {
@@ -3400,7 +3441,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "chair", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        74, 1, 0, 0
+        77, 1, 0, 0
     },
     // bearmeat
     {
@@ -3415,7 +3456,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/bear_meat/bearmeat_raw.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        75, 4, 0, 0
+        78, 4, 0, 0
     },
     // bearmeat.burned
     {
@@ -3430,7 +3471,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/bear_meat/bearmeat_burned.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        79, 2, 0, 0
+        82, 2, 0, 0
     },
     // bearmeat.cooked
     {
@@ -3445,7 +3486,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/bear_meat/bearmeat_cooked.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        81, 4, 0, 0
+        84, 4, 0, 0
     },
     // bearmeat.spoiled
     {
@@ -3460,7 +3501,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/bear_meat/bearmeat_spoiled.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        85, 2, 0, 0
+        88, 2, 0, 0
     },
     // bed
     {
@@ -3475,7 +3516,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, true, "" },
-        87, 1, 0, 0
+        90, 1, 0, 0
     },
     // beehive
     {
@@ -3490,7 +3531,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        88, 1, 0, 0
+        91, 1, 0, 0
     },
     // bicycle
     {
@@ -3505,7 +3546,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 250.0f, true, true, false, 0.75f, 1.0f, false, "" },
-        89, 0, 0, 0
+        92, 0, 0, 0
     },
     // bigcatmeat
     {
@@ -3520,7 +3561,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/big_cat_meat/bigcatmeat_raw.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        89, 4, 0, 0
+        92, 4, 0, 0
     },
     // bigcatmeat.cooked
     {
@@ -3535,7 +3576,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/big_cat_meat/bigcatmeat_cooked.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        93, 4, 0, 0
+        96, 4, 0, 0
     },
     // bigcatmeat.spoiled
     {
@@ -3550,7 +3591,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/big_cat_meat/bigcatmeat_spoiled.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        97, 2, 0, 0
+        100, 2, 0, 0
     },
     // black.berry
     {
@@ -3565,7 +3606,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        99, 3, 0, 0
+        102, 3, 0, 0
     },
     // black.raspberries
     {
@@ -3580,7 +3621,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        102, 3, 0, 0
+        105, 3, 0, 0
     },
     // bleach
     {
@@ -3595,7 +3636,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/bleach/bleach.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        105, 0, 0, 0
+        108, 0, 0, 0
     },
     // blood
     {
@@ -3610,7 +3651,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        105, 0, 0, 0
+        108, 0, 0, 0
     },
     // blowpipe
     {
@@ -3618,14 +3659,14 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         { "blowpipe", "Blow Pipe" }, { "blowpipe.desc", "A blown weapon that fires darts with different effects." },
         "Weapon", "Modifications", "None", "Default", "None",
         "Uncommon", "Uncommon", "Generic", "Count", "0", 0LL,
-        0, 1, 10, 0, 0.0f, 1.025f,
+        0, 1, 10, 0, 0.0f, 0.95f,
         false, false, true, "None", false, false,
         false, "0", 0LL, false, true, "Interesting", 8LL,
         false, "Misc", true, true, false, false, 0, 0,
         "", "", "NoListing", "assets/prefabs/weapons/blowpipe/blowpipe.worldmodel.prefab", "assets/prefabs/weapons/blowpipe/blowpipe.entity.prefab", 996318821U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.2f, 0.5f, false, "" },
-        105, 1, 0, 0
+        108, 1, 0, 0
     },
     // blue.berry
     {
@@ -3640,7 +3681,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        106, 3, 0, 0
+        109, 3, 0, 0
     },
     // blueberries
     {
@@ -3655,7 +3696,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        109, 3, 0, 0
+        112, 3, 0, 0
     },
     // bluedogtags
     {
@@ -3670,7 +3711,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/dog_tags/dog_tags_blue_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        112, 0, 0, 0
+        115, 0, 0, 0
     },
     // blueidtag
     {
@@ -3685,7 +3726,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/id_tags/id_tags_blue.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        112, 0, 0, 0
+        115, 0, 0, 0
     },
     // blueprintbase
     {
@@ -3700,7 +3741,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        112, 2, 0, 0
+        115, 2, 0, 0
     },
     // blunderbuss
     {
@@ -3715,7 +3756,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "shotgun.double", "ListAsUniqueItem", "assets/prefabs/weapons/blunderbuss/blunderbuss.worldmodel.prefab", "assets/prefabs/weapons/blunderbuss/blunderbuss.entity.prefab", 2557812813U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.1f, 0.1f, false, "" },
-        114, 2, 0, 0
+        117, 2, 0, 0
     },
     // boat.planner
     {
@@ -3730,7 +3771,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/planner/boat_planner.worldmodel.prefab", "assets/prefabs/tools/planner/boat_planner.entity.prefab", 2721033560U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        116, 1, 0, 0
+        119, 1, 0, 0
     },
     // boatbuildingstation
     {
@@ -3745,7 +3786,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        117, 1, 0, 0
+        120, 1, 0, 0
     },
     // bone.armor.suit
     {
@@ -3760,7 +3801,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/jacket.bonearmor/bonearmour_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        118, 2, 0, 0
+        121, 2, 0, 0
     },
     // bone.club
     {
@@ -3775,7 +3816,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/bone club/boneclub.worldmodel.prefab", "assets/prefabs/weapons/bone club/bone_club.entity.prefab", 3097934597U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 80.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        120, 1, 0, 0
+        123, 1, 0, 0
     },
     // bone.fragments
     {
@@ -3790,7 +3831,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/bone fragments/bone_fragments.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        121, 0, 0, 0
+        124, 0, 0, 0
     },
     // boogieboard
     {
@@ -3805,7 +3846,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/summer_dlc/boogie_board/boogieboard.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        121, 1, 0, 0
+        124, 1, 0, 0
     },
     // boombox
     {
@@ -3820,7 +3861,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        122, 1, 0, 0
+        125, 1, 0, 0
     },
     // boomerang
     {
@@ -3835,7 +3876,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/boomerang/boomerang.worldmodel.prefab", "assets/prefabs/weapons/boomerang/boomerang.entity.prefab", 1402819630U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 10.0f, 100.0f, false, "" },
-        123, 2, 0, 0
+        126, 2, 0, 0
     },
     // boots.frog
     {
@@ -3850,7 +3891,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/frogboots/frogboots_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        125, 1, 0, 0
+        128, 1, 0, 0
     },
     // botabag
     {
@@ -3865,7 +3906,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/bota bag/bota_bag.worldmodel.prefab", "assets/prefabs/food/bota bag/bota_bag.entity.prefab", 1851422019U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        126, 2, 0, 0
+        129, 2, 0, 0
     },
     // bottle.vodka
     {
@@ -3880,7 +3921,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        128, 0, 0, 0
+        131, 0, 0, 0
     },
     // bow.compound
     {
@@ -3895,7 +3936,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/compound bow/compoundbow.worldmodel.prefab", "assets/prefabs/weapons/compound bow/compound_bow.entity.prefab", 1537401592U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 60.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        128, 1, 0, 0
+        131, 1, 0, 0
     },
     // bow.hunting
     {
@@ -3910,7 +3951,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/bow/bow.worldmodel.prefab", "assets/prefabs/weapons/bow/bow_hunting.entity.prefab", 2836331625U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 50.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        129, 1, 0, 0
+        132, 1, 0, 0
     },
     // box.repair.bench
     {
@@ -3925,7 +3966,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        130, 1, 0, 0
+        133, 1, 0, 0
     },
     // box.wooden
     {
@@ -3940,7 +3981,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        131, 1, 0, 0
+        134, 1, 0, 0
     },
     // box.wooden.large
     {
@@ -3955,7 +3996,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        132, 1, 0, 0
+        135, 1, 0, 0
     },
     // bread.loaf
     {
@@ -3970,7 +4011,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/bread/bread.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        133, 2, 0, 0
+        136, 2, 0, 0
     },
     // bucket.helmet
     {
@@ -3978,14 +4019,14 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         { "bucket.helmet", "Bucket Helmet" }, { "bucket.helmet.desc", "A Bucket Helmet. It provides a level of regional protection from inflicted damage." },
         "Attire", "None", "None", "Default", "None",
         "Uncommon", "None", "Generic", "Count", "0", 0LL,
-        0, 1, 10, 0, 0.0f, 0.35f,
+        0, 1, 10, 0, 0.0f, 0.2f,
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting", 8LL,
-        false, "Misc", false, false, true, true, 1, 14,
+        false, "Misc", false, false, true, true, 1, 16,
         "", "", "NoListing", "assets/prefabs/clothes/hat.bucket/metal_improvised_helmet_02_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        135, 2, 0, 0
+        138, 2, 0, 0
     },
     // bucket.water
     {
@@ -4000,7 +4041,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/waterbucket/waterbucket.worldmodel.prefab", "assets/prefabs/weapons/waterbucket/waterbucket.entity.prefab", 1182699531U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 150.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        137, 5, 0, 0
+        140, 5, 0, 0
     },
     // building.planner
     {
@@ -4015,7 +4056,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/planner/building_planner.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        142, 1, 0, 0
+        145, 1, 0, 0
     },
     // bunny.suit
     {
@@ -4030,7 +4071,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/easter/bunnysuit/bunny.suit.wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 80.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        143, 1, 0, 0
+        146, 1, 0, 0
     },
     // burlap.gloves
     {
@@ -4045,7 +4086,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/gloves.leather/leather_gloves_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        144, 1, 0, 0
+        147, 1, 0, 0
     },
     // burlap.gloves.new
     {
@@ -4060,7 +4101,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/gloves.burlap/gloves.burlap_wordmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        145, 1, 0, 0
+        148, 1, 0, 0
     },
     // burlap.headwrap
     {
@@ -4075,7 +4116,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/hat.burlap.wrap/burlapheadwraps_01_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        146, 1, 0, 0
+        149, 1, 0, 0
     },
     // burlap.shirt
     {
@@ -4090,7 +4131,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/shirt.burlap/shirtburlap_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        147, 1, 0, 0
+        150, 1, 0, 0
     },
     // burlap.shoes
     {
@@ -4105,7 +4146,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/shoes.burlap/shoes.burlap.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        148, 1, 0, 0
+        151, 1, 0, 0
     },
     // burlap.trousers
     {
@@ -4120,7 +4161,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/pants.burlap/burlap_pants_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        149, 1, 0, 0
+        152, 1, 0, 0
     },
     // caboose
     {
@@ -4135,7 +4176,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 1000.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        150, 0, 0, 0
+        153, 0, 0, 0
     },
     // cactusflesh
     {
@@ -4150,7 +4191,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/cactusflesh/cactusflesh.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        150, 3, 0, 0
+        153, 3, 0, 0
     },
     // cakefiveyear
     {
@@ -4165,7 +4206,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/chocolate_cake/birthday_cake_12.worldmodel.prefab", "assets/prefabs/weapons/cake/cake.entity.prefab", 1980046596U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 10.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        153, 3, 0, 0
+        156, 3, 0, 0
     },
     // campfire
     {
@@ -4180,7 +4221,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        156, 1, 0, 0
+        159, 1, 0, 0
     },
     // can.beans
     {
@@ -4195,7 +4236,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/can of beans/beancan.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        157, 2, 0, 0
+        160, 2, 0, 0
     },
     // can.beans.empty
     {
@@ -4210,7 +4251,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/can of beans/beancan.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        159, 1, 0, 0
+        162, 1, 0, 0
     },
     // can.tuna
     {
@@ -4225,7 +4266,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/can of tuna/tunacan.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        160, 2, 0, 0
+        163, 2, 0, 0
     },
     // can.tuna.empty
     {
@@ -4240,7 +4281,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/can of tuna/tunacan.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        162, 1, 0, 0
+        165, 1, 0, 0
     },
     // candycane
     {
@@ -4255,7 +4296,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/xmas/food/candycane.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        163, 0, 0, 0
+        166, 0, 0, 0
     },
     // candycaneclub
     {
@@ -4270,7 +4311,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/xmas/candy cane club/candy_cane.worldmodel.prefab", "assets/prefabs/misc/xmas/candy cane club/candy_cane.entity.prefab", 3331777431U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        163, 3, 0, 0
+        166, 3, 0, 0
     },
     // cannon
     {
@@ -4285,7 +4326,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        166, 1, 0, 0
+        169, 1, 0, 0
     },
     // cannonball
     {
@@ -4300,7 +4341,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/boatbuilding/cannon/cannonball_world.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        167, 0, 0, 0
+        170, 0, 0, 0
     },
     // captainslog
     {
@@ -4315,7 +4356,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        167, 0, 0, 0
+        170, 0, 0, 0
     },
     // carburetor1
     {
@@ -4330,7 +4371,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/engine_carburetor/carburetor1.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 60.0f, true, false, false, 0.25f, 0.75f, false, "" },
-        167, 1, 0, 0
+        170, 1, 0, 0
     },
     // carburetor2
     {
@@ -4345,7 +4386,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/engine_carburetor/carburetor2.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.25f, 0.75f, false, "" },
-        168, 1, 0, 0
+        171, 1, 0, 0
     },
     // carburetor3
     {
@@ -4360,7 +4401,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/engine_carburetor/carburetor3.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 140.0f, true, false, false, 0.25f, 0.75f, false, "" },
-        169, 1, 0, 0
+        172, 1, 0, 0
     },
     // cardtable
     {
@@ -4375,7 +4416,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        170, 1, 0, 0
+        173, 1, 0, 0
     },
     // carvable.pumpkin
     {
@@ -4390,7 +4431,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/plants/pumpkin/pumpkin.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        171, 2, 0, 0
+        174, 2, 0, 0
     },
     // cassette
     {
@@ -4405,7 +4446,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/voiceaudio/cassette/cassette.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        173, 1, 0, 0
+        176, 1, 0, 0
     },
     // cassette.medium
     {
@@ -4420,7 +4461,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/voiceaudio/cassette/cassette.medium.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        174, 1, 0, 0
+        177, 1, 0, 0
     },
     // cassette.short
     {
@@ -4435,7 +4476,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/voiceaudio/cassette/cassette.short.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        175, 1, 0, 0
+        178, 1, 0, 0
     },
     // catapult
     {
@@ -4450,7 +4491,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        176, 1, 0, 0
+        179, 1, 0, 0
     },
     // catapult.ammo.bee
     {
@@ -4465,7 +4506,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/content/vehicles/siegeweapons/catapult/ammo/prefabs/catapult_ammo_bee.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        177, 0, 0, 0
+        180, 0, 0, 0
     },
     // catapult.ammo.boulder
     {
@@ -4480,7 +4521,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/content/vehicles/siegeweapons/catapult/ammo/prefabs/catapult_ammo_boulder.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        177, 0, 0, 0
+        180, 0, 0, 0
     },
     // catapult.ammo.explosive
     {
@@ -4495,7 +4536,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/content/vehicles/siegeweapons/catapult/ammo/prefabs/catapult_ammo_explosive.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        177, 1, 0, 0
+        180, 1, 0, 0
     },
     // catapult.ammo.incendiary
     {
@@ -4510,7 +4551,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/content/vehicles/siegeweapons/catapult/ammo/prefabs/catapult_ammo_incendiary.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        178, 1, 0, 0
+        181, 1, 0, 0
     },
     // cctv.camera
     {
@@ -4525,7 +4566,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/cctv camera/cctv_camera.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         true, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        179, 1, 0, 0
+        182, 1, 0, 0
     },
     // ceilinglight
     {
@@ -4540,7 +4581,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/ceiling light/ceilinglight.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        180, 1, 0, 0
+        183, 1, 0, 0
     },
     // chainsaw
     {
@@ -4555,7 +4596,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/chainsaw/chainsaw.worldmodel.prefab", "assets/prefabs/weapons/chainsaw/chainsaw.entity.prefab", 1802634117U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        181, 1, 0, 0
+        184, 1, 0, 0
     },
     // chair
     {
@@ -4566,11 +4607,11 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         0, 5, 10, 0, 0.0f, 4.0f,
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting", 8LL,
-        false, "Misc", true, true, false, true, 4, 10,
+        false, "Misc", true, true, false, true, 6, 10,
         "", "", "NoListing", "assets/prefabs/deployable/chair/chair.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        182, 1, 0, 0
+        185, 1, 0, 0
     },
     // chair.ejector.seat
     {
@@ -4585,7 +4626,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "chair", "ListAsUniqueItem", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        183, 1, 0, 0
+        186, 1, 0, 0
     },
     // chair.icethrone
     {
@@ -4600,7 +4641,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "chair", "ListAsUniqueItem", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        184, 1, 0, 0
+        187, 1, 0, 0
     },
     // charcoal
     {
@@ -4615,22 +4656,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/charcoal/charcoal.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        185, 1, 0, 0
-    },
-    // charity.plushie.05
-    {
-        374496151, "charity.plushie.05", "CharityPlushie_05.item", "ItemDefinition",
-        { "charity.plushie.hwa.name", "Humane World Charity 2026 Plushie" }, { "charity.plushie.hwa.desc", "TEXT TBD" },
-        "Items", "None", "None", "Default", "None",
-        "None", "None", "Generic", "Count", "0", 0LL,
-        0, 1, 10, 0, 0.0f, 0.25f,
-        false, false, false, "None", false, false,
-        true, "0", 0LL, false, false, "Interesting", 8LL,
-        false, "Misc", true, true, false, false, 0, 0,
-        "", "", "NoListing", "assets/prefabs/deployable/charity_plushie_05/charityplushie_05.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
-        false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
-        { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        186, 1, 0, 0
+        188, 1, 0, 0
     },
     // charity.plushy.01
     {
@@ -4645,7 +4671,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/charity_plushie_01/charityplushie_01.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        187, 1, 0, 0
+        189, 1, 0, 0
     },
     // charity.plushy.02
     {
@@ -4660,7 +4686,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/charity_plushie_02/charityplushie_02.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        188, 1, 0, 0
+        190, 1, 0, 0
     },
     // charity.plushy.03
     {
@@ -4675,12 +4701,12 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/charity_plushie_03/charityplushie_03.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        189, 1, 0, 0
+        191, 1, 0, 0
     },
     // charity.plushy.04
     {
         2130820927, "charity.plushy.04", "CharityPlushie_04.item", "ItemDefinition",
-        { "charity.plushie.cancerresearch.2026.name", "Cancer Research UK 2026 Plushie" }, { "charity.plushie.cancerresearch.2026.desc", "A soft and squishy plush that provides comfort in your base. First sold on the Rust store in July 2026 to support Cancer Research UK, each purchase helped fund real-world cancer research.\n\nwww.cancerresearchuk.org" },
+        { "charity.plushie.cancerresearch.2026.name", "Cancer Research UK 2026 Plushie" }, { "charity.plushie.cancerresearch.2026.desc", "A soft and squishy plush that provides comfort in your base.\n\nCancer Research UK (reg charity nos. 1089464, SC041666, 1103 and 247)\nwill get 100% of the net sales of the Cancer Research UK Plushie*.  \n\n*Net sales being gross sales less refunds and after Steam platform fees (20%) and sales tax typically around 10-11%." },
         "Items", "None", "None", "Default", "None",
         "None", "None", "Generic", "Count", "0", 0LL,
         0, 1, 10, 0, 0.0f, 0.25f,
@@ -4690,7 +4716,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/charity_plushie_04/charityplushie_04.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        190, 1, 0, 0
+        192, 1, 0, 0
     },
     // chicken.burned
     {
@@ -4705,7 +4731,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/chicken_meat/chicken_burned.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        191, 2, 0, 0
+        193, 2, 0, 0
     },
     // chicken.cooked
     {
@@ -4720,7 +4746,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/chicken_meat/chicken_cooked.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        193, 4, 0, 0
+        195, 4, 0, 0
     },
     // chicken.costume
     {
@@ -4735,7 +4761,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/easter/chickencostume/chicken.costume.wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 80.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        197, 1, 0, 0
+        199, 1, 0, 0
     },
     // chicken.raw
     {
@@ -4750,7 +4776,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/chicken_meat/chicken_raw.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        198, 4, 0, 0
+        200, 4, 0, 0
     },
     // chicken.spoiled
     {
@@ -4765,7 +4791,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/chicken_meat/chicken_spoiled.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        202, 2, 0, 0
+        204, 2, 0, 0
     },
     // chickencoop
     {
@@ -4780,7 +4806,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        204, 1, 0, 0
+        206, 1, 0, 0
     },
     // chineselantern
     {
@@ -4795,7 +4821,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        205, 2, 0, 0
+        207, 2, 0, 0
     },
     // chineselanternwhite
     {
@@ -4810,7 +4836,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        207, 2, 0, 0
+        209, 2, 0, 0
     },
     // chocolate
     {
@@ -4825,7 +4851,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/chocholate/chocolate.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        209, 2, 0, 0
+        211, 2, 0, 0
     },
     // circleballoon2025
     {
@@ -4840,7 +4866,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        211, 1, 0, 0
+        213, 1, 0, 0
     },
     // clantable
     {
@@ -4855,7 +4881,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        212, 1, 0, 0
+        214, 1, 0, 0
     },
     // clatter.helmet
     {
@@ -4863,14 +4889,14 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         { "clatter.helmet", "Clatter Helmet" }, { "clatter.helmet.desc", "Special helmet for players who own Clatter and have played for at least 30 minutes, replaces the bucket helmet." },
         "Attire", "None", "None", "Default", "None",
         "None", "None", "Generic", "Count", "0", 0LL,
-        0, 1, 10, 0, 0.0f, 0.35f,
+        0, 1, 10, 0, 0.0f, 0.2f,
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting", 8LL,
         false, "Misc", false, false, true, false, 0, 0,
         "", "", "NoListing", "assets/prefabs/clothes/hat.clatterhelmet/hat.clatterhelmet_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 200.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        213, 1, 0, 0
+        215, 1, 0, 0
     },
     // clone.black.berry
     {
@@ -4885,7 +4911,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        214, 1, 0, 0
+        216, 1, 0, 0
     },
     // clone.blue.berry
     {
@@ -4900,7 +4926,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        215, 1, 0, 0
+        217, 1, 0, 0
     },
     // clone.corn
     {
@@ -4915,7 +4941,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        216, 1, 0, 0
+        218, 1, 0, 0
     },
     // clone.green.berry
     {
@@ -4930,7 +4956,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        217, 1, 0, 0
+        219, 1, 0, 0
     },
     // clone.hemp
     {
@@ -4945,7 +4971,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        218, 1, 0, 0
+        220, 1, 0, 0
     },
     // clone.orchid
     {
@@ -4960,7 +4986,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        219, 1, 0, 0
+        221, 1, 0, 0
     },
     // clone.potato
     {
@@ -4975,7 +5001,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        220, 1, 0, 0
+        222, 1, 0, 0
     },
     // clone.pumpkin
     {
@@ -4990,7 +5016,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        221, 1, 0, 0
+        223, 1, 0, 0
     },
     // clone.red.berry
     {
@@ -5005,7 +5031,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        222, 1, 0, 0
+        224, 1, 0, 0
     },
     // clone.rose
     {
@@ -5020,7 +5046,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        223, 1, 0, 0
+        225, 1, 0, 0
     },
     // clone.sunflower
     {
@@ -5035,7 +5061,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        224, 1, 0, 0
+        226, 1, 0, 0
     },
     // clone.wheat
     {
@@ -5050,7 +5076,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        225, 1, 0, 0
+        227, 1, 0, 0
     },
     // clone.white.berry
     {
@@ -5065,7 +5091,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        226, 1, 0, 0
+        228, 1, 0, 0
     },
     // clone.yellow.berry
     {
@@ -5080,7 +5106,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        227, 1, 0, 0
+        229, 1, 0, 0
     },
     // cloth
     {
@@ -5095,7 +5121,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/cloth/cloth.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        228, 2, 0, 0
+        230, 2, 0, 0
     },
     // clothing.mannequin
     {
@@ -5110,7 +5136,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "ListAsUniqueItem", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 450.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        230, 2, 0, 0
+        232, 2, 0, 0
     },
     // clothing.mod.armorinsert_asbestos
     {
@@ -5125,7 +5151,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/armourplating/asbestosarmourplate.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 300.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        232, 2, 0, 0
+        234, 2, 0, 0
     },
     // clothing.mod.armorinsert_lead
     {
@@ -5140,7 +5166,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/armourplating/leadarmourplate.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 300.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        234, 2, 0, 0
+        236, 2, 0, 0
     },
     // clothing.mod.armorinsert_metal
     {
@@ -5155,7 +5181,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/armourplating/metalarmourplate.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 300.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        236, 2, 0, 0
+        238, 2, 0, 0
     },
     // clothing.mod.armorinsert_wood
     {
@@ -5170,7 +5196,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/armourplating/woodarmourplate.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 300.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        238, 2, 0, 0
+        240, 2, 0, 0
     },
     // coal
     {
@@ -5185,7 +5211,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        240, 0, 0, 0
+        242, 0, 0, 0
     },
     // cocoknight.armor.gloves
     {
@@ -5200,7 +5226,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "woodarmor.gloves", "NoListing", "assets/prefabs/clothes/cocoknightarmor/gloves.cocoknightarmor/cocoknightarmor_gloves_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        240, 1, 0, 0
+        242, 1, 0, 0
     },
     // cocoknight.armor.helmet
     {
@@ -5215,7 +5241,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "wood.armor.helmet", "NoListing", "assets/prefabs/clothes/cocoknightarmor/head.cocoknightarmor/cocoknightarmorhead_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        241, 1, 0, 0
+        243, 1, 0, 0
     },
     // cocoknight.armor.pants
     {
@@ -5230,7 +5256,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "wood.armor.pants", "NoListing", "assets/prefabs/clothes/cocoknightarmor/legs.cocoknightarmor/cocoknightarmorpants_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        242, 2, 0, 0
+        244, 2, 0, 0
     },
     // cocoknight.armor.torso
     {
@@ -5245,7 +5271,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "wood.armor.jacket", "NoListing", "assets/prefabs/clothes/cocoknightarmor/torso.cocoknightarmor/cocoknightarmortorso_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 75.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        244, 2, 0, 0
+        246, 2, 0, 0
     },
     // coconut
     {
@@ -5260,7 +5286,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/coconut/coconut.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        246, 2, 0, 0
+        248, 2, 0, 0
     },
     // coffeecan.helmet
     {
@@ -5275,7 +5301,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/hat.coffeecan/coffeecanhelmet_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        248, 2, 0, 0
+        250, 2, 0, 0
     },
     // coffin.storage
     {
@@ -5290,7 +5316,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        250, 1, 0, 0
+        252, 1, 0, 0
     },
     // command.block
     {
@@ -5305,7 +5331,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        251, 1, 0, 0
+        253, 1, 0, 0
     },
     // compass
     {
@@ -5320,7 +5346,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/compass/compass.worldmodel.prefab", "assets/prefabs/tools/compass/compass.entity.prefab", 2757054139U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 60.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        252, 2, 0, 0
+        254, 2, 0, 0
     },
     // component.box.ammo.large
     {
@@ -5335,7 +5361,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "box.wooden.large", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        254, 1, 0, 0
+        256, 1, 0, 0
     },
     // component.box.armor.large
     {
@@ -5350,7 +5376,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "box.wooden.large", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        255, 1, 0, 0
+        257, 1, 0, 0
     },
     // component.box.charcoal.large
     {
@@ -5365,7 +5391,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "box.wooden.large", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        256, 1, 0, 0
+        258, 1, 0, 0
     },
     // component.box.clothing.large
     {
@@ -5380,7 +5406,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "box.wooden.large", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        257, 1, 0, 0
+        259, 1, 0, 0
     },
     // component.box.comps.large
     {
@@ -5395,7 +5421,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "box.wooden.large", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        258, 1, 0, 0
+        260, 1, 0, 0
     },
     // component.box.explosives.large
     {
@@ -5410,7 +5436,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "box.wooden.large", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        259, 1, 0, 0
+        261, 1, 0, 0
     },
     // component.box.food.large
     {
@@ -5425,7 +5451,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "box.wooden.large", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        260, 1, 0, 0
+        262, 1, 0, 0
     },
     // component.box.guns.large
     {
@@ -5440,7 +5466,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "box.wooden.large", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        261, 1, 0, 0
+        263, 1, 0, 0
     },
     // component.box.meds.large
     {
@@ -5455,7 +5481,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "box.wooden.large", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        262, 1, 0, 0
+        264, 1, 0, 0
     },
     // component.box.metal.large
     {
@@ -5470,7 +5496,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "box.wooden.large", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        263, 1, 0, 0
+        265, 1, 0, 0
     },
     // component.box.ore.large
     {
@@ -5485,7 +5511,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "box.wooden.large", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        264, 1, 0, 0
+        266, 1, 0, 0
     },
     // component.box.scrap.large
     {
@@ -5500,7 +5526,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "box.wooden.large", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        265, 1, 0, 0
+        267, 1, 0, 0
     },
     // component.box.stone.large
     {
@@ -5515,7 +5541,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "box.wooden.large", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        266, 1, 0, 0
+        268, 1, 0, 0
     },
     // component.box.sulfur.large
     {
@@ -5530,7 +5556,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "box.wooden.large", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        267, 1, 0, 0
+        269, 1, 0, 0
     },
     // component.box.tools.large
     {
@@ -5545,7 +5571,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "box.wooden.large", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        268, 1, 0, 0
+        270, 1, 0, 0
     },
     // component.box.wood.large
     {
@@ -5560,7 +5586,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "box.wooden.large", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        269, 1, 0, 0
+        271, 1, 0, 0
     },
     // composter
     {
@@ -5575,7 +5601,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        270, 1, 0, 0
+        272, 1, 0, 0
     },
     // computerstation
     {
@@ -5590,7 +5616,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        271, 2, 0, 0
+        273, 2, 0, 0
     },
     // concretehatchet
     {
@@ -5605,7 +5631,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "stonehatchet", "NoListing", "assets/prefabs/tools/lumberjack_tools/concrete_hatchet.worldmodel.prefab", "assets/prefabs/tools/lumberjack_tools/concrete_hatchet.entity.prefab", 1777756171U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        273, 1, 0, 0
+        275, 1, 0, 0
     },
     // concretepickaxe
     {
@@ -5620,7 +5646,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "stone.pickaxe", "NoListing", "assets/prefabs/tools/lumberjack_tools/concrete_pickaxe.worldmodel.prefab", "assets/prefabs/tools/lumberjack_tools/concrete_pickaxe.entity.prefab", 1480417083U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        274, 1, 0, 0
+        276, 1, 0, 0
     },
     // confetticannon
     {
@@ -5635,7 +5661,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        275, 1, 0, 0
+        277, 1, 0, 0
     },
     // connected.speaker
     {
@@ -5650,7 +5676,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        276, 1, 0, 0
+        278, 1, 0, 0
     },
     // cookingworkbench
     {
@@ -5665,7 +5691,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        277, 1, 0, 0
+        279, 1, 0, 0
     },
     // coolingtea
     {
@@ -5680,7 +5706,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/coolingtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        278, 2, 0, 0
+        280, 2, 0, 0
     },
     // corn
     {
@@ -5695,7 +5721,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        280, 3, 0, 0
+        282, 3, 0, 0
     },
     // craftingtea_quality
     {
@@ -5710,7 +5736,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/basicscraptea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        283, 2, 0, 0
+        285, 2, 0, 0
     },
     // crankshaft1
     {
@@ -5725,7 +5751,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/engine_crankshaft/crankshaft1.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 60.0f, true, false, false, 0.25f, 0.75f, false, "" },
-        285, 1, 0, 0
+        287, 1, 0, 0
     },
     // crankshaft2
     {
@@ -5740,7 +5766,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/engine_crankshaft/crankshaft2.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.25f, 0.75f, false, "" },
-        286, 1, 0, 0
+        288, 1, 0, 0
     },
     // crankshaft3
     {
@@ -5755,7 +5781,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/engine_crankshaft/crankshaft3.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 140.0f, true, false, false, 0.25f, 0.75f, false, "" },
-        287, 1, 0, 0
+        289, 1, 0, 0
     },
     // cratecostume
     {
@@ -5770,7 +5796,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        288, 1, 0, 0
+        290, 1, 0, 0
     },
     // crocodilemeat
     {
@@ -5785,7 +5811,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/crocodile_meat/crocodilemeat_raw.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        289, 4, 0, 0
+        291, 4, 0, 0
     },
     // crocodilemeat.cooked
     {
@@ -5800,7 +5826,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/crocodile_meat/crocodilemeat_cooked.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        293, 4, 0, 0
+        295, 4, 0, 0
     },
     // crocodilemeat.spoiled
     {
@@ -5815,7 +5841,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/crocodile_meat/crocodilemeat_spoiled.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        297, 2, 0, 0
+        299, 2, 0, 0
     },
     // crossbow
     {
@@ -5830,7 +5856,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/crossbow/crossbow.worldmodel.prefab", "assets/prefabs/weapons/crossbow/crossbow.entity.prefab", 2727391082U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.2f, 0.5f, false, "" },
-        299, 2, 0, 0
+        301, 2, 0, 0
     },
     // crossbowbowless
     {
@@ -5845,7 +5871,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "crossbow", "NoListing", "assets/prefabs/weapons/crossbow/skins/bowless/crossbow_bowless.worldmodel.prefab", "assets/prefabs/weapons/crossbow/skins/bowless/crossbow_bowless.entity.prefab", 777174364U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.2f, 0.5f, false, "" },
-        301, 2, 0, 0
+        303, 2, 0, 0
     },
     // crude.oil
     {
@@ -5856,11 +5882,11 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         0, 500, 500, 0, 0.0f, 10.0f,
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting", 8LL,
-        false, "Misc", false, false, false, false, 0, 0,
+        false, "Misc", false, true, false, false, 0, 0,
         "", "", "NoListing", "assets/prefabs/resource/crude oil/crude_oil.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        303, 2, 0, 0
+        305, 3, 0, 0
     },
     // cupboard.tool
     {
@@ -5875,7 +5901,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 1.0f, true, true, false, 1.0f, 1.0f, true, "" },
-        305, 1, 0, 0
+        308, 1, 0, 0
     },
     // cupboard.tool.retro
     {
@@ -5890,7 +5916,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "cupboard.tool", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 1.0f, true, true, false, 1.0f, 1.0f, true, "" },
-        306, 1, 0, 0
+        309, 1, 0, 0
     },
     // cupboard.tool.shockbyte
     {
@@ -5905,7 +5931,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "cupboard.tool", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 1.0f, true, true, false, 1.0f, 1.0f, true, "" },
-        307, 1, 0, 0
+        310, 1, 0, 0
     },
     // cursedcauldron
     {
@@ -5920,7 +5946,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        308, 1, 0, 0
+        311, 1, 0, 0
     },
     // dart.incapacitate
     {
@@ -5935,7 +5961,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/ammo/darts/incapacitate/dart_incapacitate.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        309, 0, 0, 0
+        312, 0, 0, 0
     },
     // dart.radiation
     {
@@ -5950,7 +5976,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/ammo/darts/radiation/dart_radiation.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        309, 0, 0, 0
+        312, 0, 0, 0
     },
     // dart.scatter
     {
@@ -5965,7 +5991,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/ammo/darts/scatter/dart_scatter.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        309, 0, 0, 0
+        312, 0, 0, 0
     },
     // dart.wood
     {
@@ -5980,7 +6006,22 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/ammo/darts/wood/dart_wood.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        309, 0, 0, 0
+        312, 0, 0, 0
+    },
+    // dartboard
+    {
+        -872679147, "dartboard", "dartboard.item", "ItemDefinition",
+        { "dartboard", "Dart Board" }, { "dartboard.desc", "Throw some darts! Compete with others in a leaderboard. Hold the interact key to choose between a single or two-player game." },
+        "Fun", "None", "None", "Default", "None",
+        "Rare", "None", "Generic", "Count", "0", 0LL,
+        0, 1, 10, 0, 0.0f, 0.15f,
+        false, false, false, "None", false, false,
+        false, "0", 0LL, false, false, "Interesting", 8LL,
+        false, "Misc", true, true, false, false, 0, 0,
+        "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
+        false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
+        { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
+        312, 1, 0, 0
     },
     // deer.skull.mask
     {
@@ -5995,7 +6036,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/hat.deerskullmask/hat.deerskullmask_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        309, 2, 0, 0
+        313, 2, 0, 0
     },
     // deermeat.burned
     {
@@ -6010,7 +6051,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/deer_meat/meat.deer.burned.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        311, 2, 0, 0
+        315, 2, 0, 0
     },
     // deermeat.cooked
     {
@@ -6025,7 +6066,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/deer_meat/meat.deer.cooked.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        313, 4, 0, 0
+        317, 4, 0, 0
     },
     // deermeat.raw
     {
@@ -6040,7 +6081,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/deer_meat/meet.deer.raw.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        317, 4, 0, 0
+        321, 4, 0, 0
     },
     // deermeat.spoiled
     {
@@ -6055,7 +6096,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/deer_meat/meet.deer.spoiled.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        321, 2, 0, 0
+        325, 2, 0, 0
     },
     // diesel_barrel
     {
@@ -6070,7 +6111,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        323, 1, 0, 0
+        327, 1, 0, 0
     },
     // discoball
     {
@@ -6085,7 +6126,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        324, 1, 0, 0
+        328, 1, 0, 0
     },
     // discofloor
     {
@@ -6100,7 +6141,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        325, 1, 0, 0
+        329, 1, 0, 0
     },
     // discofloor.largetiles
     {
@@ -6115,7 +6156,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "discofloor", "ListAsUniqueItem", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        326, 1, 0, 0
+        330, 1, 0, 0
     },
     // discord.plushie
     {
@@ -6130,7 +6171,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/discord plush/discordplushie.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        327, 1, 0, 0
+        331, 1, 0, 0
     },
     // discord.trophy
     {
@@ -6145,7 +6186,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/content/props/discord trophy/discordtrophy.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        328, 1, 0, 0
+        332, 1, 0, 0
     },
     // diverhatchet
     {
@@ -6160,7 +6201,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "hatchet", "NoListing", "assets/prefabs/weapons/diverhatchet/diver_hatchet.worldmodel.prefab", "assets/prefabs/weapons/diverhatchet/diver_hatchet.entity.prefab", 1396987940U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 400.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        329, 1, 0, 0
+        333, 1, 0, 0
     },
     // diverpickaxe
     {
@@ -6175,7 +6216,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "pickaxe", "NoListing", "assets/prefabs/weapons/diverpickaxe/diver_pickaxe.worldmodel.prefab", "assets/prefabs/weapons/diverpickaxe/diver_pickaxe.entity.prefab", 190635670U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 400.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        330, 1, 0, 0
+        334, 1, 0, 0
     },
     // divertorch
     {
@@ -6190,7 +6231,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "torch", "NoListing", "assets/prefabs/weapons/divertorch/diver_torch.worldmodel.prefab", "assets/prefabs/weapons/divertorch/diver_torch.entity.prefab", 1029607191U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 50.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        331, 1, 0, 0
+        335, 1, 0, 0
     },
     // diving.fins
     {
@@ -6205,7 +6246,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/diving.fins/divingfins_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        332, 2, 0, 0
+        336, 2, 0, 0
     },
     // diving.mask
     {
@@ -6220,7 +6261,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/diving.mask/divingmask_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        334, 1, 0, 0
+        338, 1, 0, 0
     },
     // diving.tank
     {
@@ -6235,7 +6276,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/diving.tank/divingtank_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 600.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        335, 4, 0, 0
+        339, 4, 0, 0
     },
     // diving.tank.double
     {
@@ -6250,7 +6291,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/diving.tank/divingtank_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 1080.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        339, 4, 0, 0
+        343, 4, 0, 0
     },
     // diving.wetsuit
     {
@@ -6265,7 +6306,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        343, 1, 0, 0
+        347, 1, 0, 0
     },
     // documents
     {
@@ -6280,7 +6321,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        344, 0, 0, 0
+        348, 0, 0, 0
     },
     // dogtagneutral
     {
@@ -6295,7 +6336,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/dog_tags/dog_tags_plain_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        344, 0, 0, 0
+        348, 0, 0, 0
     },
     // door.closer
     {
@@ -6310,7 +6351,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        344, 1, 0, 0
+        348, 1, 0, 0
     },
     // door.double.hinged.bardoors
     {
@@ -6325,7 +6366,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        345, 1, 0, 0
+        349, 1, 0, 0
     },
     // door.double.hinged.metal
     {
@@ -6340,7 +6381,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        346, 1, 0, 0
+        350, 1, 0, 0
     },
     // door.double.hinged.toptier
     {
@@ -6355,7 +6396,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        347, 1, 0, 0
+        351, 1, 0, 0
     },
     // door.double.hinged.wood
     {
@@ -6370,7 +6411,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        348, 1, 0, 0
+        352, 1, 0, 0
     },
     // door.hinged.boat.wood
     {
@@ -6385,7 +6426,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        349, 1, 0, 0
+        353, 1, 0, 0
     },
     // door.hinged.industrial.a
     {
@@ -6400,7 +6441,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "door.hinged.metal", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        350, 1, 0, 0
+        354, 1, 0, 0
     },
     // door.hinged.metal
     {
@@ -6415,7 +6456,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        351, 1, 0, 0
+        355, 1, 0, 0
     },
     // door.hinged.toptier
     {
@@ -6430,7 +6471,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        352, 1, 0, 0
+        356, 1, 0, 0
     },
     // door.hinged.wood
     {
@@ -6445,7 +6486,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        353, 1, 0, 0
+        357, 1, 0, 0
     },
     // door.key
     {
@@ -6460,7 +6501,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        354, 1, 0, 0
+        358, 1, 0, 0
     },
     // draculacape
     {
@@ -6475,7 +6516,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/halloween.draculacape/draculacape.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        355, 1, 0, 0
+        359, 1, 0, 0
     },
     // draculamask
     {
@@ -6490,7 +6531,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/halloween.draculamask/draculamask.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        356, 1, 0, 0
+        360, 1, 0, 0
     },
     // dragondoorknocker
     {
@@ -6505,7 +6546,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        357, 1, 0, 0
+        361, 1, 0, 0
     },
     // drone
     {
@@ -6520,7 +6561,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        358, 1, 0, 0
+        362, 1, 0, 0
     },
     // dropbox
     {
@@ -6535,7 +6576,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        359, 1, 0, 0
+        363, 1, 0, 0
     },
     // drumkit
     {
@@ -6550,7 +6591,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        360, 1, 0, 0
+        364, 1, 0, 0
     },
     // ducttape
     {
@@ -6565,7 +6606,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/ducttape/ducttape.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        361, 0, 0, 0
+        365, 0, 0, 0
     },
     // easel
     {
@@ -6580,7 +6621,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        361, 1, 0, 0
+        365, 1, 0, 0
     },
     // easter.bronzeegg
     {
@@ -6595,7 +6636,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/easter/painted eggs/bronzeegg.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        362, 2, 0, 0
+        366, 2, 0, 0
     },
     // easter.goldegg
     {
@@ -6610,7 +6651,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/easter/painted eggs/goldegg.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        364, 1, 0, 0
+        368, 1, 0, 0
     },
     // easter.paintedeggs
     {
@@ -6625,7 +6666,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/easter/painted eggs/paintedeggs.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        365, 1, 0, 0
+        369, 1, 0, 0
     },
     // easter.silveregg
     {
@@ -6640,7 +6681,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/easter/painted eggs/silveregg.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        366, 2, 0, 0
+        370, 2, 0, 0
     },
     // easterbasket
     {
@@ -6655,7 +6696,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/misc/easter/easter basket/easter_basket.entity.prefab", 557749706U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        368, 1, 0, 0
+        372, 1, 0, 0
     },
     // easterdoorwreath
     {
@@ -6670,7 +6711,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        369, 1, 0, 0
+        373, 1, 0, 0
     },
     // egg
     {
@@ -6685,7 +6726,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/eggs/egg.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        370, 3, 0, 0
+        374, 3, 0, 0
     },
     // electric.andswitch
     {
@@ -6700,7 +6741,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        373, 1, 0, 0
+        377, 1, 0, 0
     },
     // electric.audioalarm
     {
@@ -6715,7 +6756,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        374, 1, 0, 0
+        378, 1, 0, 0
     },
     // electric.battery.rechargable.large
     {
@@ -6730,7 +6771,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        375, 1, 0, 0
+        379, 1, 0, 0
     },
     // electric.battery.rechargable.medium
     {
@@ -6745,7 +6786,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        376, 1, 0, 0
+        380, 1, 0, 0
     },
     // electric.battery.rechargable.small
     {
@@ -6760,7 +6801,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        377, 1, 0, 0
+        381, 1, 0, 0
     },
     // electric.blocker
     {
@@ -6775,7 +6816,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        378, 1, 0, 0
+        382, 1, 0, 0
     },
     // electric.bulbstringlights
     {
@@ -6790,7 +6831,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        379, 1, 0, 0
+        383, 1, 0, 0
     },
     // electric.button
     {
@@ -6805,7 +6846,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        380, 1, 0, 0
+        384, 1, 0, 0
     },
     // electric.cabletunnel
     {
@@ -6820,7 +6861,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        381, 1, 0, 0
+        385, 1, 0, 0
     },
     // electric.chandelier
     {
@@ -6835,7 +6876,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/playerioents/lights/cozypack/chandelier/electric.chandelier.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        382, 1, 0, 0
+        386, 1, 0, 0
     },
     // electric.counter
     {
@@ -6850,7 +6891,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        383, 1, 0, 0
+        387, 1, 0, 0
     },
     // electric.digitalclock
     {
@@ -6865,7 +6906,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        384, 1, 0, 0
+        388, 1, 0, 0
     },
     // electric.doorcontroller
     {
@@ -6880,7 +6921,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        385, 1, 0, 0
+        389, 1, 0, 0
     },
     // electric.fairylights
     {
@@ -6895,7 +6936,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        386, 1, 0, 0
+        390, 1, 0, 0
     },
     // electric.flasherlight
     {
@@ -6910,7 +6951,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        387, 1, 0, 0
+        391, 1, 0, 0
     },
     // electric.fluorescentlight
     {
@@ -6925,7 +6966,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/playerioents/lights/cozypack/fluorescentlights/electric.fluorescentlight.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        388, 1, 0, 0
+        392, 1, 0, 0
     },
     // electric.fluorescentlight.ceiling
     {
@@ -6940,7 +6981,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "ceilinglight", "NoListing", "assets/prefabs/deployable/playerioents/lights/cozypack/fluorescentlights/ceiling/electric.fluorescentlight.ceiling.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        389, 1, 0, 0
+        393, 1, 0, 0
     },
     // electric.fuelgenerator.small
     {
@@ -6955,7 +6996,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        390, 1, 0, 0
+        394, 1, 0, 0
     },
     // electric.furnace
     {
@@ -6970,7 +7011,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        391, 2, 0, 0
+        395, 2, 0, 0
     },
     // electric.generator.small
     {
@@ -6985,7 +7026,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        393, 1, 0, 0
+        397, 1, 0, 0
     },
     // electric.hbhfsensor
     {
@@ -7000,7 +7041,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        394, 1, 0, 0
+        398, 1, 0, 0
     },
     // electric.heater
     {
@@ -7015,7 +7056,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        395, 1, 0, 0
+        399, 1, 0, 0
     },
     // electric.igniter
     {
@@ -7030,7 +7071,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        396, 1, 0, 0
+        400, 1, 0, 0
     },
     // electric.laserdetector
     {
@@ -7045,7 +7086,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        397, 1, 0, 0
+        401, 1, 0, 0
     },
     // electric.orswitch
     {
@@ -7060,7 +7101,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        398, 1, 0, 0
+        402, 1, 0, 0
     },
     // electric.pressurepad
     {
@@ -7075,7 +7116,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        399, 1, 0, 0
+        403, 1, 0, 0
     },
     // electric.random.switch
     {
@@ -7090,7 +7131,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        400, 1, 0, 0
+        404, 1, 0, 0
     },
     // electric.rf.broadcaster
     {
@@ -7105,7 +7146,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         true, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        401, 1, 0, 0
+        405, 1, 0, 0
     },
     // electric.rf.receiver
     {
@@ -7120,7 +7161,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         true, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        402, 1, 0, 0
+        406, 1, 0, 0
     },
     // electric.seismicsensor
     {
@@ -7135,7 +7176,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        403, 1, 0, 0
+        407, 1, 0, 0
     },
     // electric.simplelight
     {
@@ -7150,7 +7191,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        404, 1, 0, 0
+        408, 1, 0, 0
     },
     // electric.sirenlight
     {
@@ -7165,7 +7206,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        405, 1, 0, 0
+        409, 1, 0, 0
     },
     // electric.solarpanel.large
     {
@@ -7180,7 +7221,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        406, 1, 0, 0
+        410, 1, 0, 0
     },
     // electric.splitter
     {
@@ -7195,7 +7236,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        407, 1, 0, 0
+        411, 1, 0, 0
     },
     // electric.spotlight
     {
@@ -7210,7 +7251,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/electric.spotlight.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        408, 1, 0, 0
+        412, 1, 0, 0
     },
     // electric.spotlight.tripod
     {
@@ -7225,7 +7266,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/tripod/electric.spotlight.tripod.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        409, 1, 0, 0
+        413, 1, 0, 0
     },
     // electric.sprinkler
     {
@@ -7240,7 +7281,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        410, 1, 0, 0
+        414, 1, 0, 0
     },
     // electric.switch
     {
@@ -7255,7 +7296,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        411, 1, 0, 0
+        415, 1, 0, 0
     },
     // electric.tablelight
     {
@@ -7270,7 +7311,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/playerioents/lights/cozypack/electrictablelamp/electric.tablelamp.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        412, 1, 0, 0
+        416, 1, 0, 0
     },
     // electric.teslacoil
     {
@@ -7285,7 +7326,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        413, 1, 0, 0
+        417, 1, 0, 0
     },
     // electric.timer
     {
@@ -7300,7 +7341,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        414, 1, 0, 0
+        418, 1, 0, 0
     },
     // electric.wallcabinet
     {
@@ -7315,7 +7356,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        415, 1, 0, 0
+        419, 1, 0, 0
     },
     // electric.xorswitch
     {
@@ -7330,7 +7371,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        416, 1, 0, 0
+        420, 1, 0, 0
     },
     // electrical.branch
     {
@@ -7345,7 +7386,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        417, 1, 0, 0
+        421, 1, 0, 0
     },
     // electrical.combiner
     {
@@ -7360,7 +7401,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        418, 1, 0, 0
+        422, 1, 0, 0
     },
     // electrical.memorycell
     {
@@ -7375,7 +7416,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        419, 1, 0, 0
+        423, 1, 0, 0
     },
     // elevator
     {
@@ -7390,7 +7431,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        420, 1, 0, 0
+        424, 1, 0, 0
     },
     // explosive.satchel
     {
@@ -7405,7 +7446,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/satchelcharge/satchel_charge.worldmodel.prefab", "assets/prefabs/weapons/satchelcharge/explosive.satchel.entity.prefab", 2671523489U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        421, 1, 0, 0
+        425, 1, 0, 0
     },
     // explosive.timed
     {
@@ -7420,7 +7461,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/c4/explosive.timed.worldmodel.prefab", "assets/prefabs/tools/c4/explosive.timed.entity.prefab", 1915331115U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        422, 2, 0, 0
+        426, 2, 0, 0
     },
     // explosives
     {
@@ -7435,7 +7476,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/explosives/explosives.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        424, 0, 0, 0
+        428, 0, 0, 0
     },
     // factorydoor
     {
@@ -7450,7 +7491,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "door.hinged.metal", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        424, 1, 0, 0
+        428, 1, 0, 0
     },
     // fat.animal
     {
@@ -7465,7 +7506,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/animal fat/fat.animal.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        425, 1, 0, 0
+        429, 1, 0, 0
     },
     // fertilizer
     {
@@ -7480,7 +7521,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        426, 0, 0, 0
+        430, 0, 0, 0
     },
     // fireplace.stone
     {
@@ -7495,7 +7536,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        426, 1, 0, 0
+        430, 1, 0, 0
     },
     // firework.boomer.blue
     {
@@ -7510,7 +7551,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        427, 1, 0, 0
+        431, 1, 0, 0
     },
     // firework.boomer.champagne
     {
@@ -7525,7 +7566,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        428, 1, 0, 0
+        432, 1, 0, 0
     },
     // firework.boomer.green
     {
@@ -7540,7 +7581,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        429, 1, 0, 0
+        433, 1, 0, 0
     },
     // firework.boomer.orange
     {
@@ -7555,7 +7596,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        430, 1, 0, 0
+        434, 1, 0, 0
     },
     // firework.boomer.pattern
     {
@@ -7570,7 +7611,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        431, 1, 0, 0
+        435, 1, 0, 0
     },
     // firework.boomer.red
     {
@@ -7585,7 +7626,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        432, 1, 0, 0
+        436, 1, 0, 0
     },
     // firework.boomer.violet
     {
@@ -7600,7 +7641,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        433, 1, 0, 0
+        437, 1, 0, 0
     },
     // firework.romancandle.blue
     {
@@ -7615,7 +7656,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        434, 1, 0, 0
+        438, 1, 0, 0
     },
     // firework.romancandle.green
     {
@@ -7630,7 +7671,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        435, 1, 0, 0
+        439, 1, 0, 0
     },
     // firework.romancandle.red
     {
@@ -7645,7 +7686,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        436, 1, 0, 0
+        440, 1, 0, 0
     },
     // firework.romancandle.violet
     {
@@ -7660,7 +7701,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        437, 1, 0, 0
+        441, 1, 0, 0
     },
     // firework.volcano
     {
@@ -7675,7 +7716,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        438, 1, 0, 0
+        442, 1, 0, 0
     },
     // firework.volcano.red
     {
@@ -7690,7 +7731,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        439, 1, 0, 0
+        443, 1, 0, 0
     },
     // firework.volcano.violet
     {
@@ -7705,7 +7746,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        440, 1, 0, 0
+        444, 1, 0, 0
     },
     // fish.anchovy
     {
@@ -7720,7 +7761,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/fish/anchovy.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        441, 3, 0, 0
+        445, 3, 0, 0
     },
     // fish.catfish
     {
@@ -7735,7 +7776,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/fish/catfish.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        444, 3, 0, 0
+        448, 3, 0, 0
     },
     // fish.cooked
     {
@@ -7750,7 +7791,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/fish_meat/fish_meat_cooked.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        447, 4, 0, 0
+        451, 4, 0, 0
     },
     // fish.herring
     {
@@ -7765,7 +7806,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/fish/herring.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        451, 3, 0, 0
+        455, 3, 0, 0
     },
     // fish.minnows
     {
@@ -7780,7 +7821,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        454, 2, 0, 0
+        458, 2, 0, 0
     },
     // fish.orangeroughy
     {
@@ -7795,7 +7836,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/fish/orangeroughy.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        456, 3, 0, 0
+        460, 3, 0, 0
     },
     // fish.raw
     {
@@ -7810,7 +7851,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/fish_meat/fish_meat_raw.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        459, 4, 0, 0
+        463, 4, 0, 0
     },
     // fish.salmon
     {
@@ -7825,7 +7866,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/fish/salmon.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        463, 3, 0, 0
+        467, 3, 0, 0
     },
     // fish.sardine
     {
@@ -7840,7 +7881,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/fish/sardine.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        466, 3, 0, 0
+        470, 3, 0, 0
     },
     // fish.smallshark
     {
@@ -7855,7 +7896,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        469, 3, 0, 0
+        473, 3, 0, 0
     },
     // fish.spoiled
     {
@@ -7870,7 +7911,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/fish_meat/fish_meat_spoiled.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        472, 2, 0, 0
+        476, 2, 0, 0
     },
     // fish.troutsmall
     {
@@ -7885,7 +7926,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/fish/smalltrout.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        474, 3, 0, 0
+        478, 3, 0, 0
     },
     // fish.yellowperch
     {
@@ -7900,7 +7941,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/fish/yellowperch.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        477, 3, 0, 0
+        481, 3, 0, 0
     },
     // fishing.tackle
     {
@@ -7915,7 +7956,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        480, 0, 0, 0
+        484, 0, 0, 0
     },
     // fishingrod.handmade
     {
@@ -7930,7 +7971,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/fishing rod/fishing_rod.worldmodel.prefab", "assets/prefabs/tools/fishing rod/fishing_rod.entity.prefab", 2057865657U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        480, 2, 0, 0
+        484, 2, 0, 0
     },
     // fishtrap.small
     {
@@ -7945,7 +7986,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        482, 1, 0, 0
+        486, 1, 0, 0
     },
     // fishtrophy
     {
@@ -7960,7 +8001,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        483, 1, 0, 0
+        487, 1, 0, 0
     },
     // flamethrower
     {
@@ -7975,7 +8016,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/flamethrower/flamethrower.worldmodel.prefab", "assets/prefabs/weapons/flamethrower/flamethrower.entity.prefab", 3717106868U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 300.0f, true, false, false, 0.0f, 0.02f, false, "" },
-        484, 2, 0, 0
+        488, 2, 0, 0
     },
     // flameturret
     {
@@ -7990,7 +8031,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        486, 1, 0, 0
+        490, 1, 0, 0
     },
     // flare
     {
@@ -8005,7 +8046,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/flareold/flare.worldmodel.prefab", "assets/prefabs/tools/flareold/flare.weapon.prefab", 2661658442U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        487, 1, 0, 0
+        491, 1, 0, 0
     },
     // flashlight.held
     {
@@ -8020,7 +8061,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/flashlight/flashlight.worldmodel.prefab", "assets/prefabs/tools/flashlight/flashlight.entity.prefab", 72718095U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 50.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        488, 1, 0, 0
+        492, 1, 0, 0
     },
     // floor.grill
     {
@@ -8035,7 +8076,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        489, 1, 0, 0
+        493, 1, 0, 0
     },
     // floor.ladder.hatch
     {
@@ -8050,7 +8091,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        490, 1, 0, 0
+        494, 1, 0, 0
     },
     // floor.ladder.hatch.toptier
     {
@@ -8065,7 +8106,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        491, 1, 0, 0
+        495, 1, 0, 0
     },
     // floor.triangle.grill
     {
@@ -8080,7 +8121,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        492, 1, 0, 0
+        496, 1, 0, 0
     },
     // floor.triangle.ladder.hatch
     {
@@ -8095,7 +8136,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        493, 1, 0, 0
+        497, 1, 0, 0
     },
     // floor.triangle.ladder.hatch.toptier
     {
@@ -8110,7 +8151,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        494, 1, 0, 0
+        498, 1, 0, 0
     },
     // fluid.combiner
     {
@@ -8125,7 +8166,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        495, 1, 0, 0
+        499, 1, 0, 0
     },
     // fluid.splitter
     {
@@ -8140,7 +8181,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        496, 1, 0, 0
+        500, 1, 0, 0
     },
     // fluid.switch
     {
@@ -8155,7 +8196,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        497, 1, 0, 0
+        501, 1, 0, 0
     },
     // fogmachine
     {
@@ -8170,7 +8211,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        498, 2, 0, 0
+        502, 2, 0, 0
     },
     // frankensteinmask
     {
@@ -8185,7 +8226,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/halloween.frankensteinmask/frankensteinmask.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        500, 1, 0, 0
+        504, 1, 0, 0
     },
     // frankensteins.monster.01.head
     {
@@ -8200,7 +8241,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/halloween/frankensteins_monster_01/frankensteins_monster_01_head_wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        501, 2, 0, 0
+        505, 2, 0, 0
     },
     // frankensteins.monster.01.legs
     {
@@ -8215,7 +8256,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/halloween/frankensteins_monster_01/frankensteins_monster_01_legs_wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        503, 2, 0, 0
+        507, 2, 0, 0
     },
     // frankensteins.monster.01.torso
     {
@@ -8230,7 +8271,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/halloween/frankensteins_monster_01/frankensteins_monster_01_torso_wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        505, 2, 0, 0
+        509, 2, 0, 0
     },
     // frankensteins.monster.02.head
     {
@@ -8245,7 +8286,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/halloween/frankensteins_monster_02/frankensteins_monster_02_head_wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        507, 1, 0, 0
+        511, 1, 0, 0
     },
     // frankensteins.monster.02.legs
     {
@@ -8260,7 +8301,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/halloween/frankensteins_monster_02/frankensteins_monster_02_legs_wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        508, 1, 0, 0
+        512, 1, 0, 0
     },
     // frankensteins.monster.02.torso
     {
@@ -8275,7 +8316,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/halloween/frankensteins_monster_02/frankensteins_monster_02_torso_wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        509, 1, 0, 0
+        513, 1, 0, 0
     },
     // frankensteins.monster.03.head
     {
@@ -8290,7 +8331,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/halloween/frankensteins_monster_03/frankensteins_monster_03_head_wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        510, 2, 0, 0
+        514, 2, 0, 0
     },
     // frankensteins.monster.03.legs
     {
@@ -8305,7 +8346,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/halloween/frankensteins_monster_03/frankensteins_monster_03_legs_wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        512, 2, 0, 0
+        516, 2, 0, 0
     },
     // frankensteins.monster.03.torso
     {
@@ -8320,7 +8361,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/halloween/frankensteins_monster_03/frankensteins_monster_03_torso_wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        514, 2, 0, 0
+        518, 2, 0, 0
     },
     // frankensteintable
     {
@@ -8335,7 +8376,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        516, 1, 0, 0
+        520, 1, 0, 0
     },
     // fridge
     {
@@ -8350,7 +8391,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        517, 1, 0, 0
+        521, 1, 0, 0
     },
     // frontier_hatchet
     {
@@ -8365,7 +8406,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "hatchet", "NoListing", "assets/prefabs/weapons/frontier hatchet/frontier_hatchet.worldmodel.prefab", "assets/prefabs/weapons/frontier hatchet/frontier_hatchet.entity.prefab", 3662083119U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 400.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        518, 1, 0, 0
+        522, 1, 0, 0
     },
     // frontiermirror.large
     {
@@ -8380,7 +8421,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        519, 1, 0, 0
+        523, 1, 0, 0
     },
     // frontiermirror.medium
     {
@@ -8395,7 +8436,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        520, 1, 0, 0
+        524, 1, 0, 0
     },
     // frontiermirror.small
     {
@@ -8410,7 +8451,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        521, 1, 0, 0
+        525, 1, 0, 0
     },
     // frontiermirror.standing
     {
@@ -8425,7 +8466,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        522, 1, 0, 0
+        526, 1, 0, 0
     },
     // fun.bass
     {
@@ -8440,7 +8481,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/instruments/bass/bass.worldmodel.prefab", "assets/prefabs/instruments/bass/bass.weapon.prefab", 2465202152U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        523, 1, 0, 0
+        527, 1, 0, 0
     },
     // fun.boomboxportable
     {
@@ -8455,7 +8496,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/voiceaudio/boomboxportable/boomboxportable.worldmodel.prefab", "assets/prefabs/voiceaudio/boomboxportable/boomboxportable.weapon.prefab", 617635188U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        524, 2, 0, 0
+        528, 2, 0, 0
     },
     // fun.casetterecorder
     {
@@ -8470,7 +8511,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/voiceaudio/cassetterecorder/cassetterecorder.worldmodel.prefab", "assets/prefabs/voiceaudio/cassetterecorder/cassetterecorder.weapon.prefab", 705457609U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        526, 2, 0, 0
+        530, 2, 0, 0
     },
     // fun.cowbell
     {
@@ -8485,7 +8526,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/instruments/cowbell/cowbell.worldmodel.prefab", "assets/prefabs/instruments/cowbell/cowbell.weapon.prefab", 52738779U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        528, 1, 0, 0
+        532, 1, 0, 0
     },
     // fun.flute
     {
@@ -8500,7 +8541,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/instruments/flute/flute.worldmodel.prefab", "assets/prefabs/instruments/flute/flute.weapon.prefab", 3789219502U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        529, 1, 0, 0
+        533, 1, 0, 0
     },
     // fun.guitar
     {
@@ -8515,7 +8556,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/instruments/guitar/guitar.worldmodel.prefab", "assets/prefabs/instruments/guitar/guitar.weapon.prefab", 4177390149U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        530, 1, 0, 0
+        534, 1, 0, 0
     },
     // fun.jerrycanguitar
     {
@@ -8530,7 +8571,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/instruments/jerrycanguitar/jerrycanguitar.worldmodel.prefab", "assets/prefabs/instruments/jerrycanguitar/jerrycanguitar.weapon.prefab", 1977067472U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        531, 1, 0, 0
+        535, 1, 0, 0
     },
     // fun.tambourine
     {
@@ -8545,7 +8586,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/instruments/tambourine/tambourine.worldmodel.prefab", "assets/prefabs/instruments/tambourine/tambourine.weapon.prefab", 1754256281U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        532, 1, 0, 0
+        536, 1, 0, 0
     },
     // fun.trumpet
     {
@@ -8560,7 +8601,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/instruments/trumpet/trumpet.worldmodel.prefab", "assets/prefabs/instruments/trumpet/trumpet.weapon.prefab", 1050701358U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        533, 1, 0, 0
+        537, 1, 0, 0
     },
     // fun.tuba
     {
@@ -8575,7 +8616,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/instruments/tuba/tuba.worldmodel.prefab", "assets/prefabs/instruments/tuba/tuba.weapon.prefab", 2388319642U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        534, 1, 0, 0
+        538, 1, 0, 0
     },
     // furnace
     {
@@ -8590,7 +8631,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        535, 1, 0, 0
+        539, 1, 0, 0
     },
     // furnace.large
     {
@@ -8605,7 +8646,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        536, 1, 0, 0
+        540, 1, 0, 0
     },
     // fuse
     {
@@ -8620,7 +8661,52 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        537, 0, 0, 0
+        541, 0, 0, 0
+    },
+    // fuse.highgrade
+    {
+        -945548410, "fuse.highgrade", "fuse.heavy.item", "ItemDefinition",
+        { "fuse_heavy.name", "Heavy Fuse" }, { "fuse_heavy.desc", "Lasts longer than a regular fuse and is compatible with and able to restore a Power Plant. Will have to be replaced after a period of time." },
+        "Component", "None", "None", "Default", "None",
+        "VeryRare", "None", "Generic", "Count", "0", 0LL,
+        0, 3, 10, 0, 0.0f, 15.0f,
+        false, false, false, "None", false, false,
+        false, "0", 0LL, false, false, "Interesting", 8LL,
+        false, "Misc", false, false, false, false, 0, 0,
+        "", "", "NoListing", "", "", 0U,
+        false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
+        { true, 1000.0f, false, false, false, 1.0f, 1.0f, false, "" },
+        541, 0, 0, 0
+    },
+    // gamesroom.minifridge
+    {
+        352442426, "gamesroom.minifridge", "gamesroom.minifridge.item", "ItemDefinition",
+        { "gamesroom.minifridge", "Bar Games Minifridge" }, { "gamesroom.minifridge.desc", "A small fridge you can store food into and keep your drink cool!" },
+        "Electrical", "None", "None", "Default", "None",
+        "None", "None", "Generic", "Count", "0", 0LL,
+        0, 1, 10, 0, 0.0f, 0.0f,
+        false, false, false, "None", false, false,
+        false, "0", 0LL, false, false, "Interesting", 8LL,
+        false, "Misc", true, true, false, false, 0, 0,
+        "", "mini fridge", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
+        false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
+        { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
+        541, 1, 0, 0
+    },
+    // gamesroom.shotgun.trap
+    {
+        399522257, "gamesroom.shotgun.trap", "gamesroom.shotgun.trap.item", "ItemDefinition",
+        { "gamesroom.shotgun.trap.name", "Bar Games Shotgun Trap" }, { "gamesroom.shotgun.trap.desc", "A shotgun trap triggered by movement, place near doorways and load with handmade shells." },
+        "Traps", "None", "None", "Default", "None",
+        "None", "None", "Generic", "Count", "0", 0LL,
+        0, 1, 10, 0, 0.0f, 0.0f,
+        false, false, false, "None", false, false,
+        false, "0", 0LL, false, false, "Interesting", 8LL,
+        false, "Misc", true, true, false, false, 0, 0,
+        "", "guntrap", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
+        false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
+        { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
+        542, 1, 0, 0
     },
     // gates.external.high.adobe
     {
@@ -8635,7 +8721,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "gates.external.high.stone", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        537, 1, 0, 0
+        543, 1, 0, 0
     },
     // gates.external.high.legacy
     {
@@ -8650,7 +8736,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "gates.external.high.wood", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        538, 1, 0, 0
+        544, 1, 0, 0
     },
     // gates.external.high.stone
     {
@@ -8665,7 +8751,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        539, 1, 0, 0
+        545, 1, 0, 0
     },
     // gates.external.high.wood
     {
@@ -8680,7 +8766,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        540, 1, 0, 0
+        546, 1, 0, 0
     },
     // gears
     {
@@ -8695,7 +8781,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/gears/gears.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        541, 0, 0, 0
+        547, 0, 0, 0
     },
     // geiger.counter
     {
@@ -8710,7 +8796,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/geiger counter/geiger_counter.worldmodel.prefab", "assets/prefabs/tools/geiger counter/geiger_counter.entity.prefab", 47304962U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 50.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        541, 1, 0, 0
+        547, 1, 0, 0
     },
     // generator.water
     {
@@ -8725,7 +8811,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        542, 1, 0, 0
+        548, 1, 0, 0
     },
     // generator.wind.scrap
     {
@@ -8740,7 +8826,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        543, 1, 0, 0
+        549, 1, 0, 0
     },
     // ghostsheet
     {
@@ -8755,7 +8841,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        544, 1, 0, 0
+        550, 1, 0, 0
     },
     // giantcandycanedecor
     {
@@ -8770,7 +8856,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        545, 1, 0, 0
+        551, 1, 0, 0
     },
     // giantlollipops
     {
@@ -8785,7 +8871,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        546, 1, 0, 0
+        552, 1, 0, 0
     },
     // gingerbreadsuit
     {
@@ -8800,7 +8886,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        547, 1, 0, 0
+        553, 1, 0, 0
     },
     // gloweyes
     {
@@ -8815,7 +8901,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        548, 1, 0, 0
+        554, 1, 0, 0
     },
     // glue
     {
@@ -8830,7 +8916,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        549, 0, 0, 0
+        555, 0, 0, 0
     },
     // goldframe.large
     {
@@ -8845,7 +8931,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        549, 2, 0, 0
+        555, 2, 0, 0
     },
     // goldframe.medium
     {
@@ -8860,7 +8946,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        551, 2, 0, 0
+        557, 2, 0, 0
     },
     // goldframe.small
     {
@@ -8875,7 +8961,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        553, 2, 0, 0
+        559, 2, 0, 0
     },
     // goldframe.standing
     {
@@ -8890,7 +8976,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        555, 2, 0, 0
+        561, 2, 0, 0
     },
     // goldframe.xl
     {
@@ -8905,7 +8991,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        557, 2, 0, 0
+        563, 2, 0, 0
     },
     // goldframe.xxl
     {
@@ -8920,7 +9006,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        559, 2, 0, 0
+        565, 2, 0, 0
     },
     // goldmirror.large
     {
@@ -8935,7 +9021,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        561, 1, 0, 0
+        567, 1, 0, 0
     },
     // goldmirror.medium
     {
@@ -8950,7 +9036,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        562, 1, 0, 0
+        568, 1, 0, 0
     },
     // goldmirror.small
     {
@@ -8965,7 +9051,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        563, 1, 0, 0
+        569, 1, 0, 0
     },
     // goldmirror.standing
     {
@@ -8980,7 +9066,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        564, 1, 0, 0
+        570, 1, 0, 0
     },
     // granolabar
     {
@@ -8995,7 +9081,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        565, 2, 0, 0
+        571, 2, 0, 0
     },
     // gravestone
     {
@@ -9010,7 +9096,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        567, 1, 0, 0
+        573, 1, 0, 0
     },
     // grayidtag
     {
@@ -9025,7 +9111,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/id_tags/id_tags_gray.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        568, 0, 0, 0
+        574, 0, 0, 0
     },
     // green.berry
     {
@@ -9040,7 +9126,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        568, 3, 0, 0
+        574, 3, 0, 0
     },
     // greenidtag
     {
@@ -9055,7 +9141,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/id_tags/id_tags_green.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        571, 0, 0, 0
+        577, 0, 0, 0
     },
     // grenade.beancan
     {
@@ -9070,7 +9156,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/beancan grenade/beancan.grenade.worldmodel.prefab", "assets/prefabs/weapons/beancan grenade/grenade.beancan.entity.prefab", 3654150932U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        571, 1, 0, 0
+        577, 1, 0, 0
     },
     // grenade.bee
     {
@@ -9085,7 +9171,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/bee grenade/grenade.bee.worldmodel.prefab", "assets/prefabs/weapons/bee grenade/grenade.bee.entity.prefab", 3444797639U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        572, 1, 0, 0
+        578, 1, 0, 0
     },
     // grenade.f1
     {
@@ -9100,7 +9186,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/f1 grenade/grenade.f1.worldmodel.prefab", "assets/prefabs/weapons/f1 grenade/grenade.f1.entity.prefab", 45697420U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        573, 1, 0, 0
+        579, 1, 0, 0
     },
     // grenade.flashbang
     {
@@ -9115,7 +9201,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/flashbang/grenade.flashbang.worldmodel.prefab", "assets/prefabs/weapons/flashbang/grenade.flashbang.entity.prefab", 758326244U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        574, 1, 0, 0
+        580, 1, 0, 0
     },
     // grenade.molotov
     {
@@ -9130,7 +9216,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/molotov cocktail/grenade.molotov.worldmodel.prefab", "assets/prefabs/weapons/molotov cocktail/grenade.molotov.entity.prefab", 4104126979U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        575, 1, 0, 0
+        581, 1, 0, 0
     },
     // grenade.smoke
     {
@@ -9145,7 +9231,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/supply signal/supplysignal.worldmodel.prefab", "assets/prefabs/tools/smoke grenade/smoke_grenade.weapon.prefab", 3642747736U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        576, 1, 0, 0
+        582, 1, 0, 0
     },
     // grub
     {
@@ -9160,7 +9246,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        577, 2, 0, 0
+        583, 2, 0, 0
     },
     // gun.water
     {
@@ -9175,7 +9261,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/summer_dlc/watergun/watergun.worldmodel.prefab", "assets/prefabs/misc/summer_dlc/watergun/watergun.entity.prefab", 37937194U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 50.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        579, 2, 0, 0
+        585, 2, 0, 0
     },
     // gunpowder
     {
@@ -9190,7 +9276,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/gunpowder/gunpowder.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        581, 0, 0, 0
+        587, 0, 0, 0
     },
     // gunrack.horizontal
     {
@@ -9205,7 +9291,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        581, 2, 0, 0
+        587, 2, 0, 0
     },
     // gunrack.single.1.horizontal
     {
@@ -9220,7 +9306,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        583, 1, 0, 0
+        589, 1, 0, 0
     },
     // gunrack.single.2.horizontal
     {
@@ -9235,7 +9321,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        584, 1, 0, 0
+        590, 1, 0, 0
     },
     // gunrack.single.3.horizontal
     {
@@ -9250,7 +9336,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        585, 1, 0, 0
+        591, 1, 0, 0
     },
     // gunrack_stand
     {
@@ -9265,7 +9351,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        586, 1, 0, 0
+        592, 1, 0, 0
     },
     // gunrack_tall.horizontal
     {
@@ -9280,7 +9366,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        587, 2, 0, 0
+        593, 2, 0, 0
     },
     // gunrack_wide.horizontal
     {
@@ -9295,7 +9381,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        589, 2, 0, 0
+        595, 2, 0, 0
     },
     // guntrap
     {
@@ -9306,11 +9392,11 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         0, 1, 10, 0, 0.0f, 6.5f,
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting", 8LL,
-        false, "Misc", true, true, false, false, 0, 0,
+        false, "Misc", true, true, false, true, 1, 0,
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        591, 1, 0, 0
+        597, 1, 0, 0
     },
     // hab
     {
@@ -9325,7 +9411,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        592, 0, 0, 0
+        598, 0, 0, 0
     },
     // hab.armor
     {
@@ -9340,7 +9426,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        592, 1, 0, 0
+        598, 1, 0, 0
     },
     // half.bamboo.shelves
     {
@@ -9355,7 +9441,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "base.half.shelves", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        593, 1, 0, 0
+        599, 1, 0, 0
     },
     // halfheight.industrial.shelves
     {
@@ -9370,7 +9456,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "base.half.shelves", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        594, 1, 0, 0
+        600, 1, 0, 0
     },
     // halloween.candy
     {
@@ -9385,7 +9471,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        595, 3, 0, 0
+        601, 3, 0, 0
     },
     // halloween.lootbag.large
     {
@@ -9400,7 +9486,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        598, 1, 0, 0
+        604, 1, 0, 0
     },
     // halloween.lootbag.medium
     {
@@ -9415,7 +9501,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        599, 2, 0, 0
+        605, 2, 0, 0
     },
     // halloween.lootbag.small
     {
@@ -9430,7 +9516,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        601, 2, 0, 0
+        607, 2, 0, 0
     },
     // halloween.mummysuit
     {
@@ -9445,7 +9531,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        603, 1, 0, 0
+        609, 1, 0, 0
     },
     // halloween.surgeonsuit
     {
@@ -9460,7 +9546,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        604, 1, 0, 0
+        610, 1, 0, 0
     },
     // hammer
     {
@@ -9475,7 +9561,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/hammer/hammer.worldmodel.prefab", "assets/prefabs/weapons/hammer/hammer.entity.prefab", 388861612U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        605, 1, 0, 0
+        611, 1, 0, 0
     },
     // hammer.salvaged
     {
@@ -9490,7 +9576,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/salvaged_hammer/hammer_salvaged.worldmodel.prefab", "assets/prefabs/weapons/salvaged_hammer/hammer_salvaged.entity.prefab", 1744180387U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 500.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        606, 1, 0, 0
+        612, 1, 0, 0
     },
     // handcuffs
     {
@@ -9505,7 +9591,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/handcuffs/w_handcuffs.worldmodel.prefab", "assets/prefabs/tools/handcuffs/handcuffs.entity.prefab", 3263286159U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 60.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        607, 4, 0, 0
+        613, 4, 0, 0
     },
     // harvestingtea
     {
@@ -9520,7 +9606,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/harvestingtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        611, 2, 0, 0
+        617, 2, 0, 0
     },
     // hat.beenie
     {
@@ -9535,7 +9621,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/hat.beenie/player_urban_hat_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        613, 1, 0, 0
+        619, 1, 0, 0
     },
     // hat.boonie
     {
@@ -9550,7 +9636,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/hat.boonie/hatboonie_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        614, 1, 0, 0
+        620, 1, 0, 0
     },
     // hat.bunnyhat
     {
@@ -9565,7 +9651,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/easter/bunny_hat/bunnyhat_wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        615, 1, 0, 0
+        621, 1, 0, 0
     },
     // hat.candle
     {
@@ -9580,7 +9666,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/hat.candle/candlehat_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        616, 13, 0, 0
+        622, 13, 0, 0
     },
     // hat.candle.birthday
     {
@@ -9595,7 +9681,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "hat.candle", "NoListing", "assets/prefabs/clothes/hat.candle/skins/birthday_candle_hat/hat_candle_birthday_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        629, 13, 0, 0
+        635, 13, 0, 0
     },
     // hat.cap
     {
@@ -9610,7 +9696,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/hat.cap/hatcap_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        642, 1, 0, 0
+        648, 1, 0, 0
     },
     // hat.dragonmask
     {
@@ -9618,14 +9704,14 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         { "hat.dragonmask.name", "Dragon Mask" }, { "hat.dragonmask.desc", "A special dragon mask to celebrate Chinese New Year" },
         "Attire", "None", "None", "Default", "None",
         "None", "None", "Generic", "Count", "0", 0LL,
-        0, 1, 10, 0, 0.0f, 0.05f,
+        0, 1, 10, 0, 0.0f, 0.0f,
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting", 8LL,
         false, "Misc", false, false, true, false, 0, 0,
-        "", "", "NoListing", "assets/prefabs/misc/chinesenewyear/dragonmask/hat.dragonmask.world.prefab", "", 0U,
+        "", "hat.wolf", "NoListing", "assets/prefabs/misc/chinesenewyear/dragonmask/hat.dragonmask.world.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        643, 1, 0, 0
+        649, 1, 0, 0
     },
     // hat.gas.mask
     {
@@ -9640,7 +9726,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/hat.bucket/metal_improvised_helmet_02_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        644, 1, 0, 0
+        650, 1, 0, 0
     },
     // hat.horsemask
     {
@@ -9648,14 +9734,14 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         { "hat.horsemask.name", "Horse Mask" }, { "hat.horsemask.desc", "A Beautifully crafted red and gold Horse mask to celebrate the 2026 Lunar New Year. This item replaces the wolf headdress." },
         "Attire", "None", "None", "Default", "None",
         "None", "None", "Generic", "Count", "0", 0LL,
-        0, 1, 10, 0, 0.0f, 0.05f,
+        0, 1, 10, 0, 0.0f, 0.0f,
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting", 8LL,
         false, "Misc", false, false, true, false, 0, 0,
-        "", "", "NoListing", "assets/prefabs/misc/chinesenewyear/horsemask/hat.horsemask.world.prefab", "", 0U,
+        "", "hat.wolf", "NoListing", "assets/prefabs/misc/chinesenewyear/horsemask/hat.horsemask.world.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        645, 1, 0, 0
+        651, 1, 0, 0
     },
     // hat.miner
     {
@@ -9670,7 +9756,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/hat.miner/hatminer_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        646, 11, 0, 0
+        652, 11, 0, 0
     },
     // hat.oxmask
     {
@@ -9678,14 +9764,14 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         { "hat.oxmaskname", "Ox Mask" }, { "hat.oxmask.desc", "An Ox mask to celebrate the 2021 Lunar New Year." },
         "Attire", "None", "None", "Default", "None",
         "None", "None", "Generic", "Count", "0", 0LL,
-        0, 1, 10, 0, 0.0f, 0.05f,
+        0, 1, 10, 0, 0.0f, 0.0f,
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting", 8LL,
         false, "Misc", false, false, true, false, 0, 0,
-        "", "", "NoListing", "assets/prefabs/misc/chinesenewyear/oxmask/bullmask.world.prefab", "", 0U,
+        "", "hat.wolf", "NoListing", "assets/prefabs/misc/chinesenewyear/oxmask/bullmask.world.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        657, 1, 0, 0
+        663, 1, 0, 0
     },
     // hat.rabbitmask
     {
@@ -9693,14 +9779,14 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         { "hat.rabbitmask.name", "Rabbit Mask" }, { "hat.rabbitmask.desc", "A Beautifully crafted Rabbit mask to celebrate the 2023 Lunar New Year" },
         "Attire", "None", "None", "Default", "None",
         "None", "None", "Generic", "Count", "0", 0LL,
-        0, 1, 10, 0, 0.0f, 0.05f,
+        0, 1, 10, 0, 0.0f, 0.0f,
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting", 8LL,
         false, "Misc", false, false, true, false, 0, 0,
-        "", "", "NoListing", "assets/prefabs/misc/chinesenewyear/rabbitmask/rabbitmask.world.prefab", "", 0U,
+        "", "hat.wolf", "NoListing", "assets/prefabs/misc/chinesenewyear/rabbitmask/rabbitmask.world.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        658, 1, 0, 0
+        664, 1, 0, 0
     },
     // hat.ratmask
     {
@@ -9708,14 +9794,14 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         { "hat.ratmask.name", "Rat Mask" }, { "hat.ratmask.desc", "A Beautifully crafted bronze and gold Rat mask to celebrate the 2020 Lunar New Year. This item replaces the wolf headdress." },
         "Attire", "None", "None", "Default", "None",
         "None", "None", "Generic", "Count", "0", 0LL,
-        0, 1, 10, 0, 0.0f, 0.05f,
+        0, 1, 10, 0, 0.0f, 0.0f,
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting", 8LL,
         false, "Misc", false, false, true, false, 0, 0,
-        "", "", "NoListing", "assets/prefabs/misc/chinesenewyear/ratmask/hat.ratmask.world.prefab", "", 0U,
+        "", "hat.wolf", "NoListing", "assets/prefabs/misc/chinesenewyear/ratmask/hat.ratmask.world.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        659, 1, 0, 0
+        665, 1, 0, 0
     },
     // hat.snakemask
     {
@@ -9723,14 +9809,14 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         { "hat.snakemask.name", "Snake mask" }, { "hat.snakemask.desc", "A Beautifully crafted Snake mask to celebrate the 2025 Lunar New Year" },
         "Attire", "None", "None", "Default", "None",
         "None", "None", "Generic", "Count", "0", 0LL,
-        0, 1, 10, 0, 0.0f, 0.05f,
+        0, 1, 10, 0, 0.0f, 0.0f,
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting", 8LL,
         false, "Misc", false, false, true, false, 0, 0,
-        "", "", "NoListing", "assets/prefabs/misc/chinesenewyear/snakemask/snakemask.world.prefab", "", 0U,
+        "", "hat.wolf", "NoListing", "assets/prefabs/misc/chinesenewyear/snakemask/snakemask.world.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        660, 1, 0, 0
+        666, 1, 0, 0
     },
     // hat.tigermask
     {
@@ -9738,14 +9824,14 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         { "hat.tigermask.name", "Tiger Mask" }, { "hat.tigermask.desc", "A special tiger mask to celebrate Chinese New Year" },
         "Attire", "None", "None", "Default", "None",
         "None", "None", "Generic", "Count", "0", 0LL,
-        0, 1, 10, 0, 0.0f, 0.05f,
+        0, 1, 10, 0, 0.0f, 0.0f,
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting", 8LL,
         false, "Misc", false, false, true, false, 0, 0,
-        "", "", "NoListing", "assets/prefabs/misc/chinesenewyear/tigermask/tigermask.world.prefab", "", 0U,
+        "", "hat.wolf", "NoListing", "assets/prefabs/misc/chinesenewyear/tigermask/tigermask.world.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        661, 1, 0, 0
+        667, 1, 0, 0
     },
     // hat.wellipets
     {
@@ -9760,22 +9846,22 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/hat.wellipets/hat.wellipets.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        662, 1, 0, 0
+        668, 1, 0, 0
     },
     // hat.wolf
     {
         -1478212975, "hat.wolf", "hat.wolf.item", "ItemDefinition",
         { "hat.wolf", "Wolf Headdress" }, { "hat.wolf.desc", "A headdress made out of the scraped out head of a wolf." },
         "Attire", "None", "None", "Default", "None",
-        "Rare", "None", "Generic", "Count", "0", 0LL,
+        "None", "Rare", "Generic", "Count", "0", 0LL,
         0, 1, 10, 0, 0.0f, 0.05f,
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting", 8LL,
-        false, "Misc", false, false, true, false, 0, 0,
+        false, "Misc", false, false, true, true, 8, 0,
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        663, 1, 0, 0
+        669, 1, 0, 0
     },
     // hatchet
     {
@@ -9790,7 +9876,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/hatchet/hatchet.worldmodel.prefab", "assets/prefabs/weapons/hatchet/hatchet.entity.prefab", 365233245U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 400.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        664, 1, 0, 0
+        670, 1, 0, 0
     },
     // hazmat.krieg
     {
@@ -9805,7 +9891,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "hazmatsuit", "NoListing", "assets/prefabs/clothes/suit.hazmat/warhammer/krieg.hazmat_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 450.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        665, 2, 0, 0
+        671, 2, 0, 0
     },
     // hazmat.plushy
     {
@@ -9820,7 +9906,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/hazmatplushy/hazmatplushy.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        667, 1, 0, 0
+        673, 1, 0, 0
     },
     // hazmatsuit
     {
@@ -9835,7 +9921,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 450.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        668, 2, 0, 0
+        674, 2, 0, 0
     },
     // hazmatsuit.arcticsuit
     {
@@ -9850,7 +9936,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "hazmatsuit", "ListAsUniqueItem", "assets/prefabs/clothes/suit.hazmat/arctic/hazmat_suit_arctic_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 450.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        670, 2, 0, 0
+        676, 2, 0, 0
     },
     // hazmatsuit.diver
     {
@@ -9865,7 +9951,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "hazmatsuit", "ListAsUniqueItem", "assets/prefabs/clothes/suit.hazmat/diver/divingsuit_hazmat_wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 450.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        672, 2, 0, 0
+        678, 2, 0, 0
     },
     // hazmatsuit.frontier
     {
@@ -9880,7 +9966,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "hazmatsuit", "ListAsUniqueItem", "assets/prefabs/clothes/suit.hazmat/frontier/frontier_hazmat_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 450.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        674, 2, 0, 0
+        680, 2, 0, 0
     },
     // hazmatsuit.kick
     {
@@ -9895,7 +9981,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "hazmatsuit", "NoListing", "assets/prefabs/clothes/suit.hazmat/kick/kick.hazmat_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 450.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        676, 2, 0, 0
+        682, 2, 0, 0
     },
     // hazmatsuit.lumberjack
     {
@@ -9910,7 +9996,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "hazmatsuit", "ListAsUniqueItem", "assets/prefabs/clothes/suit.hazmat/lumberjack/lumberjack_hazmat_wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 450.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        678, 2, 0, 0
+        684, 2, 0, 0
     },
     // hazmatsuit.nomadsuit
     {
@@ -9925,7 +10011,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "hazmatsuit", "ListAsUniqueItem", "assets/prefabs/clothes/suit.hazmat/nomad/hazmat_suit_nomad_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 450.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        680, 2, 0, 0
+        686, 2, 0, 0
     },
     // hazmatsuit.pilot
     {
@@ -9940,7 +10026,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "hazmatsuit", "NoListing", "assets/prefabs/clothes/suit.hazmat/pilot/pilot.hazmat_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 450.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        682, 2, 0, 0
+        688, 2, 0, 0
     },
     // hazmatsuit.spacesuit
     {
@@ -9955,7 +10041,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "hazmatsuit", "ListAsUniqueItem", "assets/prefabs/clothes/suit.hazmat/spacesuit/spacesuit_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 450.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        684, 2, 0, 0
+        690, 2, 0, 0
     },
     // hazmatsuit_scientist
     {
@@ -9970,7 +10056,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        686, 1, 0, 0
+        692, 1, 0, 0
     },
     // hazmatsuit_scientist_arctic
     {
@@ -9985,7 +10071,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        687, 1, 0, 0
+        693, 1, 0, 0
     },
     // hazmatsuit_scientist_naval
     {
@@ -10000,7 +10086,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        688, 1, 0, 0
+        694, 1, 0, 0
     },
     // hazmatsuit_scientist_nvgm
     {
@@ -10015,7 +10101,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        689, 1, 0, 0
+        695, 1, 0, 0
     },
     // hazmatsuit_scientist_peacekeeper
     {
@@ -10030,7 +10116,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        690, 1, 0, 0
+        696, 1, 0, 0
     },
     // hazmatsuittwitch
     {
@@ -10045,7 +10131,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "hazmatsuit", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 450.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        691, 1, 0, 0
+        697, 1, 0, 0
     },
     // hazmatyoutooz
     {
@@ -10060,7 +10146,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/youtooz_figurines/hazmat_youtooz.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        692, 1, 0, 0
+        698, 1, 0, 0
     },
     // head.bag
     {
@@ -10075,7 +10161,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/burlap sack/burlapsackbloody.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        693, 1, 0, 0
+        699, 1, 0, 0
     },
     // healingtea
     {
@@ -10090,7 +10176,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/basichealthtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        694, 2, 0, 0
+        700, 2, 0, 0
     },
     // healingtea.advanced
     {
@@ -10105,7 +10191,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/advancedhealingtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        696, 2, 0, 0
+        702, 2, 0, 0
     },
     // healingtea.pure
     {
@@ -10120,7 +10206,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/purehealingtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        698, 2, 0, 0
+        704, 2, 0, 0
     },
     // heartballoon2025
     {
@@ -10135,7 +10221,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        700, 1, 0, 0
+        706, 1, 0, 0
     },
     // heavy.plate.helmet
     {
@@ -10150,7 +10236,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/hat.heavyplate/heavyplatehelmet_wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 1000.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        701, 1, 0, 0
+        707, 1, 0, 0
     },
     // heavy.plate.jacket
     {
@@ -10165,7 +10251,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/jacket.heavyplate/heavyplatejacket_wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 1000.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        702, 1, 0, 0
+        708, 1, 0, 0
     },
     // heavy.plate.pants
     {
@@ -10180,7 +10266,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/pants.heavyplate/heavyplatepants_wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 1000.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        703, 1, 0, 0
+        709, 1, 0, 0
     },
     // heavy.scientist.plushie
     {
@@ -10195,7 +10281,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/heavyscientistplushie/heavyscientistplushie.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        704, 1, 0, 0
+        710, 1, 0, 0
     },
     // heavyscientistyoutooz
     {
@@ -10210,7 +10296,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/youtooz_figurines/heavyscientist_youtooz.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        705, 1, 0, 0
+        711, 1, 0, 0
     },
     // hitchtroughcombo
     {
@@ -10225,7 +10311,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        706, 1, 0, 0
+        712, 1, 0, 0
     },
     // hmlmg
     {
@@ -10240,7 +10326,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/hmlmg/hmlmg.worldmodel.prefab", "assets/prefabs/weapons/hmlmg/hmlmg.entity.prefab", 3459133190U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 350.0f, true, false, false, 0.1f, 0.2f, false, "" },
-        707, 2, 0, 0
+        713, 2, 0, 0
     },
     // hobobarrel
     {
@@ -10255,7 +10341,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        709, 1, 0, 0
+        715, 1, 0, 0
     },
     // homingmissile.launcher
     {
@@ -10270,7 +10356,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/homingmissilelauncher/homing_missile_launcher.worldmodel.prefab", "assets/prefabs/weapons/homingmissilelauncher/homing_missile_launcher.entity.prefab", 542600037U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 15.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        710, 1, 0, 0
+        716, 1, 0, 0
     },
     // honey
     {
@@ -10285,7 +10371,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/honey/jar of honey/honeyjar.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        711, 2, 0, 0
+        717, 2, 0, 0
     },
     // honeycomb
     {
@@ -10300,7 +10386,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/honeycomb/honeycomb.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        713, 4, 0, 0
+        719, 4, 0, 0
     },
     // hoodie
     {
@@ -10315,7 +10401,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/hoodie/player_urban_torso_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        717, 1, 0, 0
+        723, 1, 0, 0
     },
     // hopper
     {
@@ -10330,7 +10416,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        718, 1, 0, 0
+        724, 1, 0, 0
     },
     // horse
     {
@@ -10345,7 +10431,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 850.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        719, 0, 0, 0
+        725, 0, 0, 0
     },
     // horse.armor.lny26
     {
@@ -10360,7 +10446,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "horse.armor.roadsign", "NoListing", "assets/content/vehicles/horse/items/horse armor/skins/lny26/model/horselny26_wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        719, 1, 0, 0
+        725, 1, 0, 0
     },
     // horse.armor.roadsign
     {
@@ -10375,7 +10461,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/content/vehicles/horse/model/armour/roadsign/horseroadsignarmour_wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        720, 1, 0, 0
+        726, 1, 0, 0
     },
     // horse.armor.wood
     {
@@ -10390,7 +10476,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/content/vehicles/horse/model/armour/wood/horsewoodarmour_wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        721, 1, 0, 0
+        727, 1, 0, 0
     },
     // horse.costume
     {
@@ -10405,7 +10491,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/easter/horsecostume/horsecostume_wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 80.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        722, 1, 0, 0
+        728, 1, 0, 0
     },
     // horse.saddle
     {
@@ -10420,7 +10506,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        723, 0, 0, 0
+        729, 0, 0, 0
     },
     // horse.saddle.double
     {
@@ -10435,7 +10521,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        723, 1, 0, 0
+        729, 1, 0, 0
     },
     // horse.saddle.single
     {
@@ -10450,7 +10536,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        724, 1, 0, 0
+        730, 1, 0, 0
     },
     // horse.saddlebag
     {
@@ -10465,7 +10551,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        725, 1, 0, 0
+        731, 1, 0, 0
     },
     // horse.shoes.advanced
     {
@@ -10480,7 +10566,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        726, 1, 0, 0
+        732, 1, 0, 0
     },
     // horse.shoes.basic
     {
@@ -10495,7 +10581,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        727, 1, 0, 0
+        733, 1, 0, 0
     },
     // horsedung
     {
@@ -10510,7 +10596,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/horsedung/horsedung.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        728, 0, 0, 0
+        734, 0, 0, 0
     },
     // horsemeat.burned
     {
@@ -10525,7 +10611,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/horse_meat/meet.horse.burned.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        728, 2, 0, 0
+        734, 2, 0, 0
     },
     // horsemeat.cooked
     {
@@ -10540,7 +10626,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/horse_meat/meet.horse.cooked.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        730, 4, 0, 0
+        736, 4, 0, 0
     },
     // horsemeat.raw
     {
@@ -10555,7 +10641,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/horse_meat/meet.horse.raw.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        734, 4, 0, 0
+        740, 4, 0, 0
     },
     // horsemeat.spoiled
     {
@@ -10570,7 +10656,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/horse_meat/meet.horse.spoiled.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        738, 2, 0, 0
+        744, 2, 0, 0
     },
     // hosetool
     {
@@ -10585,7 +10671,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/hose/hose.worldmodel.prefab", "assets/prefabs/tools/hose/hosetool.entity.prefab", 3568270288U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 4.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        740, 1, 0, 0
+        746, 1, 0, 0
     },
     // hq.metal.ore
     {
@@ -10600,7 +10686,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/hq metal ore/hq_metal_ore.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        741, 2, 0, 0
+        747, 2, 0, 0
     },
     // humanmeat.burned
     {
@@ -10615,7 +10701,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/human_meat/humanmeat.burned.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        743, 2, 0, 0
+        749, 2, 0, 0
     },
     // humanmeat.cooked
     {
@@ -10630,7 +10716,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/human_meat/humanmeat.cooked.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        745, 4, 0, 0
+        751, 4, 0, 0
     },
     // humanmeat.raw
     {
@@ -10645,7 +10731,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/human_meat/humanmeat.raw.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        749, 4, 0, 0
+        755, 4, 0, 0
     },
     // humanmeat.spoiled
     {
@@ -10660,7 +10746,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/human_meat/humanmeat.spoiled.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        753, 2, 0, 0
+        759, 2, 0, 0
     },
     // huntingtrophylarge
     {
@@ -10675,7 +10761,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        755, 1, 0, 0
+        761, 1, 0, 0
     },
     // huntingtrophysmall
     {
@@ -10690,7 +10776,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        756, 1, 0, 0
+        762, 1, 0, 0
     },
     // icepick.salvaged
     {
@@ -10705,7 +10791,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/salvaged_icepick/icepick_salvaged.worldmodel.prefab", "assets/prefabs/weapons/salvaged_icepick/icepick_salvaged.entity.prefab", 109244214U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 500.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        757, 1, 0, 0
+        763, 1, 0, 0
     },
     // improvised.shield
     {
@@ -10720,7 +10806,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/improvised_shield/improvisedshield.worldmodel.prefab", "assets/prefabs/weapons/improvised_shield/improvisedshield.entity.prefab", 3088514867U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 300.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        758, 3, 0, 0
+        764, 3, 0, 0
     },
     // industrial.autoturret
     {
@@ -10735,7 +10821,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "autoturret", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        761, 1, 0, 0
+        767, 1, 0, 0
     },
     // industrial.combiner
     {
@@ -10750,7 +10836,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        762, 1, 0, 0
+        768, 1, 0, 0
     },
     // industrial.conveyor
     {
@@ -10765,7 +10851,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        763, 1, 0, 0
+        769, 1, 0, 0
     },
     // industrial.crafter
     {
@@ -10780,7 +10866,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        764, 1, 0, 0
+        770, 1, 0, 0
     },
     // industrial.electric.furnace
     {
@@ -10795,7 +10881,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "electric.furnace", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        765, 2, 0, 0
+        771, 2, 0, 0
     },
     // industrial.furnace.large
     {
@@ -10810,7 +10896,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "furnace.large", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        767, 1, 0, 0
+        773, 1, 0, 0
     },
     // industrial.garagedoor
     {
@@ -10825,7 +10911,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "wall.frame.garagedoor", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        768, 1, 0, 0
+        774, 1, 0, 0
     },
     // industrial.splitter
     {
@@ -10840,7 +10926,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        769, 1, 0, 0
+        775, 1, 0, 0
     },
     // industrial.storage.horizontal
     {
@@ -10855,7 +10941,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "base.horizontal.barrel", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        770, 1, 0, 0
+        776, 1, 0, 0
     },
     // industrial.storage.vertical
     {
@@ -10870,7 +10956,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "base.vertical.barrel", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        771, 1, 0, 0
+        777, 1, 0, 0
     },
     // industrial.torch
     {
@@ -10885,7 +10971,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "torch", "NoListing", "assets/prefabs/weapons/torch/skins/industrial_torch/industrial_torch.worldmodel.prefab", "assets/prefabs/weapons/torch/skins/industrial_torch/industrial_torch.entity.prefab", 1288011403U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 50.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        772, 1, 0, 0
+        778, 1, 0, 0
     },
     // industrial.wall.light
     {
@@ -10900,7 +10986,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        773, 1, 0, 0
+        779, 1, 0, 0
     },
     // industrial.wall.light.blue
     {
@@ -10915,7 +11001,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "industrial.wall.light", "ListAsUniqueItem", "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        774, 1, 0, 0
+        780, 1, 0, 0
     },
     // industrial.wall.light.green
     {
@@ -10930,7 +11016,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "industrial.wall.light", "ListAsUniqueItem", "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        775, 1, 0, 0
+        781, 1, 0, 0
     },
     // industrial.wall.light.red
     {
@@ -10945,7 +11031,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "industrial.wall.light", "ListAsUniqueItem", "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        776, 1, 0, 0
+        782, 1, 0, 0
     },
     // innertube
     {
@@ -10960,7 +11046,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        777, 1, 0, 0
+        783, 1, 0, 0
     },
     // innertube.horse
     {
@@ -10975,7 +11061,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "innertube", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        778, 1, 0, 0
+        784, 1, 0, 0
     },
     // innertube.unicorn
     {
@@ -10990,7 +11076,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "innertube", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        779, 1, 0, 0
+        785, 1, 0, 0
     },
     // iotable
     {
@@ -11005,7 +11091,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 1.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        780, 1, 0, 0
+        786, 1, 0, 0
     },
     // jacket
     {
@@ -11020,7 +11106,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/jacket.vagabond/jacket_mid_torso_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        781, 2, 0, 0
+        787, 2, 0, 0
     },
     // jacket.snow
     {
@@ -11035,7 +11121,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/jacket.snow/jacket_snow_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        783, 1, 0, 0
+        789, 1, 0, 0
     },
     // jackhammer
     {
@@ -11050,7 +11136,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/jackhammer/jackhammer.worldmodel.prefab", "assets/prefabs/tools/jackhammer/jackhammer.entity.prefab", 3537156861U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 300.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        784, 2, 0, 0
+        790, 2, 0, 0
     },
     // jackolantern.angry
     {
@@ -11065,7 +11151,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/jack o lantern/jackolantern.angry.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        786, 1, 0, 0
+        792, 1, 0, 0
     },
     // jackolantern.happy
     {
@@ -11080,7 +11166,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/jack o lantern/jackolantern.happy.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        787, 1, 0, 0
+        793, 1, 0, 0
     },
     // jar.pickle
     {
@@ -11095,7 +11181,22 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        788, 2, 0, 0
+        794, 2, 0, 0
+    },
+    // jukebox
+    {
+        -1018085504, "jukebox", "jukebox.item", "ItemDefinition",
+        { "jukebox", "Jukebox" }, { "jukebox.desc", "A Jukebox that brings the tunes! Play recorded cassette tapes or stream audio from the internet. Fitted with a matrix display that shows the tuned station. Open the settings to change audio options." },
+        "Fun", "None", "None", "Default", "None",
+        "None", "None", "Generic", "Count", "0", 0LL,
+        0, 1, 10, 0, 0.0f, 1.3f,
+        false, false, false, "None", false, false,
+        false, "0", 0LL, false, false, "Interesting", 8LL,
+        false, "Misc", true, true, false, false, 0, 0,
+        "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
+        false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
+        { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
+        796, 1, 0, 0
     },
     // jumpsuit.suit
     {
@@ -11110,7 +11211,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/suit.jumpsuit/jumpsuit_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        790, 1, 0, 0
+        797, 1, 0, 0
     },
     // jumpsuit.suit.blue
     {
@@ -11125,7 +11226,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/suit.jumpsuit/jumpsuit_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        791, 1, 0, 0
+        798, 1, 0, 0
     },
     // jumpsuit.waterwellnpc
     {
@@ -11140,7 +11241,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/suit.jumpsuit/jumpsuit_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        792, 1, 0, 0
+        799, 1, 0, 0
     },
     // jungle.rock
     {
@@ -11155,7 +11256,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "rock", "NoListing", "assets/prefabs/weapons/rock/skins/rock_a_jungle/rock.a.jungle.worldmodel.prefab", "assets/prefabs/weapons/rock/skins/rock_a_jungle/rock.a.jungle.entity.prefab", 1746720686U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        793, 1, 0, 0
+        800, 1, 0, 0
     },
     // kayak
     {
@@ -11170,7 +11271,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        794, 1, 0, 0
+        801, 1, 0, 0
     },
     // keycard_blue
     {
@@ -11185,7 +11286,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/keycard/keycard_blue.worldmodel.prefab", "assets/prefabs/tools/keycard/keycard.entity.prefab", 3773357817U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 4.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        795, 3, 0, 0
+        802, 3, 0, 0
     },
     // keycard_green
     {
@@ -11200,7 +11301,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/keycard/keycard_green.worldmodel.prefab", "assets/prefabs/tools/keycard/keycard.entity.prefab", 3773357817U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 4.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        798, 3, 0, 0
+        805, 3, 0, 0
     },
     // keycard_red
     {
@@ -11215,7 +11316,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/keycard/keycard_red.worldmodel.prefab", "assets/prefabs/tools/keycard/keycard.entity.prefab", 3773357817U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 2.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        801, 3, 0, 0
+        808, 3, 0, 0
     },
     // kickgems
     {
@@ -11230,7 +11331,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/kick/kick gems/kickgems_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        804, 0, 0, 0
+        811, 0, 0, 0
     },
     // knife.bone
     {
@@ -11245,7 +11346,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/bone knife/boneknife.worldmodel.prefab", "assets/prefabs/weapons/bone knife/knife_bone.entity.prefab", 1483241467U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        804, 1, 0, 0
+        811, 1, 0, 0
     },
     // knife.bone.obsidian
     {
@@ -11260,7 +11361,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "knife.bone", "NoListing", "assets/prefabs/weapons/bone knife/skins/obsidian knife/bone.knife.obsidian.worldmodel.prefab", "assets/prefabs/weapons/bone knife/skins/obsidian knife/bone.knife.obsidian.entity.prefab", 1443663060U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        805, 1, 0, 0
+        812, 1, 0, 0
     },
     // knife.butcher
     {
@@ -11275,7 +11376,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/halloween/butcher knife/butcherknife.worldmodel.prefab", "assets/prefabs/weapons/halloween/butcher knife/butcherknife.entity.prefab", 1362182970U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        806, 1, 0, 0
+        813, 1, 0, 0
     },
     // knife.combat
     {
@@ -11290,7 +11391,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/knife/knife.combat.worldmodel.prefab", "assets/prefabs/weapons/knife/knife.combat.entity.prefab", 327944951U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        807, 1, 0, 0
+        814, 1, 0, 0
     },
     // knife.skinning
     {
@@ -11305,7 +11406,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/decor_dlc/skinning knife/skinningknife.worldmodel.prefab", "assets/prefabs/misc/decor_dlc/skinning knife/skinningknife.entity.prefab", 995189561U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        808, 1, 0, 0
+        815, 1, 0, 0
     },
     // knightsarmour.helmet
     {
@@ -11320,7 +11421,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "coffeecan.helmet", "NoListing", "assets/prefabs/clothes/hat.knightsarmour/hat.knightsarmour_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        809, 2, 0, 0
+        816, 2, 0, 0
     },
     // knightsarmour.skirt
     {
@@ -11335,7 +11436,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "roadsign.kilt", "NoListing", "assets/prefabs/clothes/pants.knightsarmour/pants.knightarmour_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 150.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        811, 2, 0, 0
+        818, 2, 0, 0
     },
     // knighttorso.armour
     {
@@ -11350,7 +11451,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "roadsign.jacket", "NoListing", "assets/prefabs/clothes/vest.knightsarmour/vest.knightarmour_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 500.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        813, 2, 0, 0
+        820, 2, 0, 0
     },
     // krieg.chainsword
     {
@@ -11365,7 +11466,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "chainsaw", "NoListing", "assets/prefabs/weapons/warhammer/krieg chainsword/krieg_chainsword.worldmodel.prefab", "assets/prefabs/weapons/warhammer/krieg chainsword/krieg_chainsword.entity.prefab", 4148293472U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        815, 1, 0, 0
+        822, 1, 0, 0
     },
     // krieg.shotgun
     {
@@ -11380,7 +11481,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "shotgun.pump", "NoListing", "assets/prefabs/weapons/warhammer/krieg shotgun/krieg_shotgun.worldmodel.prefab", "assets/prefabs/weapons/warhammer/krieg shotgun/krieg_shotgun.entity.prefab", 1896956209U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.01f, 0.03f, false, "" },
-        816, 2, 0, 0
+        823, 2, 0, 0
     },
     // krieg.storage.horizontal
     {
@@ -11395,7 +11496,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "base.horizontal.barrel", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        818, 1, 0, 0
+        825, 1, 0, 0
     },
     // krieg.storage.vertical
     {
@@ -11410,7 +11511,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "base.vertical.barrel", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        819, 1, 0, 0
+        826, 1, 0, 0
     },
     // kriegbackpack
     {
@@ -11425,7 +11526,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "largebackpack", "NoListing", "assets/prefabs/clothes/backpack.krieg/kriegbackpack.worldmodel.prefab", "", 0U,
         false, true, { 0.0f, 180.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        820, 3, 0, 0
+        827, 3, 0, 0
     },
     // ladder.wooden.boat
     {
@@ -11440,7 +11541,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         true, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        823, 1, 0, 0
+        830, 1, 0, 0
     },
     // ladder.wooden.wall
     {
@@ -11455,7 +11556,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         true, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        824, 1, 0, 0
+        831, 1, 0, 0
     },
     // lantern
     {
@@ -11470,7 +11571,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/lantern/lantern.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        825, 2, 0, 0
+        832, 2, 0, 0
     },
     // largebackpack
     {
@@ -11481,11 +11582,11 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         0, 1, 10, 0, 0.0f, 8.0f,
         false, false, false, "None", false, false,
         false, "Backpack", 8LL, false, false, "Interesting", 8LL,
-        false, "Misc", false, false, true, true, 1, 47,
+        false, "Misc", false, false, true, true, 1, 48,
         "", "", "NoListing", "assets/prefabs/misc/largebackpack/largebackpack.worldmodel.prefab", "", 0U,
         false, true, { 0.0f, 180.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        827, 3, 0, 0
+        834, 3, 0, 0
     },
     // largecandles
     {
@@ -11500,7 +11601,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 180.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        830, 1, 0, 0
+        837, 1, 0, 0
     },
     // largemedkit
     {
@@ -11515,7 +11616,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/large medkit/largemedkit.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        831, 2, 0, 0
+        838, 2, 0, 0
     },
     // laserlight
     {
@@ -11530,7 +11631,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        833, 1, 0, 0
+        840, 1, 0, 0
     },
     // latexballoon2025
     {
@@ -11545,7 +11646,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        834, 1, 0, 0
+        841, 1, 0, 0
     },
     // latexclumpballoon2025
     {
@@ -11560,7 +11661,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        835, 1, 0, 0
+        842, 1, 0, 0
     },
     // lavenderidtag
     {
@@ -11575,7 +11676,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/id_tags/id_tags_lavender.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        836, 0, 0, 0
+        843, 0, 0, 0
     },
     // leather
     {
@@ -11590,7 +11691,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/leather/leather.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        836, 2, 0, 0
+        843, 2, 0, 0
     },
     // legacy bow
     {
@@ -11605,7 +11706,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "bow.hunting", "NoListing", "assets/prefabs/weapons/legacy bow/legacybow.worldmodel.prefab", "assets/prefabs/weapons/legacy bow/legacybow.entity.prefab", 1400027705U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 50.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        838, 1, 0, 0
+        845, 1, 0, 0
     },
     // legacy.shelter.wood
     {
@@ -11620,7 +11721,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        839, 1, 0, 0
+        846, 1, 0, 0
     },
     // legacyfurnace
     {
@@ -11635,7 +11736,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "furnace", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        840, 1, 0, 0
+        847, 1, 0, 0
     },
     // lightup.large
     {
@@ -11650,7 +11751,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        841, 3, 0, 0
+        848, 3, 0, 0
     },
     // lightup.xl
     {
@@ -11665,7 +11766,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        844, 3, 0, 0
+        851, 3, 0, 0
     },
     // lightup.xxl
     {
@@ -11680,7 +11781,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        847, 3, 0, 0
+        854, 3, 0, 0
     },
     // lightupframe.medium
     {
@@ -11695,7 +11796,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        850, 3, 0, 0
+        857, 3, 0, 0
     },
     // lightupframe.small
     {
@@ -11710,7 +11811,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        853, 3, 0, 0
+        860, 3, 0, 0
     },
     // lightupframe.standing
     {
@@ -11725,7 +11826,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        856, 3, 0, 0
+        863, 3, 0, 0
     },
     // lightupmirror.large
     {
@@ -11740,7 +11841,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        859, 1, 0, 0
+        866, 1, 0, 0
     },
     // lightupmirror.medium
     {
@@ -11755,7 +11856,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        860, 1, 0, 0
+        867, 1, 0, 0
     },
     // lightupmirror.small
     {
@@ -11770,7 +11871,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        861, 1, 0, 0
+        868, 1, 0, 0
     },
     // lightupmirror.standing
     {
@@ -11785,7 +11886,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        862, 1, 0, 0
+        869, 1, 0, 0
     },
     // lmg.m249
     {
@@ -11800,7 +11901,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/m249/m249_worldmodel.prefab", "assets/prefabs/weapons/m249/m249.entity.prefab", 1440914039U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 500.0f, true, false, false, 0.1f, 0.2f, false, "" },
-        863, 2, 0, 0
+        870, 2, 0, 0
     },
     // lock.code
     {
@@ -11815,7 +11916,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/locks/keypad/lock.code.worldmodel.prefab", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        865, 1, 0, 0
+        872, 1, 0, 0
     },
     // lock.code.a.pilot
     {
@@ -11830,7 +11931,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "lock.code", "NoListing", "assets/prefabs/locks/keypad/skins/codelock_a_pilot/lock.code.a.pilot.worldmodel.prefab", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        866, 1, 0, 0
+        873, 1, 0, 0
     },
     // lock.key
     {
@@ -11845,7 +11946,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/locks/keylock/w_keylock.worldmodel.prefab", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        867, 1, 0, 0
+        874, 1, 0, 0
     },
     // locker
     {
@@ -11860,7 +11961,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        868, 1, 0, 0
+        875, 1, 0, 0
     },
     // locomotive
     {
@@ -11875,7 +11976,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 1000.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        869, 0, 0, 0
+        876, 0, 0, 0
     },
     // longsword
     {
@@ -11890,7 +11991,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/sword big/longsword.worldmodel.prefab", "assets/prefabs/weapons/sword big/longsword.entity.prefab", 3395979968U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 250.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        869, 1, 0, 0
+        876, 1, 0, 0
     },
     // lowgradefuel
     {
@@ -11905,7 +12006,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/low grade fuel/fuel.lowgrade.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        870, 1, 0, 0
+        877, 1, 0, 0
     },
     // lumberjack hoodie
     {
@@ -11920,7 +12021,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "hoodie", "NoListing", "assets/prefabs/clothes/lumberjack_hoodie/lumberjack_hoodie_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        871, 1, 0, 0
+        878, 1, 0, 0
     },
     // lumberjack.hatchet
     {
@@ -11935,7 +12036,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "hatchet", "NoListing", "assets/prefabs/tools/lumberjack_tools/lumberjack_axe.worldmodel.prefab", "assets/prefabs/tools/lumberjack_tools/lumberjack_axe.entity.prefab", 4035646930U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 400.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        872, 1, 0, 0
+        879, 1, 0, 0
     },
     // lumberjack.pickaxe
     {
@@ -11950,7 +12051,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "pickaxe", "NoListing", "assets/prefabs/tools/lumberjack_tools/lumberjack_pick.worldmodel.prefab", "assets/prefabs/tools/lumberjack_tools/lumberjack_pick.entity.prefab", 1725165540U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 400.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        873, 1, 0, 0
+        880, 1, 0, 0
     },
     // lunar.firecrackers
     {
@@ -11965,7 +12066,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/flareold/flare.worldmodel.prefab", "assets/prefabs/misc/chinesenewyear/throwablefirecrackers/firecrackers.entity.prefab", 628064879U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        874, 1, 0, 0
+        881, 1, 0, 0
     },
     // m16a2
     {
@@ -11980,7 +12081,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/m16a2/m16a2.worldmodel.prefab", "assets/prefabs/weapons/m16a2/m16a2.entity.prefab", 4258809631U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 0.5f, 1.0f, false, "" },
-        875, 2, 0, 0
+        882, 2, 0, 0
     },
     // mace
     {
@@ -11995,7 +12096,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/mace/mace.worldmodel.prefab", "assets/prefabs/weapons/mace/mace.entity.prefab", 2927698044U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        877, 1, 0, 0
+        884, 1, 0, 0
     },
     // mace.baseballbat
     {
@@ -12010,7 +12111,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "mace", "ListAsUniqueItem", "assets/prefabs/weapons/halloween/baseballbat/baseballbat.worldmodel.prefab", "assets/prefabs/weapons/halloween/baseballbat/mace.baseballbat.prefab", 1769459881U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        878, 1, 0, 0
+        885, 1, 0, 0
     },
     // machete
     {
@@ -12025,7 +12126,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/machete/machete.worldmodel.prefab", "assets/prefabs/weapons/machete/machete.weapon.prefab", 2942508801U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        879, 1, 0, 0
+        886, 1, 0, 0
     },
     // mailbox
     {
@@ -12040,7 +12141,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        880, 1, 0, 0
+        887, 1, 0, 0
     },
     // mannequin
     {
@@ -12055,7 +12156,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        881, 1, 0, 0
+        888, 1, 0, 0
     },
     // map
     {
@@ -12070,7 +12171,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/map/map.worldmodel.prefab", "assets/prefabs/tools/map/map.prefab", 491065559U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        882, 2, 0, 0
+        889, 2, 0, 0
     },
     // mask.balaclava
     {
@@ -12085,7 +12186,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/mask.balaclava/maskbalaclava_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        884, 1, 0, 0
+        891, 1, 0, 0
     },
     // mask.bandana
     {
@@ -12100,7 +12201,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/mask.bandana/maskbandana_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        885, 1, 0, 0
+        892, 1, 0, 0
     },
     // maxhealthtea
     {
@@ -12115,7 +12216,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/basichealthtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        886, 2, 0, 0
+        893, 2, 0, 0
     },
     // maxhealthtea.advanced
     {
@@ -12130,7 +12231,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/advancedhealthtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        888, 2, 0, 0
+        895, 2, 0, 0
     },
     // maxhealthtea.pure
     {
@@ -12145,7 +12246,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/purehealthtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        890, 2, 0, 0
+        897, 2, 0, 0
     },
     // meat.boar
     {
@@ -12160,7 +12261,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/pig_meat/meat.pork.raw.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        892, 4, 0, 0
+        899, 4, 0, 0
     },
     // meat.pork.burned
     {
@@ -12175,7 +12276,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/pig_meat/meat.pork.burned.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        896, 3, 0, 0
+        903, 3, 0, 0
     },
     // meat.pork.cooked
     {
@@ -12190,7 +12291,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/pig_meat/meat.pork.cooked.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        899, 4, 0, 0
+        906, 4, 0, 0
     },
     // medieval.box.wooden.large
     {
@@ -12205,7 +12306,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "box.wooden.large", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        903, 1, 0, 0
+        910, 1, 0, 0
     },
     // medieval.door.double.hinged.metal
     {
@@ -12220,7 +12321,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "door.double.hinged.metal", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        904, 1, 0, 0
+        911, 1, 0, 0
     },
     // medieval.door.hinged.metal
     {
@@ -12235,7 +12336,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "door.hinged.metal", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        905, 1, 0, 0
+        912, 1, 0, 0
     },
     // megaphone
     {
@@ -12250,7 +12351,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/voiceaudio/megaphone/megaphone.worldmodel.prefab", "assets/prefabs/voiceaudio/megaphone/megaphone.weapon.prefab", 3942416854U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        906, 1, 0, 0
+        913, 1, 0, 0
     },
     // metal.detector
     {
@@ -12265,7 +12366,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/metaldetector/metal_detector.worldmodel.prefab", "assets/prefabs/tools/metaldetector/metal_detector.entity.prefab", 892200099U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        907, 1, 0, 0
+        914, 1, 0, 0
     },
     // metal.facemask
     {
@@ -12280,7 +12381,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/mask.metal/mask.metal.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 320.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        908, 2, 0, 0
+        915, 2, 0, 0
     },
     // metal.facemask.hockey
     {
@@ -12295,7 +12396,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "metal.facemask", "ListAsUniqueItem", "assets/prefabs/clothes/haloween.hockeymask/mask.metal.hockey.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 320.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        910, 2, 0, 0
+        917, 2, 0, 0
     },
     // metal.facemask.icemask
     {
@@ -12310,7 +12411,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "metal.facemask", "ListAsUniqueItem", "assets/prefabs/clothes/mask.metal/skins/metalicefacemask/mask.metal_ice.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 320.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        912, 2, 0, 0
+        919, 2, 0, 0
     },
     // metal.fragments
     {
@@ -12325,7 +12426,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/metal fragments/metal_fragments.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        914, 2, 0, 0
+        921, 2, 0, 0
     },
     // metal.ore
     {
@@ -12340,7 +12441,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/metal ore/metal_ore.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        916, 2, 0, 0
+        923, 2, 0, 0
     },
     // metal.plate.torso
     {
@@ -12355,7 +12456,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/vest.metal/metal plate torso_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 360.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        918, 2, 0, 0
+        925, 2, 0, 0
     },
     // metal.plate.torso.icevest
     {
@@ -12370,7 +12471,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "metal.plate.torso", "ListAsUniqueItem", "assets/prefabs/clothes/vest.metal/vest.metal_ice/metal plate torso_ice_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 360.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        920, 2, 0, 0
+        927, 2, 0, 0
     },
     // metal.refined
     {
@@ -12385,7 +12486,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/hq metal/metal_refined.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        922, 2, 0, 0
+        929, 2, 0, 0
     },
     // metal.shield
     {
@@ -12400,7 +12501,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/metal_shield/metalshield.worldmodel.prefab", "assets/prefabs/weapons/metal_shield/metalshield.entity.prefab", 3703020820U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 300.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        924, 3, 0, 0
+        931, 3, 0, 0
     },
     // metalblade
     {
@@ -12415,7 +12516,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/metalblade/metalblade.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        927, 0, 0, 0
+        934, 0, 0, 0
     },
     // metalpipe
     {
@@ -12430,7 +12531,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/metalpipe/metalpipe.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        927, 0, 0, 0
+        934, 0, 0, 0
     },
     // metalspring
     {
@@ -12445,7 +12546,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/spring/spring.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        927, 0, 0, 0
+        934, 0, 0, 0
     },
     // microphonestand
     {
@@ -12460,7 +12561,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        927, 2, 0, 0
+        934, 2, 0, 0
     },
     // military flamethrower
     {
@@ -12475,7 +12576,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/military flamethrower/militaryflamethrower.worldmodel.prefab", "assets/prefabs/weapons/military flamethrower/militaryflamethrower.entity.prefab", 1710208928U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 300.0f, true, false, false, 0.0f, 0.02f, false, "" },
-        929, 2, 0, 0
+        936, 2, 0, 0
     },
     // minecart.planter
     {
@@ -12490,7 +12591,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        931, 1, 0, 0
+        938, 1, 0, 0
     },
     // mini fridge
     {
@@ -12501,11 +12602,11 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         0, 1, 10, 0, 0.0f, 0.5f,
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting", 8LL,
-        false, "Misc", true, true, false, false, 0, 0,
+        false, "Misc", true, true, false, true, 1, 0,
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        932, 1, 0, 0
+        939, 1, 0, 0
     },
     // minicopter
     {
@@ -12520,7 +12621,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 850.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        933, 0, 0, 0
+        940, 0, 0, 0
     },
     // minicrossbow
     {
@@ -12535,7 +12636,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/mini crossbow/mini_crossbow.worldmodel.prefab", "assets/prefabs/weapons/mini crossbow/mini_crossbow.entity.prefab", 4274044420U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.2f, 0.5f, false, "" },
-        933, 2, 0, 0
+        940, 2, 0, 0
     },
     // minigun
     {
@@ -12550,7 +12651,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/minigun/minigun.worldmodel.prefab", "assets/prefabs/weapons/minigun/minigun.entity.prefab", 4007138847U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 390.0f, false, false, false, 0.1f, 0.2f, false, "" },
-        935, 2, 0, 0
+        942, 2, 0, 0
     },
     // minigunammopack
     {
@@ -12565,7 +12666,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/largebackpack/largebackpack.worldmodel.prefab", "", 0U,
         false, true, { 0.0f, 180.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        937, 3, 0, 0
+        944, 3, 0, 0
     },
     // minihelicopter.repair
     {
@@ -12580,7 +12681,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        940, 0, 0, 0
+        947, 0, 0, 0
     },
     // mining.pumpjack
     {
@@ -12595,7 +12696,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        940, 1, 0, 0
+        947, 1, 0, 0
     },
     // mining.quarry
     {
@@ -12610,7 +12711,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        941, 1, 0, 0
+        948, 1, 0, 0
     },
     // mintidtag
     {
@@ -12625,7 +12726,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/id_tags/id_tags_mint.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        942, 0, 0, 0
+        949, 0, 0, 0
     },
     // mixedclumpballoon2025
     {
@@ -12640,7 +12741,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        942, 1, 0, 0
+        949, 1, 0, 0
     },
     // mixingtable
     {
@@ -12655,7 +12756,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        943, 1, 0, 0
+        950, 1, 0, 0
     },
     // mlrs
     {
@@ -12670,7 +12771,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 1.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        944, 0, 0, 0
+        951, 0, 0, 0
     },
     // mobilephone
     {
@@ -12685,7 +12786,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/voiceaudio/mobilephone/mobilephone.worldmodel.prefab", "assets/prefabs/voiceaudio/mobilephone/mobilephone.weapon.prefab", 2342841515U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        944, 2, 0, 0
+        951, 2, 0, 0
     },
     // modularcarlift
     {
@@ -12700,7 +12801,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        946, 1, 0, 0
+        953, 1, 0, 0
     },
     // mortar.deployable
     {
@@ -12715,7 +12816,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/mortar/mortar.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        947, 1, 0, 0
+        954, 1, 0, 0
     },
     // motorbike
     {
@@ -12730,7 +12831,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 300.0f, true, true, false, 0.75f, 1.0f, false, "" },
-        948, 0, 0, 0
+        955, 0, 0, 0
     },
     // motorbike_sidecar
     {
@@ -12745,7 +12846,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 350.0f, true, true, false, 0.75f, 1.0f, false, "" },
-        948, 0, 0, 0
+        955, 0, 0, 0
     },
     // movembermoustache
     {
@@ -12757,10 +12858,10 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting", 8LL,
         false, "Misc", false, false, true, false, 0, 0,
-        "", "", "NoListing", "assets/prefabs/misc/burlap sack/burlap sack.prefab", "", 0U,
+        "", "", "NoListing", "assets/prefabs/misc/burlap sack/burlapsack.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        948, 1, 0, 0
+        955, 1, 0, 0
     },
     // movembermoustachecard
     {
@@ -12772,10 +12873,10 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting", 8LL,
         false, "Misc", false, false, true, false, 0, 0,
-        "", "", "NoListing", "assets/prefabs/misc/burlap sack/burlap sack.prefab", "", 0U,
+        "", "", "NoListing", "assets/prefabs/misc/burlap sack/burlapsack.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        949, 1, 0, 0
+        956, 1, 0, 0
     },
     // mrspice.can
     {
@@ -12790,7 +12891,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        950, 0, 0, 0
+        957, 0, 0, 0
     },
     // multiplegrenadelauncher
     {
@@ -12805,7 +12906,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/grenade launcher/grenadelauncher.worldmodel.prefab", "assets/prefabs/weapons/grenade launcher/mgl.entity.prefab", 1233562048U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        950, 2, 0, 0
+        957, 2, 0, 0
     },
     // mummymask
     {
@@ -12820,7 +12921,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/halloween.mummymask/mummymask.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        952, 1, 0, 0
+        959, 1, 0, 0
     },
     // mushroom
     {
@@ -12835,7 +12936,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/mushroom/mushroom_a.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        953, 3, 0, 0
+        960, 3, 0, 0
     },
     // neonsigntr
     {
@@ -12850,7 +12951,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        956, 1, 0, 0
+        963, 1, 0, 0
     },
     // newyeargong
     {
@@ -12865,7 +12966,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        957, 1, 0, 0
+        964, 1, 0, 0
     },
     // nightvisiongoggles
     {
@@ -12880,7 +12981,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/night.vision.goggles/night_vision_goggles_wm.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 900.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        958, 12, 0, 0
+        965, 12, 0, 0
     },
     // note
     {
@@ -12895,7 +12996,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/note/note.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        970, 0, 0, 0
+        977, 0, 0, 0
     },
     // nucleus
     {
@@ -12910,7 +13011,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/honey/nucleus/hivenuclei.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        970, 1, 0, 0
+        977, 1, 0, 0
     },
     // orangeidtag
     {
@@ -12925,7 +13026,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/id_tags/id_tags_orange.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        971, 0, 0, 0
+        978, 0, 0, 0
     },
     // orchid
     {
@@ -12940,7 +13041,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/plants/orchid/orchid.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        971, 0, 0, 0
+        978, 0, 0, 0
     },
     // oretea
     {
@@ -12955,7 +13056,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/basicoretea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        971, 2, 0, 0
+        978, 2, 0, 0
     },
     // oretea.advanced
     {
@@ -12970,7 +13071,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/advancedoretea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        973, 2, 0, 0
+        980, 2, 0, 0
     },
     // oretea.pure
     {
@@ -12985,7 +13086,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/pureoretea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        975, 2, 0, 0
+        982, 2, 0, 0
     },
     // oubreak_scientist
     {
@@ -13000,7 +13101,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        977, 1, 0, 0
+        984, 1, 0, 0
     },
     // outbreak.sprayer
     {
@@ -13015,7 +13116,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/geiger counter/geiger_counter.worldmodel.prefab", "assets/prefabs/tools/outbreaksprayer/outbreak_sprayer.entity.prefab", 3864758412U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 50.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        978, 1, 0, 0
+        985, 1, 0, 0
     },
     // paddle
     {
@@ -13030,7 +13131,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/paddle/paddle.worldmodel.prefab", "assets/prefabs/weapons/paddle/paddle.entity.prefab", 1850172004U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 300.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        979, 1, 0, 0
+        986, 1, 0, 0
     },
     // paddlingpool
     {
@@ -13045,7 +13146,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        980, 2, 0, 0
+        987, 2, 0, 0
     },
     // paintabletarget.reactive
     {
@@ -13060,7 +13161,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "target.reactive", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        982, 2, 0, 0
+        989, 2, 0, 0
     },
     // paintballgun
     {
@@ -13075,7 +13176,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/paintball_gun/paintballgun.worldmodel.prefab", "assets/prefabs/weapons/paintball_gun/paintballgun.entity.prefab", 3749252572U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 150.0f, true, false, false, 0.1f, 0.2f, false, "" },
-        984, 2, 0, 0
+        991, 2, 0, 0
     },
     // paintballoveralls.suit
     {
@@ -13090,7 +13191,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/paintballoveralls/paintballoveralls_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        986, 2, 0, 0
+        993, 2, 0, 0
     },
     // pants
     {
@@ -13105,7 +13206,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/pants/player_urban_legs_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        988, 1, 0, 0
+        995, 1, 0, 0
     },
     // pants.shorts
     {
@@ -13120,7 +13221,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/pants.shorts/pantsshorts_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        989, 1, 0, 0
+        996, 1, 0, 0
     },
     // paper
     {
@@ -13135,7 +13236,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/paper/paper.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        990, 0, 0, 0
+        997, 0, 0, 0
     },
     // parachute
     {
@@ -13150,7 +13251,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/parachute/parachutebackpack.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        990, 2, 0, 0
+        997, 2, 0, 0
     },
     // parachute.deployed
     {
@@ -13165,7 +13266,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        992, 1, 0, 0
+        999, 1, 0, 0
     },
     // partyhat
     {
@@ -13180,7 +13281,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/hat.partyhat/party_hat_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        993, 1, 0, 0
+        1000, 1, 0, 0
     },
     // photo
     {
@@ -13195,7 +13296,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        994, 2, 0, 0
+        1001, 2, 0, 0
     },
     // photoframe.landscape
     {
@@ -13210,7 +13311,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        996, 2, 0, 0
+        1003, 2, 0, 0
     },
     // photoframe.large
     {
@@ -13225,7 +13326,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        998, 2, 0, 0
+        1005, 2, 0, 0
     },
     // photoframe.portrait
     {
@@ -13240,7 +13341,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1000, 2, 0, 0
+        1007, 2, 0, 0
     },
     // piano
     {
@@ -13255,7 +13356,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1002, 1, 0, 0
+        1009, 1, 0, 0
     },
     // pickaxe
     {
@@ -13270,7 +13371,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/pickaxe/pickaxe.worldmodel.prefab", "assets/prefabs/weapons/pickaxe/pickaxe.entity.prefab", 1587077350U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 400.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1003, 1, 0, 0
+        1010, 1, 0, 0
     },
     // pie.apple
     {
@@ -13285,7 +13386,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/pies/food_pie_generic.worldmodel.prefab", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1004, 2, 0, 0
+        1011, 2, 0, 0
     },
     // pie.bear
     {
@@ -13300,7 +13401,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/pies/food_pie_generic.worldmodel.prefab", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1006, 2, 0, 0
+        1013, 2, 0, 0
     },
     // pie.bigcat
     {
@@ -13315,7 +13416,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/pies/food_pie_generic.worldmodel.prefab", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1008, 2, 0, 0
+        1015, 2, 0, 0
     },
     // pie.chicken
     {
@@ -13330,7 +13431,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/pies/food_pie_generic.worldmodel.prefab", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1010, 2, 0, 0
+        1017, 2, 0, 0
     },
     // pie.crocodile
     {
@@ -13345,7 +13446,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/pies/food_pie_generic.worldmodel.prefab", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1012, 2, 0, 0
+        1019, 2, 0, 0
     },
     // pie.fish
     {
@@ -13360,7 +13461,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/pies/food_pie_generic.worldmodel.prefab", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1014, 2, 0, 0
+        1021, 2, 0, 0
     },
     // pie.hunters
     {
@@ -13375,7 +13476,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/pies/food_pie_generic.worldmodel.prefab", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1016, 2, 0, 0
+        1023, 2, 0, 0
     },
     // pie.pork
     {
@@ -13390,7 +13491,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/pies/food_pie_generic.worldmodel.prefab", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1018, 2, 0, 0
+        1025, 2, 0, 0
     },
     // pie.pumpkin
     {
@@ -13405,7 +13506,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/pies/food_pie_generic.worldmodel.prefab", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1020, 2, 0, 0
+        1027, 2, 0, 0
     },
     // pie.survivors
     {
@@ -13420,7 +13521,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/pies/food_pie_generic.worldmodel.prefab", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1022, 2, 0, 0
+        1029, 2, 0, 0
     },
     // pilot.hazmat.box.wooden
     {
@@ -13435,7 +13536,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "box.wooden", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1024, 1, 0, 0
+        1031, 1, 0, 0
     },
     // pinata
     {
@@ -13450,7 +13551,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1025, 1, 0, 0
+        1032, 1, 0, 0
     },
     // pinkidtag
     {
@@ -13465,7 +13566,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/id_tags/id_tags_pink.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1026, 0, 0, 0
+        1033, 0, 0, 0
     },
     // pipetool
     {
@@ -13480,7 +13581,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/pipe/pipe.worldmodel.prefab", "assets/prefabs/tools/pipe/pipetool.entity.prefab", 3896504765U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 4.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1026, 1, 0, 0
+        1033, 1, 0, 0
     },
     // pistol.eoka
     {
@@ -13495,7 +13596,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/eoka pistol/eoka_pistol.worldmodel.prefab", "assets/prefabs/weapons/eoka pistol/pistol_eoka.entity.prefab", 2176761593U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 50.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1027, 1, 0, 0
+        1034, 1, 0, 0
     },
     // pistol.m92
     {
@@ -13510,7 +13611,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/m92/m92.worldmodel.prefab", "assets/prefabs/weapons/m92/m92.entity.prefab", 2293870814U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.2f, 0.3f, false, "" },
-        1028, 2, 0, 0
+        1035, 2, 0, 0
     },
     // pistol.nailgun
     {
@@ -13525,7 +13626,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/nailgun/nailgun.worldmodel.prefab", "assets/prefabs/weapons/nailgun/nailgun.entity.prefab", 4279856314U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.1f, 0.2f, false, "" },
-        1030, 2, 0, 0
+        1037, 2, 0, 0
     },
     // pistol.prototype17
     {
@@ -13540,7 +13641,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/glockskin/glock.worldmodel.prefab", "assets/prefabs/weapons/glockskin/glock.entity.prefab", 636374895U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.1f, 0.2f, false, "" },
-        1032, 2, 0, 0
+        1039, 2, 0, 0
     },
     // pistol.python
     {
@@ -13555,7 +13656,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/python/python.worldmodel.prefab", "assets/prefabs/weapons/python/python.entity.prefab", 3305012504U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.1f, 0.1f, false, "" },
-        1034, 2, 0, 0
+        1041, 2, 0, 0
     },
     // pistol.revolver
     {
@@ -13570,7 +13671,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/revolver/pistol_revolver.worldmodel.prefab", "assets/prefabs/weapons/revolver/pistol_revolver.entity.prefab", 2477536592U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.1f, 0.2f, false, "" },
-        1036, 2, 0, 0
+        1043, 2, 0, 0
     },
     // pistol.semiauto
     {
@@ -13581,11 +13682,11 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         0, 1, 10, 0, 0.0f, 1.5f,
         false, false, true, "None", false, false,
         false, "0", 0LL, false, true, "Interesting", 8LL,
-        false, "Misc", true, true, false, true, 5, 93,
+        false, "Misc", true, true, false, true, 5, 94,
         "", "", "NoListing", "assets/prefabs/weapons/semi auto pistol/pistol_semiauto.worldmodel.prefab", "assets/prefabs/weapons/semi auto pistol/pistol_semiauto.entity.prefab", 563371667U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.1f, 0.2f, false, "" },
-        1038, 2, 0, 0
+        1045, 2, 0, 0
     },
     // pistol.semiauto.a.m15
     {
@@ -13600,7 +13701,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "pistol.semiauto", "NoListing", "assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/pistol_semiauto.a.m15.worldmodel.prefab", "assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/pistol_semiauto.a.m15.entity.prefab", 2343718176U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.1f, 0.2f, false, "" },
-        1040, 2, 0, 0
+        1047, 2, 0, 0
     },
     // pistol.water
     {
@@ -13615,7 +13716,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/summer_dlc/waterpistol/waterpistol.worldmodel.prefab", "assets/prefabs/misc/summer_dlc/waterpistol/waterpistol.entity.prefab", 1502994528U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 50.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1042, 2, 0, 0
+        1049, 2, 0, 0
     },
     // piston1
     {
@@ -13630,7 +13731,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/engine_pistons/pistons1.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 60.0f, true, false, false, 0.25f, 0.75f, false, "" },
-        1044, 1, 0, 0
+        1051, 1, 0, 0
     },
     // piston2
     {
@@ -13645,7 +13746,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/engine_pistons/pistons2.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.25f, 0.75f, false, "" },
-        1045, 1, 0, 0
+        1052, 1, 0, 0
     },
     // piston3
     {
@@ -13660,7 +13761,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/engine_pistons/pistons3.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 140.0f, true, false, false, 0.25f, 0.75f, false, "" },
-        1046, 1, 0, 0
+        1053, 1, 0, 0
     },
     // pitchfork
     {
@@ -13675,7 +13776,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/halloween/pitchfork/pitchfork.worldmodel.prefab", "assets/prefabs/weapons/halloween/pitchfork/pitchfork.entity.prefab", 1009417331U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1047, 1, 0, 0
+        1054, 1, 0, 0
     },
     // plank
     {
@@ -13690,7 +13791,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1048, 1, 0, 0
+        1055, 1, 0, 0
     },
     // planter.large
     {
@@ -13705,7 +13806,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1049, 1, 0, 0
+        1056, 1, 0, 0
     },
     // planter.small
     {
@@ -13720,7 +13821,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1050, 1, 0, 0
+        1057, 1, 0, 0
     },
     // planter.triangle
     {
@@ -13735,7 +13836,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1051, 1, 0, 0
+        1058, 1, 0, 0
     },
     // plantfiber
     {
@@ -13750,7 +13851,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1052, 0, 0, 0
+        1059, 0, 0, 0
     },
     // plantpot.single
     {
@@ -13765,7 +13866,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1052, 1, 0, 0
+        1059, 1, 0, 0
     },
     // pookie.bear
     {
@@ -13780,7 +13881,22 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/xmas/pookie/pookie.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1053, 1, 0, 0
+        1060, 1, 0, 0
+    },
+    // pooltable
+    {
+        -1748166144, "pooltable", "pooltable.item", "ItemDefinition",
+        { "pooltable", "Pool Table" }, { "pooltable.desc", "A classic game of pool to challenge your friends, or foes. Hold the interact key to choose between a single or two-player game." },
+        "Fun", "None", "None", "Default", "None",
+        "Common", "None", "Generic", "Count", "0", 0LL,
+        0, 1, 10, 0, 0.0f, 0.25f,
+        false, false, false, "None", false, false,
+        false, "0", 0LL, false, false, "Interesting", 8LL,
+        false, "Misc", true, true, false, false, 0, 0,
+        "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
+        false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
+        { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
+        1061, 1, 0, 0
     },
     // porkmeat.spoiled
     {
@@ -13795,7 +13911,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/pig_meat/meat.pork.spoiled.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1054, 2, 0, 0
+        1062, 2, 0, 0
     },
     // potato
     {
@@ -13810,7 +13926,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/plants/potato/potato.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1056, 3, 0, 0
+        1064, 3, 0, 0
     },
     // powered.water.purifier
     {
@@ -13825,7 +13941,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1059, 1, 0, 0
+        1067, 1, 0, 0
     },
     // prisonerhood
     {
@@ -13840,7 +13956,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/hat.prisonerhood/prisonerhood_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1060, 2, 0, 0
+        1068, 2, 0, 0
     },
     // propanetank
     {
@@ -13855,7 +13971,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/propanetank/propanetank.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1062, 0, 0, 0
+        1070, 0, 0, 0
     },
     // ptboat
     {
@@ -13870,7 +13986,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1062, 0, 0, 0
+        1070, 0, 0, 0
     },
     // ptz.cctv.camera
     {
@@ -13885,7 +14001,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/ptz security camera/ptzsecuritycamera.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1062, 1, 0, 0
+        1070, 1, 0, 0
     },
     // pumpkin
     {
@@ -13900,7 +14016,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/plants/pumpkin/pumpkin.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1063, 4, 0, 0
+        1071, 4, 0, 0
     },
     // pumpkinbasket
     {
@@ -13915,7 +14031,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/misc/halloween/pumpkin_bucket/pumpkin_basket.entity.prefab", 2763047865U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1067, 1, 0, 0
+        1075, 1, 0, 0
     },
     // purecoolingtea
     {
@@ -13930,7 +14046,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/coolingtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1068, 2, 0, 0
+        1076, 2, 0, 0
     },
     // purecraftingtea_quality
     {
@@ -13945,7 +14061,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/basicscraptea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1070, 2, 0, 0
+        1078, 2, 0, 0
     },
     // pureharvestingtea
     {
@@ -13960,7 +14076,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/harvestingtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1072, 2, 0, 0
+        1080, 2, 0, 0
     },
     // purewarmingtea
     {
@@ -13975,7 +14091,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/warmingtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1074, 2, 0, 0
+        1082, 2, 0, 0
     },
     // purpleidtag
     {
@@ -13990,7 +14106,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/id_tags/id_tags_purple.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1076, 0, 0, 0
+        1084, 0, 0, 0
     },
     // radiationremovetea
     {
@@ -14005,7 +14121,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/pureantiradtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1076, 2, 0, 0
+        1084, 2, 0, 0
     },
     // radiationremovetea.advanced
     {
@@ -14020,7 +14136,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/advancedantiradtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1078, 2, 0, 0
+        1086, 2, 0, 0
     },
     // radiationremovetea.pure
     {
@@ -14035,7 +14151,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/pureantiradtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1080, 2, 0, 0
+        1088, 2, 0, 0
     },
     // radiationresisttea
     {
@@ -14050,7 +14166,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/pureantiradtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1082, 2, 0, 0
+        1090, 2, 0, 0
     },
     // radiationresisttea.advanced
     {
@@ -14065,7 +14181,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/pureantiradtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1084, 2, 0, 0
+        1092, 2, 0, 0
     },
     // radiationresisttea.pure
     {
@@ -14080,7 +14196,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/pureantiradtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1086, 2, 0, 0
+        1094, 2, 0, 0
     },
     // rail.road.planter
     {
@@ -14095,7 +14211,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "planter.large", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1088, 1, 0, 0
+        1096, 1, 0, 0
     },
     // red.berry
     {
@@ -14110,7 +14226,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1089, 3, 0, 0
+        1097, 3, 0, 0
     },
     // reddogtags
     {
@@ -14125,7 +14241,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/dog_tags/dog_tags_red_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1092, 0, 0, 0
+        1100, 0, 0, 0
     },
     // redidtag
     {
@@ -14140,7 +14256,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/id_tags/id_tags_red.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1092, 0, 0, 0
+        1100, 0, 0, 0
     },
     // reinforced.wooden.shield
     {
@@ -14155,7 +14271,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/reinforcedwoodshield/reinforcedwoodshield.worldmodel.prefab", "assets/prefabs/weapons/reinforcedwoodshield/reinforcedwoodshield.entity.prefab", 2274489607U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 300.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1092, 3, 0, 0
+        1100, 3, 0, 0
     },
     // research.table
     {
@@ -14170,7 +14286,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1095, 1, 0, 0
+        1103, 1, 0, 0
     },
     // researchpaper
     {
@@ -14185,7 +14301,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1096, 0, 0, 0
+        1104, 0, 0, 0
     },
     // revolver.hc
     {
@@ -14200,7 +14316,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/high caliber revolver/hc_revolver.worldmodel.prefab", "assets/prefabs/weapons/high caliber revolver/hc_revolver.entity.prefab", 2154182718U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.1f, 0.1f, false, "" },
-        1096, 2, 0, 0
+        1104, 2, 0, 0
     },
     // rf.detonator
     {
@@ -14215,7 +14331,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/detonator/detonator.worldmodel.prefab", "assets/prefabs/tools/detonator/detonator.entity.prefab", 3503830994U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 50.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1098, 2, 0, 0
+        1106, 2, 0, 0
     },
     // rf_pager
     {
@@ -14230,7 +14346,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1100, 1, 0, 0
+        1108, 1, 0, 0
     },
     // rhib
     {
@@ -14245,7 +14361,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1101, 0, 0, 0
+        1109, 0, 0, 0
     },
     // rifle.ak
     {
@@ -14256,11 +14372,11 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         0, 1, 10, 0, 0.0f, 14.8f,
         false, false, true, "None", false, false,
         false, "0", 0LL, false, true, "Interesting", 8LL,
-        false, "Misc", true, true, false, true, 7, 333,
+        false, "Misc", true, true, false, true, 7, 334,
         "", "", "NoListing", "assets/prefabs/weapons/ak47u/ak47u.worldmodel.prefab", "assets/prefabs/weapons/ak47u/ak47u.entity.prefab", 1978739833U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 150.0f, true, false, false, 0.1f, 0.2f, false, "" },
-        1101, 3, 0, 0
+        1109, 3, 0, 0
     },
     // rifle.ak.diver
     {
@@ -14275,7 +14391,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "rifle.ak", "ListAsUniqueItem", "assets/prefabs/weapons/ak47u/diver/ak47u_diver.worldmodel.prefab", "assets/prefabs/weapons/ak47u/diver/ak47u_diver.entity.prefab", 4096772971U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 150.0f, true, false, false, 0.1f, 0.2f, false, "" },
-        1104, 3, 0, 0
+        1112, 3, 0, 0
     },
     // rifle.ak.ice
     {
@@ -14290,7 +14406,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "rifle.ak", "NoListing", "assets/prefabs/weapons/ak47u/iceskin/ak47u.worldmodel iceskin.prefab", "assets/prefabs/weapons/ak47u/iceskin/ak47u_ice.entity.prefab", 1942738569U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 150.0f, true, false, false, 0.1f, 0.2f, false, "" },
-        1107, 2, 0, 0
+        1115, 2, 0, 0
     },
     // rifle.ak.jungle
     {
@@ -14305,7 +14421,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "rifle.ak", "NoListing", "assets/prefabs/weapons/ak47u/jungle skin/ak47u_jungle.worldmodel.prefab", "assets/prefabs/weapons/ak47u/jungle skin/ak47u_jungle.entity.prefab", 1934468549U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 150.0f, true, false, false, 0.1f, 0.2f, false, "" },
-        1109, 3, 0, 0
+        1117, 3, 0, 0
     },
     // rifle.ak.med
     {
@@ -14320,7 +14436,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "rifle.ak", "NoListing", "assets/prefabs/weapons/ak47u/medieval skin/ak47u_med.worldmodel.prefab", "assets/prefabs/weapons/ak47u/medieval skin/ak47u_med.entity.prefab", 3192146626U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 150.0f, true, false, false, 0.1f, 0.2f, false, "" },
-        1112, 3, 0, 0
+        1120, 3, 0, 0
     },
     // rifle.bolt
     {
@@ -14335,7 +14451,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/bolt rifle/bolt_rifle.worldmodel.prefab", "assets/prefabs/weapons/bolt rifle/bolt_rifle.entity.prefab", 1665481300U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.01f, 0.05f, false, "" },
-        1115, 2, 0, 0
+        1123, 2, 0, 0
     },
     // rifle.l96
     {
@@ -14350,7 +14466,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/l96/l96.worldmodel.prefab", "assets/prefabs/weapons/l96/l96.entity.prefab", 2620171289U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 60.0f, true, false, false, 0.01f, 0.05f, false, "" },
-        1117, 2, 0, 0
+        1125, 2, 0, 0
     },
     // rifle.lr300
     {
@@ -14365,7 +14481,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/lr300/lr300.worldmodel.prefab", "assets/prefabs/weapons/lr300/lr300.entity.prefab", 844375121U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 150.0f, true, false, false, 0.5f, 1.0f, false, "" },
-        1119, 2, 0, 0
+        1127, 2, 0, 0
     },
     // rifle.lr300.space
     {
@@ -14380,7 +14496,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "rifle.lr300", "NoListing", "assets/prefabs/weapons/lr300/skins/space/lr300_space.worldmodel.prefab", "assets/prefabs/weapons/lr300/skins/space/lr300_space.entity.prefab", 1407888186U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 150.0f, true, false, false, 0.5f, 1.0f, false, "" },
-        1121, 2, 0, 0
+        1129, 2, 0, 0
     },
     // rifle.m39
     {
@@ -14395,7 +14511,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/m39 emr/m39.worldmodel.prefab", "assets/prefabs/weapons/m39 emr/m39.entity.prefab", 1517089664U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.1f, 0.2f, false, "" },
-        1123, 3, 0, 0
+        1131, 3, 0, 0
     },
     // rifle.semiauto
     {
@@ -14410,7 +14526,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/semi auto rifle/semi_auto_rifle.worldmodel.prefab", "assets/prefabs/weapons/semi auto rifle/semi_auto_rifle.entity.prefab", 4231282088U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.1f, 0.2f, false, "" },
-        1126, 2, 0, 0
+        1134, 2, 0, 0
     },
     // rifle.sks
     {
@@ -14425,7 +14541,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/sks/sks.worldmodel.prefab", "assets/prefabs/weapons/sks/sks.entity.prefab", 4228529517U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.1f, 0.2f, false, "" },
-        1128, 2, 0, 0
+        1136, 2, 0, 0
     },
     // riflebody
     {
@@ -14440,7 +14556,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/weaponparts/riflebody/riflebody.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1130, 0, 0, 0
+        1138, 0, 0, 0
     },
     // riot.helmet
     {
@@ -14455,7 +14571,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/hat.riot/hatriot_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 150.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1130, 2, 0, 0
+        1138, 2, 0, 0
     },
     // roadsign.gloves
     {
@@ -14470,7 +14586,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/gloves.roadsign/roadsigngloves.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1132, 1, 0, 0
+        1140, 1, 0, 0
     },
     // roadsign.jacket
     {
@@ -14485,7 +14601,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/vest.roadsign/roadsignjacket_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 500.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1133, 2, 0, 0
+        1141, 2, 0, 0
     },
     // roadsign.kilt
     {
@@ -14500,7 +14616,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/pants.roadsign/roadsignpants_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 150.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1135, 2, 0, 0
+        1143, 2, 0, 0
     },
     // roadsigns
     {
@@ -14515,7 +14631,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/roadsigns/roadsigns.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1137, 0, 0, 0
+        1145, 0, 0, 0
     },
     // rock
     {
@@ -14530,7 +14646,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/rock/rock.worldmodel.prefab", "assets/prefabs/weapons/rock/rock.entity.prefab", 3940068399U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1137, 1, 0, 0
+        1145, 1, 0, 0
     },
     // rocket.launcher
     {
@@ -14545,7 +14661,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/rocketlauncher/rocketlauncher.worldmodel.prefab", "assets/prefabs/weapons/rocketlauncher/rocket_launcher.entity.prefab", 601440135U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1138, 1, 0, 0
+        1146, 1, 0, 0
     },
     // rocket.launcher.dragon
     {
@@ -14560,7 +14676,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "rocket.launcher", "NoListing", "assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/rocket_launcher_dragon.worldmodel.prefab", "assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/rocket_launcher_dragon.entity.prefab", 3704640358U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1139, 1, 0, 0
+        1147, 1, 0, 0
     },
     // rocket.launcher.rpg7
     {
@@ -14575,7 +14691,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "rocket.launcher", "NoListing", "assets/prefabs/weapons/rocketlauncher/skins/rpg7/rpg7.worldmodel.prefab", "assets/prefabs/weapons/rocketlauncher/skins/rpg7/rpg7.entity.prefab", 3445264346U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1140, 1, 0, 0
+        1148, 1, 0, 0
     },
     // rockingchair
     {
@@ -14590,7 +14706,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "ListAsUniqueItem", "assets/prefabs/misc/decor_dlc/rockingchair/rockingchair.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1141, 1, 0, 0
+        1149, 1, 0, 0
     },
     // rockingchair.rockingchair2
     {
@@ -14605,7 +14721,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "rockingchair", "ListAsUniqueItem", "assets/prefabs/misc/decor_dlc/rockingchair/skins/rockingchair.rockingchair2.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1142, 1, 0, 0
+        1150, 1, 0, 0
     },
     // rockingchair.rockingchair3
     {
@@ -14620,7 +14736,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "rockingchair", "ListAsUniqueItem", "assets/prefabs/misc/decor_dlc/rockingchair/skins/rockingchair.rockingchair3.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1143, 1, 0, 0
+        1151, 1, 0, 0
     },
     // rope
     {
@@ -14635,7 +14751,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/rope/rope.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1144, 0, 0, 0
+        1152, 0, 0, 0
     },
     // rose
     {
@@ -14650,7 +14766,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/plants/rose/rose.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1144, 0, 0, 0
+        1152, 0, 0, 0
     },
     // rowboat
     {
@@ -14665,7 +14781,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/content/vehicles/boats/rowboat/rowboat.prefab", 1283317166U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1144, 1, 0, 0
+        1152, 1, 0, 0
     },
     // rug
     {
@@ -14676,11 +14792,11 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         0, 1, 10, 0, 0.0f, 0.125f,
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting", 8LL,
-        false, "Misc", true, true, false, true, 0, 44,
+        false, "Misc", true, true, false, true, 0, 45,
         "", "", "NoListing", "assets/prefabs/deployable/rug/rug.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1145, 1, 0, 0
+        1153, 1, 0, 0
     },
     // rug.bear
     {
@@ -14695,7 +14811,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/rug/rug.bear.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1146, 1, 0, 0
+        1154, 1, 0, 0
     },
     // rustige_egg_a
     {
@@ -14710,7 +14826,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/easter/faberge_egg_a/faberge_egg_a.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1147, 1, 0, 0
+        1155, 1, 0, 0
     },
     // rustige_egg_b
     {
@@ -14725,7 +14841,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/easter/faberge_egg_b/faberge_egg_b.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1148, 1, 0, 0
+        1156, 1, 0, 0
     },
     // rustige_egg_c
     {
@@ -14740,7 +14856,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/easter/faberge_egg_c/faberge_egg_c.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1149, 1, 0, 0
+        1157, 1, 0, 0
     },
     // rustige_egg_d
     {
@@ -14755,7 +14871,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/easter/faberge_egg_d/faberge_egg_d.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1150, 1, 0, 0
+        1158, 1, 0, 0
     },
     // rustige_egg_e
     {
@@ -14770,7 +14886,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/easter/faberge_egg_e/faberge_egg_e.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1151, 1, 0, 0
+        1159, 1, 0, 0
     },
     // rustige_egg_f
     {
@@ -14785,7 +14901,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/easter/faberge_egg_f/faberge_egg_f.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1152, 1, 0, 0
+        1160, 1, 0, 0
     },
     // rustige_egg_g
     {
@@ -14800,7 +14916,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/easter/faberge_egg_g/faberge_egg_g.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1153, 1, 0, 0
+        1161, 1, 0, 0
     },
     // rustige_egg_h
     {
@@ -14815,7 +14931,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/easter/faberge_egg_h/faberge_egg_h.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1154, 1, 0, 0
+        1162, 1, 0, 0
     },
     // sail
     {
@@ -14830,7 +14946,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1155, 1, 0, 0
+        1163, 1, 0, 0
     },
     // salvaged.bamboo.shelves
     {
@@ -14845,7 +14961,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "shelves", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1156, 1, 0, 0
+        1164, 1, 0, 0
     },
     // salvaged.cleaver
     {
@@ -14860,7 +14976,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/cleaver big/2handed_cleaver.worldmodel.prefab", "assets/prefabs/weapons/cleaver big/salvaged_cleaver.entity.prefab", 3340056040U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 250.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1157, 1, 0, 0
+        1165, 1, 0, 0
     },
     // salvaged.industrial.shelves
     {
@@ -14875,7 +14991,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "shelves", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1158, 1, 0, 0
+        1166, 1, 0, 0
     },
     // salvaged.sword
     {
@@ -14890,7 +15006,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/sword/sword.worldmodel.prefab", "assets/prefabs/weapons/sword/salvaged_sword.entity.prefab", 1663991785U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 350.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1159, 1, 0, 0
+        1167, 1, 0, 0
     },
     // samsite
     {
@@ -14905,7 +15021,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1160, 1, 0, 0
+        1168, 1, 0, 0
     },
     // santabeard
     {
@@ -14920,7 +15036,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/burlap sack/burlapsack.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1161, 1, 0, 0
+        1169, 1, 0, 0
     },
     // santahat
     {
@@ -14935,7 +15051,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/xmas/wearable/santahat/santahat_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1162, 1, 0, 0
+        1170, 1, 0, 0
     },
     // scarecrow
     {
@@ -14950,7 +15066,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1163, 1, 0, 0
+        1171, 1, 0, 0
     },
     // scarecrow.suit
     {
@@ -14965,7 +15081,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1164, 1, 0, 0
+        1172, 1, 0, 0
     },
     // scarecrowhead
     {
@@ -14980,7 +15096,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/hat.burlap.wrap/burlapheadwraps_01_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1165, 1, 0, 0
+        1173, 1, 0, 0
     },
     // scientist.plushie
     {
@@ -14995,7 +15111,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/scientistplushie/scientistplushie.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1166, 1, 0, 0
+        1174, 1, 0, 0
     },
     // scientistsuit_heavy
     {
@@ -15010,7 +15126,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1167, 1, 0, 0
+        1175, 1, 0, 0
     },
     // scrap
     {
@@ -15025,7 +15141,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/scrap/scrap.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1168, 1, 0, 0
+        1176, 1, 0, 0
     },
     // scrapframe.large
     {
@@ -15040,7 +15156,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1169, 2, 0, 0
+        1177, 2, 0, 0
     },
     // scrapframe.medium
     {
@@ -15055,7 +15171,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1171, 2, 0, 0
+        1179, 2, 0, 0
     },
     // scrapframe.small
     {
@@ -15070,7 +15186,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1173, 2, 0, 0
+        1181, 2, 0, 0
     },
     // scrapframe.standing
     {
@@ -15085,7 +15201,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1175, 2, 0, 0
+        1183, 2, 0, 0
     },
     // scrapframe.xl
     {
@@ -15100,7 +15216,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1177, 2, 0, 0
+        1185, 2, 0, 0
     },
     // scrapframe.xxl
     {
@@ -15115,7 +15231,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1179, 2, 0, 0
+        1187, 2, 0, 0
     },
     // scrapmirror.large
     {
@@ -15130,7 +15246,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1181, 1, 0, 0
+        1189, 1, 0, 0
     },
     // scrapmirror.medium
     {
@@ -15145,7 +15261,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1182, 1, 0, 0
+        1190, 1, 0, 0
     },
     // scrapmirror.small
     {
@@ -15160,7 +15276,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1183, 1, 0, 0
+        1191, 1, 0, 0
     },
     // scrapmirror.standing
     {
@@ -15175,7 +15291,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1184, 1, 0, 0
+        1192, 1, 0, 0
     },
     // scraptea
     {
@@ -15190,7 +15306,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/basicscraptea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1185, 2, 0, 0
+        1193, 2, 0, 0
     },
     // scraptea.advanced
     {
@@ -15205,7 +15321,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/advancedscraptea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1187, 2, 0, 0
+        1195, 2, 0, 0
     },
     // scraptea.pure
     {
@@ -15220,7 +15336,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/purescraptea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1189, 2, 0, 0
+        1197, 2, 0, 0
     },
     // scraptransportheli
     {
@@ -15235,7 +15351,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1191, 0, 0, 0
+        1199, 0, 0, 0
     },
     // sculpture.ice
     {
@@ -15249,8 +15365,23 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         false, "Misc", true, true, false, false, 0, 0,
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
-        { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1191, 2, 0, 0
+        { true, 150.0f, false, false, false, 1.0f, 1.0f, false, "" },
+        1199, 2, 0, 0
+    },
+    // sculpture.rock
+    {
+        1852905808, "sculpture.rock", "sculpture.rock.item", "ItemDefinition",
+        { "sculpture.rock", "Stone Sculpture" }, { "sculpture.rock.desc", "A block of stone you can sculpt." },
+        "Items", "None", "None", "Default", "None",
+        "None", "None", "Generic", "Count", "0", 0LL,
+        0, 1, 10, 0, 0.0f, 0.5f,
+        false, false, false, "None", false, false,
+        false, "0", 0LL, false, false, "Interesting", 8LL,
+        false, "Misc", true, true, false, false, 0, 0,
+        "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
+        false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
+        { true, 150.0f, false, false, false, 1.0f, 1.0f, false, "" },
+        1201, 2, 0, 0
     },
     // searchlight
     {
@@ -15265,7 +15396,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1193, 1, 0, 0
+        1203, 1, 0, 0
     },
     // secretlabchair
     {
@@ -15280,7 +15411,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1194, 1, 0, 0
+        1204, 1, 0, 0
     },
     // sedan
     {
@@ -15295,7 +15426,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 850.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1195, 0, 0, 0
+        1205, 0, 0, 0
     },
     // seed.black.berry
     {
@@ -15310,7 +15441,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/plants/berrry/black/black_berry_seed.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1195, 1, 0, 0
+        1205, 1, 0, 0
     },
     // seed.blue.berry
     {
@@ -15325,7 +15456,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/plants/berrry/blue/blue_berry_seed.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1196, 1, 0, 0
+        1206, 1, 0, 0
     },
     // seed.corn
     {
@@ -15340,7 +15471,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/plants/corn/corn_seed.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1197, 1, 0, 0
+        1207, 1, 0, 0
     },
     // seed.green.berry
     {
@@ -15355,7 +15486,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/plants/berrry/green/green_berry_seed.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1198, 1, 0, 0
+        1208, 1, 0, 0
     },
     // seed.hemp
     {
@@ -15370,7 +15501,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/plants/hemp/hemp_seed.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1199, 1, 0, 0
+        1209, 1, 0, 0
     },
     // seed.orchid
     {
@@ -15385,7 +15516,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/plants/orchid/orchid_seed.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1200, 1, 0, 0
+        1210, 1, 0, 0
     },
     // seed.potato
     {
@@ -15400,7 +15531,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/plants/potato/potato_seed.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1201, 1, 0, 0
+        1211, 1, 0, 0
     },
     // seed.pumpkin
     {
@@ -15415,7 +15546,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/plants/pumpkin/pumpkin_seed.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1202, 1, 0, 0
+        1212, 1, 0, 0
     },
     // seed.red.berry
     {
@@ -15430,7 +15561,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/plants/berrry/red/red_berry_seed.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1203, 1, 0, 0
+        1213, 1, 0, 0
     },
     // seed.rose
     {
@@ -15445,7 +15576,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/plants/rose/rose_seed.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1204, 1, 0, 0
+        1214, 1, 0, 0
     },
     // seed.sunflower
     {
@@ -15460,7 +15591,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/plants/sunflower/sunflower_seed.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1205, 1, 0, 0
+        1215, 1, 0, 0
     },
     // seed.wheat
     {
@@ -15475,7 +15606,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/plants/wheat/wheat_seed.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1206, 1, 0, 0
+        1216, 1, 0, 0
     },
     // seed.white.berry
     {
@@ -15490,7 +15621,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/plants/berrry/white/white_berry_seed.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1207, 1, 0, 0
+        1217, 1, 0, 0
     },
     // seed.yellow.berry
     {
@@ -15505,7 +15636,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/plants/berrry/yellow/yellow_berry_seed.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1208, 1, 0, 0
+        1218, 1, 0, 0
     },
     // semibody
     {
@@ -15520,7 +15651,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/weaponparts/semibody/semibody.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1209, 0, 0, 0
+        1219, 0, 0, 0
     },
     // sewingkit
     {
@@ -15535,7 +15666,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/sewingkit/sewingkit.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1209, 0, 0, 0
+        1219, 0, 0, 0
     },
     // sheetmetal
     {
@@ -15550,7 +15681,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/sheetmetal/sheetmetal.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1209, 0, 0, 0
+        1219, 0, 0, 0
     },
     // shelves
     {
@@ -15565,7 +15696,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1209, 1, 0, 0
+        1219, 1, 0, 0
     },
     // shirt.collared
     {
@@ -15580,7 +15711,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/shirt.collared/shirtcollared_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1210, 1, 0, 0
+        1220, 1, 0, 0
     },
     // shirt.tanktop
     {
@@ -15595,7 +15726,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/shirt.tanktop/shirttanktop_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1211, 1, 0, 0
+        1221, 1, 0, 0
     },
     // shoes.boots
     {
@@ -15610,7 +15741,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/shoes.boots/shoes.boots.world.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1212, 1, 0, 0
+        1222, 1, 0, 0
     },
     // shotgun.double
     {
@@ -15625,7 +15756,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/doubleshotgun/double_shotgun.worldmodel.prefab", "assets/prefabs/weapons/doubleshotgun/double_shotgun.entity.prefab", 3474489095U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.1f, 0.1f, false, "" },
-        1213, 2, 0, 0
+        1223, 2, 0, 0
     },
     // shotgun.m4
     {
@@ -15640,7 +15771,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/m4 shotgun/m4_shotgun.worldmodel.prefab", "assets/prefabs/weapons/m4 shotgun/m4_shotgun.entity.prefab", 2416998201U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.01f, 0.03f, false, "" },
-        1215, 2, 0, 0
+        1225, 2, 0, 0
     },
     // shotgun.pump
     {
@@ -15655,7 +15786,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/sawnoff_shotgun/shotgun_pump.worldmodel.prefab", "assets/prefabs/weapons/sawnoff_shotgun/shotgun_pump.entity.prefab", 554582418U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.01f, 0.03f, false, "" },
-        1217, 2, 0, 0
+        1227, 2, 0, 0
     },
     // shotgun.spas12
     {
@@ -15670,7 +15801,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/spas12/spas12.worldmodel.prefab", "assets/prefabs/weapons/spas12/spas12.entity.prefab", 1877401463U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.01f, 0.03f, false, "" },
-        1219, 2, 0, 0
+        1229, 2, 0, 0
     },
     // shotgun.waterpipe
     {
@@ -15685,7 +15816,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/pipe shotgun/shotgun_waterpipe.worldmodel.prefab", "assets/prefabs/weapons/pipe shotgun/shotgun_waterpipe.entity.prefab", 2696589892U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.25f, 0.75f, false, "" },
-        1221, 2, 0, 0
+        1231, 2, 0, 0
     },
     // shovel
     {
@@ -15700,7 +15831,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/shovel/shovel.worldmodel.prefab", "assets/prefabs/tools/shovel/shovel.entity.prefab", 3196650451U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1223, 1, 0, 0
+        1233, 1, 0, 0
     },
     // shutter.metal.embrasure.a
     {
@@ -15715,7 +15846,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1224, 1, 0, 0
+        1234, 1, 0, 0
     },
     // shutter.metal.embrasure.b
     {
@@ -15730,7 +15861,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1225, 1, 0, 0
+        1235, 1, 0, 0
     },
     // shutter.wood.a
     {
@@ -15745,7 +15876,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1226, 1, 0, 0
+        1236, 1, 0, 0
     },
     // sickle
     {
@@ -15760,7 +15891,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/halloween/sickle/sickle.worldmodel.prefab", "assets/prefabs/weapons/halloween/sickle/sickle.entity.prefab", 124547093U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 400.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1227, 1, 0, 0
+        1237, 1, 0, 0
     },
     // siegetower
     {
@@ -15775,7 +15906,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1228, 1, 0, 0
+        1238, 1, 0, 0
     },
     // sign.artistcanvas.l
     {
@@ -15790,7 +15921,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1229, 2, 0, 0
+        1239, 2, 0, 0
     },
     // sign.artistcanvas.m
     {
@@ -15805,7 +15936,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1231, 2, 0, 0
+        1241, 2, 0, 0
     },
     // sign.artistcanvas.s
     {
@@ -15820,7 +15951,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1233, 2, 0, 0
+        1243, 2, 0, 0
     },
     // sign.artistcanvas.xl
     {
@@ -15835,7 +15966,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1235, 2, 0, 0
+        1245, 2, 0, 0
     },
     // sign.artistcanvas.xs
     {
@@ -15850,7 +15981,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1237, 2, 0, 0
+        1247, 2, 0, 0
     },
     // sign.artistcanvas.xxl
     {
@@ -15865,7 +15996,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1239, 2, 0, 0
+        1249, 2, 0, 0
     },
     // sign.hanging
     {
@@ -15880,7 +16011,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1241, 2, 0, 0
+        1251, 2, 0, 0
     },
     // sign.hanging.banner.large
     {
@@ -15895,7 +16026,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1243, 2, 0, 0
+        1253, 2, 0, 0
     },
     // sign.hanging.ornate
     {
@@ -15910,7 +16041,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1245, 2, 0, 0
+        1255, 2, 0, 0
     },
     // sign.neon.125x125
     {
@@ -15925,7 +16056,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1247, 2, 0, 0
+        1257, 2, 0, 0
     },
     // sign.neon.125x215
     {
@@ -15940,7 +16071,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1249, 2, 0, 0
+        1259, 2, 0, 0
     },
     // sign.neon.125x215.animated
     {
@@ -15955,7 +16086,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1251, 2, 0, 0
+        1261, 2, 0, 0
     },
     // sign.neon.xl
     {
@@ -15970,7 +16101,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1253, 2, 0, 0
+        1263, 2, 0, 0
     },
     // sign.neon.xl.animated
     {
@@ -15985,7 +16116,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1255, 2, 0, 0
+        1265, 2, 0, 0
     },
     // sign.pictureframe.landscape
     {
@@ -16000,7 +16131,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1257, 2, 0, 0
+        1267, 2, 0, 0
     },
     // sign.pictureframe.portrait
     {
@@ -16015,7 +16146,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1259, 2, 0, 0
+        1269, 2, 0, 0
     },
     // sign.pictureframe.tall
     {
@@ -16030,7 +16161,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1261, 2, 0, 0
+        1271, 2, 0, 0
     },
     // sign.pictureframe.xl
     {
@@ -16045,7 +16176,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1263, 2, 0, 0
+        1273, 2, 0, 0
     },
     // sign.pictureframe.xxl
     {
@@ -16060,7 +16191,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1265, 2, 0, 0
+        1275, 2, 0, 0
     },
     // sign.pole.banner.large
     {
@@ -16075,7 +16206,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1267, 2, 0, 0
+        1277, 2, 0, 0
     },
     // sign.post.double
     {
@@ -16090,7 +16221,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1269, 2, 0, 0
+        1279, 2, 0, 0
     },
     // sign.post.single
     {
@@ -16105,7 +16236,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1271, 2, 0, 0
+        1281, 2, 0, 0
     },
     // sign.post.town
     {
@@ -16120,7 +16251,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1273, 2, 0, 0
+        1283, 2, 0, 0
     },
     // sign.post.town.roof
     {
@@ -16135,7 +16266,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1275, 2, 0, 0
+        1285, 2, 0, 0
     },
     // sign.wooden.huge
     {
@@ -16150,7 +16281,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1277, 2, 0, 0
+        1287, 2, 0, 0
     },
     // sign.wooden.large
     {
@@ -16165,7 +16296,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1279, 2, 0, 0
+        1289, 2, 0, 0
     },
     // sign.wooden.medium
     {
@@ -16180,7 +16311,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1281, 2, 0, 0
+        1291, 2, 0, 0
     },
     // sign.wooden.small
     {
@@ -16195,7 +16326,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1283, 2, 0, 0
+        1293, 2, 0, 0
     },
     // silly.horse.mask
     {
@@ -16210,7 +16341,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/silly.horse.mask/hat.silly.horse.mask.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1285, 1, 0, 0
+        1295, 1, 0, 0
     },
     // single.shallow.wall.shelves
     {
@@ -16225,7 +16356,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "base.single.shelves", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1286, 1, 0, 0
+        1296, 1, 0, 0
     },
     // skidoo
     {
@@ -16240,7 +16371,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/content/vehicles/dpv/w_dpv.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1287, 1, 0, 0
+        1297, 1, 0, 0
     },
     // skull
     {
@@ -16255,7 +16386,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "rock", "ListAsUniqueItem", "assets/prefabs/weapons/halloween/skull_halloween/skull.worldmodel.prefab", "assets/prefabs/weapons/halloween/skull_halloween/skull.entity.prefab", 1140399555U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1288, 1, 0, 0
+        1298, 1, 0, 0
     },
     // skull.human
     {
@@ -16270,7 +16401,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/skull/skull.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1289, 3, 0, 0
+        1299, 3, 0, 0
     },
     // skull.trophy
     {
@@ -16285,7 +16416,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1292, 1, 0, 0
+        1302, 1, 0, 0
     },
     // skull.trophy.jar
     {
@@ -16300,7 +16431,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "skull.trophy", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1293, 1, 0, 0
+        1303, 1, 0, 0
     },
     // skull.trophy.jar2
     {
@@ -16315,7 +16446,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "skull.trophy", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1294, 1, 0, 0
+        1304, 1, 0, 0
     },
     // skull.trophy.table
     {
@@ -16330,7 +16461,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "skull.trophy", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1295, 1, 0, 0
+        1305, 1, 0, 0
     },
     // skull.wolf
     {
@@ -16345,7 +16476,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/wolf skull/skull_wolf.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1296, 2, 0, 0
+        1306, 2, 0, 0
     },
     // skull_fire_pit
     {
@@ -16360,7 +16491,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1298, 1, 0, 0
+        1308, 1, 0, 0
     },
     // skulldoorknocker
     {
@@ -16375,7 +16506,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1299, 1, 0, 0
+        1309, 1, 0, 0
     },
     // skullspikes
     {
@@ -16390,7 +16521,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1300, 1, 0, 0
+        1310, 1, 0, 0
     },
     // skullspikes.candles
     {
@@ -16405,7 +16536,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "skullspikes", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1301, 1, 0, 0
+        1311, 1, 0, 0
     },
     // skullspikes.pumpkin
     {
@@ -16420,7 +16551,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "skullspikes", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1302, 1, 0, 0
+        1312, 1, 0, 0
     },
     // skylantern
     {
@@ -16435,7 +16566,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1303, 1, 0, 0
+        1313, 1, 0, 0
     },
     // skylantern.skylantern.green
     {
@@ -16450,7 +16581,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "skylantern", "ListAsUniqueItem", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1304, 1, 0, 0
+        1314, 1, 0, 0
     },
     // skylantern.skylantern.orange
     {
@@ -16465,7 +16596,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "skylantern", "ListAsUniqueItem", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1305, 1, 0, 0
+        1315, 1, 0, 0
     },
     // skylantern.skylantern.purple
     {
@@ -16480,7 +16611,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "skylantern", "ListAsUniqueItem", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1306, 1, 0, 0
+        1316, 1, 0, 0
     },
     // skylantern.skylantern.red
     {
@@ -16495,7 +16626,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "skylantern", "ListAsUniqueItem", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1307, 1, 0, 0
+        1317, 1, 0, 0
     },
     // sled
     {
@@ -16510,7 +16641,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1308, 1, 0, 0
+        1318, 1, 0, 0
     },
     // sled.xmas
     {
@@ -16525,7 +16656,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "sled", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1309, 1, 0, 0
+        1319, 1, 0, 0
     },
     // sleepingbag
     {
@@ -16540,7 +16671,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, true, "" },
-        1310, 1, 0, 0
+        1320, 1, 0, 0
     },
     // small.oil.refinery
     {
@@ -16555,7 +16686,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1311, 1, 0, 0
+        1321, 1, 0, 0
     },
     // small_ramp
     {
@@ -16570,7 +16701,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1312, 1, 0, 0
+        1322, 1, 0, 0
     },
     // smallbackpack
     {
@@ -16581,11 +16712,11 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         0, 1, 10, 0, 0.0f, 0.75f,
         false, false, false, "None", false, false,
         false, "Backpack", 8LL, false, false, "Interesting", 8LL,
-        false, "Misc", false, false, true, false, 0, 0,
+        false, "Misc", false, false, true, true, 0, 3,
         "", "", "NoListing", "assets/prefabs/misc/smallbackpack/smallbackpack.worldmodel.prefab", "", 0U,
         false, true, { 0.0f, 180.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1313, 3, 0, 0
+        1323, 3, 0, 0
     },
     // smallcandles
     {
@@ -16600,7 +16731,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 60.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1316, 1, 0, 0
+        1326, 1, 0, 0
     },
     // smallengine
     {
@@ -16615,7 +16746,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1317, 1, 0, 0
+        1327, 1, 0, 0
     },
     // smallwaterbottle
     {
@@ -16630,7 +16761,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/small water bottle/water_bottle.worldmodel.prefab", "assets/prefabs/food/small water bottle/smallwaterbottle.entity.prefab", 139849256U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1318, 3, 0, 0
+        1328, 3, 0, 0
     },
     // smart.alarm
     {
@@ -16645,7 +16776,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1321, 1, 0, 0
+        1331, 1, 0, 0
     },
     // smart.switch
     {
@@ -16660,7 +16791,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1322, 1, 0, 0
+        1332, 1, 0, 0
     },
     // smg.2
     {
@@ -16675,7 +16806,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/smg/smg.worldmodel.prefab", "assets/prefabs/weapons/smg/smg.entity.prefab", 3759841439U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.1f, 0.2f, false, "" },
-        1323, 2, 0, 0
+        1333, 2, 0, 0
     },
     // smg.mp5
     {
@@ -16690,7 +16821,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/mp5/mp5.worldmodel.prefab", "assets/prefabs/weapons/mp5/mp5.entity.prefab", 2545523575U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 150.0f, true, false, false, 0.1f, 0.2f, false, "" },
-        1325, 2, 0, 0
+        1335, 2, 0, 0
     },
     // smg.thompson
     {
@@ -16701,11 +16832,11 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         0, 1, 10, 0, 0.0f, 3.25f,
         false, false, true, "None", false, false,
         false, "0", 0LL, false, true, "Interesting", 8LL,
-        false, "Misc", true, true, false, true, 0, 82,
+        false, "Misc", true, true, false, true, 0, 83,
         "", "", "NoListing", "assets/prefabs/weapons/thompson/thompson.worldmodel.prefab", "assets/prefabs/weapons/thompson/thompson.entity.prefab", 3243900999U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.1f, 0.2f, false, "" },
-        1327, 2, 0, 0
+        1337, 2, 0, 0
     },
     // smgbody
     {
@@ -16720,7 +16851,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/weaponparts/smgbody/smgbody.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1329, 0, 0, 0
+        1339, 0, 0, 0
     },
     // snakemeat
     {
@@ -16735,7 +16866,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/snake_meat/snakemeat_raw.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1329, 4, 0, 0
+        1339, 4, 0, 0
     },
     // snakemeat.cooked
     {
@@ -16750,7 +16881,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/snake_meat/snakemeat_cooked.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1333, 4, 0, 0
+        1343, 4, 0, 0
     },
     // snakemeat.spoiled
     {
@@ -16765,7 +16896,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/snake_meat/snakemeat_spoiled.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1337, 2, 0, 0
+        1347, 2, 0, 0
     },
     // snowball
     {
@@ -16780,7 +16911,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/xmas/snowball/snowball.worldmodel.prefab", "assets/prefabs/misc/xmas/snowball/snowball.entity.prefab", 591451995U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1339, 1, 0, 0
+        1349, 1, 0, 0
     },
     // snowballgun
     {
@@ -16795,7 +16926,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/xmas/snowballgun/snowballgun.worldmodel.prefab", "assets/prefabs/misc/xmas/snowballgun/snowballgun.entity.prefab", 3228215527U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1340, 1, 0, 0
+        1350, 1, 0, 0
     },
     // snowmachine
     {
@@ -16810,7 +16941,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1341, 2, 0, 0
+        1351, 2, 0, 0
     },
     // snowman
     {
@@ -16825,7 +16956,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1343, 1, 0, 0
+        1353, 1, 0, 0
     },
     // snowmobile
     {
@@ -16840,7 +16971,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 750.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1344, 0, 0, 0
+        1354, 0, 0, 0
     },
     // snowmobiletomaha
     {
@@ -16855,7 +16986,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "snowmobile", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 750.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1344, 0, 0, 0
+        1354, 0, 0, 0
     },
     // sofa
     {
@@ -16870,7 +17001,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1344, 1, 0, 0
+        1354, 1, 0, 0
     },
     // sofa.pattern
     {
@@ -16885,7 +17016,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1345, 1, 0, 0
+        1355, 1, 0, 0
     },
     // soundlight
     {
@@ -16900,7 +17031,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1346, 1, 0, 0
+        1356, 1, 0, 0
     },
     // sparkplug1
     {
@@ -16915,7 +17046,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/engine_sparkplugs/sparkplugs1.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 60.0f, true, false, false, 0.25f, 0.75f, false, "" },
-        1347, 1, 0, 0
+        1357, 1, 0, 0
     },
     // sparkplug2
     {
@@ -16930,7 +17061,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/engine_sparkplugs/sparkplugs2.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.25f, 0.75f, false, "" },
-        1348, 1, 0, 0
+        1358, 1, 0, 0
     },
     // sparkplug3
     {
@@ -16945,7 +17076,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/engine_sparkplugs/sparkplugs3.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 140.0f, true, false, false, 0.25f, 0.75f, false, "" },
-        1349, 1, 0, 0
+        1359, 1, 0, 0
     },
     // spear.cny
     {
@@ -16960,7 +17091,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "spear.wooden", "NoListing", "assets/prefabs/weapons/cnyspear/cny_spear.worldmodel.prefab", "assets/prefabs/weapons/cnyspear/cny_spear.entity.prefab", 3814317397U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1350, 1, 0, 0
+        1360, 1, 0, 0
     },
     // spear.stone
     {
@@ -16975,7 +17106,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/stone spear/stone_spear.worldmodel.prefab", "assets/prefabs/weapons/stone spear/spear_stone.entity.prefab", 1943636975U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 80.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1351, 1, 0, 0
+        1361, 1, 0, 0
     },
     // spear.wooden
     {
@@ -16990,7 +17121,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/wooden spear/wooden_spear.worldmodel.prefab", "assets/prefabs/weapons/wooden spear/spear_wooden.entity.prefab", 2828546575U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1352, 1, 0, 0
+        1362, 1, 0, 0
     },
     // speargun
     {
@@ -17005,7 +17136,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/speargun/w_speargun.worldmodel.prefab", "assets/prefabs/weapons/speargun/speargun.entity.prefab", 4262383355U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.2f, 0.5f, false, "" },
-        1353, 1, 0, 0
+        1363, 1, 0, 0
     },
     // speargun.spear
     {
@@ -17020,7 +17151,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/ammo/speargun/speargun_spear.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1354, 0, 0, 0
+        1364, 0, 0, 0
     },
     // speechbubbleballoon2025
     {
@@ -17035,7 +17166,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1354, 1, 0, 0
+        1364, 1, 0, 0
     },
     // spiderweb
     {
@@ -17050,7 +17181,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1355, 1, 0, 0
+        1365, 1, 0, 0
     },
     // spikes.floor
     {
@@ -17065,7 +17196,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1356, 1, 0, 0
+        1366, 1, 0, 0
     },
     // spikes.trap
     {
@@ -17080,7 +17211,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1357, 1, 0, 0
+        1367, 1, 0, 0
     },
     // spinner.wheel
     {
@@ -17095,7 +17226,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1358, 2, 0, 0
+        1368, 2, 0, 0
     },
     // spoiled.produce
     {
@@ -17103,14 +17234,14 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         { "spoiled.produce", "Spoiled Produce" }, { "spoiled.produce.desc", "A spoiled fruit or vegetable. It's so far gone it's hard to tell what it originally was." },
         "Food", "None", "None", "Default", "None",
         "Common", "None", "Generic", "Count", "0", 0LL,
-        0, 10, 10, 0, 0.0f, 0.0f,
+        0, 20, 20, 0, 0.0f, 0.0f,
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting, Food", 24LL,
         false, "Misc", false, true, false, false, 0, 0,
         "", "", "NoListing", "assets/prefabs/food/spoiled produce/spoiled_produce.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1360, 2, 0, 0
+        1370, 2, 0, 0
     },
     // spookyspeaker
     {
@@ -17125,7 +17256,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1362, 1, 0, 0
+        1372, 1, 0, 0
     },
     // spraycan
     {
@@ -17140,7 +17271,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/spraycan/spraycan.worldmodel.prefab", "assets/prefabs/tools/spraycan/spraycan.weapon.prefab", 4251031431U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1363, 1, 0, 0
+        1373, 1, 0, 0
     },
     // spraycandecal
     {
@@ -17151,11 +17282,11 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         0, 10, 10, 0, 0.0f, 0.0f,
         false, false, false, "None", false, false,
         true, "0", 0LL, false, false, "Interesting", 8LL,
-        false, "Misc", false, false, false, true, 16, 0,
+        false, "Misc", false, false, false, true, 19, 0,
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1364, 0, 0, 0
+        1374, 0, 0, 0
     },
     // starballoon2025
     {
@@ -17170,7 +17301,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1364, 1, 0, 0
+        1374, 1, 0, 0
     },
     // stash.small
     {
@@ -17185,7 +17316,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1365, 1, 0, 0
+        1375, 1, 0, 0
     },
     // steeringwheel.boat
     {
@@ -17200,7 +17331,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1366, 1, 0, 0
+        1376, 1, 0, 0
     },
     // sticks
     {
@@ -17215,7 +17346,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1367, 0, 0, 0
+        1377, 0, 0, 0
     },
     // stocking.large
     {
@@ -17230,7 +17361,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/xmas/stockings/stocking.large.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1367, 1, 0, 0
+        1377, 1, 0, 0
     },
     // stocking.small
     {
@@ -17245,7 +17376,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/xmas/stockings/stocking.small.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1368, 2, 0, 0
+        1378, 2, 0, 0
     },
     // stone.pickaxe
     {
@@ -17260,7 +17391,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/stone pickaxe/stone_pickaxe.worldmodel.prefab", "assets/prefabs/weapons/stone pickaxe/stone_pickaxe.entity.prefab", 1450582435U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1370, 1, 0, 0
+        1380, 1, 0, 0
     },
     // stonehatchet
     {
@@ -17275,7 +17406,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/stone hatchet/hatchet_stone.worldmodel.prefab", "assets/prefabs/weapons/stone hatchet/stonehatchet.entity.prefab", 3540736579U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1371, 1, 0, 0
+        1381, 1, 0, 0
     },
     // stones
     {
@@ -17290,7 +17421,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/stone/stone.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1372, 2, 0, 0
+        1382, 2, 0, 0
     },
     // storage.monitor
     {
@@ -17305,7 +17436,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1374, 1, 0, 0
+        1384, 1, 0, 0
     },
     // storage_barrel_a
     {
@@ -17320,7 +17451,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1375, 1, 0, 0
+        1385, 1, 0, 0
     },
     // storage_barrel_b
     {
@@ -17335,7 +17466,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "base.vertical.barrel", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1376, 1, 0, 0
+        1386, 1, 0, 0
     },
     // storage_barrel_c
     {
@@ -17350,7 +17481,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "base.horizontal.barrel", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1377, 1, 0, 0
+        1387, 1, 0, 0
     },
     // storageadaptor
     {
@@ -17365,7 +17496,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1378, 1, 0, 0
+        1388, 1, 0, 0
     },
     // strobelight
     {
@@ -17380,7 +17511,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 60.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1379, 1, 0, 0
+        1389, 1, 0, 0
     },
     // submarine.torpedo.straight
     {
@@ -17395,7 +17526,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/ammo/torpedo/torpedostraight.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1380, 0, 0, 0
+        1390, 0, 0, 0
     },
     // submarineduo
     {
@@ -17410,7 +17541,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 900.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1380, 0, 0, 0
+        1390, 0, 0, 0
     },
     // submarinesolo
     {
@@ -17425,7 +17556,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 750.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1380, 0, 0, 0
+        1390, 0, 0, 0
     },
     // sulfur
     {
@@ -17440,7 +17571,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/sulfur/sulphur.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1380, 2, 0, 0
+        1390, 2, 0, 0
     },
     // sulfur.ore
     {
@@ -17455,7 +17586,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/sulfur ore/sulfur_ore.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1382, 2, 0, 0
+        1392, 2, 0, 0
     },
     // sunflower
     {
@@ -17470,7 +17601,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/plants/sunflower/sunflower.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1384, 0, 0, 0
+        1394, 0, 0, 0
     },
     // sunglasses
     {
@@ -17485,7 +17616,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1384, 3, 0, 0
+        1394, 3, 0, 0
     },
     // sunglasses02black
     {
@@ -17500,7 +17631,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "sunglasses", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1387, 3, 0, 0
+        1397, 3, 0, 0
     },
     // sunglasses02camo
     {
@@ -17515,7 +17646,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "sunglasses", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1390, 3, 0, 0
+        1400, 3, 0, 0
     },
     // sunglasses02red
     {
@@ -17530,7 +17661,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "sunglasses", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1393, 3, 0, 0
+        1403, 3, 0, 0
     },
     // sunglasses03black
     {
@@ -17545,7 +17676,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "sunglasses", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1396, 3, 0, 0
+        1406, 3, 0, 0
     },
     // sunglasses03chrome
     {
@@ -17560,7 +17691,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "sunglasses", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1399, 3, 0, 0
+        1409, 3, 0, 0
     },
     // sunglasses03gold
     {
@@ -17575,7 +17706,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "sunglasses", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1402, 3, 0, 0
+        1412, 3, 0, 0
     },
     // sunken.knife
     {
@@ -17590,7 +17721,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "knife.combat", "NoListing", "assets/prefabs/weapons/knife/skins/sunkenknife/sunken.knife.combat.worldmodel.prefab", "assets/prefabs/weapons/knife/skins/sunkenknife/sunken.knife.combat.entity.prefab", 2957160983U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1405, 1, 0, 0
+        1415, 1, 0, 0
     },
     // supertea
     {
@@ -17605,7 +17736,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/advancedwoodtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1406, 2, 0, 0
+        1416, 2, 0, 0
     },
     // supply.signal
     {
@@ -17620,7 +17751,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/supply signal/supplysignal.worldmodel.prefab", "assets/prefabs/tools/supply signal/supplysignal.weapon.prefab", 775476535U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1408, 1, 0, 0
+        1418, 1, 0, 0
     },
     // surveycharge
     {
@@ -17635,7 +17766,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/surveycharge/survey_charge.worldmodel.prefab", "assets/prefabs/tools/surveycharge/survey_charge.prefab", 2698594377U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1409, 1, 0, 0
+        1419, 1, 0, 0
     },
     // syringe.medical
     {
@@ -17650,7 +17781,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/medical syringe/syringe_medical.worldmodel.prefab", "assets/prefabs/tools/medical syringe/syringe_medical.entity.prefab", 283937635U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1410, 1, 0, 0
+        1420, 1, 0, 0
     },
     // t1_smg
     {
@@ -17665,7 +17796,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/t1 smg/t1_smg.worldmodel.prefab", "assets/prefabs/weapons/t1 smg/t1_smg.entity.prefab", 4251501342U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.1f, 0.2f, false, "" },
-        1411, 2, 0, 0
+        1421, 2, 0, 0
     },
     // table
     {
@@ -17680,7 +17811,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1413, 1, 0, 0
+        1423, 1, 0, 0
     },
     // tactical.gloves
     {
@@ -17695,7 +17826,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/gloves.tactical/gloves.tactical.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1414, 1, 0, 0
+        1424, 1, 0, 0
     },
     // target.reactive
     {
@@ -17710,7 +17841,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1415, 1, 0, 0
+        1425, 1, 0, 0
     },
     // targeting.computer
     {
@@ -17725,7 +17856,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/targeting computer/targeting_computer.worldmodel.prefab", "", 0U,
         true, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1416, 0, 0, 0
+        1426, 0, 0, 0
     },
     // tarp
     {
@@ -17740,7 +17871,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/tarp/tarp.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1416, 1, 0, 0
+        1426, 1, 0, 0
     },
     // techparts
     {
@@ -17755,7 +17886,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/techparts/techparts.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1417, 0, 0, 0
+        1427, 0, 0, 0
     },
     // telephone
     {
@@ -17770,7 +17901,22 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1417, 1, 0, 0
+        1427, 1, 0, 0
+    },
+    // thruster.module
+    {
+        1754952075, "thruster.module", "thruster.module.item", "ItemDefinition",
+        { "thruster.module", "Thruster Module" }, { "thruster.module.desc", "A thruster module salvaged from crashed satellite remains. The more fuel left in the satellite when it was brought down, the better its condition." },
+        "Component", "None", "None", "Default", "None",
+        "Rare", "None", "Generic", "Count", "0", 0LL,
+        0, 1, 10, 0, 0.0f, 8.0f,
+        false, false, false, "None", false, false,
+        false, "0", 0LL, false, false, "Interesting", 8LL,
+        false, "Misc", false, false, false, false, 0, 0,
+        "", "", "NoListing", "", "", 0U,
+        false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
+        { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
+        1428, 0, 0, 0
     },
     // tincan.alarm
     {
@@ -17785,7 +17931,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1418, 1, 0, 0
+        1428, 1, 0, 0
     },
     // tool.binoculars
     {
@@ -17800,7 +17946,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/binoculars/binoculars.worldmodel.prefab", "assets/prefabs/tools/binoculars/binocular.entity.prefab", 436023350U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1419, 1, 0, 0
+        1429, 1, 0, 0
     },
     // tool.camera
     {
@@ -17815,7 +17961,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/camera/camera.worldmodel.prefab", "assets/prefabs/tools/camera/tool_camera.prefab", 1410597758U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1420, 1, 0, 0
+        1430, 1, 0, 0
     },
     // tool.instant_camera
     {
@@ -17830,7 +17976,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/summer_dlc/instantcamera/instant_camera.worldmodel.prefab", "assets/prefabs/misc/summer_dlc/instantcamera/instant_camera.entity.prefab", 509717370U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 30.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1421, 1, 0, 0
+        1431, 1, 0, 0
     },
     // toolgun
     {
@@ -17845,7 +17991,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/toolgun/toolgun.worldmodel.prefab", "assets/prefabs/weapons/toolgun/toolgun.entity.prefab", 417347909U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1422, 1, 0, 0
+        1432, 1, 0, 0
     },
     // torch
     {
@@ -17860,7 +18006,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/torch/torch.worldmodel.prefab", "assets/prefabs/weapons/torch/torch.entity.prefab", 1543342082U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 50.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1423, 1, 0, 0
+        1433, 1, 0, 0
     },
     // torch.torch.skull
     {
@@ -17875,7 +18021,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "torch", "ListAsUniqueItem", "assets/prefabs/weapons/halloween/skull torch/skulltorch.worldmodel.prefab", "assets/prefabs/weapons/halloween/skull torch/skulltorch.entity.prefab", 3258690150U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 50.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1424, 1, 0, 0
+        1434, 1, 0, 0
     },
     // torchholder
     {
@@ -17890,7 +18036,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1425, 1, 0, 0
+        1435, 1, 0, 0
     },
     // trap.bear
     {
@@ -17905,7 +18051,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/deployable/bear trap/snaptrap.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1426, 1, 0, 0
+        1436, 1, 0, 0
     },
     // trap.landmine
     {
@@ -17920,7 +18066,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1427, 1, 0, 0
+        1437, 1, 0, 0
     },
     // triangle.rail.road.planter
     {
@@ -17935,7 +18081,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "planter.triangle", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1428, 1, 0, 0
+        1438, 1, 0, 0
     },
     // trike
     {
@@ -17950,7 +18096,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 275.0f, true, true, false, 0.75f, 1.0f, false, "" },
-        1429, 0, 0, 0
+        1439, 0, 0, 0
     },
     // trophy
     {
@@ -17965,7 +18111,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/trophy/trophy.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1429, 1, 0, 0
+        1439, 1, 0, 0
     },
     // trophy2023
     {
@@ -17980,7 +18126,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/trophy_2023/trophy_2023.worldmodel.prefab", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1430, 1, 0, 0
+        1440, 1, 0, 0
     },
     // tshirt
     {
@@ -17995,7 +18141,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/tshirt/tshirt_basic_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1431, 1, 0, 0
+        1441, 1, 0, 0
     },
     // tshirt.long
     {
@@ -18010,7 +18156,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/tshirt.long/tshirtlongsleeve_basic_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1432, 1, 0, 0
+        1442, 1, 0, 0
     },
     // tugboat
     {
@@ -18025,7 +18171,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/content/vehicles/boats/tugboat/tugboat.prefab", 268742921U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1433, 1, 0, 0
+        1443, 1, 0, 0
     },
     // tunalight
     {
@@ -18040,7 +18186,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1434, 2, 0, 0
+        1444, 2, 0, 0
     },
     // twitch.headset
     {
@@ -18055,7 +18201,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/hat.cap/hatcap_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1436, 1, 0, 0
+        1446, 1, 0, 0
     },
     // twitchrivals2023desk
     {
@@ -18070,7 +18216,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "computerstation", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1437, 2, 0, 0
+        1447, 2, 0, 0
     },
     // twitchrivals2025sofa
     {
@@ -18085,7 +18231,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1439, 1, 0, 0
+        1449, 1, 0, 0
     },
     // twitchrivalsflag
     {
@@ -18100,7 +18246,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/twitch_rivals_flag/wm_twitch_rivals_flag.prefab", "", 0U,
         false, true, { 0.0f, 180.0f, 0.0f }, true, { 0.0f, -2.0f, 0.0f },
         { false, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1440, 2, 0, 0
+        1450, 2, 0, 0
     },
     // twitchsunglasses
     {
@@ -18115,7 +18261,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1442, 3, 0, 0
+        1452, 3, 0, 0
     },
     // valve1
     {
@@ -18130,7 +18276,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/engine_valves/valves1.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 60.0f, true, false, false, 0.25f, 0.75f, false, "" },
-        1445, 1, 0, 0
+        1455, 1, 0, 0
     },
     // valve2
     {
@@ -18145,7 +18291,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/engine_valves/valves2.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 0.25f, 0.75f, false, "" },
-        1446, 1, 0, 0
+        1456, 1, 0, 0
     },
     // valve3
     {
@@ -18160,7 +18306,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/componentitems/engine_valves/valves3.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 140.0f, true, false, false, 0.25f, 0.75f, false, "" },
-        1447, 1, 0, 0
+        1457, 1, 0, 0
     },
     // vampire.stake
     {
@@ -18175,7 +18321,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/halloween/vampirestake/vampirestake.worldmodel.prefab", "assets/prefabs/weapons/halloween/vampirestake/vampirestake.entity.prefab", 2186616991U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 0.1f, false, false, false, 1.0f, 1.0f, false, "" },
-        1448, 1, 0, 0
+        1458, 1, 0, 0
     },
     // vehicle.1mod.cockpit
     {
@@ -18190,7 +18336,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 360.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1449, 1, 0, 0
+        1459, 1, 0, 0
     },
     // vehicle.1mod.cockpit.armored
     {
@@ -18205,7 +18351,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 700.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1450, 1, 0, 0
+        1460, 1, 0, 0
     },
     // vehicle.1mod.cockpit.with.engine
     {
@@ -18220,7 +18366,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 425.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1451, 1, 0, 0
+        1461, 1, 0, 0
     },
     // vehicle.1mod.engine
     {
@@ -18235,7 +18381,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 300.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1452, 1, 0, 0
+        1462, 1, 0, 0
     },
     // vehicle.1mod.flatbed
     {
@@ -18250,7 +18396,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 250.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1453, 1, 0, 0
+        1463, 1, 0, 0
     },
     // vehicle.1mod.passengers.armored
     {
@@ -18265,7 +18411,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 675.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1454, 1, 0, 0
+        1464, 1, 0, 0
     },
     // vehicle.1mod.rear.seats
     {
@@ -18280,7 +18426,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 275.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1455, 1, 0, 0
+        1465, 1, 0, 0
     },
     // vehicle.1mod.storage
     {
@@ -18295,7 +18441,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 275.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1456, 1, 0, 0
+        1466, 1, 0, 0
     },
     // vehicle.1mod.taxi
     {
@@ -18310,7 +18456,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 295.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1457, 1, 0, 0
+        1467, 1, 0, 0
     },
     // vehicle.2mod.camper
     {
@@ -18325,7 +18471,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 525.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1458, 1, 0, 0
+        1468, 1, 0, 0
     },
     // vehicle.2mod.flatbed
     {
@@ -18340,7 +18486,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 325.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1459, 1, 0, 0
+        1469, 1, 0, 0
     },
     // vehicle.2mod.fuel.tank
     {
@@ -18355,7 +18501,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 325.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1460, 1, 0, 0
+        1470, 1, 0, 0
     },
     // vehicle.2mod.passengers
     {
@@ -18370,7 +18516,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 525.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1461, 1, 0, 0
+        1471, 1, 0, 0
     },
     // vehicle.car_radio
     {
@@ -18385,7 +18531,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1462, 1, 0, 0
+        1472, 1, 0, 0
     },
     // vehicle.chassis
     {
@@ -18400,7 +18546,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 300.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1463, 1, 0, 0
+        1473, 1, 0, 0
     },
     // vehicle.chassis.2mod
     {
@@ -18415,7 +18561,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 200.0f, false, true, false, 0.5f, 1.0f, false, "" },
-        1464, 1, 0, 0
+        1474, 1, 0, 0
     },
     // vehicle.chassis.3mod
     {
@@ -18430,7 +18576,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 250.0f, false, true, false, 0.5f, 1.0f, false, "" },
-        1465, 1, 0, 0
+        1475, 1, 0, 0
     },
     // vehicle.chassis.4mod
     {
@@ -18445,7 +18591,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 300.0f, false, true, false, 0.5f, 1.0f, false, "" },
-        1466, 1, 0, 0
+        1476, 1, 0, 0
     },
     // vehicle.module
     {
@@ -18460,7 +18606,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 300.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1467, 1, 0, 0
+        1477, 1, 0, 0
     },
     // vending.machine
     {
@@ -18475,7 +18621,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, true, "" },
-        1468, 1, 0, 0
+        1478, 1, 0, 0
     },
     // venom.snake
     {
@@ -18490,7 +18636,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/venom/snakevenome/snakevenom.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1469, 0, 0, 0
+        1479, 0, 0, 0
     },
     // wagon
     {
@@ -18505,7 +18651,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 750.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1469, 0, 0, 0
+        1479, 0, 0, 0
     },
     // walkietalkie
     {
@@ -18520,7 +18666,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1469, 1, 0, 0
+        1479, 1, 0, 0
     },
     // wall.external.high
     {
@@ -18535,7 +18681,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1470, 1, 0, 0
+        1480, 1, 0, 0
     },
     // wall.external.high.adobe
     {
@@ -18550,7 +18696,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "wall.external.high.stone", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1471, 1, 0, 0
+        1481, 1, 0, 0
     },
     // wall.external.high.ice
     {
@@ -18565,7 +18711,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1472, 1, 0, 0
+        1482, 1, 0, 0
     },
     // wall.external.high.legacy
     {
@@ -18580,7 +18726,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "wall.external.high", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1473, 1, 0, 0
+        1483, 1, 0, 0
     },
     // wall.external.high.stone
     {
@@ -18595,7 +18741,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1474, 1, 0, 0
+        1484, 1, 0, 0
     },
     // wall.frame.cell
     {
@@ -18610,7 +18756,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1475, 1, 0, 0
+        1485, 1, 0, 0
     },
     // wall.frame.cell.gate
     {
@@ -18625,7 +18771,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1476, 1, 0, 0
+        1486, 1, 0, 0
     },
     // wall.frame.fence
     {
@@ -18640,7 +18786,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1477, 1, 0, 0
+        1487, 1, 0, 0
     },
     // wall.frame.fence.gate
     {
@@ -18655,7 +18801,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1478, 1, 0, 0
+        1488, 1, 0, 0
     },
     // wall.frame.garagedoor
     {
@@ -18666,11 +18812,11 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         0, 1, 10, 0, 0.0f, 6.5f,
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting", 8LL,
-        false, "Misc", true, true, false, true, 1, 239,
+        false, "Misc", true, true, false, true, 1, 240,
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1479, 1, 0, 0
+        1489, 1, 0, 0
     },
     // wall.frame.lunar2025_a
     {
@@ -18685,7 +18831,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1480, 1, 0, 0
+        1490, 1, 0, 0
     },
     // wall.frame.lunar2025_b
     {
@@ -18700,7 +18846,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "wall.frame.lunar2025_a", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1481, 1, 0, 0
+        1491, 1, 0, 0
     },
     // wall.frame.lunar2025_c
     {
@@ -18715,7 +18861,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "wall.frame.lunar2025_a", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1482, 1, 0, 0
+        1492, 1, 0, 0
     },
     // wall.frame.netting
     {
@@ -18730,7 +18876,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1483, 1, 0, 0
+        1493, 1, 0, 0
     },
     // wall.frame.shopfront
     {
@@ -18745,7 +18891,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1484, 1, 0, 0
+        1494, 1, 0, 0
     },
     // wall.frame.shopfront.metal
     {
@@ -18756,11 +18902,11 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         0, 1, 10, 0, 0.0f, 2.5f,
         false, false, false, "None", false, false,
         false, "0", 0LL, false, false, "Interesting", 8LL,
-        false, "Misc", true, true, false, true, 0, 6,
+        false, "Misc", true, true, false, true, 0, 7,
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1485, 1, 0, 0
+        1495, 1, 0, 0
     },
     // wall.graveyard.fence
     {
@@ -18775,7 +18921,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1486, 1, 0, 0
+        1496, 1, 0, 0
     },
     // wall.ice.wall
     {
@@ -18790,7 +18936,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1487, 1, 0, 0
+        1497, 1, 0, 0
     },
     // wall.shallow.industrial.shelves
     {
@@ -18805,7 +18951,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "base.single.shelves", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1488, 1, 0, 0
+        1498, 1, 0, 0
     },
     // wall.window.bars.metal
     {
@@ -18820,7 +18966,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1489, 1, 0, 0
+        1499, 1, 0, 0
     },
     // wall.window.bars.toptier
     {
@@ -18835,7 +18981,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1490, 1, 0, 0
+        1500, 1, 0, 0
     },
     // wall.window.bars.wood
     {
@@ -18850,7 +18996,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1491, 1, 0, 0
+        1501, 1, 0, 0
     },
     // wall.window.glass.reinforced
     {
@@ -18865,7 +19011,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1492, 1, 0, 0
+        1502, 1, 0, 0
     },
     // wallpaper.ceiling
     {
@@ -18880,22 +19026,22 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1493, 0, 0, 0
+        1503, 0, 0, 0
     },
     // wallpaper.flooring
     {
         -551431036, "wallpaper.flooring", "wallpaper.flooring.item", "ItemDefinition",
-        { "wallpaper.flooring.name", "Wallpaper Flooring" }, { "", "" },
+        { "wallpaper.flooring.name", "Flooring" }, { "", "" },
         "Items", "None", "None", "Default", "None",
         "None", "None", "Generic", "Count", "0", 0LL,
         0, 10, 10, 0, 0.0f, 0.0f,
         false, false, false, "None", false, false,
         true, "0", 0LL, false, false, "Interesting", 8LL,
-        false, "Misc", false, false, false, true, 39, 0,
+        false, "Misc", false, false, false, true, 40, 0,
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1493, 0, 0, 0
+        1503, 0, 0, 0
     },
     // wallpaper.tool
     {
@@ -18910,22 +19056,22 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/wallpaper/wallpaper.tool.worldmodel.prefab", "assets/prefabs/wallpaper/wallpaper.tool.entity.prefab", 2811911262U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1493, 1, 0, 0
+        1503, 1, 0, 0
     },
     // wallpaper.wall
     {
         553967074, "wallpaper.wall", "wallpaper.wall.item", "ItemDefinition",
-        { "wallpaper.wall.name", "Wallpaper Wall" }, { "", "" },
+        { "wallpaper.wall.name", "Wallpaper" }, { "", "" },
         "Tool", "None", "None", "Default", "None",
         "None", "None", "Generic", "Count", "0", 0LL,
         0, 1, 10, 0, 0.0f, 0.0f,
         false, false, false, "None", false, false,
         true, "0", 0LL, false, false, "Interesting", 8LL,
-        false, "Misc", false, false, false, true, 56, 0,
+        false, "Misc", false, false, false, true, 57, 0,
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1494, 0, 0, 0
+        1504, 0, 0, 0
     },
     // wantedposter
     {
@@ -18940,7 +19086,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1494, 1, 0, 0
+        1504, 1, 0, 0
     },
     // wantedposter.wantedposter2
     {
@@ -18955,7 +19101,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "wantedposter", "ListAsUniqueItem", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1495, 1, 0, 0
+        1505, 1, 0, 0
     },
     // wantedposter.wantedposter3
     {
@@ -18970,7 +19116,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "wantedposter", "ListAsUniqueItem", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1496, 1, 0, 0
+        1506, 1, 0, 0
     },
     // wantedposter.wantedposter4
     {
@@ -18985,7 +19131,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "wantedposter", "ListAsUniqueItem", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1497, 1, 0, 0
+        1507, 1, 0, 0
     },
     // warmingtea
     {
@@ -19000,7 +19146,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/warmingtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1498, 2, 0, 0
+        1508, 2, 0, 0
     },
     // watchtower.wood
     {
@@ -19015,7 +19161,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1500, 1, 0, 0
+        1510, 1, 0, 0
     },
     // water
     {
@@ -19030,7 +19176,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1501, 1, 0, 0
+        1511, 1, 0, 0
     },
     // water.barrel
     {
@@ -19045,7 +19191,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1502, 1, 0, 0
+        1512, 1, 0, 0
     },
     // water.catcher.large
     {
@@ -19060,7 +19206,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1503, 1, 0, 0
+        1513, 1, 0, 0
     },
     // water.catcher.small
     {
@@ -19075,7 +19221,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1504, 1, 0, 0
+        1514, 1, 0, 0
     },
     // water.purifier
     {
@@ -19090,7 +19236,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1505, 1, 0, 0
+        1515, 1, 0, 0
     },
     // water.radioactive
     {
@@ -19105,7 +19251,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1506, 1, 0, 0
+        1516, 1, 0, 0
     },
     // water.salt
     {
@@ -19120,7 +19266,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1507, 1, 0, 0
+        1517, 1, 0, 0
     },
     // waterjug
     {
@@ -19135,7 +19281,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/water jug/waterjug.worldmodel.prefab", "assets/prefabs/food/water jug/waterjug.entity.prefab", 366999130U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1508, 5, 0, 0
+        1518, 5, 0, 0
     },
     // waterpump
     {
@@ -19150,7 +19296,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1513, 1, 0, 0
+        1523, 1, 0, 0
     },
     // weapon.mod.8x.scope
     {
@@ -19165,7 +19311,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapon mods/8x scope/8xscope.worldmodel.prefab", "assets/prefabs/weapon mods/8x scope/8xscope.entity.prefab", 4005260636U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 300.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1514, 2, 0, 0
+        1524, 2, 0, 0
     },
     // weapon.mod.burstmodule
     {
@@ -19180,7 +19326,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/weapon mods/burstmodule/burstmodule.entity.prefab", 1243102785U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1516, 2, 0, 0
+        1526, 2, 0, 0
     },
     // weapon.mod.extendedmags
     {
@@ -19195,7 +19341,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/weapon mods/extendedmags/extendedmags.entity.prefab", 330399465U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1518, 2, 0, 0
+        1528, 2, 0, 0
     },
     // weapon.mod.flashlight
     {
@@ -19210,7 +19356,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapon mods/flashlight/flashlight.worldmodel.prefab", "assets/prefabs/weapon mods/flashlight/flashlight.entity.prefab", 3357772531U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 300.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1520, 2, 0, 0
+        1530, 2, 0, 0
     },
     // weapon.mod.gascompressionovedrive
     {
@@ -19225,7 +19371,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/weapon mods/gascompressionoverdrive/gascompressionoverdrive.entity.prefab", 869056374U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1522, 2, 0, 0
+        1532, 2, 0, 0
     },
     // weapon.mod.holosight
     {
@@ -19240,7 +19386,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapon mods/holosight/holosight.worldmodel.prefab", "assets/prefabs/weapon mods/holosight/holosight.entity.prefab", 1518608834U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 300.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1524, 2, 0, 0
+        1534, 2, 0, 0
     },
     // weapon.mod.lasersight
     {
@@ -19255,7 +19401,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapon mods/lasersight/lasersight.worldmodel.prefab", "assets/prefabs/weapon mods/lasersight/lasersight.entity.prefab", 768584306U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 300.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1526, 2, 0, 0
+        1536, 2, 0, 0
     },
     // weapon.mod.muzzleboost
     {
@@ -19270,7 +19416,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapon mods/muzzleboost/muzzleboost.worldmodel.prefab", "assets/prefabs/weapon mods/muzzleboost/muzzleboost.entity.prefab", 4161515557U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1528, 2, 0, 0
+        1538, 2, 0, 0
     },
     // weapon.mod.muzzlebrake
     {
@@ -19285,7 +19431,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapon mods/muzzlebrake/muzzlebrake.worldmodel.prefab", "assets/prefabs/weapon mods/muzzlebrake/muzzlebrake.entity.prefab", 3158761202U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 200.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1530, 2, 0, 0
+        1540, 2, 0, 0
     },
     // weapon.mod.oilfiltersilencer
     {
@@ -19300,7 +19446,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapon mods/silencers/oilfiltersilencer.worldmodel.prefab", "assets/prefabs/weapon mods/silencers/oilfiltersilencer.entity.prefab", 516933957U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 60.0f, true, false, false, 1.0f, 1.0f, false, "assets/prefabs/weapon mods/silencers/effects/silencer-crafted-break.prefab" },
-        1532, 2, 0, 0
+        1542, 2, 0, 0
     },
     // weapon.mod.silencer
     {
@@ -19315,7 +19461,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapon mods/silencers/silencer.worldmodel.prefab", "assets/prefabs/weapon mods/silencers/silencer.entity.prefab", 2395313048U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1534, 2, 0, 0
+        1544, 2, 0, 0
     },
     // weapon.mod.simplesight
     {
@@ -19330,7 +19476,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapon mods/reddotsight/simplesight.worldmodel.prefab", "assets/prefabs/weapon mods/reddotsight/simplesight.entity.prefab", 320811722U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 300.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1536, 2, 0, 0
+        1546, 2, 0, 0
     },
     // weapon.mod.small.scope
     {
@@ -19345,7 +19491,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapon mods/smallscope/smallscope.worldmodel.prefab", "assets/prefabs/weapon mods/smallscope/smallscope.entity.prefab", 2957289628U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 300.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1538, 2, 0, 0
+        1548, 2, 0, 0
     },
     // weapon.mod.sodacansilencer
     {
@@ -19360,7 +19506,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapon mods/silencers/sodacansilencer.worldmodel.prefab", "assets/prefabs/weapon mods/silencers/sodacansilencer.entity.prefab", 688872962U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 15.0f, true, false, false, 1.0f, 1.0f, false, "assets/prefabs/weapon mods/silencers/effects/silencer-crafted-break.prefab" },
-        1540, 2, 0, 0
+        1550, 2, 0, 0
     },
     // weapon.mod.targetingattachment
     {
@@ -19375,7 +19521,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/weapon mods/targetingattachment/targetingattachment.entity.prefab", 40635747U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1542, 2, 0, 0
+        1552, 2, 0, 0
     },
     // weaponrack.doublelight
     {
@@ -19390,7 +19536,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/deployable/gun_rack/weaponracklightdouble.prefab", 3489283376U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1544, 1, 0, 0
+        1554, 1, 0, 0
     },
     // weaponrack.light
     {
@@ -19405,7 +19551,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/deployable/gun_rack/weaponracklight.prefab", 107031364U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1545, 1, 0, 0
+        1555, 1, 0, 0
     },
     // wheat
     {
@@ -19420,7 +19566,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1546, 2, 0, 0
+        1556, 2, 0, 0
     },
     // white.berry
     {
@@ -19435,7 +19581,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1548, 3, 0, 0
+        1558, 3, 0, 0
     },
     // whiteidtag
     {
@@ -19450,7 +19596,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/id_tags/id_tags_white.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1551, 0, 0, 0
+        1561, 0, 0, 0
     },
     // wicker.barrel
     {
@@ -19465,7 +19611,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "base.horizontal.barrel", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1551, 1, 0, 0
+        1561, 1, 0, 0
     },
     // window.paintable
     {
@@ -19480,7 +19626,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "wall.window.glass.reinforced", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1552, 2, 0, 0
+        1562, 2, 0, 0
     },
     // wiretool
     {
@@ -19495,7 +19641,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/tools/wire/wire.worldmodel.prefab", "assets/prefabs/tools/wire/wiretool.entity.prefab", 4258987144U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 4.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1554, 1, 0, 0
+        1564, 1, 0, 0
     },
     // wolfmeat.burned
     {
@@ -19510,7 +19656,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/wolf_meat/meat.wolf.burned.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1555, 2, 0, 0
+        1565, 2, 0, 0
     },
     // wolfmeat.cooked
     {
@@ -19525,7 +19671,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/wolf_meat/meat.wolf.cooked.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1557, 4, 0, 0
+        1567, 4, 0, 0
     },
     // wolfmeat.raw
     {
@@ -19540,7 +19686,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/wolf_meat/meat.wolf.raw.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1561, 4, 0, 0
+        1571, 4, 0, 0
     },
     // wolfmeat.spoiled
     {
@@ -19555,7 +19701,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/meat/wolf_meat/meat.wolf.spoiled.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1565, 2, 0, 0
+        1575, 2, 0, 0
     },
     // wood
     {
@@ -19570,7 +19716,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/resource/wood/wood.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1567, 3, 0, 0
+        1577, 3, 0, 0
     },
     // wood.armor.helmet
     {
@@ -19585,7 +19731,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/hat.woodarmor/hatwoodarmor_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1570, 1, 0, 0
+        1580, 1, 0, 0
     },
     // wood.armor.jacket
     {
@@ -19600,7 +19746,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/jacket.woodarmor/woodarmor_jacket_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 75.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1571, 2, 0, 0
+        1581, 2, 0, 0
     },
     // wood.armor.pants
     {
@@ -19615,7 +19761,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/pants.woodarmor/roadsignarmor_pants_worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1573, 2, 0, 0
+        1583, 2, 0, 0
     },
     // woodarmor.gloves
     {
@@ -19630,7 +19776,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/clothes/gloves.woodarmor/woodarmorgloves.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1575, 1, 0, 0
+        1585, 1, 0, 0
     },
     // woodcross
     {
@@ -19645,7 +19791,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1576, 1, 0, 0
+        1586, 1, 0, 0
     },
     // wooden.shield
     {
@@ -19660,7 +19806,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/weapons/wooden shield/woodenshield.worldmodel.prefab", "assets/prefabs/weapons/wooden shield/woodenshield.entity.prefab", 3637711865U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 300.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1577, 3, 0, 0
+        1587, 3, 0, 0
     },
     // woodframe.large
     {
@@ -19675,7 +19821,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1580, 1, 0, 0
+        1590, 1, 0, 0
     },
     // woodframe.medium
     {
@@ -19690,7 +19836,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1581, 1, 0, 0
+        1591, 1, 0, 0
     },
     // woodframe.small
     {
@@ -19705,7 +19851,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1582, 1, 0, 0
+        1592, 1, 0, 0
     },
     // woodframe.standing
     {
@@ -19720,7 +19866,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1583, 1, 0, 0
+        1593, 1, 0, 0
     },
     // woodmirror.large
     {
@@ -19735,7 +19881,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1584, 1, 0, 0
+        1594, 1, 0, 0
     },
     // woodmirror.medium
     {
@@ -19750,7 +19896,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1585, 1, 0, 0
+        1595, 1, 0, 0
     },
     // woodmirror.small
     {
@@ -19765,7 +19911,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1586, 1, 0, 0
+        1596, 1, 0, 0
     },
     // woodmirror.standing
     {
@@ -19780,7 +19926,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1587, 1, 0, 0
+        1597, 1, 0, 0
     },
     // woodtea
     {
@@ -19795,7 +19941,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/basicwoodtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1588, 2, 0, 0
+        1598, 2, 0, 0
     },
     // woodtea.advanced
     {
@@ -19810,7 +19956,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/advancedwoodtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1590, 2, 0, 0
+        1600, 2, 0, 0
     },
     // woodtea.pure
     {
@@ -19825,7 +19971,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/food/tea/purewoodtea.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1592, 2, 0, 0
+        1602, 2, 0, 0
     },
     // workbench.upgrade.accelerated
     {
@@ -19840,7 +19986,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1594, 1, 0, 0
+        1604, 1, 0, 0
     },
     // workbench.upgrade.comfort
     {
@@ -19855,7 +20001,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1595, 1, 0, 0
+        1605, 1, 0, 0
     },
     // workbench.upgrade.defensive
     {
@@ -19870,7 +20016,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1596, 1, 0, 0
+        1606, 1, 0, 0
     },
     // workbench.upgrade.efficiency
     {
@@ -19885,7 +20031,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1597, 1, 0, 0
+        1607, 1, 0, 0
     },
     // workbench.upgrade.prototype
     {
@@ -19900,7 +20046,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1598, 1, 0, 0
+        1608, 1, 0, 0
     },
     // workbench.upgrade.range
     {
@@ -19915,7 +20061,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1599, 1, 0, 0
+        1609, 1, 0, 0
     },
     // workbench.upgrade.recyclebin
     {
@@ -19930,7 +20076,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1600, 1, 0, 0
+        1610, 2, 0, 0
     },
     // workbench.upgrade.reinforced
     {
@@ -19945,7 +20091,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1601, 1, 0, 0
+        1612, 1, 0, 0
     },
     // workbench.upgrade.salvage
     {
@@ -19960,7 +20106,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1602, 1, 0, 0
+        1613, 1, 0, 0
     },
     // workbench.upgrade.surplus
     {
@@ -19975,7 +20121,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1603, 1, 0, 0
+        1614, 1, 0, 0
     },
     // workbench1
     {
@@ -19990,7 +20136,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 1.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1604, 1, 0, 0
+        1615, 1, 0, 0
     },
     // workbench2
     {
@@ -20005,7 +20151,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 1.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1605, 1, 0, 0
+        1616, 1, 0, 0
     },
     // workbench3
     {
@@ -20020,7 +20166,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 1.0f, true, false, false, 1.0f, 1.0f, false, "" },
-        1606, 1, 0, 0
+        1617, 1, 0, 0
     },
     // workcart
     {
@@ -20035,7 +20181,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 1000.0f, true, true, false, 0.5f, 1.0f, false, "" },
-        1607, 0, 0, 0
+        1618, 0, 0, 0
     },
     // worm
     {
@@ -20050,7 +20196,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1607, 2, 0, 0
+        1618, 2, 0, 0
     },
     // wrappedgift
     {
@@ -20065,7 +20211,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/xmas/wrappingpaper/playerwrappedgift.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1609, 2, 0, 0
+        1620, 2, 0, 0
     },
     // wrappingpaper
     {
@@ -20080,7 +20226,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1611, 2, 0, 0
+        1622, 2, 0, 0
     },
     // xmas.advent
     {
@@ -20095,7 +20241,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1613, 1, 0, 0
+        1624, 1, 0, 0
     },
     // xmas.decoration.baubels
     {
@@ -20110,7 +20256,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/xmas/xmasdecorations/xmas_baubles.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1614, 1, 0, 0
+        1625, 1, 0, 0
     },
     // xmas.decoration.candycanes
     {
@@ -20125,7 +20271,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/xmas/xmasdecorations/candycanes.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1615, 1, 0, 0
+        1626, 1, 0, 0
     },
     // xmas.decoration.gingerbreadmen
     {
@@ -20140,7 +20286,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/xmas/xmasdecorations/gingermen.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1616, 1, 0, 0
+        1627, 1, 0, 0
     },
     // xmas.decoration.lights
     {
@@ -20155,7 +20301,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1617, 1, 0, 0
+        1628, 1, 0, 0
     },
     // xmas.decoration.pinecone
     {
@@ -20170,7 +20316,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/xmas/xmasdecorations/pinecones.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1618, 1, 0, 0
+        1629, 1, 0, 0
     },
     // xmas.decoration.star
     {
@@ -20185,7 +20331,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/xmas/xmasdecorations/polestar.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1619, 1, 0, 0
+        1630, 1, 0, 0
     },
     // xmas.decoration.tinsel
     {
@@ -20200,7 +20346,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/xmas/xmasdecorations/tinsel.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1620, 1, 0, 0
+        1631, 1, 0, 0
     },
     // xmas.door.garland
     {
@@ -20215,7 +20361,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1621, 1, 0, 0
+        1632, 1, 0, 0
     },
     // xmas.double.door.garland
     {
@@ -20230,7 +20376,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1622, 1, 0, 0
+        1633, 1, 0, 0
     },
     // xmas.lightstring
     {
@@ -20245,7 +20391,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1623, 1, 0, 0
+        1634, 1, 0, 0
     },
     // xmas.lightstring.advanced
     {
@@ -20260,7 +20406,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1624, 1, 0, 0
+        1635, 1, 0, 0
     },
     // xmas.present.large
     {
@@ -20275,7 +20421,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/xmas/presents/present.large.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1625, 1, 0, 0
+        1636, 1, 0, 0
     },
     // xmas.present.medium
     {
@@ -20290,7 +20436,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/xmas/presents/present.medium.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1626, 2, 0, 0
+        1637, 2, 0, 0
     },
     // xmas.present.small
     {
@@ -20305,7 +20451,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/xmas/presents/present.small.worldmodel.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1628, 2, 0, 0
+        1639, 2, 0, 0
     },
     // xmas.tree
     {
@@ -20320,7 +20466,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1630, 1, 0, 0
+        1641, 1, 0, 0
     },
     // xmas.window.garland
     {
@@ -20335,7 +20481,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, true, false, 1.0f, 1.0f, false, "" },
-        1631, 1, 0, 0
+        1642, 1, 0, 0
     },
     // xmasdoorwreath
     {
@@ -20350,7 +20496,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { true, 100.0f, true, true, false, 1.0f, 1.0f, false, "" },
-        1632, 1, 0, 0
+        1643, 1, 0, 0
     },
     // xylophone
     {
@@ -20365,7 +20511,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1633, 1, 0, 0
+        1644, 1, 0, 0
     },
     // yellow.berry
     {
@@ -20380,7 +20526,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 100.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1634, 3, 0, 0
+        1645, 3, 0, 0
     },
     // yellowidtag
     {
@@ -20395,7 +20541,7 @@ inline constexpr ItemData kData[kCount == 0 ? 1 : kCount] =
         "", "", "NoListing", "assets/prefabs/misc/id_tags/id_tags_yellow.prefab", "", 0U,
         false, false, { 0.0f, 0.0f, 0.0f }, false, { 0.0f, 0.0f, 0.0f },
         { false, 0.0f, false, false, false, 1.0f, 1.0f, false, "" },
-        1637, 0, 0, 0
+        1648, 0, 0, 0
     }
 };
 
@@ -20403,12 +20549,12 @@ inline const ItemData* GetByItemId(std::int32_t itemId) noexcept
 {
     switch (itemId)
     {
-    case -866121090: return &kData[0]; // 2module car
-    case -226151558: return &kData[1]; // 2module car chassis
-    case -831725027: return &kData[2]; // 3module car
-    case 1482871705: return &kData[3]; // 3module car chassis
-    case -935322684: return &kData[4]; // 4module car
-    case 385099196: return &kData[5]; // 4module car chassis
+    case -866121090: return &kData[0]; // 2module.car
+    case -226151558: return &kData[1]; // 2module.car.chassis
+    case -831725027: return &kData[2]; // 3module.car
+    case 1482871705: return &kData[3]; // 3module.car.chassis
+    case -935322684: return &kData[4]; // 4module.car
+    case 385099196: return &kData[5]; // 4module.car.chassis
     case 162882477: return &kData[6]; // 50cal.mounted
     case -1467876094: return &kData[7]; // 50cal.mounted.left
     case 1248383659: return &kData[8]; // 50cal.mounted.right
@@ -20486,1166 +20632,1175 @@ inline const ItemData* GetByItemId(std::int32_t itemId) noexcept
     case -1780402255: return &kData[80]; // ballistic.vest
     case -1652561344: return &kData[81]; // bamboo.barrel
     case -2072273936: return &kData[82]; // bandage
-    case -1215166612: return &kData[83]; // barrelcostume
-    case -1950721390: return &kData[84]; // barricade.concrete
-    case -424687710: return &kData[85]; // barricade.medieval
-    case 1655650836: return &kData[86]; // barricade.metal
-    case -559599960: return &kData[87]; // barricade.sandbags
-    case 15388698: return &kData[88]; // barricade.stone
-    case 866889860: return &kData[89]; // barricade.wood
-    case 1373240771: return &kData[90]; // barricade.wood.cover
-    case 1382263453: return &kData[91]; // barricade.woodwire
-    case -1024954624: return &kData[92]; // base.half.shelves
-    case 655356057: return &kData[93]; // base.horizontal.barrel
-    case -1695149731: return &kData[94]; // base.single.shelves
-    case 2045583965: return &kData[95]; // base.vertical.barrel
-    case -143481979: return &kData[96]; // basicblueprintfragment
-    case -1274093662: return &kData[97]; // bathtub.planter
-    case -187304968: return &kData[98]; // batteringram
-    case -479314201: return &kData[99]; // batteringram.head.repair
-    case 609049394: return &kData[100]; // battery.small
-    case 1099314009: return &kData[101]; // bbq
-    case 1468749025: return &kData[102]; // bdu.pants
-    case -2127311451: return &kData[103]; // bdu.shirt
-    case -321431890: return &kData[104]; // beachchair
-    case -1621539785: return &kData[105]; // beachparasol
-    case 657352755: return &kData[106]; // beachtable
-    case -8312704: return &kData[107]; // beachtowel
-    case -576866254: return &kData[108]; // beanbagseatfabric
-    case -1220928936: return &kData[109]; // beanbagseatleather
-    case -1520560807: return &kData[110]; // bearmeat
-    case -989755543: return &kData[111]; // bearmeat.burned
-    case 1873897110: return &kData[112]; // bearmeat.cooked
-    case 1348294923: return &kData[113]; // bearmeat.spoiled
-    case -1273339005: return &kData[114]; // bed
-    case 184516676: return &kData[115]; // beehive
-    case 821588319: return &kData[116]; // bicycle
-    case -2095813057: return &kData[117]; // bigcatmeat
-    case -1318837358: return &kData[118]; // bigcatmeat.cooked
-    case 248643189: return &kData[119]; // bigcatmeat.spoiled
-    case 1771755747: return &kData[120]; // black.berry
-    case 1931713481: return &kData[121]; // black.raspberries
-    case 1553078977: return &kData[122]; // bleach
-    case 1776460938: return &kData[123]; // blood
-    case -851288382: return &kData[124]; // blowpipe
-    case 1112162468: return &kData[125]; // blue.berry
-    case -586342290: return &kData[126]; // blueberries
-    case 1036321299: return &kData[127]; // bluedogtags
-    case 1364514421: return &kData[128]; // blueidtag
-    case -996920608: return &kData[129]; // blueprintbase
-    case -880412831: return &kData[130]; // blunderbuss
-    case -321247698: return &kData[131]; // boat.planner
-    case 1993693904: return &kData[132]; // boatbuildingstation
-    case 1746956556: return &kData[133]; // bone.armor.suit
-    case 1711033574: return &kData[134]; // bone.club
-    case 1719978075: return &kData[135]; // bone.fragments
-    case -1478094705: return &kData[136]; // boogieboard
-    case -1113501606: return &kData[137]; // boombox
-    case 1680793490: return &kData[138]; // boomerang
-    case -1000573653: return &kData[139]; // boots.frog
-    case 613961768: return &kData[140]; // botabag
-    case 755224797: return &kData[141]; // bottle.vodka
-    case 884424049: return &kData[142]; // bow.compound
-    case 1443579727: return &kData[143]; // bow.hunting
-    case 803222026: return &kData[144]; // box.repair.bench
-    case -180129657: return &kData[145]; // box.wooden
-    case 833533164: return &kData[146]; // box.wooden.large
-    case 281099360: return &kData[147]; // bread.loaf
-    case 850280505: return &kData[148]; // bucket.helmet
-    case 1424075905: return &kData[149]; // bucket.water
-    case 1525520776: return &kData[150]; // building.planner
-    case 1285226495: return &kData[151]; // bunny.suit
-    case 1366282552: return &kData[152]; // burlap.gloves
-    case 21402876: return &kData[153]; // burlap.gloves.new
-    case 1877339384: return &kData[154]; // burlap.headwrap
-    case 602741290: return &kData[155]; // burlap.shirt
-    case -761829530: return &kData[156]; // burlap.shoes
-    case 1992974553: return &kData[157]; // burlap.trousers
-    case 1732236518: return &kData[158]; // caboose
-    case 1783512007: return &kData[159]; // cactusflesh
-    case 1973165031: return &kData[160]; // cakefiveyear
-    case 1946219319: return &kData[161]; // campfire
-    case -700591459: return &kData[162]; // can.beans
-    case 1655979682: return &kData[163]; // can.beans.empty
-    case -1941646328: return &kData[164]; // can.tuna
-    case -1557377697: return &kData[165]; // can.tuna.empty
-    case 1121925526: return &kData[166]; // candycane
-    case 1789825282: return &kData[167]; // candycaneclub
-    case -34498533: return &kData[168]; // cannon
-    case -411735114: return &kData[169]; // cannonball
-    case 1230691307: return &kData[170]; // captainslog
-    case 656371028: return &kData[171]; // carburetor1
-    case 656371027: return &kData[172]; // carburetor2
-    case 656371026: return &kData[173]; // carburetor3
-    case 1081921512: return &kData[174]; // cardtable
-    case 1524980732: return &kData[175]; // carvable.pumpkin
-    case 476066818: return &kData[176]; // cassette
-    case -912398867: return &kData[177]; // cassette.medium
-    case 1523403414: return &kData[178]; // cassette.short
-    case 1145722690: return &kData[179]; // catapult
-    case 1954597876: return &kData[180]; // catapult.ammo.bee
-    case 1831249347: return &kData[181]; // catapult.ammo.boulder
-    case -1827561369: return &kData[182]; // catapult.ammo.explosive
-    case -484006286: return &kData[183]; // catapult.ammo.incendiary
-    case 634478325: return &kData[184]; // cctv.camera
-    case 1142993169: return &kData[185]; // ceilinglight
-    case 1104520648: return &kData[186]; // chainsaw
-    case 1534542921: return &kData[187]; // chair
-    case -463012608: return &kData[188]; // chair.ejector.seat
-    case -1944704288: return &kData[189]; // chair.icethrone
-    case -1938052175: return &kData[190]; // charcoal
-    case 374496151: return &kData[191]; // charity.plushie.05
-    case 2130820932: return &kData[192]; // charity.plushy.01
-    case 2130820933: return &kData[193]; // charity.plushy.02
-    case 2130820934: return &kData[194]; // charity.plushy.03
-    case 2130820927: return &kData[195]; // charity.plushy.04
-    case 1973684065: return &kData[196]; // chicken.burned
-    case -1848736516: return &kData[197]; // chicken.cooked
-    case -152332823: return &kData[198]; // chicken.costume
-    case -1440987069: return &kData[199]; // chicken.raw
-    case -751151717: return &kData[200]; // chicken.spoiled
-    case -2018158920: return &kData[201]; // chickencoop
-    case -1916473915: return &kData[202]; // chineselantern
-    case -770304148: return &kData[203]; // chineselanternwhite
-    case -965336208: return &kData[204]; // chocolate
-    case -105343718: return &kData[205]; // circleballoon2025
-    case 486661382: return &kData[206]; // clantable
-    case 968019378: return &kData[207]; // clatter.helmet
-    case 122783240: return &kData[208]; // clone.black.berry
-    case 838831151: return &kData[209]; // clone.blue.berry
-    case -778875547: return &kData[210]; // clone.corn
-    case -1305326964: return &kData[211]; // clone.green.berry
-    case -886280491: return &kData[212]; // clone.hemp
-    case -798662404: return &kData[213]; // clone.orchid
-    case 1512054436: return &kData[214]; // clone.potato
-    case 1898094925: return &kData[215]; // clone.pumpkin
-    case 2133269020: return &kData[216]; // clone.red.berry
-    case -19360132: return &kData[217]; // clone.rose
-    case 912235912: return &kData[218]; // clone.sunflower
-    case 924598634: return &kData[219]; // clone.wheat
-    case 1533551194: return &kData[220]; // clone.white.berry
-    case 390728933: return &kData[221]; // clone.yellow.berry
-    case -858312878: return &kData[222]; // cloth
-    case -606898372: return &kData[223]; // clothing.mannequin
-    case -903796529: return &kData[224]; // clothing.mod.armorinsert_asbestos
-    case 2047789913: return &kData[225]; // clothing.mod.armorinsert_lead
-    case 1099611828: return &kData[226]; // clothing.mod.armorinsert_metal
-    case -593892112: return &kData[227]; // clothing.mod.armorinsert_wood
-    case 204391461: return &kData[228]; // coal
-    case 1873004466: return &kData[229]; // cocoknight.armor.gloves
-    case -582467439: return &kData[230]; // cocoknight.armor.helmet
-    case 507284030: return &kData[231]; // cocoknight.armor.pants
-    case 1426097945: return &kData[232]; // cocoknight.armor.torso
-    case -24571537: return &kData[233]; // coconut
-    case -803263829: return &kData[234]; // coffeecan.helmet
-    case 573676040: return &kData[235]; // coffin.storage
-    case -1247485104: return &kData[236]; // command.block
-    case 594041190: return &kData[237]; // compass
-    case -1593678393: return &kData[238]; // component.box.ammo.large
-    case 1254295946: return &kData[239]; // component.box.armor.large
-    case 1884461210: return &kData[240]; // component.box.charcoal.large
-    case 1736620421: return &kData[241]; // component.box.clothing.large
-    case -413663149: return &kData[242]; // component.box.comps.large
-    case -1998423571: return &kData[243]; // component.box.explosives.large
-    case 1023919015: return &kData[244]; // component.box.food.large
-    case -544295594: return &kData[245]; // component.box.guns.large
-    case -800824218: return &kData[246]; // component.box.meds.large
-    case 1465782238: return &kData[247]; // component.box.metal.large
-    case 992944937: return &kData[248]; // component.box.ore.large
-    case 574701440: return &kData[249]; // component.box.scrap.large
-    case 94971664: return &kData[250]; // component.box.stone.large
-    case -10594280: return &kData[251]; // component.box.sulfur.large
-    case 679690962: return &kData[252]; // component.box.tools.large
-    case 1044081720: return &kData[253]; // component.box.wood.large
-    case -1488398114: return &kData[254]; // composter
-    case -1588628467: return &kData[255]; // computerstation
-    case 1176355476: return &kData[256]; // concretehatchet
-    case -1360171080: return &kData[257]; // concretepickaxe
-    case 1603174987: return &kData[258]; // confetticannon
-    case 968421290: return &kData[259]; // connected.speaker
-    case 1456143403: return &kData[260]; // cookingworkbench
-    case -1260229965: return &kData[261]; // coolingtea
-    case 1367190888: return &kData[262]; // corn
-    case 368008432: return &kData[263]; // craftingtea_quality
-    case 1158340334: return &kData[264]; // crankshaft1
-    case 1158340331: return &kData[265]; // crankshaft2
-    case 1158340332: return &kData[266]; // crankshaft3
-    case 1189981699: return &kData[267]; // cratecostume
-    case -1081599445: return &kData[268]; // crocodilemeat
-    case 392828520: return &kData[269]; // crocodilemeat.cooked
-    case -1796837031: return &kData[270]; // crocodilemeat.spoiled
-    case 1965232394: return &kData[271]; // crossbow
-    case 2022157467: return &kData[272]; // crossbowbowless
-    case -321733511: return &kData[273]; // crude.oil
-    case -97956382: return &kData[274]; // cupboard.tool
-    case 1488606552: return &kData[275]; // cupboard.tool.retro
-    case 1174957864: return &kData[276]; // cupboard.tool.shockbyte
-    case 1242522330: return &kData[277]; // cursedcauldron
-    case -963819285: return &kData[278]; // dart.incapacitate
-    case -594596146: return &kData[279]; // dart.radiation
-    case 2036395619: return &kData[280]; // dart.scatter
-    case -274709858: return &kData[281]; // dart.wood
-    case -1903165497: return &kData[282]; // deer.skull.mask
-    case -78533081: return &kData[283]; // deermeat.burned
-    case -1509851560: return &kData[284]; // deermeat.cooked
-    case 1422530437: return &kData[285]; // deermeat.raw
-    case -2035449523: return &kData[286]; // deermeat.spoiled
-    case 1568388703: return &kData[287]; // diesel_barrel
-    case 1895235349: return &kData[288]; // discoball
-    case 286648290: return &kData[289]; // discofloor
-    case 1735402444: return &kData[290]; // discofloor.largetiles
-    case -1800102806: return &kData[291]; // discord.plushie
-    case 1494014226: return &kData[292]; // discord.trophy
-    case 1046904719: return &kData[293]; // diverhatchet
-    case 1561022037: return &kData[294]; // diverpickaxe
-    case 1846605708: return &kData[295]; // divertorch
-    case 296519935: return &kData[296]; // diving.fins
-    case -113413047: return &kData[297]; // diving.mask
-    case -2022172587: return &kData[298]; // diving.tank
-    case -1559420426: return &kData[299]; // diving.tank.double
-    case -1101924344: return &kData[300]; // diving.wetsuit
-    case -451310088: return &kData[301]; // documents
-    case 1223900335: return &kData[302]; // dogtagneutral
-    case 1409529282: return &kData[303]; // door.closer
-    case -1151332840: return &kData[304]; // door.double.hinged.bardoors
-    case 1390353317: return &kData[305]; // door.double.hinged.metal
-    case 1221063409: return &kData[306]; // door.double.hinged.toptier
-    case -1336109173: return &kData[307]; // door.double.hinged.wood
-    case -1063073030: return &kData[308]; // door.hinged.boat.wood
-    case 818733919: return &kData[309]; // door.hinged.industrial.a
-    case -2067472972: return &kData[310]; // door.hinged.metal
-    case 1353298668: return &kData[311]; // door.hinged.toptier
-    case 1729120840: return &kData[312]; // door.hinged.wood
-    case -1112793865: return &kData[313]; // door.key
-    case -258574361: return &kData[314]; // draculacape
-    case 1865253052: return &kData[315]; // draculamask
-    case -854270928: return &kData[316]; // dragondoorknocker
-    case 1588492232: return &kData[317]; // drone
-    case -1519126340: return &kData[318]; // dropbox
-    case -1330640246: return &kData[319]; // drumkit
-    case 1401987718: return &kData[320]; // ducttape
-    case -1779203452: return &kData[321]; // easel
-    case 844440409: return &kData[322]; // easter.bronzeegg
-    case -1002156085: return &kData[323]; // easter.goldegg
-    case -126305173: return &kData[324]; // easter.paintedeggs
-    case 1757265204: return &kData[325]; // easter.silveregg
-    case 1856217390: return &kData[326]; // easterbasket
-    case -979302481: return &kData[327]; // easterdoorwreath
-    case 1858828593: return &kData[328]; // egg
-    case 1171735914: return &kData[329]; // electric.andswitch
-    case 2100007442: return &kData[330]; // electric.audioalarm
-    case 553270375: return &kData[331]; // electric.battery.rechargable.large
-    case 2023888403: return &kData[332]; // electric.battery.rechargable.medium
-    case -692338819: return &kData[333]; // electric.battery.rechargable.small
-    case -690968985: return &kData[334]; // electric.blocker
-    case 104856514: return &kData[335]; // electric.bulbstringlights
-    case -1778897469: return &kData[336]; // electric.button
-    case 1835946060: return &kData[337]; // electric.cabletunnel
-    case -1510616686: return &kData[338]; // electric.chandelier
-    case -216999575: return &kData[339]; // electric.counter
-    case 1619039771: return &kData[340]; // electric.digitalclock
-    case -502177121: return &kData[341]; // electric.doorcontroller
-    case 54436981: return &kData[342]; // electric.fairylights
-    case -939424778: return &kData[343]; // electric.flasherlight
-    case 1892536031: return &kData[344]; // electric.fluorescentlight
-    case 640470230: return &kData[345]; // electric.fluorescentlight.ceiling
-    case 1849887541: return &kData[346]; // electric.fuelgenerator.small
-    case -1196547867: return &kData[347]; // electric.furnace
-    case -295829489: return &kData[348]; // electric.generator.small
-    case -1507239837: return &kData[349]; // electric.hbhfsensor
-    case -784870360: return &kData[350]; // electric.heater
-    case -44876289: return &kData[351]; // electric.igniter
-    case -798293154: return &kData[352]; // electric.laserdetector
-    case -1286302544: return &kData[353]; // electric.orswitch
-    case -2049214035: return &kData[354]; // electric.pressurepad
-    case 492357192: return &kData[355]; // electric.random.switch
-    case -1044468317: return &kData[356]; // electric.rf.broadcaster
-    case 888415708: return &kData[357]; // electric.rf.receiver
-    case -948291630: return &kData[358]; // electric.seismicsensor
-    case -282113991: return &kData[359]; // electric.simplelight
-    case 762289806: return &kData[360]; // electric.sirenlight
-    case 2090395347: return &kData[361]; // electric.solarpanel.large
-    case -563624462: return &kData[362]; // electric.splitter
-    case -1258821205: return &kData[363]; // electric.spotlight
-    case -2134097299: return &kData[364]; // electric.spotlight.tripod
-    case -781014061: return &kData[365]; // electric.sprinkler
-    case 1951603367: return &kData[366]; // electric.switch
-    case 1717250161: return &kData[367]; // electric.tablelight
-    case 1371909803: return &kData[368]; // electric.teslacoil
-    case 665332906: return &kData[369]; // electric.timer
-    case 656829501: return &kData[370]; // electric.wallcabinet
-    case 1293102274: return &kData[371]; // electric.xorswitch
-    case -1448252298: return &kData[372]; // electrical.branch
-    case -458565393: return &kData[373]; // electrical.combiner
-    case -746647361: return &kData[374]; // electrical.memorycell
-    case 1177596584: return &kData[375]; // elevator
-    case -1878475007: return &kData[376]; // explosive.satchel
-    case 1248356124: return &kData[377]; // explosive.timed
-    case -592016202: return &kData[378]; // explosives
-    case 2054391128: return &kData[379]; // factorydoor
-    case -1018587433: return &kData[380]; // fat.animal
-    case -930193596: return &kData[381]; // fertilizer
-    case -1535621066: return &kData[382]; // fireplace.stone
-    case 1744298439: return &kData[383]; // firework.boomer.blue
-    case 1324203999: return &kData[384]; // firework.boomer.champagne
-    case -656349006: return &kData[385]; // firework.boomer.green
-    case -7270019: return &kData[386]; // firework.boomer.orange
-    case -379734527: return &kData[387]; // firework.boomer.pattern
-    case -1553999294: return &kData[388]; // firework.boomer.red
-    case -280223496: return &kData[389]; // firework.boomer.violet
-    case -515830359: return &kData[390]; // firework.romancandle.blue
-    case -1306288356: return &kData[391]; // firework.romancandle.green
-    case -1486461488: return &kData[392]; // firework.romancandle.red
-    case -99886070: return &kData[393]; // firework.romancandle.violet
-    case 261913429: return &kData[394]; // firework.volcano
-    case -454370658: return &kData[395]; // firework.volcano.red
-    case -1538109120: return &kData[396]; // firework.volcano.violet
-    case 342438846: return &kData[397]; // fish.anchovy
-    case -587989372: return &kData[398]; // fish.catfish
-    case 1668129151: return &kData[399]; // fish.cooked
-    case -1698937385: return &kData[400]; // fish.herring
-    case -542577259: return &kData[401]; // fish.minnows
-    case -1904821376: return &kData[402]; // fish.orangeroughy
-    case 989925924: return &kData[403]; // fish.raw
-    case -851988960: return &kData[404]; // fish.salmon
-    case -1654233406: return &kData[405]; // fish.sardine
-    case -1768880890: return &kData[406]; // fish.smallshark
-    case 1130729138: return &kData[407]; // fish.spoiled
-    case -1878764039: return &kData[408]; // fish.troutsmall
-    case 680234026: return &kData[409]; // fish.yellowperch
-    case -1707425764: return &kData[410]; // fishing.tackle
-    case 1569882109: return &kData[411]; // fishingrod.handmade
-    case 559147458: return &kData[412]; // fishtrap.small
-    case -1913996738: return &kData[413]; // fishtrophy
-    case -1215753368: return &kData[414]; // flamethrower
-    case 528668503: return &kData[415]; // flameturret
-    case 304481038: return &kData[416]; // flare
-    case -196667575: return &kData[417]; // flashlight.held
-    case 936496778: return &kData[418]; // floor.grill
-    case 1948067030: return &kData[419]; // floor.ladder.hatch
-    case 607785075: return &kData[420]; // floor.ladder.hatch.toptier
-    case 1983621560: return &kData[421]; // floor.triangle.grill
-    case 2041899972: return &kData[422]; // floor.triangle.ladder.hatch
-    case -478923685: return &kData[423]; // floor.triangle.ladder.hatch.toptier
-    case -265292885: return &kData[424]; // fluid.combiner
-    case -1166712463: return &kData[425]; // fluid.splitter
-    case 443432036: return &kData[426]; // fluid.switch
-    case -1973785141: return &kData[427]; // fogmachine
-    case -1647389398: return &kData[428]; // frankensteinmask
-    case -134959124: return &kData[429]; // frankensteins.monster.01.head
-    case 106959911: return &kData[430]; // frankensteins.monster.01.legs
-    case -1624770297: return &kData[431]; // frankensteins.monster.01.torso
-    case -1732475823: return &kData[432]; // frankensteins.monster.02.head
-    case 835042040: return &kData[433]; // frankensteins.monster.02.legs
-    case 1491753484: return &kData[434]; // frankensteins.monster.02.torso
-    case -297099594: return &kData[435]; // frankensteins.monster.03.head
-    case -2024549027: return &kData[436]; // frankensteins.monster.03.legs
-    case 1614528785: return &kData[437]; // frankensteins.monster.03.torso
-    case 1575635062: return &kData[438]; // frankensteintable
-    case 1413014235: return &kData[439]; // fridge
-    case 1937380239: return &kData[440]; // frontier_hatchet
-    case 242933621: return &kData[441]; // frontiermirror.large
-    case 2055695285: return &kData[442]; // frontiermirror.medium
-    case 340210699: return &kData[443]; // frontiermirror.small
-    case 1787198294: return &kData[444]; // frontiermirror.standing
-    case -2107018088: return &kData[445]; // fun.bass
-    case 576509618: return &kData[446]; // fun.boomboxportable
-    case -1530414568: return &kData[447]; // fun.casetterecorder
-    case -1049881973: return &kData[448]; // fun.cowbell
-    case -2040817543: return &kData[449]; // fun.flute
-    case -2124352573: return &kData[450]; // fun.guitar
-    case -979951147: return &kData[451]; // fun.jerrycanguitar
-    case -1379036069: return &kData[452]; // fun.tambourine
-    case 273172220: return &kData[453]; // fun.trumpet
-    case 1784406797: return &kData[454]; // fun.tuba
-    case -1999722522: return &kData[455]; // furnace
-    case -1992717673: return &kData[456]; // furnace.large
-    case -629028935: return &kData[457]; // fuse
-    case -401905610: return &kData[458]; // gates.external.high.adobe
-    case -1442339204: return &kData[459]; // gates.external.high.legacy
-    case -691113464: return &kData[460]; // gates.external.high.stone
-    case -335089230: return &kData[461]; // gates.external.high.wood
-    case 479143914: return &kData[462]; // gears
-    case 999690781: return &kData[463]; // geiger.counter
-    case -379403794: return &kData[464]; // generator.water
-    case -1819763926: return &kData[465]; // generator.wind.scrap
-    case -1043618880: return &kData[466]; // ghostsheet
-    case -695124222: return &kData[467]; // giantcandycanedecor
-    case 282103175: return &kData[468]; // giantlollipops
-    case -558880549: return &kData[469]; // gingerbreadsuit
-    case -690276911: return &kData[470]; // gloweyes
-    case -1899491405: return &kData[471]; // glue
-    case -996235148: return &kData[472]; // goldframe.large
-    case -1901993050: return &kData[473]; // goldframe.medium
-    case -1836526520: return &kData[474]; // goldframe.small
-    case -1528767189: return &kData[475]; // goldframe.standing
-    case -1430299277: return &kData[476]; // goldframe.xl
-    case -1322332389: return &kData[477]; // goldframe.xxl
-    case 1365234594: return &kData[478]; // goldmirror.large
-    case -1804515496: return &kData[479]; // goldmirror.medium
-    case -1444650226: return &kData[480]; // goldmirror.small
-    case 2120241887: return &kData[481]; // goldmirror.standing
-    case -746030907: return &kData[482]; // granolabar
-    case 809199956: return &kData[483]; // gravestone
-    case -455286320: return &kData[484]; // grayidtag
-    case 858486327: return &kData[485]; // green.berry
-    case 1762167092: return &kData[486]; // greenidtag
-    case 1840822026: return &kData[487]; // grenade.beancan
-    case 1168916338: return &kData[488]; // grenade.bee
-    case 143803535: return &kData[489]; // grenade.f1
-    case -936921910: return &kData[490]; // grenade.flashbang
-    case 1556365900: return &kData[491]; // grenade.molotov
-    case 1263920163: return &kData[492]; // grenade.smoke
-    case -568419968: return &kData[493]; // grub
-    case 722955039: return &kData[494]; // gun.water
-    case -265876753: return &kData[495]; // gunpowder
-    case -246672609: return &kData[496]; // gunrack.horizontal
-    case 1973949960: return &kData[497]; // gunrack.single.1.horizontal
-    case -849373693: return &kData[498]; // gunrack.single.2.horizontal
-    case -52398594: return &kData[499]; // gunrack.single.3.horizontal
-    case 1132603396: return &kData[500]; // gunrack_stand
-    case 240752557: return &kData[501]; // gunrack_tall.horizontal
-    case -96256997: return &kData[502]; // gunrack_wide.horizontal
-    case 352499047: return &kData[503]; // guntrap
-    case 696029539: return &kData[504]; // hab
-    case -1989600732: return &kData[505]; // hab.armor
-    case -1923843855: return &kData[506]; // half.bamboo.shelves
-    case 786458957: return &kData[507]; // halfheight.industrial.shelves
-    case -888153050: return &kData[508]; // halloween.candy
-    case 479292118: return &kData[509]; // halloween.lootbag.large
-    case 1899610628: return &kData[510]; // halloween.lootbag.medium
-    case 1319617282: return &kData[511]; // halloween.lootbag.small
-    case 277730763: return &kData[512]; // halloween.mummysuit
-    case -1785231475: return &kData[513]; // halloween.surgeonsuit
-    case 200773292: return &kData[514]; // hammer
-    case -1506397857: return &kData[515]; // hammer.salvaged
-    case -839576748: return &kData[516]; // handcuffs
-    case 1516531815: return &kData[517]; // harvestingtea
-    case 1675639563: return &kData[518]; // hat.beenie
-    case -23994173: return &kData[519]; // hat.boonie
-    case 23391694: return &kData[520]; // hat.bunnyhat
-    case 1714496074: return &kData[521]; // hat.candle
-    case 1633553557: return &kData[522]; // hat.candle.birthday
-    case -1022661119: return &kData[523]; // hat.cap
-    case -22883916: return &kData[524]; // hat.dragonmask
-    case 1659114910: return &kData[525]; // hat.gas.mask
-    case -418359052: return &kData[526]; // hat.horsemask
-    case -1539025626: return &kData[527]; // hat.miner
-    case 1315082560: return &kData[528]; // hat.oxmask
-    case -986782031: return &kData[529]; // hat.rabbitmask
-    case 271048478: return &kData[530]; // hat.ratmask
-    case -1314079879: return &kData[531]; // hat.snakemask
-    case 709206314: return &kData[532]; // hat.tigermask
-    case -507248640: return &kData[533]; // hat.wellipets
-    case -1478212975: return &kData[534]; // hat.wolf
-    case -1252059217: return &kData[535]; // hatchet
-    case -902423513: return &kData[536]; // hazmat.krieg
-    case 1578317134: return &kData[537]; // hazmat.plushy
-    case 1266491000: return &kData[538]; // hazmatsuit
-    case -470439097: return &kData[539]; // hazmatsuit.arcticsuit
-    case -797592358: return &kData[540]; // hazmatsuit.diver
-    case -105415879: return &kData[541]; // hazmatsuit.frontier
-    case 972302244: return &kData[542]; // hazmatsuit.kick
-    case 861513346: return &kData[543]; // hazmatsuit.lumberjack
-    case 491263800: return &kData[544]; // hazmatsuit.nomadsuit
-    case 1065594600: return &kData[545]; // hazmatsuit.pilot
-    case -560304835: return &kData[546]; // hazmatsuit.spacesuit
-    case -253079493: return &kData[547]; // hazmatsuit_scientist
-    case 1107575710: return &kData[548]; // hazmatsuit_scientist_arctic
-    case -1937799374: return &kData[549]; // hazmatsuit_scientist_naval
-    case 86840834: return &kData[550]; // hazmatsuit_scientist_nvgm
-    case -1958316066: return &kData[551]; // hazmatsuit_scientist_peacekeeper
-    case 468313189: return &kData[552]; // hazmatsuittwitch
-    case -1696379844: return &kData[553]; // hazmatyoutooz
-    case 209218760: return &kData[554]; // head.bag
-    case -929092070: return &kData[555]; // healingtea
-    case -2123125470: return &kData[556]; // healingtea.advanced
-    case -1677315902: return &kData[557]; // healingtea.pure
-    case 362863314: return &kData[558]; // heartballoon2025
-    case 1181207482: return &kData[559]; // heavy.plate.helmet
-    case -1102429027: return &kData[560]; // heavy.plate.jacket
-    case -1778159885: return &kData[561]; // heavy.plate.pants
-    case 146221721: return &kData[562]; // heavy.scientist.plushie
-    case -722629980: return &kData[563]; // heavyscientistyoutooz
-    case 1160881421: return &kData[564]; // hitchtroughcombo
-    case -1214542497: return &kData[565]; // hmlmg
-    case -1442559428: return &kData[566]; // hobobarrel
-    case -218009552: return &kData[567]; // homingmissile.launcher
-    case 1601800933: return &kData[568]; // honey
-    case -1513203236: return &kData[569]; // honeycomb
-    case 1751045826: return &kData[570]; // hoodie
-    case 1428574144: return &kData[571]; // hopper
-    case 82772055: return &kData[572]; // horse
-    case -2068194497: return &kData[573]; // horse.armor.lny26
-    case 60528587: return &kData[574]; // horse.armor.roadsign
-    case 1659447559: return &kData[575]; // horse.armor.wood
-    case 1420547167: return &kData[576]; // horse.costume
-    case -1997543660: return &kData[577]; // horse.saddle
-    case -1323101799: return &kData[578]; // horse.saddle.double
-    case 1559915778: return &kData[579]; // horse.saddle.single
-    case 1400460850: return &kData[580]; // horse.saddlebag
-    case 1989785143: return &kData[581]; // horse.shoes.advanced
-    case -1211268013: return &kData[582]; // horse.shoes.basic
-    case -1579932985: return &kData[583]; // horsedung
-    case 1917703890: return &kData[584]; // horsemeat.burned
-    case -1162759543: return &kData[585]; // horsemeat.cooked
-    case -1130350864: return &kData[586]; // horsemeat.raw
-    case -724146494: return &kData[587]; // horsemeat.spoiled
-    case 363163265: return &kData[588]; // hosetool
-    case -1982036270: return &kData[589]; // hq.metal.ore
-    case -682687162: return &kData[590]; // humanmeat.burned
-    case 1536610005: return &kData[591]; // humanmeat.cooked
-    case -1709878924: return &kData[592]; // humanmeat.raw
-    case 1272768630: return &kData[593]; // humanmeat.spoiled
-    case 960673498: return &kData[594]; // huntingtrophylarge
-    case -869598982: return &kData[595]; // huntingtrophysmall
-    case -1780802565: return &kData[596]; // icepick.salvaged
-    case 196784377: return &kData[597]; // improvised.shield
-    case -786398324: return &kData[598]; // industrial.autoturret
-    case 1538126328: return &kData[599]; // industrial.combiner
-    case 610102428: return &kData[600]; // industrial.conveyor
-    case 1430085198: return &kData[601]; // industrial.crafter
-    case 225892284: return &kData[602]; // industrial.electric.furnace
-    case 1868984394: return &kData[603]; // industrial.furnace.large
-    case 346569548: return &kData[604]; // industrial.garagedoor
-    case 742745918: return &kData[605]; // industrial.splitter
-    case -1019111952: return &kData[606]; // industrial.storage.horizontal
-    case -883975138: return &kData[607]; // industrial.storage.vertical
-    case 4474927: return &kData[608]; // industrial.torch
-    case 1623701499: return &kData[609]; // industrial.wall.light
-    case 920930831: return &kData[610]; // industrial.wall.light.blue
-    case 1268178466: return &kData[611]; // industrial.wall.light.green
-    case -1160621614: return &kData[612]; // industrial.wall.light.red
-    case -697981032: return &kData[613]; // innertube
-    case 185586769: return &kData[614]; // innertube.horse
-    case 2052270186: return &kData[615]; // innertube.unicorn
-    case 210787554: return &kData[616]; // iotable
-    case -1163532624: return &kData[617]; // jacket
-    case -48090175: return &kData[618]; // jacket.snow
-    case 1488979457: return &kData[619]; // jackhammer
-    case 1242482355: return &kData[620]; // jackolantern.angry
-    case -1824943010: return &kData[621]; // jackolantern.happy
-    case 286193827: return &kData[622]; // jar.pickle
-    case -97459906: return &kData[623]; // jumpsuit.suit
-    case 1601468620: return &kData[624]; // jumpsuit.suit.blue
-    case -874908751: return &kData[625]; // jumpsuit.waterwellnpc
-    case 1350707894: return &kData[626]; // jungle.rock
-    case 190184021: return &kData[627]; // kayak
-    case -484206264: return &kData[628]; // keycard_blue
-    case 37122747: return &kData[629]; // keycard_green
-    case -1880870149: return &kData[630]; // keycard_red
-    case -1622386500: return &kData[631]; // kickgems
-    case 1814288539: return &kData[632]; // knife.bone
-    case 158303804: return &kData[633]; // knife.bone.obsidian
-    case -194509282: return &kData[634]; // knife.butcher
-    case 2040726127: return &kData[635]; // knife.combat
-    case -2073432256: return &kData[636]; // knife.skinning
-    case -427072335: return &kData[637]; // knightsarmour.helmet
-    case -945708533: return &kData[638]; // knightsarmour.skirt
-    case 547862680: return &kData[639]; // knighttorso.armour
-    case -1770281406: return &kData[640]; // krieg.chainsword
-    case -420889602: return &kData[641]; // krieg.shotgun
-    case 652793345: return &kData[642]; // krieg.storage.horizontal
-    case 1305765685: return &kData[643]; // krieg.storage.vertical
-    case -874650016: return &kData[644]; // kriegbackpack
-    case 255305250: return &kData[645]; // ladder.wooden.boat
-    case -316250604: return &kData[646]; // ladder.wooden.wall
-    case 1658229558: return &kData[647]; // lantern
-    case -907422733: return &kData[648]; // largebackpack
-    case -489848205: return &kData[649]; // largecandles
-    case 254522515: return &kData[650]; // largemedkit
-    case 853471967: return &kData[651]; // laserlight
-    case 1295301598: return &kData[652]; // latexballoon2025
-    case -1440443161: return &kData[653]; // latexclumpballoon2025
-    case 1223729384: return &kData[654]; // lavenderidtag
-    case 1381010055: return &kData[655]; // leather
-    case -73195037: return &kData[656]; // legacy bow
-    case 607400343: return &kData[657]; // legacy.shelter.wood
-    case -1310391395: return &kData[658]; // legacyfurnace
-    case 242421166: return &kData[659]; // lightup.large
-    case 1801656689: return &kData[660]; // lightup.xl
-    case 1447138977: return &kData[661]; // lightup.xxl
-    case -1294739579: return &kData[662]; // lightupframe.medium
-    case 1691223771: return &kData[663]; // lightupframe.small
-    case 1950013766: return &kData[664]; // lightupframe.standing
-    case 450531685: return &kData[665]; // lightupmirror.large
-    case 1028889957: return &kData[666]; // lightupmirror.medium
-    case -389796733: return &kData[667]; // lightupmirror.small
-    case 1916016738: return &kData[668]; // lightupmirror.standing
-    case -2069578888: return &kData[669]; // lmg.m249
-    case 1159991980: return &kData[670]; // lock.code
-    case 1586884551: return &kData[671]; // lock.code.a.pilot
-    case -850982208: return &kData[672]; // lock.key
-    case -110921842: return &kData[673]; // locker
-    case -2027988285: return &kData[674]; // locomotive
-    case -1469578201: return &kData[675]; // longsword
-    case -946369541: return &kData[676]; // lowgradefuel
-    case -763071910: return &kData[677]; // lumberjack hoodie
-    case -399173933: return &kData[678]; // lumberjack.hatchet
-    case 236677901: return &kData[679]; // lumberjack.pickaxe
-    case -1961560162: return &kData[680]; // lunar.firecrackers
-    case 599591861: return &kData[681]; // m16a2
-    case -1966748496: return &kData[682]; // mace
-    case -2026042603: return &kData[683]; // mace.baseballbat
-    case -1137865085: return &kData[684]; // machete
-    case -586784898: return &kData[685]; // mailbox
-    case -1035206446: return &kData[686]; // mannequin
-    case 696029452: return &kData[687]; // map
-    case -2012470695: return &kData[688]; // mask.balaclava
-    case -702051347: return &kData[689]; // mask.bandana
-    case -1184406448: return &kData[690]; // maxhealthtea
-    case 603811464: return &kData[691]; // maxhealthtea.advanced
-    case 1712261904: return &kData[692]; // maxhealthtea.pure
-    case 621915341: return &kData[693]; // meat.boar
-    case 1391703481: return &kData[694]; // meat.pork.burned
-    case -242084766: return &kData[695]; // meat.pork.cooked
-    case 814297925: return &kData[696]; // medieval.box.wooden.large
-    case -380502678: return &kData[697]; // medieval.door.double.hinged.metal
-    case -1654401345: return &kData[698]; // medieval.door.hinged.metal
-    case -583379016: return &kData[699]; // megaphone
-    case 1168856825: return &kData[700]; // metal.detector
-    case -194953424: return &kData[701]; // metal.facemask
-    case -1334569149: return &kData[702]; // metal.facemask.hockey
-    case 110116923: return &kData[703]; // metal.facemask.icemask
-    case 69511070: return &kData[704]; // metal.fragments
-    case -4031221: return &kData[705]; // metal.ore
-    case 1110385766: return &kData[706]; // metal.plate.torso
-    case -1478855279: return &kData[707]; // metal.plate.torso.icevest
-    case 317398316: return &kData[708]; // metal.refined
-    case 625599716: return &kData[709]; // metal.shield
-    case 1882709339: return &kData[710]; // metalblade
-    case 95950017: return &kData[711]; // metalpipe
-    case -1021495308: return &kData[712]; // metalspring
-    case 39600618: return &kData[713]; // microphonestand
-    case 703057617: return &kData[714]; // military flamethrower
-    case 1361520181: return &kData[715]; // minecart.planter
-    case 1174484438: return &kData[716]; // mini fridge
-    case -1334255764: return &kData[717]; // minicopter
-    case -482348853: return &kData[718]; // minicrossbow
-    case 935606207: return &kData[719]; // minigun
-    case 355877490: return &kData[720]; // minigunammopack
-    case 1426574435: return &kData[721]; // minihelicopter.repair
-    case -1130709577: return &kData[722]; // mining.pumpjack
-    case 1052926200: return &kData[723]; // mining.quarry
-    case 1572152877: return &kData[724]; // mintidtag
-    case 571949408: return &kData[725]; // mixedclumpballoon2025
-    case 1259919256: return &kData[726]; // mixingtable
-    case -1449152644: return &kData[727]; // mlrs
-    case -20045316: return &kData[728]; // mobilephone
-    case 1696050067: return &kData[729]; // modularcarlift
-    case 1459828804: return &kData[730]; // mortar.deployable
-    case -1417478274: return &kData[731]; // motorbike
-    case 1869224826: return &kData[732]; // motorbike_sidecar
-    case -2047081330: return &kData[733]; // movembermoustache
-    case 3380160: return &kData[734]; // movembermoustachecard
-    case -648077743: return &kData[735]; // mrspice.can
-    case -1123473824: return &kData[736]; // multiplegrenadelauncher
-    case 809689733: return &kData[737]; // mummymask
-    case -1962971928: return &kData[738]; // mushroom
-    case 381595627: return &kData[739]; // neonsigntr
-    case -961457160: return &kData[740]; // newyeargong
-    case -1518883088: return &kData[741]; // nightvisiongoggles
-    case 1414245162: return &kData[742]; // note
-    case -1811234677: return &kData[743]; // nucleus
-    case -282193997: return &kData[744]; // orangeidtag
-    case 734320711: return &kData[745]; // orchid
-    case 1480022580: return &kData[746]; // oretea
-    case 2063916636: return &kData[747]; // oretea.advanced
-    case 1729374708: return &kData[748]; // oretea.pure
-    case -2133781216: return &kData[749]; // oubreak_scientist
-    case 1621942085: return &kData[750]; // outbreak.sprayer
-    case 1491189398: return &kData[751]; // paddle
-    case -733625651: return &kData[752]; // paddlingpool
-    case -1039234836: return &kData[753]; // paintabletarget.reactive
-    case -707792719: return &kData[754]; // paintballgun
-    case -1014934560: return &kData[755]; // paintballoveralls.suit
-    case 237239288: return &kData[756]; // pants
-    case -1695367501: return &kData[757]; // pants.shorts
-    case -1779183908: return &kData[758]; // paper
-    case 602628465: return &kData[759]; // parachute
-    case 1784005657: return &kData[760]; // parachute.deployed
-    case -575744869: return &kData[761]; // partyhat
-    case 62577426: return &kData[762]; // photo
-    case 1697996440: return &kData[763]; // photoframe.landscape
-    case 1205084994: return &kData[764]; // photoframe.large
-    case 1729712564: return &kData[765]; // photoframe.portrait
-    case 1272430949: return &kData[766]; // piano
-    case -1302129395: return &kData[767]; // pickaxe
-    case 4384538: return &kData[768]; // pie.apple
-    case 2039177180: return &kData[769]; // pie.bear
-    case 309017792: return &kData[770]; // pie.bigcat
-    case 120820987: return &kData[771]; // pie.chicken
-    case 54265286: return &kData[772]; // pie.crocodile
-    case -1785248332: return &kData[773]; // pie.fish
-    case 320438357: return &kData[774]; // pie.hunters
-    case 1467878256: return &kData[775]; // pie.pork
-    case -1488408786: return &kData[776]; // pie.pumpkin
-    case -963820355: return &kData[777]; // pie.survivors
-    case 537946062: return &kData[778]; // pilot.hazmat.box.wooden
-    case -1442496789: return &kData[779]; // pinata
-    case 180752235: return &kData[780]; // pinkidtag
-    case -144513264: return &kData[781]; // pipetool
-    case -75944661: return &kData[782]; // pistol.eoka
-    case -852563019: return &kData[783]; // pistol.m92
-    case 1953903201: return &kData[784]; // pistol.nailgun
-    case 1914691295: return &kData[785]; // pistol.prototype17
-    case 1373971859: return &kData[786]; // pistol.python
-    case 649912614: return &kData[787]; // pistol.revolver
-    case 818877484: return &kData[788]; // pistol.semiauto
-    case 1673224590: return &kData[789]; // pistol.semiauto.a.m15
-    case -1815301988: return &kData[790]; // pistol.water
-    case 1883981798: return &kData[791]; // piston1
-    case 1883981801: return &kData[792]; // piston2
-    case 1883981800: return &kData[793]; // piston3
-    case 1090916276: return &kData[794]; // pitchfork
-    case -952411326: return &kData[795]; // plank
-    case 1581210395: return &kData[796]; // planter.large
-    case 1903654061: return &kData[797]; // planter.small
-    case -280812482: return &kData[798]; // planter.triangle
-    case -804769727: return &kData[799]; // plantfiber
-    case -430416124: return &kData[800]; // plantpot.single
-    case -1651220691: return &kData[801]; // pookie.bear
-    case 1925646349: return &kData[802]; // porkmeat.spoiled
-    case -2086926071: return &kData[803]; // potato
-    case -365097295: return &kData[804]; // powered.water.purifier
-    case -892718768: return &kData[805]; // prisonerhood
-    case -1673693549: return &kData[806]; // propanetank
-    case 1933140008: return &kData[807]; // ptboat
-    case 140006625: return &kData[808]; // ptz.cctv.camera
-    case -567909622: return &kData[809]; // pumpkin
-    case 1346158228: return &kData[810]; // pumpkinbasket
-    case 1121416193: return &kData[811]; // purecoolingtea
-    case 97903330: return &kData[812]; // purecraftingtea_quality
-    case 377750553: return &kData[813]; // pureharvestingtea
-    case -1476814093: return &kData[814]; // purewarmingtea
-    case -1386082991: return &kData[815]; // purpleidtag
-    case -496584751: return &kData[816]; // radiationremovetea
-    case 2021351233: return &kData[817]; // radiationremovetea.advanced
-    case 1905387657: return &kData[818]; // radiationremovetea.pure
-    case -487356515: return &kData[819]; // radiationresisttea
-    case -1729415579: return &kData[820]; // radiationresisttea.advanced
-    case -33009419: return &kData[821]; // radiationresisttea.pure
-    case 615112838: return &kData[822]; // rail.road.planter
-    case 1272194103: return &kData[823]; // red.berry
-    case -602717596: return &kData[824]; // reddogtags
-    case 70102328: return &kData[825]; // redidtag
-    case 969768382: return &kData[826]; // reinforced.wooden.shield
-    case -1861522751: return &kData[827]; // research.table
-    case -544317637: return &kData[828]; // researchpaper
-    case -92315244: return &kData[829]; // revolver.hc
-    case 596469572: return &kData[830]; // rf.detonator
-    case -566907190: return &kData[831]; // rf_pager
-    case 1394042569: return &kData[832]; // rhib
-    case 1545779598: return &kData[833]; // rifle.ak
-    case -139037392: return &kData[834]; // rifle.ak.diver
-    case -1335497659: return &kData[835]; // rifle.ak.ice
-    case 2054929933: return &kData[836]; // rifle.ak.jungle
-    case 472505338: return &kData[837]; // rifle.ak.med
-    case 1588298435: return &kData[838]; // rifle.bolt
-    case -778367295: return &kData[839]; // rifle.l96
-    case -1812555177: return &kData[840]; // rifle.lr300
-    case 533993281: return &kData[841]; // rifle.lr300.space
-    case 28201841: return &kData[842]; // rifle.m39
-    case -904863145: return &kData[843]; // rifle.semiauto
-    case -348232115: return &kData[844]; // rifle.sks
-    case 176787552: return &kData[845]; // riflebody
-    case 671063303: return &kData[846]; // riot.helmet
-    case -699558439: return &kData[847]; // roadsign.gloves
-    case -2002277461: return &kData[848]; // roadsign.jacket
-    case 1850456855: return &kData[849]; // roadsign.kilt
-    case 1199391518: return &kData[850]; // roadsigns
-    case 963906841: return &kData[851]; // rock
-    case 442886268: return &kData[852]; // rocket.launcher
-    case -1315992997: return &kData[853]; // rocket.launcher.dragon
-    case 494161326: return &kData[854]; // rocket.launcher.rpg7
-    case -1863063690: return &kData[855]; // rockingchair
-    case 1758333838: return &kData[856]; // rockingchair.rockingchair2
-    case 192249897: return &kData[857]; // rockingchair.rockingchair3
-    case 1414245522: return &kData[858]; // rope
-    case 1414245519: return &kData[859]; // rose
-    case 1878053256: return &kData[860]; // rowboat
-    case -1985799200: return &kData[861]; // rug
-    case -1104881824: return &kData[862]; // rug.bear
-    case -173268129: return &kData[863]; // rustige_egg_a
-    case -173268132: return &kData[864]; // rustige_egg_b
-    case -173268131: return &kData[865]; // rustige_egg_c
-    case -173268126: return &kData[866]; // rustige_egg_d
-    case -173268125: return &kData[867]; // rustige_egg_e
-    case -173268128: return &kData[868]; // rustige_egg_f
-    case -173268127: return &kData[869]; // rustige_egg_g
-    case -173268138: return &kData[870]; // rustige_egg_h
-    case 405905095: return &kData[871]; // sail
-    case -2110553371: return &kData[872]; // salvaged.bamboo.shelves
-    case -1978999529: return &kData[873]; // salvaged.cleaver
-    case -1018026008: return &kData[874]; // salvaged.industrial.shelves
-    case 1326180354: return &kData[875]; // salvaged.sword
-    case -1009359066: return &kData[876]; // samsite
-    case 2126889441: return &kData[877]; // santabeard
-    case -575483084: return &kData[878]; // santahat
-    case 177226991: return &kData[879]; // scarecrow
-    case 273951840: return &kData[880]; // scarecrow.suit
-    case 809942731: return &kData[881]; // scarecrowhead
-    case 445662288: return &kData[882]; // scientist.plushie
-    case -1772746857: return &kData[883]; // scientistsuit_heavy
-    case -932201673: return &kData[884]; // scrap
-    case -1094453063: return &kData[885]; // scrapframe.large
-    case -1060567807: return &kData[886]; // scrapframe.medium
-    case -498301781: return &kData[887]; // scrapframe.small
-    case -1774190142: return &kData[888]; // scrapframe.standing
-    case -1244287686: return &kData[889]; // scrapframe.xl
-    case -1211801774: return &kData[890]; // scrapframe.xxl
-    case -82758111: return &kData[891]; // scrapmirror.large
-    case 839738457: return &kData[892]; // scrapmirror.medium
-    case -1050697733: return &kData[893]; // scrapmirror.small
-    case -1380144986: return &kData[894]; // scrapmirror.standing
-    case 263834859: return &kData[895]; // scraptea
-    case 524678627: return &kData[896]; // scraptea.advanced
-    case 2024467711: return &kData[897]; // scraptea.pure
-    case 375473148: return &kData[898]; // scraptransportheli
-    case 504109620: return &kData[899]; // sculpture.ice
-    case 2087678962: return &kData[900]; // searchlight
-    case 567871954: return &kData[901]; // secretlabchair
-    case -374457631: return &kData[902]; // sedan
-    case 1911552868: return &kData[903]; // seed.black.berry
-    case 803954639: return &kData[904]; // seed.blue.berry
-    case 998894949: return &kData[905]; // seed.corn
-    case -1776128552: return &kData[906]; // seed.green.berry
-    case -237809779: return &kData[907]; // seed.hemp
-    case 1004843240: return &kData[908]; // seed.orchid
-    case -2084071424: return &kData[909]; // seed.potato
-    case -1511285251: return &kData[910]; // seed.pumpkin
-    case 830839496: return &kData[911]; // seed.red.berry
-    case -1037472336: return &kData[912]; // seed.rose
-    case 1412103380: return &kData[913]; // seed.sunflower
-    case -1790885730: return &kData[914]; // seed.wheat
-    case -992286106: return &kData[915]; // seed.white.berry
-    case -520133715: return &kData[916]; // seed.yellow.berry
-    case 573926264: return &kData[917]; // semibody
-    case 1234880403: return &kData[918]; // sewingkit
-    case -1994909036: return &kData[919]; // sheetmetal
-    case 1950721418: return &kData[920]; // shelves
-    case -2025184684: return &kData[921]; // shirt.collared
-    case 1608640313: return &kData[922]; // shirt.tanktop
-    case -1549739227: return &kData[923]; // shoes.boots
-    case -765183617: return &kData[924]; // shotgun.double
-    case 678698219: return &kData[925]; // shotgun.m4
-    case 795371088: return &kData[926]; // shotgun.pump
-    case -41440462: return &kData[927]; // shotgun.spas12
-    case -1367281941: return &kData[928]; // shotgun.waterpipe
-    case -1536855921: return &kData[929]; // shovel
-    case -1199897169: return &kData[930]; // shutter.metal.embrasure.a
-    case -1199897172: return &kData[931]; // shutter.metal.embrasure.b
-    case -1023374709: return &kData[932]; // shutter.wood.a
-    case -1368584029: return &kData[933]; // sickle
-    case -1290278434: return &kData[934]; // siegetower
-    case -946599114: return &kData[935]; // sign.artistcanvas.l
-    case -946599113: return &kData[936]; // sign.artistcanvas.m
-    case -946599131: return &kData[937]; // sign.artistcanvas.s
-    case 1562867678: return &kData[938]; // sign.artistcanvas.xl
-    case 1609921845: return &kData[939]; // sign.artistcanvas.xs
-    case -816769770: return &kData[940]; // sign.artistcanvas.xxl
-    case 1205607945: return &kData[941]; // sign.hanging
-    case 23352662: return &kData[942]; // sign.hanging.banner.large
-    case -1647846966: return &kData[943]; // sign.hanging.ornate
-    case 1305578813: return &kData[944]; // sign.neon.125x125
-    case -1423304443: return &kData[945]; // sign.neon.125x215
-    case 42535890: return &kData[946]; // sign.neon.125x215.animated
-    case 866332017: return &kData[947]; // sign.neon.xl
-    case 1643667218: return &kData[948]; // sign.neon.xl.animated
-    case -845557339: return &kData[949]; // sign.pictureframe.landscape
-    case -1370759135: return &kData[950]; // sign.pictureframe.portrait
-    case 121049755: return &kData[951]; // sign.pictureframe.tall
-    case -996185386: return &kData[952]; // sign.pictureframe.xl
-    case 98508942: return &kData[953]; // sign.pictureframe.xxl
-    case 2070189026: return &kData[954]; // sign.pole.banner.large
-    case 1521286012: return &kData[955]; // sign.post.double
-    case 1542290441: return &kData[956]; // sign.post.single
-    case -1832422579: return &kData[957]; // sign.post.town
-    case 826309791: return &kData[958]; // sign.post.town.roof
-    case -143132326: return &kData[959]; // sign.wooden.huge
-    case 1153652756: return &kData[960]; // sign.wooden.large
-    case -1819233322: return &kData[961]; // sign.wooden.medium
-    case -1138208076: return &kData[962]; // sign.wooden.small
-    case 1849409072: return &kData[963]; // silly.horse.mask
-    case -193519904: return &kData[964]; // single.shallow.wall.shelves
-    case -1056824343: return &kData[965]; // skidoo
-    case 1312843609: return &kData[966]; // skull
-    case 996293980: return &kData[967]; // skull.human
-    case -769647921: return &kData[968]; // skull.trophy
-    case 971362526: return &kData[969]; // skull.trophy.jar
-    case -924959988: return &kData[970]; // skull.trophy.jar2
-    case -156748077: return &kData[971]; // skull.trophy.table
-    case 2048317869: return &kData[972]; // skull.wolf
-    case 553887414: return &kData[973]; // skull_fire_pit
-    case -216116642: return &kData[974]; // skulldoorknocker
-    case -1073015016: return &kData[975]; // skullspikes
-    case -25740268: return &kData[976]; // skullspikes.candles
-    case -1078639462: return &kData[977]; // skullspikes.pumpkin
-    case 1819863051: return &kData[978]; // skylantern
-    case -1770889433: return &kData[979]; // skylantern.skylantern.green
-    case -1824770114: return &kData[980]; // skylantern.skylantern.orange
-    case 831955134: return &kData[981]; // skylantern.skylantern.purple
-    case -1433390281: return &kData[982]; // skylantern.skylantern.red
-    case -333406828: return &kData[983]; // sled
-    case -135252633: return &kData[984]; // sled.xmas
-    case -1754948969: return &kData[985]; // sleepingbag
-    case -1293296287: return &kData[986]; // small.oil.refinery
-    case -158718378: return &kData[987]; // small_ramp
-    case 2068884361: return &kData[988]; // smallbackpack
-    case -2058362263: return &kData[989]; // smallcandles
-    case -2115299615: return &kData[990]; // smallengine
-    case -1039528932: return &kData[991]; // smallwaterbottle
-    case -695978112: return &kData[992]; // smart.alarm
-    case 988652725: return &kData[993]; // smart.switch
-    case 1796682209: return &kData[994]; // smg.2
-    case 1318558775: return &kData[995]; // smg.mp5
-    case -1758372725: return &kData[996]; // smg.thompson
-    case 1230323789: return &kData[997]; // smgbody
-    case -2100458529: return &kData[998]; // snakemeat
-    case -170436364: return &kData[999]; // snakemeat.cooked
-    case -1616704051: return &kData[1000]; // snakemeat.spoiled
-    case -363689972: return &kData[1001]; // snowball
-    case 1103488722: return &kData[1002]; // snowballgun
-    case 1358643074: return &kData[1003]; // snowmachine
-    case 1629293099: return &kData[1004]; // snowman
-    case -1364246987: return &kData[1005]; // snowmobile
-    case 1768112091: return &kData[1006]; // snowmobiletomaha
-    case -555122905: return &kData[1007]; // sofa
-    case 782422285: return &kData[1008]; // sofa.pattern
-    case -343857907: return &kData[1009]; // soundlight
-    case -89874794: return &kData[1010]; // sparkplug1
-    case -493159321: return &kData[1011]; // sparkplug2
-    case 1072924620: return &kData[1012]; // sparkplug3
-    case 695450239: return &kData[1013]; // spear.cny
-    case 1602646136: return &kData[1014]; // spear.stone
-    case 1540934679: return &kData[1015]; // spear.wooden
-    case -1517740219: return &kData[1016]; // speargun
-    case -1800345240: return &kData[1017]; // speargun.spear
-    case 963400638: return &kData[1018]; // speechbubbleballoon2025
-    case 882559853: return &kData[1019]; // spiderweb
-    case -92759291: return &kData[1020]; // spikes.floor
-    case -1850297170: return &kData[1021]; // spikes.trap
-    case -1100422738: return &kData[1022]; // spinner.wheel
-    case 1184215560: return &kData[1023]; // spoiled.produce
-    case 1885488976: return &kData[1024]; // spookyspeaker
-    case -596876839: return &kData[1025]; // spraycan
-    case -1366326648: return &kData[1026]; // spraycandecal
-    case -1782127806: return &kData[1027]; // starballoon2025
-    case -369760990: return &kData[1028]; // stash.small
-    case -1866909924: return &kData[1029]; // steeringwheel.boat
-    case 642482233: return &kData[1030]; // sticks
-    case -465682601: return &kData[1031]; // stocking.large
-    case 1668858301: return &kData[1032]; // stocking.small
-    case 171931394: return &kData[1033]; // stone.pickaxe
-    case -1583967946: return &kData[1034]; // stonehatchet
-    case -2099697608: return &kData[1035]; // stones
-    case 1149964039: return &kData[1036]; // storage.monitor
-    case -258457936: return &kData[1037]; // storage_barrel_a
-    case 1307626005: return &kData[1038]; // storage_barrel_b
-    case -1421257350: return &kData[1039]; // storage_barrel_c
-    case -1049172752: return &kData[1040]; // storageadaptor
-    case 2104517339: return &kData[1041]; // strobelight
-    case -1671551935: return &kData[1042]; // submarine.torpedo.straight
-    case 1015352446: return &kData[1043]; // submarineduo
-    case -187031121: return &kData[1044]; // submarinesolo
-    case -1581843485: return &kData[1045]; // sulfur
-    case -1157596551: return &kData[1046]; // sulfur.ore
-    case -611118083: return &kData[1047]; // sunflower
-    case 352321488: return &kData[1048]; // sunglasses
-    case 1258768145: return &kData[1049]; // sunglasses02black
-    case -2103694546: return &kData[1050]; // sunglasses02camo
-    case 1557173737: return &kData[1051]; // sunglasses02red
-    case -176608084: return &kData[1052]; // sunglasses03black
-    case -1997698639: return &kData[1053]; // sunglasses03chrome
-    case -1408336705: return &kData[1054]; // sunglasses03gold
-    case 789333045: return &kData[1055]; // sunken.knife
-    case -1003665711: return &kData[1056]; // supertea
-    case 1397052267: return &kData[1057]; // supply.signal
-    case 1975934948: return &kData[1058]; // surveycharge
-    case 1079279582: return &kData[1059]; // syringe.medical
-    case 2083256995: return &kData[1060]; // t1_smg
-    case 593465182: return &kData[1061]; // table
-    case -1108136649: return &kData[1062]; // tactical.gloves
-    case -1736356576: return &kData[1063]; // target.reactive
-    case 1523195708: return &kData[1064]; // targeting.computer
-    case 2019042823: return &kData[1065]; // tarp
-    case 73681876: return &kData[1066]; // techparts
-    case 1234878710: return &kData[1067]; // telephone
-    case 962186730: return &kData[1068]; // tincan.alarm
-    case -1262185308: return &kData[1069]; // tool.binoculars
-    case -1316706473: return &kData[1070]; // tool.camera
-    case -2001260025: return &kData[1071]; // tool.instant_camera
-    case 1803831286: return &kData[1072]; // toolgun
-    case 795236088: return &kData[1073]; // torch
-    case -1175656359: return &kData[1074]; // torch.torch.skull
-    case 446206234: return &kData[1075]; // torchholder
-    case -582782051: return &kData[1076]; // trap.bear
-    case -1663759755: return &kData[1077]; // trap.landmine
-    case 647240052: return &kData[1078]; // triangle.rail.road.planter
-    case 1991794121: return &kData[1079]; // trike
-    case 975983052: return &kData[1080]; // trophy
-    case -901370585: return &kData[1081]; // trophy2023
-    case 223891266: return &kData[1082]; // tshirt
-    case 935692442: return &kData[1083]; // tshirt.long
-    case -561148628: return &kData[1084]; // tugboat
-    case -1478445584: return &kData[1085]; // tunalight
-    case -1569700847: return &kData[1086]; // twitch.headset
-    case -243540612: return &kData[1087]; // twitchrivals2023desk
-    case 1604092540: return &kData[1088]; // twitchrivals2025sofa
-    case -739993590: return &kData[1089]; // twitchrivalsflag
-    case 20489901: return &kData[1090]; // twitchsunglasses
-    case 1330084809: return &kData[1091]; // valve1
-    case 926800282: return &kData[1092]; // valve2
-    case -1802083073: return &kData[1093]; // valve3
-    case -885833256: return &kData[1094]; // vampire.stake
-    case -1501451746: return &kData[1095]; // vehicle.1mod.cockpit
-    case 1874610722: return &kData[1096]; // vehicle.1mod.cockpit.armored
-    case 170758448: return &kData[1097]; // vehicle.1mod.cockpit.with.engine
-    case 1559779253: return &kData[1098]; // vehicle.1mod.engine
-    case -1880231361: return &kData[1099]; // vehicle.1mod.flatbed
-    case -1615281216: return &kData[1100]; // vehicle.1mod.passengers.armored
-    case 1376065505: return &kData[1101]; // vehicle.1mod.rear.seats
-    case 268565518: return &kData[1102]; // vehicle.1mod.storage
-    case -626174997: return &kData[1103]; // vehicle.1mod.taxi
-    case -1040518150: return &kData[1104]; // vehicle.2mod.camper
-    case -1693832478: return &kData[1105]; // vehicle.2mod.flatbed
-    case 1186655046: return &kData[1106]; // vehicle.2mod.fuel.tank
-    case 895374329: return &kData[1107]; // vehicle.2mod.passengers
-    case 721798950: return &kData[1108]; // vehicle.car_radio
-    case 1770744540: return &kData[1109]; // vehicle.chassis
-    case -44066600: return &kData[1110]; // vehicle.chassis.2mod
-    case -44066823: return &kData[1111]; // vehicle.chassis.3mod
-    case -44066790: return &kData[1112]; // vehicle.chassis.4mod
-    case 878301596: return &kData[1113]; // vehicle.module
-    case 198438816: return &kData[1114]; // vending.machine
-    case -870140677: return &kData[1115]; // venom.snake
-    case 996757362: return &kData[1116]; // wagon
-    case -1416322465: return &kData[1117]; // walkietalkie
-    case 99588025: return &kData[1118]; // wall.external.high
-    case 756890702: return &kData[1119]; // wall.external.high.adobe
-    case -985781766: return &kData[1120]; // wall.external.high.ice
-    case -1993883724: return &kData[1121]; // wall.external.high.legacy
-    case -967648160: return &kData[1122]; // wall.external.high.stone
-    case -1429456799: return &kData[1123]; // wall.frame.cell
-    case -956706906: return &kData[1124]; // wall.frame.cell.gate
-    case -1117626326: return &kData[1125]; // wall.frame.fence
-    case 1451568081: return &kData[1126]; // wall.frame.fence.gate
-    case -148794216: return &kData[1127]; // wall.frame.garagedoor
-    case 1115193056: return &kData[1128]; // wall.frame.lunar2025_a
-    case -450890885: return &kData[1129]; // wall.frame.lunar2025_b
-    case -2016974826: return &kData[1130]; // wall.frame.lunar2025_c
-    case 1516985844: return &kData[1131]; // wall.frame.netting
-    case -796583652: return &kData[1132]; // wall.frame.shopfront
-    case -148229307: return &kData[1133]; // wall.frame.shopfront.metal
-    case -1679267738: return &kData[1134]; // wall.graveyard.fence
-    case 1327005675: return &kData[1135]; // wall.ice.wall
-    case -265202949: return &kData[1136]; // wall.shallow.industrial.shelves
-    case -819720157: return &kData[1137]; // wall.window.bars.metal
-    case 671706427: return &kData[1138]; // wall.window.bars.toptier
-    case -1183726687: return &kData[1139]; // wall.window.bars.wood
-    case -1614955425: return &kData[1140]; // wall.window.glass.reinforced
-    case 1730664641: return &kData[1141]; // wallpaper.ceiling
-    case -551431036: return &kData[1142]; // wallpaper.flooring
-    case 1629564540: return &kData[1143]; // wallpaper.tool
-    case 553967074: return &kData[1144]; // wallpaper.wall
-    case -1344017968: return &kData[1145]; // wantedposter
-    case 301063058: return &kData[1146]; // wantedposter.wantedposter2
-    case -1265020883: return &kData[1147]; // wantedposter.wantedposter3
-    case 1463862472: return &kData[1148]; // wantedposter.wantedposter4
-    case -1142222427: return &kData[1149]; // warmingtea
-    case -463122489: return &kData[1150]; // watchtower.wood
-    case -1779180711: return &kData[1151]; // water
-    case -1863559151: return &kData[1152]; // water.barrel
-    case -1100168350: return &kData[1153]; // water.catcher.large
-    case -132247350: return &kData[1154]; // water.catcher.small
-    case 2114754781: return &kData[1155]; // water.purifier
-    case 1811780502: return &kData[1156]; // water.radioactive
-    case -277057363: return &kData[1157]; // water.salt
-    case -119235651: return &kData[1158]; // waterjug
-    case -1284169891: return &kData[1159]; // waterpump
-    case 174866732: return &kData[1160]; // weapon.mod.8x.scope
-    case 838308300: return &kData[1161]; // weapon.mod.burstmodule
-    case 2005491391: return &kData[1162]; // weapon.mod.extendedmags
-    case 952603248: return &kData[1163]; // weapon.mod.flashlight
-    case -1767794021: return &kData[1164]; // weapon.mod.gascompressionovedrive
-    case 442289265: return &kData[1165]; // weapon.mod.holosight
-    case -132516482: return &kData[1166]; // weapon.mod.lasersight
-    case -1405508498: return &kData[1167]; // weapon.mod.muzzleboost
-    case 1478091698: return &kData[1168]; // weapon.mod.muzzlebrake
-    case -781866273: return &kData[1169]; // weapon.mod.oilfiltersilencer
-    case -1850571427: return &kData[1170]; // weapon.mod.silencer
-    case -855748505: return &kData[1171]; // weapon.mod.simplesight
-    case 567235583: return &kData[1172]; // weapon.mod.small.scope
-    case -1659598760: return &kData[1173]; // weapon.mod.sodacansilencer
-    case 1719587208: return &kData[1174]; // weapon.mod.targetingattachment
-    case 1277159544: return &kData[1175]; // weaponrack.doublelight
-    case -1163943815: return &kData[1176]; // weaponrack.light
-    case 1178325727: return &kData[1177]; // wheat
-    case 854447607: return &kData[1178]; // white.berry
-    case 22947882: return &kData[1179]; // whiteidtag
-    case -526026171: return &kData[1180]; // wicker.barrel
-    case 738611016: return &kData[1181]; // window.paintable
-    case -144417939: return &kData[1182]; // wiretool
-    case 1827479659: return &kData[1183]; // wolfmeat.burned
-    case 813023040: return &kData[1184]; // wolfmeat.cooked
-    case -395377963: return &kData[1185]; // wolfmeat.raw
-    case -1167031859: return &kData[1186]; // wolfmeat.spoiled
-    case -151838493: return &kData[1187]; // wood
-    case -2094954543: return &kData[1188]; // wood.armor.helmet
-    case 418081930: return &kData[1189]; // wood.armor.jacket
-    case 832133926: return &kData[1190]; // wood.armor.pants
-    case -459159118: return &kData[1191]; // woodarmor.gloves
-    case 699075597: return &kData[1192]; // woodcross
-    case 1604837581: return &kData[1193]; // wooden.shield
-    case -635951327: return &kData[1194]; // woodframe.large
-    case -1541706279: return &kData[1195]; // woodframe.medium
-    case -1476278729: return &kData[1196]; // woodframe.small
-    case 1769475390: return &kData[1197]; // woodframe.standing
-    case 1312679249: return &kData[1198]; // woodmirror.large
-    case 756125481: return &kData[1199]; // woodmirror.medium
-    case -1497205569: return &kData[1200]; // woodmirror.small
-    case 723407026: return &kData[1201]; // woodmirror.standing
-    case -649128577: return &kData[1202]; // woodtea
-    case -541206665: return &kData[1203]; // woodtea.advanced
-    case -557539629: return &kData[1204]; // woodtea.pure
-    case 798382300: return &kData[1205]; // workbench.upgrade.accelerated
-    case -770390391: return &kData[1206]; // workbench.upgrade.comfort
-    case -1953279770: return &kData[1207]; // workbench.upgrade.defensive
-    case 1215602244: return &kData[1208]; // workbench.upgrade.efficiency
-    case -180862419: return &kData[1209]; // workbench.upgrade.prototype
-    case 1470387662: return &kData[1210]; // workbench.upgrade.range
-    case -286541059: return &kData[1211]; // workbench.upgrade.recyclebin
-    case 112268546: return &kData[1212]; // workbench.upgrade.reinforced
-    case -160105346: return &kData[1213]; // workbench.upgrade.salvage
-    case -1536343135: return &kData[1214]; // workbench.upgrade.surplus
-    case 1524187186: return &kData[1215]; // workbench1
-    case -41896755: return &kData[1216]; // workbench2
-    case -1607980696: return &kData[1217]; // workbench3
-    case -810326667: return &kData[1218]; // workcart
-    case 1770475779: return &kData[1219]; // worm
-    case 204970153: return &kData[1220]; // wrappedgift
-    case 1094293920: return &kData[1221]; // wrappingpaper
-    case -2027793839: return &kData[1222]; // xmas.advent
-    case -1667224349: return &kData[1223]; // xmas.decoration.baubels
-    case -209869746: return &kData[1224]; // xmas.decoration.candycanes
-    case 1686524871: return &kData[1225]; // xmas.decoration.gingerbreadmen
-    case 1723747470: return &kData[1226]; // xmas.decoration.lights
-    case -129230242: return &kData[1227]; // xmas.decoration.pinecone
-    case -1331212963: return &kData[1228]; // xmas.decoration.star
-    case 2106561762: return &kData[1229]; // xmas.decoration.tinsel
-    case 674734128: return &kData[1230]; // xmas.door.garland
-    case -1230433643: return &kData[1231]; // xmas.double.door.garland
-    case 1058261682: return &kData[1232]; // xmas.lightstring
-    case -151387974: return &kData[1233]; // xmas.lightstring.advanced
-    case -1622660759: return &kData[1234]; // xmas.present.large
-    case 756517185: return &kData[1235]; // xmas.present.medium
-    case -722241321: return &kData[1236]; // xmas.present.small
-    case 794443127: return &kData[1237]; // xmas.tree
-    case -1379835144: return &kData[1238]; // xmas.window.garland
-    case 2009734114: return &kData[1239]; // xmasdoorwreath
-    case -211235948: return &kData[1240]; // xylophone
-    case 1660145984: return &kData[1241]; // yellow.berry
-    case 81423963: return &kData[1242]; // yellowidtag
+    case -1639742441: return &kData[83]; // bar.stool.metal
+    case -1444366079: return &kData[84]; // bar.stool.wood
+    case -1215166612: return &kData[85]; // barrelcostume
+    case -1950721390: return &kData[86]; // barricade.concrete
+    case -424687710: return &kData[87]; // barricade.medieval
+    case 1655650836: return &kData[88]; // barricade.metal
+    case -559599960: return &kData[89]; // barricade.sandbags
+    case 15388698: return &kData[90]; // barricade.stone
+    case 866889860: return &kData[91]; // barricade.wood
+    case 1373240771: return &kData[92]; // barricade.wood.cover
+    case 1382263453: return &kData[93]; // barricade.woodwire
+    case -1024954624: return &kData[94]; // base.half.shelves
+    case 655356057: return &kData[95]; // base.horizontal.barrel
+    case -1695149731: return &kData[96]; // base.single.shelves
+    case 2045583965: return &kData[97]; // base.vertical.barrel
+    case -143481979: return &kData[98]; // basicblueprintfragment
+    case -1274093662: return &kData[99]; // bathtub.planter
+    case -187304968: return &kData[100]; // batteringram
+    case -479314201: return &kData[101]; // batteringram.head.repair
+    case 609049394: return &kData[102]; // battery.small
+    case 1099314009: return &kData[103]; // bbq
+    case 1468749025: return &kData[104]; // bdu.pants
+    case -2127311451: return &kData[105]; // bdu.shirt
+    case -321431890: return &kData[106]; // beachchair
+    case -1621539785: return &kData[107]; // beachparasol
+    case 657352755: return &kData[108]; // beachtable
+    case -8312704: return &kData[109]; // beachtowel
+    case -576866254: return &kData[110]; // beanbagseatfabric
+    case -1220928936: return &kData[111]; // beanbagseatleather
+    case -1520560807: return &kData[112]; // bearmeat
+    case -989755543: return &kData[113]; // bearmeat.burned
+    case 1873897110: return &kData[114]; // bearmeat.cooked
+    case 1348294923: return &kData[115]; // bearmeat.spoiled
+    case -1273339005: return &kData[116]; // bed
+    case 184516676: return &kData[117]; // beehive
+    case 821588319: return &kData[118]; // bicycle
+    case -2095813057: return &kData[119]; // bigcatmeat
+    case -1318837358: return &kData[120]; // bigcatmeat.cooked
+    case 248643189: return &kData[121]; // bigcatmeat.spoiled
+    case 1771755747: return &kData[122]; // black.berry
+    case 1931713481: return &kData[123]; // black.raspberries
+    case 1553078977: return &kData[124]; // bleach
+    case 1776460938: return &kData[125]; // blood
+    case -851288382: return &kData[126]; // blowpipe
+    case 1112162468: return &kData[127]; // blue.berry
+    case -586342290: return &kData[128]; // blueberries
+    case 1036321299: return &kData[129]; // bluedogtags
+    case 1364514421: return &kData[130]; // blueidtag
+    case -996920608: return &kData[131]; // blueprintbase
+    case -880412831: return &kData[132]; // blunderbuss
+    case -321247698: return &kData[133]; // boat.planner
+    case 1993693904: return &kData[134]; // boatbuildingstation
+    case 1746956556: return &kData[135]; // bone.armor.suit
+    case 1711033574: return &kData[136]; // bone.club
+    case 1719978075: return &kData[137]; // bone.fragments
+    case -1478094705: return &kData[138]; // boogieboard
+    case -1113501606: return &kData[139]; // boombox
+    case 1680793490: return &kData[140]; // boomerang
+    case -1000573653: return &kData[141]; // boots.frog
+    case 613961768: return &kData[142]; // botabag
+    case 755224797: return &kData[143]; // bottle.vodka
+    case 884424049: return &kData[144]; // bow.compound
+    case 1443579727: return &kData[145]; // bow.hunting
+    case 803222026: return &kData[146]; // box.repair.bench
+    case -180129657: return &kData[147]; // box.wooden
+    case 833533164: return &kData[148]; // box.wooden.large
+    case 281099360: return &kData[149]; // bread.loaf
+    case 850280505: return &kData[150]; // bucket.helmet
+    case 1424075905: return &kData[151]; // bucket.water
+    case 1525520776: return &kData[152]; // building.planner
+    case 1285226495: return &kData[153]; // bunny.suit
+    case 1366282552: return &kData[154]; // burlap.gloves
+    case 21402876: return &kData[155]; // burlap.gloves.new
+    case 1877339384: return &kData[156]; // burlap.headwrap
+    case 602741290: return &kData[157]; // burlap.shirt
+    case -761829530: return &kData[158]; // burlap.shoes
+    case 1992974553: return &kData[159]; // burlap.trousers
+    case 1732236518: return &kData[160]; // caboose
+    case 1783512007: return &kData[161]; // cactusflesh
+    case 1973165031: return &kData[162]; // cakefiveyear
+    case 1946219319: return &kData[163]; // campfire
+    case -700591459: return &kData[164]; // can.beans
+    case 1655979682: return &kData[165]; // can.beans.empty
+    case -1941646328: return &kData[166]; // can.tuna
+    case -1557377697: return &kData[167]; // can.tuna.empty
+    case 1121925526: return &kData[168]; // candycane
+    case 1789825282: return &kData[169]; // candycaneclub
+    case -34498533: return &kData[170]; // cannon
+    case -411735114: return &kData[171]; // cannonball
+    case 1230691307: return &kData[172]; // captainslog
+    case 656371028: return &kData[173]; // carburetor1
+    case 656371027: return &kData[174]; // carburetor2
+    case 656371026: return &kData[175]; // carburetor3
+    case 1081921512: return &kData[176]; // cardtable
+    case 1524980732: return &kData[177]; // carvable.pumpkin
+    case 476066818: return &kData[178]; // cassette
+    case -912398867: return &kData[179]; // cassette.medium
+    case 1523403414: return &kData[180]; // cassette.short
+    case 1145722690: return &kData[181]; // catapult
+    case 1954597876: return &kData[182]; // catapult.ammo.bee
+    case 1831249347: return &kData[183]; // catapult.ammo.boulder
+    case -1827561369: return &kData[184]; // catapult.ammo.explosive
+    case -484006286: return &kData[185]; // catapult.ammo.incendiary
+    case 634478325: return &kData[186]; // cctv.camera
+    case 1142993169: return &kData[187]; // ceilinglight
+    case 1104520648: return &kData[188]; // chainsaw
+    case 1534542921: return &kData[189]; // chair
+    case -463012608: return &kData[190]; // chair.ejector.seat
+    case -1944704288: return &kData[191]; // chair.icethrone
+    case -1938052175: return &kData[192]; // charcoal
+    case 2130820932: return &kData[193]; // charity.plushy.01
+    case 2130820933: return &kData[194]; // charity.plushy.02
+    case 2130820934: return &kData[195]; // charity.plushy.03
+    case 2130820927: return &kData[196]; // charity.plushy.04
+    case 1973684065: return &kData[197]; // chicken.burned
+    case -1848736516: return &kData[198]; // chicken.cooked
+    case -152332823: return &kData[199]; // chicken.costume
+    case -1440987069: return &kData[200]; // chicken.raw
+    case -751151717: return &kData[201]; // chicken.spoiled
+    case -2018158920: return &kData[202]; // chickencoop
+    case -1916473915: return &kData[203]; // chineselantern
+    case -770304148: return &kData[204]; // chineselanternwhite
+    case -965336208: return &kData[205]; // chocolate
+    case -105343718: return &kData[206]; // circleballoon2025
+    case 486661382: return &kData[207]; // clantable
+    case 968019378: return &kData[208]; // clatter.helmet
+    case 122783240: return &kData[209]; // clone.black.berry
+    case 838831151: return &kData[210]; // clone.blue.berry
+    case -778875547: return &kData[211]; // clone.corn
+    case -1305326964: return &kData[212]; // clone.green.berry
+    case -886280491: return &kData[213]; // clone.hemp
+    case -798662404: return &kData[214]; // clone.orchid
+    case 1512054436: return &kData[215]; // clone.potato
+    case 1898094925: return &kData[216]; // clone.pumpkin
+    case 2133269020: return &kData[217]; // clone.red.berry
+    case -19360132: return &kData[218]; // clone.rose
+    case 912235912: return &kData[219]; // clone.sunflower
+    case 924598634: return &kData[220]; // clone.wheat
+    case 1533551194: return &kData[221]; // clone.white.berry
+    case 390728933: return &kData[222]; // clone.yellow.berry
+    case -858312878: return &kData[223]; // cloth
+    case -606898372: return &kData[224]; // clothing.mannequin
+    case -903796529: return &kData[225]; // clothing.mod.armorinsert_asbestos
+    case 2047789913: return &kData[226]; // clothing.mod.armorinsert_lead
+    case 1099611828: return &kData[227]; // clothing.mod.armorinsert_metal
+    case -593892112: return &kData[228]; // clothing.mod.armorinsert_wood
+    case 204391461: return &kData[229]; // coal
+    case 1873004466: return &kData[230]; // cocoknight.armor.gloves
+    case -582467439: return &kData[231]; // cocoknight.armor.helmet
+    case 507284030: return &kData[232]; // cocoknight.armor.pants
+    case 1426097945: return &kData[233]; // cocoknight.armor.torso
+    case -24571537: return &kData[234]; // coconut
+    case -803263829: return &kData[235]; // coffeecan.helmet
+    case 573676040: return &kData[236]; // coffin.storage
+    case -1247485104: return &kData[237]; // command.block
+    case 594041190: return &kData[238]; // compass
+    case -1593678393: return &kData[239]; // component.box.ammo.large
+    case 1254295946: return &kData[240]; // component.box.armor.large
+    case 1884461210: return &kData[241]; // component.box.charcoal.large
+    case 1736620421: return &kData[242]; // component.box.clothing.large
+    case -413663149: return &kData[243]; // component.box.comps.large
+    case -1998423571: return &kData[244]; // component.box.explosives.large
+    case 1023919015: return &kData[245]; // component.box.food.large
+    case -544295594: return &kData[246]; // component.box.guns.large
+    case -800824218: return &kData[247]; // component.box.meds.large
+    case 1465782238: return &kData[248]; // component.box.metal.large
+    case 992944937: return &kData[249]; // component.box.ore.large
+    case 574701440: return &kData[250]; // component.box.scrap.large
+    case 94971664: return &kData[251]; // component.box.stone.large
+    case -10594280: return &kData[252]; // component.box.sulfur.large
+    case 679690962: return &kData[253]; // component.box.tools.large
+    case 1044081720: return &kData[254]; // component.box.wood.large
+    case -1488398114: return &kData[255]; // composter
+    case -1588628467: return &kData[256]; // computerstation
+    case 1176355476: return &kData[257]; // concretehatchet
+    case -1360171080: return &kData[258]; // concretepickaxe
+    case 1603174987: return &kData[259]; // confetticannon
+    case 968421290: return &kData[260]; // connected.speaker
+    case 1456143403: return &kData[261]; // cookingworkbench
+    case -1260229965: return &kData[262]; // coolingtea
+    case 1367190888: return &kData[263]; // corn
+    case 368008432: return &kData[264]; // craftingtea_quality
+    case 1158340334: return &kData[265]; // crankshaft1
+    case 1158340331: return &kData[266]; // crankshaft2
+    case 1158340332: return &kData[267]; // crankshaft3
+    case 1189981699: return &kData[268]; // cratecostume
+    case -1081599445: return &kData[269]; // crocodilemeat
+    case 392828520: return &kData[270]; // crocodilemeat.cooked
+    case -1796837031: return &kData[271]; // crocodilemeat.spoiled
+    case 1965232394: return &kData[272]; // crossbow
+    case 2022157467: return &kData[273]; // crossbowbowless
+    case -321733511: return &kData[274]; // crude.oil
+    case -97956382: return &kData[275]; // cupboard.tool
+    case 1488606552: return &kData[276]; // cupboard.tool.retro
+    case 1174957864: return &kData[277]; // cupboard.tool.shockbyte
+    case 1242522330: return &kData[278]; // cursedcauldron
+    case -963819285: return &kData[279]; // dart.incapacitate
+    case -594596146: return &kData[280]; // dart.radiation
+    case 2036395619: return &kData[281]; // dart.scatter
+    case -274709858: return &kData[282]; // dart.wood
+    case -872679147: return &kData[283]; // dartboard
+    case -1903165497: return &kData[284]; // deer.skull.mask
+    case -78533081: return &kData[285]; // deermeat.burned
+    case -1509851560: return &kData[286]; // deermeat.cooked
+    case 1422530437: return &kData[287]; // deermeat.raw
+    case -2035449523: return &kData[288]; // deermeat.spoiled
+    case 1568388703: return &kData[289]; // diesel_barrel
+    case 1895235349: return &kData[290]; // discoball
+    case 286648290: return &kData[291]; // discofloor
+    case 1735402444: return &kData[292]; // discofloor.largetiles
+    case -1800102806: return &kData[293]; // discord.plushie
+    case 1494014226: return &kData[294]; // discord.trophy
+    case 1046904719: return &kData[295]; // diverhatchet
+    case 1561022037: return &kData[296]; // diverpickaxe
+    case 1846605708: return &kData[297]; // divertorch
+    case 296519935: return &kData[298]; // diving.fins
+    case -113413047: return &kData[299]; // diving.mask
+    case -2022172587: return &kData[300]; // diving.tank
+    case -1559420426: return &kData[301]; // diving.tank.double
+    case -1101924344: return &kData[302]; // diving.wetsuit
+    case -451310088: return &kData[303]; // documents
+    case 1223900335: return &kData[304]; // dogtagneutral
+    case 1409529282: return &kData[305]; // door.closer
+    case -1151332840: return &kData[306]; // door.double.hinged.bardoors
+    case 1390353317: return &kData[307]; // door.double.hinged.metal
+    case 1221063409: return &kData[308]; // door.double.hinged.toptier
+    case -1336109173: return &kData[309]; // door.double.hinged.wood
+    case -1063073030: return &kData[310]; // door.hinged.boat.wood
+    case 818733919: return &kData[311]; // door.hinged.industrial.a
+    case -2067472972: return &kData[312]; // door.hinged.metal
+    case 1353298668: return &kData[313]; // door.hinged.toptier
+    case 1729120840: return &kData[314]; // door.hinged.wood
+    case -1112793865: return &kData[315]; // door.key
+    case -258574361: return &kData[316]; // draculacape
+    case 1865253052: return &kData[317]; // draculamask
+    case -854270928: return &kData[318]; // dragondoorknocker
+    case 1588492232: return &kData[319]; // drone
+    case -1519126340: return &kData[320]; // dropbox
+    case -1330640246: return &kData[321]; // drumkit
+    case 1401987718: return &kData[322]; // ducttape
+    case -1779203452: return &kData[323]; // easel
+    case 844440409: return &kData[324]; // easter.bronzeegg
+    case -1002156085: return &kData[325]; // easter.goldegg
+    case -126305173: return &kData[326]; // easter.paintedeggs
+    case 1757265204: return &kData[327]; // easter.silveregg
+    case 1856217390: return &kData[328]; // easterbasket
+    case -979302481: return &kData[329]; // easterdoorwreath
+    case 1858828593: return &kData[330]; // egg
+    case 1171735914: return &kData[331]; // electric.andswitch
+    case 2100007442: return &kData[332]; // electric.audioalarm
+    case 553270375: return &kData[333]; // electric.battery.rechargable.large
+    case 2023888403: return &kData[334]; // electric.battery.rechargable.medium
+    case -692338819: return &kData[335]; // electric.battery.rechargable.small
+    case -690968985: return &kData[336]; // electric.blocker
+    case 104856514: return &kData[337]; // electric.bulbstringlights
+    case -1778897469: return &kData[338]; // electric.button
+    case 1835946060: return &kData[339]; // electric.cabletunnel
+    case -1510616686: return &kData[340]; // electric.chandelier
+    case -216999575: return &kData[341]; // electric.counter
+    case 1619039771: return &kData[342]; // electric.digitalclock
+    case -502177121: return &kData[343]; // electric.doorcontroller
+    case 54436981: return &kData[344]; // electric.fairylights
+    case -939424778: return &kData[345]; // electric.flasherlight
+    case 1892536031: return &kData[346]; // electric.fluorescentlight
+    case 640470230: return &kData[347]; // electric.fluorescentlight.ceiling
+    case 1849887541: return &kData[348]; // electric.fuelgenerator.small
+    case -1196547867: return &kData[349]; // electric.furnace
+    case -295829489: return &kData[350]; // electric.generator.small
+    case -1507239837: return &kData[351]; // electric.hbhfsensor
+    case -784870360: return &kData[352]; // electric.heater
+    case -44876289: return &kData[353]; // electric.igniter
+    case -798293154: return &kData[354]; // electric.laserdetector
+    case -1286302544: return &kData[355]; // electric.orswitch
+    case -2049214035: return &kData[356]; // electric.pressurepad
+    case 492357192: return &kData[357]; // electric.random.switch
+    case -1044468317: return &kData[358]; // electric.rf.broadcaster
+    case 888415708: return &kData[359]; // electric.rf.receiver
+    case -948291630: return &kData[360]; // electric.seismicsensor
+    case -282113991: return &kData[361]; // electric.simplelight
+    case 762289806: return &kData[362]; // electric.sirenlight
+    case 2090395347: return &kData[363]; // electric.solarpanel.large
+    case -563624462: return &kData[364]; // electric.splitter
+    case -1258821205: return &kData[365]; // electric.spotlight
+    case -2134097299: return &kData[366]; // electric.spotlight.tripod
+    case -781014061: return &kData[367]; // electric.sprinkler
+    case 1951603367: return &kData[368]; // electric.switch
+    case 1717250161: return &kData[369]; // electric.tablelight
+    case 1371909803: return &kData[370]; // electric.teslacoil
+    case 665332906: return &kData[371]; // electric.timer
+    case 656829501: return &kData[372]; // electric.wallcabinet
+    case 1293102274: return &kData[373]; // electric.xorswitch
+    case -1448252298: return &kData[374]; // electrical.branch
+    case -458565393: return &kData[375]; // electrical.combiner
+    case -746647361: return &kData[376]; // electrical.memorycell
+    case 1177596584: return &kData[377]; // elevator
+    case -1878475007: return &kData[378]; // explosive.satchel
+    case 1248356124: return &kData[379]; // explosive.timed
+    case -592016202: return &kData[380]; // explosives
+    case 2054391128: return &kData[381]; // factorydoor
+    case -1018587433: return &kData[382]; // fat.animal
+    case -930193596: return &kData[383]; // fertilizer
+    case -1535621066: return &kData[384]; // fireplace.stone
+    case 1744298439: return &kData[385]; // firework.boomer.blue
+    case 1324203999: return &kData[386]; // firework.boomer.champagne
+    case -656349006: return &kData[387]; // firework.boomer.green
+    case -7270019: return &kData[388]; // firework.boomer.orange
+    case -379734527: return &kData[389]; // firework.boomer.pattern
+    case -1553999294: return &kData[390]; // firework.boomer.red
+    case -280223496: return &kData[391]; // firework.boomer.violet
+    case -515830359: return &kData[392]; // firework.romancandle.blue
+    case -1306288356: return &kData[393]; // firework.romancandle.green
+    case -1486461488: return &kData[394]; // firework.romancandle.red
+    case -99886070: return &kData[395]; // firework.romancandle.violet
+    case 261913429: return &kData[396]; // firework.volcano
+    case -454370658: return &kData[397]; // firework.volcano.red
+    case -1538109120: return &kData[398]; // firework.volcano.violet
+    case 342438846: return &kData[399]; // fish.anchovy
+    case -587989372: return &kData[400]; // fish.catfish
+    case 1668129151: return &kData[401]; // fish.cooked
+    case -1698937385: return &kData[402]; // fish.herring
+    case -542577259: return &kData[403]; // fish.minnows
+    case -1904821376: return &kData[404]; // fish.orangeroughy
+    case 989925924: return &kData[405]; // fish.raw
+    case -851988960: return &kData[406]; // fish.salmon
+    case -1654233406: return &kData[407]; // fish.sardine
+    case -1768880890: return &kData[408]; // fish.smallshark
+    case 1130729138: return &kData[409]; // fish.spoiled
+    case -1878764039: return &kData[410]; // fish.troutsmall
+    case 680234026: return &kData[411]; // fish.yellowperch
+    case -1707425764: return &kData[412]; // fishing.tackle
+    case 1569882109: return &kData[413]; // fishingrod.handmade
+    case 559147458: return &kData[414]; // fishtrap.small
+    case -1913996738: return &kData[415]; // fishtrophy
+    case -1215753368: return &kData[416]; // flamethrower
+    case 528668503: return &kData[417]; // flameturret
+    case 304481038: return &kData[418]; // flare
+    case -196667575: return &kData[419]; // flashlight.held
+    case 936496778: return &kData[420]; // floor.grill
+    case 1948067030: return &kData[421]; // floor.ladder.hatch
+    case 607785075: return &kData[422]; // floor.ladder.hatch.toptier
+    case 1983621560: return &kData[423]; // floor.triangle.grill
+    case 2041899972: return &kData[424]; // floor.triangle.ladder.hatch
+    case -478923685: return &kData[425]; // floor.triangle.ladder.hatch.toptier
+    case -265292885: return &kData[426]; // fluid.combiner
+    case -1166712463: return &kData[427]; // fluid.splitter
+    case 443432036: return &kData[428]; // fluid.switch
+    case -1973785141: return &kData[429]; // fogmachine
+    case -1647389398: return &kData[430]; // frankensteinmask
+    case -134959124: return &kData[431]; // frankensteins.monster.01.head
+    case 106959911: return &kData[432]; // frankensteins.monster.01.legs
+    case -1624770297: return &kData[433]; // frankensteins.monster.01.torso
+    case -1732475823: return &kData[434]; // frankensteins.monster.02.head
+    case 835042040: return &kData[435]; // frankensteins.monster.02.legs
+    case 1491753484: return &kData[436]; // frankensteins.monster.02.torso
+    case -297099594: return &kData[437]; // frankensteins.monster.03.head
+    case -2024549027: return &kData[438]; // frankensteins.monster.03.legs
+    case 1614528785: return &kData[439]; // frankensteins.monster.03.torso
+    case 1575635062: return &kData[440]; // frankensteintable
+    case 1413014235: return &kData[441]; // fridge
+    case 1937380239: return &kData[442]; // frontier_hatchet
+    case 242933621: return &kData[443]; // frontiermirror.large
+    case 2055695285: return &kData[444]; // frontiermirror.medium
+    case 340210699: return &kData[445]; // frontiermirror.small
+    case 1787198294: return &kData[446]; // frontiermirror.standing
+    case -2107018088: return &kData[447]; // fun.bass
+    case 576509618: return &kData[448]; // fun.boomboxportable
+    case -1530414568: return &kData[449]; // fun.casetterecorder
+    case -1049881973: return &kData[450]; // fun.cowbell
+    case -2040817543: return &kData[451]; // fun.flute
+    case -2124352573: return &kData[452]; // fun.guitar
+    case -979951147: return &kData[453]; // fun.jerrycanguitar
+    case -1379036069: return &kData[454]; // fun.tambourine
+    case 273172220: return &kData[455]; // fun.trumpet
+    case 1784406797: return &kData[456]; // fun.tuba
+    case -1999722522: return &kData[457]; // furnace
+    case -1992717673: return &kData[458]; // furnace.large
+    case -629028935: return &kData[459]; // fuse
+    case -945548410: return &kData[460]; // fuse.highgrade
+    case 352442426: return &kData[461]; // gamesroom.minifridge
+    case 399522257: return &kData[462]; // gamesroom.shotgun.trap
+    case -401905610: return &kData[463]; // gates.external.high.adobe
+    case -1442339204: return &kData[464]; // gates.external.high.legacy
+    case -691113464: return &kData[465]; // gates.external.high.stone
+    case -335089230: return &kData[466]; // gates.external.high.wood
+    case 479143914: return &kData[467]; // gears
+    case 999690781: return &kData[468]; // geiger.counter
+    case -379403794: return &kData[469]; // generator.water
+    case -1819763926: return &kData[470]; // generator.wind.scrap
+    case -1043618880: return &kData[471]; // ghostsheet
+    case -695124222: return &kData[472]; // giantcandycanedecor
+    case 282103175: return &kData[473]; // giantlollipops
+    case -558880549: return &kData[474]; // gingerbreadsuit
+    case -690276911: return &kData[475]; // gloweyes
+    case -1899491405: return &kData[476]; // glue
+    case -996235148: return &kData[477]; // goldframe.large
+    case -1901993050: return &kData[478]; // goldframe.medium
+    case -1836526520: return &kData[479]; // goldframe.small
+    case -1528767189: return &kData[480]; // goldframe.standing
+    case -1430299277: return &kData[481]; // goldframe.xl
+    case -1322332389: return &kData[482]; // goldframe.xxl
+    case 1365234594: return &kData[483]; // goldmirror.large
+    case -1804515496: return &kData[484]; // goldmirror.medium
+    case -1444650226: return &kData[485]; // goldmirror.small
+    case 2120241887: return &kData[486]; // goldmirror.standing
+    case -746030907: return &kData[487]; // granolabar
+    case 809199956: return &kData[488]; // gravestone
+    case -455286320: return &kData[489]; // grayidtag
+    case 858486327: return &kData[490]; // green.berry
+    case 1762167092: return &kData[491]; // greenidtag
+    case 1840822026: return &kData[492]; // grenade.beancan
+    case 1168916338: return &kData[493]; // grenade.bee
+    case 143803535: return &kData[494]; // grenade.f1
+    case -936921910: return &kData[495]; // grenade.flashbang
+    case 1556365900: return &kData[496]; // grenade.molotov
+    case 1263920163: return &kData[497]; // grenade.smoke
+    case -568419968: return &kData[498]; // grub
+    case 722955039: return &kData[499]; // gun.water
+    case -265876753: return &kData[500]; // gunpowder
+    case -246672609: return &kData[501]; // gunrack.horizontal
+    case 1973949960: return &kData[502]; // gunrack.single.1.horizontal
+    case -849373693: return &kData[503]; // gunrack.single.2.horizontal
+    case -52398594: return &kData[504]; // gunrack.single.3.horizontal
+    case 1132603396: return &kData[505]; // gunrack_stand
+    case 240752557: return &kData[506]; // gunrack_tall.horizontal
+    case -96256997: return &kData[507]; // gunrack_wide.horizontal
+    case 352499047: return &kData[508]; // guntrap
+    case 696029539: return &kData[509]; // hab
+    case -1989600732: return &kData[510]; // hab.armor
+    case -1923843855: return &kData[511]; // half.bamboo.shelves
+    case 786458957: return &kData[512]; // halfheight.industrial.shelves
+    case -888153050: return &kData[513]; // halloween.candy
+    case 479292118: return &kData[514]; // halloween.lootbag.large
+    case 1899610628: return &kData[515]; // halloween.lootbag.medium
+    case 1319617282: return &kData[516]; // halloween.lootbag.small
+    case 277730763: return &kData[517]; // halloween.mummysuit
+    case -1785231475: return &kData[518]; // halloween.surgeonsuit
+    case 200773292: return &kData[519]; // hammer
+    case -1506397857: return &kData[520]; // hammer.salvaged
+    case -839576748: return &kData[521]; // handcuffs
+    case 1516531815: return &kData[522]; // harvestingtea
+    case 1675639563: return &kData[523]; // hat.beenie
+    case -23994173: return &kData[524]; // hat.boonie
+    case 23391694: return &kData[525]; // hat.bunnyhat
+    case 1714496074: return &kData[526]; // hat.candle
+    case 1633553557: return &kData[527]; // hat.candle.birthday
+    case -1022661119: return &kData[528]; // hat.cap
+    case -22883916: return &kData[529]; // hat.dragonmask
+    case 1659114910: return &kData[530]; // hat.gas.mask
+    case -418359052: return &kData[531]; // hat.horsemask
+    case -1539025626: return &kData[532]; // hat.miner
+    case 1315082560: return &kData[533]; // hat.oxmask
+    case -986782031: return &kData[534]; // hat.rabbitmask
+    case 271048478: return &kData[535]; // hat.ratmask
+    case -1314079879: return &kData[536]; // hat.snakemask
+    case 709206314: return &kData[537]; // hat.tigermask
+    case -507248640: return &kData[538]; // hat.wellipets
+    case -1478212975: return &kData[539]; // hat.wolf
+    case -1252059217: return &kData[540]; // hatchet
+    case -902423513: return &kData[541]; // hazmat.krieg
+    case 1578317134: return &kData[542]; // hazmat.plushy
+    case 1266491000: return &kData[543]; // hazmatsuit
+    case -470439097: return &kData[544]; // hazmatsuit.arcticsuit
+    case -797592358: return &kData[545]; // hazmatsuit.diver
+    case -105415879: return &kData[546]; // hazmatsuit.frontier
+    case 972302244: return &kData[547]; // hazmatsuit.kick
+    case 861513346: return &kData[548]; // hazmatsuit.lumberjack
+    case 491263800: return &kData[549]; // hazmatsuit.nomadsuit
+    case 1065594600: return &kData[550]; // hazmatsuit.pilot
+    case -560304835: return &kData[551]; // hazmatsuit.spacesuit
+    case -253079493: return &kData[552]; // hazmatsuit_scientist
+    case 1107575710: return &kData[553]; // hazmatsuit_scientist_arctic
+    case -1937799374: return &kData[554]; // hazmatsuit_scientist_naval
+    case 86840834: return &kData[555]; // hazmatsuit_scientist_nvgm
+    case -1958316066: return &kData[556]; // hazmatsuit_scientist_peacekeeper
+    case 468313189: return &kData[557]; // hazmatsuittwitch
+    case -1696379844: return &kData[558]; // hazmatyoutooz
+    case 209218760: return &kData[559]; // head.bag
+    case -929092070: return &kData[560]; // healingtea
+    case -2123125470: return &kData[561]; // healingtea.advanced
+    case -1677315902: return &kData[562]; // healingtea.pure
+    case 362863314: return &kData[563]; // heartballoon2025
+    case 1181207482: return &kData[564]; // heavy.plate.helmet
+    case -1102429027: return &kData[565]; // heavy.plate.jacket
+    case -1778159885: return &kData[566]; // heavy.plate.pants
+    case 146221721: return &kData[567]; // heavy.scientist.plushie
+    case -722629980: return &kData[568]; // heavyscientistyoutooz
+    case 1160881421: return &kData[569]; // hitchtroughcombo
+    case -1214542497: return &kData[570]; // hmlmg
+    case -1442559428: return &kData[571]; // hobobarrel
+    case -218009552: return &kData[572]; // homingmissile.launcher
+    case 1601800933: return &kData[573]; // honey
+    case -1513203236: return &kData[574]; // honeycomb
+    case 1751045826: return &kData[575]; // hoodie
+    case 1428574144: return &kData[576]; // hopper
+    case 82772055: return &kData[577]; // horse
+    case -2068194497: return &kData[578]; // horse.armor.lny26
+    case 60528587: return &kData[579]; // horse.armor.roadsign
+    case 1659447559: return &kData[580]; // horse.armor.wood
+    case 1420547167: return &kData[581]; // horse.costume
+    case -1997543660: return &kData[582]; // horse.saddle
+    case -1323101799: return &kData[583]; // horse.saddle.double
+    case 1559915778: return &kData[584]; // horse.saddle.single
+    case 1400460850: return &kData[585]; // horse.saddlebag
+    case 1989785143: return &kData[586]; // horse.shoes.advanced
+    case -1211268013: return &kData[587]; // horse.shoes.basic
+    case -1579932985: return &kData[588]; // horsedung
+    case 1917703890: return &kData[589]; // horsemeat.burned
+    case -1162759543: return &kData[590]; // horsemeat.cooked
+    case -1130350864: return &kData[591]; // horsemeat.raw
+    case -724146494: return &kData[592]; // horsemeat.spoiled
+    case 363163265: return &kData[593]; // hosetool
+    case -1982036270: return &kData[594]; // hq.metal.ore
+    case -682687162: return &kData[595]; // humanmeat.burned
+    case 1536610005: return &kData[596]; // humanmeat.cooked
+    case -1709878924: return &kData[597]; // humanmeat.raw
+    case 1272768630: return &kData[598]; // humanmeat.spoiled
+    case 960673498: return &kData[599]; // huntingtrophylarge
+    case -869598982: return &kData[600]; // huntingtrophysmall
+    case -1780802565: return &kData[601]; // icepick.salvaged
+    case 196784377: return &kData[602]; // improvised.shield
+    case -786398324: return &kData[603]; // industrial.autoturret
+    case 1538126328: return &kData[604]; // industrial.combiner
+    case 610102428: return &kData[605]; // industrial.conveyor
+    case 1430085198: return &kData[606]; // industrial.crafter
+    case 225892284: return &kData[607]; // industrial.electric.furnace
+    case 1868984394: return &kData[608]; // industrial.furnace.large
+    case 346569548: return &kData[609]; // industrial.garagedoor
+    case 742745918: return &kData[610]; // industrial.splitter
+    case -1019111952: return &kData[611]; // industrial.storage.horizontal
+    case -883975138: return &kData[612]; // industrial.storage.vertical
+    case 4474927: return &kData[613]; // industrial.torch
+    case 1623701499: return &kData[614]; // industrial.wall.light
+    case 920930831: return &kData[615]; // industrial.wall.light.blue
+    case 1268178466: return &kData[616]; // industrial.wall.light.green
+    case -1160621614: return &kData[617]; // industrial.wall.light.red
+    case -697981032: return &kData[618]; // innertube
+    case 185586769: return &kData[619]; // innertube.horse
+    case 2052270186: return &kData[620]; // innertube.unicorn
+    case 210787554: return &kData[621]; // iotable
+    case -1163532624: return &kData[622]; // jacket
+    case -48090175: return &kData[623]; // jacket.snow
+    case 1488979457: return &kData[624]; // jackhammer
+    case 1242482355: return &kData[625]; // jackolantern.angry
+    case -1824943010: return &kData[626]; // jackolantern.happy
+    case 286193827: return &kData[627]; // jar.pickle
+    case -1018085504: return &kData[628]; // jukebox
+    case -97459906: return &kData[629]; // jumpsuit.suit
+    case 1601468620: return &kData[630]; // jumpsuit.suit.blue
+    case -874908751: return &kData[631]; // jumpsuit.waterwellnpc
+    case 1350707894: return &kData[632]; // jungle.rock
+    case 190184021: return &kData[633]; // kayak
+    case -484206264: return &kData[634]; // keycard_blue
+    case 37122747: return &kData[635]; // keycard_green
+    case -1880870149: return &kData[636]; // keycard_red
+    case -1622386500: return &kData[637]; // kickgems
+    case 1814288539: return &kData[638]; // knife.bone
+    case 158303804: return &kData[639]; // knife.bone.obsidian
+    case -194509282: return &kData[640]; // knife.butcher
+    case 2040726127: return &kData[641]; // knife.combat
+    case -2073432256: return &kData[642]; // knife.skinning
+    case -427072335: return &kData[643]; // knightsarmour.helmet
+    case -945708533: return &kData[644]; // knightsarmour.skirt
+    case 547862680: return &kData[645]; // knighttorso.armour
+    case -1770281406: return &kData[646]; // krieg.chainsword
+    case -420889602: return &kData[647]; // krieg.shotgun
+    case 652793345: return &kData[648]; // krieg.storage.horizontal
+    case 1305765685: return &kData[649]; // krieg.storage.vertical
+    case -874650016: return &kData[650]; // kriegbackpack
+    case 255305250: return &kData[651]; // ladder.wooden.boat
+    case -316250604: return &kData[652]; // ladder.wooden.wall
+    case 1658229558: return &kData[653]; // lantern
+    case -907422733: return &kData[654]; // largebackpack
+    case -489848205: return &kData[655]; // largecandles
+    case 254522515: return &kData[656]; // largemedkit
+    case 853471967: return &kData[657]; // laserlight
+    case 1295301598: return &kData[658]; // latexballoon2025
+    case -1440443161: return &kData[659]; // latexclumpballoon2025
+    case 1223729384: return &kData[660]; // lavenderidtag
+    case 1381010055: return &kData[661]; // leather
+    case -73195037: return &kData[662]; // legacy bow
+    case 607400343: return &kData[663]; // legacy.shelter.wood
+    case -1310391395: return &kData[664]; // legacyfurnace
+    case 242421166: return &kData[665]; // lightup.large
+    case 1801656689: return &kData[666]; // lightup.xl
+    case 1447138977: return &kData[667]; // lightup.xxl
+    case -1294739579: return &kData[668]; // lightupframe.medium
+    case 1691223771: return &kData[669]; // lightupframe.small
+    case 1950013766: return &kData[670]; // lightupframe.standing
+    case 450531685: return &kData[671]; // lightupmirror.large
+    case 1028889957: return &kData[672]; // lightupmirror.medium
+    case -389796733: return &kData[673]; // lightupmirror.small
+    case 1916016738: return &kData[674]; // lightupmirror.standing
+    case -2069578888: return &kData[675]; // lmg.m249
+    case 1159991980: return &kData[676]; // lock.code
+    case 1586884551: return &kData[677]; // lock.code.a.pilot
+    case -850982208: return &kData[678]; // lock.key
+    case -110921842: return &kData[679]; // locker
+    case -2027988285: return &kData[680]; // locomotive
+    case -1469578201: return &kData[681]; // longsword
+    case -946369541: return &kData[682]; // lowgradefuel
+    case -763071910: return &kData[683]; // lumberjack hoodie
+    case -399173933: return &kData[684]; // lumberjack.hatchet
+    case 236677901: return &kData[685]; // lumberjack.pickaxe
+    case -1961560162: return &kData[686]; // lunar.firecrackers
+    case 599591861: return &kData[687]; // m16a2
+    case -1966748496: return &kData[688]; // mace
+    case -2026042603: return &kData[689]; // mace.baseballbat
+    case -1137865085: return &kData[690]; // machete
+    case -586784898: return &kData[691]; // mailbox
+    case -1035206446: return &kData[692]; // mannequin
+    case 696029452: return &kData[693]; // map
+    case -2012470695: return &kData[694]; // mask.balaclava
+    case -702051347: return &kData[695]; // mask.bandana
+    case -1184406448: return &kData[696]; // maxhealthtea
+    case 603811464: return &kData[697]; // maxhealthtea.advanced
+    case 1712261904: return &kData[698]; // maxhealthtea.pure
+    case 621915341: return &kData[699]; // meat.boar
+    case 1391703481: return &kData[700]; // meat.pork.burned
+    case -242084766: return &kData[701]; // meat.pork.cooked
+    case 814297925: return &kData[702]; // medieval.box.wooden.large
+    case -380502678: return &kData[703]; // medieval.door.double.hinged.metal
+    case -1654401345: return &kData[704]; // medieval.door.hinged.metal
+    case -583379016: return &kData[705]; // megaphone
+    case 1168856825: return &kData[706]; // metal.detector
+    case -194953424: return &kData[707]; // metal.facemask
+    case -1334569149: return &kData[708]; // metal.facemask.hockey
+    case 110116923: return &kData[709]; // metal.facemask.icemask
+    case 69511070: return &kData[710]; // metal.fragments
+    case -4031221: return &kData[711]; // metal.ore
+    case 1110385766: return &kData[712]; // metal.plate.torso
+    case -1478855279: return &kData[713]; // metal.plate.torso.icevest
+    case 317398316: return &kData[714]; // metal.refined
+    case 625599716: return &kData[715]; // metal.shield
+    case 1882709339: return &kData[716]; // metalblade
+    case 95950017: return &kData[717]; // metalpipe
+    case -1021495308: return &kData[718]; // metalspring
+    case 39600618: return &kData[719]; // microphonestand
+    case 703057617: return &kData[720]; // military flamethrower
+    case 1361520181: return &kData[721]; // minecart.planter
+    case 1174484438: return &kData[722]; // mini fridge
+    case -1334255764: return &kData[723]; // minicopter
+    case -482348853: return &kData[724]; // minicrossbow
+    case 935606207: return &kData[725]; // minigun
+    case 355877490: return &kData[726]; // minigunammopack
+    case 1426574435: return &kData[727]; // minihelicopter.repair
+    case -1130709577: return &kData[728]; // mining.pumpjack
+    case 1052926200: return &kData[729]; // mining.quarry
+    case 1572152877: return &kData[730]; // mintidtag
+    case 571949408: return &kData[731]; // mixedclumpballoon2025
+    case 1259919256: return &kData[732]; // mixingtable
+    case -1449152644: return &kData[733]; // mlrs
+    case -20045316: return &kData[734]; // mobilephone
+    case 1696050067: return &kData[735]; // modularcarlift
+    case 1459828804: return &kData[736]; // mortar.deployable
+    case -1417478274: return &kData[737]; // motorbike
+    case 1869224826: return &kData[738]; // motorbike_sidecar
+    case -2047081330: return &kData[739]; // movembermoustache
+    case 3380160: return &kData[740]; // movembermoustachecard
+    case -648077743: return &kData[741]; // mrspice.can
+    case -1123473824: return &kData[742]; // multiplegrenadelauncher
+    case 809689733: return &kData[743]; // mummymask
+    case -1962971928: return &kData[744]; // mushroom
+    case 381595627: return &kData[745]; // neonsigntr
+    case -961457160: return &kData[746]; // newyeargong
+    case -1518883088: return &kData[747]; // nightvisiongoggles
+    case 1414245162: return &kData[748]; // note
+    case -1811234677: return &kData[749]; // nucleus
+    case -282193997: return &kData[750]; // orangeidtag
+    case 734320711: return &kData[751]; // orchid
+    case 1480022580: return &kData[752]; // oretea
+    case 2063916636: return &kData[753]; // oretea.advanced
+    case 1729374708: return &kData[754]; // oretea.pure
+    case -2133781216: return &kData[755]; // oubreak_scientist
+    case 1621942085: return &kData[756]; // outbreak.sprayer
+    case 1491189398: return &kData[757]; // paddle
+    case -733625651: return &kData[758]; // paddlingpool
+    case -1039234836: return &kData[759]; // paintabletarget.reactive
+    case -707792719: return &kData[760]; // paintballgun
+    case -1014934560: return &kData[761]; // paintballoveralls.suit
+    case 237239288: return &kData[762]; // pants
+    case -1695367501: return &kData[763]; // pants.shorts
+    case -1779183908: return &kData[764]; // paper
+    case 602628465: return &kData[765]; // parachute
+    case 1784005657: return &kData[766]; // parachute.deployed
+    case -575744869: return &kData[767]; // partyhat
+    case 62577426: return &kData[768]; // photo
+    case 1697996440: return &kData[769]; // photoframe.landscape
+    case 1205084994: return &kData[770]; // photoframe.large
+    case 1729712564: return &kData[771]; // photoframe.portrait
+    case 1272430949: return &kData[772]; // piano
+    case -1302129395: return &kData[773]; // pickaxe
+    case 4384538: return &kData[774]; // pie.apple
+    case 2039177180: return &kData[775]; // pie.bear
+    case 309017792: return &kData[776]; // pie.bigcat
+    case 120820987: return &kData[777]; // pie.chicken
+    case 54265286: return &kData[778]; // pie.crocodile
+    case -1785248332: return &kData[779]; // pie.fish
+    case 320438357: return &kData[780]; // pie.hunters
+    case 1467878256: return &kData[781]; // pie.pork
+    case -1488408786: return &kData[782]; // pie.pumpkin
+    case -963820355: return &kData[783]; // pie.survivors
+    case 537946062: return &kData[784]; // pilot.hazmat.box.wooden
+    case -1442496789: return &kData[785]; // pinata
+    case 180752235: return &kData[786]; // pinkidtag
+    case -144513264: return &kData[787]; // pipetool
+    case -75944661: return &kData[788]; // pistol.eoka
+    case -852563019: return &kData[789]; // pistol.m92
+    case 1953903201: return &kData[790]; // pistol.nailgun
+    case 1914691295: return &kData[791]; // pistol.prototype17
+    case 1373971859: return &kData[792]; // pistol.python
+    case 649912614: return &kData[793]; // pistol.revolver
+    case 818877484: return &kData[794]; // pistol.semiauto
+    case 1673224590: return &kData[795]; // pistol.semiauto.a.m15
+    case -1815301988: return &kData[796]; // pistol.water
+    case 1883981798: return &kData[797]; // piston1
+    case 1883981801: return &kData[798]; // piston2
+    case 1883981800: return &kData[799]; // piston3
+    case 1090916276: return &kData[800]; // pitchfork
+    case -952411326: return &kData[801]; // plank
+    case 1581210395: return &kData[802]; // planter.large
+    case 1903654061: return &kData[803]; // planter.small
+    case -280812482: return &kData[804]; // planter.triangle
+    case -804769727: return &kData[805]; // plantfiber
+    case -430416124: return &kData[806]; // plantpot.single
+    case -1651220691: return &kData[807]; // pookie.bear
+    case -1748166144: return &kData[808]; // pooltable
+    case 1925646349: return &kData[809]; // porkmeat.spoiled
+    case -2086926071: return &kData[810]; // potato
+    case -365097295: return &kData[811]; // powered.water.purifier
+    case -892718768: return &kData[812]; // prisonerhood
+    case -1673693549: return &kData[813]; // propanetank
+    case 1933140008: return &kData[814]; // ptboat
+    case 140006625: return &kData[815]; // ptz.cctv.camera
+    case -567909622: return &kData[816]; // pumpkin
+    case 1346158228: return &kData[817]; // pumpkinbasket
+    case 1121416193: return &kData[818]; // purecoolingtea
+    case 97903330: return &kData[819]; // purecraftingtea_quality
+    case 377750553: return &kData[820]; // pureharvestingtea
+    case -1476814093: return &kData[821]; // purewarmingtea
+    case -1386082991: return &kData[822]; // purpleidtag
+    case -496584751: return &kData[823]; // radiationremovetea
+    case 2021351233: return &kData[824]; // radiationremovetea.advanced
+    case 1905387657: return &kData[825]; // radiationremovetea.pure
+    case -487356515: return &kData[826]; // radiationresisttea
+    case -1729415579: return &kData[827]; // radiationresisttea.advanced
+    case -33009419: return &kData[828]; // radiationresisttea.pure
+    case 615112838: return &kData[829]; // rail.road.planter
+    case 1272194103: return &kData[830]; // red.berry
+    case -602717596: return &kData[831]; // reddogtags
+    case 70102328: return &kData[832]; // redidtag
+    case 969768382: return &kData[833]; // reinforced.wooden.shield
+    case -1861522751: return &kData[834]; // research.table
+    case -544317637: return &kData[835]; // researchpaper
+    case -92315244: return &kData[836]; // revolver.hc
+    case 596469572: return &kData[837]; // rf.detonator
+    case -566907190: return &kData[838]; // rf_pager
+    case 1394042569: return &kData[839]; // rhib
+    case 1545779598: return &kData[840]; // rifle.ak
+    case -139037392: return &kData[841]; // rifle.ak.diver
+    case -1335497659: return &kData[842]; // rifle.ak.ice
+    case 2054929933: return &kData[843]; // rifle.ak.jungle
+    case 472505338: return &kData[844]; // rifle.ak.med
+    case 1588298435: return &kData[845]; // rifle.bolt
+    case -778367295: return &kData[846]; // rifle.l96
+    case -1812555177: return &kData[847]; // rifle.lr300
+    case 533993281: return &kData[848]; // rifle.lr300.space
+    case 28201841: return &kData[849]; // rifle.m39
+    case -904863145: return &kData[850]; // rifle.semiauto
+    case -348232115: return &kData[851]; // rifle.sks
+    case 176787552: return &kData[852]; // riflebody
+    case 671063303: return &kData[853]; // riot.helmet
+    case -699558439: return &kData[854]; // roadsign.gloves
+    case -2002277461: return &kData[855]; // roadsign.jacket
+    case 1850456855: return &kData[856]; // roadsign.kilt
+    case 1199391518: return &kData[857]; // roadsigns
+    case 963906841: return &kData[858]; // rock
+    case 442886268: return &kData[859]; // rocket.launcher
+    case -1315992997: return &kData[860]; // rocket.launcher.dragon
+    case 494161326: return &kData[861]; // rocket.launcher.rpg7
+    case -1863063690: return &kData[862]; // rockingchair
+    case 1758333838: return &kData[863]; // rockingchair.rockingchair2
+    case 192249897: return &kData[864]; // rockingchair.rockingchair3
+    case 1414245522: return &kData[865]; // rope
+    case 1414245519: return &kData[866]; // rose
+    case 1878053256: return &kData[867]; // rowboat
+    case -1985799200: return &kData[868]; // rug
+    case -1104881824: return &kData[869]; // rug.bear
+    case -173268129: return &kData[870]; // rustige_egg_a
+    case -173268132: return &kData[871]; // rustige_egg_b
+    case -173268131: return &kData[872]; // rustige_egg_c
+    case -173268126: return &kData[873]; // rustige_egg_d
+    case -173268125: return &kData[874]; // rustige_egg_e
+    case -173268128: return &kData[875]; // rustige_egg_f
+    case -173268127: return &kData[876]; // rustige_egg_g
+    case -173268138: return &kData[877]; // rustige_egg_h
+    case 405905095: return &kData[878]; // sail
+    case -2110553371: return &kData[879]; // salvaged.bamboo.shelves
+    case -1978999529: return &kData[880]; // salvaged.cleaver
+    case -1018026008: return &kData[881]; // salvaged.industrial.shelves
+    case 1326180354: return &kData[882]; // salvaged.sword
+    case -1009359066: return &kData[883]; // samsite
+    case 2126889441: return &kData[884]; // santabeard
+    case -575483084: return &kData[885]; // santahat
+    case 177226991: return &kData[886]; // scarecrow
+    case 273951840: return &kData[887]; // scarecrow.suit
+    case 809942731: return &kData[888]; // scarecrowhead
+    case 445662288: return &kData[889]; // scientist.plushie
+    case -1772746857: return &kData[890]; // scientistsuit_heavy
+    case -932201673: return &kData[891]; // scrap
+    case -1094453063: return &kData[892]; // scrapframe.large
+    case -1060567807: return &kData[893]; // scrapframe.medium
+    case -498301781: return &kData[894]; // scrapframe.small
+    case -1774190142: return &kData[895]; // scrapframe.standing
+    case -1244287686: return &kData[896]; // scrapframe.xl
+    case -1211801774: return &kData[897]; // scrapframe.xxl
+    case -82758111: return &kData[898]; // scrapmirror.large
+    case 839738457: return &kData[899]; // scrapmirror.medium
+    case -1050697733: return &kData[900]; // scrapmirror.small
+    case -1380144986: return &kData[901]; // scrapmirror.standing
+    case 263834859: return &kData[902]; // scraptea
+    case 524678627: return &kData[903]; // scraptea.advanced
+    case 2024467711: return &kData[904]; // scraptea.pure
+    case 375473148: return &kData[905]; // scraptransportheli
+    case 504109620: return &kData[906]; // sculpture.ice
+    case 1852905808: return &kData[907]; // sculpture.rock
+    case 2087678962: return &kData[908]; // searchlight
+    case 567871954: return &kData[909]; // secretlabchair
+    case -374457631: return &kData[910]; // sedan
+    case 1911552868: return &kData[911]; // seed.black.berry
+    case 803954639: return &kData[912]; // seed.blue.berry
+    case 998894949: return &kData[913]; // seed.corn
+    case -1776128552: return &kData[914]; // seed.green.berry
+    case -237809779: return &kData[915]; // seed.hemp
+    case 1004843240: return &kData[916]; // seed.orchid
+    case -2084071424: return &kData[917]; // seed.potato
+    case -1511285251: return &kData[918]; // seed.pumpkin
+    case 830839496: return &kData[919]; // seed.red.berry
+    case -1037472336: return &kData[920]; // seed.rose
+    case 1412103380: return &kData[921]; // seed.sunflower
+    case -1790885730: return &kData[922]; // seed.wheat
+    case -992286106: return &kData[923]; // seed.white.berry
+    case -520133715: return &kData[924]; // seed.yellow.berry
+    case 573926264: return &kData[925]; // semibody
+    case 1234880403: return &kData[926]; // sewingkit
+    case -1994909036: return &kData[927]; // sheetmetal
+    case 1950721418: return &kData[928]; // shelves
+    case -2025184684: return &kData[929]; // shirt.collared
+    case 1608640313: return &kData[930]; // shirt.tanktop
+    case -1549739227: return &kData[931]; // shoes.boots
+    case -765183617: return &kData[932]; // shotgun.double
+    case 678698219: return &kData[933]; // shotgun.m4
+    case 795371088: return &kData[934]; // shotgun.pump
+    case -41440462: return &kData[935]; // shotgun.spas12
+    case -1367281941: return &kData[936]; // shotgun.waterpipe
+    case -1536855921: return &kData[937]; // shovel
+    case -1199897169: return &kData[938]; // shutter.metal.embrasure.a
+    case -1199897172: return &kData[939]; // shutter.metal.embrasure.b
+    case -1023374709: return &kData[940]; // shutter.wood.a
+    case -1368584029: return &kData[941]; // sickle
+    case -1290278434: return &kData[942]; // siegetower
+    case -946599114: return &kData[943]; // sign.artistcanvas.l
+    case -946599113: return &kData[944]; // sign.artistcanvas.m
+    case -946599131: return &kData[945]; // sign.artistcanvas.s
+    case 1562867678: return &kData[946]; // sign.artistcanvas.xl
+    case 1609921845: return &kData[947]; // sign.artistcanvas.xs
+    case -816769770: return &kData[948]; // sign.artistcanvas.xxl
+    case 1205607945: return &kData[949]; // sign.hanging
+    case 23352662: return &kData[950]; // sign.hanging.banner.large
+    case -1647846966: return &kData[951]; // sign.hanging.ornate
+    case 1305578813: return &kData[952]; // sign.neon.125x125
+    case -1423304443: return &kData[953]; // sign.neon.125x215
+    case 42535890: return &kData[954]; // sign.neon.125x215.animated
+    case 866332017: return &kData[955]; // sign.neon.xl
+    case 1643667218: return &kData[956]; // sign.neon.xl.animated
+    case -845557339: return &kData[957]; // sign.pictureframe.landscape
+    case -1370759135: return &kData[958]; // sign.pictureframe.portrait
+    case 121049755: return &kData[959]; // sign.pictureframe.tall
+    case -996185386: return &kData[960]; // sign.pictureframe.xl
+    case 98508942: return &kData[961]; // sign.pictureframe.xxl
+    case 2070189026: return &kData[962]; // sign.pole.banner.large
+    case 1521286012: return &kData[963]; // sign.post.double
+    case 1542290441: return &kData[964]; // sign.post.single
+    case -1832422579: return &kData[965]; // sign.post.town
+    case 826309791: return &kData[966]; // sign.post.town.roof
+    case -143132326: return &kData[967]; // sign.wooden.huge
+    case 1153652756: return &kData[968]; // sign.wooden.large
+    case -1819233322: return &kData[969]; // sign.wooden.medium
+    case -1138208076: return &kData[970]; // sign.wooden.small
+    case 1849409072: return &kData[971]; // silly.horse.mask
+    case -193519904: return &kData[972]; // single.shallow.wall.shelves
+    case -1056824343: return &kData[973]; // skidoo
+    case 1312843609: return &kData[974]; // skull
+    case 996293980: return &kData[975]; // skull.human
+    case -769647921: return &kData[976]; // skull.trophy
+    case 971362526: return &kData[977]; // skull.trophy.jar
+    case -924959988: return &kData[978]; // skull.trophy.jar2
+    case -156748077: return &kData[979]; // skull.trophy.table
+    case 2048317869: return &kData[980]; // skull.wolf
+    case 553887414: return &kData[981]; // skull_fire_pit
+    case -216116642: return &kData[982]; // skulldoorknocker
+    case -1073015016: return &kData[983]; // skullspikes
+    case -25740268: return &kData[984]; // skullspikes.candles
+    case -1078639462: return &kData[985]; // skullspikes.pumpkin
+    case 1819863051: return &kData[986]; // skylantern
+    case -1770889433: return &kData[987]; // skylantern.skylantern.green
+    case -1824770114: return &kData[988]; // skylantern.skylantern.orange
+    case 831955134: return &kData[989]; // skylantern.skylantern.purple
+    case -1433390281: return &kData[990]; // skylantern.skylantern.red
+    case -333406828: return &kData[991]; // sled
+    case -135252633: return &kData[992]; // sled.xmas
+    case -1754948969: return &kData[993]; // sleepingbag
+    case -1293296287: return &kData[994]; // small.oil.refinery
+    case -158718378: return &kData[995]; // small_ramp
+    case 2068884361: return &kData[996]; // smallbackpack
+    case -2058362263: return &kData[997]; // smallcandles
+    case -2115299615: return &kData[998]; // smallengine
+    case -1039528932: return &kData[999]; // smallwaterbottle
+    case -695978112: return &kData[1000]; // smart.alarm
+    case 988652725: return &kData[1001]; // smart.switch
+    case 1796682209: return &kData[1002]; // smg.2
+    case 1318558775: return &kData[1003]; // smg.mp5
+    case -1758372725: return &kData[1004]; // smg.thompson
+    case 1230323789: return &kData[1005]; // smgbody
+    case -2100458529: return &kData[1006]; // snakemeat
+    case -170436364: return &kData[1007]; // snakemeat.cooked
+    case -1616704051: return &kData[1008]; // snakemeat.spoiled
+    case -363689972: return &kData[1009]; // snowball
+    case 1103488722: return &kData[1010]; // snowballgun
+    case 1358643074: return &kData[1011]; // snowmachine
+    case 1629293099: return &kData[1012]; // snowman
+    case -1364246987: return &kData[1013]; // snowmobile
+    case 1768112091: return &kData[1014]; // snowmobiletomaha
+    case -555122905: return &kData[1015]; // sofa
+    case 782422285: return &kData[1016]; // sofa.pattern
+    case -343857907: return &kData[1017]; // soundlight
+    case -89874794: return &kData[1018]; // sparkplug1
+    case -493159321: return &kData[1019]; // sparkplug2
+    case 1072924620: return &kData[1020]; // sparkplug3
+    case 695450239: return &kData[1021]; // spear.cny
+    case 1602646136: return &kData[1022]; // spear.stone
+    case 1540934679: return &kData[1023]; // spear.wooden
+    case -1517740219: return &kData[1024]; // speargun
+    case -1800345240: return &kData[1025]; // speargun.spear
+    case 963400638: return &kData[1026]; // speechbubbleballoon2025
+    case 882559853: return &kData[1027]; // spiderweb
+    case -92759291: return &kData[1028]; // spikes.floor
+    case -1850297170: return &kData[1029]; // spikes.trap
+    case -1100422738: return &kData[1030]; // spinner.wheel
+    case 1184215560: return &kData[1031]; // spoiled.produce
+    case 1885488976: return &kData[1032]; // spookyspeaker
+    case -596876839: return &kData[1033]; // spraycan
+    case -1366326648: return &kData[1034]; // spraycandecal
+    case -1782127806: return &kData[1035]; // starballoon2025
+    case -369760990: return &kData[1036]; // stash.small
+    case -1866909924: return &kData[1037]; // steeringwheel.boat
+    case 642482233: return &kData[1038]; // sticks
+    case -465682601: return &kData[1039]; // stocking.large
+    case 1668858301: return &kData[1040]; // stocking.small
+    case 171931394: return &kData[1041]; // stone.pickaxe
+    case -1583967946: return &kData[1042]; // stonehatchet
+    case -2099697608: return &kData[1043]; // stones
+    case 1149964039: return &kData[1044]; // storage.monitor
+    case -258457936: return &kData[1045]; // storage_barrel_a
+    case 1307626005: return &kData[1046]; // storage_barrel_b
+    case -1421257350: return &kData[1047]; // storage_barrel_c
+    case -1049172752: return &kData[1048]; // storageadaptor
+    case 2104517339: return &kData[1049]; // strobelight
+    case -1671551935: return &kData[1050]; // submarine.torpedo.straight
+    case 1015352446: return &kData[1051]; // submarineduo
+    case -187031121: return &kData[1052]; // submarinesolo
+    case -1581843485: return &kData[1053]; // sulfur
+    case -1157596551: return &kData[1054]; // sulfur.ore
+    case -611118083: return &kData[1055]; // sunflower
+    case 352321488: return &kData[1056]; // sunglasses
+    case 1258768145: return &kData[1057]; // sunglasses02black
+    case -2103694546: return &kData[1058]; // sunglasses02camo
+    case 1557173737: return &kData[1059]; // sunglasses02red
+    case -176608084: return &kData[1060]; // sunglasses03black
+    case -1997698639: return &kData[1061]; // sunglasses03chrome
+    case -1408336705: return &kData[1062]; // sunglasses03gold
+    case 789333045: return &kData[1063]; // sunken.knife
+    case -1003665711: return &kData[1064]; // supertea
+    case 1397052267: return &kData[1065]; // supply.signal
+    case 1975934948: return &kData[1066]; // surveycharge
+    case 1079279582: return &kData[1067]; // syringe.medical
+    case 2083256995: return &kData[1068]; // t1_smg
+    case 593465182: return &kData[1069]; // table
+    case -1108136649: return &kData[1070]; // tactical.gloves
+    case -1736356576: return &kData[1071]; // target.reactive
+    case 1523195708: return &kData[1072]; // targeting.computer
+    case 2019042823: return &kData[1073]; // tarp
+    case 73681876: return &kData[1074]; // techparts
+    case 1234878710: return &kData[1075]; // telephone
+    case 1754952075: return &kData[1076]; // thruster.module
+    case 962186730: return &kData[1077]; // tincan.alarm
+    case -1262185308: return &kData[1078]; // tool.binoculars
+    case -1316706473: return &kData[1079]; // tool.camera
+    case -2001260025: return &kData[1080]; // tool.instant_camera
+    case 1803831286: return &kData[1081]; // toolgun
+    case 795236088: return &kData[1082]; // torch
+    case -1175656359: return &kData[1083]; // torch.torch.skull
+    case 446206234: return &kData[1084]; // torchholder
+    case -582782051: return &kData[1085]; // trap.bear
+    case -1663759755: return &kData[1086]; // trap.landmine
+    case 647240052: return &kData[1087]; // triangle.rail.road.planter
+    case 1991794121: return &kData[1088]; // trike
+    case 975983052: return &kData[1089]; // trophy
+    case -901370585: return &kData[1090]; // trophy2023
+    case 223891266: return &kData[1091]; // tshirt
+    case 935692442: return &kData[1092]; // tshirt.long
+    case -561148628: return &kData[1093]; // tugboat
+    case -1478445584: return &kData[1094]; // tunalight
+    case -1569700847: return &kData[1095]; // twitch.headset
+    case -243540612: return &kData[1096]; // twitchrivals2023desk
+    case 1604092540: return &kData[1097]; // twitchrivals2025sofa
+    case -739993590: return &kData[1098]; // twitchrivalsflag
+    case 20489901: return &kData[1099]; // twitchsunglasses
+    case 1330084809: return &kData[1100]; // valve1
+    case 926800282: return &kData[1101]; // valve2
+    case -1802083073: return &kData[1102]; // valve3
+    case -885833256: return &kData[1103]; // vampire.stake
+    case -1501451746: return &kData[1104]; // vehicle.1mod.cockpit
+    case 1874610722: return &kData[1105]; // vehicle.1mod.cockpit.armored
+    case 170758448: return &kData[1106]; // vehicle.1mod.cockpit.with.engine
+    case 1559779253: return &kData[1107]; // vehicle.1mod.engine
+    case -1880231361: return &kData[1108]; // vehicle.1mod.flatbed
+    case -1615281216: return &kData[1109]; // vehicle.1mod.passengers.armored
+    case 1376065505: return &kData[1110]; // vehicle.1mod.rear.seats
+    case 268565518: return &kData[1111]; // vehicle.1mod.storage
+    case -626174997: return &kData[1112]; // vehicle.1mod.taxi
+    case -1040518150: return &kData[1113]; // vehicle.2mod.camper
+    case -1693832478: return &kData[1114]; // vehicle.2mod.flatbed
+    case 1186655046: return &kData[1115]; // vehicle.2mod.fuel.tank
+    case 895374329: return &kData[1116]; // vehicle.2mod.passengers
+    case 721798950: return &kData[1117]; // vehicle.car_radio
+    case 1770744540: return &kData[1118]; // vehicle.chassis
+    case -44066600: return &kData[1119]; // vehicle.chassis.2mod
+    case -44066823: return &kData[1120]; // vehicle.chassis.3mod
+    case -44066790: return &kData[1121]; // vehicle.chassis.4mod
+    case 878301596: return &kData[1122]; // vehicle.module
+    case 198438816: return &kData[1123]; // vending.machine
+    case -870140677: return &kData[1124]; // venom.snake
+    case 996757362: return &kData[1125]; // wagon
+    case -1416322465: return &kData[1126]; // walkietalkie
+    case 99588025: return &kData[1127]; // wall.external.high
+    case 756890702: return &kData[1128]; // wall.external.high.adobe
+    case -985781766: return &kData[1129]; // wall.external.high.ice
+    case -1993883724: return &kData[1130]; // wall.external.high.legacy
+    case -967648160: return &kData[1131]; // wall.external.high.stone
+    case -1429456799: return &kData[1132]; // wall.frame.cell
+    case -956706906: return &kData[1133]; // wall.frame.cell.gate
+    case -1117626326: return &kData[1134]; // wall.frame.fence
+    case 1451568081: return &kData[1135]; // wall.frame.fence.gate
+    case -148794216: return &kData[1136]; // wall.frame.garagedoor
+    case 1115193056: return &kData[1137]; // wall.frame.lunar2025_a
+    case -450890885: return &kData[1138]; // wall.frame.lunar2025_b
+    case -2016974826: return &kData[1139]; // wall.frame.lunar2025_c
+    case 1516985844: return &kData[1140]; // wall.frame.netting
+    case -796583652: return &kData[1141]; // wall.frame.shopfront
+    case -148229307: return &kData[1142]; // wall.frame.shopfront.metal
+    case -1679267738: return &kData[1143]; // wall.graveyard.fence
+    case 1327005675: return &kData[1144]; // wall.ice.wall
+    case -265202949: return &kData[1145]; // wall.shallow.industrial.shelves
+    case -819720157: return &kData[1146]; // wall.window.bars.metal
+    case 671706427: return &kData[1147]; // wall.window.bars.toptier
+    case -1183726687: return &kData[1148]; // wall.window.bars.wood
+    case -1614955425: return &kData[1149]; // wall.window.glass.reinforced
+    case 1730664641: return &kData[1150]; // wallpaper.ceiling
+    case -551431036: return &kData[1151]; // wallpaper.flooring
+    case 1629564540: return &kData[1152]; // wallpaper.tool
+    case 553967074: return &kData[1153]; // wallpaper.wall
+    case -1344017968: return &kData[1154]; // wantedposter
+    case 301063058: return &kData[1155]; // wantedposter.wantedposter2
+    case -1265020883: return &kData[1156]; // wantedposter.wantedposter3
+    case 1463862472: return &kData[1157]; // wantedposter.wantedposter4
+    case -1142222427: return &kData[1158]; // warmingtea
+    case -463122489: return &kData[1159]; // watchtower.wood
+    case -1779180711: return &kData[1160]; // water
+    case -1863559151: return &kData[1161]; // water.barrel
+    case -1100168350: return &kData[1162]; // water.catcher.large
+    case -132247350: return &kData[1163]; // water.catcher.small
+    case 2114754781: return &kData[1164]; // water.purifier
+    case 1811780502: return &kData[1165]; // water.radioactive
+    case -277057363: return &kData[1166]; // water.salt
+    case -119235651: return &kData[1167]; // waterjug
+    case -1284169891: return &kData[1168]; // waterpump
+    case 174866732: return &kData[1169]; // weapon.mod.8x.scope
+    case 838308300: return &kData[1170]; // weapon.mod.burstmodule
+    case 2005491391: return &kData[1171]; // weapon.mod.extendedmags
+    case 952603248: return &kData[1172]; // weapon.mod.flashlight
+    case -1767794021: return &kData[1173]; // weapon.mod.gascompressionovedrive
+    case 442289265: return &kData[1174]; // weapon.mod.holosight
+    case -132516482: return &kData[1175]; // weapon.mod.lasersight
+    case -1405508498: return &kData[1176]; // weapon.mod.muzzleboost
+    case 1478091698: return &kData[1177]; // weapon.mod.muzzlebrake
+    case -781866273: return &kData[1178]; // weapon.mod.oilfiltersilencer
+    case -1850571427: return &kData[1179]; // weapon.mod.silencer
+    case -855748505: return &kData[1180]; // weapon.mod.simplesight
+    case 567235583: return &kData[1181]; // weapon.mod.small.scope
+    case -1659598760: return &kData[1182]; // weapon.mod.sodacansilencer
+    case 1719587208: return &kData[1183]; // weapon.mod.targetingattachment
+    case 1277159544: return &kData[1184]; // weaponrack.doublelight
+    case -1163943815: return &kData[1185]; // weaponrack.light
+    case 1178325727: return &kData[1186]; // wheat
+    case 854447607: return &kData[1187]; // white.berry
+    case 22947882: return &kData[1188]; // whiteidtag
+    case -526026171: return &kData[1189]; // wicker.barrel
+    case 738611016: return &kData[1190]; // window.paintable
+    case -144417939: return &kData[1191]; // wiretool
+    case 1827479659: return &kData[1192]; // wolfmeat.burned
+    case 813023040: return &kData[1193]; // wolfmeat.cooked
+    case -395377963: return &kData[1194]; // wolfmeat.raw
+    case -1167031859: return &kData[1195]; // wolfmeat.spoiled
+    case -151838493: return &kData[1196]; // wood
+    case -2094954543: return &kData[1197]; // wood.armor.helmet
+    case 418081930: return &kData[1198]; // wood.armor.jacket
+    case 832133926: return &kData[1199]; // wood.armor.pants
+    case -459159118: return &kData[1200]; // woodarmor.gloves
+    case 699075597: return &kData[1201]; // woodcross
+    case 1604837581: return &kData[1202]; // wooden.shield
+    case -635951327: return &kData[1203]; // woodframe.large
+    case -1541706279: return &kData[1204]; // woodframe.medium
+    case -1476278729: return &kData[1205]; // woodframe.small
+    case 1769475390: return &kData[1206]; // woodframe.standing
+    case 1312679249: return &kData[1207]; // woodmirror.large
+    case 756125481: return &kData[1208]; // woodmirror.medium
+    case -1497205569: return &kData[1209]; // woodmirror.small
+    case 723407026: return &kData[1210]; // woodmirror.standing
+    case -649128577: return &kData[1211]; // woodtea
+    case -541206665: return &kData[1212]; // woodtea.advanced
+    case -557539629: return &kData[1213]; // woodtea.pure
+    case 798382300: return &kData[1214]; // workbench.upgrade.accelerated
+    case -770390391: return &kData[1215]; // workbench.upgrade.comfort
+    case -1953279770: return &kData[1216]; // workbench.upgrade.defensive
+    case 1215602244: return &kData[1217]; // workbench.upgrade.efficiency
+    case -180862419: return &kData[1218]; // workbench.upgrade.prototype
+    case 1470387662: return &kData[1219]; // workbench.upgrade.range
+    case -286541059: return &kData[1220]; // workbench.upgrade.recyclebin
+    case 112268546: return &kData[1221]; // workbench.upgrade.reinforced
+    case -160105346: return &kData[1222]; // workbench.upgrade.salvage
+    case -1536343135: return &kData[1223]; // workbench.upgrade.surplus
+    case 1524187186: return &kData[1224]; // workbench1
+    case -41896755: return &kData[1225]; // workbench2
+    case -1607980696: return &kData[1226]; // workbench3
+    case -810326667: return &kData[1227]; // workcart
+    case 1770475779: return &kData[1228]; // worm
+    case 204970153: return &kData[1229]; // wrappedgift
+    case 1094293920: return &kData[1230]; // wrappingpaper
+    case -2027793839: return &kData[1231]; // xmas.advent
+    case -1667224349: return &kData[1232]; // xmas.decoration.baubels
+    case -209869746: return &kData[1233]; // xmas.decoration.candycanes
+    case 1686524871: return &kData[1234]; // xmas.decoration.gingerbreadmen
+    case 1723747470: return &kData[1235]; // xmas.decoration.lights
+    case -129230242: return &kData[1236]; // xmas.decoration.pinecone
+    case -1331212963: return &kData[1237]; // xmas.decoration.star
+    case 2106561762: return &kData[1238]; // xmas.decoration.tinsel
+    case 674734128: return &kData[1239]; // xmas.door.garland
+    case -1230433643: return &kData[1240]; // xmas.double.door.garland
+    case 1058261682: return &kData[1241]; // xmas.lightstring
+    case -151387974: return &kData[1242]; // xmas.lightstring.advanced
+    case -1622660759: return &kData[1243]; // xmas.present.large
+    case 756517185: return &kData[1244]; // xmas.present.medium
+    case -722241321: return &kData[1245]; // xmas.present.small
+    case 794443127: return &kData[1246]; // xmas.tree
+    case -1379835144: return &kData[1247]; // xmas.window.garland
+    case 2009734114: return &kData[1248]; // xmasdoorwreath
+    case -211235948: return &kData[1249]; // xylophone
+    case 1660145984: return &kData[1250]; // yellow.berry
+    case 81423963: return &kData[1251]; // yellowidtag
     default: return nullptr;
     }
 }

@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-05 19:24:38",
-  "target_build": "Protocol 2631.286.1 / Changeset 158240",
+  "generated_utc": "2026-08-06 18:36:45",
+  "target_build": "Protocol 2632.287.1 / Changeset 160450",
   "count": 80,
   "data": [
     {
@@ -1358,7 +1358,7 @@
       "damage_types": [
         {
           "type": "Arrow",
-          "amount": 40.0
+          "amount": 50.0
         }
       ],
       "ammo_sources": [

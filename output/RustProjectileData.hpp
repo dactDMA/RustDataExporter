@@ -1,7 +1,7 @@
 //
 // Auto-generated Rust Projectile Data
-// Generated: 2026-08-05 19:24:38 UTC
-// Target: Protocol 2631.286.1 / Changeset 158240
+// Generated: 2026-08-06 18:36:45 UTC
+// Target: Protocol 2632.287.1 / Changeset 160450
 // Total entries: 80
 // Generator: RustDataExporter
 //
@@ -685,7 +685,7 @@ inline constexpr ProjectileData kData[kCount == 0 ? 1 : kCount] =
         0.0f, 0.1f,
         { 10.0f, 60.0f }, { 1.0f, 0.8f },
         {
-            { "Arrow", 40.0f },
+            { "Arrow", 50.0f },
             { "", 0.0f },
             { "", 0.0f },
             { "", 0.0f },
