@@ -1,7 +1,7 @@
 //
 // Auto-generated Rust Projectile Data
-// Generated: 2026-08-06 18:36:45 UTC
-// Target: Protocol 2632.287.1 / Changeset 160450
+// Generated: 2026-09-03 18:21:36 UTC
+// Target: Protocol 2633.288.1 / Changeset 162929
 // Total entries: 80
 // Generator: RustDataExporter
 //

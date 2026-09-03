@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-06 18:36:45",
-  "target_build": "Protocol 2632.287.1 / Changeset 160450",
-  "count": 703,
+  "generated_utc": "2026-09-03 18:21:36",
+  "target_build": "Protocol 2633.288.1 / Changeset 162929",
+  "count": 710,
   "data": [
     {
       "name": "50cal.mounted",
@@ -474,6 +474,7 @@
       "type_chain": [
         "CompoundBowWeapon",
         "BowWeapon",
+        "ArrowWeapon",
         "BaseProjectile",
         "AttackEntity",
         "HeldEntity"
@@ -486,6 +487,7 @@
       "concrete_type": "BowWeapon",
       "type_chain": [
         "BowWeapon",
+        "ArrowWeapon",
         "BaseProjectile",
         "AttackEntity",
         "HeldEntity"
@@ -1195,6 +1197,7 @@
       "concrete_type": "CrossbowWeapon",
       "type_chain": [
         "CrossbowWeapon",
+        "ArrowWeapon",
         "BaseProjectile",
         "AttackEntity",
         "HeldEntity"
@@ -1207,6 +1210,7 @@
       "concrete_type": "CrossbowWeapon",
       "type_chain": [
         "CrossbowWeapon",
+        "ArrowWeapon",
         "BaseProjectile",
         "AttackEntity",
         "HeldEntity"
@@ -1341,6 +1345,7 @@
       "concrete_type": "TorchWeapon",
       "type_chain": [
         "TorchWeapon",
+        "ToggleableLightWeapon",
         "BaseMelee",
         "AttackEntity",
         "HeldEntity"
@@ -2101,6 +2106,16 @@
       "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
     },
     {
+      "name": "firework.boomer.white",
+      "prefab_id": 3378931327,
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
       "name": "firework.romancandle.blue",
       "prefab_id": 3378931327,
       "concrete_type": "Planner",
@@ -2236,8 +2251,10 @@
     {
       "name": "flashlight.held",
       "prefab_id": 72718095,
-      "concrete_type": "BaseMelee",
+      "concrete_type": "FlashlightWeapon",
       "type_chain": [
+        "FlashlightWeapon",
+        "ToggleableLightWeapon",
         "BaseMelee",
         "AttackEntity",
         "HeldEntity"
@@ -3254,6 +3271,7 @@
       "type_chain": [
         "IndustrialTorchWeapon",
         "TorchWeapon",
+        "ToggleableLightWeapon",
         "BaseMelee",
         "AttackEntity",
         "HeldEntity"
@@ -3610,6 +3628,7 @@
       "concrete_type": "BowWeapon",
       "type_chain": [
         "BowWeapon",
+        "ArrowWeapon",
         "BaseProjectile",
         "AttackEntity",
         "HeldEntity"
@@ -3905,6 +3924,17 @@
         "HeldEntity"
       ],
       "prefab_path": "assets/prefabs/tools/map/map.prefab"
+    },
+    {
+      "name": "medical.honey.bandage",
+      "prefab_id": 89391648,
+      "concrete_type": "MedicalTool",
+      "type_chain": [
+        "MedicalTool",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/medicalhoneybandage/honeybandage.entity.prefab"
     },
     {
       "name": "medieval.box.wooden.large",
@@ -4674,6 +4704,61 @@
         "HeldEntity"
       ],
       "prefab_path": "assets/prefabs/weapons/ak47u/diver/ak47u_diver.entity.prefab"
+    },
+    {
+      "name": "rifle.ak.glass",
+      "prefab_id": 3842925800,
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.entity.prefab"
+    },
+    {
+      "name": "rifle.ak.glass.blue",
+      "prefab_id": 2408471514,
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.blue.entity.prefab"
+    },
+    {
+      "name": "rifle.ak.glass.green",
+      "prefab_id": 1246348333,
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.green.entity.prefab"
+    },
+    {
+      "name": "rifle.ak.glass.pink",
+      "prefab_id": 2779585845,
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.pink.entity.prefab"
+    },
+    {
+      "name": "rifle.ak.glass.red",
+      "prefab_id": 3312136396,
+      "concrete_type": "BaseProjectile",
+      "type_chain": [
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.red.entity.prefab"
     },
     {
       "name": "rifle.ak.ice",
@@ -6151,6 +6236,7 @@
       "type_chain": [
         "Speargun",
         "CrossbowWeapon",
+        "ArrowWeapon",
         "BaseProjectile",
         "AttackEntity",
         "HeldEntity"
@@ -6505,6 +6591,7 @@
       "concrete_type": "TorchWeapon",
       "type_chain": [
         "TorchWeapon",
+        "ToggleableLightWeapon",
         "BaseMelee",
         "AttackEntity",
         "HeldEntity"
@@ -6517,6 +6604,7 @@
       "concrete_type": "TorchWeapon",
       "type_chain": [
         "TorchWeapon",
+        "ToggleableLightWeapon",
         "BaseMelee",
         "AttackEntity",
         "HeldEntity"

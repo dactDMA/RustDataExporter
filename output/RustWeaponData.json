@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-06 18:36:45",
-  "target_build": "Protocol 2632.287.1 / Changeset 160450",
-  "count": 55,
+  "generated_utc": "2026-09-03 18:21:36",
+  "target_build": "Protocol 2633.288.1 / Changeset 162929",
+  "count": 60,
   "data": [
     {
       "name": "50cal.base",
@@ -3218,6 +3218,541 @@
       "alias": "rifle_ak_diver",
       "prefab_path": "assets/prefabs/weapons/ak47u/diver/ak47u_diver.entity.prefab",
       "hash": 4096772971,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": true,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 30,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 1.5,
+        "yaw_max": 2.5,
+        "pitch_min": -2.5,
+        "pitch_max": -3.5,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.75,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 10,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 20.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.25,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.2,
+        "hip_aim_cone": 2.5,
+        "penalty_per_shot": 0.1,
+        "penalty_max": 1.0,
+        "penalty_recover_time": 0.3,
+        "penalty_recover_delay": 0.3,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 4.4,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 0.1333,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 30.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 0.2,
+        "attack_length_max": 0.4,
+        "attack_spacing": 1.0,
+        "aim_sway_offset": 3.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 10.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "rifle.ak.glass",
+      "alias": "rifle_ak_glass",
+      "prefab_path": "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.entity.prefab",
+      "hash": 3842925800,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": true,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 30,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 1.5,
+        "yaw_max": 2.5,
+        "pitch_min": -2.5,
+        "pitch_max": -3.5,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.75,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 10,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 20.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.25,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.2,
+        "hip_aim_cone": 2.5,
+        "penalty_per_shot": 0.1,
+        "penalty_max": 1.0,
+        "penalty_recover_time": 0.3,
+        "penalty_recover_delay": 0.3,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 4.4,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 0.1333,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 30.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 0.2,
+        "attack_length_max": 0.4,
+        "attack_spacing": 1.0,
+        "aim_sway_offset": 3.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 10.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "rifle.ak.glass.blue",
+      "alias": "rifle_ak_glass_blue",
+      "prefab_path": "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.blue.entity.prefab",
+      "hash": 2408471514,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": true,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 30,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 1.5,
+        "yaw_max": 2.5,
+        "pitch_min": -2.5,
+        "pitch_max": -3.5,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.75,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 10,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 20.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.25,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.2,
+        "hip_aim_cone": 2.5,
+        "penalty_per_shot": 0.1,
+        "penalty_max": 1.0,
+        "penalty_recover_time": 0.3,
+        "penalty_recover_delay": 0.3,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 4.4,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 0.1333,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 30.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 0.2,
+        "attack_length_max": 0.4,
+        "attack_spacing": 1.0,
+        "aim_sway_offset": 3.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 10.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "rifle.ak.glass.green",
+      "alias": "rifle_ak_glass_green",
+      "prefab_path": "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.green.entity.prefab",
+      "hash": 1246348333,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": true,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 30,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 1.5,
+        "yaw_max": 2.5,
+        "pitch_min": -2.5,
+        "pitch_max": -3.5,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.75,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 10,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 20.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.25,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.2,
+        "hip_aim_cone": 2.5,
+        "penalty_per_shot": 0.1,
+        "penalty_max": 1.0,
+        "penalty_recover_time": 0.3,
+        "penalty_recover_delay": 0.3,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 4.4,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 0.1333,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 30.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 0.2,
+        "attack_length_max": 0.4,
+        "attack_spacing": 1.0,
+        "aim_sway_offset": 3.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 10.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "rifle.ak.glass.pink",
+      "alias": "rifle_ak_glass_pink",
+      "prefab_path": "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.pink.entity.prefab",
+      "hash": 2779585845,
+      "damage_scale": 1.0,
+      "distance_scale": 1.0,
+      "projectile_velocity_scale": 1.0,
+      "automatic": true,
+      "noise_radius": 100.0,
+      "aim_sway": 2.0,
+      "aim_sway_speed": 2.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 30,
+      "wants_recoil_comp": true,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 1.5,
+        "yaw_max": 2.5,
+        "pitch_min": -2.5,
+        "pitch_max": -3.5,
+        "time_to_take_min": 0.1,
+        "time_to_take_max": 0.1,
+        "ads_scale": 0.75,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 10,
+        "use_curves": false,
+        "curves_as_scalar": true,
+        "max_recoil_radius": 20.0,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 1.25,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.2,
+        "hip_aim_cone": 2.5,
+        "penalty_per_shot": 0.1,
+        "penalty_max": 1.0,
+        "penalty_recover_time": 0.3,
+        "penalty_recover_delay": 0.3,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 4.4,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 1.0,
+        "repeat_delay": 0.1333,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 30.0,
+        "damage_scale": 0.2,
+        "attack_length_min": 0.2,
+        "attack_length_max": 0.4,
+        "attack_spacing": 1.0,
+        "aim_sway_offset": 3.0,
+        "aim_cone": 2.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": false,
+        "is_building_tool": false,
+        "hostility_score": 10.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
+      "name": "rifle.ak.glass.red",
+      "alias": "rifle_ak_glass_red",
+      "prefab_path": "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.red.entity.prefab",
+      "hash": 3312136396,
       "damage_scale": 1.0,
       "distance_scale": 1.0,
       "projectile_velocity_scale": 1.0,

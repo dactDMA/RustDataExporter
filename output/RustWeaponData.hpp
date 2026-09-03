@@ -1,8 +1,8 @@
 //
 // Auto-generated Rust Weapon Data
-// Generated: 2026-08-06 18:36:45 UTC
-// Target: Protocol 2632.287.1 / Changeset 160450
-// Total entries: 55
+// Generated: 2026-09-03 18:21:36 UTC
+// Target: Protocol 2633.288.1 / Changeset 162929
+// Total entries: 60
 // Generator: RustDataExporter
 //
 // This file is generated from server-side Rust prefabs/components.
@@ -134,7 +134,7 @@ namespace RustData
 namespace Weapons
 {
 
-inline constexpr std::size_t kCount = 55;
+inline constexpr std::size_t kCount = 60;
 inline constexpr WeaponData kData[kCount == 0 ? 1 : kCount] =
 {
     // assets/content/vehicles/boats/ptboat/turrets/50cal/entities/50cal.base.entity.prefab
@@ -633,6 +633,86 @@ inline constexpr WeaponData kData[kCount == 0 ? 1 : kCount] =
         { 30.0f, 0.2f, 0.2f, 0.4f, 1.0f, 3.0f, 2.0f, false, 0.0f, 0.0f, 0.0f, true, true },
         { false, false, 10.0f, { 0.0f, 0.0f, 0.0f }, { 0.0f, 0.0f, 0.0f }, 1.0f }
     },
+    // assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.entity.prefab
+    {
+        "rifle.ak.glass", "rifle_ak_glass", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.entity.prefab", 3842925800ULL,
+        1.0f, 1.0f, 1.0f, true,
+        100.0f, 2.0f, 2.0f,
+        true, true, true, false, false,
+        0.3f, 30, true, 0.0f, false,
+        { 1.5f, 2.5f, -2.5f, -3.5f, 0.1f, 0.1f, 0.75f, 0.2f, -std::numeric_limits<float>::infinity(), 10, false, true, 20.0f, true, 1.25f, 1.0f, 1.0f },
+        { 0.2f, 2.5f, 0.1f, 1.0f, 0.3f, 0.3f, 1.0f },
+        { 4.4f, 0.0f, 0.0f, 0.0f, false, true },
+        { false, 0.8f, 0.8f, 0.8f },
+        { true, false, 0.35f, -1.0f },
+        { 1.0f, 0.1333f, 0.0f },
+        { 30.0f, 0.2f, 0.2f, 0.4f, 1.0f, 3.0f, 2.0f, false, 0.0f, 0.0f, 0.0f, true, true },
+        { false, false, 10.0f, { 0.0f, 0.0f, 0.0f }, { 0.0f, 0.0f, 0.0f }, 1.0f }
+    },
+    // assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.blue.entity.prefab
+    {
+        "rifle.ak.glass.blue", "rifle_ak_glass_blue", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.blue.entity.prefab", 2408471514ULL,
+        1.0f, 1.0f, 1.0f, true,
+        100.0f, 2.0f, 2.0f,
+        true, true, true, false, false,
+        0.3f, 30, true, 0.0f, false,
+        { 1.5f, 2.5f, -2.5f, -3.5f, 0.1f, 0.1f, 0.75f, 0.2f, -std::numeric_limits<float>::infinity(), 10, false, true, 20.0f, true, 1.25f, 1.0f, 1.0f },
+        { 0.2f, 2.5f, 0.1f, 1.0f, 0.3f, 0.3f, 1.0f },
+        { 4.4f, 0.0f, 0.0f, 0.0f, false, true },
+        { false, 0.8f, 0.8f, 0.8f },
+        { true, false, 0.35f, -1.0f },
+        { 1.0f, 0.1333f, 0.0f },
+        { 30.0f, 0.2f, 0.2f, 0.4f, 1.0f, 3.0f, 2.0f, false, 0.0f, 0.0f, 0.0f, true, true },
+        { false, false, 10.0f, { 0.0f, 0.0f, 0.0f }, { 0.0f, 0.0f, 0.0f }, 1.0f }
+    },
+    // assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.green.entity.prefab
+    {
+        "rifle.ak.glass.green", "rifle_ak_glass_green", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.green.entity.prefab", 1246348333ULL,
+        1.0f, 1.0f, 1.0f, true,
+        100.0f, 2.0f, 2.0f,
+        true, true, true, false, false,
+        0.3f, 30, true, 0.0f, false,
+        { 1.5f, 2.5f, -2.5f, -3.5f, 0.1f, 0.1f, 0.75f, 0.2f, -std::numeric_limits<float>::infinity(), 10, false, true, 20.0f, true, 1.25f, 1.0f, 1.0f },
+        { 0.2f, 2.5f, 0.1f, 1.0f, 0.3f, 0.3f, 1.0f },
+        { 4.4f, 0.0f, 0.0f, 0.0f, false, true },
+        { false, 0.8f, 0.8f, 0.8f },
+        { true, false, 0.35f, -1.0f },
+        { 1.0f, 0.1333f, 0.0f },
+        { 30.0f, 0.2f, 0.2f, 0.4f, 1.0f, 3.0f, 2.0f, false, 0.0f, 0.0f, 0.0f, true, true },
+        { false, false, 10.0f, { 0.0f, 0.0f, 0.0f }, { 0.0f, 0.0f, 0.0f }, 1.0f }
+    },
+    // assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.pink.entity.prefab
+    {
+        "rifle.ak.glass.pink", "rifle_ak_glass_pink", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.pink.entity.prefab", 2779585845ULL,
+        1.0f, 1.0f, 1.0f, true,
+        100.0f, 2.0f, 2.0f,
+        true, true, true, false, false,
+        0.3f, 30, true, 0.0f, false,
+        { 1.5f, 2.5f, -2.5f, -3.5f, 0.1f, 0.1f, 0.75f, 0.2f, -std::numeric_limits<float>::infinity(), 10, false, true, 20.0f, true, 1.25f, 1.0f, 1.0f },
+        { 0.2f, 2.5f, 0.1f, 1.0f, 0.3f, 0.3f, 1.0f },
+        { 4.4f, 0.0f, 0.0f, 0.0f, false, true },
+        { false, 0.8f, 0.8f, 0.8f },
+        { true, false, 0.35f, -1.0f },
+        { 1.0f, 0.1333f, 0.0f },
+        { 30.0f, 0.2f, 0.2f, 0.4f, 1.0f, 3.0f, 2.0f, false, 0.0f, 0.0f, 0.0f, true, true },
+        { false, false, 10.0f, { 0.0f, 0.0f, 0.0f }, { 0.0f, 0.0f, 0.0f }, 1.0f }
+    },
+    // assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.red.entity.prefab
+    {
+        "rifle.ak.glass.red", "rifle_ak_glass_red", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.red.entity.prefab", 3312136396ULL,
+        1.0f, 1.0f, 1.0f, true,
+        100.0f, 2.0f, 2.0f,
+        true, true, true, false, false,
+        0.3f, 30, true, 0.0f, false,
+        { 1.5f, 2.5f, -2.5f, -3.5f, 0.1f, 0.1f, 0.75f, 0.2f, -std::numeric_limits<float>::infinity(), 10, false, true, 20.0f, true, 1.25f, 1.0f, 1.0f },
+        { 0.2f, 2.5f, 0.1f, 1.0f, 0.3f, 0.3f, 1.0f },
+        { 4.4f, 0.0f, 0.0f, 0.0f, false, true },
+        { false, 0.8f, 0.8f, 0.8f },
+        { true, false, 0.35f, -1.0f },
+        { 1.0f, 0.1333f, 0.0f },
+        { 30.0f, 0.2f, 0.2f, 0.4f, 1.0f, 3.0f, 2.0f, false, 0.0f, 0.0f, 0.0f, true, true },
+        { false, false, 10.0f, { 0.0f, 0.0f, 0.0f }, { 0.0f, 0.0f, 0.0f }, 1.0f }
+    },
     // assets/prefabs/weapons/ak47u/iceskin/ak47u_ice.entity.prefab
     {
         "rifle.ak.ice", "rifle_ak_ice", "assets/prefabs/weapons/ak47u/iceskin/ak47u_ice.entity.prefab", 1942738569ULL,
@@ -1065,30 +1145,35 @@ inline const WeaponData* GetByHash(std::uint64_t hash) noexcept
     case 2154182718ULL: return &kData[28]; // revolver.hc
     case 1978739833ULL: return &kData[29]; // rifle.ak
     case 4096772971ULL: return &kData[30]; // rifle.ak.diver
-    case 1942738569ULL: return &kData[31]; // rifle.ak.ice
-    case 1934468549ULL: return &kData[32]; // rifle.ak.jungle
-    case 3192146626ULL: return &kData[33]; // rifle.ak.med
-    case 1665481300ULL: return &kData[34]; // rifle.bolt
-    case 2620171289ULL: return &kData[35]; // rifle.l96
-    case 844375121ULL: return &kData[36]; // rifle.lr300
-    case 1407888186ULL: return &kData[37]; // rifle.lr300.space
-    case 1517089664ULL: return &kData[38]; // rifle.m39
-    case 4231282088ULL: return &kData[39]; // rifle.semiauto
-    case 4228529517ULL: return &kData[40]; // rifle.sks
-    case 601440135ULL: return &kData[41]; // rocket.launcher
-    case 3704640358ULL: return &kData[42]; // rocket.launcher.dragon
-    case 3445264346ULL: return &kData[43]; // rocket.launcher.rpg7
-    case 3474489095ULL: return &kData[44]; // shotgun.double
-    case 2416998201ULL: return &kData[45]; // shotgun.m4
-    case 554582418ULL: return &kData[46]; // shotgun.pump
-    case 1877401463ULL: return &kData[47]; // shotgun.spas12
-    case 2696589892ULL: return &kData[48]; // shotgun.waterpipe
-    case 3759841439ULL: return &kData[49]; // smg.2
-    case 2545523575ULL: return &kData[50]; // smg.mp5
-    case 3243900999ULL: return &kData[51]; // smg.thompson
-    case 3228215527ULL: return &kData[52]; // snowballgun
-    case 4262383355ULL: return &kData[53]; // speargun
-    case 4251501342ULL: return &kData[54]; // t1_smg
+    case 3842925800ULL: return &kData[31]; // rifle.ak.glass
+    case 2408471514ULL: return &kData[32]; // rifle.ak.glass.blue
+    case 1246348333ULL: return &kData[33]; // rifle.ak.glass.green
+    case 2779585845ULL: return &kData[34]; // rifle.ak.glass.pink
+    case 3312136396ULL: return &kData[35]; // rifle.ak.glass.red
+    case 1942738569ULL: return &kData[36]; // rifle.ak.ice
+    case 1934468549ULL: return &kData[37]; // rifle.ak.jungle
+    case 3192146626ULL: return &kData[38]; // rifle.ak.med
+    case 1665481300ULL: return &kData[39]; // rifle.bolt
+    case 2620171289ULL: return &kData[40]; // rifle.l96
+    case 844375121ULL: return &kData[41]; // rifle.lr300
+    case 1407888186ULL: return &kData[42]; // rifle.lr300.space
+    case 1517089664ULL: return &kData[43]; // rifle.m39
+    case 4231282088ULL: return &kData[44]; // rifle.semiauto
+    case 4228529517ULL: return &kData[45]; // rifle.sks
+    case 601440135ULL: return &kData[46]; // rocket.launcher
+    case 3704640358ULL: return &kData[47]; // rocket.launcher.dragon
+    case 3445264346ULL: return &kData[48]; // rocket.launcher.rpg7
+    case 3474489095ULL: return &kData[49]; // shotgun.double
+    case 2416998201ULL: return &kData[50]; // shotgun.m4
+    case 554582418ULL: return &kData[51]; // shotgun.pump
+    case 1877401463ULL: return &kData[52]; // shotgun.spas12
+    case 2696589892ULL: return &kData[53]; // shotgun.waterpipe
+    case 3759841439ULL: return &kData[54]; // smg.2
+    case 2545523575ULL: return &kData[55]; // smg.mp5
+    case 3243900999ULL: return &kData[56]; // smg.thompson
+    case 3228215527ULL: return &kData[57]; // snowballgun
+    case 4262383355ULL: return &kData[58]; // speargun
+    case 4251501342ULL: return &kData[59]; // t1_smg
     default: return nullptr;
     }
 }
