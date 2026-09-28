@@ -1,8 +1,8 @@
 //
 // Auto-generated Rust Projectile Data
-// Generated: 2026-09-03 18:21:36 UTC
-// Target: Protocol 2633.288.1 / Changeset 162929
-// Total entries: 80
+// Generated: 2026-09-28 18:32:17 UTC
+// Target: Protocol 2633.288.1 / Changeset 165217
+// Total entries: 81
 // Generator: RustDataExporter
 //
 // This file is generated from server-side Rust prefabs/components.
@@ -57,7 +57,7 @@ namespace RustData
 namespace Projectiles
 {
 
-inline constexpr std::size_t kCount = 80;
+inline constexpr std::size_t kCount = 81;
 inline constexpr ProjectileData kData[kCount == 0 ? 1 : kCount] =
 {
     // assets/prefabs/ammo/arrow/bone/arrow_bone.prefab
@@ -1824,6 +1824,34 @@ inline constexpr ProjectileData kData[kCount == 0 ? 1 : kCount] =
         },
         1, true, true, false, true
     },
+    // assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.clientbullet.prefab
+    {
+        "scientist2_clientbullet", "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.clientbullet.prefab", 221559777ULL,
+        { 0.0f, 0.0f, 0.0f }, 0.0f, 0.0f, 0.05f,
+        0.0f, { 0.0f, 0.0f, 0.0f },
+        0.0f, 0.0f, 1.0f, 0.0f,
+        0.0f, 0.1f,
+        { 10.0f, 100.0f }, { 1.0f, 0.8f },
+        {
+            { "Bullet", 45.0f },
+            { "", 0.0f },
+            { "", 0.0f },
+            { "", 0.0f },
+            { "", 0.0f },
+            { "", 0.0f },
+            { "", 0.0f },
+            { "", 0.0f },
+            { "", 0.0f },
+            { "", 0.0f },
+            { "", 0.0f },
+            { "", 0.0f },
+            { "", 0.0f },
+            { "", 0.0f },
+            { "", 0.0f },
+            { "", 0.0f },
+        },
+        1, false, true, false, true
+    },
     // assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.clientricochet.prefab
     {
         "scientist2_clientricochet", "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.clientricochet.prefab", 3239136573ULL,
@@ -2377,23 +2405,24 @@ inline const ProjectileData* GetByHash(std::uint64_t hash) noexcept
     case 3398080445ULL: return &kData[60]; // rock_projectile
     case 3761252112ULL: return &kData[61]; // salvaged_cleaver_projectile
     case 922652660ULL: return &kData[62]; // salvaged_sword_projectile
-    case 3239136573ULL: return &kData[63]; // scientist2_clientricochet
-    case 1991236224ULL: return &kData[64]; // shotgunbullet
-    case 2206685111ULL: return &kData[65]; // shotgunbullet_fire
-    case 648078183ULL: return &kData[66]; // shotgunslug
-    case 1418103607ULL: return &kData[67]; // shovel_projectile
-    case 1396162423ULL: return &kData[68]; // sickle_projectile
-    case 2093157093ULL: return &kData[69]; // skinningknife_projectile
-    case 361494112ULL: return &kData[70]; // skull_projectile
-    case 2931445184ULL: return &kData[71]; // snowball_projectile
-    case 2018030618ULL: return &kData[72]; // snowballgunbullet
-    case 2551075186ULL: return &kData[73]; // speargun_spear
-    case 3575089225ULL: return &kData[74]; // stone_pickaxe_projectile
-    case 1516542433ULL: return &kData[75]; // stone_spear_projectile
-    case 465698672ULL: return &kData[76]; // sunkenknife_projectile
-    case 2237911942ULL: return &kData[77]; // trapbullet
-    case 950430757ULL: return &kData[78]; // vampirestake_projectile
-    case 3022308042ULL: return &kData[79]; // wooden_spear_projectile
+    case 221559777ULL: return &kData[63]; // scientist2_clientbullet
+    case 3239136573ULL: return &kData[64]; // scientist2_clientricochet
+    case 1991236224ULL: return &kData[65]; // shotgunbullet
+    case 2206685111ULL: return &kData[66]; // shotgunbullet_fire
+    case 648078183ULL: return &kData[67]; // shotgunslug
+    case 1418103607ULL: return &kData[68]; // shovel_projectile
+    case 1396162423ULL: return &kData[69]; // sickle_projectile
+    case 2093157093ULL: return &kData[70]; // skinningknife_projectile
+    case 361494112ULL: return &kData[71]; // skull_projectile
+    case 2931445184ULL: return &kData[72]; // snowball_projectile
+    case 2018030618ULL: return &kData[73]; // snowballgunbullet
+    case 2551075186ULL: return &kData[74]; // speargun_spear
+    case 3575089225ULL: return &kData[75]; // stone_pickaxe_projectile
+    case 1516542433ULL: return &kData[76]; // stone_spear_projectile
+    case 465698672ULL: return &kData[77]; // sunkenknife_projectile
+    case 2237911942ULL: return &kData[78]; // trapbullet
+    case 950430757ULL: return &kData[79]; // vampirestake_projectile
+    case 3022308042ULL: return &kData[80]; // wooden_spear_projectile
     default: return nullptr;
     }
 }

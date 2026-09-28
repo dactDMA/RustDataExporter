@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-03 18:21:36",
-  "target_build": "Protocol 2633.288.1 / Changeset 162929",
-  "count": 80,
+  "generated_utc": "2026-09-28 18:32:17",
+  "target_build": "Protocol 2633.288.1 / Changeset 165217",
+  "count": 81,
   "data": [
     {
       "name": "arrow_bone",
@@ -3805,6 +3805,50 @@
         }
       ],
       "remain_in_world": true,
+      "can_refract": true,
+      "penetrates_vehicles": false,
+      "create_decals": true
+    },
+    {
+      "name": "scientist2_clientbullet",
+      "prefab_path": "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.clientbullet.prefab",
+      "hash": 221559777,
+      "initial_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "drag": 0.0,
+      "gravity_modifier": 0.0,
+      "thickness": 0.05,
+      "initial_distance": 0.0,
+      "initial_orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "penetration_power": 0.0,
+      "ricochet_chance": 0.0,
+      "stick_probability": 1.0,
+      "break_probability": 0.0,
+      "condition_loss": 0.0,
+      "water_integrity_loss": 0.1,
+      "damage_distances": {
+        "x": 10.0,
+        "y": 100.0
+      },
+      "damage_multipliers": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "damage_types": [
+        {
+          "type": "Bullet",
+          "amount": 45.0
+        }
+      ],
+      "ammo_sources": [],
+      "remain_in_world": false,
       "can_refract": true,
       "penetrates_vehicles": false,
       "create_decals": true

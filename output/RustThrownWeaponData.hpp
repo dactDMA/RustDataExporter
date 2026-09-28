@@ -1,7 +1,7 @@
 //
 // Auto-generated Rust ThrownWeapon Data
-// Generated: 2026-09-03 18:21:36 UTC
-// Target: Protocol 2633.288.1 / Changeset 162929
+// Generated: 2026-09-28 18:32:17 UTC
+// Target: Protocol 2633.288.1 / Changeset 165217
 // Total entries: 13
 // Generator: RustDataExporter
 //
