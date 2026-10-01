@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-28 18:32:17",
-  "target_build": "Protocol 2633.288.1 / Changeset 165217",
+  "generated_utc": "2026-10-01 21:33:03",
+  "target_build": "Protocol 2634.289.1 / Changeset 166494",
   "count": 81,
   "data": [
     {
@@ -1556,6 +1556,21 @@
           "barrel_condition_loss": 0.0,
           "category": "bullet",
           "skinned_weapon_prefab_id": 0
+        },
+        {
+          "item_shortname": "pie.apple.rich",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
         }
       ],
       "remain_in_world": true,
@@ -1604,6 +1619,51 @@
       "ammo_sources": [
         {
           "item_shortname": "pie.bear",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        },
+        {
+          "item_shortname": "pie.bear.rich",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        },
+        {
+          "item_shortname": "pie.beef",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        },
+        {
+          "item_shortname": "pie.beef.rich",
           "ammo_type": "0",
           "ammo_sub_type": "0",
           "num_projectiles": 1,
@@ -1676,6 +1736,21 @@
           "barrel_condition_loss": 0.0,
           "category": "bullet",
           "skinned_weapon_prefab_id": 0
+        },
+        {
+          "item_shortname": "pie.bigcat.rich",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
         }
       ],
       "remain_in_world": true,
@@ -1724,6 +1799,21 @@
       "ammo_sources": [
         {
           "item_shortname": "pie.chicken",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        },
+        {
+          "item_shortname": "pie.chicken.rich",
           "ammo_type": "0",
           "ammo_sub_type": "0",
           "num_projectiles": 1,
@@ -1856,6 +1946,21 @@
           "barrel_condition_loss": 0.0,
           "category": "bullet",
           "skinned_weapon_prefab_id": 0
+        },
+        {
+          "item_shortname": "pie.fish.rich",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
         }
       ],
       "remain_in_world": true,
@@ -1916,6 +2021,21 @@
           "barrel_condition_loss": 0.0,
           "category": "bullet",
           "skinned_weapon_prefab_id": 0
+        },
+        {
+          "item_shortname": "pie.hunters.rich",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
         }
       ],
       "remain_in_world": true,
@@ -1963,7 +2083,52 @@
       ],
       "ammo_sources": [
         {
+          "item_shortname": "pie.mutton",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        },
+        {
+          "item_shortname": "pie.mutton.rich",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        },
+        {
           "item_shortname": "pie.pork",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        },
+        {
+          "item_shortname": "pie.pork.rich",
           "ammo_type": "0",
           "ammo_sub_type": "0",
           "num_projectiles": 1,
@@ -2024,6 +2189,21 @@
       "ammo_sources": [
         {
           "item_shortname": "pie.pumpkin",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        },
+        {
+          "item_shortname": "pie.pumpkin.rich",
           "ammo_type": "0",
           "ammo_sub_type": "0",
           "num_projectiles": 1,

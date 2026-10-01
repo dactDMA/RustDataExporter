@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-28 18:32:17",
-  "target_build": "Protocol 2633.288.1 / Changeset 165217",
-  "count": 710,
+  "generated_utc": "2026-10-01 21:33:03",
+  "target_build": "Protocol 2634.289.1 / Changeset 166494",
+  "count": 728,
   "data": [
     {
       "name": "50cal.mounted",
@@ -212,6 +212,36 @@
     },
     {
       "name": "barricade.sandbags",
+      "prefab_id": 3378931327,
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "barricade.sandbags.half",
+      "prefab_id": 3378931327,
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "barricade.sandbags.pillbox",
+      "prefab_id": 3378931327,
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "barricade.sandbags.three.quarter",
       "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
@@ -2629,6 +2659,16 @@
       "prefab_path": "assets/prefabs/tools/geiger counter/geiger_counter.entity.prefab"
     },
     {
+      "name": "generator.biofuel",
+      "prefab_id": 3378931327,
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
       "name": "generator.water",
       "prefab_id": 3378931327,
       "concrete_type": "Planner",
@@ -4282,7 +4322,55 @@
       "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
     },
     {
+      "name": "pie.apple.rich",
+      "prefab_id": 797425204,
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
       "name": "pie.bear",
+      "prefab_id": 797425204,
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
+      "name": "pie.bear.rich",
+      "prefab_id": 797425204,
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
+      "name": "pie.beef",
+      "prefab_id": 797425204,
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
+      "name": "pie.beef.rich",
       "prefab_id": 797425204,
       "concrete_type": "Food",
       "type_chain": [
@@ -4306,7 +4394,31 @@
       "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
     },
     {
+      "name": "pie.bigcat.rich",
+      "prefab_id": 797425204,
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
       "name": "pie.chicken",
+      "prefab_id": 797425204,
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
+      "name": "pie.chicken.rich",
       "prefab_id": 797425204,
       "concrete_type": "Food",
       "type_chain": [
@@ -4342,7 +4454,55 @@
       "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
     },
     {
+      "name": "pie.fish.rich",
+      "prefab_id": 797425204,
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
       "name": "pie.hunters",
+      "prefab_id": 797425204,
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
+      "name": "pie.hunters.rich",
+      "prefab_id": 797425204,
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
+      "name": "pie.mutton",
+      "prefab_id": 797425204,
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
+      "name": "pie.mutton.rich",
       "prefab_id": 797425204,
       "concrete_type": "Food",
       "type_chain": [
@@ -4366,7 +4526,31 @@
       "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
     },
     {
+      "name": "pie.pork.rich",
+      "prefab_id": 797425204,
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
       "name": "pie.pumpkin",
+      "prefab_id": 797425204,
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
+      "name": "pie.pumpkin.rich",
       "prefab_id": 797425204,
       "concrete_type": "Food",
       "type_chain": [
@@ -6724,6 +6908,26 @@
     },
     {
       "name": "vending.machine",
+      "prefab_id": 3378931327,
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.animal.fence",
+      "prefab_id": 3378931327,
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "wall.animal.fence.gate",
       "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [

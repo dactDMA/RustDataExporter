@@ -1,8 +1,8 @@
 //
 // Auto-generated Rust Prefab Data
-// Generated: 2026-09-28 18:32:17 UTC
-// Target: Protocol 2633.288.1 / Changeset 165217
-// Total entries: 2378
+// Generated: 2026-10-01 21:33:03 UTC
+// Target: Protocol 2634.289.1 / Changeset 166494
+// Total entries: 2408
 // Generator: RustDataExporter
 //
 // This file is generated from server-side Rust prefabs/components.
@@ -44,7 +44,7 @@ struct PrefabData
     std::size_t type_count;
 };
 
-inline constexpr std::size_t kTypeNamesCount = 12214;
+inline constexpr std::size_t kTypeNamesCount = 12385;
 inline constexpr const char* kTypeNames[kTypeNamesCount == 0 ? 1 : kTypeNamesCount] =
 {
     "CollectibleEntity",
@@ -4918,6 +4918,37 @@ inline constexpr const char* kTypeNames[kTypeNamesCount == 0 ? 1 : kTypeNamesCou
     "BaseCombatEntity",
     "BaseEntity",
     "BaseNetworkable",
+    "AnimalFence",
+    "SimpleBuildingBlock",
+    "StabilityEntity",
+    "DecayEntity",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "AnimalFenceGate",
+    "Gate",
+    "Door",
+    "AnimatedBuildingBlock",
+    "StabilityEntity",
+    "DecayEntity",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "Barricade",
+    "DecayEntity",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "Barricade",
+    "DecayEntity",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "Barricade",
+    "DecayEntity",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
     "Barricade",
     "DecayEntity",
     "BaseCombatEntity",
@@ -4995,6 +5026,18 @@ inline constexpr const char* kTypeNames[kTypeNamesCount == 0 ? 1 : kTypeNamesCou
     "Beehive",
     "StorageContainer",
     "DecayEntity",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "BiofuelGenerator",
+    "ContainerIOEntity",
+    "IOEntity",
+    "DecayEntity",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "BiofuelStirMount",
+    "BaseMountable",
     "BaseCombatEntity",
     "BaseEntity",
     "BaseNetworkable",
@@ -5569,6 +5612,13 @@ inline constexpr const char* kTypeNames[kTypeNamesCount == 0 ? 1 : kTypeNamesCou
     "BaseNetworkable",
     "HitchTrough",
     "StorageContainer",
+    "DecayEntity",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "LiquidContainer",
+    "ContainerIOEntity",
+    "IOEntity",
     "DecayEntity",
     "BaseCombatEntity",
     "BaseEntity",
@@ -9653,6 +9703,13 @@ inline constexpr const char* kTypeNames[kTypeNamesCount == 0 ? 1 : kTypeNamesCou
     "BaseCombatEntity",
     "BaseEntity",
     "BaseNetworkable",
+    "RepairableVehiclePad",
+    "ConstructableEntity",
+    "StorageContainer",
+    "DecayEntity",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
     "VehicleSpawner",
     "BaseEntity",
     "BaseNetworkable",
@@ -9933,6 +9990,18 @@ inline constexpr const char* kTypeNames[kTypeNamesCount == 0 ? 1 : kTypeNamesCou
     "HelicopterDebris",
     "ServerGib",
     "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "LivestockVendor",
+    "NPCTalking",
+    "NPCShopKeeper",
+    "NPCPlayer",
+    "BasePlayer",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "OvergrazedArea",
+    "DepletedArea",
     "BaseEntity",
     "BaseNetworkable",
     "TimedExplosive",
@@ -10243,6 +10312,7 @@ inline constexpr const char* kTypeNames[kTypeNamesCount == 0 ? 1 : kTypeNamesCou
     "BaseEntity",
     "BaseNetworkable",
     "OverfishedArea",
+    "DepletedArea",
     "BaseEntity",
     "BaseNetworkable",
     "RoadFlare",
@@ -11779,9 +11849,8 @@ inline constexpr const char* kTypeNames[kTypeNamesCount == 0 ? 1 : kTypeNamesCou
     "BaseCombatEntity",
     "BaseEntity",
     "BaseNetworkable",
-    "Bear",
-    "BaseAnimalNPC",
-    "BaseNpc",
+    "Rust.Ai.Gen2.Bear",
+    "Rust.Ai.Gen2.BaseNPC2",
     "BaseCombatEntity",
     "BaseEntity",
     "BaseNetworkable",
@@ -11789,9 +11858,8 @@ inline constexpr const char* kTypeNames[kTypeNamesCount == 0 ? 1 : kTypeNamesCou
     "BaseCombatEntity",
     "BaseEntity",
     "BaseNetworkable",
-    "Bear",
-    "BaseAnimalNPC",
-    "BaseNpc",
+    "Rust.Ai.Gen2.Bear",
+    "Rust.Ai.Gen2.BaseNPC2",
     "BaseCombatEntity",
     "BaseEntity",
     "BaseNetworkable",
@@ -11799,9 +11867,8 @@ inline constexpr const char* kTypeNames[kTypeNamesCount == 0 ? 1 : kTypeNamesCou
     "BaseCombatEntity",
     "BaseEntity",
     "BaseNetworkable",
-    "Polarbear",
-    "BaseAnimalNPC",
-    "BaseNpc",
+    "Rust.Ai.Gen2.PolarBear",
+    "Rust.Ai.Gen2.BaseNPC2",
     "BaseCombatEntity",
     "BaseEntity",
     "BaseNetworkable",
@@ -11809,9 +11876,8 @@ inline constexpr const char* kTypeNames[kTypeNamesCount == 0 ? 1 : kTypeNamesCou
     "BaseCombatEntity",
     "BaseEntity",
     "BaseNetworkable",
-    "Boar",
-    "BaseAnimalNPC",
-    "BaseNpc",
+    "Rust.Ai.Gen2.Boar",
+    "Rust.Ai.Gen2.BaseNPC2",
     "BaseCombatEntity",
     "BaseEntity",
     "BaseNetworkable",
@@ -11819,6 +11885,39 @@ inline constexpr const char* kTypeNames[kTypeNamesCount == 0 ? 1 : kTypeNamesCou
     "BaseCombatEntity",
     "BaseEntity",
     "BaseNetworkable",
+    "Rust.Ai.Gen2.LivestockCorpse",
+    "BaseCorpse",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "Rust.Ai.Gen2.Cow",
+    "Rust.Ai.Gen2.LivestockAnimal",
+    "Rust.Ai.Gen2.BaseNPC2",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "Rust.Ai.Gen2.LivestockCorpse",
+    "BaseCorpse",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "Rust.Ai.Gen2.Cow",
+    "Rust.Ai.Gen2.LivestockAnimal",
+    "Rust.Ai.Gen2.BaseNPC2",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "Rust.Ai.Gen2.LivestockCorpse",
+    "BaseCorpse",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "Rust.Ai.Gen2.Cow",
+    "Rust.Ai.Gen2.LivestockAnimal",
+    "Rust.Ai.Gen2.BaseNPC2",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
     "BaseCorpse",
     "BaseCombatEntity",
     "BaseEntity",
@@ -11827,15 +11926,36 @@ inline constexpr const char* kTypeNames[kTypeNamesCount == 0 ? 1 : kTypeNamesCou
     "BaseCombatEntity",
     "BaseEntity",
     "BaseNetworkable",
-    "Chicken",
-    "BaseAnimalNPC",
-    "BaseNpc",
+    "Rust.Ai.Gen2.Chicken",
+    "Rust.Ai.Gen2.BaseNPC2",
     "BaseCombatEntity",
     "BaseEntity",
     "BaseNetworkable",
-    "Chicken",
-    "BaseAnimalNPC",
-    "BaseNpc",
+    "Rust.Ai.Gen2.Chicken",
+    "Rust.Ai.Gen2.BaseNPC2",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "Rust.Ai.Gen2.LivestockCorpse",
+    "BaseCorpse",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "Rust.Ai.Gen2.Cow",
+    "Rust.Ai.Gen2.LivestockAnimal",
+    "Rust.Ai.Gen2.BaseNPC2",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "Rust.Ai.Gen2.Crabs",
+    "Rust.Ai.Gen2.CritterAnimal",
+    "Rust.Ai.Gen2.BaseNPC2",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "Rust.Ai.Gen2.Crabs",
+    "Rust.Ai.Gen2.CritterAnimal",
+    "Rust.Ai.Gen2.BaseNPC2",
     "BaseCombatEntity",
     "BaseEntity",
     "BaseNetworkable",
@@ -11858,6 +11978,18 @@ inline constexpr const char* kTypeNames[kTypeNamesCount == 0 ? 1 : kTypeNamesCou
     "BaseEntity",
     "BaseNetworkable",
     "SimpleShark",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "Rust.Ai.Gen2.Frog",
+    "Rust.Ai.Gen2.CritterAnimal",
+    "Rust.Ai.Gen2.BaseNPC2",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "Jellyfish",
+    "SwimmingNPC",
+    "Rust.Ai.Gen2.BaseNPC2",
     "BaseCombatEntity",
     "BaseEntity",
     "BaseNetworkable",
@@ -12131,6 +12263,40 @@ inline constexpr const char* kTypeNames[kTypeNamesCount == 0 ? 1 : kTypeNamesCou
     "BaseCombatEntity",
     "BaseEntity",
     "BaseNetworkable",
+    "Rust.Ai.Gen2.Rabbit",
+    "Rust.Ai.Gen2.CritterAnimal",
+    "Rust.Ai.Gen2.BaseNPC2",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "SeaTurtle",
+    "SwimmingNPC",
+    "Rust.Ai.Gen2.BaseNPC2",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "Rust.Ai.Gen2.LivestockCorpse",
+    "BaseCorpse",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "Rust.Ai.Gen2.Sheep",
+    "Rust.Ai.Gen2.LivestockAnimal",
+    "Rust.Ai.Gen2.BaseNPC2",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "Rust.Ai.Gen2.LivestockCorpse",
+    "BaseCorpse",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
+    "Rust.Ai.Gen2.Sheep",
+    "Rust.Ai.Gen2.LivestockAnimal",
+    "Rust.Ai.Gen2.BaseNPC2",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
     "BaseCorpse",
     "BaseCombatEntity",
     "BaseEntity",
@@ -12140,13 +12306,18 @@ inline constexpr const char* kTypeNames[kTypeNamesCount == 0 ? 1 : kTypeNamesCou
     "BaseCombatEntity",
     "BaseEntity",
     "BaseNetworkable",
+    "Rust.Ai.Gen2.Squirrel",
+    "Rust.Ai.Gen2.CritterAnimal",
+    "Rust.Ai.Gen2.BaseNPC2",
+    "BaseCombatEntity",
+    "BaseEntity",
+    "BaseNetworkable",
     "BaseCorpse",
     "BaseCombatEntity",
     "BaseEntity",
     "BaseNetworkable",
-    "Stag",
-    "BaseAnimalNPC",
-    "BaseNpc",
+    "Rust.Ai.Gen2.Stag",
+    "Rust.Ai.Gen2.BaseNPC2",
     "BaseCombatEntity",
     "BaseEntity",
     "BaseNetworkable",
@@ -12263,7 +12434,7 @@ inline constexpr const char* kTypeNames[kTypeNamesCount == 0 ? 1 : kTypeNamesCou
     "BaseNetworkable",
 };
 
-inline constexpr std::size_t kCount = 2378;
+inline constexpr std::size_t kCount = 2408;
 inline constexpr PrefabData kData[kCount == 0 ? 1 : kCount] =
 {
     { "berry-black-collectable", "berry black collectable", "Uncategorized", "assets/bundled/prefabs/autospawn/collectable/berry-black/berry-black-collectable.prefab", 3408978181U, true, true, false, false, false, false, false, false, "static", true, "CollectibleEntity", 0, 3 },
@@ -12959,9 +13130,9 @@ inline constexpr PrefabData kData[kCount == 0 ? 1 : kCount] =
     { "ptboat_storage", "ptboat storage", "Uncategorized", "assets/content/vehicles/boats/ptboat/ptboat_storage.prefab", 4181163650U, true, true, false, false, false, false, false, false, "dynamic", false, "StorageContainer", 2954, 5 },
     { "ptboataidriver", "ptboataidriver", "Uncategorized", "assets/content/vehicles/boats/ptboat/ptboataidriver.prefab", 628471036U, true, true, false, false, false, false, false, false, "dynamic", false, "BoatAI", 2959, 3 },
     { "50cal.base.entity", "50cal base entity", "Uncategorized", "assets/content/vehicles/boats/ptboat/turrets/50cal/entities/50cal.base.entity.prefab", 1234020621U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 2962, 5 },
-    { "50cal.left.entity", "#50cal", "Uncategorized", "assets/content/vehicles/boats/ptboat/turrets/50cal/entities/50cal.left.entity.prefab", 379001777U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 2967, 5 },
-    { "50cal.right.entity", "#50cal", "Uncategorized", "assets/content/vehicles/boats/ptboat/turrets/50cal/entities/50cal.right.entity.prefab", 545211943U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 2972, 5 },
-    { "50cal.single.entity", "#50cal", "Uncategorized", "assets/content/vehicles/boats/ptboat/turrets/50cal/entities/50cal.single.entity.prefab", 3944162531U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 2977, 5 },
+    { "50cal.left.entity", "Dual 50 Cal Turret", "Uncategorized", "assets/content/vehicles/boats/ptboat/turrets/50cal/entities/50cal.left.entity.prefab", 379001777U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 2967, 5 },
+    { "50cal.right.entity", "Dual 50 Cal Turret", "Uncategorized", "assets/content/vehicles/boats/ptboat/turrets/50cal/entities/50cal.right.entity.prefab", 545211943U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 2972, 5 },
+    { "50cal.single.entity", "50 Cal Turret", "Uncategorized", "assets/content/vehicles/boats/ptboat/turrets/50cal/entities/50cal.single.entity.prefab", 3944162531U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 2977, 5 },
     { "pt_boat_turret_rear", "pt boat turret rear", "Uncategorized", "assets/content/vehicles/boats/ptboat/turrets/pt_boat_turret_rear.prefab", 610222577U, true, true, false, false, false, false, false, false, "dynamic", false, "MountedWeapon", 2982, 6 },
     { "ptboat_turret_front", "ptboat turret front", "Uncategorized", "assets/content/vehicles/boats/ptboat/turrets/ptboat_turret_front.prefab", 279507742U, true, true, false, false, false, false, false, false, "dynamic", false, "MountedWeapon", 2988, 6 },
     { "rhib.deepsea", "rhib deepsea", "Uncategorized", "assets/content/vehicles/boats/rhib/rhib.deepsea.prefab", 2584882619U, true, true, false, true, false, true, false, false, "dynamic", false, "RHIB", 2994, 8 },
@@ -13270,1380 +13441,1410 @@ inline constexpr PrefabData kData[kCount == 0 ? 1 : kCount] =
     { "debris.stone.external.wall", "debris stone external wall", "Uncategorized", "assets/prefabs/debris/debris.stone.external.wall.prefab", 3573484548U, true, true, false, false, false, false, false, false, "static", true, "DebrisEntity", 4859, 4 },
     { "debris.wall", "debris wall", "Uncategorized", "assets/prefabs/debris/debris.wall.prefab", 1424066995U, true, true, false, false, false, false, false, false, "static", true, "DebrisEntity", 4863, 4 },
     { "debris.wood.external.wall", "debris wood external wall", "Uncategorized", "assets/prefabs/debris/debris.wood.external.wall.prefab", 2304619954U, true, true, false, false, false, false, false, false, "static", true, "DebrisEntity", 4867, 4 },
-    { "barricade.concrete", "barricade concrete", "Uncategorized", "assets/prefabs/deployable/barricades/barricade.concrete.prefab", 2057881102U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 4871, 5 },
-    { "barricade.cover.wood", "barricade cover wood", "Uncategorized", "assets/prefabs/deployable/barricades/barricade.cover.wood.prefab", 1581233281U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 4876, 5 },
-    { "barricade.cover.wood_double", "barricade cover wood double", "Uncategorized", "assets/prefabs/deployable/barricades/barricade.cover.wood_double.prefab", 2982625522U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 4881, 5 },
-    { "barricade.medieval", "barricade medieval", "Uncategorized", "assets/prefabs/deployable/barricades/barricade.medieval.prefab", 56566310U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 4886, 5 },
-    { "barricade.metal", "barricade metal", "Uncategorized", "assets/prefabs/deployable/barricades/barricade.metal.prefab", 3824663394U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 4891, 5 },
-    { "barricade.sandbags", "barricade sandbags", "Uncategorized", "assets/prefabs/deployable/barricades/barricade.sandbags.prefab", 2335812770U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 4896, 5 },
-    { "barricade.stone", "barricade stone", "Uncategorized", "assets/prefabs/deployable/barricades/barricade.stone.prefab", 1206527181U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 4901, 5 },
-    { "barricade.wood", "barricade wood", "Uncategorized", "assets/prefabs/deployable/barricades/barricade.wood.prefab", 4254045167U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 4906, 5 },
-    { "barricade.woodwire", "barricade woodwire", "Uncategorized", "assets/prefabs/deployable/barricades/barricade.woodwire.prefab", 1202834203U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 4911, 5 },
-    { "bbq.campermodule", "bbq campermodule", "Uncategorized", "assets/prefabs/deployable/bbq/bbq.campermodule.prefab", 2279735483U, true, true, false, false, false, false, false, false, "static", true, "ModularCarOven", 4916, 7 },
-    { "bbq.deployed", "bbq deployed", "Uncategorized", "assets/prefabs/deployable/bbq/bbq.deployed.prefab", 2409469892U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 4923, 6 },
-    { "beartrap", "beartrap", "Uncategorized", "assets/prefabs/deployable/bear trap/beartrap.prefab", 922529517U, true, true, false, false, false, false, false, false, "static", true, "BearTrap", 4929, 6 },
-    { "bed_deployed.corpse", "bed deployed corpse", "Uncategorized", "assets/prefabs/deployable/bed/bed_deployed.corpse.prefab", 1642908740U, true, true, false, false, false, false, false, false, "static", true, "SleepingBag", 4935, 5 },
-    { "bed_deployed", "bed deployed", "Uncategorized", "assets/prefabs/deployable/bed/bed_deployed.prefab", 3928883189U, true, true, false, false, false, false, false, false, "static", true, "SleepingBag", 4940, 5 },
-    { "beehive.deployed", "beehive deployed", "Uncategorized", "assets/prefabs/deployable/beehive/beehive.deployed.prefab", 3773792636U, true, true, false, false, false, false, false, false, "static", true, "Beehive", 4945, 6 },
-    { "boatbuildingstation.deployed", "boatbuildingstation deployed", "Uncategorized", "assets/prefabs/deployable/boat building platform/boatbuildingstation.deployed.prefab", 75540915U, true, true, false, false, false, false, false, false, "dynamic", false, "BoatBuildingStation", 4951, 5 },
-    { "boatbuildingstation.static", "boatbuildingstation static", "Uncategorized", "assets/prefabs/deployable/boat building platform/boatbuildingstation.static.prefab", 1483764430U, true, true, false, false, false, false, false, false, "dynamic", false, "BoatBuildingStation", 4956, 5 },
-    { "anchor.deployed", "anchor deployed", "Uncategorized", "assets/prefabs/deployable/boatbuilding/anchor/anchor.deployed.prefab", 2197720167U, true, true, false, false, false, false, false, false, "static", true, "Anchor", 4961, 5 },
-    { "cannon.deployed", "cannon deployed", "Uncategorized", "assets/prefabs/deployable/boatbuilding/cannon/cannon.deployed.prefab", 2936999800U, true, true, false, false, false, false, false, false, "dynamic", false, "Cannon", 4966, 8 },
-    { "cannon.land.static", "cannon land static", "Uncategorized", "assets/prefabs/deployable/boatbuilding/cannon/cannon.land.static.prefab", 4179234465U, true, true, false, false, false, false, false, false, "dynamic", false, "Cannon", 4974, 8 },
-    { "cannonball", "cannonball", "Uncategorized", "assets/prefabs/deployable/boatbuilding/cannon/cannonball.prefab", 1199568476U, true, true, false, false, false, false, false, false, "static", true, "TimedExplosive", 4982, 3 },
-    { "plank.deployed", "plank deployed", "Uncategorized", "assets/prefabs/deployable/boatbuilding/plank/plank.deployed.prefab", 1783121496U, true, true, false, false, false, false, false, false, "static", true, "Plank", 4985, 5 },
-    { "sail.deployed", "sail deployed", "Uncategorized", "assets/prefabs/deployable/boatbuilding/sail/sail.deployed.prefab", 60611771U, true, true, false, false, false, false, false, false, "static", true, "Sail", 4990, 5 },
-    { "small_ramp.deployed", "small ramp deployed", "Uncategorized", "assets/prefabs/deployable/boatbuilding/small_ramp/small_ramp.deployed.prefab", 1294413327U, true, true, false, false, false, false, false, false, "static", true, "SmallRamp", 4995, 8 },
-    { "smallengine.deployed", "smallengine deployed", "Uncategorized", "assets/prefabs/deployable/boatbuilding/smallengine/smallengine.deployed.prefab", 89844878U, true, true, false, false, false, false, false, false, "static", true, "SmallEngine", 5003, 5 },
-    { "fuel_storage", "fuel storage", "Uncategorized", "assets/prefabs/deployable/boatbuilding/smallengine/subents/fuel_storage.prefab", 2114674288U, true, true, false, false, false, false, false, false, "static", true, "StorageContainer", 5008, 5 },
-    { "steeringwheel.deployed", "steeringwheel deployed", "Uncategorized", "assets/prefabs/deployable/boatbuilding/steeringwheel/steeringwheel.deployed.prefab", 1346716961U, true, true, false, false, false, false, false, false, "static", true, "SteeringWheel", 5013, 5 },
-    { "campfire", "campfire", "Uncategorized", "assets/prefabs/deployable/campfire/campfire.prefab", 4160694184U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 5018, 6 },
-    { "_cardtable_base", "cardtable base", "Uncategorized", "assets/prefabs/deployable/card table/_cardtable_base.prefab", 1708930778U, true, true, false, false, false, false, false, false, "dynamic", false, "CardTable", 5024, 7 },
-    { "cardtable.deployed", "cardtable deployed", "Uncategorized", "assets/prefabs/deployable/card table/cardtable.deployed.prefab", 1845856065U, true, true, false, false, false, false, false, false, "dynamic", false, "CardTable", 5031, 7 },
-    { "cardtable.static_configa", "cardtable static configa", "Uncategorized", "assets/prefabs/deployable/card table/cardtable.static_configa.prefab", 4262635170U, true, true, false, false, false, false, false, false, "dynamic", false, "CardTable", 5038, 7 },
-    { "cardtable.static_configa_hidden", "cardtable static configa hidden", "Uncategorized", "assets/prefabs/deployable/card table/cardtable.static_configa_hidden.prefab", 2597581320U, true, true, false, false, false, false, false, false, "dynamic", false, "CardTable", 5045, 7 },
-    { "cardtable.static_configb", "cardtable static configb", "Uncategorized", "assets/prefabs/deployable/card table/cardtable.static_configb.prefab", 2447998865U, true, true, false, false, false, false, false, false, "dynamic", false, "CardTable", 5052, 7 },
-    { "cardtable.static_configc", "cardtable static configc", "Uncategorized", "assets/prefabs/deployable/card table/cardtable.static_configc.prefab", 1390750221U, true, true, false, false, false, false, false, false, "dynamic", false, "CardTable", 5059, 7 },
-    { "cardtable.static_configd", "cardtable static configd", "Uncategorized", "assets/prefabs/deployable/card table/cardtable.static_configd.prefab", 690460714U, true, true, false, false, false, false, false, false, "dynamic", false, "CardTable", 5066, 7 },
-    { "cardgameplayerstorage", "cardgameplayerstorage", "Uncategorized", "assets/prefabs/deployable/card table/subents/cardgameplayerstorage.prefab", 3031328897U, true, true, false, false, false, false, false, false, "dynamic", false, "CardGamePlayerStorage", 5073, 6 },
-    { "cardgamepotstorage", "cardgamepotstorage", "Uncategorized", "assets/prefabs/deployable/card table/subents/cardgamepotstorage.prefab", 1584910940U, true, true, false, false, false, false, false, false, "static", true, "StorageContainer", 5079, 5 },
-    { "cardtableseat", "cardtableseat", "Uncategorized", "assets/prefabs/deployable/card table/subents/cardtableseat.prefab", 2254147427U, true, true, false, false, false, false, false, false, "static", true, "CardTableSeat", 5084, 6 },
-    { "cctv.static", "cctv static", "Uncategorized", "assets/prefabs/deployable/cctvcamera/cctv.static.prefab", 1096666154U, true, true, false, false, false, false, false, false, "static", true, "CCTV_RC", 5090, 7 },
-    { "cctv_deployed", "cctv deployed", "Uncategorized", "assets/prefabs/deployable/cctvcamera/cctv_deployed.prefab", 2633567939U, true, true, false, false, false, false, false, false, "static", true, "CCTV_RC", 5097, 7 },
-    { "ceilinglight.deployed", "ceilinglight deployed", "Uncategorized", "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab", 3953213470U, true, true, false, false, false, false, false, false, "static", true, "CeilingLight", 5104, 6 },
-    { "chair.deployed", "chair deployed", "Uncategorized", "assets/prefabs/deployable/chair/chair.deployed.prefab", 1992774774U, true, true, false, false, false, false, false, false, "static", true, "BaseChair", 5110, 5 },
-    { "chair.icethrone", "chair icethrone", "Uncategorized", "assets/prefabs/deployable/chair/ice_throne/chair.icethrone.prefab", 3579302978U, true, true, false, false, false, false, false, false, "static", true, "BaseChair", 5115, 5 },
-    { "bar.games.bar.stool.metal.deployed", "bar games bar stool metal deployed", "Uncategorized", "assets/prefabs/deployable/chair/skins/bar_games_bar_stools/bar.games.bar.stool.metal.deployed.prefab", 887058568U, true, true, false, false, false, false, false, false, "static", true, "BaseChair", 5120, 5 },
-    { "bar.games.bar.stool.wood.deployed", "bar games bar stool wood deployed", "Uncategorized", "assets/prefabs/deployable/chair/skins/bar_games_bar_stools/bar.games.bar.stool.wood.deployed.prefab", 3404567684U, true, true, false, false, false, false, false, false, "static", true, "BaseChair", 5125, 5 },
-    { "beanbag.seat.fabric.deployed", "beanbag seat fabric deployed", "Uncategorized", "assets/prefabs/deployable/chair/skins/cozy_beanbag_seat/beanbag.seat.fabric.deployed.prefab", 3824051769U, true, true, false, false, false, false, false, false, "static", true, "BaseChair", 5130, 5 },
-    { "beanbag.seat.leather.deployed", "beanbag seat leather deployed", "Uncategorized", "assets/prefabs/deployable/chair/skins/cozy_beanbag_seat/beanbag.seat.leather.deployed.prefab", 1742249447U, true, true, false, false, false, false, false, false, "static", true, "BaseChair", 5135, 5 },
-    { "chair.ejectorseat", "chair ejectorseat", "Uncategorized", "assets/prefabs/deployable/chair/skins/pilot_hazmat_ejector_seat/chair.ejectorseat.prefab", 454013157U, true, true, false, false, false, false, false, false, "static", true, "BaseChair", 5140, 5 },
-    { "charityplushie_01_deployed", "charityplushie 01 deployed", "Uncategorized", "assets/prefabs/deployable/charity_plushie_01/charityplushie_01_deployed.prefab", 2143844589U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 5145, 3 },
-    { "charityplushie_02_deployed", "charityplushie 02 deployed", "Uncategorized", "assets/prefabs/deployable/charity_plushie_02/charityplushie_02_deployed.prefab", 1164581789U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 5148, 3 },
-    { "charityplushie_03_deployed", "charityplushie 03 deployed", "Uncategorized", "assets/prefabs/deployable/charity_plushie_03/charityplushie_03_deployed.prefab", 2352430490U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 5151, 3 },
-    { "charityplushie_04_deployed", "charityplushie 04 deployed", "Uncategorized", "assets/prefabs/deployable/charity_plushie_04/charityplushie_04_deployed.prefab", 2331136578U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 5154, 3 },
-    { "chickencoop.deployed", "chickencoop deployed", "Uncategorized", "assets/prefabs/deployable/chickencoop/chickencoop.deployed.prefab", 1393130608U, true, true, false, false, false, false, false, false, "static", true, "ChickenCoop", 5157, 6 },
-    { "simplechicken.entity", "simplechicken entity", "Uncategorized", "assets/prefabs/deployable/chickencoop/simplechicken.entity.prefab", 1404456901U, true, true, false, false, false, false, false, false, "static", true, "FarmableAnimal", 5163, 4 },
-    { "codelockedhackablecrate", "codelockedhackablecrate", "Uncategorized", "assets/prefabs/deployable/chinooklockedcrate/codelockedhackablecrate.prefab", 209286362U, true, true, false, true, false, true, false, false, "dynamic", false, "HackableLockedCrate", 5167, 7 },
-    { "codelockedhackablecrate_ghostship", "codelockedhackablecrate ghostship", "Uncategorized", "assets/prefabs/deployable/chinooklockedcrate/codelockedhackablecrate_ghostship.prefab", 2068208223U, true, true, false, true, true, true, false, false, "static", true, "HackableLockedCrate", 5174, 7 },
-    { "codelockedhackablecrate_oilrig", "codelockedhackablecrate oilrig", "Uncategorized", "assets/prefabs/deployable/chinooklockedcrate/codelockedhackablecrate_oilrig.prefab", 2043434947U, true, true, false, true, false, true, false, false, "dynamic", false, "HackableLockedCrate", 5181, 7 },
-    { "clan.table", "clan table", "Uncategorized", "assets/prefabs/deployable/clan table/clan.table.prefab", 319712039U, true, true, false, false, false, false, false, false, "static", true, "ClanTable", 5188, 4 },
-    { "clantable.deployed", "clantable deployed", "Uncategorized", "assets/prefabs/deployable/clan table/clantable.deployed.prefab", 1545936318U, true, true, false, false, false, false, false, false, "static", true, "ClanTable", 5192, 4 },
-    { "clantable.static", "clantable static", "Uncategorized", "assets/prefabs/deployable/clan table/clantable.static.prefab", 1091538011U, true, true, false, false, false, false, false, false, "static", true, "ClanTable", 5196, 4 },
-    { "composter", "composter", "Uncategorized", "assets/prefabs/deployable/composter/composter.prefab", 1921897480U, true, true, false, false, false, false, false, false, "static", true, "Composter", 5200, 7 },
-    { "computerstation.apartmentcomplex.static", "computerstation apartmentcomplex static", "Uncategorized", "assets/prefabs/deployable/computerstation/computerstation.apartmentcomplex.static.prefab", 4224482427U, true, true, false, false, false, false, false, false, "static", true, "ApartmentTerminal", 5207, 6 },
-    { "computerstation.deployed", "computerstation deployed", "Uncategorized", "assets/prefabs/deployable/computerstation/computerstation.deployed.prefab", 2493676858U, true, true, false, false, false, false, false, false, "static", true, "ComputerStation", 5213, 5 },
-    { "computerstation.ioent", "computerstation ioent", "Uncategorized", "assets/prefabs/deployable/computerstation/computerstation.ioent.prefab", 2305339623U, true, true, false, false, false, false, false, false, "static", true, "ComputerStationIO", 5218, 6 },
-    { "computerstation.static", "computerstation static", "Uncategorized", "assets/prefabs/deployable/computerstation/computerstation.static.prefab", 3814928951U, true, true, false, false, false, false, false, false, "static", true, "ComputerStation", 5224, 5 },
-    { "cookingworkbench.bbq", "cookingworkbench bbq", "Uncategorized", "assets/prefabs/deployable/cookingworkbench/cookingworkbench.bbq.prefab", 431357582U, true, true, false, false, false, false, false, false, "static", true, "CookingWorkbenchBbq", 5229, 7 },
-    { "cookingworkbench.deployed", "cookingworkbench deployed", "Uncategorized", "assets/prefabs/deployable/cookingworkbench/cookingworkbench.deployed.prefab", 1604022909U, true, true, false, false, false, false, false, false, "static", true, "CookingWorkbench", 5236, 7 },
-    { "dartboard.deployed", "dartboard deployed", "Uncategorized", "assets/prefabs/deployable/dartboard/dartboard.deployed.prefab", 761048428U, true, true, false, false, false, false, false, false, "static", true, "DartsGameBoard", 5243, 4 },
-    { "dartboard.mountable", "dartboard mountable", "Uncategorized", "assets/prefabs/deployable/dartboard/dartboard.mountable.prefab", 2234097594U, true, true, false, false, false, false, false, false, "static", true, "DartsGameMountable", 5247, 5 },
-    { "discordplushie_deployed", "discordplushie deployed", "Uncategorized", "assets/prefabs/deployable/discord plush/discordplushie_deployed.prefab", 426877686U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 5252, 3 },
-    { "door_barricade_a", "door barricade a", "Uncategorized", "assets/prefabs/deployable/door barricades/door_barricade_a.prefab", 931526157U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 5255, 5 },
-    { "door_barricade_a_large", "door barricade a large", "Uncategorized", "assets/prefabs/deployable/door barricades/door_barricade_a_large.prefab", 382418191U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 5260, 5 },
-    { "door_barricade_b", "door barricade b", "Uncategorized", "assets/prefabs/deployable/door barricades/door_barricade_b.prefab", 2483166070U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 5265, 5 },
-    { "door_barricade_dbl_a", "door barricade dbl a", "Uncategorized", "assets/prefabs/deployable/door barricades/door_barricade_dbl_a.prefab", 2342515045U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 5270, 5 },
-    { "door_barricade_dbl_a_large", "door barricade dbl a large", "Uncategorized", "assets/prefabs/deployable/door barricades/door_barricade_dbl_a_large.prefab", 3737132756U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 5275, 5 },
-    { "door_barricade_dbl_b", "door barricade dbl b", "Uncategorized", "assets/prefabs/deployable/door barricades/door_barricade_dbl_b.prefab", 623754980U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 5280, 5 },
-    { "door_barricade_dbl_b_large", "door barricade dbl b large", "Uncategorized", "assets/prefabs/deployable/door barricades/door_barricade_dbl_b_large.prefab", 3440671703U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 5285, 5 },
-    { "drone.deployed", "drone deployed", "Uncategorized", "assets/prefabs/deployable/drone/drone.deployed.prefab", 1191314495U, true, true, false, true, false, true, false, false, "dynamic", false, "Drone", 5290, 5 },
-    { "drone.storage", "drone storage", "Uncategorized", "assets/prefabs/deployable/drone/subents/drone.storage.prefab", 1397446101U, true, true, false, false, false, false, false, false, "static", true, "DroneStorage", 5295, 6 },
-    { "dropbox.deployed", "dropbox deployed", "Uncategorized", "assets/prefabs/deployable/dropbox/dropbox.deployed.prefab", 661881069U, true, true, false, false, false, false, false, false, "static", true, "DropBox", 5301, 7 },
-    { "easel.deployed", "easel deployed", "Uncategorized", "assets/prefabs/deployable/easel_deployable/easel.deployed.prefab", 495819493U, true, true, false, false, false, false, false, false, "static", true, "EaselDeployable", 5308, 6 },
-    { "elevator", "elevator", "Uncategorized", "assets/prefabs/deployable/elevator/elevator.prefab", 3978222077U, true, true, false, false, false, false, false, false, "static", true, "Elevator", 5314, 6 },
-    { "elevator_lift", "elevator lift", "Uncategorized", "assets/prefabs/deployable/elevator/elevator_lift.prefab", 147094869U, true, true, false, false, false, false, false, false, "dynamic", false, "ElevatorLiftPlayer", 5320, 5 },
-    { "elevator.static.office.top", "elevator static office top", "Uncategorized", "assets/prefabs/deployable/elevator/static/elevator.static.office.top.prefab", 2008256530U, true, true, false, false, false, false, false, false, "static", true, "ElevatorStatic", 5325, 7 },
-    { "elevator.static", "elevator static", "Uncategorized", "assets/prefabs/deployable/elevator/static/elevator.static.prefab", 140200872U, true, true, false, false, false, false, false, false, "static", true, "ElevatorStatic", 5332, 7 },
-    { "elevator.static.top", "elevator static top", "Uncategorized", "assets/prefabs/deployable/elevator/static/elevator.static.top.prefab", 1033358365U, true, true, false, false, false, false, false, false, "static", true, "ElevatorStatic", 5339, 7 },
-    { "elevator_lift.static", "elevator lift static", "Uncategorized", "assets/prefabs/deployable/elevator/static/elevator_lift.static.prefab", 3845190333U, true, true, false, false, false, false, false, false, "static", true, "ElevatorLiftStatic", 5346, 5 },
-    { "fireplace.deployed", "fireplace deployed", "Uncategorized", "assets/prefabs/deployable/fireplace/fireplace.deployed.prefab", 110576239U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 5351, 6 },
-    { "mortarblue", "mortarblue", "Uncategorized", "assets/prefabs/deployable/fireworks/mortarblue.prefab", 3537935076U, true, true, false, false, false, false, false, false, "static", true, "MortarFirework", 5357, 6 },
-    { "mortarchampagne", "mortarchampagne", "Uncategorized", "assets/prefabs/deployable/fireworks/mortarchampagne.prefab", 1538862213U, true, true, false, false, false, false, false, false, "static", true, "MortarFirework", 5363, 6 },
-    { "mortargreen", "mortargreen", "Uncategorized", "assets/prefabs/deployable/fireworks/mortargreen.prefab", 1303486792U, true, true, false, false, false, false, false, false, "static", true, "MortarFirework", 5369, 6 },
-    { "mortarorange", "mortarorange", "Uncategorized", "assets/prefabs/deployable/fireworks/mortarorange.prefab", 2125925416U, true, true, false, false, false, false, false, false, "static", true, "MortarFirework", 5375, 6 },
-    { "mortarpattern", "mortarpattern", "Uncategorized", "assets/prefabs/deployable/fireworks/mortarpattern.prefab", 4155476352U, true, true, false, false, false, false, false, false, "static", true, "PatternFirework", 5381, 7 },
-    { "mortarred", "mortarred", "Uncategorized", "assets/prefabs/deployable/fireworks/mortarred.prefab", 2059113465U, true, true, false, false, false, false, false, false, "static", true, "MortarFirework", 5388, 6 },
-    { "mortarviolet", "mortarviolet", "Uncategorized", "assets/prefabs/deployable/fireworks/mortarviolet.prefab", 571344195U, true, true, false, false, false, false, false, false, "static", true, "MortarFirework", 5394, 6 },
-    { "mortarwhite", "mortarwhite", "Uncategorized", "assets/prefabs/deployable/fireworks/mortarwhite.prefab", 915055899U, true, true, false, false, false, false, false, false, "static", true, "MortarFirework", 5400, 6 },
-    { "romancandle", "romancandle", "Uncategorized", "assets/prefabs/deployable/fireworks/romancandle.prefab", 1410649145U, true, true, false, false, false, false, false, false, "static", true, "PFXRepeatingFirework", 5406, 6 },
-    { "romancandleblue", "romancandleblue", "Uncategorized", "assets/prefabs/deployable/fireworks/romancandleblue.prefab", 3989759960U, true, true, false, false, false, false, false, false, "static", true, "PFXRepeatingFirework", 5412, 6 },
-    { "romancandlegreen", "romancandlegreen", "Uncategorized", "assets/prefabs/deployable/fireworks/romancandlegreen.prefab", 1833523633U, true, true, false, false, false, false, false, false, "static", true, "PFXRepeatingFirework", 5418, 6 },
-    { "romancandleviolet", "romancandleviolet", "Uncategorized", "assets/prefabs/deployable/fireworks/romancandleviolet.prefab", 4013199910U, true, true, false, false, false, false, false, false, "static", true, "PFXRepeatingFirework", 5424, 6 },
-    { "volcanofirework-red", "volcanofirework red", "Uncategorized", "assets/prefabs/deployable/fireworks/volcanofirework-red.prefab", 1311124308U, true, true, false, false, false, false, false, false, "static", true, "BaseFirework", 5430, 4 },
-    { "volcanofirework-violet", "volcanofirework violet", "Uncategorized", "assets/prefabs/deployable/fireworks/volcanofirework-violet.prefab", 2771932546U, true, true, false, false, false, false, false, false, "static", true, "BaseFirework", 5434, 4 },
-    { "volcanofirework", "volcanofirework", "Uncategorized", "assets/prefabs/deployable/fireworks/volcanofirework.prefab", 4042905807U, true, true, false, false, false, false, false, false, "static", true, "BaseFirework", 5438, 4 },
-    { "spikes.floor", "spikes floor", "Uncategorized", "assets/prefabs/deployable/floor spikes/spikes.floor.prefab", 976279966U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 5442, 5 },
-    { "halfheight_salvaged_bamboo_shelves", "halfheight salvaged bamboo shelves", "Uncategorized", "assets/prefabs/deployable/floor_half_shelves/halfheight_salvaged_bamboo_shelves.prefab", 712007742U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 5447, 5 },
-    { "halfheight_salvaged_industrial_shelves.deployed", "halfheight salvaged industrial shelves deployed", "Uncategorized", "assets/prefabs/deployable/floor_half_shelves/skins/halfheight_industrial_shelves/halfheight_salvaged_industrial_shelves.deployed.prefab", 2206921343U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 5452, 5 },
-    { "frankensteintable.deployed", "frankensteintable deployed", "Uncategorized", "assets/prefabs/deployable/frankensteintable/frankensteintable.deployed.prefab", 1178330157U, true, true, false, false, false, false, false, false, "static", true, "FrankensteinTable", 5457, 6 },
-    { "fridge.deployed.corpse", "fridge deployed corpse", "Uncategorized", "assets/prefabs/deployable/fridge/fridge.deployed.corpse.prefab", 2800679511U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5463, 7 },
-    { "fridge.deployed", "fridge deployed", "Uncategorized", "assets/prefabs/deployable/fridge/fridge.deployed.prefab", 1844023509U, true, true, false, false, false, false, false, false, "static", true, "Fridge", 5470, 7 },
-    { "furnace.large", "furnace large", "Uncategorized", "assets/prefabs/deployable/furnace.large/furnace.large.prefab", 1374462671U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 5477, 6 },
-    { "industrial.furnace.large", "industrial furnace large", "Uncategorized", "assets/prefabs/deployable/furnace.large/skins/industrial_large_furnace/industrial.furnace.large.prefab", 480290137U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 5483, 6 },
-    { "furnace.corpse", "furnace corpse", "Uncategorized", "assets/prefabs/deployable/furnace/furnace.corpse.prefab", 1839500069U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5489, 7 },
-    { "furnace", "furnace", "Uncategorized", "assets/prefabs/deployable/furnace/furnace.prefab", 2931042549U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 5496, 6 },
-    { "weaponracklight", "Weapon Rack Light", "Uncategorized", "assets/prefabs/deployable/gun_rack/weaponracklight.prefab", 107031364U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 5502, 6 },
-    { "weaponracklightdouble", "Weapon Rack Double Light", "Uncategorized", "assets/prefabs/deployable/gun_rack/weaponracklightdouble.prefab", 3489283376U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 5508, 6 },
-    { "hazmatplushy_deployed", "hazmatplushy deployed", "Uncategorized", "assets/prefabs/deployable/hazmatplushy/hazmatplushy_deployed.prefab", 2953997641U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 5514, 3 },
-    { "heavyscientistplushie_deployed", "heavyscientistplushie deployed", "Uncategorized", "assets/prefabs/deployable/heavyscientistplushie/heavyscientistplushie_deployed.prefab", 1085184301U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 5517, 3 },
-    { "hitchtrough.deployed", "hitchtrough deployed", "Uncategorized", "assets/prefabs/deployable/hitch & trough/hitchtrough.deployed.prefab", 3238272924U, true, true, false, false, false, false, false, false, "static", true, "HitchTrough", 5520, 6 },
-    { "hopper.deployed", "hopper deployed", "Uncategorized", "assets/prefabs/deployable/hopper/hopper.deployed.prefab", 3932476457U, true, true, false, false, false, false, false, false, "static", true, "Hopper", 5526, 7 },
-    { "door.hinged.hab_t1", "door hinged hab t1", "Uncategorized", "assets/prefabs/deployable/hot air balloon/door.hinged.hab_t1.prefab", 1684527864U, true, true, false, false, false, false, false, false, "static", true, "Door", 5533, 7 },
-    { "hotairballoon", "hotairballoon", "Uncategorized", "assets/prefabs/deployable/hot air balloon/hotairballoon.prefab", 3111236903U, true, true, false, true, false, true, false, false, "dynamic", false, "HotAirBalloon", 5540, 4 },
-    { "hotairballoon_armor_t1", "hotairballoon armor t1", "Uncategorized", "assets/prefabs/deployable/hot air balloon/hotairballoon_armor_t1.prefab", 1186772083U, true, true, false, false, false, false, false, false, "static", true, "HotAirBalloonArmor", 5544, 5 },
-    { "hab_storage", "hab storage", "Uncategorized", "assets/prefabs/deployable/hot air balloon/subents/hab_storage.prefab", 675927205U, true, true, false, false, false, false, false, false, "static", true, "StorageContainer", 5549, 5 },
-    { "io.table.deployed", "io table deployed", "Uncategorized", "assets/prefabs/deployable/io research table/io.table.deployed.prefab", 3239470043U, true, true, false, false, false, false, false, false, "static", true, "Workbench", 5554, 6 },
-    { "jackolantern.angry", "jackolantern angry", "Uncategorized", "assets/prefabs/deployable/jack o lantern/jackolantern.angry.prefab", 1889323056U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 5560, 6 },
-    { "jackolantern.happy", "jackolantern happy", "Uncategorized", "assets/prefabs/deployable/jack o lantern/jackolantern.happy.prefab", 630866573U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 5566, 6 },
-    { "jukebox.deployed", "jukebox deployed", "Uncategorized", "assets/prefabs/deployable/jukebox/jukebox.deployed.prefab", 2292919455U, true, true, false, false, false, false, false, false, "static", true, "DeployableBoomBox", 5572, 7 },
-    { "landmine", "landmine", "Uncategorized", "assets/prefabs/deployable/landmine/landmine.prefab", 1463807579U, true, true, false, false, false, false, false, false, "static", true, "Landmine", 5579, 6 },
-    { "lantern.deployed", "lantern deployed", "Uncategorized", "assets/prefabs/deployable/lantern/lantern.deployed.prefab", 4027991414U, true, true, false, false, false, false, false, false, "static", true, "BaseFuelLightSource", 5585, 7 },
-    { "box.wooden.large.corpse", "box wooden large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/box.wooden.large.corpse.prefab", 2785194784U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5592, 7 },
-    { "box.wooden.large", "box wooden large", "Uncategorized", "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab", 2206646561U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 5599, 6 },
-    { "abyss_barrel_horizontal.corpse", "abyss barrel horizontal corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/abyss_dlc_large_wood_box/abyss_dlc_storage_horizontal/abyss_barrel_horizontal.corpse.prefab", 3252334872U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5605, 7 },
-    { "abyss_barrel_horizontal", "abyss barrel horizontal", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/abyss_dlc_large_wood_box/abyss_dlc_storage_horizontal/abyss_barrel_horizontal.prefab", 339191443U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 5612, 6 },
-    { "abyss_barrel_vertical.corpse", "abyss barrel vertical corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/abyss_dlc_large_wood_box/abyss_dlc_storage_vertical/abyss_barrel_vertical.corpse.prefab", 1768548626U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5618, 7 },
-    { "abyss_barrel_vertical", "abyss barrel vertical", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/abyss_dlc_large_wood_box/abyss_dlc_storage_vertical/abyss_barrel_vertical.prefab", 2794435815U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 5625, 6 },
-    { "component.box.ammo.large.corpse", "component box ammo large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_ammo/component.box.ammo.large.corpse.prefab", 1227364378U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5631, 7 },
-    { "component.box.ammo.large", "component box ammo large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_ammo/component.box.ammo.large.prefab", 3854928623U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5638, 7 },
-    { "component.box.armor.large.corpse", "component box armor large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_armor/component.box.armor.large.corpse.prefab", 3675895900U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5645, 7 },
-    { "component.box.armor.large", "component box armor large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_armor/component.box.armor.large.prefab", 528028244U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5652, 7 },
-    { "component.box.charcoal.large.corpse", "component box charcoal large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_charcoal/component.box.charcoal.large.corpse.prefab", 1803454902U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5659, 7 },
-    { "component.box.charcoal.large", "component box charcoal large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_charcoal/component.box.charcoal.large.prefab", 2069829540U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5666, 7 },
-    { "component.box.clothing.large.corpse", "component box clothing large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_clothing/component.box.clothing.large.corpse.prefab", 1739352808U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5673, 7 },
-    { "component.box.clothing.large", "component box clothing large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_clothing/component.box.clothing.large.prefab", 916817183U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5680, 7 },
-    { "component.box.comps.large.corpse", "component box comps large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_comps/component.box.comps.large.corpse.prefab", 2157794217U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5687, 7 },
-    { "component.box.comps.large", "component box comps large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_comps/component.box.comps.large.prefab", 4199785085U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5694, 7 },
-    { "component.box.explosives.large.corpse", "component box explosives large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_explosives/component.box.explosives.large.corpse.prefab", 3237620973U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5701, 7 },
-    { "component.box.explosives.large", "component box explosives large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_explosives/component.box.explosives.large.prefab", 3966119321U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5708, 7 },
-    { "component.box.food.large.corpse", "component box food large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_food/component.box.food.large.corpse.prefab", 2199371708U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5715, 7 },
-    { "component.box.food.large", "component box food large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_food/component.box.food.large.prefab", 4013283025U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5722, 7 },
-    { "component.box.guns.large.corpse", "component box guns large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_guns/component.box.guns.large.corpse.prefab", 2699150381U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5729, 7 },
-    { "component.box.guns.large", "component box guns large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_guns/component.box.guns.large.prefab", 3610735283U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5736, 7 },
-    { "component.box.meds.large.corpse", "component box meds large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_meds/component.box.meds.large.corpse.prefab", 2067485643U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5743, 7 },
-    { "component.box.meds.large", "component box meds large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_meds/component.box.meds.large.prefab", 628186519U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5750, 7 },
-    { "component.box.metal.large.corpse", "component box metal large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_metal/component.box.metal.large.corpse.prefab", 818948686U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5757, 7 },
-    { "component.box.metal.large", "component box metal large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_metal/component.box.metal.large.prefab", 2121520844U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5764, 7 },
-    { "component.box.ore.large.corpse", "component box ore large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_ore/component.box.ore.large.corpse.prefab", 3879561467U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5771, 7 },
-    { "component.box.ore.large", "component box ore large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_ore/component.box.ore.large.prefab", 1535470320U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5778, 7 },
-    { "component.box.scrap.large.corpse", "component box scrap large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_scrap/component.box.scrap.large.corpse.prefab", 992082064U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5785, 7 },
-    { "component.box.scrap.large", "component box scrap large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_scrap/component.box.scrap.large.prefab", 3603022102U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5792, 7 },
-    { "component.box.stone.large.corpse", "component box stone large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_stone/component.box.stone.large.corpse.prefab", 4046463154U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5799, 7 },
-    { "component.box.stone.large", "component box stone large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_stone/component.box.stone.large.prefab", 807646626U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5806, 7 },
-    { "component.box.sulfur.large.corpse", "component box sulfur large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_sulfur/component.box.sulfur.large.corpse.prefab", 3433986334U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5813, 7 },
-    { "component.box.sulfur.large", "component box sulfur large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_sulfur/component.box.sulfur.large.prefab", 2567266676U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5820, 7 },
-    { "component.box.tools.large.corpse", "component box tools large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_tools/component.box.tools.large.corpse.prefab", 4135480801U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5827, 7 },
-    { "component.box.tools.large", "component box tools large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_tools/component.box.tools.large.prefab", 2302868354U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5834, 7 },
-    { "component.box.wood.large.corpse", "component box wood large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_wood/component.box.wood.large.corpse.prefab", 2090035546U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5841, 7 },
-    { "component.box.wood.large", "component box wood large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_wood/component.box.wood.large.prefab", 293427194U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5848, 7 },
-    { "industrial_storage_horizontal.corpse", "industrial storage horizontal corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/industrial_dlc/industrial_storage_horizontal/industrial_storage_horizontal.corpse.prefab", 2620129937U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5855, 7 },
-    { "industrial_storage_horizontal", "industrial storage horizontal", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/industrial_dlc/industrial_storage_horizontal/industrial_storage_horizontal.prefab", 849395666U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 5862, 6 },
-    { "industrial_storage_vertical.corpse", "industrial storage vertical corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/industrial_dlc/industrial_storage_vertical/industrial_storage_vertical.corpse.prefab", 4125503230U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5868, 7 },
-    { "industrial_storage_vertical", "industrial storage vertical", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/industrial_dlc/industrial_storage_vertical/industrial_storage_vertical.prefab", 1015225219U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 5875, 6 },
-    { "wicker_barrel.corpse", "wicker barrel corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/jungle_dlc_large_wood_box/jungle_dlc_storage_horizontal/wicker_barrel.corpse.prefab", 1634507366U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5881, 7 },
-    { "wicker_barrel", "wicker barrel", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/jungle_dlc_large_wood_box/jungle_dlc_storage_horizontal/wicker_barrel.prefab", 496929911U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 5888, 6 },
-    { "bamboo_barrel.corpse", "bamboo barrel corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/jungle_dlc_large_wood_box/jungle_dlc_storage_vertical/bamboo_barrel.corpse.prefab", 3097167028U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5894, 7 },
-    { "bamboo_barrel", "bamboo barrel", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/jungle_dlc_large_wood_box/jungle_dlc_storage_vertical/bamboo_barrel.prefab", 1496407812U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 5901, 6 },
-    { "medieval.box.wooden.large.corpse", "medieval box wooden large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/medieval_large_wood_box/medieval.box.wooden.large.corpse.prefab", 2064794966U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5907, 7 },
-    { "medieval.box.wooden.large", "medieval box wooden large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/medieval_large_wood_box/medieval.box.wooden.large.prefab", 2142950612U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 5914, 6 },
-    { "krieg_storage_horizontal.corpse", "krieg storage horizontal corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/warhammer_dlc_large_wood_box/krieg_storage_horizontal/krieg_storage_horizontal.corpse.prefab", 2755571140U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5920, 7 },
-    { "krieg_storage_horizontal", "krieg storage horizontal", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/warhammer_dlc_large_wood_box/krieg_storage_horizontal/krieg_storage_horizontal.prefab", 295691137U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 5927, 6 },
-    { "krieg_storage_vertical.corpse", "krieg storage vertical corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/warhammer_dlc_large_wood_box/krieg_storage_vertical/krieg_storage_vertical.corpse.prefab", 983075320U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5933, 7 },
-    { "krieg_storage_vertical", "krieg storage vertical", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/warhammer_dlc_large_wood_box/krieg_storage_vertical/krieg_storage_vertical.prefab", 2980428674U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 5940, 6 },
-    { "legacy_furnace.corpse", "legacy furnace corpse", "Uncategorized", "assets/prefabs/deployable/legacyfurnace/legacy_furnace.corpse.prefab", 1538368754U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5946, 7 },
-    { "legacy_furnace", "legacy furnace", "Uncategorized", "assets/prefabs/deployable/legacyfurnace/legacy_furnace.prefab", 2013224025U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 5953, 6 },
-    { "waterbarrel", "waterbarrel", "Uncategorized", "assets/prefabs/deployable/liquidbarrel/waterbarrel.prefab", 3746060889U, true, true, false, false, false, false, false, false, "static", true, "LiquidContainer", 5959, 7 },
-    { "waterbarrel.static", "waterbarrel static", "Uncategorized", "assets/prefabs/deployable/liquidbarrel/waterbarrel.static.prefab", 1486794265U, true, true, false, false, false, false, false, false, "static", true, "LiquidContainer", 5966, 7 },
-    { "locker.campermodule", "locker campermodule", "Uncategorized", "assets/prefabs/deployable/locker/locker.campermodule.prefab", 1298400075U, true, true, false, false, false, false, false, false, "static", true, "Locker", 5973, 6 },
-    { "locker.deployed.corpse", "locker deployed corpse", "Uncategorized", "assets/prefabs/deployable/locker/locker.deployed.corpse.prefab", 1291020492U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5979, 7 },
-    { "locker.deployed", "locker deployed", "Uncategorized", "assets/prefabs/deployable/locker/locker.deployed.prefab", 177343599U, true, true, false, false, false, false, false, false, "static", true, "Locker", 5986, 6 },
-    { "lunar_near_year_2025_wall_divider_a", "lunar near year 2025 wall divider a", "Uncategorized", "assets/prefabs/deployable/lunar_new_year_2025_wall_divider/lunar_near_year_2025_wall_divider_a.prefab", 1994630628U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 5992, 6 },
-    { "lunar_near_year_2025_wall_divider_b", "lunar near year 2025 wall divider b", "Uncategorized", "assets/prefabs/deployable/lunar_new_year_2025_wall_divider/lunar_near_year_2025_wall_divider_b.prefab", 594151811U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 5998, 6 },
-    { "lunar_near_year_2025_wall_divider_c", "lunar near year 2025 wall divider c", "Uncategorized", "assets/prefabs/deployable/lunar_new_year_2025_wall_divider/lunar_near_year_2025_wall_divider_c.prefab", 3245461981U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 6004, 6 },
-    { "mailbox.deployed", "mailbox deployed", "Uncategorized", "assets/prefabs/deployable/mailbox/mailbox.deployed.prefab", 2697131904U, true, true, false, false, false, false, false, false, "static", true, "Mailbox", 6010, 6 },
-    { "mannequin_deployed.corpse", "mannequin deployed corpse", "Uncategorized", "assets/prefabs/deployable/mannequin/mannequin_deployed.corpse.prefab", 2081428822U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6016, 7 },
-    { "mannequin_deployed", "mannequin deployed", "Uncategorized", "assets/prefabs/deployable/mannequin/mannequin_deployed.prefab", 91888137U, true, true, false, false, false, false, false, false, "static", true, "Mannequin", 6023, 6 },
-    { "minifridge.deployed.corpse", "minifridge deployed corpse", "Uncategorized", "assets/prefabs/deployable/minifridge/minifridge.deployed.corpse.prefab", 3870025584U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6029, 7 },
-    { "minifridge.deployed", "minifridge deployed", "Uncategorized", "assets/prefabs/deployable/minifridge/minifridge.deployed.prefab", 1535651257U, true, true, false, false, false, false, false, false, "static", true, "Fridge", 6036, 7 },
-    { "gamesroom.minifridge.deployed.corpse", "gamesroom minifridge deployed corpse", "Uncategorized", "assets/prefabs/deployable/minifridge/skins/gamesroom_minifridge/gamesroom.minifridge.deployed.corpse.prefab", 3713325830U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6043, 7 },
-    { "gamesroom.minifridge.deployed", "gamesroom minifridge deployed", "Uncategorized", "assets/prefabs/deployable/minifridge/skins/gamesroom_minifridge/gamesroom.minifridge.deployed.prefab", 1650211215U, true, true, false, false, false, false, false, false, "static", true, "Fridge", 6050, 7 },
-    { "mixingtable.deployed", "mixingtable deployed", "Uncategorized", "assets/prefabs/deployable/mixingtable/mixingtable.deployed.prefab", 2330684337U, true, true, false, false, false, false, false, false, "static", true, "MixingTable", 6057, 6 },
-    { "electrical.modularcarlift.deployed", "electrical modularcarlift deployed", "Uncategorized", "assets/prefabs/deployable/modular car lift/electrical.modularcarlift.deployed.prefab", 428217161U, true, true, false, false, false, false, false, false, "static", true, "ModularCarGarage", 6063, 7 },
-    { "monument_cctv_desk.static", "monument cctv desk static", "Uncategorized", "assets/prefabs/deployable/monument_cctv_desk/monument_cctv_desk.static.prefab", 656924125U, true, true, false, false, false, false, false, false, "static", true, "ComputerStation", 6070, 5 },
-    { "mortar.entity", "mortar entity", "Uncategorized", "assets/prefabs/deployable/mortar/mortar.entity.prefab", 3181101008U, true, true, false, false, false, false, false, false, "dynamic", false, "Mortar", 6075, 9 },
-    { "mortar_shell_basic", "mortar shell basic", "Uncategorized", "assets/prefabs/deployable/mortar/mortar_shell_basic.prefab", 3093831259U, true, true, false, false, false, false, false, false, "static", true, "TimedExplosive", 6084, 3 },
-    { "mortar_shell_fragment", "mortar shell fragment", "Uncategorized", "assets/prefabs/deployable/mortar/mortar_shell_fragment.prefab", 799615933U, true, true, false, false, false, false, false, false, "static", true, "TimedExplosive", 6087, 3 },
-    { "neonsigntr.deployed", "neonsigntr deployed", "Uncategorized", "assets/prefabs/deployable/neonsigntr/neonsigntr.deployed.prefab", 3254452298U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 6090, 6 },
-    { "crudeoutput", "crudeoutput", "Uncategorized", "assets/prefabs/deployable/oil jack/crudeoutput.prefab", 70163214U, true, true, false, false, false, false, false, false, "static", true, "ResourceExtractorFuelStorage", 6096, 6 },
-    { "engineswitch", "engineswitch", "Uncategorized", "assets/prefabs/deployable/oil jack/engineswitch.prefab", 336885727U, true, true, false, false, false, false, false, false, "static", true, "EngineSwitch", 6102, 3 },
-    { "fuelstorage", "fuelstorage", "Uncategorized", "assets/prefabs/deployable/oil jack/fuelstorage.prefab", 4260630588U, true, true, false, false, false, false, false, false, "static", true, "ResourceExtractorFuelStorage", 6105, 6 },
-    { "mining.pumpjack", "mining pumpjack", "Uncategorized", "assets/prefabs/deployable/oil jack/mining.pumpjack.prefab", 1599225199U, true, true, false, false, false, false, false, false, "static", true, "MiningQuarry", 6111, 5 },
-    { "refinery_small_deployed", "refinery small deployed", "Uncategorized", "assets/prefabs/deployable/oil refinery/refinery_small_deployed.prefab", 1057236622U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 6116, 6 },
-    { "plantpot.single.deployed", "plantpot single deployed", "Uncategorized", "assets/prefabs/deployable/plant pots/plantpot.single.deployed.prefab", 2685133268U, true, true, false, false, false, false, false, false, "static", true, "PlanterBox", 6122, 6 },
-    { "planter.large.deployed", "planter large deployed", "Uncategorized", "assets/prefabs/deployable/planters/planter.large.deployed.prefab", 1162882237U, true, true, false, false, false, false, false, false, "static", true, "PlanterBox", 6128, 6 },
-    { "planter.small.deployed", "planter small deployed", "Uncategorized", "assets/prefabs/deployable/planters/planter.small.deployed.prefab", 467313155U, true, true, false, false, false, false, false, false, "static", true, "PlanterBox", 6134, 6 },
-    { "planter.triangle.deployed", "planter triangle deployed", "Uncategorized", "assets/prefabs/deployable/planters/planter.triangle.deployed.prefab", 375169930U, true, true, false, false, false, false, false, false, "static", true, "PlanterBox", 6140, 6 },
-    { "audioalarm", "audioalarm", "Uncategorized", "assets/prefabs/deployable/playerioents/alarms/audioalarm.prefab", 1056621402U, true, true, false, false, false, false, false, false, "static", true, "AudioAlarm", 6146, 6 },
-    { "smartalarm", "smartalarm", "Uncategorized", "assets/prefabs/deployable/playerioents/app/smartalarm/smartalarm.prefab", 3788087038U, true, true, false, false, false, false, false, false, "static", true, "SmartAlarm", 6152, 7 },
-    { "smartswitch", "smartswitch", "Uncategorized", "assets/prefabs/deployable/playerioents/app/smartswitch/smartswitch.prefab", 457838080U, true, true, false, false, false, false, false, false, "static", true, "SmartSwitch", 6159, 7 },
-    { "storagemonitor.deployed", "storagemonitor deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/app/storagemonitor/storagemonitor.deployed.prefab", 2575066828U, true, true, false, false, false, false, false, false, "static", true, "StorageMonitor", 6166, 7 },
-    { "large.rechargable.battery.deployed", "large rechargable battery deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/batteries/large/large.rechargable.battery.deployed.prefab", 3398686648U, true, true, false, false, false, false, false, false, "static", true, "ElectricBattery", 6173, 6 },
-    { "medium.rechargable.battery.deployed", "medium rechargable battery deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/batteries/medium/medium.rechargable.battery.deployed.prefab", 262703036U, true, true, false, false, false, false, false, false, "static", true, "ElectricBattery", 6179, 6 },
-    { "smallrechargablebattery.deployed", "smallrechargablebattery deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/batteries/smallrechargablebattery.deployed.prefab", 918119888U, true, true, false, false, false, false, false, false, "static", true, "ElectricBattery", 6185, 6 },
-    { "button", "button", "Uncategorized", "assets/prefabs/deployable/playerioents/button/button.prefab", 52925389U, true, true, false, false, false, false, false, false, "static", true, "PressButton", 6191, 6 },
-    { "command.block.deployed", "command block deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/commandblock/command.block.deployed.prefab", 3942188602U, true, true, false, false, false, false, false, false, "static", true, "CommandBlock", 6197, 6 },
-    { "counter", "counter", "Uncategorized", "assets/prefabs/deployable/playerioents/counter/counter.prefab", 4254177840U, true, true, false, false, false, false, false, false, "static", true, "PowerCounter", 6203, 6 },
-    { "hbhfsensor.deployed", "hbhfsensor deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/detectors/hbhfsensor/hbhfsensor.deployed.prefab", 986625916U, true, true, false, false, false, false, false, false, "static", true, "HBHFSensor", 6209, 7 },
-    { "laserdetector", "laserdetector", "Uncategorized", "assets/prefabs/deployable/playerioents/detectors/laserdetector/laserdetector.prefab", 2260707523U, true, true, false, false, false, false, false, false, "static", true, "LaserDetector", 6216, 7 },
-    { "pressurepad.deployed", "pressurepad deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/detectors/pressurepad/pressurepad.deployed.prefab", 687239341U, true, true, false, false, false, false, false, false, "static", true, "PressurePad", 6223, 7 },
-    { "tincan.alarm.deployed", "tincan alarm deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/detectors/tincanalarm/tincan.alarm.deployed.prefab", 1200964049U, true, true, false, true, true, false, false, false, "static", true, "TinCanAlarm", 6230, 6 },
-    { "electric.digitalclock.deployed", "electric digitalclock deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/digitalclock/electric.digitalclock.deployed.prefab", 2275599299U, true, true, false, false, false, false, false, false, "static", true, "DigitalClock", 6236, 6 },
-    { "doorcontroller.deployed", "doorcontroller deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/doormanipulators/doorcontroller.deployed.prefab", 2343730564U, true, true, false, false, false, false, false, false, "static", true, "CustomDoorManipulator", 6242, 7 },
-    { "electricfurnace.deployed.corpse", "electricfurnace deployed corpse", "Uncategorized", "assets/prefabs/deployable/playerioents/electricfurnace/electricfurnace.deployed.corpse.prefab", 3711844390U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6249, 7 },
-    { "electricfurnace.deployed", "electricfurnace deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/electricfurnace/electricfurnace.deployed.prefab", 3808299817U, true, true, false, false, false, false, false, false, "static", true, "ElectricOven", 6256, 7 },
-    { "electricfurnace.deployed_workshop", "electricfurnace deployed workshop", "Uncategorized", "assets/prefabs/deployable/playerioents/electricfurnace/electricfurnace.deployed_workshop.prefab", 2011868250U, true, true, false, false, false, false, false, false, "static", true, "ElectricOven", 6263, 7 },
-    { "electricfurnace.io", "electricfurnace io", "Uncategorized", "assets/prefabs/deployable/playerioents/electricfurnace/electricfurnace.io.prefab", 2678691787U, true, true, false, false, false, false, false, false, "static", true, "ElectricFurnaceIO", 6270, 6 },
-    { "industrial_electric_furnace.deployed.corpse", "industrial electric furnace deployed corpse", "Uncategorized", "assets/prefabs/deployable/playerioents/electricfurnace/skins/industrial_electric_furnace/industrial_electric_furnace.deployed.corpse.prefab", 1948496164U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6276, 7 },
-    { "industrial_electric_furnace.deployed", "industrial electric furnace deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/electricfurnace/skins/industrial_electric_furnace/industrial_electric_furnace.deployed.prefab", 3924463048U, true, true, false, false, false, false, false, false, "static", true, "ElectricOven", 6283, 7 },
-    { "industrial_electric_furnace.io", "industrial electric furnace io", "Uncategorized", "assets/prefabs/deployable/playerioents/electricfurnace/skins/industrial_electric_furnace/industrial_electric_furnace.io.prefab", 3947156055U, true, true, false, false, false, false, false, false, "static", true, "ElectricFurnaceIO", 6290, 6 },
-    { "electrical.heater", "electrical heater", "Uncategorized", "assets/prefabs/deployable/playerioents/electricheater/electrical.heater.prefab", 3077222881U, true, true, false, false, false, false, false, false, "static", true, "ElectricalHeater", 6296, 6 },
-    { "fluid.combiner.deployed", "fluid combiner deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/fluidcombiner/fluid.combiner.deployed.prefab", 4043799246U, true, true, false, false, false, false, false, false, "static", true, "ElectricalCombiner", 6302, 6 },
-    { "fluidsplitter", "fluidsplitter", "Uncategorized", "assets/prefabs/deployable/playerioents/fluidsplitter/fluidsplitter.prefab", 2150367216U, true, true, false, false, false, false, false, false, "static", true, "Splitter", 6308, 6 },
-    { "fluidswitch", "fluidswitch", "Uncategorized", "assets/prefabs/deployable/playerioents/fluidswitch/fluidswitch.prefab", 4057013647U, true, true, false, false, false, false, false, false, "static", true, "FluidSwitch", 6314, 7 },
-    { "andswitch.entity", "andswitch entity", "Uncategorized", "assets/prefabs/deployable/playerioents/gates/andswitch/andswitch.entity.prefab", 4274766536U, true, true, false, false, false, false, false, false, "static", true, "ANDSwitch", 6321, 6 },
-    { "electrical.blocker.deployed", "electrical blocker deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/gates/blocker/electrical.blocker.deployed.prefab", 4215863876U, true, true, false, false, false, false, false, false, "static", true, "ElectricalBlocker", 6327, 6 },
-    { "electrical.branch.deployed", "electrical branch deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/gates/branch/electrical.branch.deployed.prefab", 1262782874U, true, true, false, false, false, false, false, false, "static", true, "ElectricalBranch", 6333, 6 },
-    { "electrical.combiner.deployed", "electrical combiner deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/gates/combiner/electrical.combiner.deployed.prefab", 2378858100U, true, true, false, false, false, false, false, false, "static", true, "ElectricalCombiner", 6339, 6 },
-    { "electrical.memorycell.deployed", "electrical memorycell deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/gates/dflipflop/electrical.memorycell.deployed.prefab", 1220166918U, true, true, false, false, false, false, false, false, "static", true, "ElectricalDFlipFlop", 6345, 6 },
-    { "orswitch.entity", "orswitch entity", "Uncategorized", "assets/prefabs/deployable/playerioents/gates/orswitch/orswitch.entity.prefab", 1354328722U, true, true, false, false, false, false, false, false, "static", true, "ORSwitch", 6351, 6 },
-    { "electrical.random.switch.deployed", "electrical random switch deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/gates/randswitch/electrical.random.switch.deployed.prefab", 489282820U, true, true, false, false, false, false, false, false, "static", true, "RANDSwitch", 6357, 7 },
-    { "rfbroadcaster", "rfbroadcaster", "Uncategorized", "assets/prefabs/deployable/playerioents/gates/rfbroadcaster/rfbroadcaster.prefab", 2880296175U, true, true, false, false, false, false, false, false, "static", true, "RFBroadcaster", 6364, 6 },
-    { "rfreceiver", "rfreceiver", "Uncategorized", "assets/prefabs/deployable/playerioents/gates/rfreceiver/rfreceiver.prefab", 525502317U, true, true, false, false, false, false, false, false, "static", true, "RFReceiver", 6370, 6 },
-    { "xorswitch.entity", "xorswitch entity", "Uncategorized", "assets/prefabs/deployable/playerioents/gates/xorswitch/xorswitch.entity.prefab", 1074446568U, true, true, false, false, false, false, false, false, "static", true, "XORSwitch", 6376, 6 },
-    { "small_fuel_generator.deployed", "small fuel generator deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/generators/fuel generator/small_fuel_generator.deployed.prefab", 3518207786U, true, true, false, false, false, false, false, false, "static", true, "FuelGenerator", 6382, 7 },
-    { "small_fuel_generator.static", "small fuel generator static", "Uncategorized", "assets/prefabs/deployable/playerioents/generators/fuel generator/small_fuel_generator.static.prefab", 297783762U, true, true, false, false, false, false, false, false, "static", true, "FuelGenerator", 6389, 7 },
-    { "generator.small", "generator small", "Uncategorized", "assets/prefabs/deployable/playerioents/generators/generator.small.prefab", 1216081662U, true, true, false, false, false, false, false, false, "static", true, "ElectricGenerator", 6396, 6 },
-    { "solarpanel.large.deployed", "solarpanel large deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/generators/solar_panels_roof/solarpanel.large.deployed.prefab", 2231260353U, true, true, false, false, false, false, false, false, "static", true, "SolarPanel", 6402, 6 },
-    { "igniter.deployed", "igniter deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/igniter/igniter.deployed.prefab", 3946116692U, true, true, false, false, false, false, false, false, "static", true, "Igniter", 6408, 6 },
-    { "storageadaptor.deployed", "storageadaptor deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/industrialadaptors/storageadaptor.deployed.prefab", 1077498142U, true, true, false, false, false, false, false, false, "static", true, "IndustrialStorageAdaptor", 6414, 7 },
-    { "industrialcombiner.deployed", "industrialcombiner deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/industrialcombiner/industrialcombiner.deployed.prefab", 2557715962U, true, true, false, false, false, false, false, false, "static", true, "ElectricalCombiner", 6421, 6 },
-    { "industrialconveyor.deployed", "industrialconveyor deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/industrialconveyor/industrialconveyor.deployed.prefab", 3459531520U, true, true, false, false, false, false, false, false, "static", true, "IndustrialConveyor", 6427, 7 },
-    { "industrialcrafter.deployed", "industrialcrafter deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/industrialcrafter/industrialcrafter.deployed.prefab", 273687723U, true, true, false, false, false, false, false, false, "static", true, "IndustrialCrafter", 6434, 7 },
-    { "industrialsplitter.deployed", "industrialsplitter deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/industrialsplitter/industrialsplitter.deployed.prefab", 4142483135U, true, true, false, false, false, false, false, false, "static", true, "Splitter", 6441, 6 },
-    { "electric.chandelier.deployed", "electric chandelier deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/cozypack/chandelier/electric.chandelier.deployed.prefab", 2172878916U, true, true, false, false, false, false, false, false, "static", true, "Chandelier", 6447, 6 },
-    { "electric.tablelamp.deployed", "electric tablelamp deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/cozypack/electrictablelamp/electric.tablelamp.deployed.prefab", 951064U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 6453, 6 },
-    { "electric.fairylights.deployed", "electric fairylights deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/cozypack/fairylights/electric.fairylights.deployed.prefab", 2715027079U, true, true, false, false, false, false, false, false, "static", true, "StringLights", 6459, 6 },
-    { "electric.fluorescentlight.ceiling.deployed", "electric fluorescentlight ceiling deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/cozypack/fluorescentlights/ceiling/electric.fluorescentlight.ceiling.deployed.prefab", 3414812695U, true, true, false, false, false, false, false, false, "static", true, "CeilingLight", 6465, 6 },
-    { "electric.fluorescentlight.deployed", "electric fluorescentlight deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/cozypack/fluorescentlights/electric.fluorescentlight.deployed.prefab", 297156836U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 6471, 6 },
-    { "electric.bulbstringlights.deployed", "electric bulbstringlights deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/cozypack/hangingbulbs/electric.bulbstringlights.deployed.prefab", 790776081U, true, true, false, false, false, false, false, false, "static", true, "StringLights", 6477, 6 },
-    { "electric.spotlight.deployed", "electric spotlight deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/electric.spotlight.deployed.prefab", 13233315U, true, true, false, false, false, false, false, false, "static", true, "OrientableLight", 6483, 7 },
-    { "electric.spotlight.tripod.deployed", "electric spotlight tripod deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/tripod/electric.spotlight.tripod.deployed.prefab", 1179002613U, true, true, false, false, false, false, false, false, "static", true, "OrientableLight", 6490, 7 },
-    { "electric.flasherlight.deployed", "electric flasherlight deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/flasherlight/electric.flasherlight.deployed.prefab", 3742301494U, true, true, false, false, false, false, false, false, "static", true, "FlasherLight", 6497, 6 },
-    { "simplelight", "simplelight", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/simplelight.prefab", 1797934483U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 6503, 6 },
-    { "electric.sirenlight.deployed", "electric sirenlight deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/sirenlight/electric.sirenlight.deployed.prefab", 2436926577U, true, true, false, false, false, false, false, false, "static", true, "SirenLight", 6509, 6 },
-    { "poweredwaterpurifier.deployed", "poweredwaterpurifier deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/poweredwaterpurifier/poweredwaterpurifier.deployed.prefab", 1259335874U, true, true, false, false, false, false, false, false, "static", true, "PoweredWaterPurifier", 6515, 9 },
-    { "poweredwaterpurifier.storage", "poweredwaterpurifier storage", "Uncategorized", "assets/prefabs/deployable/playerioents/poweredwaterpurifier/poweredwaterpurifier.storage.prefab", 795179107U, true, true, false, false, false, false, false, false, "static", true, "LiquidContainer", 6524, 7 },
-    { "electric.seismicsensor.deployed", "electric seismicsensor deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/seismicsensor/electric.seismicsensor.deployed.prefab", 1565495109U, true, true, false, false, false, false, false, false, "static", true, "SeismicSensor", 6531, 6 },
-    { "switch", "switch", "Uncategorized", "assets/prefabs/deployable/playerioents/simpleswitch/switch.prefab", 2374429146U, true, true, false, false, false, false, false, false, "static", true, "ElectricSwitch", 6537, 6 },
-    { "splitter", "splitter", "Uncategorized", "assets/prefabs/deployable/playerioents/splitter/splitter.prefab", 2864726542U, true, true, false, false, false, false, false, false, "static", true, "Splitter", 6543, 6 },
-    { "electric.sprinkler.deployed", "electric sprinkler deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/sprinkler/electric.sprinkler.deployed.prefab", 2389629329U, true, true, false, false, false, false, false, false, "static", true, "Sprinkler", 6549, 6 },
-    { "teslacoil.deployed", "teslacoil deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/teslacoil/teslacoil.deployed.prefab", 60725884U, true, true, false, false, false, false, false, false, "static", true, "TeslaCoil", 6555, 6 },
-    { "timer", "timer", "Uncategorized", "assets/prefabs/deployable/playerioents/timers/timer.prefab", 3673859458U, true, true, false, false, false, false, false, false, "static", true, "CustomTimerSwitch", 6561, 7 },
-    { "cabletunnel", "cabletunnel", "Uncategorized", "assets/prefabs/deployable/playerioents/tunnel/cabletunnel.prefab", 3855268767U, true, true, false, false, false, false, false, false, "static", true, "CableTunnel", 6568, 6 },
-    { "water.pump.deployed", "water pump deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/waterpump/water.pump.deployed.prefab", 3841120196U, true, true, false, false, false, false, false, false, "static", true, "WaterPump", 6574, 8 },
-    { "pooltable.deployed", "pooltable deployed", "Uncategorized", "assets/prefabs/deployable/pooltable/pooltable.deployed.prefab", 2101073864U, true, true, false, false, false, false, false, false, "static", true, "Pooltable", 6582, 4 },
-    { "pooltable.mountable", "pooltable mountable", "Uncategorized", "assets/prefabs/deployable/pooltable/pooltable.mountable.prefab", 2867835196U, true, true, false, false, false, false, false, false, "static", true, "PooltableMountable", 6586, 5 },
-    { "ptz_cctv.static", "ptz cctv static", "Uncategorized", "assets/prefabs/deployable/ptz security camera/ptz_cctv.static.prefab", 4131768945U, true, true, false, false, false, false, false, false, "static", true, "CCTV_RC", 6591, 7 },
-    { "ptz_cctv_deployed", "ptz cctv deployed", "Uncategorized", "assets/prefabs/deployable/ptz security camera/ptz_cctv_deployed.prefab", 2576173574U, true, true, false, false, false, false, false, false, "static", true, "CCTV_RC", 6598, 7 },
-    { "engineswitch", "engineswitch", "Uncategorized", "assets/prefabs/deployable/quarry/engineswitch.prefab", 167149050U, true, true, false, false, false, false, false, false, "static", true, "EngineSwitch", 6605, 3 },
-    { "fuelstorage", "fuelstorage", "Uncategorized", "assets/prefabs/deployable/quarry/fuelstorage.prefab", 362963830U, true, true, false, false, false, false, false, false, "static", true, "ResourceExtractorFuelStorage", 6608, 6 },
-    { "hopperoutput", "hopperoutput", "Uncategorized", "assets/prefabs/deployable/quarry/hopperoutput.prefab", 875142383U, true, true, false, false, false, false, false, false, "static", true, "ResourceExtractorFuelStorage", 6614, 6 },
-    { "mining_quarry", "mining quarry", "Uncategorized", "assets/prefabs/deployable/quarry/mining_quarry.prefab", 672916883U, true, true, false, false, false, false, false, false, "static", true, "MiningQuarry", 6620, 5 },
-    { "reactivetarget_deployed", "reactivetarget deployed", "Uncategorized", "assets/prefabs/deployable/reactive target/reactivetarget_deployed.prefab", 3994459244U, true, true, false, true, true, false, false, false, "static", true, "ReactiveTarget", 6625, 7 },
-    { "repairbench_deployed", "repairbench deployed", "Uncategorized", "assets/prefabs/deployable/repair bench/repairbench_deployed.prefab", 3846783416U, true, true, false, false, false, false, false, false, "static", true, "RepairBench", 6632, 6 },
-    { "researchtable_deployed", "researchtable deployed", "Uncategorized", "assets/prefabs/deployable/research table/researchtable_deployed.prefab", 146554961U, true, true, false, false, false, false, false, false, "static", true, "ResearchTable", 6638, 6 },
-    { "rug.bear.deployed", "rug bear deployed", "Uncategorized", "assets/prefabs/deployable/rug/rug.bear.deployed.prefab", 3110378351U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 6644, 5 },
-    { "rug.deployed", "rug deployed", "Uncategorized", "assets/prefabs/deployable/rug/rug.deployed.prefab", 4196580066U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 6649, 5 },
-    { "scientistplushie_deployed", "scientistplushie deployed", "Uncategorized", "assets/prefabs/deployable/scientistplushie/scientistplushie_deployed.prefab", 1982923662U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 6654, 3 },
-    { "sculpture.ice.deployed", "sculpture ice deployed", "Uncategorized", "assets/prefabs/deployable/sculptures/icesculpture/sculpture.ice.deployed.prefab", 2793055883U, true, true, false, false, false, false, false, false, "static", true, "BaseSculpture", 6657, 4 },
-    { "sculpture.rock.deployed", "sculpture rock deployed", "Uncategorized", "assets/prefabs/deployable/sculptures/rocksculpture/sculpture.rock.deployed.prefab", 4108633004U, true, true, false, false, false, false, false, false, "static", true, "BaseSculpture", 6661, 4 },
-    { "associatedsculpturestorage", "associatedsculpturestorage", "Uncategorized", "assets/prefabs/deployable/sculptures/shared/associatedsculpturestorage.prefab", 3422977757U, true, true, false, false, false, false, false, false, "static", true, "AssociatedSculptureStorage", 6665, 3 },
-    { "searchlight.deployed", "searchlight deployed", "Uncategorized", "assets/prefabs/deployable/search light/searchlight.deployed.prefab", 1427415412U, true, true, false, false, false, false, false, false, "static", true, "SearchLight", 6668, 6 },
-    { "secretlabchair.deployed", "secretlabchair deployed", "Uncategorized", "assets/prefabs/deployable/secretlab chair/secretlabchair.deployed.prefab", 286221745U, true, true, false, false, false, false, false, false, "static", true, "BaseChair", 6674, 5 },
-    { "shelves", "shelves", "Uncategorized", "assets/prefabs/deployable/shelves/shelves.prefab", 501605075U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 6679, 5 },
-    { "salvaged_bamboo_shelves", "salvaged bamboo shelves", "Uncategorized", "assets/prefabs/deployable/shelves/skins/salvaged_bamboo_shelves/salvaged_bamboo_shelves.prefab", 1462386041U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 6684, 5 },
-    { "salvaged_industrial_shelves.deployed", "salvaged industrial shelves deployed", "Uncategorized", "assets/prefabs/deployable/shelves/skins/salvaged_industrial_shelves/salvaged_industrial_shelves.deployed.prefab", 201785285U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 6689, 5 },
-    { "sign.hanging.banner.large", "sign hanging banner large", "Uncategorized", "assets/prefabs/deployable/signs/sign.hanging.banner.large.prefab", 637495597U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6694, 6 },
-    { "sign.hanging.ornate", "sign hanging ornate", "Uncategorized", "assets/prefabs/deployable/signs/sign.hanging.ornate.prefab", 1283107100U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6700, 6 },
-    { "sign.hanging", "sign hanging", "Uncategorized", "assets/prefabs/deployable/signs/sign.hanging.prefab", 550204242U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6706, 6 },
-    { "sign.huge.wood", "sign huge wood", "Uncategorized", "assets/prefabs/deployable/signs/sign.huge.wood.prefab", 3618197174U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6712, 6 },
-    { "sign.large.wood", "sign large wood", "Uncategorized", "assets/prefabs/deployable/signs/sign.large.wood.prefab", 3479792512U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6718, 6 },
-    { "sign.medium.wood", "sign medium wood", "Uncategorized", "assets/prefabs/deployable/signs/sign.medium.wood.prefab", 3715545584U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6724, 6 },
-    { "sign.pictureframe.landscape", "sign pictureframe landscape", "Uncategorized", "assets/prefabs/deployable/signs/sign.pictureframe.landscape.prefab", 3215377795U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6730, 6 },
-    { "sign.pictureframe.portrait", "sign pictureframe portrait", "Uncategorized", "assets/prefabs/deployable/signs/sign.pictureframe.portrait.prefab", 1960724311U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6736, 6 },
-    { "sign.pictureframe.tall", "sign pictureframe tall", "Uncategorized", "assets/prefabs/deployable/signs/sign.pictureframe.tall.prefab", 3159642196U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6742, 6 },
-    { "sign.pictureframe.xl", "sign pictureframe xl", "Uncategorized", "assets/prefabs/deployable/signs/sign.pictureframe.xl.prefab", 1957158128U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6748, 6 },
-    { "sign.pictureframe.xxl", "sign pictureframe xxl", "Uncategorized", "assets/prefabs/deployable/signs/sign.pictureframe.xxl.prefab", 3725754530U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6754, 6 },
-    { "sign.pole.banner.large", "sign pole banner large", "Uncategorized", "assets/prefabs/deployable/signs/sign.pole.banner.large.prefab", 3188315846U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6760, 6 },
-    { "sign.post.double", "sign post double", "Uncategorized", "assets/prefabs/deployable/signs/sign.post.double.prefab", 4290170446U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6766, 6 },
-    { "sign.post.single", "sign post single", "Uncategorized", "assets/prefabs/deployable/signs/sign.post.single.prefab", 58270319U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6772, 6 },
-    { "sign.post.town", "sign post town", "Uncategorized", "assets/prefabs/deployable/signs/sign.post.town.prefab", 120534793U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6778, 6 },
-    { "sign.post.town.roof", "sign post town roof", "Uncategorized", "assets/prefabs/deployable/signs/sign.post.town.roof.prefab", 4057957010U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6784, 6 },
-    { "sign.small.wood", "sign small wood", "Uncategorized", "assets/prefabs/deployable/signs/sign.small.wood.prefab", 1447270506U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6790, 6 },
-    { "signcontent", "signcontent", "Uncategorized", "assets/prefabs/deployable/signs/signcontent.prefab", 2104891901U, true, true, false, false, false, false, false, false, "static", true, "SignContent", 6796, 4 },
-    { "guntrap.deployed", "guntrap deployed", "Uncategorized", "assets/prefabs/deployable/single shot trap/guntrap.deployed.prefab", 1348746224U, true, true, false, false, false, false, false, false, "static", true, "GunTrap", 6800, 6 },
-    { "gamesroom.shotgun.trap.deployed", "gamesroom shotgun trap deployed", "Uncategorized", "assets/prefabs/deployable/single shot trap/skins/gamesroom_shotgun_trap/gamesroom.shotgun.trap.deployed.prefab", 3867195975U, true, true, false, false, false, false, false, false, "static", true, "GunTrap", 6806, 6 },
-    { "sleepingbag.corpse", "sleepingbag corpse", "Uncategorized", "assets/prefabs/deployable/sleeping bag/sleepingbag.corpse.prefab", 403186932U, true, true, false, false, false, false, false, false, "static", true, "SleepingBag", 6812, 5 },
-    { "sleepingbag_leather_deployed", "sleepingbag leather deployed", "Uncategorized", "assets/prefabs/deployable/sleeping bag/sleepingbag_leather_deployed.prefab", 159326486U, true, true, false, false, false, false, false, false, "static", true, "SleepingBag", 6817, 5 },
-    { "small_stash_deployed", "small stash deployed", "Uncategorized", "assets/prefabs/deployable/small stash/small_stash_deployed.prefab", 2568831788U, true, true, false, false, false, false, false, false, "static", true, "StashContainer", 6822, 6 },
-    { "sofaseat", "sofaseat", "Uncategorized", "assets/prefabs/deployable/sofa/seats/sofaseat.prefab", 2119696825U, true, true, false, false, false, false, false, false, "static", true, "BaseChair", 6828, 5 },
-    { "sofa.deployed", "sofa deployed", "Uncategorized", "assets/prefabs/deployable/sofa/sofa.deployed.prefab", 51176708U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicle", 6833, 5 },
-    { "sofa.pattern.deployed", "sofa pattern deployed", "Uncategorized", "assets/prefabs/deployable/sofa/sofa.pattern.deployed.prefab", 836629684U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicle", 6838, 5 },
-    { "twitch_rivals_sofa.deployed", "twitch rivals sofa deployed", "Uncategorized", "assets/prefabs/deployable/sofa/twitch_rivals/twitch_rivals_sofa.deployed.prefab", 3169453665U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicle", 6843, 5 },
-    { "spikes.trap", "spikes trap", "Uncategorized", "assets/prefabs/deployable/spike trap/spikes.trap.prefab", 3006607439U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 6848, 5 },
-    { "spinner.wheel.deployed", "spinner wheel deployed", "Uncategorized", "assets/prefabs/deployable/spinner_wheel/spinner.wheel.deployed.prefab", 4006597758U, true, true, false, false, false, false, false, false, "static", true, "SpinnerWheel", 6853, 7 },
-    { "survivalfishtrap.deployed", "survivalfishtrap deployed", "Uncategorized", "assets/prefabs/deployable/survivalfishtrap/survivalfishtrap.deployed.prefab", 3119617183U, true, true, false, false, false, false, false, false, "static", true, "SurvivalFishTrap", 6860, 7 },
-    { "table.deployed", "table deployed", "Uncategorized", "assets/prefabs/deployable/table/table.deployed.prefab", 2662124780U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 6867, 5 },
-    { "workbench1.deployed.corpse", "workbench1 deployed corpse", "Uncategorized", "assets/prefabs/deployable/tier 1 workbench/workbench1.deployed.corpse.prefab", 4066798181U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6872, 7 },
-    { "workbench1.deployed", "workbench1 deployed", "Uncategorized", "assets/prefabs/deployable/tier 1 workbench/workbench1.deployed.prefab", 2561955800U, true, true, false, false, false, false, false, false, "static", true, "Workbench", 6879, 6 },
-    { "workbench2.deployed.corpse", "workbench2 deployed corpse", "Uncategorized", "assets/prefabs/deployable/tier 2 workbench/workbench2.deployed.corpse.prefab", 3145678818U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6885, 7 },
-    { "workbench2.deployed", "workbench2 deployed", "Uncategorized", "assets/prefabs/deployable/tier 2 workbench/workbench2.deployed.prefab", 601265145U, true, true, false, false, false, false, false, false, "static", true, "Workbench", 6892, 6 },
-    { "workbench3.deployed.corpse", "workbench3 deployed corpse", "Uncategorized", "assets/prefabs/deployable/tier 3 workbench/workbench3.deployed.corpse.prefab", 3678765790U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6898, 7 },
-    { "workbench3.deployed", "workbench3 deployed", "Uncategorized", "assets/prefabs/deployable/tier 3 workbench/workbench3.deployed.prefab", 2764275075U, true, true, false, false, false, false, false, false, "static", true, "Workbench", 6905, 6 },
-    { "cupboard.tool.corpse", "cupboard tool corpse", "Uncategorized", "assets/prefabs/deployable/tool cupboard/cupboard.tool.corpse.prefab", 1978042149U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6911, 7 },
-    { "cupboard.tool.deployed", "cupboard tool deployed", "Uncategorized", "assets/prefabs/deployable/tool cupboard/cupboard.tool.deployed.prefab", 2476970476U, true, true, false, false, false, false, false, false, "static", true, "BuildingPrivlidge", 6918, 6 },
-    { "invisible_building_auth", "invisible building auth", "Uncategorized", "assets/prefabs/deployable/tool cupboard/invisible_building_auth.prefab", 216998040U, true, true, false, false, false, false, false, false, "static", true, "BuildingPrivlidge", 6924, 6 },
-    { "cupboard.tool.retro.deployed.corpse", "cupboard tool retro deployed corpse", "Uncategorized", "assets/prefabs/deployable/tool cupboard/retro/cupboard.tool.retro.deployed.corpse.prefab", 2103277438U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6930, 7 },
-    { "cupboard.tool.retro.deployed", "cupboard tool retro deployed", "Uncategorized", "assets/prefabs/deployable/tool cupboard/retro/cupboard.tool.retro.deployed.prefab", 785685130U, true, true, false, false, false, false, false, false, "static", true, "BuildingPrivilegeRetro", 6937, 7 },
-    { "storageadaptor_retro_tc.deployed", "storageadaptor retro tc deployed", "Uncategorized", "assets/prefabs/deployable/tool cupboard/retro/storageadaptor_retro_tc.deployed.prefab", 1420913995U, true, true, false, false, false, false, false, false, "static", true, "IndustrialStorageAdaptor", 6944, 7 },
-    { "cupboard.tool.shockbyte.deployed.corpse", "cupboard tool shockbyte deployed corpse", "Uncategorized", "assets/prefabs/deployable/tool cupboard/shockbyte/cupboard.tool.shockbyte.deployed.corpse.prefab", 272439463U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6951, 7 },
-    { "cupboard.tool.shockbyte.deployed", "cupboard tool shockbyte deployed", "Uncategorized", "assets/prefabs/deployable/tool cupboard/shockbyte/cupboard.tool.shockbyte.deployed.prefab", 3932172323U, true, true, false, false, false, false, false, false, "static", true, "BuildingPrivlidge", 6958, 6 },
-    { "tunalight.deployed", "tunalight deployed", "Uncategorized", "assets/prefabs/deployable/tuna can wall lamp/tunalight.deployed.prefab", 1392608348U, true, true, false, false, false, false, false, false, "static", true, "BaseFuelLightSource", 6964, 7 },
-    { "npcvendingmachine", "npcvendingmachine", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachine.prefab", 2245774897U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 6971, 8 },
-    { "npcvendingmachine_attire", "npcvendingmachine attire", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_attire.prefab", 3971055878U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 6979, 8 },
-    { "npcvendingmachine_building", "npcvendingmachine building", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_building.prefab", 538046694U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 6987, 8 },
-    { "npcvendingmachine_components", "npcvendingmachine components", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_components.prefab", 567510558U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 6995, 8 },
-    { "npcvendingmachine_extra", "npcvendingmachine extra", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_extra.prefab", 2876719793U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7003, 8 },
-    { "npcvendingmachine_farming", "npcvendingmachine farming", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_farming.prefab", 3866668316U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7011, 8 },
-    { "npcvendingmachine_fishexchange", "npcvendingmachine fishexchange", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_fishexchange.prefab", 712757139U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7019, 8 },
-    { "npcvendingmachine_hapisexchange", "npcvendingmachine hapisexchange", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_hapisexchange.prefab", 2055811113U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7027, 8 },
-    { "npcvendingmachine_resources", "npcvendingmachine resources", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_resources.prefab", 1505537622U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7035, 8 },
-    { "npcvendingmachine_tools", "npcvendingmachine tools", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_tools.prefab", 2259994529U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7043, 8 },
-    { "npcvendingmachine_travellingvendor", "npcvendingmachine travellingvendor", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_travellingvendor.prefab", 534084276U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7051, 8 },
-    { "npcvendingmachine_vehicles", "npcvendingmachine vehicles", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_vehicles.prefab", 3835594039U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7059, 8 },
-    { "npcvendingmachine_vehicleshigh", "npcvendingmachine vehicleshigh", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_vehicleshigh.prefab", 2038954881U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7067, 8 },
-    { "npcvendingmachine_weapons", "npcvendingmachine weapons", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_weapons.prefab", 3836034446U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7075, 8 },
-    { "shopkeeper_vm_invis", "shopkeeper vm invis", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/shopkeeper_vm_invis.prefab", 858853278U, true, true, false, false, false, false, false, false, "dynamic", false, "InvisibleVendingMachine", 7083, 9 },
-    { "shopkeeper_vm_invis_waterwell", "shopkeeper vm invis waterwell", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/shopkeeper_vm_invis_waterwell.prefab", 2799101936U, true, true, false, false, false, false, false, false, "dynamic", false, "InvisibleVendingMachine", 7092, 9 },
-    { "shopkeeper_vm_rentableshop", "shopkeeper vm rentableshop", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/shopkeeper_vm_rentableshop.prefab", 1084429088U, true, true, false, false, false, false, false, false, "dynamic", false, "RentableShopVendingMachine", 7101, 10 },
-    { "vending_mapmarker", "vending mapmarker", "Uncategorized", "assets/prefabs/deployable/vendingmachine/vending_mapmarker.prefab", 3459945130U, true, true, false, false, false, false, false, false, "static", true, "VendingMachineMapMarker", 7111, 4 },
-    { "vendingfront", "vendingfront", "Uncategorized", "assets/prefabs/deployable/vendingmachine/vendingfront.prefab", 1107947433U, true, true, false, false, false, false, false, false, "static", true, "VendingMachineFront", 7115, 3 },
-    { "vendingmachine.deployed.corpse", "vendingmachine deployed corpse", "Uncategorized", "assets/prefabs/deployable/vendingmachine/vendingmachine.deployed.corpse.prefab", 2525285291U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 7118, 7 },
-    { "vendingmachine.deployed", "vendingmachine deployed", "Uncategorized", "assets/prefabs/deployable/vendingmachine/vendingmachine.deployed.prefab", 186002280U, true, true, false, false, false, false, false, false, "static", true, "VendingMachine", 7125, 7 },
-    { "electric.wallcabinet.corpse", "electric wallcabinet corpse", "Uncategorized", "assets/prefabs/deployable/wall cabinet/electric.wallcabinet.corpse.prefab", 3529359528U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 7132, 7 },
-    { "electric.wallcabinet.deployed", "electric wallcabinet deployed", "Uncategorized", "assets/prefabs/deployable/wall cabinet/electric.wallcabinet.deployed.prefab", 3113345730U, true, true, false, false, false, false, false, false, "static", true, "ContainerIOEntity", 7139, 6 },
-    { "wall_shallow_industrial_shelves.deployed", "wall shallow industrial shelves deployed", "Uncategorized", "assets/prefabs/deployable/wall_single_shallow_shelves/skins/wall_shallow_industrial_shelf/wall_shallow_industrial_shelves.deployed.prefab", 1528396724U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 7145, 5 },
-    { "wall_single_shallow_shelf", "wall single shallow shelf", "Uncategorized", "assets/prefabs/deployable/wall_single_shallow_shelves/wall_single_shallow_shelf.prefab", 4019546054U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 7150, 5 },
-    { "water_catcher_large", "water catcher large", "Uncategorized", "assets/prefabs/deployable/water catcher/water_catcher_large.prefab", 3418194637U, true, true, false, false, false, false, false, false, "static", true, "WaterCatcher", 7155, 8 },
-    { "water_catcher_small", "water catcher small", "Uncategorized", "assets/prefabs/deployable/water catcher/water_catcher_small.prefab", 3661185369U, true, true, false, false, false, false, false, false, "static", true, "WaterCatcher", 7163, 8 },
-    { "waterwellstatic", "waterwellstatic", "Uncategorized", "assets/prefabs/deployable/water well/waterwellstatic.prefab", 3529835336U, true, true, false, false, false, false, false, false, "static", true, "WaterWell", 7171, 8 },
-    { "electric.waterwheel", "electric waterwheel", "Uncategorized", "assets/prefabs/deployable/water wheel/electric.waterwheel.prefab", 1468161152U, true, true, false, false, false, false, false, false, "static", true, "ElectricWaterWheel", 7179, 6 },
-    { "waterwheel.mountable", "waterwheel mountable", "Uncategorized", "assets/prefabs/deployable/water wheel/waterwheel.mountable.prefab", 966720564U, true, true, false, false, false, false, false, false, "static", true, "WaterWheelMountable", 7185, 5 },
-    { "waterpurifier.deployed", "waterpurifier deployed", "Uncategorized", "assets/prefabs/deployable/waterpurifier/waterpurifier.deployed.prefab", 2905007296U, true, true, false, false, false, false, false, false, "static", true, "WaterPurifier", 7190, 8 },
-    { "waterstorage", "waterstorage", "Uncategorized", "assets/prefabs/deployable/waterpurifier/waterstorage.prefab", 1488612322U, true, true, false, false, false, false, false, false, "static", true, "LiquidContainer", 7198, 7 },
-    { "weaponrack_horizontal.deployed", "weaponrack horizontal deployed", "Uncategorized", "assets/prefabs/deployable/weaponracks/weaponrack_horizontal.deployed.prefab", 1712643514U, true, true, false, false, false, false, false, false, "static", true, "WeaponRack", 7205, 6 },
-    { "weaponrack_single1.deployed", "weaponrack single1 deployed", "Uncategorized", "assets/prefabs/deployable/weaponracks/weaponrack_single1.deployed.prefab", 1566147802U, true, true, false, false, false, false, false, false, "static", true, "WeaponRack", 7211, 6 },
-    { "weaponrack_single2.deployed", "weaponrack single2 deployed", "Uncategorized", "assets/prefabs/deployable/weaponracks/weaponrack_single2.deployed.prefab", 1265527567U, true, true, false, false, false, false, false, false, "static", true, "WeaponRack", 7217, 6 },
-    { "weaponrack_single3.deployed", "weaponrack single3 deployed", "Uncategorized", "assets/prefabs/deployable/weaponracks/weaponrack_single3.deployed.prefab", 2110811006U, true, true, false, false, false, false, false, false, "static", true, "WeaponRack", 7223, 6 },
-    { "weaponrack_stand.deployed", "weaponrack stand deployed", "Uncategorized", "assets/prefabs/deployable/weaponracks/weaponrack_stand.deployed.prefab", 3672909226U, true, true, false, false, false, false, false, false, "static", true, "WeaponRack", 7229, 6 },
-    { "weaponrack_tall.deployed", "weaponrack tall deployed", "Uncategorized", "assets/prefabs/deployable/weaponracks/weaponrack_tall.deployed.prefab", 602299960U, true, true, false, false, false, false, false, false, "static", true, "WeaponRack", 7235, 6 },
-    { "weaponrack_wide.deployed", "weaponrack wide deployed", "Uncategorized", "assets/prefabs/deployable/weaponracks/weaponrack_wide.deployed.prefab", 1633182403U, true, true, false, false, false, false, false, false, "static", true, "WeaponRack", 7241, 6 },
-    { "electric.windmill.small", "electric windmill small", "Uncategorized", "assets/prefabs/deployable/windmill/electric.windmill.small.prefab", 1192074893U, true, true, false, false, false, false, false, false, "static", true, "ElectricWindmill", 7247, 6 },
-    { "generator.wind.scrap", "generator wind scrap", "Uncategorized", "assets/prefabs/deployable/windmill/generator.wind.scrap.prefab", 3038465934U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 7253, 6 },
-    { "pilot_hazmat_woodbox_deployed.corpse", "pilot hazmat woodbox deployed corpse", "Uncategorized", "assets/prefabs/deployable/woodenbox/skins/pilot_hazmat_wooden_box/pilot_hazmat_woodbox_deployed.corpse.prefab", 3758828704U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 7259, 7 },
-    { "pilot_hazmat_woodbox_deployed", "pilot hazmat woodbox deployed", "Uncategorized", "assets/prefabs/deployable/woodenbox/skins/pilot_hazmat_wooden_box/pilot_hazmat_woodbox_deployed.prefab", 2203540697U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 7266, 6 },
-    { "woodbox_deployed.corpse", "woodbox deployed corpse", "Uncategorized", "assets/prefabs/deployable/woodenbox/woodbox_deployed.corpse.prefab", 2010632750U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 7272, 7 },
-    { "woodbox_deployed", "woodbox deployed", "Uncategorized", "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab", 1560881570U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 7279, 6 },
-    { "hazmat_youtooz.deployed", "hazmat youtooz deployed", "Uncategorized", "assets/prefabs/deployable/youtooz_figurines/hazmat_youtooz.deployed.prefab", 1290959361U, true, true, false, false, false, false, false, false, "static", true, "DeployedFigurine", 7285, 4 },
-    { "heavyscientist_youtooz.deployed", "heavyscientist youtooz deployed", "Uncategorized", "assets/prefabs/deployable/youtooz_figurines/heavyscientist_youtooz.deployed.prefab", 801665394U, true, true, false, false, false, false, false, false, "static", true, "DeployedFigurine", 7289, 4 },
-    { "bota_bag.entity", "Bota Bag", "Uncategorized", "assets/prefabs/food/bota bag/bota_bag.entity.prefab", 1851422019U, true, true, false, false, false, false, false, false, "static", true, "BaseLiquidVessel", 7293, 5 },
-    { "food_pie_generic.entity", "Apple Pie", "Uncategorized", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, true, true, false, false, false, false, false, false, "static", true, "Food", 7298, 6 },
-    { "smallwaterbottle.entity", "Small Water Bottle", "Uncategorized", "assets/prefabs/food/small water bottle/smallwaterbottle.entity.prefab", 139849256U, true, true, false, false, false, false, false, false, "static", true, "BaseLiquidVessel", 7304, 5 },
-    { "waterjug.entity", "Water Jug", "Uncategorized", "assets/prefabs/food/water jug/waterjug.entity.prefab", 366999130U, true, true, false, false, false, false, false, false, "static", true, "BaseLiquidVessel", 7309, 5 },
-    { "deathmatch", "deathmatch", "Uncategorized", "assets/prefabs/gamemodes/deathmatch.prefab", 3323268180U, true, true, false, false, false, false, false, false, "static", true, "BaseGameMode", 7314, 3 },
-    { "hardcore", "hardcore", "Uncategorized", "assets/prefabs/gamemodes/hardcore.prefab", 2882540700U, true, true, false, false, false, false, false, false, "static", true, "GameModeHardcore", 7317, 5 },
-    { "kingofthehilldm", "kingofthehilldm", "Uncategorized", "assets/prefabs/gamemodes/kingofthehilldm.prefab", 825419898U, true, true, false, false, false, false, false, false, "static", true, "BaseGameMode", 7322, 3 },
-    { "kingofthehillteam", "kingofthehillteam", "Uncategorized", "assets/prefabs/gamemodes/kingofthehillteam.prefab", 4276462027U, true, true, false, false, false, false, false, false, "static", true, "BaseGameMode", 7325, 3 },
-    { "capturepoint", "capturepoint", "Uncategorized", "assets/prefabs/gamemodes/objects/capturepoint/capturepoint.prefab", 3788504645U, true, true, false, false, false, false, false, false, "static", true, "GameModeCapturePoint", 7328, 3 },
-    { "reclaimmanager", "reclaimmanager", "Uncategorized", "assets/prefabs/gamemodes/objects/reclaim/reclaimmanager.prefab", 3866571115U, true, true, false, false, false, false, false, false, "static", true, "ReclaimManager", 7331, 3 },
-    { "reclaimterminal", "reclaimterminal", "Uncategorized", "assets/prefabs/gamemodes/objects/reclaim/reclaimterminal.prefab", 2564311448U, true, true, false, false, false, false, false, false, "static", true, "ReclaimTerminal", 7334, 6 },
-    { "onedeath", "onedeath", "Uncategorized", "assets/prefabs/gamemodes/onedeath.prefab", 3275115225U, true, true, false, false, false, false, false, false, "static", true, "BaseGameMode", 7340, 3 },
-    { "primitive", "primitive", "Uncategorized", "assets/prefabs/gamemodes/primitive.prefab", 2393539753U, true, true, false, false, false, false, false, false, "static", true, "PrimitiveGameMode", 7343, 5 },
-    { "softcore", "softcore", "Uncategorized", "assets/prefabs/gamemodes/softcore.prefab", 1954920076U, true, true, false, false, false, false, false, false, "static", true, "GameModeSoftcore", 7348, 5 },
-    { "staticrespawnzonebandit", "staticrespawnzonebandit", "Uncategorized", "assets/prefabs/gamemodes/softcore/staticrespawnzonebandit.prefab", 3810400291U, true, true, false, false, false, false, false, false, "static", true, "StaticRespawnArea", 7353, 6 },
-    { "staticrespawnzonecompound", "staticrespawnzonecompound", "Uncategorized", "assets/prefabs/gamemodes/softcore/staticrespawnzonecompound.prefab", 1919922518U, true, true, false, false, false, false, false, false, "static", true, "StaticRespawnArea", 7359, 6 },
-    { "teamdeathmatch", "teamdeathmatch", "Uncategorized", "assets/prefabs/gamemodes/teamdeathmatch.prefab", 18701516U, true, true, false, false, false, false, false, false, "static", true, "BaseGameMode", 7365, 3 },
-    { "vanilla", "vanilla", "Uncategorized", "assets/prefabs/gamemodes/vanilla.prefab", 2957505463U, true, true, false, false, false, false, false, false, "static", true, "BaseGameMode", 7368, 3 },
-    { "weapontest", "weapontest", "Uncategorized", "assets/prefabs/gamemodes/weapontest.prefab", 798330873U, true, true, false, false, false, false, false, false, "static", true, "BaseGameMode", 7371, 3 },
-    { "bass.weapon", "Shovel Bass", "Uncategorized", "assets/prefabs/instruments/bass/bass.weapon.prefab", 2465202152U, true, true, false, false, false, false, false, false, "static", true, "InstrumentToolGuitar", 7374, 5 },
-    { "cowbell.weapon", "Cowbell", "Uncategorized", "assets/prefabs/instruments/cowbell/cowbell.weapon.prefab", 52738779U, true, true, false, false, false, false, false, false, "static", true, "InstrumentTool", 7379, 4 },
-    { "drumkit.deployed", "drumkit deployed", "Uncategorized", "assets/prefabs/instruments/drumkit/drumkit.deployed.prefab", 1980628900U, true, true, false, false, false, false, false, false, "static", true, "StaticInstrument", 7383, 5 },
-    { "flute.weapon", "Pan Flute", "Uncategorized", "assets/prefabs/instruments/flute/flute.weapon.prefab", 3789219502U, true, true, false, false, false, false, false, false, "static", true, "InstrumentTool", 7388, 4 },
-    { "guitar.weapon", "Acoustic Guitar", "Uncategorized", "assets/prefabs/instruments/guitar/guitar.weapon.prefab", 4177390149U, true, true, false, false, false, false, false, false, "static", true, "InstrumentToolGuitar", 7392, 5 },
-    { "jerrycanguitar.weapon", "Jerry Can Guitar", "Uncategorized", "assets/prefabs/instruments/jerrycanguitar/jerrycanguitar.weapon.prefab", 1977067472U, true, true, false, false, false, false, false, false, "static", true, "InstrumentToolGuitar", 7397, 5 },
-    { "piano.deployed", "piano deployed", "Uncategorized", "assets/prefabs/instruments/piano/piano.deployed.prefab", 3691382632U, true, true, false, false, false, false, false, false, "static", true, "StaticInstrument", 7402, 5 },
-    { "tambourine.weapon", "Canbourine", "Uncategorized", "assets/prefabs/instruments/tambourine/tambourine.weapon.prefab", 1754256281U, true, true, false, false, false, false, false, false, "static", true, "InstrumentTool", 7407, 4 },
-    { "trumpet.weapon", "Plumber's Trumpet", "Uncategorized", "assets/prefabs/instruments/trumpet/trumpet.weapon.prefab", 1050701358U, true, true, false, false, false, false, false, false, "static", true, "InstrumentTool", 7411, 4 },
-    { "tuba.weapon", "Sousaphone", "Uncategorized", "assets/prefabs/instruments/tuba/tuba.weapon.prefab", 2388319642U, true, true, false, false, false, false, false, false, "static", true, "InstrumentTool", 7415, 4 },
-    { "xylophone.deployed", "xylophone deployed", "Uncategorized", "assets/prefabs/instruments/xylophone/xylophone.deployed.prefab", 3363531184U, true, true, false, false, false, false, false, false, "static", true, "StaticInstrument", 7419, 5 },
-    { "generator.noreset.static", "generator noreset static", "Uncategorized", "assets/prefabs/io/electric/generators/generator.noreset.static.prefab", 1699170926U, true, true, false, false, false, false, false, false, "static", true, "ElectricGenerator", 7424, 6 },
-    { "generator.static", "generator static", "Uncategorized", "assets/prefabs/io/electric/generators/generator.static.prefab", 1331920001U, true, true, false, false, false, false, false, false, "static", true, "ElectricGenerator", 7430, 6 },
-    { "generator.static_hidden", "generator static hidden", "Uncategorized", "assets/prefabs/io/electric/generators/generator.static_hidden.prefab", 3467084113U, true, true, false, false, false, false, false, false, "static", true, "ElectricGenerator", 7436, 6 },
-    { "powergrid_accesspoint.static", "powergrid accesspoint static", "Uncategorized", "assets/prefabs/io/electric/generators/powergrid_accesspoint.static.prefab", 1390723258U, true, true, false, false, false, false, false, false, "static", true, "PowergridIOAccessPoint", 7442, 6 },
-    { "powergrid_powerline_io.static", "Power Grid", "Uncategorized", "assets/prefabs/io/electric/generators/powergrid_powerline_io.static.prefab", 1653306314U, true, true, false, false, false, false, false, false, "static", true, "PowergridIOAccessPoint", 7448, 6 },
-    { "simplelight", "simplelight", "Uncategorized", "assets/prefabs/io/electric/lights/simplelight.prefab", 1523703314U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7454, 6 },
-    { "sirenlightblue", "sirenlightblue", "Uncategorized", "assets/prefabs/io/electric/lights/sirenlightblue.prefab", 1124418807U, true, true, false, false, false, false, false, false, "static", true, "IOEntity", 7460, 5 },
-    { "sirenlightgreen", "sirenlightgreen", "Uncategorized", "assets/prefabs/io/electric/lights/sirenlightgreen.prefab", 2400067639U, true, true, false, false, false, false, false, false, "static", true, "IOEntity", 7465, 5 },
-    { "sirenlightorange", "sirenlightorange", "Uncategorized", "assets/prefabs/io/electric/lights/sirenlightorange.prefab", 4129440825U, true, true, false, false, false, false, false, false, "static", true, "IOEntity", 7470, 5 },
-    { "alarmsound", "alarmsound", "Uncategorized", "assets/prefabs/io/electric/other/alarmsound.prefab", 500822506U, true, true, false, false, false, false, false, false, "static", true, "IOEntity", 7475, 5 },
-    { "fridge_respawnableloot.static.entity", "fridge respawnableloot static entity", "Uncategorized", "assets/prefabs/io/electric/other/fridge_respawnableloot.static.entity.prefab", 2291424085U, true, true, false, false, false, false, false, false, "static", true, "RespawnableLootFridge", 7480, 8 },
-    { "oilswitchbroadcaster.static", "oilswitchbroadcaster static", "Uncategorized", "assets/prefabs/io/electric/other/oilswitchbroadcaster.static.prefab", 3121685313U, true, true, false, false, false, false, false, false, "static", true, "OilSwitchBroadcast", 7488, 6 },
-    { "rfbroadcaster.static", "rfbroadcaster static", "Uncategorized", "assets/prefabs/io/electric/other/rfbroadcaster.static.prefab", 1174518703U, true, true, false, false, false, false, false, false, "static", true, "RFBroadcaster", 7494, 6 },
-    { "andswitch", "andswitch", "Uncategorized", "assets/prefabs/io/electric/switches/andswitch.prefab", 2864014888U, true, true, false, false, false, false, false, false, "static", true, "ANDSwitch", 7500, 6 },
-    { "cardreader", "cardreader", "Uncategorized", "assets/prefabs/io/electric/switches/cardreader.prefab", 1841596500U, true, true, false, false, false, false, false, false, "static", true, "CardReader", 7506, 6 },
-    { "doormanipulator.invisible", "doormanipulator invisible", "Uncategorized", "assets/prefabs/io/electric/switches/doormanipulator.invisible.prefab", 3444518220U, true, true, false, false, false, false, false, false, "static", true, "DoorManipulator", 7512, 6 },
-    { "doormanipulator", "doormanipulator", "Uncategorized", "assets/prefabs/io/electric/switches/doormanipulator.prefab", 3165678508U, true, true, false, false, false, false, false, false, "static", true, "DoorManipulator", 7518, 6 },
-    { "fusebox", "fusebox", "Uncategorized", "assets/prefabs/io/electric/switches/fusebox/fusebox.prefab", 3622071578U, true, true, false, false, false, false, false, false, "static", true, "ItemBasedFlowRestrictor", 7524, 6 },
-    { "powergrid_fusebox_big", "powergrid fusebox big", "Uncategorized", "assets/prefabs/io/electric/switches/fusebox/powergrid_fusebox_big.prefab", 2245659838U, true, true, false, false, false, false, false, false, "static", true, "PowergridFuseBox", 7530, 3 },
-    { "powergrid_fusebox_small", "powergrid fusebox small", "Uncategorized", "assets/prefabs/io/electric/switches/fusebox/powergrid_fusebox_small.prefab", 1923819422U, true, true, false, false, false, false, false, false, "static", true, "PowergridFuseBox", 7533, 3 },
-    { "gearbox", "gearbox", "Uncategorized", "assets/prefabs/io/electric/switches/gearbox/gearbox.prefab", 2381092631U, true, true, false, false, false, false, false, false, "static", true, "ItemRestrictedWheelSwitch", 7536, 7 },
-    { "orswitch", "orswitch", "Uncategorized", "assets/prefabs/io/electric/switches/orswitch.prefab", 2179325520U, true, true, false, false, false, false, false, false, "static", true, "ORSwitch", 7543, 6 },
-    { "pressbutton", "pressbutton", "Uncategorized", "assets/prefabs/io/electric/switches/pressbutton/pressbutton.prefab", 4224395968U, true, true, false, false, false, false, false, false, "static", true, "PressButton", 7549, 6 },
-    { "pressbutton_compact", "pressbutton compact", "Uncategorized", "assets/prefabs/io/electric/switches/pressbutton/pressbutton_compact.prefab", 3594608867U, true, true, false, false, false, false, false, false, "static", true, "PressButton", 7555, 6 },
-    { "pressbutton_invisible", "pressbutton invisible", "Uncategorized", "assets/prefabs/io/electric/switches/pressbutton/pressbutton_invisible.prefab", 2427905255U, true, true, false, false, false, false, false, false, "static", true, "PressButton", 7561, 6 },
-    { "pressbutton_officeelevatorcall", "pressbutton officeelevatorcall", "Uncategorized", "assets/prefabs/io/electric/switches/pressbutton/pressbutton_officeelevatorcall.prefab", 3024956667U, true, true, false, false, false, false, false, false, "dynamic", false, "PressButton_TrainTunnel", 7567, 7 },
-    { "pressbutton_officeelevatordown", "pressbutton officeelevatordown", "Uncategorized", "assets/prefabs/io/electric/switches/pressbutton/pressbutton_officeelevatordown.prefab", 2322765486U, true, true, false, false, false, false, false, false, "dynamic", false, "PressButton_TrainTunnel", 7574, 7 },
-    { "pressbutton_officeelevatorup", "pressbutton officeelevatorup", "Uncategorized", "assets/prefabs/io/electric/switches/pressbutton/pressbutton_officeelevatorup.prefab", 322122625U, true, true, false, false, false, false, false, false, "dynamic", false, "PressButton_TrainTunnel", 7581, 7 },
-    { "pressbutton_trainstairwell", "pressbutton trainstairwell", "Uncategorized", "assets/prefabs/io/electric/switches/pressbutton/pressbutton_trainstairwell.prefab", 1802909967U, true, true, false, false, false, false, false, false, "dynamic", false, "PressButton_TrainTunnel", 7588, 7 },
-    { "simpleswitch", "simpleswitch", "Uncategorized", "assets/prefabs/io/electric/switches/simpleswitch/simpleswitch.prefab", 2055550712U, true, true, false, false, false, false, false, false, "static", true, "ElectricSwitch", 7595, 6 },
-    { "simpleswitch_lightswitch", "simpleswitch lightswitch", "Uncategorized", "assets/prefabs/io/electric/switches/simpleswitch_lightswitch/simpleswitch_lightswitch.prefab", 407841511U, true, true, false, false, false, false, false, false, "static", true, "ElectricSwitch", 7601, 6 },
-    { "splitter", "splitter", "Uncategorized", "assets/prefabs/io/electric/switches/splitter.prefab", 850739563U, true, true, false, false, false, false, false, false, "static", true, "Splitter", 7607, 6 },
-    { "timerswitch", "timerswitch", "Uncategorized", "assets/prefabs/io/electric/switches/timerswitch.prefab", 2873681431U, true, true, false, false, false, false, false, false, "static", true, "TimerSwitch", 7613, 6 },
-    { "xorswitch", "xorswitch", "Uncategorized", "assets/prefabs/io/electric/switches/xorswitch.prefab", 4139825974U, true, true, false, false, false, false, false, false, "static", true, "XORSwitch", 7619, 6 },
-    { "wheelswitch", "wheelswitch", "Uncategorized", "assets/prefabs/io/kinetic/wheelswitch.prefab", 1268553078U, true, true, false, false, false, false, false, false, "static", true, "WheelSwitch", 7625, 6 },
-    { "wheelswitch_wheel_only", "wheelswitch wheel only", "Uncategorized", "assets/prefabs/io/kinetic/wheelswitch_wheel_only.prefab", 3508954061U, true, true, false, false, false, false, false, false, "static", true, "WheelSwitch", 7631, 6 },
-    { "lock.key", "lock key", "Uncategorized", "assets/prefabs/locks/keylock/lock.key.prefab", 2106860026U, true, true, false, false, false, false, false, false, "static", true, "KeyLock", 7637, 4 },
-    { "lock.code", "lock code", "Uncategorized", "assets/prefabs/locks/keypad/lock.code.prefab", 3518824735U, true, true, false, false, false, false, false, false, "static", true, "CodeLock", 7641, 4 },
-    { "lock.code.a.pilot", "lock code a pilot", "Uncategorized", "assets/prefabs/locks/keypad/skins/codelock_a_pilot/lock.code.a.pilot.prefab", 319071656U, true, true, false, false, false, false, false, false, "static", true, "DigitSendCodeLock", 7645, 5 },
-    { "sign.artistcanvas.l", "sign artistcanvas l", "Uncategorized", "assets/prefabs/misc/artist_dlc/artistscanvases/sign.artistcanvas.l.prefab", 2535615922U, true, true, false, false, false, false, false, false, "static", true, "Signage", 7650, 6 },
-    { "sign.artistcanvas.m", "sign artistcanvas m", "Uncategorized", "assets/prefabs/misc/artist_dlc/artistscanvases/sign.artistcanvas.m.prefab", 797368798U, true, true, false, false, false, false, false, false, "static", true, "Signage", 7656, 6 },
-    { "sign.artistcanvas.s", "sign artistcanvas s", "Uncategorized", "assets/prefabs/misc/artist_dlc/artistscanvases/sign.artistcanvas.s.prefab", 3056672841U, true, true, false, false, false, false, false, false, "static", true, "Signage", 7662, 6 },
-    { "sign.artistcanvas.xl", "sign artistcanvas xl", "Uncategorized", "assets/prefabs/misc/artist_dlc/artistscanvases/sign.artistcanvas.xl.prefab", 1939665302U, true, true, false, false, false, false, false, false, "static", true, "Signage", 7668, 6 },
-    { "sign.artistcanvas.xs", "sign artistcanvas xs", "Uncategorized", "assets/prefabs/misc/artist_dlc/artistscanvases/sign.artistcanvas.xs.prefab", 1729209623U, true, true, false, false, false, false, false, false, "static", true, "Signage", 7674, 6 },
-    { "sign.artistcanvas.xxl", "sign artistcanvas xxl", "Uncategorized", "assets/prefabs/misc/artist_dlc/artistscanvases/sign.artistcanvas.xxl.prefab", 121897445U, true, true, false, false, false, false, false, false, "static", true, "Signage", 7680, 6 },
-    { "lightupframe.large", "lightupframe large", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/lightupframe.large.prefab", 3297576892U, true, true, false, false, false, false, false, false, "static", true, "FlagTogglePhotoFrame", 7686, 7 },
-    { "lightupframe.medium", "lightupframe medium", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/lightupframe.medium.prefab", 2703989313U, true, true, false, false, false, false, false, false, "static", true, "FlagTogglePhotoFrame", 7693, 7 },
-    { "lightupframe.small", "lightupframe small", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/lightupframe.small.prefab", 3602290925U, true, true, false, false, false, false, false, false, "static", true, "FlagTogglePhotoFrame", 7700, 7 },
-    { "lightupframe.standing", "lightupframe standing", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/lightupframe.standing.prefab", 2296327774U, true, true, false, false, false, false, false, false, "static", true, "FlagTogglePhotoFrame", 7707, 7 },
-    { "lightupframe.xl", "lightupframe xl", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/lightupframe.xl.prefab", 879893360U, true, true, false, false, false, false, false, false, "static", true, "FlagTogglePhotoFrame", 7714, 7 },
-    { "lightupframe.xxl", "lightupframe xxl", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/lightupframe.xxl.prefab", 2127235542U, true, true, false, false, false, false, false, false, "static", true, "FlagTogglePhotoFrame", 7721, 7 },
-    { "lightupframe.ioent.large", "lightupframe ioent large", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/subents/lightupframe.ioent.large.prefab", 3687349212U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7728, 6 },
-    { "lightupframe.ioent.medium", "lightupframe ioent medium", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/subents/lightupframe.ioent.medium.prefab", 176410268U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7734, 6 },
-    { "lightupframe.ioent.small", "lightupframe ioent small", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/subents/lightupframe.ioent.small.prefab", 2525660658U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7740, 6 },
-    { "lightupframe.ioent.standing", "lightupframe ioent standing", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/subents/lightupframe.ioent.standing.prefab", 3078681327U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7746, 6 },
-    { "lightupframe.ioent.xl", "lightupframe ioent xl", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/subents/lightupframe.ioent.xl.prefab", 3453753706U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7752, 6 },
-    { "lightupframe.ioent.xxl", "lightupframe ioent xxl", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/subents/lightupframe.ioent.xxl.prefab", 1885995974U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7758, 6 },
-    { "goldframe.large", "goldframe large", "Uncategorized", "assets/prefabs/misc/artist_dlc/ornate frame/goldframe.large.prefab", 798161878U, true, true, false, false, false, false, false, false, "static", true, "OrnateFrame", 7764, 7 },
-    { "goldframe.medium", "goldframe medium", "Uncategorized", "assets/prefabs/misc/artist_dlc/ornate frame/goldframe.medium.prefab", 4033431204U, true, true, false, false, false, false, false, false, "static", true, "OrnateFrame", 7771, 7 },
-    { "goldframe.small", "goldframe small", "Uncategorized", "assets/prefabs/misc/artist_dlc/ornate frame/goldframe.small.prefab", 485350915U, true, true, false, false, false, false, false, false, "static", true, "OrnateFrame", 7778, 7 },
-    { "goldframe.standing", "goldframe standing", "Uncategorized", "assets/prefabs/misc/artist_dlc/ornate frame/goldframe.standing.prefab", 3396336042U, true, true, false, false, false, false, false, false, "static", true, "OrnateFrame", 7785, 7 },
-    { "goldframe.xl", "goldframe xl", "Uncategorized", "assets/prefabs/misc/artist_dlc/ornate frame/goldframe.xl.prefab", 3754396910U, true, true, false, false, false, false, false, false, "static", true, "OrnateFrame", 7792, 7 },
-    { "goldframe.xxl", "goldframe xxl", "Uncategorized", "assets/prefabs/misc/artist_dlc/ornate frame/goldframe.xxl.prefab", 284403021U, true, true, false, false, false, false, false, false, "static", true, "OrnateFrame", 7799, 7 },
-    { "paintable_reactive_target.deployed", "paintable reactive target deployed", "Uncategorized", "assets/prefabs/misc/artist_dlc/paintable reactive target/paintable_reactive_target.deployed.prefab", 2311585556U, true, true, false, false, false, false, false, false, "static", true, "ReactiveTarget", 7806, 7 },
-    { "window.paintable", "window paintable", "Uncategorized", "assets/prefabs/misc/artist_dlc/paintable window/window.paintable.prefab", 1804926480U, true, true, false, false, false, false, false, false, "static", true, "Signage", 7813, 6 },
-    { "scrapframe.large", "scrapframe large", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/scrapframe.large.prefab", 3892777780U, true, true, false, false, false, false, false, false, "static", true, "ShutterFrame", 7819, 7 },
-    { "scrapframe.medium", "scrapframe medium", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/scrapframe.medium.prefab", 568958593U, true, true, false, false, false, false, false, false, "static", true, "ShutterFrame", 7826, 7 },
-    { "scrapframe.small", "scrapframe small", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/scrapframe.small.prefab", 2729848647U, true, true, false, false, false, false, false, false, "static", true, "ShutterFrame", 7833, 7 },
-    { "scrapframe.standing", "scrapframe standing", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/scrapframe.standing.prefab", 1938985149U, true, true, false, false, false, false, false, false, "static", true, "ShutterFrame", 7840, 7 },
-    { "scrapframe.xl", "scrapframe xl", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/scrapframe.xl.prefab", 958885520U, true, true, false, false, false, false, false, false, "static", true, "ShutterFrame", 7847, 7 },
-    { "scrapframe.xxl", "scrapframe xxl", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/scrapframe.xxl.prefab", 2760478303U, true, true, false, false, false, false, false, false, "static", true, "ShutterFrame", 7854, 7 },
-    { "scrapframe.ioent.large", "scrapframe ioent large", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/subents/scrapframe.ioent.large.prefab", 3532150403U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7861, 6 },
-    { "scrapframe.ioent.medium", "scrapframe ioent medium", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/subents/scrapframe.ioent.medium.prefab", 2808686863U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7867, 6 },
-    { "scrapframe.ioent.small", "scrapframe ioent small", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/subents/scrapframe.ioent.small.prefab", 2662530111U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7873, 6 },
-    { "scrapframe.ioent.standing", "scrapframe ioent standing", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/subents/scrapframe.ioent.standing.prefab", 1228245501U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7879, 6 },
-    { "scrapframe.ioent.xl", "scrapframe ioent xl", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/subents/scrapframe.ioent.xl.prefab", 2178232552U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7885, 6 },
-    { "scrapframe.ioent.xxl", "scrapframe ioent xxl", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/subents/scrapframe.ioent.xxl.prefab", 1586875222U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7891, 6 },
-    { "woodframe.large", "woodframe large", "Uncategorized", "assets/prefabs/misc/artist_dlc/wood frame (unused)/woodframe.large.prefab", 1867483538U, true, true, false, false, false, false, false, false, "static", true, "PhotoFrame", 7897, 6 },
-    { "woodframe.medium", "woodframe medium", "Uncategorized", "assets/prefabs/misc/artist_dlc/wood frame (unused)/woodframe.medium.prefab", 3494723332U, true, true, false, false, false, false, false, false, "static", true, "PhotoFrame", 7903, 6 },
-    { "woodframe.small", "woodframe small", "Uncategorized", "assets/prefabs/misc/artist_dlc/wood frame (unused)/woodframe.small.prefab", 2679749389U, true, true, false, false, false, false, false, false, "static", true, "PhotoFrame", 7909, 6 },
-    { "woodframe.standing", "woodframe standing", "Uncategorized", "assets/prefabs/misc/artist_dlc/wood frame (unused)/woodframe.standing.prefab", 2425277060U, true, true, false, false, false, false, false, false, "static", true, "PhotoFrame", 7915, 6 },
-    { "circle_balloon.deployed", "circle balloon deployed", "Uncategorized", "assets/prefabs/misc/birthday_balloons_2025/circle_balloon.deployed.prefab", 1020698817U, true, true, false, false, false, false, false, false, "static", true, "PartyBalloon", 7921, 4 },
-    { "heart_balloon.deployed", "heart balloon deployed", "Uncategorized", "assets/prefabs/misc/birthday_balloons_2025/heart_balloon.deployed.prefab", 51953109U, true, true, false, false, false, false, false, false, "static", true, "PartyBalloon", 7925, 4 },
-    { "latex_balloon.deployed", "latex balloon deployed", "Uncategorized", "assets/prefabs/misc/birthday_balloons_2025/latex_balloon.deployed.prefab", 1667260774U, true, true, false, false, false, false, false, false, "static", true, "PartyBalloon", 7929, 4 },
-    { "latexclump_balloon.deployed", "latexclump balloon deployed", "Uncategorized", "assets/prefabs/misc/birthday_balloons_2025/latexclump_balloon.deployed.prefab", 2097023580U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 7933, 3 },
-    { "mixedclump_balloon.deployed", "mixedclump balloon deployed", "Uncategorized", "assets/prefabs/misc/birthday_balloons_2025/mixedclump_balloon.deployed.prefab", 2723764296U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 7936, 3 },
-    { "speechbubble_balloon.deployed", "speechbubble balloon deployed", "Uncategorized", "assets/prefabs/misc/birthday_balloons_2025/speechbubble_balloon.deployed.prefab", 513939161U, true, true, false, false, false, false, false, false, "static", true, "PartyBalloon", 7939, 4 },
-    { "star_balloon.deployed", "star balloon deployed", "Uncategorized", "assets/prefabs/misc/birthday_balloons_2025/star_balloon.deployed.prefab", 1969418053U, true, true, false, false, false, false, false, false, "static", true, "PartyBalloon", 7943, 4 },
-    { "generic_world", "generic world", "Uncategorized", "assets/prefabs/misc/burlap sack/generic_world.prefab", 3255145925U, true, true, false, false, false, false, false, false, "static", true, "DroppedItem", 7947, 4 },
-    { "big_wheel", "big wheel", "Uncategorized", "assets/prefabs/misc/casino/bigwheel/big_wheel.prefab", 3690849383U, true, true, false, false, false, false, false, false, "static", true, "BigWheelGame", 7951, 8 },
-    { "bigwheelbettingterminal", "bigwheelbettingterminal", "Uncategorized", "assets/prefabs/misc/casino/bigwheel/bigwheelbettingterminal.prefab", 2924713120U, true, true, false, false, false, false, false, false, "static", true, "BigWheelBettingTerminal", 7959, 6 },
-    { "slotmachine", "slotmachine", "Uncategorized", "assets/prefabs/misc/casino/slotmachine/slotmachine.prefab", 2230162530U, true, true, false, false, false, false, false, false, "static", true, "SlotMachine", 7965, 5 },
-    { "slotmachinestorage", "slotmachinestorage", "Uncategorized", "assets/prefabs/misc/casino/slotmachine/slotmachinestorage.prefab", 3176258750U, true, true, false, false, false, false, false, false, "static", true, "SlotMachineStorage", 7970, 6 },
-    { "chinese_door_decoration", "chinese door decoration", "Uncategorized", "assets/prefabs/misc/chinesenewyear/chinese_door_decoration/chinese_door_decoration.prefab", 2084471865U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 7976, 6 },
-    { "chinese_door_frame_decoration", "chinese door frame decoration", "Uncategorized", "assets/prefabs/misc/chinesenewyear/chinese_door_frame_decoration/chinese_door_frame_decoration.prefab", 2040594012U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 7982, 6 },
-    { "chineselantern.deployed", "chineselantern deployed", "Uncategorized", "assets/prefabs/misc/chinesenewyear/chineselantern/chineselantern.deployed.prefab", 3887352222U, true, true, false, false, false, false, false, false, "static", true, "ChineseLantern", 7988, 8 },
-    { "chineselantern_white.deployed", "chineselantern white deployed", "Uncategorized", "assets/prefabs/misc/chinesenewyear/chineselantern/chineselantern_white.deployed.prefab", 2201663291U, true, true, false, false, false, false, false, false, "static", true, "ChineseLantern", 7996, 8 },
-    { "dragondoorknocker.deployed", "dragondoorknocker deployed", "Uncategorized", "assets/prefabs/misc/chinesenewyear/dragondoorknocker/dragondoorknocker.deployed.prefab", 4125587834U, true, true, false, false, false, false, false, false, "static", true, "DoorKnocker", 8004, 4 },
-    { "newyeargong.deployed", "newyeargong deployed", "Uncategorized", "assets/prefabs/misc/chinesenewyear/newyeargong/newyeargong.deployed.prefab", 2687699909U, true, true, false, false, false, false, false, false, "static", true, "NewYearGong", 8008, 4 },
-    { "skylantern.deployed", "skylantern deployed", "Uncategorized", "assets/prefabs/misc/chinesenewyear/sky_lantern/skylantern.deployed.prefab", 2869067981U, true, true, false, false, false, false, false, false, "static", true, "SkyLantern", 8012, 6 },
-    { "skylantern.skylantern.green", "skylantern skylantern green", "Uncategorized", "assets/prefabs/misc/chinesenewyear/sky_lantern/skylantern.skylantern.green.prefab", 4232309112U, true, true, false, false, false, false, false, false, "static", true, "SkyLantern", 8018, 6 },
-    { "skylantern.skylantern.orange", "skylantern skylantern orange", "Uncategorized", "assets/prefabs/misc/chinesenewyear/sky_lantern/skylantern.skylantern.orange.prefab", 2908920493U, true, true, false, false, false, false, false, false, "static", true, "SkyLantern", 8024, 6 },
-    { "skylantern.skylantern.purple", "skylantern skylantern purple", "Uncategorized", "assets/prefabs/misc/chinesenewyear/sky_lantern/skylantern.skylantern.purple.prefab", 1049099687U, true, true, false, false, false, false, false, false, "static", true, "SkyLantern", 8030, 6 },
-    { "skylantern.skylantern.red", "skylantern skylantern red", "Uncategorized", "assets/prefabs/misc/chinesenewyear/sky_lantern/skylantern.skylantern.red.prefab", 700699236U, true, true, false, false, false, false, false, false, "static", true, "SkyLantern", 8036, 6 },
-    { "firecrackers.deployed", "firecrackers deployed", "Uncategorized", "assets/prefabs/misc/chinesenewyear/throwablefirecrackers/firecrackers.deployed.prefab", 3428971889U, true, true, false, true, false, true, false, false, "dynamic", false, "StringFirecracker", 8042, 4 },
-    { "firecrackers.entity", "Firecracker String", "Uncategorized", "assets/prefabs/misc/chinesenewyear/throwablefirecrackers/firecrackers.entity.prefab", 628064879U, true, true, false, false, false, false, false, false, "static", true, "GrenadeWeapon", 8046, 6 },
-    { "chippyarcademachine", "chippyarcademachine", "Uncategorized", "assets/prefabs/misc/chippy arcade/chippyarcademachine.prefab", 4267988016U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseArcadeMachine", 8052, 6 },
-    { "confetticannon.deployed", "confetticannon deployed", "Uncategorized", "assets/prefabs/misc/confetticannon/confetticannon.deployed.prefab", 2703688515U, true, true, false, false, false, false, false, false, "static", true, "ConfettiCannon", 8058, 5 },
-    { "door.double.hinged.bardoors", "door double hinged bardoors", "Uncategorized", "assets/prefabs/misc/decor_dlc/bardoors/door.double.hinged.bardoors.prefab", 2944302698U, true, true, false, false, false, false, false, false, "static", true, "GestureDoor", 8063, 8 },
-    { "bathtub.planter.deployed", "bathtub planter deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/bath tub planter/bathtub.planter.deployed.prefab", 2846319393U, true, true, false, false, false, false, false, false, "static", true, "PlanterBox", 8071, 6 },
-    { "bathtub.planter.respawning.static", "bathtub planter respawning static", "Uncategorized", "assets/prefabs/misc/decor_dlc/bath tub planter/bathtub.planter.respawning.static.prefab", 2264146188U, true, true, false, false, false, false, false, false, "static", true, "PlanterBoxStatic", 8077, 7 },
-    { "headbag", "headbag", "Uncategorized", "assets/prefabs/misc/decor_dlc/heads/headbag.prefab", 3620851723U, true, true, false, false, false, false, false, false, "static", true, "HeadEntity", 8084, 3 },
-    { "fishtrophy.deployed", "fishtrophy deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/huntingtrophy_fish/fishtrophy.deployed.prefab", 1962641099U, true, true, false, false, false, false, false, false, "static", true, "FishMount", 8087, 6 },
-    { "huntingtrophylarge.deployed", "huntingtrophylarge deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/huntingtrophy_large/huntingtrophylarge.deployed.prefab", 471249640U, true, true, false, false, false, false, false, false, "static", true, "HuntingTrophy", 8093, 6 },
-    { "huntingtrophysmall.deployed", "huntingtrophysmall deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/huntingtrophy_small/huntingtrophysmall.deployed.prefab", 1521270672U, true, true, false, false, false, false, false, false, "static", true, "HuntingTrophy", 8099, 6 },
-    { "minecart.planter.deployed", "minecart planter deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/minecart planter/minecart.planter.deployed.prefab", 47518702U, true, true, false, false, false, false, false, false, "static", true, "PlanterBox", 8105, 6 },
-    { "minecart.planter.respawning.static", "minecart planter respawning static", "Uncategorized", "assets/prefabs/misc/decor_dlc/minecart planter/minecart.planter.respawning.static.prefab", 3790665304U, true, true, false, false, false, false, false, false, "static", true, "PlanterBoxStatic", 8111, 7 },
-    { "railroadplanter.deployed", "railroadplanter deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/rail road planter/railroadplanter.deployed.prefab", 115096413U, true, true, false, false, false, false, false, false, "static", true, "PlanterBox", 8118, 6 },
-    { "railroadplanter.respawning.static", "railroadplanter respawning static", "Uncategorized", "assets/prefabs/misc/decor_dlc/rail road planter/railroadplanter.respawning.static.prefab", 758859662U, true, true, false, false, false, false, false, false, "static", true, "PlanterBoxStatic", 8124, 7 },
-    { "triangle_railroad_planter.deployed", "triangle railroad planter deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/rail road planter/triangle_railroad_planter.deployed.prefab", 3449130218U, true, true, false, false, false, false, false, false, "static", true, "PlanterBox", 8131, 6 },
-    { "rockingchair.deployed", "rockingchair deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/rockingchair/rockingchair.deployed.prefab", 1808651928U, true, true, false, false, false, false, false, false, "static", true, "RockingChair", 8137, 6 },
-    { "rockingchair.rockingchair2.deployed", "rockingchair rockingchair2 deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/rockingchair/skins/rockingchair.rockingchair2.deployed.prefab", 720514301U, true, true, false, false, false, false, false, false, "static", true, "RockingChair", 8143, 6 },
-    { "rockingchair.rockingchair3.deployed", "rockingchair rockingchair3 deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/rockingchair/skins/rockingchair.rockingchair3.deployed.prefab", 804668581U, true, true, false, false, false, false, false, false, "static", true, "RockingChair", 8149, 6 },
-    { "skinningknife.entity", "Skinning Knife", "Uncategorized", "assets/prefabs/misc/decor_dlc/skinning knife/skinningknife.entity.prefab", 995189561U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 8155, 5 },
-    { "storage_barrel_b.corpse", "storage barrel b corpse", "Uncategorized", "assets/prefabs/misc/decor_dlc/storagebarrel/storage_barrel_b.corpse.prefab", 1186322904U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 8160, 7 },
-    { "storage_barrel_b", "storage barrel b", "Uncategorized", "assets/prefabs/misc/decor_dlc/storagebarrel/storage_barrel_b.prefab", 1502013593U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 8167, 6 },
-    { "storage_barrel_c.corpse", "storage barrel c corpse", "Uncategorized", "assets/prefabs/misc/decor_dlc/storagebarrel/storage_barrel_c.corpse.prefab", 632015332U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 8173, 7 },
-    { "storage_barrel_c", "storage barrel c", "Uncategorized", "assets/prefabs/misc/decor_dlc/storagebarrel/storage_barrel_c.prefab", 2261122309U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 8180, 6 },
-    { "unused_storage_barrel_a", "unused storage barrel a", "Uncategorized", "assets/prefabs/misc/decor_dlc/storagebarrel/unused_storage_barrel_a.prefab", 1429074576U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 8186, 6 },
-    { "torchholder.deployed", "torchholder deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/torchholder/torchholder.deployed.prefab", 39066900U, true, true, false, false, false, false, false, false, "static", true, "TorchDeployableLightSource", 8192, 6 },
-    { "wantedposter.wantedposter2", "wantedposter wantedposter2", "Uncategorized", "assets/prefabs/misc/decor_dlc/wantedposter/skins/wantedposter.wantedposter2.prefab", 18924473U, true, true, false, false, false, false, false, false, "static", true, "WantedPoster", 8198, 5 },
-    { "wantedposter.wantedposter3", "wantedposter wantedposter3", "Uncategorized", "assets/prefabs/misc/decor_dlc/wantedposter/skins/wantedposter.wantedposter3.prefab", 1570465433U, true, true, false, false, false, false, false, false, "static", true, "WantedPoster", 8203, 5 },
-    { "wantedposter.wantedposter4", "wantedposter wantedposter4", "Uncategorized", "assets/prefabs/misc/decor_dlc/wantedposter/skins/wantedposter.wantedposter4.prefab", 4144024614U, true, true, false, false, false, false, false, false, "static", true, "WantedPoster", 8208, 5 },
-    { "wantedposter.deployed", "wantedposter deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/wantedposter/wantedposter.deployed.prefab", 1683627733U, true, true, false, false, false, false, false, false, "static", true, "WantedPoster", 8213, 5 },
-    { "bunkercannon", "bunkercannon", "Uncategorized", "assets/prefabs/misc/deepseadwellings/bunkercannon.prefab", 3478623418U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8218, 3 },
-    { "dwelling_orefield_large_tropical1_metal", "dwelling orefield large tropical1 metal", "Uncategorized", "assets/prefabs/misc/deepseadwellings/dwelling_orefield_large_tropical1_metal.prefab", 1051214675U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8221, 3 },
-    { "dwelling_orefield_large_tropical1_sulfur variant", "dwelling orefield large tropical1 sulfur variant", "Uncategorized", "assets/prefabs/misc/deepseadwellings/dwelling_orefield_large_tropical1_sulfur variant.prefab", 2446035545U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8224, 3 },
-    { "dwelling_orefield_large_tropical2_metal", "dwelling orefield large tropical2 metal", "Uncategorized", "assets/prefabs/misc/deepseadwellings/dwelling_orefield_large_tropical2_metal.prefab", 368231912U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8227, 3 },
-    { "dwelling_orefield_large_tropical2_sulfur variant", "dwelling orefield large tropical2 sulfur variant", "Uncategorized", "assets/prefabs/misc/deepseadwellings/dwelling_orefield_large_tropical2_sulfur variant.prefab", 2462471120U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8230, 3 },
-    { "dwelling_orefield_large_tropical3_metal", "dwelling orefield large tropical3 metal", "Uncategorized", "assets/prefabs/misc/deepseadwellings/dwelling_orefield_large_tropical3_metal.prefab", 3616866229U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8233, 3 },
-    { "dwelling_orefield_large_tropical3_sulfur variant", "dwelling orefield large tropical3 sulfur variant", "Uncategorized", "assets/prefabs/misc/deepseadwellings/dwelling_orefield_large_tropical3_sulfur variant.prefab", 2458692433U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8236, 3 },
-    { "dwelling_orefield_large_tropical4_metal", "dwelling orefield large tropical4 metal", "Uncategorized", "assets/prefabs/misc/deepseadwellings/dwelling_orefield_large_tropical4_metal.prefab", 521632693U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8239, 3 },
-    { "dwelling_orefield_large_tropical4_sulfur variant", "dwelling orefield large tropical4 sulfur variant", "Uncategorized", "assets/prefabs/misc/deepseadwellings/dwelling_orefield_large_tropical4_sulfur variant.prefab", 3085970401U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8242, 3 },
-    { "tropical_island_dwelling_a", "tropical island dwelling a", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_a.prefab", 2303985447U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8245, 3 },
-    { "tropical_island_dwelling_blank", "tropical island dwelling blank", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_blank.prefab", 401205269U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8248, 3 },
-    { "tropical_island_dwelling_docks_boats_a", "tropical island dwelling docks boats a", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_docks_boats_a.prefab", 2326685902U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8251, 3 },
-    { "tropical_island_dwelling_docks_boats_b", "tropical island dwelling docks boats b", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_docks_boats_b.prefab", 316297516U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8254, 3 },
-    { "tropical_island_dwelling_docks_large_a", "tropical island dwelling docks large a", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_docks_large_a.prefab", 1189526737U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8257, 3 },
-    { "tropical_island_dwelling_docks_small_a", "tropical island dwelling docks small a", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_docks_small_a.prefab", 3405314486U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8260, 3 },
-    { "tropical_island_dwelling_docks_small_b", "tropical island dwelling docks small b", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_docks_small_b.prefab", 2633436050U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8263, 3 },
-    { "tropical_island_dwelling_docks_small_c", "tropical island dwelling docks small c", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_docks_small_c.prefab", 1877198989U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8266, 3 },
-    { "tropical_island_dwelling_ruins_b", "tropical island dwelling ruins b", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_ruins_b.prefab", 579008158U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8269, 3 },
-    { "tropical_island_dwelling_ruins_c", "tropical island dwelling ruins c", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_ruins_c.prefab", 1715466672U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8272, 3 },
-    { "tropical_island_dwelling_ruins_d", "tropical island dwelling ruins d", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_ruins_d.prefab", 1685826038U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8275, 3 },
-    { "desert_dwelling_double_a", "desert dwelling double a", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_double_a.prefab", 3879517825U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8278, 3 },
-    { "desert_dwelling_double_b", "desert dwelling double b", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_double_b.prefab", 1794805097U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8281, 3 },
-    { "desert_dwelling_double_c", "desert dwelling double c", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_double_c.prefab", 3736202536U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8284, 3 },
-    { "desert_dwelling_double_d", "desert dwelling double d", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_double_d.prefab", 145441199U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8287, 3 },
-    { "desert_dwelling_double_e", "desert dwelling double e", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_double_e.prefab", 697008925U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8290, 3 },
-    { "desert_dwelling_double_f", "desert dwelling double f", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_double_f.prefab", 1244275247U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8293, 3 },
-    { "desert_dwelling_double_g", "desert dwelling double g", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_double_g.prefab", 1787891413U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCDwelling", 8296, 3 },
-    { "desert_dwelling_double_h", "desert dwelling double h", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_double_h.prefab", 1522065566U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8299, 3 },
-    { "desert_dwelling_double_i", "desert dwelling double i", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_double_i.prefab", 141711534U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8302, 3 },
-    { "desert_dwelling_single_a", "desert dwelling single a", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_a.prefab", 3753747337U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8305, 3 },
-    { "desert_dwelling_single_b", "desert dwelling single b", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_b.prefab", 2116118137U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8308, 3 },
-    { "desert_dwelling_single_c", "desert dwelling single c", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_c.prefab", 2655033203U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8311, 3 },
-    { "desert_dwelling_single_d", "desert dwelling single d", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_d.prefab", 3783075070U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8314, 3 },
-    { "desert_dwelling_single_e", "desert dwelling single e", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_e.prefab", 3182213659U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8317, 3 },
-    { "desert_dwelling_single_f", "desert dwelling single f", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_f.prefab", 321391832U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8320, 3 },
-    { "desert_dwelling_single_g", "desert dwelling single g", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_g.prefab", 2404833927U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8323, 3 },
-    { "desert_dwelling_single_h", "desert dwelling single h", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_h.prefab", 607177296U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8326, 3 },
-    { "desert_dwelling_single_i", "desert dwelling single i", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_i.prefab", 1353231516U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8329, 3 },
-    { "desert_dwelling_single_j", "desert dwelling single j", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_j.prefab", 1569310753U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8332, 3 },
-    { "desert_dwelling_single_k", "desert dwelling single k", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_k.prefab", 1533955323U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8335, 3 },
-    { "desert_dwelling_single_l", "desert dwelling single l", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_l.prefab", 11006879U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8338, 3 },
-    { "desert_dwelling_single_m", "desert dwelling single m", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_m.prefab", 2451307776U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8341, 3 },
-    { "desert_dwelling_single_n", "desert dwelling single n", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_n.prefab", 4141993402U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8344, 3 },
-    { "desert_dwelling_single_o", "desert dwelling single o", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_o.prefab", 2497356755U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8347, 3 },
-    { "desert_dwelling_single_p", "desert dwelling single p", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_p.prefab", 3728083511U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8350, 3 },
-    { "desert_dwelling_single_q", "desert dwelling single q", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_q.prefab", 1405232012U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8353, 3 },
-    { "desert_dwelling_single_r", "desert dwelling single r", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_r.prefab", 420601661U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8356, 3 },
-    { "desert_dwelling_single_s", "desert dwelling single s", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_s.prefab", 3879469933U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8359, 3 },
-    { "divesite_a", "divesite a", "Uncategorized", "assets/prefabs/misc/divesite/divesite_a.prefab", 2419904621U, true, true, false, false, false, false, false, false, "static", true, "DiveSite", 8362, 4 },
-    { "divesite_b", "divesite b", "Uncategorized", "assets/prefabs/misc/divesite/divesite_b.prefab", 2048371271U, true, true, false, false, false, false, false, false, "static", true, "DiveSite", 8366, 4 },
-    { "divesite_c", "divesite c", "Uncategorized", "assets/prefabs/misc/divesite/divesite_c.prefab", 1891214172U, true, true, false, false, false, false, false, false, "static", true, "DiveSite", 8370, 4 },
-    { "divesite_d", "divesite d", "Uncategorized", "assets/prefabs/misc/divesite/divesite_d.prefab", 1429756914U, true, true, false, false, false, false, false, false, "static", true, "DiveSite", 8374, 4 },
-    { "divesite_e", "divesite e", "Uncategorized", "assets/prefabs/misc/divesite/divesite_e.prefab", 365020138U, true, true, false, false, false, false, false, false, "static", true, "DiveSite", 8378, 4 },
-    { "divesite_f", "divesite f", "Uncategorized", "assets/prefabs/misc/divesite/divesite_f.prefab", 3158334014U, true, true, false, false, false, false, false, false, "static", true, "DiveSite", 8382, 4 },
-    { "oceanwreckbuoy", "oceanwreckbuoy", "Uncategorized", "assets/prefabs/misc/divesite/oceanwreckbuoy.prefab", 2825845166U, true, true, false, false, false, false, false, false, "static", true, "DiveSiteBuoy", 8386, 3 },
-    { "oceanwreckbuoysmall", "oceanwreckbuoysmall", "Uncategorized", "assets/prefabs/misc/divesite/oceanwreckbuoysmall.prefab", 702334137U, true, true, false, false, false, false, false, false, "static", true, "DiveSiteBuoy", 8389, 3 },
-    { "doorcloser", "doorcloser", "Uncategorized", "assets/prefabs/misc/doorcloser/doorcloser.prefab", 1831641807U, true, true, false, false, false, false, false, false, "static", true, "DoorCloser", 8392, 3 },
-    { "dynamicpreventbuilding", "dynamicpreventbuilding", "Uncategorized", "assets/prefabs/misc/dynamicpreventbuilding.prefab", 4124785483U, true, true, false, false, false, false, false, false, "static", true, "BaseEntity", 8395, 2 },
-    { "easter_door_wreath_deployed", "easter door wreath deployed", "Uncategorized", "assets/prefabs/misc/easter/door_wreath/easter_door_wreath_deployed.prefab", 3375996320U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 8397, 3 },
-    { "easter_basket.entity", "Egg Basket", "Uncategorized", "assets/prefabs/misc/easter/easter basket/easter_basket.entity.prefab", 557749706U, true, true, false, false, false, false, false, false, "static", true, "EasterBasket", 8400, 5 },
-    { "eastereggprojectile", "eastereggprojectile", "Uncategorized", "assets/prefabs/misc/easter/easter basket/eastereggprojectile.prefab", 3721260684U, true, true, false, false, false, false, false, false, "static", true, "SeasonalTimedExplosive", 8405, 4 },
-    { "item.painted.storage", "item painted storage", "Uncategorized", "assets/prefabs/misc/easter/egg_suit/item.painted.storage.prefab", 2806530431U, true, true, false, false, false, false, false, false, "static", true, "PaintedItemStorageEntity", 8409, 3 },
-    { "egghunt", "egghunt", "Uncategorized", "assets/prefabs/misc/easter/egghunt.prefab", 3376609576U, true, true, false, false, false, false, false, false, "static", true, "EggHuntEvent", 8412, 4 },
-    { "rustigeegg_a.deployed", "rustigeegg a deployed", "Uncategorized", "assets/prefabs/misc/easter/faberge_egg_a/rustigeegg_a.deployed.prefab", 2952734041U, true, true, false, false, false, false, false, false, "static", true, "RustigeEgg", 8416, 4 },
-    { "rustigeegg_b.deployed", "rustigeegg b deployed", "Uncategorized", "assets/prefabs/misc/easter/faberge_egg_b/rustigeegg_b.deployed.prefab", 2769334849U, true, true, false, false, false, false, false, false, "static", true, "RustigeEgg", 8420, 4 },
-    { "rustigeegg_c.deployed", "rustigeegg c deployed", "Uncategorized", "assets/prefabs/misc/easter/faberge_egg_c/rustigeegg_c.deployed.prefab", 2259790452U, true, true, false, false, false, false, false, false, "static", true, "RustigeEgg", 8424, 4 },
-    { "rustigeegg_d.deployed", "rustigeegg d deployed", "Uncategorized", "assets/prefabs/misc/easter/faberge_egg_d/rustigeegg_d.deployed.prefab", 3394396962U, true, true, false, false, false, false, false, false, "static", true, "RustigeEgg", 8428, 4 },
-    { "rustigeegg_e.deployed", "rustigeegg e deployed", "Uncategorized", "assets/prefabs/misc/easter/faberge_egg_e/rustigeegg_e.deployed.prefab", 1833328825U, true, true, false, false, false, false, false, false, "static", true, "RustigeEgg", 8432, 4 },
-    { "rustigeegg_f.deployed", "rustigeegg f deployed", "Uncategorized", "assets/prefabs/misc/easter/faberge_egg_f/rustigeegg_f.deployed.prefab", 31755465U, true, true, false, false, false, false, false, false, "static", true, "RustigeEgg", 8436, 4 },
-    { "rustigeegg_g.deployed", "rustigeegg g deployed", "Uncategorized", "assets/prefabs/misc/easter/faberge_egg_g/rustigeegg_g.deployed.prefab", 968699775U, true, true, false, false, false, false, false, false, "static", true, "RustigeEgg", 8440, 4 },
-    { "rustigeegg_h.deployed", "rustigeegg h deployed", "Uncategorized", "assets/prefabs/misc/easter/faberge_egg_h/rustigeegg_h.deployed.prefab", 3584759614U, true, true, false, false, false, false, false, false, "static", true, "RustigeEgg", 8444, 4 },
-    { "collectableegg", "collectableegg", "Uncategorized", "assets/prefabs/misc/easter/painted eggs/collectableegg.prefab", 2492538492U, true, true, false, false, false, false, false, false, "static", true, "CollectableEasterEgg", 8448, 3 },
-    { "food_cache_001", "food cache 001", "Uncategorized", "assets/prefabs/misc/food cache/food_cache_001.prefab", 1254812818U, true, true, false, false, false, false, false, false, "static", true, "LootContainer", 8451, 6 },
-    { "food_cache_002", "food cache 002", "Uncategorized", "assets/prefabs/misc/food cache/food_cache_002.prefab", 4273542191U, true, true, false, false, false, false, false, false, "static", true, "LootContainer", 8457, 6 },
-    { "food_cache_003", "food cache 003", "Uncategorized", "assets/prefabs/misc/food cache/food_cache_003.prefab", 3858903386U, true, true, false, false, false, false, false, false, "static", true, "LootContainer", 8463, 6 },
-    { "food_cache_004", "food cache 004", "Uncategorized", "assets/prefabs/misc/food cache/food_cache_004.prefab", 372904702U, true, true, false, false, false, false, false, false, "static", true, "LootContainer", 8469, 6 },
-    { "food_cache_005", "food cache 005", "Uncategorized", "assets/prefabs/misc/food cache/food_cache_005.prefab", 1465626697U, true, true, false, false, false, false, false, false, "static", true, "LootContainer", 8475, 6 },
-    { "ghostship", "ghostship", "Uncategorized", "assets/prefabs/misc/ghostships/ghostship.prefab", 1159044978U, true, true, false, true, true, false, false, false, "static", true, "Prefabs.Misc.GhostShip", 8481, 5 },
-    { "ghostship_b", "ghostship b", "Uncategorized", "assets/prefabs/misc/ghostships/ghostship_b.prefab", 2529944595U, true, true, false, true, true, false, false, false, "static", true, "Prefabs.Misc.GhostShip", 8486, 5 },
-    { "ghostship_c", "ghostship c", "Uncategorized", "assets/prefabs/misc/ghostships/ghostship_c.prefab", 752720933U, true, true, false, true, true, false, false, false, "static", true, "Prefabs.Misc.GhostShip", 8491, 5 },
-    { "ghostship_d", "ghostship d", "Uncategorized", "assets/prefabs/misc/ghostships/ghostship_d.prefab", 3868701128U, true, true, false, true, true, false, false, false, "static", true, "Prefabs.Misc.GhostShip", 8496, 5 },
-    { "ghostshipmapmarker", "ghostshipmapmarker", "Uncategorized", "assets/prefabs/misc/ghostships/ghostshipmapmarker.prefab", 3667054617U, true, true, false, false, false, false, false, false, "static", true, "GhostShipMapMarker", 8501, 4 },
-    { "candyprojectile", "candyprojectile", "Uncategorized", "assets/prefabs/misc/halloween/candies/candyprojectile.prefab", 1465468950U, true, true, false, false, false, false, false, false, "static", true, "SeasonalTimedExplosive", 8505, 4 },
-    { "collectablecandy", "collectablecandy", "Uncategorized", "assets/prefabs/misc/halloween/candies/collectablecandy.prefab", 2495043668U, true, true, false, false, false, false, false, false, "static", true, "CollectableEasterEgg", 8509, 3 },
-    { "largecandleset", "largecandleset", "Uncategorized", "assets/prefabs/misc/halloween/candles/largecandleset.prefab", 3049520350U, true, true, false, false, false, false, false, false, "static", true, "Candle", 8512, 4 },
-    { "smallcandleset", "smallcandleset", "Uncategorized", "assets/prefabs/misc/halloween/candles/smallcandleset.prefab", 3435611199U, true, true, false, false, false, false, false, false, "static", true, "Candle", 8516, 4 },
-    { "carvable.pumpkin", "carvable pumpkin", "Uncategorized", "assets/prefabs/misc/halloween/carvablepumpkin/carvable.pumpkin.prefab", 3038860934U, true, true, false, false, false, false, false, false, "static", true, "CarvablePumpkin", 8520, 7 },
-    { "coffinstorage.corpse", "coffinstorage corpse", "Uncategorized", "assets/prefabs/misc/halloween/coffin/coffinstorage.corpse.prefab", 1441221703U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 8527, 7 },
-    { "coffinstorage", "coffinstorage", "Uncategorized", "assets/prefabs/misc/halloween/coffin/coffinstorage.prefab", 4080262419U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 8534, 6 },
-    { "cursedcauldron.deployed", "cursedcauldron deployed", "Uncategorized", "assets/prefabs/misc/halloween/cursed_cauldron/cursedcauldron.deployed.prefab", 1348425051U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 8540, 6 },
-    { "gravestone.stone.deployed", "gravestone stone deployed", "Uncategorized", "assets/prefabs/misc/halloween/deployablegravestone/gravestone.stone.deployed.prefab", 2548600751U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 8546, 3 },
-    { "gravestone.wood.deployed", "gravestone wood deployed", "Uncategorized", "assets/prefabs/misc/halloween/deployablegravestone/gravestone.wood.deployed.prefab", 2983602886U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 8549, 3 },
-    { "graveyardfence", "graveyardfence", "Uncategorized", "assets/prefabs/misc/halloween/graveyard_fence/graveyardfence.prefab", 1766793357U, true, true, false, false, false, false, false, false, "static", true, "GraveyardFence", 8552, 7 },
-    { "halloweenhunt", "halloweenhunt", "Uncategorized", "assets/prefabs/misc/halloween/halloweenhunt.prefab", 1937756239U, true, true, false, false, false, false, false, false, "static", true, "HalloweenHunt", 8559, 5 },
-    { "pumpkin_basket.entity", "Pumpkin Basket", "Uncategorized", "assets/prefabs/misc/halloween/pumpkin_bucket/pumpkin_basket.entity.prefab", 2763047865U, true, true, false, false, false, false, false, false, "static", true, "EasterBasket", 8564, 5 },
-    { "scarecrow.deployed", "scarecrow deployed", "Uncategorized", "assets/prefabs/misc/halloween/scarecrow/scarecrow.deployed.prefab", 482680556U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 8569, 5 },
-    { "skullspikes.candles.deployed", "skullspikes candles deployed", "Uncategorized", "assets/prefabs/misc/halloween/skull spikes/skins/skullspikes.candles.deployed.prefab", 1273690005U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 8574, 3 },
-    { "skullspikes.pumpkin.deployed", "skullspikes pumpkin deployed", "Uncategorized", "assets/prefabs/misc/halloween/skull spikes/skins/skullspikes.pumpkin.deployed.prefab", 4242782819U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 8577, 3 },
-    { "skullspikes.deployed", "skullspikes deployed", "Uncategorized", "assets/prefabs/misc/halloween/skull spikes/skullspikes.deployed.prefab", 1005607405U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 8580, 3 },
-    { "skull_door_knocker.deployed", "skull door knocker deployed", "Uncategorized", "assets/prefabs/misc/halloween/skull_door_knocker/skull_door_knocker.deployed.prefab", 622673951U, true, true, false, false, false, false, false, false, "static", true, "DoorKnocker", 8583, 4 },
-    { "skull_door_knocker", "skull door knocker", "Uncategorized", "assets/prefabs/misc/halloween/skull_door_knocker/skull_door_knocker.prefab", 1796973138U, true, true, false, false, false, false, false, false, "static", true, "DoorKnocker", 8587, 4 },
-    { "skull_fire_pit", "skull fire pit", "Uncategorized", "assets/prefabs/misc/halloween/skull_fire_pit/skull_fire_pit.prefab", 1906669538U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 8591, 6 },
-    { "spiderweba", "spiderweba", "Uncategorized", "assets/prefabs/misc/halloween/spiderweb/spiderweba.prefab", 1177722664U, true, true, false, false, false, false, false, false, "static", true, "SpiderWeb", 8597, 4 },
-    { "spookyspeaker", "spookyspeaker", "Uncategorized", "assets/prefabs/misc/halloween/spookyspeaker/spookyspeaker.prefab", 25095088U, true, true, false, false, false, false, false, false, "static", true, "SpookySpeaker", 8601, 6 },
-    { "skulltrophy.jar.deployed", "skulltrophy jar deployed", "Uncategorized", "assets/prefabs/misc/halloween/trophy skulls/skins/skulltrophy.jar.deployed.prefab", 888153605U, true, true, false, false, false, false, false, false, "static", true, "SkullTrophy", 8607, 6 },
-    { "skulltrophy.jar2.deployed", "skulltrophy jar2 deployed", "Uncategorized", "assets/prefabs/misc/halloween/trophy skulls/skins/skulltrophy.jar2.deployed.prefab", 516794212U, true, true, false, false, false, false, false, false, "static", true, "SkullTrophy", 8613, 6 },
-    { "skulltrophy.table.deployed", "skulltrophy table deployed", "Uncategorized", "assets/prefabs/misc/halloween/trophy skulls/skins/skulltrophy.table.deployed.prefab", 3944492824U, true, true, false, false, false, false, false, false, "static", true, "SkullTrophy", 8619, 6 },
-    { "skulltrophy.deployed", "skulltrophy deployed", "Uncategorized", "assets/prefabs/misc/halloween/trophy skulls/skulltrophy.deployed.prefab", 3036466305U, true, true, false, false, false, false, false, false, "static", true, "SkullTrophy", 8625, 6 },
-    { "item_drop", "item drop", "Uncategorized", "assets/prefabs/misc/item drop/item_drop.prefab", 545786656U, true, true, false, true, false, true, false, false, "dynamic", false, "DroppedItemContainer", 8631, 4 },
-    { "item_drop_backpack", "item drop backpack", "Uncategorized", "assets/prefabs/misc/item drop/item_drop_backpack.prefab", 1519640547U, true, true, false, true, false, true, false, false, "dynamic", false, "DroppedItemContainer", 8635, 4 },
-    { "item_drop_buoyant", "item drop buoyant", "Uncategorized", "assets/prefabs/misc/item drop/item_drop_buoyant.prefab", 146366564U, true, true, false, true, false, true, false, false, "dynamic", false, "DroppedItemContainer", 8639, 4 },
-    { "junkpile_a", "junkpile a", "Uncategorized", "assets/prefabs/misc/junkpile/junkpile_a.prefab", 1079458547U, true, true, false, false, false, false, false, false, "static", true, "JunkPile", 8643, 3 },
-    { "junkpile_b", "junkpile b", "Uncategorized", "assets/prefabs/misc/junkpile/junkpile_b.prefab", 53513351U, true, true, false, false, false, false, false, false, "static", true, "JunkPile", 8646, 3 },
-    { "junkpile_c", "junkpile c", "Uncategorized", "assets/prefabs/misc/junkpile/junkpile_c.prefab", 802190701U, true, true, false, false, false, false, false, false, "static", true, "JunkPile", 8649, 3 },
-    { "junkpile_d", "junkpile d", "Uncategorized", "assets/prefabs/misc/junkpile/junkpile_d.prefab", 1469191396U, true, true, false, false, false, false, false, false, "static", true, "JunkPile", 8652, 3 },
-    { "junkpile_e", "junkpile e", "Uncategorized", "assets/prefabs/misc/junkpile/junkpile_e.prefab", 2264041007U, true, true, false, false, false, false, false, false, "static", true, "JunkPile", 8655, 3 },
-    { "junkpile_f", "junkpile f", "Uncategorized", "assets/prefabs/misc/junkpile/junkpile_f.prefab", 2993735837U, true, true, false, false, false, false, false, false, "static", true, "JunkPile", 8658, 3 },
-    { "junkpile_g", "junkpile g", "Uncategorized", "assets/prefabs/misc/junkpile/junkpile_g.prefab", 4277459046U, true, true, false, false, false, false, false, false, "static", true, "JunkPile", 8661, 3 },
-    { "junkpile_h", "junkpile h", "Uncategorized", "assets/prefabs/misc/junkpile/junkpile_h.prefab", 1833448838U, true, true, false, false, false, false, false, false, "static", true, "JunkPile", 8664, 3 },
-    { "junkpile_i", "junkpile i", "Uncategorized", "assets/prefabs/misc/junkpile/junkpile_i.prefab", 3208542129U, true, true, false, false, false, false, false, false, "static", true, "JunkPile", 8667, 3 },
-    { "junkpile_j", "junkpile j", "Uncategorized", "assets/prefabs/misc/junkpile/junkpile_j.prefab", 4214664239U, true, true, false, false, false, false, false, false, "static", true, "JunkPile", 8670, 3 },
-    { "junkpile_water_a", "junkpile water a", "Uncategorized", "assets/prefabs/misc/junkpile_water/junkpile_water_a.prefab", 303596648U, true, true, false, true, true, false, false, false, "static", true, "JunkPileWater", 8673, 4 },
-    { "junkpile_water_b", "junkpile water b", "Uncategorized", "assets/prefabs/misc/junkpile_water/junkpile_water_b.prefab", 292159419U, true, true, false, true, true, false, false, false, "static", true, "JunkPileWater", 8677, 4 },
-    { "junkpile_water_c", "junkpile water c", "Uncategorized", "assets/prefabs/misc/junkpile_water/junkpile_water_c.prefab", 1744083475U, true, true, false, true, true, false, false, false, "static", true, "JunkPileWater", 8681, 4 },
-    { "deliverydronemarker", "deliverydronemarker", "Uncategorized", "assets/prefabs/misc/marketplace/deliverydronemarker.prefab", 3742716325U, true, true, false, false, false, false, false, false, "static", true, "MapMarkerDeliveryDrone", 8685, 4 },
-    { "drone.delivery", "drone delivery", "Uncategorized", "assets/prefabs/misc/marketplace/drone.delivery.prefab", 2325891644U, true, true, false, true, false, true, false, false, "dynamic", false, "DeliveryDrone", 8689, 6 },
-    { "marketplace", "marketplace", "Uncategorized", "assets/prefabs/misc/marketplace/marketplace.prefab", 3953076030U, true, true, false, false, false, false, false, false, "static", true, "Marketplace", 8695, 3 },
-    { "marketterminal", "marketterminal", "Uncategorized", "assets/prefabs/misc/marketplace/marketterminal.prefab", 407767262U, true, true, false, false, false, false, false, false, "static", true, "MarketTerminal", 8698, 6 },
-    { "medieval.door.double.hinged.metal", "medieval door double hinged metal", "Uncategorized", "assets/prefabs/misc/medieval door skin/medieval.door.double.hinged.metal.prefab", 2035885868U, true, true, false, false, false, false, false, false, "static", true, "Door", 8704, 7 },
-    { "medieval.door.hinged.metal", "medieval door hinged metal", "Uncategorized", "assets/prefabs/misc/medieval door skin/medieval.door.hinged.metal.prefab", 1019562202U, true, true, false, false, false, false, false, false, "static", true, "Door", 8711, 7 },
-    { "frontiermirror.large", "frontiermirror large", "Uncategorized", "assets/prefabs/misc/mirror/frontiermirror.large.prefab", 2749812535U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8718, 5 },
-    { "frontiermirror.medium", "frontiermirror medium", "Uncategorized", "assets/prefabs/misc/mirror/frontiermirror.medium.prefab", 3598691256U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8723, 5 },
-    { "frontiermirror.small", "frontiermirror small", "Uncategorized", "assets/prefabs/misc/mirror/frontiermirror.small.prefab", 912233462U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8728, 5 },
-    { "frontiermirror.standing", "frontiermirror standing", "Uncategorized", "assets/prefabs/misc/mirror/frontiermirror.standing.prefab", 3834610001U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8733, 5 },
-    { "goldmirror.large", "goldmirror large", "Uncategorized", "assets/prefabs/misc/mirror/goldmirror.large.prefab", 740693447U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8738, 5 },
-    { "goldmirror.medium", "goldmirror medium", "Uncategorized", "assets/prefabs/misc/mirror/goldmirror.medium.prefab", 3939513589U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8743, 5 },
-    { "goldmirror.small", "goldmirror small", "Uncategorized", "assets/prefabs/misc/mirror/goldmirror.small.prefab", 2281266470U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8748, 5 },
-    { "goldmirror.standing", "goldmirror standing", "Uncategorized", "assets/prefabs/misc/mirror/goldmirror.standing.prefab", 4167032160U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8753, 5 },
-    { "lightupmirror.large", "lightupmirror large", "Uncategorized", "assets/prefabs/misc/mirror/lightupmirror.large.prefab", 2236356683U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8758, 5 },
-    { "lightupmirror.medium", "lightupmirror medium", "Uncategorized", "assets/prefabs/misc/mirror/lightupmirror.medium.prefab", 1086370258U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8763, 5 },
-    { "lightupmirror.small", "lightupmirror small", "Uncategorized", "assets/prefabs/misc/mirror/lightupmirror.small.prefab", 1114298286U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8768, 5 },
-    { "lightupmirror.standing", "lightupmirror standing", "Uncategorized", "assets/prefabs/misc/mirror/lightupmirror.standing.prefab", 1845154321U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8773, 5 },
-    { "scrapmirror.large", "scrapmirror large", "Uncategorized", "assets/prefabs/misc/mirror/scrapmirror.large.prefab", 3960181825U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8778, 5 },
-    { "scrapmirror.medium", "scrapmirror medium", "Uncategorized", "assets/prefabs/misc/mirror/scrapmirror.medium.prefab", 437352593U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8783, 5 },
-    { "scrapmirror.small", "scrapmirror small", "Uncategorized", "assets/prefabs/misc/mirror/scrapmirror.small.prefab", 4086373203U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8788, 5 },
-    { "scrapmirror.standing", "scrapmirror standing", "Uncategorized", "assets/prefabs/misc/mirror/scrapmirror.standing.prefab", 1355163738U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8793, 5 },
-    { "woodmirror.large", "woodmirror large", "Uncategorized", "assets/prefabs/misc/mirror/woodmirror.large.prefab", 3482661483U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8798, 5 },
-    { "woodmirror.medium", "woodmirror medium", "Uncategorized", "assets/prefabs/misc/mirror/woodmirror.medium.prefab", 2816380117U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8803, 5 },
-    { "woodmirror.small", "woodmirror small", "Uncategorized", "assets/prefabs/misc/mirror/woodmirror.small.prefab", 1417110052U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8808, 5 },
-    { "woodmirror.standing", "woodmirror standing", "Uncategorized", "assets/prefabs/misc/mirror/woodmirror.standing.prefab", 897377265U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8813, 5 },
-    { "oil_rig_radiation", "oil rig radiation", "Uncategorized", "assets/prefabs/misc/monument/radiation/oil_rig_radiation.prefab", 2899507223U, true, true, false, false, false, false, false, false, "static", true, "RadiationSphere", 8818, 3 },
-    { "orebonus_generic", "orebonus generic", "Uncategorized", "assets/prefabs/misc/orebonus/orebonus_generic.prefab", 1618627814U, true, true, false, false, false, false, false, false, "static", true, "OreHotSpot", 8821, 4 },
-    { "orebonus_wood", "orebonus wood", "Uncategorized", "assets/prefabs/misc/orebonus/orebonus_wood.prefab", 658131457U, true, true, false, false, false, false, false, false, "static", true, "OreHotSpot", 8825, 4 },
-    { "parachute", "parachute", "Uncategorized", "assets/prefabs/misc/parachute/parachute.prefab", 1268659691U, true, true, false, true, false, true, false, false, "dynamic", false, "Parachute", 8829, 6 },
-    { "parachuteunpacked", "parachuteunpacked", "Uncategorized", "assets/prefabs/misc/parachute/parachuteunpacked.prefab", 2000744684U, true, true, false, true, false, true, false, false, "dynamic", false, "ParachuteUnpacked", 8835, 5 },
-    { "door.hinged.industrial.d", "door hinged industrial d", "Uncategorized", "assets/prefabs/misc/permstore/factorydoor/door.hinged.industrial.d.prefab", 1001564208U, true, true, false, false, false, false, false, false, "static", true, "Door", 8840, 7 },
-    { "industrial.wall.lamp.blue.deployed", "industrial wall lamp blue deployed", "Uncategorized", "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.blue.deployed.prefab", 1820531533U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 8847, 6 },
-    { "industrial.wall.lamp.deployed", "industrial wall lamp deployed", "Uncategorized", "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.deployed.prefab", 1908182065U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 8853, 6 },
-    { "industrial.wall.lamp.green.deployed", "industrial wall lamp green deployed", "Uncategorized", "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.green.deployed.prefab", 3341019015U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 8859, 6 },
-    { "industrial.wall.lamp.red.deployed", "industrial wall lamp red deployed", "Uncategorized", "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab", 3293089444U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 8865, 6 },
-    { "pinata.deployed", "pinata deployed", "Uncategorized", "assets/prefabs/misc/pinata/pinata.deployed.prefab", 1348634331U, true, true, false, false, false, false, false, false, "static", true, "Pinata", 8871, 4 },
-    { "platform.entity", "platform entity", "Uncategorized", "assets/prefabs/misc/platform/platform.entity.prefab", 2101896921U, true, true, false, false, false, false, false, false, "static", true, "PlatformEntity", 8875, 3 },
-    { "platform.exclusion.entity", "platform exclusion entity", "Uncategorized", "assets/prefabs/misc/platform/platform.exclusion.entity.prefab", 2065397772U, true, true, false, false, false, false, false, false, "static", true, "PlatformEntity", 8878, 3 },
-    { "platform.force.entity", "platform force entity", "Uncategorized", "assets/prefabs/misc/platform/platform.force.entity.prefab", 1224573690U, true, true, false, false, false, false, false, false, "static", true, "PlatformEntity", 8881, 3 },
-    { "staticrespawnzonecompound_vanilla", "staticrespawnzonecompound vanilla", "Uncategorized", "assets/prefabs/misc/playerspawn/staticrespawnzonecompound_vanilla.prefab", 948487089U, true, true, false, false, false, false, false, false, "static", true, "StaticRespawnArea", 8884, 6 },
-    { "planter.small.respawning.static", "planter small respawning static", "Uncategorized", "assets/prefabs/misc/respawningplanters/planter.small.respawning.static.prefab", 4258681299U, true, true, false, false, false, false, false, false, "static", true, "PlanterBoxStatic", 8890, 7 },
-    { "simplelootbox", "simplelootbox", "Uncategorized", "assets/prefabs/misc/simplelootbox.prefab", 2187258018U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 8897, 6 },
-    { "abovegroundpool.deployed", "abovegroundpool deployed", "Uncategorized", "assets/prefabs/misc/summer_dlc/abovegroundpool/abovegroundpool.deployed.prefab", 2030353082U, true, true, false, false, false, false, false, false, "static", true, "PaddlingPool", 8903, 8 },
-    { "beachchair.deployed", "beachchair deployed", "Uncategorized", "assets/prefabs/misc/summer_dlc/beach_chair/beachchair.deployed.prefab", 3552983236U, true, true, false, false, false, false, false, false, "static", true, "BaseChair", 8911, 5 },
-    { "beachparasol.deployed", "beachparasol deployed", "Uncategorized", "assets/prefabs/misc/summer_dlc/beach_chair/beachparasol.deployed.prefab", 1573548060U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 8916, 5 },
-    { "beachtable.deployed", "beachtable deployed", "Uncategorized", "assets/prefabs/misc/summer_dlc/beach_chair/beachtable.deployed.prefab", 4146728277U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 8921, 5 },
-    { "beachtowel.deployed.corpse", "beachtowel deployed corpse", "Uncategorized", "assets/prefabs/misc/summer_dlc/beach_towel/beachtowel.deployed.corpse.prefab", 2298267336U, true, true, false, false, false, false, false, false, "static", true, "SleepingBag", 8926, 5 },
-    { "beachtowel.deployed", "beachtowel deployed", "Uncategorized", "assets/prefabs/misc/summer_dlc/beach_towel/beachtowel.deployed.prefab", 3003382652U, true, true, false, false, false, false, false, false, "static", true, "SleepingBag", 8931, 5 },
-    { "boogieboard.deployed", "boogieboard deployed", "Uncategorized", "assets/prefabs/misc/summer_dlc/boogie_board/boogieboard.deployed.prefab", 4218596772U, true, true, false, true, false, true, false, false, "dynamic", false, "WaterInflatable", 8936, 5 },
-    { "innertube.deployed", "innertube deployed", "Uncategorized", "assets/prefabs/misc/summer_dlc/inner_tube/innertube.deployed.prefab", 1252195950U, true, true, false, true, false, true, false, false, "dynamic", false, "WaterInflatable", 8941, 5 },
-    { "innertube.horse.deployed", "innertube horse deployed", "Uncategorized", "assets/prefabs/misc/summer_dlc/inner_tube/skins/innertube.horse.deployed.prefab", 1864659065U, true, true, false, true, false, true, false, false, "dynamic", false, "WaterInflatable", 8946, 5 },
-    { "innertube.unicorn.deployed", "innertube unicorn deployed", "Uncategorized", "assets/prefabs/misc/summer_dlc/inner_tube/skins/innertube.unicorn.deployed.prefab", 2349300716U, true, true, false, true, false, true, false, false, "dynamic", false, "WaterInflatable", 8951, 5 },
-    { "instant_camera.entity", "Instant Camera", "Uncategorized", "assets/prefabs/misc/summer_dlc/instantcamera/instant_camera.entity.prefab", 509717370U, true, true, false, false, false, false, false, false, "static", true, "InstantCameraTool", 8956, 4 },
-    { "paddlingpool.deployed", "paddlingpool deployed", "Uncategorized", "assets/prefabs/misc/summer_dlc/paddling_pool/paddlingpool.deployed.prefab", 1462241537U, true, true, false, false, false, false, false, false, "static", true, "PaddlingPool", 8960, 8 },
-    { "photo.entity", "photo entity", "Uncategorized", "assets/prefabs/misc/summer_dlc/photo/photo.entity.prefab", 34183897U, true, true, false, false, false, false, false, false, "static", true, "PhotoEntity", 8968, 4 },
-    { "photoframe.landscape", "photoframe landscape", "Uncategorized", "assets/prefabs/misc/summer_dlc/photoframe/photoframe.landscape.prefab", 329573570U, true, true, false, false, false, false, false, false, "static", true, "PhotoFrame", 8972, 6 },
-    { "photoframe.large", "photoframe large", "Uncategorized", "assets/prefabs/misc/summer_dlc/photoframe/photoframe.large.prefab", 3931119293U, true, true, false, false, false, false, false, false, "static", true, "PhotoFrame", 8978, 6 },
-    { "photoframe.portrait", "photoframe portrait", "Uncategorized", "assets/prefabs/misc/summer_dlc/photoframe/photoframe.portrait.prefab", 1814168131U, true, true, false, false, false, false, false, false, "static", true, "PhotoFrame", 8984, 6 },
-    { "watergun.entity", "Water Gun", "Uncategorized", "assets/prefabs/misc/summer_dlc/watergun/watergun.entity.prefab", 37937194U, true, true, false, false, false, false, false, false, "static", true, "LiquidWeapon", 8990, 6 },
-    { "waterpistol.entity", "Water Pistol", "Uncategorized", "assets/prefabs/misc/summer_dlc/waterpistol/waterpistol.entity.prefab", 1502994528U, true, true, false, false, false, false, false, false, "static", true, "LiquidWeapon", 8996, 6 },
-    { "supply_drop", "supply drop", "Uncategorized", "assets/prefabs/misc/supply drop/supply_drop.prefab", 3632568684U, true, true, false, true, false, true, false, false, "dynamic", false, "SupplyDrop", 9002, 7 },
-    { "trophy.deployed", "trophy deployed", "Uncategorized", "assets/prefabs/misc/trophy/trophy.deployed.prefab", 3271649842U, true, true, false, false, false, false, false, false, "static", true, "TwitchTrophy", 9009, 4 },
-    { "trophy_2023.deployed", "trophy 2023 deployed", "Uncategorized", "assets/prefabs/misc/trophy_2023/trophy_2023.deployed.prefab", 2946164983U, true, true, false, false, false, false, false, false, "static", true, "TwitchTrophy", 9013, 4 },
-    { "tunnel_dwelling_a", "tunnel dwelling a", "Uncategorized", "assets/prefabs/misc/tunneldwelling/tunnel_dwelling_a.prefab", 1864849250U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9017, 3 },
-    { "tunnel_dwelling_b", "tunnel dwelling b", "Uncategorized", "assets/prefabs/misc/tunneldwelling/tunnel_dwelling_b.prefab", 914018621U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9020, 3 },
-    { "tunnel_dwelling_c", "tunnel dwelling c", "Uncategorized", "assets/prefabs/misc/tunneldwelling/tunnel_dwelling_c.prefab", 2692544615U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9023, 3 },
-    { "tunnel_dwelling_d", "tunnel dwelling d", "Uncategorized", "assets/prefabs/misc/tunneldwelling/tunnel_dwelling_d.prefab", 4148006895U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9026, 3 },
-    { "tunnel_dwelling_e", "tunnel dwelling e", "Uncategorized", "assets/prefabs/misc/tunneldwelling/tunnel_dwelling_e.prefab", 1913161776U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9029, 3 },
-    { "tunnel_dwelling_f", "tunnel dwelling f", "Uncategorized", "assets/prefabs/misc/tunneldwelling/tunnel_dwelling_f.prefab", 1784918280U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9032, 3 },
-    { "tunnel_dwelling_g", "tunnel dwelling g", "Uncategorized", "assets/prefabs/misc/tunneldwelling/tunnel_dwelling_g.prefab", 2926207843U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9035, 3 },
-    { "tunnel_dwelling_h", "tunnel dwelling h", "Uncategorized", "assets/prefabs/misc/tunneldwelling/tunnel_dwelling_h.prefab", 563461422U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9038, 3 },
-    { "tunnellootstrip_a", "tunnellootstrip a", "Uncategorized", "assets/prefabs/misc/tunneldwelling/tunnellootstrip_a.prefab", 1970684768U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9041, 3 },
-    { "hexagongrid.entity", "hexagongrid entity", "Uncategorized", "assets/prefabs/misc/twitch/hex-a-gone/hexagongrid.entity.prefab", 2384030014U, true, true, false, false, false, false, false, false, "static", true, "HexagonGridGenerator", 9044, 3 },
-    { "hexagontile_blue.entity", "hexagontile blue entity", "Uncategorized", "assets/prefabs/misc/twitch/hex-a-gone/hexagontile_blue.entity.prefab", 608676425U, true, true, false, true, true, false, false, false, "static", true, "HexagonTile", 9047, 4 },
-    { "hexagontile_green.entity", "hexagontile green entity", "Uncategorized", "assets/prefabs/misc/twitch/hex-a-gone/hexagontile_green.entity.prefab", 1104684023U, true, true, false, true, true, false, false, false, "static", true, "HexagonTile", 9051, 4 },
-    { "hexagontile_purple.entity", "hexagontile purple entity", "Uncategorized", "assets/prefabs/misc/twitch/hex-a-gone/hexagontile_purple.entity.prefab", 3592367408U, true, true, false, true, true, false, false, false, "static", true, "HexagonTile", 9055, 4 },
-    { "hexagontile_red.entity", "hexagontile red entity", "Uncategorized", "assets/prefabs/misc/twitch/hex-a-gone/hexagontile_red.entity.prefab", 3997402336U, true, true, false, true, true, false, false, false, "static", true, "HexagonTile", 9059, 4 },
-    { "hexagontile_yellow.entity", "hexagontile yellow entity", "Uncategorized", "assets/prefabs/misc/twitch/hex-a-gone/hexagontile_yellow.entity.prefab", 2266932968U, true, true, false, true, true, false, false, false, "static", true, "HexagonTile", 9063, 4 },
-    { "hobobarrel.deployed", "hobobarrel deployed", "Uncategorized", "assets/prefabs/misc/twitch/hobobarrel/hobobarrel.deployed.prefab", 1748062128U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 9067, 6 },
-    { "door.hinged.industrial.a", "door hinged industrial a", "Uncategorized", "assets/prefabs/misc/twitch/industrialdoora/door.hinged.industrial.a.prefab", 358326125U, true, true, false, false, false, false, false, false, "static", true, "Door", 9073, 7 },
-    { "twitchrivals2023_desk.ioent", "twitchrivals2023 desk ioent", "Uncategorized", "assets/prefabs/misc/twitch/twitch_rivals_2023_desk/twitchrivals2023_desk.ioent.prefab", 1957369594U, true, true, false, false, false, false, false, false, "static", true, "ComputerStationIO", 9080, 6 },
-    { "twitchrivals2023_desk", "twitchrivals2023 desk", "Uncategorized", "assets/prefabs/misc/twitch/twitch_rivals_2023_desk/twitchrivals2023_desk.prefab", 379322905U, true, true, false, false, false, false, false, false, "static", true, "ComputerStation", 9086, 5 },
-    { "underwaterlab_dwelling_300_corner_a", "underwaterlab dwelling 300 corner a", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_a.prefab", 573313214U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9091, 3 },
-    { "underwaterlab_dwelling_300_corner_b", "underwaterlab dwelling 300 corner b", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_b.prefab", 452830878U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9094, 3 },
-    { "underwaterlab_dwelling_300_corner_c", "underwaterlab dwelling 300 corner c", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_c.prefab", 2543356238U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9097, 3 },
-    { "underwaterlab_dwelling_300_corner_d", "underwaterlab dwelling 300 corner d", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_d.prefab", 717651109U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9100, 3 },
-    { "underwaterlab_dwelling_300_corner_deep_a", "underwaterlab dwelling 300 corner deep a", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_a.prefab", 3730625512U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9103, 3 },
-    { "underwaterlab_dwelling_300_corner_deep_b", "underwaterlab dwelling 300 corner deep b", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_b.prefab", 1472035765U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9106, 3 },
-    { "underwaterlab_dwelling_300_corner_deep_c", "underwaterlab dwelling 300 corner deep c", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_c.prefab", 297366751U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9109, 3 },
-    { "underwaterlab_dwelling_300_corner_deep_d", "underwaterlab dwelling 300 corner deep d", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_d.prefab", 2884932104U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9112, 3 },
-    { "underwaterlab_dwelling_300_corner_deep_e", "underwaterlab dwelling 300 corner deep e", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_e.prefab", 2882057292U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9115, 3 },
-    { "underwaterlab_dwelling_300_corner_deep_f", "underwaterlab dwelling 300 corner deep f", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_f.prefab", 1728416769U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9118, 3 },
-    { "underwaterlab_dwelling_300_corner_deep_g", "underwaterlab dwelling 300 corner deep g", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_g.prefab", 1196858687U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9121, 3 },
-    { "underwaterlab_dwelling_300_corner_deep_h", "underwaterlab dwelling 300 corner deep h", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_h.prefab", 1542155264U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9124, 3 },
-    { "underwaterlab_dwelling_300_corner_deep_i", "underwaterlab dwelling 300 corner deep i", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_i.prefab", 3832425675U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9127, 3 },
-    { "underwaterlab_dwelling_300_corner_deep_j", "underwaterlab dwelling 300 corner deep j", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_j.prefab", 3522859745U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9130, 3 },
-    { "underwaterlab_dwelling_300_corner_deep_k", "underwaterlab dwelling 300 corner deep k", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_k.prefab", 2703730801U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9133, 3 },
-    { "underwaterlab_dwelling_300_corner_deep_l", "underwaterlab dwelling 300 corner deep l", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_l.prefab", 4202988174U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9136, 3 },
-    { "underwaterlab_dwelling_300_corner_e", "underwaterlab dwelling 300 corner e", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_e.prefab", 3778415973U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9139, 3 },
-    { "underwaterlab_dwelling_300_corner_f", "underwaterlab dwelling 300 corner f", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_f.prefab", 2328541952U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9142, 3 },
-    { "underwaterlab_dwelling_300_corner_g", "underwaterlab dwelling 300 corner g", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_g.prefab", 2527925506U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9145, 3 },
-    { "underwaterlab_dwelling_300_corner_h", "underwaterlab dwelling 300 corner h", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_h.prefab", 366436161U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9148, 3 },
-    { "underwaterlab_dwelling_300_corner_i", "underwaterlab dwelling 300 corner i", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_i.prefab", 3139283041U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9151, 3 },
-    { "underwaterlab_dwelling_300_corner_j", "underwaterlab dwelling 300 corner j", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_j.prefab", 2127434160U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9154, 3 },
-    { "underwaterlab_dwelling_300_corner_k", "underwaterlab dwelling 300 corner k", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_k.prefab", 3112614812U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9157, 3 },
-    { "underwaterlab_dwelling_300_corner_l", "underwaterlab dwelling 300 corner l", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_l.prefab", 2087494236U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9160, 3 },
-    { "underwaterlab_dwelling_300_corridor_a", "underwaterlab dwelling 300 corridor a", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corridor_a.prefab", 2231268580U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9163, 3 },
-    { "underwaterlab_dwelling_300_corridor_b", "underwaterlab dwelling 300 corridor b", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corridor_b.prefab", 1214133601U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9166, 3 },
-    { "underwaterlab_dwelling_300_edge_a", "underwaterlab dwelling 300 edge a", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_a.prefab", 3218090200U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9169, 3 },
-    { "underwaterlab_dwelling_300_edge_b", "underwaterlab dwelling 300 edge b", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_b.prefab", 2099089818U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9172, 3 },
-    { "underwaterlab_dwelling_300_edge_c", "underwaterlab dwelling 300 edge c", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_c.prefab", 4210133804U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9175, 3 },
-    { "underwaterlab_dwelling_300_edge_d", "underwaterlab dwelling 300 edge d", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_d.prefab", 4020445937U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9178, 3 },
-    { "underwaterlab_dwelling_300_edge_deep_a", "underwaterlab dwelling 300 edge deep a", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_deep_a.prefab", 922430532U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9181, 3 },
-    { "underwaterlab_dwelling_300_edge_deep_b", "underwaterlab dwelling 300 edge deep b", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_deep_b.prefab", 3773945132U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9184, 3 },
-    { "underwaterlab_dwelling_300_edge_deep_c", "underwaterlab dwelling 300 edge deep c", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_deep_c.prefab", 752935314U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9187, 3 },
-    { "underwaterlab_dwelling_300_edge_deep_d", "underwaterlab dwelling 300 edge deep d", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_deep_d.prefab", 2553093706U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9190, 3 },
-    { "underwaterlab_dwelling_300_edge_deep_e", "underwaterlab dwelling 300 edge deep e", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_deep_e.prefab", 3401722117U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9193, 3 },
-    { "underwaterlab_dwelling_300_edge_deep_f", "underwaterlab dwelling 300 edge deep f", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_deep_f.prefab", 1246106772U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9196, 3 },
-    { "underwaterlab_dwelling_300_edge_deep_g", "underwaterlab dwelling 300 edge deep g", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_deep_g.prefab", 2596791892U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9199, 3 },
-    { "underwaterlab_dwelling_300_edge_e", "underwaterlab dwelling 300 edge e", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_e.prefab", 2836373108U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9202, 3 },
-    { "underwaterlab_dwelling_300_edge_f", "underwaterlab dwelling 300 edge f", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_f.prefab", 2492794546U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9205, 3 },
-    { "underwaterlab_dwelling_300_edge_g", "underwaterlab dwelling 300 edge g", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_g.prefab", 4169028500U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9208, 3 },
-    { "underwaterlab_dwelling_600_corner_a", "underwaterlab dwelling 600 corner a", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corner_a.prefab", 2253200378U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9211, 3 },
-    { "underwaterlab_dwelling_600_corner_b", "underwaterlab dwelling 600 corner b", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corner_b.prefab", 1122132299U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9214, 3 },
-    { "underwaterlab_dwelling_600_corner_c", "underwaterlab dwelling 600 corner c", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corner_c.prefab", 2528473143U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9217, 3 },
-    { "underwaterlab_dwelling_600_corner_d", "underwaterlab dwelling 600 corner d", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corner_d.prefab", 369594738U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9220, 3 },
-    { "underwaterlab_dwelling_600_corner_e", "underwaterlab dwelling 600 corner e", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corner_e.prefab", 3006311855U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9223, 3 },
-    { "underwaterlab_dwelling_600_corner_f", "underwaterlab dwelling 600 corner f", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corner_f.prefab", 2933815190U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9226, 3 },
-    { "underwaterlab_dwelling_600_corridor_a", "underwaterlab dwelling 600 corridor a", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corridor_a.prefab", 355870851U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9229, 3 },
-    { "underwaterlab_dwelling_600_corridor_b", "underwaterlab dwelling 600 corridor b", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corridor_b.prefab", 642230139U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9232, 3 },
-    { "underwaterlab_dwelling_600_corridor_double_a", "underwaterlab dwelling 600 corridor double a", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corridor_double_a.prefab", 4099081267U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9235, 3 },
-    { "underwaterlab_dwelling_600_corridor_double_b", "underwaterlab dwelling 600 corridor double b", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corridor_double_b.prefab", 3231940198U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9238, 3 },
-    { "underwaterlab_dwelling_600_corridor_double_c", "underwaterlab dwelling 600 corridor double c", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corridor_double_c.prefab", 1946304174U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9241, 3 },
-    { "underwaterlab_dwelling_600_corridor_double_d", "underwaterlab dwelling 600 corridor double d", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corridor_double_d.prefab", 4043584837U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9244, 3 },
-    { "underwaterlab_dwelling_600_edge_a", "underwaterlab dwelling 600 edge a", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_edge_a.prefab", 1004620429U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9247, 3 },
-    { "underwaterlab_dwelling_600_edge_b", "underwaterlab dwelling 600 edge b", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_edge_b.prefab", 1744489200U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9250, 3 },
-    { "waypointrace", "waypointrace", "Uncategorized", "assets/prefabs/misc/waypointrace/waypointrace.prefab", 1109924250U, true, true, false, false, false, false, false, false, "static", true, "WaypointRace", 9253, 3 },
-    { "advendcalendar.deployed", "advendcalendar deployed", "Uncategorized", "assets/prefabs/misc/xmas/advent_calendar/advendcalendar.deployed.prefab", 3858313461U, true, true, false, false, false, false, false, false, "static", true, "AdventCalendar", 9256, 4 },
-    { "candy_cane.entity", "Candy Cane Club", "Uncategorized", "assets/prefabs/misc/xmas/candy cane club/candy_cane.entity.prefab", 3331777431U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 9260, 5 },
-    { "xmas.lightstring.deployed", "xmas lightstring deployed", "Uncategorized", "assets/prefabs/misc/xmas/christmas_lights/xmas.lightstring.deployed.prefab", 3484744962U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 9265, 3 },
-    { "doorgarland.deployed", "doorgarland deployed", "Uncategorized", "assets/prefabs/misc/xmas/doorgarland/doorgarland.deployed.prefab", 1747236253U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 9268, 6 },
-    { "double_doorgarland.deployed", "double doorgarland deployed", "Uncategorized", "assets/prefabs/misc/xmas/double_doorgarland/double_doorgarland.deployed.prefab", 2234313662U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 9274, 6 },
-    { "giantcandycane.deployed", "giantcandycane deployed", "Uncategorized", "assets/prefabs/misc/xmas/giant_candy_cane/giantcandycane.deployed.prefab", 591428215U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 9280, 5 },
-    { "giftbox_loot", "giftbox loot", "Uncategorized", "assets/prefabs/misc/xmas/giftbox/giftbox_loot.prefab", 2216891097U, true, true, false, false, false, false, false, false, "static", true, "LootContainer", 9285, 6 },
-    { "icewall", "icewall", "Uncategorized", "assets/prefabs/misc/xmas/icewalls/icewall.prefab", 797759041U, true, true, false, false, false, false, false, false, "static", true, "IceFence", 9291, 8 },
-    { "wall.external.high.ice", "wall external high ice", "Uncategorized", "assets/prefabs/misc/xmas/icewalls/wall.external.high.ice.prefab", 921229511U, true, true, false, false, false, false, false, false, "static", true, "IceFence", 9299, 8 },
-    { "giantlollipops.deployed", "giantlollipops deployed", "Uncategorized", "assets/prefabs/misc/xmas/lollipop_bundle/giantlollipops.deployed.prefab", 2711960434U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 9307, 5 },
-    { "sign.neon.125x125", "sign neon 125x125", "Uncategorized", "assets/prefabs/misc/xmas/neon_sign/sign.neon.125x125.prefab", 3919686896U, true, true, false, false, false, false, false, false, "static", true, "NeonSign", 9312, 7 },
-    { "sign.neon.125x215.animated", "sign neon 125x215 animated", "Uncategorized", "assets/prefabs/misc/xmas/neon_sign/sign.neon.125x215.animated.prefab", 3591916872U, true, true, false, false, false, false, false, false, "static", true, "NeonSign", 9319, 7 },
-    { "sign.neon.125x215", "sign neon 125x215", "Uncategorized", "assets/prefabs/misc/xmas/neon_sign/sign.neon.125x215.prefab", 2628005754U, true, true, false, false, false, false, false, false, "static", true, "NeonSign", 9326, 7 },
-    { "sign.neon.xl.animated", "sign neon xl animated", "Uncategorized", "assets/prefabs/misc/xmas/neon_sign/sign.neon.xl.animated.prefab", 708840119U, true, true, false, false, false, false, false, false, "static", true, "NeonSign", 9333, 7 },
-    { "sign.neon.xl", "sign neon xl", "Uncategorized", "assets/prefabs/misc/xmas/neon_sign/sign.neon.xl.prefab", 3168507223U, true, true, false, false, false, false, false, false, "static", true, "NeonSign", 9340, 7 },
-    { "pookie_deployed", "pookie deployed", "Uncategorized", "assets/prefabs/misc/xmas/pookie/pookie_deployed.prefab", 1447082346U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 9347, 3 },
-    { "xmas.advanced.lights.deployed", "xmas advanced lights deployed", "Uncategorized", "assets/prefabs/misc/xmas/poweredlights/xmas.advanced.lights.deployed.prefab", 132493746U, true, true, false, false, false, false, false, false, "static", true, "ChristmasLights", 9350, 7 },
-    { "sled.deployed.xmas", "sled deployed xmas", "Uncategorized", "assets/prefabs/misc/xmas/sled/skins/sled.deployed.xmas.prefab", 3689934812U, true, true, false, true, false, true, false, false, "dynamic", false, "Sled", 9357, 6 },
-    { "sled.deployed", "sled deployed", "Uncategorized", "assets/prefabs/misc/xmas/sled/sled.deployed.prefab", 4063253222U, true, true, false, true, false, true, false, false, "dynamic", false, "Sled", 9363, 6 },
-    { "presentdrop", "presentdrop", "Uncategorized", "assets/prefabs/misc/xmas/sleigh/presentdrop.prefab", 1473303316U, true, true, false, true, false, true, false, false, "dynamic", false, "SupplyDrop", 9369, 7 },
-    { "santasleigh", "santasleigh", "Uncategorized", "assets/prefabs/misc/xmas/sleigh/santasleigh.prefab", 247291312U, true, true, false, false, false, false, false, false, "static", true, "SantaSleigh", 9376, 3 },
-    { "snowmachine", "snowmachine", "Uncategorized", "assets/prefabs/misc/xmas/snow_machine/models/snowmachine.prefab", 2117501564U, true, true, false, false, false, false, false, false, "static", true, "SnowMachine", 9379, 8 },
-    { "snowball.entity", "Snowball", "Uncategorized", "assets/prefabs/misc/xmas/snowball/snowball.entity.prefab", 591451995U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 9387, 5 },
-    { "snowballgun.entity", "Snowball Gun", "Uncategorized", "assets/prefabs/misc/xmas/snowballgun/snowballgun.entity.prefab", 3228215527U, true, true, false, false, false, false, false, false, "dynamic", false, "SnowballGun", 9392, 6 },
-    { "snowman.deployed", "snowman deployed", "Uncategorized", "assets/prefabs/misc/xmas/snowman/snowman.deployed.prefab", 1103550732U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 9398, 5 },
-    { "stocking_large_deployed", "stocking large deployed", "Uncategorized", "assets/prefabs/misc/xmas/stockings/stocking_large_deployed.prefab", 771996658U, true, true, false, false, false, false, false, false, "static", true, "Stocking", 9403, 7 },
-    { "stocking_small_deployed", "stocking small deployed", "Uncategorized", "assets/prefabs/misc/xmas/stockings/stocking_small_deployed.prefab", 3141927338U, true, true, false, false, false, false, false, false, "static", true, "Stocking", 9410, 7 },
-    { "windowgarland.deployed", "windowgarland deployed", "Uncategorized", "assets/prefabs/misc/xmas/windowgarland/windowgarland.deployed.prefab", 1321691542U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 9417, 6 },
-    { "christmas_door_wreath_deployed", "christmas door wreath deployed", "Uncategorized", "assets/prefabs/misc/xmas/wreath/christmas_door_wreath_deployed.prefab", 2207899193U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 9423, 3 },
-    { "xmasdwelling_a", "xmasdwelling a", "Uncategorized", "assets/prefabs/misc/xmas/xmasdwellings/xmasdwelling_a.prefab", 2989328402U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9426, 3 },
-    { "xmasdwelling_b", "xmasdwelling b", "Uncategorized", "assets/prefabs/misc/xmas/xmasdwellings/xmasdwelling_b.prefab", 4279789862U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9429, 3 },
-    { "xmasdwelling_c", "xmasdwelling c", "Uncategorized", "assets/prefabs/misc/xmas/xmasdwellings/xmasdwelling_c.prefab", 3226822244U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9432, 3 },
-    { "xmasdwelling_d", "xmasdwelling d", "Uncategorized", "assets/prefabs/misc/xmas/xmasdwellings/xmasdwelling_d.prefab", 3872949008U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9435, 3 },
-    { "xmasrefill", "xmasrefill", "Uncategorized", "assets/prefabs/misc/xmas/xmasrefill.prefab", 2750850993U, true, true, false, false, false, false, false, false, "static", true, "XMasRefill", 9438, 3 },
-    { "xmas_tree.deployed", "xmas tree deployed", "Uncategorized", "assets/prefabs/misc/xmas/xmastree/xmas_tree.deployed.prefab", 1181698029U, true, true, false, false, false, false, false, false, "static", true, "ChristmasTree", 9441, 6 },
-    { "xmas_tree_a.deployed", "xmas tree a deployed", "Uncategorized", "assets/prefabs/misc/xmas/xmastree/xmas_tree_a.deployed.prefab", 3520045458U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 9447, 5 },
-    { "deepseatreasuremission_box", "deepseatreasuremission box", "Uncategorized", "assets/prefabs/missions/entities/deepseatreasuremission_box.prefab", 4272375622U, true, true, false, false, false, false, false, false, "static", true, "SingleUseMissionStorageContainer", 9452, 7 },
-    { "dynamicmissionstash", "dynamicmissionstash", "Uncategorized", "assets/prefabs/missions/entities/dynamicmissionstash.prefab", 3416881577U, true, true, false, false, false, false, false, false, "static", true, "WhitelistLootContainer", 9459, 7 },
-    { "genericmissionlootcontainerreusable", "genericmissionlootcontainerreusable", "Uncategorized", "assets/prefabs/missions/entities/genericmissionlootcontainerreusable.prefab", 3294618459U, true, true, false, false, false, false, false, false, "static", true, "StaticMissionItemDispenser", 9466, 6 },
-    { "holdmissionentity", "holdmissionentity", "Uncategorized", "assets/prefabs/missions/entities/holdmissionentity.prefab", 2898645756U, true, true, false, false, false, false, false, false, "static", true, "MissionSlowUseObject", 9472, 3 },
-    { "logstash", "logstash", "Uncategorized", "assets/prefabs/missions/entities/logstash.prefab", 1943082497U, true, true, false, false, false, false, false, false, "static", true, "WhitelistLootContainer", 9475, 7 },
-    { "missionlootbox_basic", "missionlootbox basic", "Uncategorized", "assets/prefabs/missions/entities/missionlootbox_basic.prefab", 3128236346U, true, true, false, false, false, false, false, false, "static", true, "WhitelistLootContainer", 9482, 7 },
-    { "missionstash", "missionstash", "Uncategorized", "assets/prefabs/missions/entities/missionstash.prefab", 3490516309U, true, true, false, false, false, false, false, false, "static", true, "WhitelistLootContainer", 9489, 7 },
-    { "tacklebox", "tacklebox", "Uncategorized", "assets/prefabs/missions/entities/tacklebox.prefab", 1126295133U, true, true, false, false, false, false, false, false, "static", true, "WhitelistLootContainer", 9496, 7 },
-    { "bunker", "bunker", "Uncategorized", "assets/prefabs/missions/portal/bunker.prefab", 2750475248U, true, true, false, false, false, false, false, false, "static", true, "DynamicDungeon", 9503, 3 },
-    { "bunker_corridor_a", "bunker corridor a", "Uncategorized", "assets/prefabs/missions/portal/bunker_corridor_a.prefab", 362606634U, true, true, false, false, false, false, false, false, "static", true, "DynamicDungeon", 9506, 3 },
-    { "bunker_door_portal", "bunker door portal", "Uncategorized", "assets/prefabs/missions/portal/bunker_door_portal.prefab", 2895212062U, true, true, false, false, false, false, false, false, "static", true, "BasePortal", 9509, 4 },
-    { "bunker_entrance", "bunker entrance", "Uncategorized", "assets/prefabs/missions/portal/bunker_entrance.prefab", 3789623955U, true, true, false, false, false, false, false, false, "static", true, "BunkerEntrance", 9513, 3 },
-    { "halloweenportalentry", "halloweenportalentry", "Uncategorized", "assets/prefabs/missions/portal/halloweenportalentry.prefab", 3939551954U, true, true, false, false, false, false, false, false, "static", true, "HalloweenDungeon", 9516, 5 },
-    { "halloweenportalexit", "halloweenportalexit", "Uncategorized", "assets/prefabs/missions/portal/halloweenportalexit.prefab", 1686410832U, true, true, false, false, false, false, false, false, "static", true, "BasePortal", 9521, 4 },
-    { "minedungeon", "minedungeon", "Uncategorized", "assets/prefabs/missions/portal/minedungeon.prefab", 3461158248U, true, true, false, false, false, false, false, false, "static", true, "ProceduralDynamicDungeon", 9525, 3 },
-    { "xmastunnellootbox", "xmastunnellootbox", "Uncategorized", "assets/prefabs/missions/portal/proceduraldungeon/xmastunnels/loot/xmastunnellootbox.prefab", 3343729976U, true, true, false, false, false, false, false, false, "static", true, "LootContainer", 9528, 6 },
-    { "xmasgingerbreaddungeon", "xmasgingerbreaddungeon", "Uncategorized", "assets/prefabs/missions/portal/xmasgingerbreaddungeon.prefab", 2614965312U, true, true, false, false, false, false, false, false, "static", true, "ProceduralDynamicDungeon", 9534, 3 },
-    { "xmasportalentry", "xmasportalentry", "Uncategorized", "assets/prefabs/missions/portal/xmasportalentry.prefab", 2270960267U, true, true, false, false, false, false, false, false, "static", true, "XmasDungeon", 9537, 6 },
-    { "xmasportalexit", "xmasportalexit", "Uncategorized", "assets/prefabs/missions/portal/xmasportalexit.prefab", 2696291976U, true, true, false, false, false, false, false, false, "static", true, "BasePortal", 9543, 4 },
-    { "crate_elite_tutorial", "crate elite tutorial", "Uncategorized", "assets/prefabs/missions/tutorialisland/crate_elite_tutorial.prefab", 3586383791U, true, true, false, false, false, false, false, false, "static", true, "LootContainerAchievement", 9547, 7 },
-    { "crate_tools_tutorial", "crate tools tutorial", "Uncategorized", "assets/prefabs/missions/tutorialisland/crate_tools_tutorial.prefab", 25203603U, true, true, false, false, false, false, false, false, "static", true, "TutorialContainer", 9554, 6 },
-    { "endtutorialcinematic", "endtutorialcinematic", "Uncategorized", "assets/prefabs/missions/tutorialisland/endtutorialcinematic.prefab", 2744328499U, true, true, false, false, false, false, false, false, "static", true, "CinematicScenePlaybackEntity", 9560, 3 },
-    { "loot-barrel-tutorial", "loot barrel tutorial", "Uncategorized", "assets/prefabs/missions/tutorialisland/loot-barrel-tutorial.prefab", 1380255172U, true, true, false, false, false, false, false, false, "static", true, "LootContainer", 9563, 6 },
-    { "tutorialisland", "tutorialisland", "Uncategorized", "assets/prefabs/missions/tutorialisland/tutorialisland.prefab", 3290961355U, true, true, false, true, true, false, false, false, "static", true, "TutorialIsland", 9569, 3 },
-    { "tutorialmapmarker", "tutorialmapmarker", "Uncategorized", "assets/prefabs/missions/tutorialisland/tutorialmapmarker.prefab", 3719689594U, true, true, false, false, false, false, false, false, "static", true, "TutorialIsland_MapMarker", 9572, 4 },
-    { "apartment_security", "apartment security", "Uncategorized", "assets/prefabs/npc/apartment/apartment_security.prefab", 3317159439U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCApartmentSecurity", 9576, 8 },
-    { "apartment_vendor", "apartment vendor", "Uncategorized", "assets/prefabs/npc/apartment/apartment_vendor.prefab", 3396970230U, true, true, false, true, true, false, false, false, "dynamic", false, "ApartmentVendor", 9584, 8 },
-    { "autoturret_deployed", "autoturret deployed", "Uncategorized", "assets/prefabs/npc/autoturret/autoturret_deployed.prefab", 3312510084U, true, true, false, false, false, false, false, false, "static", true, "AutoTurret", 9592, 7 },
-    { "industrial_autoturret_deployed", "industrial autoturret deployed", "Uncategorized", "assets/prefabs/npc/autoturret/skins/industrial_autoturret/industrial_autoturret_deployed.prefab", 2823049573U, true, true, false, false, false, false, false, false, "static", true, "AutoTurret", 9599, 7 },
-    { "airwolfspawner", "airwolfspawner", "Uncategorized", "assets/prefabs/npc/bandit/airwolfspawner.prefab", 3960558419U, true, true, false, false, false, false, false, false, "dynamic", false, "VehicleSpawner", 9606, 3 },
-    { "boatspawner", "boatspawner", "Uncategorized", "assets/prefabs/npc/bandit/boatspawner.prefab", 2609911909U, true, true, false, false, false, false, false, false, "dynamic", false, "VehicleSpawner", 9609, 3 },
-    { "horsespawner", "horsespawner", "Uncategorized", "assets/prefabs/npc/bandit/horsespawner.prefab", 4058311563U, true, true, false, false, false, false, false, false, "dynamic", false, "HorseSpawner", 9612, 4 },
-    { "missionprovider_bandit_a", "missionprovider bandit a", "Uncategorized", "assets/prefabs/npc/bandit/missionproviders/missionprovider_bandit_a.prefab", 372889267U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCSimpleMissionProvider", 9616, 8 },
-    { "missionprovider_bandit_b", "missionprovider bandit b", "Uncategorized", "assets/prefabs/npc/bandit/missionproviders/missionprovider_bandit_b.prefab", 322083179U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCMissionProvider", 9624, 8 },
-    { "missionprovider_fishing_a", "missionprovider fishing a", "Uncategorized", "assets/prefabs/npc/bandit/missionproviders/missionprovider_fishing_a.prefab", 350957926U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCMissionProvider", 9632, 8 },
-    { "missionprovider_fishing_b", "missionprovider fishing b", "Uncategorized", "assets/prefabs/npc/bandit/missionproviders/missionprovider_fishing_b.prefab", 3694999410U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCSimpleMissionProvider", 9640, 8 },
-    { "missionprovider_floatingcity_a", "missionprovider floatingcity a", "Uncategorized", "assets/prefabs/npc/bandit/missionproviders/missionprovider_floatingcity_a.prefab", 2263543605U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCSimpleMissionProvider", 9648, 8 },
-    { "missionprovider_generic_a", "missionprovider generic a", "Uncategorized", "assets/prefabs/npc/bandit/missionproviders/missionprovider_generic_a.prefab", 4018233975U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCSimpleMissionProvider", 9656, 8 },
-    { "missionprovider_outpost_a", "missionprovider outpost a", "Uncategorized", "assets/prefabs/npc/bandit/missionproviders/missionprovider_outpost_a.prefab", 3928572443U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCSimpleMissionProvider", 9664, 8 },
-    { "missionprovider_outpost_b", "missionprovider outpost b", "Uncategorized", "assets/prefabs/npc/bandit/missionproviders/missionprovider_outpost_b.prefab", 1091655158U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCMissionProvider", 9672, 8 },
-    { "missionprovider_stables_a", "missionprovider stables a", "Uncategorized", "assets/prefabs/npc/bandit/missionproviders/missionprovider_stables_a.prefab", 930153435U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCMissionProvider", 9680, 8 },
-    { "missionprovider_stables_b", "missionprovider stables b", "Uncategorized", "assets/prefabs/npc/bandit/missionproviders/missionprovider_stables_b.prefab", 3892089538U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCSimpleMissionProvider", 9688, 8 },
-    { "bandit_conversationalist", "bandit conversationalist", "Uncategorized", "assets/prefabs/npc/bandit/shopkeepers/bandit_conversationalist.prefab", 251735616U, true, true, false, true, true, false, false, false, "dynamic", false, "VehicleVendor", 9696, 8 },
-    { "bandit_shopkeeper", "bandit shopkeeper", "Uncategorized", "assets/prefabs/npc/bandit/shopkeepers/bandit_shopkeeper.prefab", 2404773048U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCShopKeeper", 9704, 6 },
-    { "bandit_shopkeeper_sitting", "bandit shopkeeper sitting", "Uncategorized", "assets/prefabs/npc/bandit/shopkeepers/bandit_shopkeeper_sitting.prefab", 2891949068U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCShopKeeper", 9710, 6 },
-    { "boat_shopkeeper", "boat shopkeeper", "Uncategorized", "assets/prefabs/npc/bandit/shopkeepers/boat_shopkeeper.prefab", 2913617060U, true, true, false, true, true, false, false, false, "dynamic", false, "VehicleVendor", 9716, 8 },
-    { "missionprovider_test", "missionprovider test", "Uncategorized", "assets/prefabs/npc/bandit/shopkeepers/missionprovider_test.prefab", 4115840942U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCMissionProvider", 9724, 8 },
-    { "stables_shopkeeper", "stables shopkeeper", "Uncategorized", "assets/prefabs/npc/bandit/shopkeepers/stables_shopkeeper.prefab", 7488435U, true, true, false, true, true, false, false, false, "dynamic", false, "VehicleVendor", 9732, 8 },
-    { "beemasterswarm", "beemasterswarm", "Uncategorized", "assets/prefabs/npc/beeswarm/beemasterswarm.prefab", 3827650729U, true, true, false, false, false, false, false, false, "static", true, "BeeSwarmMaster", 9740, 4 },
-    { "beeswarm", "beeswarm", "Uncategorized", "assets/prefabs/npc/beeswarm/beeswarm.prefab", 4224371694U, true, true, false, true, true, false, false, false, "static", true, "BeeSwarmAI", 9744, 4 },
-    { "cargo_plane", "cargo plane", "Uncategorized", "assets/prefabs/npc/cargo plane/cargo_plane.prefab", 2383782438U, true, true, false, false, false, false, false, false, "static", true, "CargoPlane", 9748, 3 },
-    { "alarmsytstem", "alarmsytstem", "Uncategorized", "assets/prefabs/npc/ch47/alarmsytstem.prefab", 680397581U, true, true, false, false, false, false, false, false, "static", true, "DummySwitch", 9751, 6 },
-    { "ch47.entity", "ch47 entity", "Uncategorized", "assets/prefabs/npc/ch47/ch47.entity.prefab", 1675349834U, true, true, false, true, false, true, false, false, "dynamic", false, "CH47Helicopter", 9757, 7 },
-    { "ch47scientists.entity", "ch47scientists entity", "Uncategorized", "assets/prefabs/npc/ch47/ch47scientists.entity.prefab", 1514383717U, true, true, false, true, false, true, false, false, "dynamic", false, "CH47HelicopterAIController", 9764, 8 },
-    { "reinforcementslistener", "reinforcementslistener", "Uncategorized", "assets/prefabs/npc/ch47/reinforcementslistener.prefab", 667569163U, true, true, false, false, false, false, false, false, "static", true, "CH47ReinforcementListener", 9772, 3 },
-    { "servergibs_ch47", "servergibs ch47", "Uncategorized", "assets/prefabs/npc/ch47/servergibs_ch47.prefab", 3745320211U, true, true, false, false, false, false, false, false, "dynamic", false, "HelicopterDebris", 9775, 5 },
-    { "flameturret.deployed", "flameturret deployed", "Uncategorized", "assets/prefabs/npc/flame turret/flameturret.deployed.prefab", 4075317686U, true, true, false, false, false, false, false, false, "static", true, "FlameTurret", 9780, 6 },
-    { "flameturret_fireball", "flameturret fireball", "Uncategorized", "assets/prefabs/npc/flame turret/flameturret_fireball.prefab", 2781905939U, true, true, false, true, false, true, false, false, "dynamic", false, "FireBall", 9786, 3 },
-    { "farm_access_guard", "farm access guard", "Uncategorized", "assets/prefabs/npc/floatingcity/farm_access_guard.prefab", 204695781U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCFarmAccess", 9789, 8 },
-    { "gingerbread_corpse_female", "gingerbread corpse female", "Uncategorized", "assets/prefabs/npc/gingerbread/gingerbread_corpse_female.prefab", 3250554959U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCPlayerCorpse", 9797, 7 },
-    { "gingerbread_corpse_male", "gingerbread corpse male", "Uncategorized", "assets/prefabs/npc/gingerbread/gingerbread_corpse_male.prefab", 3865171876U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCPlayerCorpse", 9804, 7 },
-    { "gingerbread_dungeon", "gingerbread dungeon", "Uncategorized", "assets/prefabs/npc/gingerbread/gingerbread_dungeon.prefab", 2992757580U, true, true, false, true, true, false, true, false, "dynamic", false, "GingerbreadNPC", 9811, 7 },
-    { "gingerbread_meleedungeon", "gingerbread meleedungeon", "Uncategorized", "assets/prefabs/npc/gingerbread/gingerbread_meleedungeon.prefab", 1172642608U, true, true, false, true, true, false, true, false, "dynamic", false, "GingerbreadNPC", 9818, 7 },
-    { "bradley_crate", "bradley crate", "Uncategorized", "assets/prefabs/npc/m2bradley/bradley_crate.prefab", 1737870479U, true, true, false, false, false, false, false, false, "static", true, "LockedByEntCrate", 9825, 7 },
-    { "bradleyapc", "bradleyapc", "Uncategorized", "assets/prefabs/npc/m2bradley/bradleyapc.prefab", 1456850188U, true, true, false, true, false, true, false, false, "dynamic", false, "BradleyAPC", 9832, 4 },
-    { "maincannonshell", "maincannonshell", "Uncategorized", "assets/prefabs/npc/m2bradley/maincannonshell.prefab", 3032863244U, true, true, false, false, false, false, false, false, "static", true, "TimedExplosive", 9836, 3 },
-    { "oilfireball2", "oilfireball2", "Uncategorized", "assets/prefabs/npc/m2bradley/oilfireball2.prefab", 3761185980U, true, true, false, true, false, true, false, false, "dynamic", false, "FireBall", 9839, 3 },
-    { "servergibs_bradley", "servergibs bradley", "Uncategorized", "assets/prefabs/npc/m2bradley/servergibs_bradley.prefab", 4214400966U, true, true, false, false, false, false, false, false, "dynamic", false, "HelicopterDebris", 9842, 5 },
-    { "murderer_corpse", "murderer corpse", "Uncategorized", "assets/prefabs/npc/murderer/murderer_corpse.prefab", 2400390439U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCPlayerCorpse", 9847, 7 },
-    { "heli_crate", "heli crate", "Uncategorized", "assets/prefabs/npc/patrol helicopter/heli_crate.prefab", 1314849795U, true, true, false, false, false, false, false, false, "static", true, "LockedByEntCrate", 9854, 7 },
-    { "patrolhelicopter", "patrolhelicopter", "Uncategorized", "assets/prefabs/npc/patrol helicopter/patrolhelicopter.prefab", 3029415845U, true, true, false, true, true, false, false, false, "dynamic", false, "PatrolHelicopter", 9861, 4 },
-    { "patrolhelicopterfleemarker", "patrolhelicopterfleemarker", "Uncategorized", "assets/prefabs/npc/patrol helicopter/patrolhelicopterfleemarker.prefab", 2618904203U, true, true, false, false, false, false, false, false, "dynamic", false, "MapMarkerHelicopterFlee", 9865, 4 },
-    { "patrolhelicoptermarker", "patrolhelicoptermarker", "Uncategorized", "assets/prefabs/npc/patrol helicopter/patrolhelicoptermarker.prefab", 3212876472U, true, true, false, false, false, false, false, false, "static", true, "MapMarkerCH47", 9869, 4 },
-    { "rocket_heli", "rocket heli", "Uncategorized", "assets/prefabs/npc/patrol helicopter/rocket_heli.prefab", 129320027U, true, true, false, false, false, false, false, false, "static", true, "TimedExplosive", 9873, 3 },
-    { "rocket_heli_airburst", "rocket heli airburst", "Uncategorized", "assets/prefabs/npc/patrol helicopter/rocket_heli_airburst.prefab", 3253859536U, true, true, false, false, false, false, false, false, "static", true, "TimedExplosive", 9876, 3 },
-    { "rocket_heli_napalm", "rocket heli napalm", "Uncategorized", "assets/prefabs/npc/patrol helicopter/rocket_heli_napalm.prefab", 200672762U, true, true, false, false, false, false, false, false, "static", true, "FlameExplosive", 9879, 4 },
-    { "servergibs_patrolhelicopter", "servergibs patrolhelicopter", "Uncategorized", "assets/prefabs/npc/patrol helicopter/servergibs_patrolhelicopter.prefab", 1829321077U, true, true, false, false, false, false, false, false, "dynamic", false, "HelicopterDebris", 9883, 5 },
-    { "rocket_sam", "rocket sam", "Uncategorized", "assets/prefabs/npc/sam_site_turret/rocket_sam.prefab", 2160908677U, true, true, false, false, false, false, false, false, "static", true, "TimedExplosive", 9888, 3 },
-    { "sam_ammo", "sam ammo", "Uncategorized", "assets/prefabs/npc/sam_site_turret/sam_ammo.prefab", 3414321847U, true, true, false, false, false, false, false, false, "static", true, "TimedExplosive", 9891, 3 },
-    { "sam_site_turret_deployed", "sam site turret deployed", "Uncategorized", "assets/prefabs/npc/sam_site_turret/sam_site_turret_deployed.prefab", 2059775839U, true, true, false, false, false, false, false, false, "static", true, "SamSite", 9894, 7 },
-    { "sam_static", "sam static", "Uncategorized", "assets/prefabs/npc/sam_site_turret/sam_static.prefab", 2934818568U, true, true, false, false, false, false, false, false, "static", true, "SamSite", 9901, 7 },
-    { "scarecrow", "scarecrow", "Uncategorized", "assets/prefabs/npc/scarecrow/scarecrow.prefab", 3473349223U, true, true, false, true, true, false, true, false, "dynamic", false, "ScarecrowNPC", 9908, 6 },
-    { "scarecrow_dungeon", "scarecrow dungeon", "Uncategorized", "assets/prefabs/npc/scarecrow/scarecrow_dungeon.prefab", 3019050354U, true, true, false, true, true, false, true, false, "dynamic", false, "ScarecrowNPC", 9914, 6 },
-    { "scarecrow_dungeonnoroam", "scarecrow dungeonnoroam", "Uncategorized", "assets/prefabs/npc/scarecrow/scarecrow_dungeonnoroam.prefab", 70161046U, true, true, false, true, true, false, true, false, "dynamic", false, "ScarecrowNPC", 9920, 6 },
-    { "scientist_corpse", "scientist corpse", "Uncategorized", "assets/prefabs/npc/scientist/scientist_corpse.prefab", 1236143239U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCPlayerCorpse", 9926, 7 },
-    { "npcvendorturretmodified variant", "npcvendorturretmodified variant", "Uncategorized", "assets/prefabs/npc/travelling vendor/npcvendorturretmodified variant.prefab", 2857401739U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCAutoTurret", 9933, 8 },
-    { "npcvendorturretside", "npcvendorturretside", "Uncategorized", "assets/prefabs/npc/travelling vendor/npcvendorturretside.prefab", 4291749291U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCAutoTurret", 9941, 8 },
-    { "travellingvendor", "travellingvendor", "Uncategorized", "assets/prefabs/npc/travelling vendor/travellingvendor.prefab", 3338740337U, true, true, false, true, false, true, false, false, "dynamic", false, "TravellingVendor", 9949, 3 },
-    { "missionprovider_tutorial", "missionprovider tutorial", "Uncategorized", "assets/prefabs/npc/tutorial/missionprovider_tutorial.prefab", 3344407138U, true, true, false, true, true, false, false, false, "dynamic", false, "TutorialNPC", 9952, 9 },
-    { "waterwell_shopkeeper", "waterwell shopkeeper", "Uncategorized", "assets/prefabs/npc/waterwell/waterwell_shopkeeper.prefab", 1907791058U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCShopKeeper", 9961, 6 },
-    { "physicsentitycube", "physicsentitycube", "Uncategorized", "assets/prefabs/physicstesting/physicsentitycube.prefab", 681646903U, true, true, false, true, false, true, false, false, "dynamic", false, "BaseEntity", 9967, 2 },
-    { "physicsentitycube_maxfriction", "physicsentitycube maxfriction", "Uncategorized", "assets/prefabs/physicstesting/physicsentitycube_maxfriction.prefab", 4224922530U, true, true, false, true, false, true, false, false, "dynamic", false, "BaseEntity", 9969, 2 },
-    { "physicsentitycube_maxfriction_heavy", "physicsentitycube maxfriction heavy", "Uncategorized", "assets/prefabs/physicstesting/physicsentitycube_maxfriction_heavy.prefab", 2366673790U, true, true, false, true, false, true, false, false, "dynamic", false, "BaseEntity", 9971, 2 },
-    { "physicsentitycube_maxfriction_light", "physicsentitycube maxfriction light", "Uncategorized", "assets/prefabs/physicstesting/physicsentitycube_maxfriction_light.prefab", 474343723U, true, true, false, true, false, true, false, false, "dynamic", false, "BaseEntity", 9973, 2 },
-    { "black_berry.entity", "black berry entity", "Uncategorized", "assets/prefabs/plants/berrry/black/black_berry.entity.prefab", 654911969U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 9975, 4 },
-    { "blue_berry.entity", "blue berry entity", "Uncategorized", "assets/prefabs/plants/berrry/blue/blue_berry.entity.prefab", 402225589U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 9979, 4 },
-    { "green_berry.entity", "green berry entity", "Uncategorized", "assets/prefabs/plants/berrry/green/green_berry.entity.prefab", 1267013032U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 9983, 4 },
-    { "red_berry.entity", "red berry entity", "Uncategorized", "assets/prefabs/plants/berrry/red/red_berry.entity.prefab", 3359110450U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 9987, 4 },
-    { "white_berry.entity", "white berry entity", "Uncategorized", "assets/prefabs/plants/berrry/white/white_berry.entity.prefab", 4038822397U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 9991, 4 },
-    { "yellow_berry.entity", "yellow berry entity", "Uncategorized", "assets/prefabs/plants/berrry/yellow/yellow_berry.entity.prefab", 2747504285U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 9995, 4 },
-    { "corn.entity", "corn entity", "Uncategorized", "assets/prefabs/plants/corn/corn.entity.prefab", 112964822U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 9999, 4 },
-    { "hemp.entity", "hemp entity", "Uncategorized", "assets/prefabs/plants/hemp/hemp.entity.prefab", 3587624038U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 10003, 4 },
-    { "orchid.entity", "orchid entity", "Uncategorized", "assets/prefabs/plants/orchid/orchid.entity.prefab", 2529869539U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 10007, 4 },
-    { "potato.entity", "potato entity", "Uncategorized", "assets/prefabs/plants/potato/potato.entity.prefab", 451737085U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 10011, 4 },
-    { "pumpkin.entity", "pumpkin entity", "Uncategorized", "assets/prefabs/plants/pumpkin/pumpkin.entity.prefab", 1524652375U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 10015, 4 },
-    { "rose.entity", "rose entity", "Uncategorized", "assets/prefabs/plants/rose/rose.entity.prefab", 773690139U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 10019, 4 },
-    { "sunflower.entity", "sunflower entity", "Uncategorized", "assets/prefabs/plants/sunflower/sunflower.entity.prefab", 3882604163U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 10023, 4 },
-    { "wheat.entity", "wheat entity", "Uncategorized", "assets/prefabs/plants/wheat/wheat.entity.prefab", 1410137143U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 10027, 4 },
-    { "player", "player", "Uncategorized", "assets/prefabs/player/player.prefab", 4108440852U, true, true, false, true, true, false, false, false, "dynamic", false, "BasePlayer", 10031, 4 },
-    { "player_corpse", "player corpse", "Uncategorized", "assets/prefabs/player/player_corpse.prefab", 2604534927U, true, true, false, false, false, false, false, false, "dynamic", false, "PlayerCorpse", 10035, 6 },
-    { "player_corpse_new", "player corpse new", "Uncategorized", "assets/prefabs/player/player_corpse_new.prefab", 391715894U, true, true, false, true, false, true, false, false, "dynamic", false, "PlayerCorpse", 10041, 6 },
-    { "player_temp_ragdoll", "player temp ragdoll", "Uncategorized", "assets/prefabs/player/player_temp_ragdoll.prefab", 886972632U, true, true, false, true, false, true, false, false, "dynamic", false, "BaseRagdoll", 10047, 5 },
-    { "advancedblueprintfragment_pickup.entity", "advancedblueprintfragment pickup entity", "Uncategorized", "assets/prefabs/resource/blueprint fragment/advancedblueprintfragment_pickup.entity.prefab", 120188964U, true, true, false, false, false, false, false, false, "static", true, "ItemPickup", 10052, 5 },
-    { "basicblueprintfragment_pickup.entity", "basicblueprintfragment pickup entity", "Uncategorized", "assets/prefabs/resource/blueprint fragment/basicblueprintfragment_pickup.entity.prefab", 4011844428U, true, true, false, false, false, false, false, false, "static", true, "ItemPickup", 10057, 5 },
-    { "basicblueprintfragment_singlepickup.entity", "basicblueprintfragment singlepickup entity", "Uncategorized", "assets/prefabs/resource/blueprint fragment/basicblueprintfragment_singlepickup.entity.prefab", 14164597U, true, true, false, false, false, false, false, false, "static", true, "ItemPickup", 10062, 5 },
-    { "diesel_barrel_world", "diesel barrel world", "Uncategorized", "assets/prefabs/resource/diesel barrel/diesel_barrel_world.prefab", 4140706055U, true, true, false, false, false, false, false, false, "static", true, "LootContainer", 10067, 6 },
-    { "horsedung.entity", "horsedung entity", "Uncategorized", "assets/prefabs/resource/horsedung/horsedung.entity.prefab", 2046937803U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 10073, 5 },
-    { "crudeoilproducer", "crudeoilproducer", "Uncategorized", "assets/prefabs/resource/liquidproducer/crudeoilproducer.prefab", 3451647698U, true, true, false, false, false, false, false, false, "static", true, "WaterCatcher", 10078, 8 },
-    { "waterproducer", "waterproducer", "Uncategorized", "assets/prefabs/resource/liquidproducer/waterproducer.prefab", 3154707280U, true, true, false, false, false, false, false, false, "static", true, "WaterCatcher", 10086, 8 },
-    { "waterproducer_invisible", "waterproducer invisible", "Uncategorized", "assets/prefabs/resource/liquidproducer/waterproducer_invisible.prefab", 3813053556U, true, true, false, false, false, false, false, false, "static", true, "WaterCatcher", 10094, 8 },
-    { "beehive.natural", "beehive natural", "Uncategorized", "assets/prefabs/resource/natural beehive/beehive.natural.prefab", 1577933610U, true, true, false, false, false, false, false, false, "static", true, "NaturalBeehive", 10102, 7 },
-    { "satellitecontrolcomputer.entity", "satellitecontrolcomputer entity", "Uncategorized", "assets/prefabs/satellitecrash/controlcomputer/satellitecontrolcomputer.entity.prefab", 1395966456U, true, true, false, false, false, false, false, false, "static", true, "SatelliteControlComputer", 10109, 5 },
-    { "satellitecontrolcomputer.static.entity", "satellitecontrolcomputer static entity", "Uncategorized", "assets/prefabs/satellitecrash/controlcomputer/satellitecontrolcomputer.static.entity.prefab", 1346829530U, true, true, false, false, false, false, false, false, "static", true, "SatelliteControlComputer", 10114, 5 },
-    { "satellitecontrolcomputer_storage.entity", "satellitecontrolcomputer storage entity", "Uncategorized", "assets/prefabs/satellitecrash/controlcomputer/satellitecontrolcomputer_storage.entity.prefab", 3673999874U, true, true, false, false, false, false, false, false, "static", true, "SatelliteFuelStorage", 10119, 6 },
-    { "satellite_crate_1.entity", "satellite crate 1 entity", "Uncategorized", "assets/prefabs/satellitecrash/crates/satellite_crate_1.entity.prefab", 3827148288U, true, true, false, false, false, false, false, false, "static", true, "LockedByEntCrate", 10125, 7 },
-    { "satellite_crate_2.entity", "satellite crate 2 entity", "Uncategorized", "assets/prefabs/satellitecrash/crates/satellite_crate_2.entity.prefab", 1629625041U, true, true, false, false, false, false, false, false, "static", true, "LockedByEntCrate", 10132, 7 },
-    { "satellite_crate_3.entity", "satellite crate 3 entity", "Uncategorized", "assets/prefabs/satellitecrash/crates/satellite_crate_3.entity.prefab", 3217579596U, true, true, false, false, false, false, false, false, "static", true, "LockedByEntCrate", 10139, 7 },
-    { "satellite.entity", "satellite entity", "Uncategorized", "assets/prefabs/satellitecrash/satellite.entity.prefab", 900308836U, true, true, false, false, false, false, false, false, "static", true, "SatelliteCrash", 10146, 4 },
-    { "satellite_pending_crash_site.entity", "satellite pending crash site entity", "Uncategorized", "assets/prefabs/satellitecrash/satellite_pending_crash_site.entity.prefab", 1877649312U, true, true, false, false, false, false, false, false, "static", true, "SatellitePendingCrashSite", 10150, 3 },
-    { "satellite_remains.entity", "satellite remains entity", "Uncategorized", "assets/prefabs/satellitecrash/satellite_remains.entity.prefab", 2443571139U, true, true, false, false, false, false, false, false, "static", true, "SatelliteCrashRemains", 10153, 4 },
-    { "binocular.entity", "Binoculars", "Uncategorized", "assets/prefabs/tools/binoculars/binocular.entity.prefab", 436023350U, true, true, false, false, false, false, false, false, "static", true, "Binocular", 10157, 5 },
-    { "explosive.timed.deployed", "explosive timed deployed", "Uncategorized", "assets/prefabs/tools/c4/explosive.timed.deployed.prefab", 3898309212U, true, true, false, true, false, true, false, false, "dynamic", false, "RFTimedExplosive", 10162, 4 },
-    { "explosive.timed.entity", "Timed Explosive Charge", "Uncategorized", "assets/prefabs/tools/c4/explosive.timed.entity.prefab", 1915331115U, true, true, false, false, false, false, false, false, "static", true, "ThrownWeapon", 10166, 5 },
-    { "tool_camera", "Camera", "Uncategorized", "assets/prefabs/tools/camera/tool_camera.prefab", 1410597758U, true, true, false, false, false, false, false, false, "static", true, "CameraTool", 10171, 4 },
-    { "compass.entity", "Compass", "Uncategorized", "assets/prefabs/tools/compass/compass.entity.prefab", 2757054139U, true, true, false, false, false, false, false, false, "static", true, "Compass", 10175, 4 },
-    { "generic_deploy", "Storage Monitor", "Uncategorized", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, true, true, false, false, false, false, false, false, "static", true, "Deployer", 10179, 4 },
-    { "detonator.entity", "RF Transmitter", "Uncategorized", "assets/prefabs/tools/detonator/detonator.entity.prefab", 3503830994U, true, true, false, false, false, false, false, false, "static", true, "Detonator", 10183, 4 },
-    { "bobber.entity", "bobber entity", "Uncategorized", "assets/prefabs/tools/fishing rod/bobber/bobber.entity.prefab", 2984848657U, true, true, false, true, false, true, false, false, "dynamic", false, "FishingBobber", 10187, 4 },
-    { "fishing_rod.entity", "Handmade Fishing Rod", "Uncategorized", "assets/prefabs/tools/fishing rod/fishing_rod.entity.prefab", 2057865657U, true, true, false, false, false, false, false, false, "static", true, "BaseFishingRod", 10191, 4 },
-    { "overfishedarea", "overfishedarea", "Uncategorized", "assets/prefabs/tools/fishing rod/overfishedarea.prefab", 816085840U, true, true, false, false, false, false, false, false, "static", true, "OverfishedArea", 10195, 3 },
-    { "flare.deployed", "flare deployed", "Uncategorized", "assets/prefabs/tools/flareold/flare.deployed.prefab", 1693887801U, true, true, false, true, false, true, false, false, "dynamic", false, "RoadFlare", 10198, 4 },
-    { "flare.weapon", "Flare", "Uncategorized", "assets/prefabs/tools/flareold/flare.weapon.prefab", 2661658442U, true, true, false, false, false, false, false, false, "static", true, "GrenadeWeapon", 10202, 6 },
-    { "flashlight.entity", "Flashlight", "Uncategorized", "assets/prefabs/tools/flashlight/flashlight.entity.prefab", 72718095U, true, true, false, false, false, false, false, false, "static", true, "FlashlightWeapon", 10208, 7 },
-    { "geiger_counter.entity", "Geiger Counter", "Uncategorized", "assets/prefabs/tools/geiger counter/geiger_counter.entity.prefab", 47304962U, true, true, false, false, false, false, false, false, "static", true, "GeigerCounter", 10215, 5 },
-    { "handcuffs.entity", "Handcuffs", "Uncategorized", "assets/prefabs/tools/handcuffs/handcuffs.entity.prefab", 3263286159U, true, true, false, false, false, false, false, false, "static", true, "Handcuffs", 10220, 6 },
-    { "hosetool.entity", "Hose Tool", "Uncategorized", "assets/prefabs/tools/hose/hosetool.entity.prefab", 3568270288U, true, true, false, false, false, false, false, false, "static", true, "WireTool", 10226, 4 },
-    { "jackhammer.entity", "Jackhammer", "Uncategorized", "assets/prefabs/tools/jackhammer/jackhammer.entity.prefab", 3537156861U, true, true, false, false, false, false, false, false, "static", true, "Jackhammer", 10230, 6 },
-    { "keycard.entity", "Blue Keycard", "Uncategorized", "assets/prefabs/tools/keycard/keycard.entity.prefab", 3773357817U, true, true, false, false, false, false, false, false, "static", true, "Keycard", 10236, 5 },
-    { "keycard_blue_pickup.entity", "keycard blue pickup entity", "Uncategorized", "assets/prefabs/tools/keycard/keycard_blue_pickup.entity.prefab", 675407027U, true, true, false, false, false, false, false, false, "static", true, "ItemPickup", 10241, 5 },
-    { "keycard_green_pickup.entity", "keycard green pickup entity", "Uncategorized", "assets/prefabs/tools/keycard/keycard_green_pickup.entity.prefab", 1317896088U, true, true, false, false, false, false, false, false, "static", true, "ItemPickup", 10246, 5 },
-    { "keycard_red_pickup.entity", "keycard red pickup entity", "Uncategorized", "assets/prefabs/tools/keycard/keycard_red_pickup.entity.prefab", 3985212893U, true, true, false, false, false, false, false, false, "static", true, "ItemPickup", 10251, 5 },
-    { "concrete_hatchet.entity", "Concrete Hatchet", "Uncategorized", "assets/prefabs/tools/lumberjack_tools/concrete_hatchet.entity.prefab", 1777756171U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 10256, 5 },
-    { "concrete_pickaxe.entity", "Concrete Pickaxe", "Uncategorized", "assets/prefabs/tools/lumberjack_tools/concrete_pickaxe.entity.prefab", 1480417083U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 10261, 5 },
-    { "lumberjack_axe.entity", "Prototype Hatchet", "Uncategorized", "assets/prefabs/tools/lumberjack_tools/lumberjack_axe.entity.prefab", 4035646930U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 10266, 5 },
-    { "lumberjack_pick.entity", "Prototype Pickaxe", "Uncategorized", "assets/prefabs/tools/lumberjack_tools/lumberjack_pick.entity.prefab", 1725165540U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 10271, 5 },
-    { "cargomarker", "cargomarker", "Uncategorized", "assets/prefabs/tools/map/cargomarker.prefab", 843218194U, true, true, false, false, false, false, false, false, "static", true, "MapMarkerCH47", 10276, 4 },
-    { "ch47marker", "ch47marker", "Uncategorized", "assets/prefabs/tools/map/ch47marker.prefab", 3775898198U, true, true, false, false, false, false, false, false, "static", true, "MapMarkerCH47", 10280, 4 },
-    { "cinemarkera", "cinemarkera", "Uncategorized", "assets/prefabs/tools/map/cinemarkera.prefab", 2913233310U, true, true, false, false, false, false, false, false, "static", true, "MapMarker", 10284, 3 },
-    { "cinemarkerb", "cinemarkerb", "Uncategorized", "assets/prefabs/tools/map/cinemarkerb.prefab", 1697598722U, true, true, false, false, false, false, false, false, "static", true, "MapMarker", 10287, 3 },
-    { "cinemarkerc", "cinemarkerc", "Uncategorized", "assets/prefabs/tools/map/cinemarkerc.prefab", 4244600952U, true, true, false, false, false, false, false, false, "static", true, "MapMarker", 10290, 3 },
-    { "cratemarker", "cratemarker", "Uncategorized", "assets/prefabs/tools/map/cratemarker.prefab", 2366974922U, true, true, false, false, false, false, false, false, "static", true, "MobileMapMarker", 10293, 4 },
-    { "explosionmarker", "explosionmarker", "Uncategorized", "assets/prefabs/tools/map/explosionmarker.prefab", 4060989661U, true, true, false, false, false, false, false, false, "static", true, "MapMarkerExplosion", 10297, 4 },
-    { "genericradiusmarker", "genericradiusmarker", "Uncategorized", "assets/prefabs/tools/map/genericradiusmarker.prefab", 2849728229U, true, true, false, false, false, false, false, false, "static", true, "MapMarkerGenericRadius", 10301, 4 },
-    { "map", "Paper Map", "Uncategorized", "assets/prefabs/tools/map/map.prefab", 491065559U, true, true, false, false, false, false, false, false, "static", true, "MapEntity", 10305, 4 },
-    { "missionprovidermarker", "missionprovidermarker", "Uncategorized", "assets/prefabs/tools/map/missionprovidermarker.prefab", 1670391308U, true, true, false, false, false, false, false, false, "static", true, "MapMarkerMissionProvider", 10309, 4 },
-    { "travellingvendormarker", "travellingvendormarker", "Uncategorized", "assets/prefabs/tools/map/travellingvendormarker.prefab", 4216742342U, true, true, false, false, false, false, false, false, "static", true, "MapMarkerCH47", 10313, 4 },
-    { "masterkey.entity", "Apartment Key", "Uncategorized", "assets/prefabs/tools/master key/masterkey.entity.prefab", 1148470020U, true, true, false, false, false, false, false, false, "static", true, "MasterKey", 10317, 6 },
-    { "syringe_medical.entity", "Medical Syringe", "Uncategorized", "assets/prefabs/tools/medical syringe/syringe_medical.entity.prefab", 283937635U, true, true, false, false, false, false, false, false, "static", true, "MedicalTool", 10323, 5 },
-    { "metal_detector.entity", "Metal Detector", "Uncategorized", "assets/prefabs/tools/metaldetector/metal_detector.entity.prefab", 892200099U, true, true, false, false, false, false, false, false, "static", true, "BaseMetalDetector", 10328, 4 },
-    { "metal_detector_flag.entity", "metal detector flag entity", "Uncategorized", "assets/prefabs/tools/metaldetector/metal_detector_flag.entity.prefab", 1406086660U, true, true, false, false, false, false, false, false, "static", true, "MetalDetectorFlag", 10332, 5 },
-    { "metal_detector_flag_deepsea.entity", "metal detector flag deepsea entity", "Uncategorized", "assets/prefabs/tools/metaldetector/metal_detector_flag_deepsea.entity.prefab", 3282154567U, true, true, false, false, false, false, false, false, "static", true, "MetalDetectorMissionFlag", 10337, 6 },
-    { "metal_detector_source.entity", "metal detector source entity", "Uncategorized", "assets/prefabs/tools/metaldetector/metal_detector_source.entity.prefab", 1244235496U, true, true, false, false, false, false, false, false, "static", true, "MetalDetectorSource", 10343, 3 },
-    { "metal_detector_source_deepsea.entity", "metal detector source deepsea entity", "Uncategorized", "assets/prefabs/tools/metaldetector/metal_detector_source_deepsea.entity.prefab", 1791061997U, true, true, false, false, false, false, false, false, "static", true, "MetalDetectorSource", 10346, 3 },
-    { "metal_detector_source_deepsea_mission.entity", "metal detector source deepsea mission entity", "Uncategorized", "assets/prefabs/tools/metaldetector/metal_detector_source_deepsea_mission.entity.prefab", 819836910U, true, true, false, false, false, false, false, false, "static", true, "MetalDetectorMissionSource", 10349, 4 },
-    { "outbreak_sprayer.entity", "Outbreak Sprayer", "Uncategorized", "assets/prefabs/tools/outbreaksprayer/outbreak_sprayer.entity.prefab", 3864758412U, true, true, false, false, false, false, false, false, "static", true, "GeigerCounter", 10353, 5 },
-    { "pager.entity", "pager entity", "Uncategorized", "assets/prefabs/tools/pager/pager.entity.prefab", 2918467232U, true, true, false, false, false, false, false, false, "static", true, "PagerEntity", 10358, 3 },
-    { "pipetool.entity", "Pipe Tool", "Uncategorized", "assets/prefabs/tools/pipe/pipetool.entity.prefab", 3896504765U, true, true, false, false, false, false, false, false, "static", true, "WireTool", 10361, 4 },
-    { "boat_planner.entity", "Boat Building Plan", "Uncategorized", "assets/prefabs/tools/planner/boat_planner.entity.prefab", 2721033560U, true, true, false, false, false, false, false, false, "static", true, "Planner", 10365, 4 },
-    { "building_planner.entity", "Discord Trophy", "Uncategorized", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, true, true, false, false, false, false, false, false, "static", true, "Planner", 10369, 4 },
-    { "shovel.entity", "Shovel", "Uncategorized", "assets/prefabs/tools/shovel/shovel.entity.prefab", 3196650451U, true, true, false, false, false, false, false, false, "static", true, "Shovel", 10373, 6 },
-    { "grenade.smoke.deployed", "grenade smoke deployed", "Uncategorized", "assets/prefabs/tools/smoke grenade/grenade.smoke.deployed.prefab", 1464001967U, true, true, false, true, false, true, false, false, "dynamic", false, "SmokeGrenade", 10379, 4 },
-    { "smoke_grenade.weapon", "Smoke Grenade", "Uncategorized", "assets/prefabs/tools/smoke grenade/smoke_grenade.weapon.prefab", 3642747736U, true, true, false, false, false, false, false, false, "static", true, "GrenadeWeapon", 10383, 6 },
-    { "spraylinedecal", "spraylinedecal", "Uncategorized", "assets/prefabs/tools/spraycan/freehandspray/spraylinedecal.prefab", 2542129442U, true, true, false, false, false, false, false, false, "static", true, "SprayCanSpray_Freehand", 10389, 6 },
-    { "spraycan.weapon", "Spray Can", "Uncategorized", "assets/prefabs/tools/spraycan/spraycan.weapon.prefab", 4251031431U, true, true, false, false, false, false, false, false, "static", true, "SprayCan", 10395, 4 },
-    { "spray.decal", "spray decal", "Uncategorized", "assets/prefabs/tools/spraycan/sprays/spray.decal.prefab", 3884356627U, true, true, false, false, false, false, false, false, "static", true, "SprayCanSpray_Decal", 10399, 6 },
-    { "grenade.supplysignal.deployed", "grenade supplysignal deployed", "Uncategorized", "assets/prefabs/tools/supply signal/grenade.supplysignal.deployed.prefab", 3350651790U, true, true, false, true, false, true, false, false, "dynamic", false, "SupplySignal", 10405, 4 },
-    { "supplysignal.weapon", "Supply Signal", "Uncategorized", "assets/prefabs/tools/supply signal/supplysignal.weapon.prefab", 775476535U, true, true, false, false, false, false, false, false, "static", true, "GrenadeWeapon", 10409, 6 },
-    { "survey_charge.deployed", "survey charge deployed", "Uncategorized", "assets/prefabs/tools/surveycharge/survey_charge.deployed.prefab", 2141863453U, true, true, false, true, false, true, false, false, "dynamic", false, "SurveyCharge", 10415, 4 },
-    { "survey_charge", "Survey Charge", "Uncategorized", "assets/prefabs/tools/surveycharge/survey_charge.prefab", 2698594377U, true, true, false, false, false, false, false, false, "static", true, "ThrownWeapon", 10419, 5 },
-    { "survey_crater", "survey crater", "Uncategorized", "assets/prefabs/tools/surveycharge/survey_crater.prefab", 2955484243U, true, true, false, false, false, false, false, false, "static", true, "SurveyCrater", 10424, 4 },
-    { "survey_crater_oil", "survey crater oil", "Uncategorized", "assets/prefabs/tools/surveycharge/survey_crater_oil.prefab", 1917257452U, true, true, false, false, false, false, false, false, "static", true, "SurveyCrater", 10428, 4 },
-    { "wiretool.entity", "Wire Tool", "Uncategorized", "assets/prefabs/tools/wire/wiretool.entity.prefab", 4258987144U, true, true, false, false, false, false, false, false, "static", true, "WireTool", 10432, 4 },
-    { "arcadeuser", "arcadeuser", "Uncategorized", "assets/prefabs/vehicle/seats/arcadeuser.prefab", 1600307371U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10436, 6 },
-    { "attackhelidriver", "attackhelidriver", "Uncategorized", "assets/prefabs/vehicle/seats/attackhelidriver.prefab", 70742988U, true, true, false, false, false, false, false, false, "dynamic", false, "AttackHeliDriverSeat", 10442, 7 },
-    { "attackheligunner", "attackheligunner", "Uncategorized", "assets/prefabs/vehicle/seats/attackheligunner.prefab", 240871686U, true, true, false, false, false, false, false, false, "dynamic", false, "AttackHeliGunnerSeat", 10449, 7 },
-    { "bikedriverseat", "bikedriverseat", "Uncategorized", "assets/prefabs/vehicle/seats/bikedriverseat.prefab", 4261260455U, true, true, false, false, false, false, false, false, "dynamic", false, "BikeDriverSeat", 10456, 9 },
-    { "bikepassengerseat", "bikepassengerseat", "Uncategorized", "assets/prefabs/vehicle/seats/bikepassengerseat.prefab", 3025064202U, true, true, false, false, false, false, false, false, "dynamic", false, "BikeSeat", 10465, 8 },
-    { "copilotseat", "copilotseat", "Uncategorized", "assets/prefabs/vehicle/seats/copilotseat.prefab", 1070668182U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10473, 6 },
-    { "craneoperator", "craneoperator", "Uncategorized", "assets/prefabs/vehicle/seats/craneoperator.prefab", 1103757790U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10479, 6 },
-    { "driverseat", "driverseat", "Uncategorized", "assets/prefabs/vehicle/seats/driverseat.prefab", 4088163379U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10485, 6 },
-    { "gunnertest", "gunnertest", "Uncategorized", "assets/prefabs/vehicle/seats/gunnertest.prefab", 986236302U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseAimable", 10491, 6 },
-    { "horsesaddle", "horsesaddle", "Uncategorized", "assets/prefabs/vehicle/seats/horsesaddle.prefab", 262646847U, true, true, false, false, false, false, false, false, "dynamic", false, "HorseSaddle", 10497, 7 },
-    { "horsesaddlerear", "horsesaddlerear", "Uncategorized", "assets/prefabs/vehicle/seats/horsesaddlerear.prefab", 2508371933U, true, true, false, false, false, false, false, false, "dynamic", false, "HorseSaddle", 10504, 7 },
-    { "internalmounteddouble50calturretseat", "internalmounteddouble50calturretseat", "Uncategorized", "assets/prefabs/vehicle/seats/internalmounteddouble50calturretseat.prefab", 3811102955U, true, true, false, false, false, false, false, false, "dynamic", false, "MountedWeaponSeat", 10511, 7 },
-    { "internalmountedturretseat", "internalmountedturretseat", "Uncategorized", "assets/prefabs/vehicle/seats/internalmountedturretseat.prefab", 780491012U, true, true, false, false, false, false, false, false, "dynamic", false, "MountedWeaponSeat", 10518, 7 },
-    { "kayakseat", "kayakseat", "Uncategorized", "assets/prefabs/vehicle/seats/kayakseat.prefab", 2907322464U, true, true, false, false, false, false, false, false, "dynamic", false, "KayakSeat", 10525, 7 },
-    { "locomotivedriver", "locomotivedriver", "Uncategorized", "assets/prefabs/vehicle/seats/locomotivedriver.prefab", 3398691772U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10532, 6 },
-    { "minihelipassenger", "minihelipassenger", "Uncategorized", "assets/prefabs/vehicle/seats/minihelipassenger.prefab", 1231746772U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10538, 6 },
-    { "miniheliseat", "miniheliseat", "Uncategorized", "assets/prefabs/vehicle/seats/miniheliseat.prefab", 3742994540U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10544, 6 },
-    { "modularcardriverseat", "modularcardriverseat", "Uncategorized", "assets/prefabs/vehicle/seats/modularcardriverseat.prefab", 1924089654U, true, true, false, false, false, false, false, false, "dynamic", false, "ModularCarSeat", 10550, 8 },
-    { "modularcarpassengerseatleft", "modularcarpassengerseatleft", "Uncategorized", "assets/prefabs/vehicle/seats/modularcarpassengerseatleft.prefab", 894444950U, true, true, false, false, false, false, false, false, "dynamic", false, "ModularCarSeat", 10558, 8 },
-    { "modularcarpassengerseatlesslegroomleft", "modularcarpassengerseatlesslegroomleft", "Uncategorized", "assets/prefabs/vehicle/seats/modularcarpassengerseatlesslegroomleft.prefab", 2487473786U, true, true, false, false, false, false, false, false, "dynamic", false, "ModularCarSeat", 10566, 8 },
-    { "modularcarpassengerseatlesslegroomright", "modularcarpassengerseatlesslegroomright", "Uncategorized", "assets/prefabs/vehicle/seats/modularcarpassengerseatlesslegroomright.prefab", 1826159939U, true, true, false, false, false, false, false, false, "dynamic", false, "ModularCarSeat", 10574, 8 },
-    { "modularcarpassengerseatright", "modularcarpassengerseatright", "Uncategorized", "assets/prefabs/vehicle/seats/modularcarpassengerseatright.prefab", 205354363U, true, true, false, false, false, false, false, false, "dynamic", false, "ModularCarSeat", 10582, 8 },
-    { "modularcarpassengerseatsidewayleft", "modularcarpassengerseatsidewayleft", "Uncategorized", "assets/prefabs/vehicle/seats/modularcarpassengerseatsidewayleft.prefab", 4116606551U, true, true, false, false, false, false, false, false, "dynamic", false, "ModularCarSeat", 10590, 8 },
-    { "motorbikedriverseat", "motorbikedriverseat", "Uncategorized", "assets/prefabs/vehicle/seats/motorbikedriverseat.prefab", 1359197088U, true, true, false, false, false, false, false, false, "dynamic", false, "BikeDriverSeat", 10598, 9 },
-    { "motorbikepassengerseat", "motorbikepassengerseat", "Uncategorized", "assets/prefabs/vehicle/seats/motorbikepassengerseat.prefab", 1177038454U, true, true, false, false, false, false, false, false, "dynamic", false, "BikeSeat", 10607, 8 },
-    { "parachuteseat", "parachuteseat", "Uncategorized", "assets/prefabs/vehicle/seats/parachuteseat.prefab", 3398060938U, true, true, false, false, false, false, false, false, "dynamic", false, "ParachuteSeat", 10615, 8 },
-    { "passenger", "passenger", "Uncategorized", "assets/prefabs/vehicle/seats/passenger.prefab", 2304142695U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10623, 6 },
-    { "passengerchair", "passengerchair", "Uncategorized", "assets/prefabs/vehicle/seats/passengerchair.prefab", 1954020959U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10629, 6 },
-    { "pilotseat", "pilotseat", "Uncategorized", "assets/prefabs/vehicle/seats/pilotseat.prefab", 952100854U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10635, 6 },
-    { "ptboatdriver", "ptboatdriver", "Uncategorized", "assets/prefabs/vehicle/seats/ptboatdriver.prefab", 212381033U, true, true, false, false, false, false, false, false, "dynamic", false, "RHIBDriver", 10641, 7 },
-    { "ptboatpassenger", "ptboatpassenger", "Uncategorized", "assets/prefabs/vehicle/seats/ptboatpassenger.prefab", 108682576U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10648, 6 },
-    { "rhibdriver", "rhibdriver", "Uncategorized", "assets/prefabs/vehicle/seats/rhibdriver.prefab", 2257815105U, true, true, false, false, false, false, false, false, "dynamic", false, "RHIBDriver", 10654, 7 },
-    { "roundaboutchair", "roundaboutchair", "Uncategorized", "assets/prefabs/vehicle/seats/roundaboutchair.prefab", 2709229839U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10661, 6 },
-    { "sledseatfront", "sledseatfront", "Uncategorized", "assets/prefabs/vehicle/seats/sledseatfront.prefab", 1212881407U, true, true, false, false, false, false, false, false, "dynamic", false, "SledSeat", 10667, 7 },
-    { "sledseatrear", "sledseatrear", "Uncategorized", "assets/prefabs/vehicle/seats/sledseatrear.prefab", 518673090U, true, true, false, false, false, false, false, false, "dynamic", false, "SledSeat", 10674, 7 },
-    { "smallboatdriver", "smallboatdriver", "Uncategorized", "assets/prefabs/vehicle/seats/smallboatdriver.prefab", 1239975468U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10681, 6 },
-    { "smallboatpassenger", "smallboatpassenger", "Uncategorized", "assets/prefabs/vehicle/seats/smallboatpassenger.prefab", 3241157857U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10687, 6 },
-    { "snowmobiledriverseat", "snowmobiledriverseat", "Uncategorized", "assets/prefabs/vehicle/seats/snowmobiledriverseat.prefab", 836439399U, true, true, false, false, false, false, false, false, "dynamic", false, "MouseSteerableSeat", 10693, 7 },
-    { "snowmobilepassengerseat tomaha", "snowmobilepassengerseat tomaha", "Uncategorized", "assets/prefabs/vehicle/seats/snowmobilepassengerseat tomaha.prefab", 1103815396U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10700, 6 },
-    { "snowmobilepassengerseat", "snowmobilepassengerseat", "Uncategorized", "assets/prefabs/vehicle/seats/snowmobilepassengerseat.prefab", 2602628913U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10706, 6 },
-    { "standingdriver", "standingdriver", "Uncategorized", "assets/prefabs/vehicle/seats/standingdriver.prefab", 1392704482U, true, true, false, false, false, false, false, false, "dynamic", false, "SledSeat", 10712, 7 },
-    { "standingmounted50calturretseat", "standingmounted50calturretseat", "Uncategorized", "assets/prefabs/vehicle/seats/standingmounted50calturretseat.prefab", 342862053U, true, true, false, false, false, false, false, false, "dynamic", false, "MountedWeaponSeat", 10719, 7 },
-    { "standingmountedturretseat", "standingmountedturretseat", "Uncategorized", "assets/prefabs/vehicle/seats/standingmountedturretseat.prefab", 980028944U, true, true, false, false, false, false, false, false, "dynamic", false, "MountedWeaponSeat", 10726, 7 },
-    { "submarineduodriverseat", "submarineduodriverseat", "Uncategorized", "assets/prefabs/vehicle/seats/submarineduodriverseat.prefab", 309883022U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10733, 6 },
-    { "submarineduopassengerseat", "submarineduopassengerseat", "Uncategorized", "assets/prefabs/vehicle/seats/submarineduopassengerseat.prefab", 2802580699U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10739, 6 },
-    { "submarinesolodriverstanding", "submarinesolodriverstanding", "Uncategorized", "assets/prefabs/vehicle/seats/submarinesolodriverstanding.prefab", 1922108893U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10745, 6 },
-    { "swingseat", "swingseat", "Uncategorized", "assets/prefabs/vehicle/seats/swingseat.prefab", 1130710742U, true, true, false, false, false, false, false, false, "dynamic", false, "SwingSeat", 10751, 7 },
-    { "testseat", "testseat", "Uncategorized", "assets/prefabs/vehicle/seats/testseat.prefab", 3179168237U, true, true, false, false, false, false, false, false, "static", true, "BaseMountable", 10758, 4 },
-    { "transporthelicopilot", "transporthelicopilot", "Uncategorized", "assets/prefabs/vehicle/seats/transporthelicopilot.prefab", 1771416011U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10762, 6 },
-    { "transporthelipilot", "transporthelipilot", "Uncategorized", "assets/prefabs/vehicle/seats/transporthelipilot.prefab", 3180731352U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10768, 6 },
-    { "tugboatdriver", "tugboatdriver", "Uncategorized", "assets/prefabs/vehicle/seats/tugboatdriver.prefab", 1955582400U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10774, 6 },
-    { "twitchbusseat", "twitchbusseat", "Uncategorized", "assets/prefabs/vehicle/seats/twitchbusseat.prefab", 1948876508U, true, true, false, false, false, false, false, false, "dynamic", false, "SledSeat", 10780, 7 },
-    { "workcartdriver", "workcartdriver", "Uncategorized", "assets/prefabs/vehicle/seats/workcartdriver.prefab", 311277167U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10787, 6 },
-    { "sphere", "sphere", "Uncategorized", "assets/prefabs/visualization/sphere.prefab", 3211242734U, true, true, false, false, false, false, false, false, "static", true, "SphereEntity", 10793, 3 },
-    { "boombox.deployed", "boombox deployed", "Uncategorized", "assets/prefabs/voiceaudio/boombox/boombox.deployed.prefab", 244503553U, true, true, false, false, false, false, false, false, "static", true, "DeployableBoomBox", 10796, 7 },
-    { "boombox.deployed.static", "boombox deployed static", "Uncategorized", "assets/prefabs/voiceaudio/boombox/boombox.deployed.static.prefab", 1709505846U, true, true, false, false, false, false, false, false, "static", true, "DeployableBoomBox", 10803, 7 },
-    { "boombox.static", "boombox static", "Uncategorized", "assets/prefabs/voiceaudio/boombox/boombox.static.prefab", 1771910647U, true, true, false, false, false, false, false, false, "static", true, "DeployableBoomBox", 10810, 7 },
-    { "boomboxportable.weapon", "Portable Boom Box", "Uncategorized", "assets/prefabs/voiceaudio/boomboxportable/boomboxportable.weapon.prefab", 617635188U, true, true, false, false, false, false, false, false, "static", true, "HeldBoomBox", 10817, 4 },
-    { "cassette.entity", "cassette entity", "Uncategorized", "assets/prefabs/voiceaudio/cassette/cassette.entity.prefab", 3549123016U, true, true, false, false, false, false, false, false, "static", true, "Cassette", 10821, 3 },
-    { "cassette.medium.entity", "cassette medium entity", "Uncategorized", "assets/prefabs/voiceaudio/cassette/cassette.medium.entity.prefab", 1513498993U, true, true, false, false, false, false, false, false, "static", true, "Cassette", 10824, 3 },
-    { "cassette.short.entity", "cassette short entity", "Uncategorized", "assets/prefabs/voiceaudio/cassette/cassette.short.entity.prefab", 253547591U, true, true, false, false, false, false, false, false, "static", true, "Cassette", 10827, 3 },
-    { "cassetterecorder.deployed", "cassetterecorder deployed", "Uncategorized", "assets/prefabs/voiceaudio/cassetterecorder/cassetterecorder.deployed.prefab", 760079751U, true, true, false, true, false, true, false, false, "dynamic", false, "DeployedRecorder", 10830, 6 },
-    { "cassetterecorder.weapon", "Cassette Recorder", "Uncategorized", "assets/prefabs/voiceaudio/cassetterecorder/cassetterecorder.weapon.prefab", 705457609U, true, true, false, false, false, false, false, false, "static", true, "RecorderTool", 10836, 6 },
-    { "discoball.deployed", "discoball deployed", "Uncategorized", "assets/prefabs/voiceaudio/discoball/discoball.deployed.prefab", 2613307285U, true, true, false, false, false, false, false, false, "static", true, "IOEntity", 10842, 5 },
-    { "discofloor.deployed", "discofloor deployed", "Uncategorized", "assets/prefabs/voiceaudio/discofloor/discofloor.deployed.prefab", 3677777210U, true, true, false, false, false, false, false, false, "static", true, "DiscoFloor", 10847, 7 },
-    { "discofloor.largetiles.deployed", "discofloor largetiles deployed", "Uncategorized", "assets/prefabs/voiceaudio/discofloor/skins/discofloor.largetiles.deployed.prefab", 1416531191U, true, true, false, false, false, false, false, false, "static", true, "DiscoFloor", 10854, 7 },
-    { "connectedspeaker.deployed", "connectedspeaker deployed", "Uncategorized", "assets/prefabs/voiceaudio/hornspeaker/connectedspeaker.deployed.prefab", 350348582U, true, true, false, false, false, false, false, false, "static", true, "ConnectedSpeaker", 10861, 6 },
-    { "connectedspeaker.deployed.static", "connectedspeaker deployed static", "Uncategorized", "assets/prefabs/voiceaudio/hornspeaker/connectedspeaker.deployed.static.prefab", 3946294029U, true, true, false, false, false, false, false, false, "static", true, "ConnectedSpeaker", 10867, 6 },
-    { "laserlight.deployed", "laserlight deployed", "Uncategorized", "assets/prefabs/voiceaudio/laserlight/laserlight.deployed.prefab", 4083964466U, true, true, false, false, false, false, false, false, "static", true, "LaserLight", 10873, 7 },
-    { "megaphone.weapon", "Megaphone", "Uncategorized", "assets/prefabs/voiceaudio/megaphone/megaphone.weapon.prefab", 3942416854U, true, true, false, false, false, false, false, false, "static", true, "Megaphone", 10880, 4 },
-    { "microphonestand.deployed", "microphonestand deployed", "Uncategorized", "assets/prefabs/voiceaudio/microphonestand/microphonestand.deployed.prefab", 3061223907U, true, true, false, false, false, false, false, false, "static", true, "MicrophoneStand", 10884, 5 },
-    { "microphonestand.deployed.static", "microphonestand deployed static", "Uncategorized", "assets/prefabs/voiceaudio/microphonestand/microphonestand.deployed.static.prefab", 113644298U, true, true, false, false, false, false, false, false, "static", true, "MicrophoneStand", 10889, 5 },
-    { "microphonestandio.entity", "microphonestandio entity", "Uncategorized", "assets/prefabs/voiceaudio/microphonestand/microphonestandio.entity.prefab", 1240315717U, true, true, false, false, false, false, false, false, "static", true, "MicrophoneStandIOEntity", 10894, 6 },
-    { "microphonestandio.entity.static", "microphonestandio entity static", "Uncategorized", "assets/prefabs/voiceaudio/microphonestand/microphonestandio.entity.static.prefab", 1226049576U, true, true, false, false, false, false, false, false, "static", true, "MicrophoneStandIOEntity", 10900, 6 },
-    { "mobileinventory.entity", "mobileinventory entity", "Uncategorized", "assets/prefabs/voiceaudio/mobilephone/mobileinventory.entity.prefab", 3945729556U, true, true, false, false, false, false, false, false, "static", true, "MobileInventoryEntity", 10906, 3 },
-    { "mobilephone.weapon", "Mobile Phone", "Uncategorized", "assets/prefabs/voiceaudio/mobilephone/mobilephone.weapon.prefab", 2342841515U, true, true, false, false, false, false, false, false, "static", true, "MobilePhone", 10909, 4 },
-    { "soundlight.deployed", "soundlight deployed", "Uncategorized", "assets/prefabs/voiceaudio/soundlight/soundlight.deployed.prefab", 58106244U, true, true, false, false, false, false, false, false, "static", true, "AudioVisualisationEntityLight", 10913, 7 },
-    { "telephone.deployed", "telephone deployed", "Uncategorized", "assets/prefabs/voiceaudio/telephone/telephone.deployed.prefab", 2160363615U, true, true, false, false, false, false, false, false, "static", true, "Telephone", 10920, 7 },
-    { "ceilingpaper.entity_iconrender", "ceilingpaper entity iconrender", "Uncategorized", "assets/prefabs/wallpaper/ceilingpaper.entity_iconrender.prefab", 2416512278U, true, true, false, false, false, false, false, false, "static", true, "WallpaperPlanner", 10927, 5 },
-    { "wallpaper.doorway.construction", "wallpaper doorway construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.doorway.construction.prefab", 1151746608U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 10932, 6 },
-    { "wallpaper.floor.construction", "wallpaper floor construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.floor.construction.prefab", 2910744970U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 10938, 6 },
-    { "wallpaper.floor.triangle.construction", "wallpaper floor triangle construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.floor.triangle.construction.prefab", 2061122277U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 10944, 6 },
-    { "wallpaper.foundation.construction", "wallpaper foundation construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.foundation.construction.prefab", 921716393U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 10950, 6 },
-    { "wallpaper.foundation.triangle.construction", "wallpaper foundation triangle construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.foundation.triangle.construction.prefab", 2418284139U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 10956, 6 },
-    { "wallpaper.roof.construction", "wallpaper roof construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.roof.construction.prefab", 3884404330U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 10962, 6 },
-    { "wallpaper.roof.triangle.construction", "wallpaper roof triangle construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.roof.triangle.construction.prefab", 3383920777U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 10968, 6 },
-    { "wallpaper.wall.construction", "wallpaper wall construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.wall.construction.prefab", 2402782496U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 10974, 6 },
-    { "wallpaper.wall.half.construction", "wallpaper wall half construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.wall.half.construction.prefab", 2617353051U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 10980, 6 },
-    { "wallpaper.wall.low.construction", "wallpaper wall low construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.wall.low.construction.prefab", 3024970135U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 10986, 6 },
-    { "wallpaper.window.construction", "wallpaper window construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.window.construction.prefab", 2434851882U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 10992, 6 },
-    { "floorpaper.entity_iconrender", "floorpaper entity iconrender", "Uncategorized", "assets/prefabs/wallpaper/floorpaper.entity_iconrender.prefab", 1379706361U, true, true, false, false, false, false, false, false, "static", true, "WallpaperPlanner", 10998, 5 },
-    { "wallpaper.entity_iconrender", "wallpaper entity iconrender", "Uncategorized", "assets/prefabs/wallpaper/wallpaper.entity_iconrender.prefab", 3945642922U, true, true, false, false, false, false, false, false, "static", true, "WallpaperPlanner", 11003, 5 },
-    { "wallpaper.tool.entity", "Wallpaper Tool", "Uncategorized", "assets/prefabs/wallpaper/wallpaper.tool.entity.prefab", 2811911262U, true, true, false, false, false, false, false, false, "static", true, "WallpaperPlanner", 11008, 5 },
-    { "8xscope.entity", "Variable Zoom Scope", "Uncategorized", "assets/prefabs/weapon mods/8x scope/8xscope.entity.prefab", 4005260636U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11013, 3 },
-    { "8xscope.vm.attachment", "8xscope vm attachment", "Uncategorized", "assets/prefabs/weapon mods/8x scope/8xscope.vm.attachment.prefab", 545873399U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11016, 3 },
-    { "burstmodule.entity", "Burst Module", "Uncategorized", "assets/prefabs/weapon mods/burstmodule/burstmodule.entity.prefab", 1243102785U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11019, 3 },
-    { "extendedmags.entity", "Extended Magazine", "Uncategorized", "assets/prefabs/weapon mods/extendedmags/extendedmags.entity.prefab", 330399465U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11022, 3 },
-    { "flashlight.entity", "Weapon flashlight", "Uncategorized", "assets/prefabs/weapon mods/flashlight/flashlight.entity.prefab", 3357772531U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11025, 3 },
-    { "flashlight.vm.attachment", "flashlight vm attachment", "Uncategorized", "assets/prefabs/weapon mods/flashlight/flashlight.vm.attachment.prefab", 1529000711U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11028, 3 },
-    { "gascompressionoverdrive.entity", "Gas Compression Overdrive", "Uncategorized", "assets/prefabs/weapon mods/gascompressionoverdrive/gascompressionoverdrive.entity.prefab", 869056374U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11031, 3 },
-    { "holosight.entity", "Holosight", "Uncategorized", "assets/prefabs/weapon mods/holosight/holosight.entity.prefab", 1518608834U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11034, 3 },
-    { "holosight.vm.attachment", "holosight vm attachment", "Uncategorized", "assets/prefabs/weapon mods/holosight/holosight.vm.attachment.prefab", 1968563077U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11037, 3 },
-    { "lasersight.entity", "Weapon Lasersight", "Uncategorized", "assets/prefabs/weapon mods/lasersight/lasersight.entity.prefab", 768584306U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11040, 3 },
-    { "lasersight.vm.attachment", "lasersight vm attachment", "Uncategorized", "assets/prefabs/weapon mods/lasersight/lasersight.vm.attachment.prefab", 3175048729U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11043, 3 },
-    { "muzzleboost.entity", "Muzzle Boost", "Uncategorized", "assets/prefabs/weapon mods/muzzleboost/muzzleboost.entity.prefab", 4161515557U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11046, 3 },
-    { "muzzlebrake.entity", "Muzzle Brake", "Uncategorized", "assets/prefabs/weapon mods/muzzlebrake/muzzlebrake.entity.prefab", 3158761202U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11049, 3 },
-    { "simplesight.entity", "Simple Handmade Sight", "Uncategorized", "assets/prefabs/weapon mods/reddotsight/simplesight.entity.prefab", 320811722U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11052, 3 },
-    { "simplesight.vm.attachment", "simplesight vm attachment", "Uncategorized", "assets/prefabs/weapon mods/reddotsight/simplesight.vm.attachment.prefab", 1623429255U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11055, 3 },
-    { "oilfiltersilencer.entity", "Oil Filter Silencer", "Uncategorized", "assets/prefabs/weapon mods/silencers/oilfiltersilencer.entity.prefab", 516933957U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11058, 3 },
-    { "silencer.entity", "Military Silencer", "Uncategorized", "assets/prefabs/weapon mods/silencers/silencer.entity.prefab", 2395313048U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11061, 3 },
-    { "sodacansilencer.entity", "Soda Can Silencer", "Uncategorized", "assets/prefabs/weapon mods/silencers/sodacansilencer.entity.prefab", 688872962U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11064, 3 },
-    { "smallscope.entity", "8x Zoom Scope", "Uncategorized", "assets/prefabs/weapon mods/smallscope/smallscope.entity.prefab", 2957289628U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11067, 3 },
-    { "smallscope.vm.attachment", "smallscope vm attachment", "Uncategorized", "assets/prefabs/weapon mods/smallscope/smallscope.vm.attachment.prefab", 3672170763U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11070, 3 },
-    { "targetingattachment.entity", "Targeting Attachment", "Uncategorized", "assets/prefabs/weapon mods/targetingattachment/targetingattachment.entity.prefab", 40635747U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11073, 3 },
-    { "ak47u.entity", "Assault Rifle", "Uncategorized", "assets/prefabs/weapons/ak47u/ak47u.entity.prefab", 1978739833U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11076, 5 },
-    { "ak47u_diver.entity", "Abyss Assault Rifle", "Uncategorized", "assets/prefabs/weapons/ak47u/diver/ak47u_diver.entity.prefab", 4096772971U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11081, 5 },
-    { "ak47u.glass.blue.entity", "Crystal Assault Rifle Sapphire", "Uncategorized", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.blue.entity.prefab", 2408471514U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11086, 5 },
-    { "ak47u.glass.entity", "Crystal Assault Rifle Diamond", "Uncategorized", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.entity.prefab", 3842925800U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11091, 5 },
-    { "ak47u.glass.green.entity", "Crystal Assault Rifle Emerald", "Uncategorized", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.green.entity.prefab", 1246348333U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11096, 5 },
-    { "ak47u.glass.pink.entity", "Crystal Assault Rifle Pink Diamond", "Uncategorized", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.pink.entity.prefab", 2779585845U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11101, 5 },
-    { "ak47u.glass.red.entity", "Crystal Assault Rifle Ruby", "Uncategorized", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.red.entity.prefab", 3312136396U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11106, 5 },
-    { "ak47u_ice.entity", "Ice Assault Rifle", "Uncategorized", "assets/prefabs/weapons/ak47u/iceskin/ak47u_ice.entity.prefab", 1942738569U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11111, 5 },
-    { "ak47u_jungle.entity", "Jungle Relic Assault Rifle", "Uncategorized", "assets/prefabs/weapons/ak47u/jungle skin/ak47u_jungle.entity.prefab", 1934468549U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11116, 5 },
-    { "ak47u_med.entity", "Medieval Assault Rifle", "Uncategorized", "assets/prefabs/weapons/ak47u/medieval skin/ak47u_med.entity.prefab", 3192146626U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11121, 5 },
-    { "bandage.entity", "Bandage", "Uncategorized", "assets/prefabs/weapons/bandage/bandage.entity.prefab", 1383987667U, true, true, false, false, false, false, false, false, "static", true, "MedicalTool", 11126, 5 },
-    { "grenade.beancan.deployed", "grenade beancan deployed", "Uncategorized", "assets/prefabs/weapons/beancan grenade/grenade.beancan.deployed.prefab", 2144399804U, true, true, false, true, false, true, false, false, "dynamic", false, "DudTimedExplosive", 11131, 4 },
-    { "grenade.beancan.entity", "Beancan Grenade", "Uncategorized", "assets/prefabs/weapons/beancan grenade/grenade.beancan.entity.prefab", 3654150932U, true, true, false, false, false, false, false, false, "static", true, "GrenadeWeapon", 11135, 6 },
-    { "grenade.bee.deployed", "grenade bee deployed", "Uncategorized", "assets/prefabs/weapons/bee grenade/grenade.bee.deployed.prefab", 4036845226U, true, true, false, true, false, true, false, false, "dynamic", false, "BeeGrenade", 11141, 4 },
-    { "grenade.bee.entity", "Bee Grenade", "Uncategorized", "assets/prefabs/weapons/bee grenade/grenade.bee.entity.prefab", 3444797639U, true, true, false, false, false, false, false, false, "static", true, "GrenadeWeapon", 11145, 6 },
-    { "blowpipe.entity", "Blow Pipe", "Uncategorized", "assets/prefabs/weapons/blowpipe/blowpipe.entity.prefab", 996318821U, true, true, false, false, false, false, false, false, "dynamic", false, "BlowPipeWeapon", 11151, 6 },
-    { "blunderbuss.entity", "Blunderbuss", "Uncategorized", "assets/prefabs/weapons/blunderbuss/blunderbuss.entity.prefab", 2557812813U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11157, 5 },
-    { "bolt_rifle.entity", "Bolt Action Rifle", "Uncategorized", "assets/prefabs/weapons/bolt rifle/bolt_rifle.entity.prefab", 1665481300U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11162, 5 },
-    { "bone_club.entity", "Bone Club", "Uncategorized", "assets/prefabs/weapons/bone club/bone_club.entity.prefab", 3097934597U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11167, 5 },
-    { "knife_bone.entity", "Bone Knife", "Uncategorized", "assets/prefabs/weapons/bone knife/knife_bone.entity.prefab", 1483241467U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11172, 5 },
-    { "bone.knife.obsidian.entity", "Obsidian Bone Knife", "Uncategorized", "assets/prefabs/weapons/bone knife/skins/obsidian knife/bone.knife.obsidian.entity.prefab", 1443663060U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11177, 5 },
-    { "boomerang.entity", "Boomerang", "Uncategorized", "assets/prefabs/weapons/boomerang/boomerang.entity.prefab", 1402819630U, true, true, false, false, false, false, false, false, "static", true, "Boomerang", 11182, 6 },
-    { "boomerang.thrown.entity", "boomerang thrown entity", "Uncategorized", "assets/prefabs/weapons/boomerang/boomerang.thrown.entity.prefab", 3604660177U, true, true, false, false, false, false, false, false, "static", true, "ThrownBoomerang", 11188, 3 },
-    { "bow_hunting.entity", "Hunting Bow", "Uncategorized", "assets/prefabs/weapons/bow/bow_hunting.entity.prefab", 2836331625U, true, true, false, false, false, false, false, false, "dynamic", false, "BowWeapon", 11191, 7 },
-    { "cake.entity", "Birthday Cake", "Uncategorized", "assets/prefabs/weapons/cake/cake.entity.prefab", 1980046596U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11198, 5 },
-    { "chainsaw.entity", "Chainsaw", "Uncategorized", "assets/prefabs/weapons/chainsaw/chainsaw.entity.prefab", 1802634117U, true, true, false, false, false, false, false, false, "static", true, "Chainsaw", 11203, 6 },
-    { "salvaged_cleaver.entity", "Salvaged Cleaver", "Uncategorized", "assets/prefabs/weapons/cleaver big/salvaged_cleaver.entity.prefab", 3340056040U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11209, 5 },
-    { "cny_spear.entity", "Lunar New Year Spear", "Uncategorized", "assets/prefabs/weapons/cnyspear/cny_spear.entity.prefab", 3814317397U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11214, 5 },
-    { "compound_bow.entity", "Compound Bow", "Uncategorized", "assets/prefabs/weapons/compound bow/compound_bow.entity.prefab", 1537401592U, true, true, false, false, false, false, false, false, "dynamic", false, "CompoundBowWeapon", 11219, 8 },
-    { "crossbow.entity", "Crossbow", "Uncategorized", "assets/prefabs/weapons/crossbow/crossbow.entity.prefab", 2727391082U, true, true, false, false, false, false, false, false, "dynamic", false, "CrossbowWeapon", 11227, 7 },
-    { "crossbow_bowless.entity", "Bowless Crossbow", "Uncategorized", "assets/prefabs/weapons/crossbow/skins/bowless/crossbow_bowless.entity.prefab", 777174364U, true, true, false, false, false, false, false, false, "dynamic", false, "CrossbowWeapon", 11234, 7 },
-    { "explosivesiegedeployable", "explosivesiegedeployable", "Uncategorized", "assets/prefabs/weapons/deployablesiegeexplosives/explosivesiegedeployable.prefab", 2730518698U, true, true, false, false, false, false, false, false, "static", true, "DeployableSiegeExplosive", 11241, 4 },
-    { "flammablesiegedeployable", "flammablesiegedeployable", "Uncategorized", "assets/prefabs/weapons/deployablesiegeexplosives/flammablesiegedeployable.prefab", 3599700023U, true, true, false, false, false, false, false, false, "static", true, "DeployableSiegeExplosive", 11245, 4 },
-    { "diver_hatchet.entity", "Abyss Metal Hatchet", "Uncategorized", "assets/prefabs/weapons/diverhatchet/diver_hatchet.entity.prefab", 1396987940U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11249, 5 },
-    { "diver_pickaxe.entity", "Abyss Metal Pickaxe", "Uncategorized", "assets/prefabs/weapons/diverpickaxe/diver_pickaxe.entity.prefab", 190635670U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11254, 5 },
-    { "diver_torch.entity", "Abyss Torch", "Uncategorized", "assets/prefabs/weapons/divertorch/diver_torch.entity.prefab", 1029607191U, true, true, false, false, false, false, false, false, "static", true, "TorchWeapon", 11259, 7 },
-    { "double_shotgun.entity", "Double Barrel Shotgun", "Uncategorized", "assets/prefabs/weapons/doubleshotgun/double_shotgun.entity.prefab", 3474489095U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11266, 5 },
-    { "pistol_eoka.entity", "Eoka Pistol", "Uncategorized", "assets/prefabs/weapons/eoka pistol/pistol_eoka.entity.prefab", 2176761593U, true, true, false, false, false, false, false, false, "dynamic", false, "FlintStrikeWeapon", 11271, 6 },
-    { "grenade.f1.deployed", "grenade f1 deployed", "Uncategorized", "assets/prefabs/weapons/f1 grenade/grenade.f1.deployed.prefab", 1128089209U, true, true, false, true, false, true, false, false, "dynamic", false, "TimedExplosive", 11277, 3 },
-    { "grenade.f1.entity", "F1 Grenade", "Uncategorized", "assets/prefabs/weapons/f1 grenade/grenade.f1.entity.prefab", 45697420U, true, true, false, false, false, false, false, false, "static", true, "GrenadeWeapon", 11280, 6 },
-    { "flamethrower.entity", "Flame Thrower", "Uncategorized", "assets/prefabs/weapons/flamethrower/flamethrower.entity.prefab", 3717106868U, true, true, false, false, false, false, false, false, "static", true, "FlameThrower", 11286, 5 },
-    { "flamethrower_fireball", "flamethrower fireball", "Uncategorized", "assets/prefabs/weapons/flamethrower/flamethrower_fireball.prefab", 844008300U, true, true, false, true, false, true, false, false, "dynamic", false, "FireBall", 11291, 3 },
-    { "grenade.flashbang.deployed", "grenade flashbang deployed", "Uncategorized", "assets/prefabs/weapons/flashbang/grenade.flashbang.deployed.prefab", 1436152685U, true, true, false, true, false, true, false, false, "dynamic", false, "Flashbang", 11294, 4 },
-    { "grenade.flashbang.entity", "Flashbang", "Uncategorized", "assets/prefabs/weapons/flashbang/grenade.flashbang.entity.prefab", 758326244U, true, true, false, false, false, false, false, false, "static", true, "GrenadeWeapon", 11298, 6 },
-    { "frontier_hatchet.entity", "Frontier Hatchet", "Uncategorized", "assets/prefabs/weapons/frontier hatchet/frontier_hatchet.entity.prefab", 3662083119U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11304, 5 },
-    { "glock.entity", "Prototype 17", "Uncategorized", "assets/prefabs/weapons/glockskin/glock.entity.prefab", 636374895U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11309, 5 },
-    { "mgl.entity", "Multiple Grenade Launcher", "Uncategorized", "assets/prefabs/weapons/grenade launcher/mgl.entity.prefab", 1233562048U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseLauncher", 11314, 6 },
-    { "hacksaw.weapon", "hacksaw weapon", "Uncategorized", "assets/prefabs/weapons/hacksaw/hacksaw.weapon.prefab", 2487927393U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11320, 5 },
-    { "mace.baseballbat", "Baseball Bat", "Uncategorized", "assets/prefabs/weapons/halloween/baseballbat/mace.baseballbat.prefab", 1769459881U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11325, 5 },
-    { "butcherknife.entity", "Butcher Knife", "Uncategorized", "assets/prefabs/weapons/halloween/butcher knife/butcherknife.entity.prefab", 1362182970U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11330, 5 },
-    { "pitchfork.entity", "Pitchfork", "Uncategorized", "assets/prefabs/weapons/halloween/pitchfork/pitchfork.entity.prefab", 1009417331U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11335, 5 },
-    { "sickle.entity", "Sickle", "Uncategorized", "assets/prefabs/weapons/halloween/sickle/sickle.entity.prefab", 124547093U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11340, 5 },
-    { "skulltorch.entity", "Cultist Deer Torch", "Uncategorized", "assets/prefabs/weapons/halloween/skull torch/skulltorch.entity.prefab", 3258690150U, true, true, false, false, false, false, false, false, "static", true, "TorchWeapon", 11345, 7 },
-    { "skull.entity", "Skull", "Uncategorized", "assets/prefabs/weapons/halloween/skull_halloween/skull.entity.prefab", 1140399555U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11352, 5 },
-    { "vampirestake.entity", "Vampire Stake", "Uncategorized", "assets/prefabs/weapons/halloween/vampirestake/vampirestake.entity.prefab", 2186616991U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11357, 5 },
-    { "hammer.entity", "Hammer", "Uncategorized", "assets/prefabs/weapons/hammer/hammer.entity.prefab", 388861612U, true, true, false, false, false, false, false, false, "static", true, "Hammer", 11362, 6 },
-    { "hatchet.entity", "Hatchet", "Uncategorized", "assets/prefabs/weapons/hatchet/hatchet.entity.prefab", 365233245U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11368, 5 },
-    { "hc_revolver.entity", "High Caliber Revolver", "Uncategorized", "assets/prefabs/weapons/high caliber revolver/hc_revolver.entity.prefab", 2154182718U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11373, 5 },
-    { "hmlmg.entity", "HMLMG", "Uncategorized", "assets/prefabs/weapons/hmlmg/hmlmg.entity.prefab", 3459133190U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11378, 5 },
-    { "homing_missile_launcher.entity", "Homing Missile Launcher", "Uncategorized", "assets/prefabs/weapons/homingmissilelauncher/homing_missile_launcher.entity.prefab", 542600037U, true, true, false, false, false, false, false, false, "dynamic", false, "LockOnLauncher", 11383, 7 },
-    { "seekertest", "seekertest", "Uncategorized", "assets/prefabs/weapons/homingmissilelauncher/seekertestentity/seekertest.prefab", 678281183U, true, true, false, false, false, false, false, false, "static", true, "SeekerTest", 11390, 3 },
-    { "improvisedshield.entity", "Improvised Shield", "Uncategorized", "assets/prefabs/weapons/improvised_shield/improvisedshield.entity.prefab", 3088514867U, true, true, false, false, false, false, false, false, "static", true, "Shield", 11393, 4 },
-    { "knife.combat.entity", "Combat Knife", "Uncategorized", "assets/prefabs/weapons/knife/knife.combat.entity.prefab", 327944951U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11397, 5 },
-    { "sunken.knife.combat.entity", "Sunken Combat Knife", "Uncategorized", "assets/prefabs/weapons/knife/skins/sunkenknife/sunken.knife.combat.entity.prefab", 2957160983U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11402, 5 },
-    { "l96.entity", "L96 Rifle", "Uncategorized", "assets/prefabs/weapons/l96/l96.entity.prefab", 2620171289U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11407, 5 },
-    { "legacybow.entity", "Legacy Bow", "Uncategorized", "assets/prefabs/weapons/legacy bow/legacybow.entity.prefab", 1400027705U, true, true, false, false, false, false, false, false, "dynamic", false, "BowWeapon", 11412, 7 },
-    { "lr300.entity", "LR-300 Assault Rifle", "Uncategorized", "assets/prefabs/weapons/lr300/lr300.entity.prefab", 844375121U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11419, 5 },
-    { "lr300_space.entity", "Space LR-300 Assault Rifle", "Uncategorized", "assets/prefabs/weapons/lr300/skins/space/lr300_space.entity.prefab", 1407888186U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11424, 5 },
-    { "m16a2.entity", "M16A2", "Uncategorized", "assets/prefabs/weapons/m16a2/m16a2.entity.prefab", 4258809631U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11429, 5 },
-    { "m249.entity", "M249", "Uncategorized", "assets/prefabs/weapons/m249/m249.entity.prefab", 1440914039U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11434, 5 },
-    { "m39.entity", "M39 Rifle", "Uncategorized", "assets/prefabs/weapons/m39 emr/m39.entity.prefab", 1517089664U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11439, 5 },
-    { "m4_shotgun.entity", "M4 Shotgun", "Uncategorized", "assets/prefabs/weapons/m4 shotgun/m4_shotgun.entity.prefab", 2416998201U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11444, 5 },
-    { "m92.entity", "M92 Pistol", "Uncategorized", "assets/prefabs/weapons/m92/m92.entity.prefab", 2293870814U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11449, 5 },
-    { "mace.entity", "Mace", "Uncategorized", "assets/prefabs/weapons/mace/mace.entity.prefab", 2927698044U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11454, 5 },
-    { "machete.weapon", "Machete", "Uncategorized", "assets/prefabs/weapons/machete/machete.weapon.prefab", 2942508801U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11459, 5 },
-    { "honeybandage.entity", "Medical Honey Bandage", "Uncategorized", "assets/prefabs/weapons/medicalhoneybandage/honeybandage.entity.prefab", 89391648U, true, true, false, false, false, false, false, false, "static", true, "MedicalTool", 11464, 5 },
-    { "metalshield.entity", "Metal Shield", "Uncategorized", "assets/prefabs/weapons/metal_shield/metalshield.entity.prefab", 3703020820U, true, true, false, false, false, false, false, false, "static", true, "Shield", 11469, 4 },
-    { "militaryflamethrower.entity", "Military Flame Thrower", "Uncategorized", "assets/prefabs/weapons/military flamethrower/militaryflamethrower.entity.prefab", 1710208928U, true, true, false, false, false, false, false, false, "static", true, "FlameThrower", 11473, 5 },
-    { "mini_crossbow.entity", "Mini Crossbow", "Uncategorized", "assets/prefabs/weapons/mini crossbow/mini_crossbow.entity.prefab", 4274044420U, true, true, false, false, false, false, false, false, "dynamic", false, "MiniCrossbow", 11478, 6 },
-    { "minigun.entity", "Minigun", "Uncategorized", "assets/prefabs/weapons/minigun/minigun.entity.prefab", 4007138847U, true, true, false, false, false, false, false, false, "dynamic", false, "SpinUpWeapon", 11484, 6 },
-    { "grenade.molotov.deployed", "grenade molotov deployed", "Uncategorized", "assets/prefabs/weapons/molotov cocktail/grenade.molotov.deployed.prefab", 2144253630U, true, true, false, true, false, true, false, false, "dynamic", false, "FlameExplosive", 11490, 4 },
-    { "grenade.molotov.entity", "Molotov Cocktail", "Uncategorized", "assets/prefabs/weapons/molotov cocktail/grenade.molotov.entity.prefab", 4104126979U, true, true, false, false, false, false, false, false, "static", true, "MolotovCocktail", 11494, 7 },
-    { "mp5.entity", "MP5A4", "Uncategorized", "assets/prefabs/weapons/mp5/mp5.entity.prefab", 2545523575U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11501, 5 },
-    { "nailgun.entity", "Nailgun", "Uncategorized", "assets/prefabs/weapons/nailgun/nailgun.entity.prefab", 4279856314U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11506, 5 },
-    { "paddle.entity", "Paddle", "Uncategorized", "assets/prefabs/weapons/paddle/paddle.entity.prefab", 1850172004U, true, true, false, false, false, false, false, false, "static", true, "Paddle", 11511, 6 },
-    { "paintballgun.entity", "Paintball Gun", "Uncategorized", "assets/prefabs/weapons/paintball_gun/paintballgun.entity.prefab", 3749252572U, true, true, false, false, false, false, false, false, "dynamic", false, "PaintballGun", 11517, 6 },
-    { "pickaxe.entity", "Pickaxe", "Uncategorized", "assets/prefabs/weapons/pickaxe/pickaxe.entity.prefab", 1587077350U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11523, 5 },
-    { "shotgun_waterpipe.entity", "Waterpipe Shotgun", "Uncategorized", "assets/prefabs/weapons/pipe shotgun/shotgun_waterpipe.entity.prefab", 2696589892U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11528, 5 },
-    { "python.entity", "Python Revolver", "Uncategorized", "assets/prefabs/weapons/python/python.entity.prefab", 3305012504U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11533, 5 },
-    { "reinforcedwoodshield.entity", "Reinforced Wooden Shield", "Uncategorized", "assets/prefabs/weapons/reinforcedwoodshield/reinforcedwoodshield.entity.prefab", 2274489607U, true, true, false, false, false, false, false, false, "static", true, "Shield", 11538, 4 },
-    { "pistol_revolver.entity", "Revolver", "Uncategorized", "assets/prefabs/weapons/revolver/pistol_revolver.entity.prefab", 2477536592U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11542, 5 },
-    { "rock.entity", "Rock", "Uncategorized", "assets/prefabs/weapons/rock/rock.entity.prefab", 3940068399U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11547, 5 },
-    { "rock.a.jungle.entity", "Jungle Rock", "Uncategorized", "assets/prefabs/weapons/rock/skins/rock_a_jungle/rock.a.jungle.entity.prefab", 1746720686U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11552, 5 },
-    { "rocket_launcher.entity", "Rocket Launcher", "Uncategorized", "assets/prefabs/weapons/rocketlauncher/rocket_launcher.entity.prefab", 601440135U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseLauncher", 11557, 6 },
-    { "rocket_launcher_dragon.entity", "Dragon Rocket Launcher", "Uncategorized", "assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/rocket_launcher_dragon.entity.prefab", 3704640358U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseLauncher", 11563, 6 },
-    { "rpg7.entity", "RPG Launcher", "Uncategorized", "assets/prefabs/weapons/rocketlauncher/skins/rpg7/rpg7.entity.prefab", 3445264346U, true, true, false, false, false, false, false, false, "dynamic", false, "RPGLauncher", 11569, 7 },
-    { "axe_salvaged.entity", "Salvaged Axe", "Uncategorized", "assets/prefabs/weapons/salvaged_axe/axe_salvaged.entity.prefab", 3826414185U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11576, 5 },
-    { "hammer_salvaged.entity", "Salvaged Hammer", "Uncategorized", "assets/prefabs/weapons/salvaged_hammer/hammer_salvaged.entity.prefab", 1744180387U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11581, 5 },
-    { "icepick_salvaged.entity", "Salvaged Icepick", "Uncategorized", "assets/prefabs/weapons/salvaged_icepick/icepick_salvaged.entity.prefab", 109244214U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11586, 5 },
-    { "explosive.satchel.deployed", "explosive satchel deployed", "Uncategorized", "assets/prefabs/weapons/satchelcharge/explosive.satchel.deployed.prefab", 2742759844U, true, true, false, true, false, true, false, false, "dynamic", false, "DudTimedExplosive", 11591, 4 },
-    { "explosive.satchel.entity", "Satchel Charge", "Uncategorized", "assets/prefabs/weapons/satchelcharge/explosive.satchel.entity.prefab", 2671523489U, true, true, false, false, false, false, false, false, "static", true, "ThrownWeapon", 11595, 5 },
-    { "shotgun_pump.entity", "Pump Shotgun", "Uncategorized", "assets/prefabs/weapons/sawnoff_shotgun/shotgun_pump.entity.prefab", 554582418U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11600, 5 },
-    { "pistol_semiauto.entity", "Semi-Automatic Pistol", "Uncategorized", "assets/prefabs/weapons/semi auto pistol/pistol_semiauto.entity.prefab", 563371667U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11605, 5 },
-    { "pistol_semiauto.a.m15.entity", "M15 Semi-Automatic Pistol", "Uncategorized", "assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/pistol_semiauto.a.m15.entity.prefab", 2343718176U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11610, 5 },
-    { "semi_auto_rifle.entity", "Semi-Automatic Rifle", "Uncategorized", "assets/prefabs/weapons/semi auto rifle/semi_auto_rifle.entity.prefab", 4231282088U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11615, 5 },
-    { "sks.entity", "SKS", "Uncategorized", "assets/prefabs/weapons/sks/sks.entity.prefab", 4228529517U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11620, 5 },
-    { "smg.entity", "Custom SMG", "Uncategorized", "assets/prefabs/weapons/smg/smg.entity.prefab", 3759841439U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11625, 5 },
-    { "spas12.entity", "Spas-12 Shotgun", "Uncategorized", "assets/prefabs/weapons/spas12/spas12.entity.prefab", 1877401463U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11630, 5 },
-    { "speargun.entity", "Speargun", "Uncategorized", "assets/prefabs/weapons/speargun/speargun.entity.prefab", 4262383355U, true, true, false, false, false, false, false, false, "dynamic", false, "Speargun", 11635, 8 },
-    { "stonehatchet.entity", "Stone Hatchet", "Uncategorized", "assets/prefabs/weapons/stone hatchet/stonehatchet.entity.prefab", 3540736579U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11643, 5 },
-    { "stone_pickaxe.entity", "Stone Pickaxe", "Uncategorized", "assets/prefabs/weapons/stone pickaxe/stone_pickaxe.entity.prefab", 1450582435U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11648, 5 },
-    { "spear_stone.entity", "Stone Spear", "Uncategorized", "assets/prefabs/weapons/stone spear/spear_stone.entity.prefab", 1943636975U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11653, 5 },
-    { "longsword.entity", "Longsword", "Uncategorized", "assets/prefabs/weapons/sword big/longsword.entity.prefab", 3395979968U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11658, 5 },
-    { "salvaged_sword.entity", "Salvaged Sword", "Uncategorized", "assets/prefabs/weapons/sword/salvaged_sword.entity.prefab", 1663991785U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11663, 5 },
-    { "t1_smg.entity", "Handmade SMG", "Uncategorized", "assets/prefabs/weapons/t1 smg/t1_smg.entity.prefab", 4251501342U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11668, 5 },
-    { "thompson.entity", "Thompson", "Uncategorized", "assets/prefabs/weapons/thompson/thompson.entity.prefab", 3243900999U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11673, 5 },
-    { "toolgun.entity", "Garry's Mod Tool Gun", "Uncategorized", "assets/prefabs/weapons/toolgun/toolgun.entity.prefab", 417347909U, true, true, false, false, false, false, false, false, "static", true, "Toolgun", 11678, 7 },
-    { "industrial_torch.entity", "Industrial Torch", "Uncategorized", "assets/prefabs/weapons/torch/skins/industrial_torch/industrial_torch.entity.prefab", 1288011403U, true, true, false, false, false, false, false, false, "static", true, "IndustrialTorchWeapon", 11685, 8 },
-    { "torch.entity", "Torch", "Uncategorized", "assets/prefabs/weapons/torch/torch.entity.prefab", 1543342082U, true, true, false, false, false, false, false, false, "static", true, "TorchWeapon", 11693, 7 },
-    { "krieg_chainsword.entity", "Krieg chainsword", "Uncategorized", "assets/prefabs/weapons/warhammer/krieg chainsword/krieg_chainsword.entity.prefab", 4148293472U, true, true, false, false, false, false, false, false, "static", true, "Chainsaw", 11700, 6 },
-    { "krieg_shotgun.entity", "Krieg Shotgun", "Uncategorized", "assets/prefabs/weapons/warhammer/krieg shotgun/krieg_shotgun.entity.prefab", 1896956209U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11706, 5 },
-    { "waterball", "waterball", "Uncategorized", "assets/prefabs/weapons/waterbucket/waterball.prefab", 556797242U, true, true, false, true, false, true, false, false, "dynamic", false, "WaterBall", 11711, 3 },
-    { "waterbucket.entity", "Water Bucket", "Uncategorized", "assets/prefabs/weapons/waterbucket/waterbucket.entity.prefab", 1182699531U, true, true, false, false, false, false, false, false, "static", true, "BaseLiquidVessel", 11714, 5 },
-    { "woodenshield.entity", "Wooden Shield", "Uncategorized", "assets/prefabs/weapons/wooden shield/woodenshield.entity.prefab", 3637711865U, true, true, false, false, false, false, false, false, "static", true, "Shield", 11719, 4 },
-    { "spear_wooden.entity", "Wooden Spear", "Uncategorized", "assets/prefabs/weapons/wooden spear/spear_wooden.entity.prefab", 2828546575U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11723, 5 },
-    { "bear.corpse", "bear corpse", "Uncategorized", "assets/rust.ai/agents/bear/bear.corpse.prefab", 4102891990U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 11728, 4 },
-    { "bear", "bear", "Uncategorized", "assets/rust.ai/agents/bear/bear.prefab", 1799741974U, true, true, false, false, false, false, true, false, "dynamic", false, "Bear", 11732, 6 },
-    { "bear_tutorial.corpse", "bear tutorial corpse", "Uncategorized", "assets/rust.ai/agents/bear/bear_tutorial.corpse.prefab", 3849045871U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 11738, 4 },
-    { "bear_tutorial", "bear tutorial", "Uncategorized", "assets/rust.ai/agents/bear/bear_tutorial.prefab", 3752179891U, true, true, false, false, false, false, true, false, "dynamic", false, "Bear", 11742, 6 },
-    { "polarbear.corpse", "polarbear corpse", "Uncategorized", "assets/rust.ai/agents/bear/polarbear.corpse.prefab", 2275652760U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 11748, 4 },
-    { "polarbear", "polarbear", "Uncategorized", "assets/rust.ai/agents/bear/polarbear.prefab", 749308997U, true, true, false, false, false, false, true, false, "dynamic", false, "Polarbear", 11752, 6 },
-    { "boar.corpse", "boar corpse", "Uncategorized", "assets/rust.ai/agents/boar/boar.corpse.prefab", 3307373733U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 11758, 4 },
-    { "boar", "boar", "Uncategorized", "assets/rust.ai/agents/boar/boar.prefab", 502341109U, true, true, false, false, false, false, true, false, "dynamic", false, "Boar", 11762, 6 },
-    { "bottest", "bottest", "Uncategorized", "assets/rust.ai/agents/bottest/bottest.prefab", 1784396605U, true, true, false, true, true, false, false, false, "dynamic", false, "BasePlayer", 11768, 4 },
-    { "chicken.corpse", "chicken corpse", "Uncategorized", "assets/rust.ai/agents/chicken/chicken.corpse.prefab", 345706504U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 11772, 4 },
-    { "chicken.corpse.tutorial", "chicken corpse tutorial", "Uncategorized", "assets/rust.ai/agents/chicken/chicken.corpse.tutorial.prefab", 1502667878U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 11776, 4 },
-    { "chicken", "chicken", "Uncategorized", "assets/rust.ai/agents/chicken/chicken.prefab", 152398164U, true, true, false, false, false, false, true, false, "dynamic", false, "Chicken", 11780, 6 },
-    { "chicken.tutorial", "chicken tutorial", "Uncategorized", "assets/rust.ai/agents/chicken/chicken.tutorial.prefab", 2830011179U, true, true, false, false, false, false, true, false, "dynamic", false, "Chicken", 11786, 6 },
-    { "crocodile.corpse", "crocodile corpse", "Uncategorized", "assets/rust.ai/agents/crocodile/crocodile.corpse.prefab", 2697812644U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 11792, 4 },
-    { "crocodile", "Crocodile", "Uncategorized", "assets/rust.ai/agents/crocodile/crocodile.prefab", 43745372U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Crocodile", 11796, 5 },
-    { "shark.corpse", "shark corpse", "Uncategorized", "assets/rust.ai/agents/fish/shark.corpse.prefab", 3051190050U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 11801, 4 },
-    { "shark_unused", "shark unused", "Uncategorized", "assets/rust.ai/agents/fish/shark_unused.prefab", 1738989765U, true, true, false, false, false, false, true, false, "dynamic", false, "BaseFishNPC", 11805, 5 },
-    { "simpleshark", "simpleshark", "Uncategorized", "assets/rust.ai/agents/fish/simpleshark.prefab", 947646353U, true, true, false, false, false, false, false, false, "dynamic", false, "SimpleShark", 11810, 4 },
-    { "npc_bandit_guard", "npc bandit guard", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/banditguard/npc_bandit_guard.prefab", 412745708U, true, true, false, true, true, false, true, false, "dynamic", false, "BanditGuard", 11814, 7 },
-    { "npcgrenade.smoke", "npcgrenade smoke", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/npclevelscript/npcgrenade.smoke.prefab", 1630143092U, true, true, false, false, false, false, false, false, "dynamic", false, "Rust.Ai.Gen2.NpcGrenade", 11821, 3 },
-    { "scientist2.corpse", "scientist2 corpse", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.corpse.prefab", 3554738798U, true, true, false, false, false, false, false, false, "dynamic", false, "LootableCorpse", 11824, 5 },
-    { "scientist2.grenade.f1.deployed", "scientist2 grenade f1 deployed", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.grenade.f1.deployed.prefab", 3292751488U, true, true, false, true, false, true, false, false, "dynamic", false, "TimedExplosive", 11829, 3 },
-    { "scientist2.grenade.smoke.deployed", "scientist2 grenade smoke deployed", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.grenade.smoke.deployed.prefab", 1013743524U, true, true, false, true, false, true, false, false, "dynamic", false, "SmokeGrenade", 11832, 4 },
-    { "scientist2.heavy.corpse", "scientist2 heavy corpse", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.heavy.corpse.prefab", 1179669532U, true, true, false, false, false, false, false, false, "dynamic", false, "LootableCorpse", 11836, 5 },
-    { "scientist2.heavy", "Heavy Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.heavy.prefab", 2254599158U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.ScientistNPC2", 11841, 5 },
-    { "scientist2", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.prefab", 4227413660U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.ScientistNPC2", 11846, 5 },
-    { "scientist2.shotgun", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.shotgun.prefab", 3441714695U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.ScientistNPC2", 11851, 5 },
-    { "scientistnpc_arena", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_arena.prefab", 3430609603U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11856, 7 },
-    { "scientistnpc_bradley", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_bradley.prefab", 1126473739U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11863, 7 },
-    { "scientistnpc_bradley_heavy", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_bradley_heavy.prefab", 3572389335U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11870, 7 },
-    { "scientistnpc_cargo", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_cargo.prefab", 3623670799U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11877, 7 },
-    { "scientistnpc_cargo_turret_any", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_cargo_turret_any.prefab", 1639447304U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11884, 7 },
-    { "scientistnpc_cargo_turret_lr300", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_cargo_turret_lr300.prefab", 881071619U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11891, 7 },
-    { "scientistnpc_ch47_gunner", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_ch47_gunner.prefab", 1017671955U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11898, 7 },
-    { "scientistnpc_excavator", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_excavator.prefab", 4293908444U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11905, 7 },
-    { "scientistnpc_full_any", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_full_any.prefab", 1539172658U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11912, 7 },
-    { "scientistnpc_full_lr300", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_full_lr300.prefab", 3763080634U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11919, 7 },
-    { "scientistnpc_full_mp5", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_full_mp5.prefab", 3595426380U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11926, 7 },
-    { "scientistnpc_full_pistol", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_full_pistol.prefab", 712785714U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11933, 7 },
-    { "scientistnpc_full_shotgun", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_full_shotgun.prefab", 1410044857U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11940, 7 },
-    { "scientistnpc_heavy", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_heavy.prefab", 1536035819U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11947, 7 },
-    { "scientistnpc_junkpile_pistol", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_junkpile_pistol.prefab", 2066159302U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11954, 7 },
-    { "scientistnpc_oilrig", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_oilrig.prefab", 548379897U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11961, 7 },
-    { "scientistnpc_outbreak", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_outbreak.prefab", 2392284122U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11968, 7 },
-    { "scientistnpc_patrol", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_patrol.prefab", 4272904018U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11975, 7 },
-    { "scientistnpc_patrol_arctic", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_patrol_arctic.prefab", 387319993U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11982, 7 },
-    { "scientistnpc_peacekeeper", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_peacekeeper.prefab", 2390854225U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11989, 7 },
-    { "scientistnpc_ptboat", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_ptboat.prefab", 499806986U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11996, 7 },
-    { "scientistnpc_rhib", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_rhib.prefab", 1361476945U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12003, 7 },
-    { "scientistnpc_roam", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_roam.prefab", 4199494415U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12010, 7 },
-    { "scientistnpc_roam_nvg_variant", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_roam_nvg_variant.prefab", 4134517186U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12017, 7 },
-    { "scientistnpc_roamtethered", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_roamtethered.prefab", 529928930U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12024, 7 },
-    { "npc_tunneldweller", "Tunnel Dweller", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/tunneldweller/npc_tunneldweller.prefab", 732025282U, true, true, false, true, true, false, true, false, "dynamic", false, "TunnelDweller", 12031, 7 },
-    { "npc_tunneldwellerspawned", "Tunnel Dweller", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/tunneldweller/npc_tunneldwellerspawned.prefab", 1934869703U, true, true, false, true, true, false, true, false, "dynamic", false, "TunnelDweller", 12038, 7 },
-    { "npc_underwaterdweller", "Underwater Dweller", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/underwaterdweller/npc_underwaterdweller.prefab", 1605597847U, true, true, false, true, true, false, true, false, "dynamic", false, "UnderwaterDweller", 12045, 7 },
-    { "npcplayertest", "npcplayertest", "Uncategorized", "assets/rust.ai/agents/npcplayer/npcplayertest.prefab", 1256759028U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCPlayer", 12052, 5 },
-    { "frankensteinpet", "frankensteinpet", "Uncategorized", "assets/rust.ai/agents/npcplayer/pet/frankensteinpet.prefab", 3489787657U, true, true, false, true, true, false, true, false, "dynamic", false, "FrankensteinPet", 12057, 7 },
-    { "frankensteinpet_corpse", "frankensteinpet corpse", "Uncategorized", "assets/rust.ai/agents/npcplayer/pet/frankensteinpet_corpse.prefab", 3842948583U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCPlayerCorpse", 12064, 7 },
-    { "frankensteinpetmarker", "frankensteinpetmarker", "Uncategorized", "assets/rust.ai/agents/npcplayer/pet/frankensteinpetmarker.prefab", 3667371159U, true, true, false, false, false, false, false, false, "dynamic", false, "MapMarkerPet", 12071, 4 },
-    { "panther.corpse", "panther corpse", "Uncategorized", "assets/rust.ai/agents/panther/panther.corpse.prefab", 2835842148U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 12075, 4 },
-    { "panther", "Panther", "Uncategorized", "assets/rust.ai/agents/panther/panther.prefab", 711690240U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Panther", 12079, 5 },
-    { "snake.corpse", "snake corpse", "Uncategorized", "assets/rust.ai/agents/snake/snake.corpse.prefab", 1265808053U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 12084, 4 },
-    { "snake.entity", "snake entity", "Uncategorized", "assets/rust.ai/agents/snake/snake.entity.prefab", 711144264U, true, true, false, false, false, false, false, false, "dynamic", false, "SnakeHazard", 12088, 5 },
-    { "stag.corpse", "stag corpse", "Uncategorized", "assets/rust.ai/agents/stag/stag.corpse.prefab", 784238137U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 12093, 4 },
-    { "stag", "stag", "Uncategorized", "assets/rust.ai/agents/stag/stag.prefab", 1378621008U, true, true, false, false, false, false, true, false, "dynamic", false, "Stag", 12097, 6 },
-    { "tigerclawmark", "tigerclawmark", "Uncategorized", "assets/rust.ai/agents/tiger/clawmark/tigerclawmark.prefab", 4224089064U, true, true, false, false, false, false, false, false, "dynamic", false, "ClawMark", 12103, 3 },
-    { "tiger.corpse", "tiger corpse", "Uncategorized", "assets/rust.ai/agents/tiger/tiger.corpse.prefab", 2675550198U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 12106, 4 },
-    { "tiger", "Tiger", "Uncategorized", "assets/rust.ai/agents/tiger/tiger.prefab", 3242487723U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Tiger", 12110, 5 },
-    { "wolf.corpse", "wolf corpse", "Uncategorized", "assets/rust.ai/agents/wolf/wolf.corpse.prefab", 4107384580U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 12115, 4 },
-    { "wolf2", "Wolf", "Uncategorized", "assets/rust.ai/agents/wolf/wolf2.prefab", 2288788453U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Wolf2", 12119, 5 },
-    { "zombie.corpse", "zombie corpse", "Uncategorized", "assets/rust.ai/agents/zombie/zombie.corpse.prefab", 81333250U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 12124, 4 },
-    { "zombie", "zombie", "Uncategorized", "assets/rust.ai/agents/zombie/zombie.prefab", 2805320019U, true, true, false, false, false, false, true, false, "dynamic", false, "Zombie", 12128, 6 },
-    { "airdrop rate terminal", "airdrop rate terminal", "Uncategorized", "assets/scenes/prefabs/airfield/maintainables/airdrop rate terminal.prefab", 520240521U, true, true, false, false, false, false, false, false, "static", true, "AirfieldAirdropTerminal", 12134, 7 },
-    { "chinook call terminal", "chinook call terminal", "Uncategorized", "assets/scenes/prefabs/airfield/maintainables/chinook call terminal.prefab", 1580739U, true, true, false, false, false, false, false, false, "static", true, "AirfieldCallChinookTerminal", 12141, 7 },
-    { "gasstationcarlift", "gasstationcarlift", "Uncategorized", "assets/scenes/prefabs/gas_station/maintainables/gasstationcarlift.prefab", 880072591U, true, true, false, false, false, false, false, false, "static", true, "GasStationCarGarage", 12148, 8 },
-    { "gasstationlootspawnswitcher", "gasstationlootspawnswitcher", "Uncategorized", "assets/scenes/prefabs/gas_station/maintainables/gasstationlootspawnswitcher.prefab", 3344299633U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 12156, 6 },
-    { "gasstationwidegaragedoor", "gasstationwidegaragedoor", "Uncategorized", "assets/scenes/prefabs/gas_station/maintainables/gasstationwidegaragedoor.prefab", 2432661514U, true, true, false, false, false, false, false, false, "static", true, "Door", 12162, 7 },
-    { "coaling_tower_mechanism.entity", "coaling tower mechanism entity", "Uncategorized", "assets/scenes/prefabs/trainyard/coaling_tower_mechanism.entity.prefab", 4234742552U, true, true, false, false, false, false, false, false, "static", true, "CoalingTower", 12169, 6 },
-    { "coaling_tower_fuel_storage.entity", "coaling tower fuel storage entity", "Uncategorized", "assets/scenes/prefabs/trainyard/subents/coaling_tower_fuel_storage.entity.prefab", 597741544U, true, true, false, false, false, false, false, false, "static", true, "PercentFullStorageContainer", 12175, 6 },
-    { "coaling_tower_ore_storage.entity", "coaling tower ore storage entity", "Uncategorized", "assets/scenes/prefabs/trainyard/subents/coaling_tower_ore_storage.entity.prefab", 3609973791U, true, true, false, false, false, false, false, false, "static", true, "OreHopper", 12181, 7 },
-    { "watertreatment_pipe_waterproducer", "watertreatment pipe waterproducer", "Uncategorized", "assets/scenes/prefabs/water treatment plant/maintainables/watertreatment_pipe_waterproducer.prefab", 1732020479U, true, true, false, false, false, false, false, false, "static", true, "WaterTreatmentWaterCatcher", 12188, 9 },
-    { "wtp_watertankspinner", "wtp watertankspinner", "Uncategorized", "assets/scenes/prefabs/water treatment plant/maintainables/wtp_watertankspinner.prefab", 1825376703U, true, true, false, false, false, false, false, false, "static", true, "WaterTreatmentWaterTank", 12197, 6 },
-    { "f15e", "f15e", "Uncategorized", "assets/scripts/entity/misc/f15/f15e.prefab", 2100330297U, true, true, false, false, false, false, false, false, "static", true, "F15", 12203, 4 },
-    { "visualshelvestest", "visualshelvestest", "Uncategorized", "assets/scripts/entity/misc/visualstoragecontainer/visualshelvestest.prefab", 3989929317U, true, true, false, false, false, false, false, false, "static", true, "VisualStorageContainer", 12207, 7 }
+    { "animalfence.deployed", "animalfence deployed", "Uncategorized", "assets/prefabs/deployable/animal fence/animalfence.deployed.prefab", 326719168U, true, true, false, false, false, false, false, false, "static", true, "AnimalFence", 4871, 7 },
+    { "animalfencegate.deployed", "animalfencegate deployed", "Uncategorized", "assets/prefabs/deployable/animal fence/animalfencegate.deployed.prefab", 1227785423U, true, true, false, false, false, false, false, false, "static", true, "AnimalFenceGate", 4878, 9 },
+    { "barricade.concrete", "barricade concrete", "Uncategorized", "assets/prefabs/deployable/barricades/barricade.concrete.prefab", 2057881102U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 4887, 5 },
+    { "barricade.cover.wood", "barricade cover wood", "Uncategorized", "assets/prefabs/deployable/barricades/barricade.cover.wood.prefab", 1581233281U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 4892, 5 },
+    { "barricade.cover.wood_double", "barricade cover wood double", "Uncategorized", "assets/prefabs/deployable/barricades/barricade.cover.wood_double.prefab", 2982625522U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 4897, 5 },
+    { "barricade.medieval", "barricade medieval", "Uncategorized", "assets/prefabs/deployable/barricades/barricade.medieval.prefab", 56566310U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 4902, 5 },
+    { "barricade.metal", "barricade metal", "Uncategorized", "assets/prefabs/deployable/barricades/barricade.metal.prefab", 3824663394U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 4907, 5 },
+    { "barricade.sandbags.half", "barricade sandbags half", "Uncategorized", "assets/prefabs/deployable/barricades/barricade.sandbags.half.prefab", 3160617360U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 4912, 5 },
+    { "barricade.sandbags.pillbox", "barricade sandbags pillbox", "Uncategorized", "assets/prefabs/deployable/barricades/barricade.sandbags.pillbox.prefab", 1200198402U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 4917, 5 },
+    { "barricade.sandbags", "barricade sandbags", "Uncategorized", "assets/prefabs/deployable/barricades/barricade.sandbags.prefab", 2335812770U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 4922, 5 },
+    { "barricade.sandbags.three.quarter", "barricade sandbags three quarter", "Uncategorized", "assets/prefabs/deployable/barricades/barricade.sandbags.three.quarter.prefab", 4010288665U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 4927, 5 },
+    { "barricade.stone", "barricade stone", "Uncategorized", "assets/prefabs/deployable/barricades/barricade.stone.prefab", 1206527181U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 4932, 5 },
+    { "barricade.wood", "barricade wood", "Uncategorized", "assets/prefabs/deployable/barricades/barricade.wood.prefab", 4254045167U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 4937, 5 },
+    { "barricade.woodwire", "barricade woodwire", "Uncategorized", "assets/prefabs/deployable/barricades/barricade.woodwire.prefab", 1202834203U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 4942, 5 },
+    { "bbq.campermodule", "bbq campermodule", "Uncategorized", "assets/prefabs/deployable/bbq/bbq.campermodule.prefab", 2279735483U, true, true, false, false, false, false, false, false, "static", true, "ModularCarOven", 4947, 7 },
+    { "bbq.deployed", "bbq deployed", "Uncategorized", "assets/prefabs/deployable/bbq/bbq.deployed.prefab", 2409469892U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 4954, 6 },
+    { "beartrap", "beartrap", "Uncategorized", "assets/prefabs/deployable/bear trap/beartrap.prefab", 922529517U, true, true, false, false, false, false, false, false, "static", true, "BearTrap", 4960, 6 },
+    { "bed_deployed.corpse", "bed deployed corpse", "Uncategorized", "assets/prefabs/deployable/bed/bed_deployed.corpse.prefab", 1642908740U, true, true, false, false, false, false, false, false, "static", true, "SleepingBag", 4966, 5 },
+    { "bed_deployed", "bed deployed", "Uncategorized", "assets/prefabs/deployable/bed/bed_deployed.prefab", 3928883189U, true, true, false, false, false, false, false, false, "static", true, "SleepingBag", 4971, 5 },
+    { "beehive.deployed", "beehive deployed", "Uncategorized", "assets/prefabs/deployable/beehive/beehive.deployed.prefab", 3773792636U, true, true, false, false, false, false, false, false, "static", true, "Beehive", 4976, 6 },
+    { "biofuel_generator.deployed", "biofuel generator deployed", "Uncategorized", "assets/prefabs/deployable/biofuel generator/biofuel_generator.deployed.prefab", 4142289329U, true, true, false, false, false, false, false, false, "static", true, "BiofuelGenerator", 4982, 7 },
+    { "biofuel_generator.stirmount", "biofuel generator stirmount", "Uncategorized", "assets/prefabs/deployable/biofuel generator/subents/biofuel_generator.stirmount.prefab", 2810408234U, true, true, false, false, false, false, false, false, "static", true, "BiofuelStirMount", 4989, 5 },
+    { "boatbuildingstation.deployed", "boatbuildingstation deployed", "Uncategorized", "assets/prefabs/deployable/boat building platform/boatbuildingstation.deployed.prefab", 75540915U, true, true, false, false, false, false, false, false, "dynamic", false, "BoatBuildingStation", 4994, 5 },
+    { "boatbuildingstation.static", "boatbuildingstation static", "Uncategorized", "assets/prefabs/deployable/boat building platform/boatbuildingstation.static.prefab", 1483764430U, true, true, false, false, false, false, false, false, "dynamic", false, "BoatBuildingStation", 4999, 5 },
+    { "anchor.deployed", "anchor deployed", "Uncategorized", "assets/prefabs/deployable/boatbuilding/anchor/anchor.deployed.prefab", 2197720167U, true, true, false, false, false, false, false, false, "static", true, "Anchor", 5004, 5 },
+    { "cannon.deployed", "cannon deployed", "Uncategorized", "assets/prefabs/deployable/boatbuilding/cannon/cannon.deployed.prefab", 2936999800U, true, true, false, false, false, false, false, false, "dynamic", false, "Cannon", 5009, 8 },
+    { "cannon.land.static", "cannon land static", "Uncategorized", "assets/prefabs/deployable/boatbuilding/cannon/cannon.land.static.prefab", 4179234465U, true, true, false, false, false, false, false, false, "dynamic", false, "Cannon", 5017, 8 },
+    { "cannonball", "cannonball", "Uncategorized", "assets/prefabs/deployable/boatbuilding/cannon/cannonball.prefab", 1199568476U, true, true, false, false, false, false, false, false, "static", true, "TimedExplosive", 5025, 3 },
+    { "plank.deployed", "plank deployed", "Uncategorized", "assets/prefabs/deployable/boatbuilding/plank/plank.deployed.prefab", 1783121496U, true, true, false, false, false, false, false, false, "static", true, "Plank", 5028, 5 },
+    { "sail.deployed", "sail deployed", "Uncategorized", "assets/prefabs/deployable/boatbuilding/sail/sail.deployed.prefab", 60611771U, true, true, false, false, false, false, false, false, "static", true, "Sail", 5033, 5 },
+    { "small_ramp.deployed", "small ramp deployed", "Uncategorized", "assets/prefabs/deployable/boatbuilding/small_ramp/small_ramp.deployed.prefab", 1294413327U, true, true, false, false, false, false, false, false, "static", true, "SmallRamp", 5038, 8 },
+    { "smallengine.deployed", "smallengine deployed", "Uncategorized", "assets/prefabs/deployable/boatbuilding/smallengine/smallengine.deployed.prefab", 89844878U, true, true, false, false, false, false, false, false, "static", true, "SmallEngine", 5046, 5 },
+    { "fuel_storage", "fuel storage", "Uncategorized", "assets/prefabs/deployable/boatbuilding/smallengine/subents/fuel_storage.prefab", 2114674288U, true, true, false, false, false, false, false, false, "static", true, "StorageContainer", 5051, 5 },
+    { "steeringwheel.deployed", "steeringwheel deployed", "Uncategorized", "assets/prefabs/deployable/boatbuilding/steeringwheel/steeringwheel.deployed.prefab", 1346716961U, true, true, false, false, false, false, false, false, "static", true, "SteeringWheel", 5056, 5 },
+    { "campfire", "campfire", "Uncategorized", "assets/prefabs/deployable/campfire/campfire.prefab", 4160694184U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 5061, 6 },
+    { "_cardtable_base", "cardtable base", "Uncategorized", "assets/prefabs/deployable/card table/_cardtable_base.prefab", 1708930778U, true, true, false, false, false, false, false, false, "dynamic", false, "CardTable", 5067, 7 },
+    { "cardtable.deployed", "cardtable deployed", "Uncategorized", "assets/prefabs/deployable/card table/cardtable.deployed.prefab", 1845856065U, true, true, false, false, false, false, false, false, "dynamic", false, "CardTable", 5074, 7 },
+    { "cardtable.static_configa", "cardtable static configa", "Uncategorized", "assets/prefabs/deployable/card table/cardtable.static_configa.prefab", 4262635170U, true, true, false, false, false, false, false, false, "dynamic", false, "CardTable", 5081, 7 },
+    { "cardtable.static_configa_hidden", "cardtable static configa hidden", "Uncategorized", "assets/prefabs/deployable/card table/cardtable.static_configa_hidden.prefab", 2597581320U, true, true, false, false, false, false, false, false, "dynamic", false, "CardTable", 5088, 7 },
+    { "cardtable.static_configb", "cardtable static configb", "Uncategorized", "assets/prefabs/deployable/card table/cardtable.static_configb.prefab", 2447998865U, true, true, false, false, false, false, false, false, "dynamic", false, "CardTable", 5095, 7 },
+    { "cardtable.static_configc", "cardtable static configc", "Uncategorized", "assets/prefabs/deployable/card table/cardtable.static_configc.prefab", 1390750221U, true, true, false, false, false, false, false, false, "dynamic", false, "CardTable", 5102, 7 },
+    { "cardtable.static_configd", "cardtable static configd", "Uncategorized", "assets/prefabs/deployable/card table/cardtable.static_configd.prefab", 690460714U, true, true, false, false, false, false, false, false, "dynamic", false, "CardTable", 5109, 7 },
+    { "cardgameplayerstorage", "cardgameplayerstorage", "Uncategorized", "assets/prefabs/deployable/card table/subents/cardgameplayerstorage.prefab", 3031328897U, true, true, false, false, false, false, false, false, "dynamic", false, "CardGamePlayerStorage", 5116, 6 },
+    { "cardgamepotstorage", "cardgamepotstorage", "Uncategorized", "assets/prefabs/deployable/card table/subents/cardgamepotstorage.prefab", 1584910940U, true, true, false, false, false, false, false, false, "static", true, "StorageContainer", 5122, 5 },
+    { "cardtableseat", "cardtableseat", "Uncategorized", "assets/prefabs/deployable/card table/subents/cardtableseat.prefab", 2254147427U, true, true, false, false, false, false, false, false, "static", true, "CardTableSeat", 5127, 6 },
+    { "cctv.static", "cctv static", "Uncategorized", "assets/prefabs/deployable/cctvcamera/cctv.static.prefab", 1096666154U, true, true, false, false, false, false, false, false, "static", true, "CCTV_RC", 5133, 7 },
+    { "cctv_deployed", "cctv deployed", "Uncategorized", "assets/prefabs/deployable/cctvcamera/cctv_deployed.prefab", 2633567939U, true, true, false, false, false, false, false, false, "static", true, "CCTV_RC", 5140, 7 },
+    { "ceilinglight.deployed", "ceilinglight deployed", "Uncategorized", "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab", 3953213470U, true, true, false, false, false, false, false, false, "static", true, "CeilingLight", 5147, 6 },
+    { "chair.deployed", "chair deployed", "Uncategorized", "assets/prefabs/deployable/chair/chair.deployed.prefab", 1992774774U, true, true, false, false, false, false, false, false, "static", true, "BaseChair", 5153, 5 },
+    { "chair.icethrone", "chair icethrone", "Uncategorized", "assets/prefabs/deployable/chair/ice_throne/chair.icethrone.prefab", 3579302978U, true, true, false, false, false, false, false, false, "static", true, "BaseChair", 5158, 5 },
+    { "bar.games.bar.stool.metal.deployed", "bar games bar stool metal deployed", "Uncategorized", "assets/prefabs/deployable/chair/skins/bar_games_bar_stools/bar.games.bar.stool.metal.deployed.prefab", 887058568U, true, true, false, false, false, false, false, false, "static", true, "BaseChair", 5163, 5 },
+    { "bar.games.bar.stool.wood.deployed", "bar games bar stool wood deployed", "Uncategorized", "assets/prefabs/deployable/chair/skins/bar_games_bar_stools/bar.games.bar.stool.wood.deployed.prefab", 3404567684U, true, true, false, false, false, false, false, false, "static", true, "BaseChair", 5168, 5 },
+    { "beanbag.seat.fabric.deployed", "beanbag seat fabric deployed", "Uncategorized", "assets/prefabs/deployable/chair/skins/cozy_beanbag_seat/beanbag.seat.fabric.deployed.prefab", 3824051769U, true, true, false, false, false, false, false, false, "static", true, "BaseChair", 5173, 5 },
+    { "beanbag.seat.leather.deployed", "beanbag seat leather deployed", "Uncategorized", "assets/prefabs/deployable/chair/skins/cozy_beanbag_seat/beanbag.seat.leather.deployed.prefab", 1742249447U, true, true, false, false, false, false, false, false, "static", true, "BaseChair", 5178, 5 },
+    { "chair.ejectorseat", "chair ejectorseat", "Uncategorized", "assets/prefabs/deployable/chair/skins/pilot_hazmat_ejector_seat/chair.ejectorseat.prefab", 454013157U, true, true, false, false, false, false, false, false, "static", true, "BaseChair", 5183, 5 },
+    { "charityplushie_01_deployed", "charityplushie 01 deployed", "Uncategorized", "assets/prefabs/deployable/charity_plushie_01/charityplushie_01_deployed.prefab", 2143844589U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 5188, 3 },
+    { "charityplushie_02_deployed", "charityplushie 02 deployed", "Uncategorized", "assets/prefabs/deployable/charity_plushie_02/charityplushie_02_deployed.prefab", 1164581789U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 5191, 3 },
+    { "charityplushie_03_deployed", "charityplushie 03 deployed", "Uncategorized", "assets/prefabs/deployable/charity_plushie_03/charityplushie_03_deployed.prefab", 2352430490U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 5194, 3 },
+    { "charityplushie_04_deployed", "charityplushie 04 deployed", "Uncategorized", "assets/prefabs/deployable/charity_plushie_04/charityplushie_04_deployed.prefab", 2331136578U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 5197, 3 },
+    { "chickencoop.deployed", "chickencoop deployed", "Uncategorized", "assets/prefabs/deployable/chickencoop/chickencoop.deployed.prefab", 1393130608U, true, true, false, false, false, false, false, false, "static", true, "ChickenCoop", 5200, 6 },
+    { "simplechicken.entity", "simplechicken entity", "Uncategorized", "assets/prefabs/deployable/chickencoop/simplechicken.entity.prefab", 1404456901U, true, true, false, false, false, false, false, false, "static", true, "FarmableAnimal", 5206, 4 },
+    { "codelockedhackablecrate", "codelockedhackablecrate", "Uncategorized", "assets/prefabs/deployable/chinooklockedcrate/codelockedhackablecrate.prefab", 209286362U, true, true, false, true, false, true, false, false, "dynamic", false, "HackableLockedCrate", 5210, 7 },
+    { "codelockedhackablecrate_ghostship", "codelockedhackablecrate ghostship", "Uncategorized", "assets/prefabs/deployable/chinooklockedcrate/codelockedhackablecrate_ghostship.prefab", 2068208223U, true, true, false, true, true, true, false, false, "static", true, "HackableLockedCrate", 5217, 7 },
+    { "codelockedhackablecrate_oilrig", "codelockedhackablecrate oilrig", "Uncategorized", "assets/prefabs/deployable/chinooklockedcrate/codelockedhackablecrate_oilrig.prefab", 2043434947U, true, true, false, true, false, true, false, false, "dynamic", false, "HackableLockedCrate", 5224, 7 },
+    { "clan.table", "clan table", "Uncategorized", "assets/prefabs/deployable/clan table/clan.table.prefab", 319712039U, true, true, false, false, false, false, false, false, "static", true, "ClanTable", 5231, 4 },
+    { "clantable.deployed", "clantable deployed", "Uncategorized", "assets/prefabs/deployable/clan table/clantable.deployed.prefab", 1545936318U, true, true, false, false, false, false, false, false, "static", true, "ClanTable", 5235, 4 },
+    { "clantable.static", "clantable static", "Uncategorized", "assets/prefabs/deployable/clan table/clantable.static.prefab", 1091538011U, true, true, false, false, false, false, false, false, "static", true, "ClanTable", 5239, 4 },
+    { "composter", "composter", "Uncategorized", "assets/prefabs/deployable/composter/composter.prefab", 1921897480U, true, true, false, false, false, false, false, false, "static", true, "Composter", 5243, 7 },
+    { "computerstation.apartmentcomplex.static", "computerstation apartmentcomplex static", "Uncategorized", "assets/prefabs/deployable/computerstation/computerstation.apartmentcomplex.static.prefab", 4224482427U, true, true, false, false, false, false, false, false, "static", true, "ApartmentTerminal", 5250, 6 },
+    { "computerstation.deployed", "computerstation deployed", "Uncategorized", "assets/prefabs/deployable/computerstation/computerstation.deployed.prefab", 2493676858U, true, true, false, false, false, false, false, false, "static", true, "ComputerStation", 5256, 5 },
+    { "computerstation.ioent", "computerstation ioent", "Uncategorized", "assets/prefabs/deployable/computerstation/computerstation.ioent.prefab", 2305339623U, true, true, false, false, false, false, false, false, "static", true, "ComputerStationIO", 5261, 6 },
+    { "computerstation.static", "computerstation static", "Uncategorized", "assets/prefabs/deployable/computerstation/computerstation.static.prefab", 3814928951U, true, true, false, false, false, false, false, false, "static", true, "ComputerStation", 5267, 5 },
+    { "cookingworkbench.bbq", "cookingworkbench bbq", "Uncategorized", "assets/prefabs/deployable/cookingworkbench/cookingworkbench.bbq.prefab", 431357582U, true, true, false, false, false, false, false, false, "static", true, "CookingWorkbenchBbq", 5272, 7 },
+    { "cookingworkbench.deployed", "cookingworkbench deployed", "Uncategorized", "assets/prefabs/deployable/cookingworkbench/cookingworkbench.deployed.prefab", 1604022909U, true, true, false, false, false, false, false, false, "static", true, "CookingWorkbench", 5279, 7 },
+    { "dartboard.deployed", "dartboard deployed", "Uncategorized", "assets/prefabs/deployable/dartboard/dartboard.deployed.prefab", 761048428U, true, true, false, false, false, false, false, false, "static", true, "DartsGameBoard", 5286, 4 },
+    { "dartboard.mountable", "dartboard mountable", "Uncategorized", "assets/prefabs/deployable/dartboard/dartboard.mountable.prefab", 2234097594U, true, true, false, false, false, false, false, false, "static", true, "DartsGameMountable", 5290, 5 },
+    { "discordplushie_deployed", "discordplushie deployed", "Uncategorized", "assets/prefabs/deployable/discord plush/discordplushie_deployed.prefab", 426877686U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 5295, 3 },
+    { "door_barricade_a", "door barricade a", "Uncategorized", "assets/prefabs/deployable/door barricades/door_barricade_a.prefab", 931526157U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 5298, 5 },
+    { "door_barricade_a_large", "door barricade a large", "Uncategorized", "assets/prefabs/deployable/door barricades/door_barricade_a_large.prefab", 382418191U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 5303, 5 },
+    { "door_barricade_b", "door barricade b", "Uncategorized", "assets/prefabs/deployable/door barricades/door_barricade_b.prefab", 2483166070U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 5308, 5 },
+    { "door_barricade_dbl_a", "door barricade dbl a", "Uncategorized", "assets/prefabs/deployable/door barricades/door_barricade_dbl_a.prefab", 2342515045U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 5313, 5 },
+    { "door_barricade_dbl_a_large", "door barricade dbl a large", "Uncategorized", "assets/prefabs/deployable/door barricades/door_barricade_dbl_a_large.prefab", 3737132756U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 5318, 5 },
+    { "door_barricade_dbl_b", "door barricade dbl b", "Uncategorized", "assets/prefabs/deployable/door barricades/door_barricade_dbl_b.prefab", 623754980U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 5323, 5 },
+    { "door_barricade_dbl_b_large", "door barricade dbl b large", "Uncategorized", "assets/prefabs/deployable/door barricades/door_barricade_dbl_b_large.prefab", 3440671703U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 5328, 5 },
+    { "drone.deployed", "drone deployed", "Uncategorized", "assets/prefabs/deployable/drone/drone.deployed.prefab", 1191314495U, true, true, false, true, false, true, false, false, "dynamic", false, "Drone", 5333, 5 },
+    { "drone.storage", "drone storage", "Uncategorized", "assets/prefabs/deployable/drone/subents/drone.storage.prefab", 1397446101U, true, true, false, false, false, false, false, false, "static", true, "DroneStorage", 5338, 6 },
+    { "dropbox.deployed", "dropbox deployed", "Uncategorized", "assets/prefabs/deployable/dropbox/dropbox.deployed.prefab", 661881069U, true, true, false, false, false, false, false, false, "static", true, "DropBox", 5344, 7 },
+    { "easel.deployed", "easel deployed", "Uncategorized", "assets/prefabs/deployable/easel_deployable/easel.deployed.prefab", 495819493U, true, true, false, false, false, false, false, false, "static", true, "EaselDeployable", 5351, 6 },
+    { "elevator", "elevator", "Uncategorized", "assets/prefabs/deployable/elevator/elevator.prefab", 3978222077U, true, true, false, false, false, false, false, false, "static", true, "Elevator", 5357, 6 },
+    { "elevator_lift", "elevator lift", "Uncategorized", "assets/prefabs/deployable/elevator/elevator_lift.prefab", 147094869U, true, true, false, false, false, false, false, false, "dynamic", false, "ElevatorLiftPlayer", 5363, 5 },
+    { "elevator.static.office.top", "elevator static office top", "Uncategorized", "assets/prefabs/deployable/elevator/static/elevator.static.office.top.prefab", 2008256530U, true, true, false, false, false, false, false, false, "static", true, "ElevatorStatic", 5368, 7 },
+    { "elevator.static", "elevator static", "Uncategorized", "assets/prefabs/deployable/elevator/static/elevator.static.prefab", 140200872U, true, true, false, false, false, false, false, false, "static", true, "ElevatorStatic", 5375, 7 },
+    { "elevator.static.top", "elevator static top", "Uncategorized", "assets/prefabs/deployable/elevator/static/elevator.static.top.prefab", 1033358365U, true, true, false, false, false, false, false, false, "static", true, "ElevatorStatic", 5382, 7 },
+    { "elevator_lift.static", "elevator lift static", "Uncategorized", "assets/prefabs/deployable/elevator/static/elevator_lift.static.prefab", 3845190333U, true, true, false, false, false, false, false, false, "static", true, "ElevatorLiftStatic", 5389, 5 },
+    { "fireplace.deployed", "fireplace deployed", "Uncategorized", "assets/prefabs/deployable/fireplace/fireplace.deployed.prefab", 110576239U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 5394, 6 },
+    { "mortarblue", "mortarblue", "Uncategorized", "assets/prefabs/deployable/fireworks/mortarblue.prefab", 3537935076U, true, true, false, false, false, false, false, false, "static", true, "MortarFirework", 5400, 6 },
+    { "mortarchampagne", "mortarchampagne", "Uncategorized", "assets/prefabs/deployable/fireworks/mortarchampagne.prefab", 1538862213U, true, true, false, false, false, false, false, false, "static", true, "MortarFirework", 5406, 6 },
+    { "mortargreen", "mortargreen", "Uncategorized", "assets/prefabs/deployable/fireworks/mortargreen.prefab", 1303486792U, true, true, false, false, false, false, false, false, "static", true, "MortarFirework", 5412, 6 },
+    { "mortarorange", "mortarorange", "Uncategorized", "assets/prefabs/deployable/fireworks/mortarorange.prefab", 2125925416U, true, true, false, false, false, false, false, false, "static", true, "MortarFirework", 5418, 6 },
+    { "mortarpattern", "mortarpattern", "Uncategorized", "assets/prefabs/deployable/fireworks/mortarpattern.prefab", 4155476352U, true, true, false, false, false, false, false, false, "static", true, "PatternFirework", 5424, 7 },
+    { "mortarred", "mortarred", "Uncategorized", "assets/prefabs/deployable/fireworks/mortarred.prefab", 2059113465U, true, true, false, false, false, false, false, false, "static", true, "MortarFirework", 5431, 6 },
+    { "mortarviolet", "mortarviolet", "Uncategorized", "assets/prefabs/deployable/fireworks/mortarviolet.prefab", 571344195U, true, true, false, false, false, false, false, false, "static", true, "MortarFirework", 5437, 6 },
+    { "mortarwhite", "mortarwhite", "Uncategorized", "assets/prefabs/deployable/fireworks/mortarwhite.prefab", 915055899U, true, true, false, false, false, false, false, false, "static", true, "MortarFirework", 5443, 6 },
+    { "romancandle", "romancandle", "Uncategorized", "assets/prefabs/deployable/fireworks/romancandle.prefab", 1410649145U, true, true, false, false, false, false, false, false, "static", true, "PFXRepeatingFirework", 5449, 6 },
+    { "romancandleblue", "romancandleblue", "Uncategorized", "assets/prefabs/deployable/fireworks/romancandleblue.prefab", 3989759960U, true, true, false, false, false, false, false, false, "static", true, "PFXRepeatingFirework", 5455, 6 },
+    { "romancandlegreen", "romancandlegreen", "Uncategorized", "assets/prefabs/deployable/fireworks/romancandlegreen.prefab", 1833523633U, true, true, false, false, false, false, false, false, "static", true, "PFXRepeatingFirework", 5461, 6 },
+    { "romancandleviolet", "romancandleviolet", "Uncategorized", "assets/prefabs/deployable/fireworks/romancandleviolet.prefab", 4013199910U, true, true, false, false, false, false, false, false, "static", true, "PFXRepeatingFirework", 5467, 6 },
+    { "volcanofirework-red", "volcanofirework red", "Uncategorized", "assets/prefabs/deployable/fireworks/volcanofirework-red.prefab", 1311124308U, true, true, false, false, false, false, false, false, "static", true, "BaseFirework", 5473, 4 },
+    { "volcanofirework-violet", "volcanofirework violet", "Uncategorized", "assets/prefabs/deployable/fireworks/volcanofirework-violet.prefab", 2771932546U, true, true, false, false, false, false, false, false, "static", true, "BaseFirework", 5477, 4 },
+    { "volcanofirework", "volcanofirework", "Uncategorized", "assets/prefabs/deployable/fireworks/volcanofirework.prefab", 4042905807U, true, true, false, false, false, false, false, false, "static", true, "BaseFirework", 5481, 4 },
+    { "spikes.floor", "spikes floor", "Uncategorized", "assets/prefabs/deployable/floor spikes/spikes.floor.prefab", 976279966U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 5485, 5 },
+    { "halfheight_salvaged_bamboo_shelves", "halfheight salvaged bamboo shelves", "Uncategorized", "assets/prefabs/deployable/floor_half_shelves/halfheight_salvaged_bamboo_shelves.prefab", 712007742U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 5490, 5 },
+    { "halfheight_salvaged_industrial_shelves.deployed", "halfheight salvaged industrial shelves deployed", "Uncategorized", "assets/prefabs/deployable/floor_half_shelves/skins/halfheight_industrial_shelves/halfheight_salvaged_industrial_shelves.deployed.prefab", 2206921343U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 5495, 5 },
+    { "frankensteintable.deployed", "frankensteintable deployed", "Uncategorized", "assets/prefabs/deployable/frankensteintable/frankensteintable.deployed.prefab", 1178330157U, true, true, false, false, false, false, false, false, "static", true, "FrankensteinTable", 5500, 6 },
+    { "fridge.deployed.corpse", "fridge deployed corpse", "Uncategorized", "assets/prefabs/deployable/fridge/fridge.deployed.corpse.prefab", 2800679511U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5506, 7 },
+    { "fridge.deployed", "fridge deployed", "Uncategorized", "assets/prefabs/deployable/fridge/fridge.deployed.prefab", 1844023509U, true, true, false, false, false, false, false, false, "static", true, "Fridge", 5513, 7 },
+    { "furnace.large", "furnace large", "Uncategorized", "assets/prefabs/deployable/furnace.large/furnace.large.prefab", 1374462671U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 5520, 6 },
+    { "industrial.furnace.large", "industrial furnace large", "Uncategorized", "assets/prefabs/deployable/furnace.large/skins/industrial_large_furnace/industrial.furnace.large.prefab", 480290137U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 5526, 6 },
+    { "furnace.corpse", "furnace corpse", "Uncategorized", "assets/prefabs/deployable/furnace/furnace.corpse.prefab", 1839500069U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5532, 7 },
+    { "furnace", "furnace", "Uncategorized", "assets/prefabs/deployable/furnace/furnace.prefab", 2931042549U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 5539, 6 },
+    { "weaponracklight", "Weapon Rack Light", "Uncategorized", "assets/prefabs/deployable/gun_rack/weaponracklight.prefab", 107031364U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 5545, 6 },
+    { "weaponracklightdouble", "Weapon Rack Double Light", "Uncategorized", "assets/prefabs/deployable/gun_rack/weaponracklightdouble.prefab", 3489283376U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 5551, 6 },
+    { "hazmatplushy_deployed", "hazmatplushy deployed", "Uncategorized", "assets/prefabs/deployable/hazmatplushy/hazmatplushy_deployed.prefab", 2953997641U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 5557, 3 },
+    { "heavyscientistplushie_deployed", "heavyscientistplushie deployed", "Uncategorized", "assets/prefabs/deployable/heavyscientistplushie/heavyscientistplushie_deployed.prefab", 1085184301U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 5560, 3 },
+    { "hitchtrough.deployed", "hitchtrough deployed", "Uncategorized", "assets/prefabs/deployable/hitch & trough/hitchtrough.deployed.prefab", 3238272924U, true, true, false, false, false, false, false, false, "static", true, "HitchTrough", 5563, 6 },
+    { "hitchtrough.waterstorage", "hitchtrough waterstorage", "Uncategorized", "assets/prefabs/deployable/hitch & trough/hitchtrough.waterstorage.prefab", 2081181732U, true, true, false, false, false, false, false, false, "static", true, "LiquidContainer", 5569, 7 },
+    { "hopper.deployed", "hopper deployed", "Uncategorized", "assets/prefabs/deployable/hopper/hopper.deployed.prefab", 3932476457U, true, true, false, false, false, false, false, false, "static", true, "Hopper", 5576, 7 },
+    { "door.hinged.hab_t1", "door hinged hab t1", "Uncategorized", "assets/prefabs/deployable/hot air balloon/door.hinged.hab_t1.prefab", 1684527864U, true, true, false, false, false, false, false, false, "static", true, "Door", 5583, 7 },
+    { "hotairballoon", "hotairballoon", "Uncategorized", "assets/prefabs/deployable/hot air balloon/hotairballoon.prefab", 3111236903U, true, true, false, true, false, true, false, false, "dynamic", false, "HotAirBalloon", 5590, 4 },
+    { "hotairballoon_armor_t1", "hotairballoon armor t1", "Uncategorized", "assets/prefabs/deployable/hot air balloon/hotairballoon_armor_t1.prefab", 1186772083U, true, true, false, false, false, false, false, false, "static", true, "HotAirBalloonArmor", 5594, 5 },
+    { "hab_storage", "hab storage", "Uncategorized", "assets/prefabs/deployable/hot air balloon/subents/hab_storage.prefab", 675927205U, true, true, false, false, false, false, false, false, "static", true, "StorageContainer", 5599, 5 },
+    { "io.table.deployed", "io table deployed", "Uncategorized", "assets/prefabs/deployable/io research table/io.table.deployed.prefab", 3239470043U, true, true, false, false, false, false, false, false, "static", true, "Workbench", 5604, 6 },
+    { "jackolantern.angry", "jackolantern angry", "Uncategorized", "assets/prefabs/deployable/jack o lantern/jackolantern.angry.prefab", 1889323056U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 5610, 6 },
+    { "jackolantern.happy", "jackolantern happy", "Uncategorized", "assets/prefabs/deployable/jack o lantern/jackolantern.happy.prefab", 630866573U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 5616, 6 },
+    { "jukebox.deployed", "jukebox deployed", "Uncategorized", "assets/prefabs/deployable/jukebox/jukebox.deployed.prefab", 2292919455U, true, true, false, false, false, false, false, false, "static", true, "DeployableBoomBox", 5622, 7 },
+    { "landmine", "landmine", "Uncategorized", "assets/prefabs/deployable/landmine/landmine.prefab", 1463807579U, true, true, false, false, false, false, false, false, "static", true, "Landmine", 5629, 6 },
+    { "lantern.deployed", "lantern deployed", "Uncategorized", "assets/prefabs/deployable/lantern/lantern.deployed.prefab", 4027991414U, true, true, false, false, false, false, false, false, "static", true, "BaseFuelLightSource", 5635, 7 },
+    { "box.wooden.large.corpse", "box wooden large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/box.wooden.large.corpse.prefab", 2785194784U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5642, 7 },
+    { "box.wooden.large", "box wooden large", "Uncategorized", "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab", 2206646561U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 5649, 6 },
+    { "abyss_barrel_horizontal.corpse", "abyss barrel horizontal corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/abyss_dlc_large_wood_box/abyss_dlc_storage_horizontal/abyss_barrel_horizontal.corpse.prefab", 3252334872U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5655, 7 },
+    { "abyss_barrel_horizontal", "abyss barrel horizontal", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/abyss_dlc_large_wood_box/abyss_dlc_storage_horizontal/abyss_barrel_horizontal.prefab", 339191443U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 5662, 6 },
+    { "abyss_barrel_vertical.corpse", "abyss barrel vertical corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/abyss_dlc_large_wood_box/abyss_dlc_storage_vertical/abyss_barrel_vertical.corpse.prefab", 1768548626U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5668, 7 },
+    { "abyss_barrel_vertical", "abyss barrel vertical", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/abyss_dlc_large_wood_box/abyss_dlc_storage_vertical/abyss_barrel_vertical.prefab", 2794435815U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 5675, 6 },
+    { "component.box.ammo.large.corpse", "component box ammo large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_ammo/component.box.ammo.large.corpse.prefab", 1227364378U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5681, 7 },
+    { "component.box.ammo.large", "component box ammo large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_ammo/component.box.ammo.large.prefab", 3854928623U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5688, 7 },
+    { "component.box.armor.large.corpse", "component box armor large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_armor/component.box.armor.large.corpse.prefab", 3675895900U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5695, 7 },
+    { "component.box.armor.large", "component box armor large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_armor/component.box.armor.large.prefab", 528028244U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5702, 7 },
+    { "component.box.charcoal.large.corpse", "component box charcoal large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_charcoal/component.box.charcoal.large.corpse.prefab", 1803454902U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5709, 7 },
+    { "component.box.charcoal.large", "component box charcoal large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_charcoal/component.box.charcoal.large.prefab", 2069829540U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5716, 7 },
+    { "component.box.clothing.large.corpse", "component box clothing large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_clothing/component.box.clothing.large.corpse.prefab", 1739352808U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5723, 7 },
+    { "component.box.clothing.large", "component box clothing large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_clothing/component.box.clothing.large.prefab", 916817183U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5730, 7 },
+    { "component.box.comps.large.corpse", "component box comps large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_comps/component.box.comps.large.corpse.prefab", 2157794217U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5737, 7 },
+    { "component.box.comps.large", "component box comps large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_comps/component.box.comps.large.prefab", 4199785085U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5744, 7 },
+    { "component.box.explosives.large.corpse", "component box explosives large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_explosives/component.box.explosives.large.corpse.prefab", 3237620973U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5751, 7 },
+    { "component.box.explosives.large", "component box explosives large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_explosives/component.box.explosives.large.prefab", 3966119321U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5758, 7 },
+    { "component.box.food.large.corpse", "component box food large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_food/component.box.food.large.corpse.prefab", 2199371708U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5765, 7 },
+    { "component.box.food.large", "component box food large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_food/component.box.food.large.prefab", 4013283025U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5772, 7 },
+    { "component.box.guns.large.corpse", "component box guns large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_guns/component.box.guns.large.corpse.prefab", 2699150381U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5779, 7 },
+    { "component.box.guns.large", "component box guns large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_guns/component.box.guns.large.prefab", 3610735283U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5786, 7 },
+    { "component.box.meds.large.corpse", "component box meds large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_meds/component.box.meds.large.corpse.prefab", 2067485643U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5793, 7 },
+    { "component.box.meds.large", "component box meds large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_meds/component.box.meds.large.prefab", 628186519U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5800, 7 },
+    { "component.box.metal.large.corpse", "component box metal large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_metal/component.box.metal.large.corpse.prefab", 818948686U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5807, 7 },
+    { "component.box.metal.large", "component box metal large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_metal/component.box.metal.large.prefab", 2121520844U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5814, 7 },
+    { "component.box.ore.large.corpse", "component box ore large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_ore/component.box.ore.large.corpse.prefab", 3879561467U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5821, 7 },
+    { "component.box.ore.large", "component box ore large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_ore/component.box.ore.large.prefab", 1535470320U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5828, 7 },
+    { "component.box.scrap.large.corpse", "component box scrap large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_scrap/component.box.scrap.large.corpse.prefab", 992082064U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5835, 7 },
+    { "component.box.scrap.large", "component box scrap large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_scrap/component.box.scrap.large.prefab", 3603022102U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5842, 7 },
+    { "component.box.stone.large.corpse", "component box stone large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_stone/component.box.stone.large.corpse.prefab", 4046463154U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5849, 7 },
+    { "component.box.stone.large", "component box stone large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_stone/component.box.stone.large.prefab", 807646626U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5856, 7 },
+    { "component.box.sulfur.large.corpse", "component box sulfur large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_sulfur/component.box.sulfur.large.corpse.prefab", 3433986334U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5863, 7 },
+    { "component.box.sulfur.large", "component box sulfur large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_sulfur/component.box.sulfur.large.prefab", 2567266676U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5870, 7 },
+    { "component.box.tools.large.corpse", "component box tools large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_tools/component.box.tools.large.corpse.prefab", 4135480801U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5877, 7 },
+    { "component.box.tools.large", "component box tools large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_tools/component.box.tools.large.prefab", 2302868354U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5884, 7 },
+    { "component.box.wood.large.corpse", "component box wood large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_wood/component.box.wood.large.corpse.prefab", 2090035546U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5891, 7 },
+    { "component.box.wood.large", "component box wood large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/component_storage_boxes_dlc/box_wood/component.box.wood.large.prefab", 293427194U, true, true, false, false, false, false, false, false, "static", true, "DisplayingBoxStorage", 5898, 7 },
+    { "industrial_storage_horizontal.corpse", "industrial storage horizontal corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/industrial_dlc/industrial_storage_horizontal/industrial_storage_horizontal.corpse.prefab", 2620129937U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5905, 7 },
+    { "industrial_storage_horizontal", "industrial storage horizontal", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/industrial_dlc/industrial_storage_horizontal/industrial_storage_horizontal.prefab", 849395666U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 5912, 6 },
+    { "industrial_storage_vertical.corpse", "industrial storage vertical corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/industrial_dlc/industrial_storage_vertical/industrial_storage_vertical.corpse.prefab", 4125503230U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5918, 7 },
+    { "industrial_storage_vertical", "industrial storage vertical", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/industrial_dlc/industrial_storage_vertical/industrial_storage_vertical.prefab", 1015225219U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 5925, 6 },
+    { "wicker_barrel.corpse", "wicker barrel corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/jungle_dlc_large_wood_box/jungle_dlc_storage_horizontal/wicker_barrel.corpse.prefab", 1634507366U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5931, 7 },
+    { "wicker_barrel", "wicker barrel", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/jungle_dlc_large_wood_box/jungle_dlc_storage_horizontal/wicker_barrel.prefab", 496929911U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 5938, 6 },
+    { "bamboo_barrel.corpse", "bamboo barrel corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/jungle_dlc_large_wood_box/jungle_dlc_storage_vertical/bamboo_barrel.corpse.prefab", 3097167028U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5944, 7 },
+    { "bamboo_barrel", "bamboo barrel", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/jungle_dlc_large_wood_box/jungle_dlc_storage_vertical/bamboo_barrel.prefab", 1496407812U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 5951, 6 },
+    { "medieval.box.wooden.large.corpse", "medieval box wooden large corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/medieval_large_wood_box/medieval.box.wooden.large.corpse.prefab", 2064794966U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5957, 7 },
+    { "medieval.box.wooden.large", "medieval box wooden large", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/medieval_large_wood_box/medieval.box.wooden.large.prefab", 2142950612U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 5964, 6 },
+    { "krieg_storage_horizontal.corpse", "krieg storage horizontal corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/warhammer_dlc_large_wood_box/krieg_storage_horizontal/krieg_storage_horizontal.corpse.prefab", 2755571140U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5970, 7 },
+    { "krieg_storage_horizontal", "krieg storage horizontal", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/warhammer_dlc_large_wood_box/krieg_storage_horizontal/krieg_storage_horizontal.prefab", 295691137U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 5977, 6 },
+    { "krieg_storage_vertical.corpse", "krieg storage vertical corpse", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/warhammer_dlc_large_wood_box/krieg_storage_vertical/krieg_storage_vertical.corpse.prefab", 983075320U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5983, 7 },
+    { "krieg_storage_vertical", "krieg storage vertical", "Uncategorized", "assets/prefabs/deployable/large wood storage/skins/warhammer_dlc_large_wood_box/krieg_storage_vertical/krieg_storage_vertical.prefab", 2980428674U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 5990, 6 },
+    { "legacy_furnace.corpse", "legacy furnace corpse", "Uncategorized", "assets/prefabs/deployable/legacyfurnace/legacy_furnace.corpse.prefab", 1538368754U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 5996, 7 },
+    { "legacy_furnace", "legacy furnace", "Uncategorized", "assets/prefabs/deployable/legacyfurnace/legacy_furnace.prefab", 2013224025U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 6003, 6 },
+    { "waterbarrel", "waterbarrel", "Uncategorized", "assets/prefabs/deployable/liquidbarrel/waterbarrel.prefab", 3746060889U, true, true, false, false, false, false, false, false, "static", true, "LiquidContainer", 6009, 7 },
+    { "waterbarrel.static", "waterbarrel static", "Uncategorized", "assets/prefabs/deployable/liquidbarrel/waterbarrel.static.prefab", 1486794265U, true, true, false, false, false, false, false, false, "static", true, "LiquidContainer", 6016, 7 },
+    { "locker.campermodule", "locker campermodule", "Uncategorized", "assets/prefabs/deployable/locker/locker.campermodule.prefab", 1298400075U, true, true, false, false, false, false, false, false, "static", true, "Locker", 6023, 6 },
+    { "locker.deployed.corpse", "locker deployed corpse", "Uncategorized", "assets/prefabs/deployable/locker/locker.deployed.corpse.prefab", 1291020492U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6029, 7 },
+    { "locker.deployed", "locker deployed", "Uncategorized", "assets/prefabs/deployable/locker/locker.deployed.prefab", 177343599U, true, true, false, false, false, false, false, false, "static", true, "Locker", 6036, 6 },
+    { "lunar_near_year_2025_wall_divider_a", "lunar near year 2025 wall divider a", "Uncategorized", "assets/prefabs/deployable/lunar_new_year_2025_wall_divider/lunar_near_year_2025_wall_divider_a.prefab", 1994630628U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 6042, 6 },
+    { "lunar_near_year_2025_wall_divider_b", "lunar near year 2025 wall divider b", "Uncategorized", "assets/prefabs/deployable/lunar_new_year_2025_wall_divider/lunar_near_year_2025_wall_divider_b.prefab", 594151811U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 6048, 6 },
+    { "lunar_near_year_2025_wall_divider_c", "lunar near year 2025 wall divider c", "Uncategorized", "assets/prefabs/deployable/lunar_new_year_2025_wall_divider/lunar_near_year_2025_wall_divider_c.prefab", 3245461981U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 6054, 6 },
+    { "mailbox.deployed", "mailbox deployed", "Uncategorized", "assets/prefabs/deployable/mailbox/mailbox.deployed.prefab", 2697131904U, true, true, false, false, false, false, false, false, "static", true, "Mailbox", 6060, 6 },
+    { "mannequin_deployed.corpse", "mannequin deployed corpse", "Uncategorized", "assets/prefabs/deployable/mannequin/mannequin_deployed.corpse.prefab", 2081428822U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6066, 7 },
+    { "mannequin_deployed", "mannequin deployed", "Uncategorized", "assets/prefabs/deployable/mannequin/mannequin_deployed.prefab", 91888137U, true, true, false, false, false, false, false, false, "static", true, "Mannequin", 6073, 6 },
+    { "minifridge.deployed.corpse", "minifridge deployed corpse", "Uncategorized", "assets/prefabs/deployable/minifridge/minifridge.deployed.corpse.prefab", 3870025584U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6079, 7 },
+    { "minifridge.deployed", "minifridge deployed", "Uncategorized", "assets/prefabs/deployable/minifridge/minifridge.deployed.prefab", 1535651257U, true, true, false, false, false, false, false, false, "static", true, "Fridge", 6086, 7 },
+    { "gamesroom.minifridge.deployed.corpse", "gamesroom minifridge deployed corpse", "Uncategorized", "assets/prefabs/deployable/minifridge/skins/gamesroom_minifridge/gamesroom.minifridge.deployed.corpse.prefab", 3713325830U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6093, 7 },
+    { "gamesroom.minifridge.deployed", "gamesroom minifridge deployed", "Uncategorized", "assets/prefabs/deployable/minifridge/skins/gamesroom_minifridge/gamesroom.minifridge.deployed.prefab", 1650211215U, true, true, false, false, false, false, false, false, "static", true, "Fridge", 6100, 7 },
+    { "mixingtable.deployed", "mixingtable deployed", "Uncategorized", "assets/prefabs/deployable/mixingtable/mixingtable.deployed.prefab", 2330684337U, true, true, false, false, false, false, false, false, "static", true, "MixingTable", 6107, 6 },
+    { "electrical.modularcarlift.deployed", "electrical modularcarlift deployed", "Uncategorized", "assets/prefabs/deployable/modular car lift/electrical.modularcarlift.deployed.prefab", 428217161U, true, true, false, false, false, false, false, false, "static", true, "ModularCarGarage", 6113, 7 },
+    { "monument_cctv_desk.static", "monument cctv desk static", "Uncategorized", "assets/prefabs/deployable/monument_cctv_desk/monument_cctv_desk.static.prefab", 656924125U, true, true, false, false, false, false, false, false, "static", true, "ComputerStation", 6120, 5 },
+    { "mortar.entity", "mortar entity", "Uncategorized", "assets/prefabs/deployable/mortar/mortar.entity.prefab", 3181101008U, true, true, false, false, false, false, false, false, "dynamic", false, "Mortar", 6125, 9 },
+    { "mortar_shell_basic", "mortar shell basic", "Uncategorized", "assets/prefabs/deployable/mortar/mortar_shell_basic.prefab", 3093831259U, true, true, false, false, false, false, false, false, "static", true, "TimedExplosive", 6134, 3 },
+    { "mortar_shell_fragment", "mortar shell fragment", "Uncategorized", "assets/prefabs/deployable/mortar/mortar_shell_fragment.prefab", 799615933U, true, true, false, false, false, false, false, false, "static", true, "TimedExplosive", 6137, 3 },
+    { "neonsigntr.deployed", "neonsigntr deployed", "Uncategorized", "assets/prefabs/deployable/neonsigntr/neonsigntr.deployed.prefab", 3254452298U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 6140, 6 },
+    { "crudeoutput", "crudeoutput", "Uncategorized", "assets/prefabs/deployable/oil jack/crudeoutput.prefab", 70163214U, true, true, false, false, false, false, false, false, "static", true, "ResourceExtractorFuelStorage", 6146, 6 },
+    { "engineswitch", "engineswitch", "Uncategorized", "assets/prefabs/deployable/oil jack/engineswitch.prefab", 336885727U, true, true, false, false, false, false, false, false, "static", true, "EngineSwitch", 6152, 3 },
+    { "fuelstorage", "fuelstorage", "Uncategorized", "assets/prefabs/deployable/oil jack/fuelstorage.prefab", 4260630588U, true, true, false, false, false, false, false, false, "static", true, "ResourceExtractorFuelStorage", 6155, 6 },
+    { "mining.pumpjack", "mining pumpjack", "Uncategorized", "assets/prefabs/deployable/oil jack/mining.pumpjack.prefab", 1599225199U, true, true, false, false, false, false, false, false, "static", true, "MiningQuarry", 6161, 5 },
+    { "refinery_small_deployed", "refinery small deployed", "Uncategorized", "assets/prefabs/deployable/oil refinery/refinery_small_deployed.prefab", 1057236622U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 6166, 6 },
+    { "plantpot.single.deployed", "plantpot single deployed", "Uncategorized", "assets/prefabs/deployable/plant pots/plantpot.single.deployed.prefab", 2685133268U, true, true, false, false, false, false, false, false, "static", true, "PlanterBox", 6172, 6 },
+    { "planter.large.deployed", "planter large deployed", "Uncategorized", "assets/prefabs/deployable/planters/planter.large.deployed.prefab", 1162882237U, true, true, false, false, false, false, false, false, "static", true, "PlanterBox", 6178, 6 },
+    { "planter.small.deployed", "planter small deployed", "Uncategorized", "assets/prefabs/deployable/planters/planter.small.deployed.prefab", 467313155U, true, true, false, false, false, false, false, false, "static", true, "PlanterBox", 6184, 6 },
+    { "planter.triangle.deployed", "planter triangle deployed", "Uncategorized", "assets/prefabs/deployable/planters/planter.triangle.deployed.prefab", 375169930U, true, true, false, false, false, false, false, false, "static", true, "PlanterBox", 6190, 6 },
+    { "audioalarm", "audioalarm", "Uncategorized", "assets/prefabs/deployable/playerioents/alarms/audioalarm.prefab", 1056621402U, true, true, false, false, false, false, false, false, "static", true, "AudioAlarm", 6196, 6 },
+    { "smartalarm", "smartalarm", "Uncategorized", "assets/prefabs/deployable/playerioents/app/smartalarm/smartalarm.prefab", 3788087038U, true, true, false, false, false, false, false, false, "static", true, "SmartAlarm", 6202, 7 },
+    { "smartswitch", "smartswitch", "Uncategorized", "assets/prefabs/deployable/playerioents/app/smartswitch/smartswitch.prefab", 457838080U, true, true, false, false, false, false, false, false, "static", true, "SmartSwitch", 6209, 7 },
+    { "storagemonitor.deployed", "storagemonitor deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/app/storagemonitor/storagemonitor.deployed.prefab", 2575066828U, true, true, false, false, false, false, false, false, "static", true, "StorageMonitor", 6216, 7 },
+    { "large.rechargable.battery.deployed", "large rechargable battery deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/batteries/large/large.rechargable.battery.deployed.prefab", 3398686648U, true, true, false, false, false, false, false, false, "static", true, "ElectricBattery", 6223, 6 },
+    { "medium.rechargable.battery.deployed", "medium rechargable battery deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/batteries/medium/medium.rechargable.battery.deployed.prefab", 262703036U, true, true, false, false, false, false, false, false, "static", true, "ElectricBattery", 6229, 6 },
+    { "smallrechargablebattery.deployed", "smallrechargablebattery deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/batteries/smallrechargablebattery.deployed.prefab", 918119888U, true, true, false, false, false, false, false, false, "static", true, "ElectricBattery", 6235, 6 },
+    { "button", "button", "Uncategorized", "assets/prefabs/deployable/playerioents/button/button.prefab", 52925389U, true, true, false, false, false, false, false, false, "static", true, "PressButton", 6241, 6 },
+    { "command.block.deployed", "command block deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/commandblock/command.block.deployed.prefab", 3942188602U, true, true, false, false, false, false, false, false, "static", true, "CommandBlock", 6247, 6 },
+    { "counter", "counter", "Uncategorized", "assets/prefabs/deployable/playerioents/counter/counter.prefab", 4254177840U, true, true, false, false, false, false, false, false, "static", true, "PowerCounter", 6253, 6 },
+    { "hbhfsensor.deployed", "hbhfsensor deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/detectors/hbhfsensor/hbhfsensor.deployed.prefab", 986625916U, true, true, false, false, false, false, false, false, "static", true, "HBHFSensor", 6259, 7 },
+    { "laserdetector", "laserdetector", "Uncategorized", "assets/prefabs/deployable/playerioents/detectors/laserdetector/laserdetector.prefab", 2260707523U, true, true, false, false, false, false, false, false, "static", true, "LaserDetector", 6266, 7 },
+    { "pressurepad.deployed", "pressurepad deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/detectors/pressurepad/pressurepad.deployed.prefab", 687239341U, true, true, false, false, false, false, false, false, "static", true, "PressurePad", 6273, 7 },
+    { "tincan.alarm.deployed", "tincan alarm deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/detectors/tincanalarm/tincan.alarm.deployed.prefab", 1200964049U, true, true, false, true, true, false, false, false, "static", true, "TinCanAlarm", 6280, 6 },
+    { "electric.digitalclock.deployed", "electric digitalclock deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/digitalclock/electric.digitalclock.deployed.prefab", 2275599299U, true, true, false, false, false, false, false, false, "static", true, "DigitalClock", 6286, 6 },
+    { "doorcontroller.deployed", "doorcontroller deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/doormanipulators/doorcontroller.deployed.prefab", 2343730564U, true, true, false, false, false, false, false, false, "static", true, "CustomDoorManipulator", 6292, 7 },
+    { "electricfurnace.deployed.corpse", "electricfurnace deployed corpse", "Uncategorized", "assets/prefabs/deployable/playerioents/electricfurnace/electricfurnace.deployed.corpse.prefab", 3711844390U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6299, 7 },
+    { "electricfurnace.deployed", "electricfurnace deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/electricfurnace/electricfurnace.deployed.prefab", 3808299817U, true, true, false, false, false, false, false, false, "static", true, "ElectricOven", 6306, 7 },
+    { "electricfurnace.deployed_workshop", "electricfurnace deployed workshop", "Uncategorized", "assets/prefabs/deployable/playerioents/electricfurnace/electricfurnace.deployed_workshop.prefab", 2011868250U, true, true, false, false, false, false, false, false, "static", true, "ElectricOven", 6313, 7 },
+    { "electricfurnace.io", "electricfurnace io", "Uncategorized", "assets/prefabs/deployable/playerioents/electricfurnace/electricfurnace.io.prefab", 2678691787U, true, true, false, false, false, false, false, false, "static", true, "ElectricFurnaceIO", 6320, 6 },
+    { "industrial_electric_furnace.deployed.corpse", "industrial electric furnace deployed corpse", "Uncategorized", "assets/prefabs/deployable/playerioents/electricfurnace/skins/industrial_electric_furnace/industrial_electric_furnace.deployed.corpse.prefab", 1948496164U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6326, 7 },
+    { "industrial_electric_furnace.deployed", "industrial electric furnace deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/electricfurnace/skins/industrial_electric_furnace/industrial_electric_furnace.deployed.prefab", 3924463048U, true, true, false, false, false, false, false, false, "static", true, "ElectricOven", 6333, 7 },
+    { "industrial_electric_furnace.io", "industrial electric furnace io", "Uncategorized", "assets/prefabs/deployable/playerioents/electricfurnace/skins/industrial_electric_furnace/industrial_electric_furnace.io.prefab", 3947156055U, true, true, false, false, false, false, false, false, "static", true, "ElectricFurnaceIO", 6340, 6 },
+    { "electrical.heater", "electrical heater", "Uncategorized", "assets/prefabs/deployable/playerioents/electricheater/electrical.heater.prefab", 3077222881U, true, true, false, false, false, false, false, false, "static", true, "ElectricalHeater", 6346, 6 },
+    { "fluid.combiner.deployed", "fluid combiner deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/fluidcombiner/fluid.combiner.deployed.prefab", 4043799246U, true, true, false, false, false, false, false, false, "static", true, "ElectricalCombiner", 6352, 6 },
+    { "fluidsplitter", "fluidsplitter", "Uncategorized", "assets/prefabs/deployable/playerioents/fluidsplitter/fluidsplitter.prefab", 2150367216U, true, true, false, false, false, false, false, false, "static", true, "Splitter", 6358, 6 },
+    { "fluidswitch", "fluidswitch", "Uncategorized", "assets/prefabs/deployable/playerioents/fluidswitch/fluidswitch.prefab", 4057013647U, true, true, false, false, false, false, false, false, "static", true, "FluidSwitch", 6364, 7 },
+    { "andswitch.entity", "andswitch entity", "Uncategorized", "assets/prefabs/deployable/playerioents/gates/andswitch/andswitch.entity.prefab", 4274766536U, true, true, false, false, false, false, false, false, "static", true, "ANDSwitch", 6371, 6 },
+    { "electrical.blocker.deployed", "electrical blocker deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/gates/blocker/electrical.blocker.deployed.prefab", 4215863876U, true, true, false, false, false, false, false, false, "static", true, "ElectricalBlocker", 6377, 6 },
+    { "electrical.branch.deployed", "electrical branch deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/gates/branch/electrical.branch.deployed.prefab", 1262782874U, true, true, false, false, false, false, false, false, "static", true, "ElectricalBranch", 6383, 6 },
+    { "electrical.combiner.deployed", "electrical combiner deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/gates/combiner/electrical.combiner.deployed.prefab", 2378858100U, true, true, false, false, false, false, false, false, "static", true, "ElectricalCombiner", 6389, 6 },
+    { "electrical.memorycell.deployed", "electrical memorycell deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/gates/dflipflop/electrical.memorycell.deployed.prefab", 1220166918U, true, true, false, false, false, false, false, false, "static", true, "ElectricalDFlipFlop", 6395, 6 },
+    { "orswitch.entity", "orswitch entity", "Uncategorized", "assets/prefabs/deployable/playerioents/gates/orswitch/orswitch.entity.prefab", 1354328722U, true, true, false, false, false, false, false, false, "static", true, "ORSwitch", 6401, 6 },
+    { "electrical.random.switch.deployed", "electrical random switch deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/gates/randswitch/electrical.random.switch.deployed.prefab", 489282820U, true, true, false, false, false, false, false, false, "static", true, "RANDSwitch", 6407, 7 },
+    { "rfbroadcaster", "rfbroadcaster", "Uncategorized", "assets/prefabs/deployable/playerioents/gates/rfbroadcaster/rfbroadcaster.prefab", 2880296175U, true, true, false, false, false, false, false, false, "static", true, "RFBroadcaster", 6414, 6 },
+    { "rfreceiver", "rfreceiver", "Uncategorized", "assets/prefabs/deployable/playerioents/gates/rfreceiver/rfreceiver.prefab", 525502317U, true, true, false, false, false, false, false, false, "static", true, "RFReceiver", 6420, 6 },
+    { "xorswitch.entity", "xorswitch entity", "Uncategorized", "assets/prefabs/deployable/playerioents/gates/xorswitch/xorswitch.entity.prefab", 1074446568U, true, true, false, false, false, false, false, false, "static", true, "XORSwitch", 6426, 6 },
+    { "small_fuel_generator.deployed", "small fuel generator deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/generators/fuel generator/small_fuel_generator.deployed.prefab", 3518207786U, true, true, false, false, false, false, false, false, "static", true, "FuelGenerator", 6432, 7 },
+    { "small_fuel_generator.static", "small fuel generator static", "Uncategorized", "assets/prefabs/deployable/playerioents/generators/fuel generator/small_fuel_generator.static.prefab", 297783762U, true, true, false, false, false, false, false, false, "static", true, "FuelGenerator", 6439, 7 },
+    { "generator.small", "generator small", "Uncategorized", "assets/prefabs/deployable/playerioents/generators/generator.small.prefab", 1216081662U, true, true, false, false, false, false, false, false, "static", true, "ElectricGenerator", 6446, 6 },
+    { "solarpanel.large.deployed", "solarpanel large deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/generators/solar_panels_roof/solarpanel.large.deployed.prefab", 2231260353U, true, true, false, false, false, false, false, false, "static", true, "SolarPanel", 6452, 6 },
+    { "igniter.deployed", "igniter deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/igniter/igniter.deployed.prefab", 3946116692U, true, true, false, false, false, false, false, false, "static", true, "Igniter", 6458, 6 },
+    { "storageadaptor.deployed", "storageadaptor deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/industrialadaptors/storageadaptor.deployed.prefab", 1077498142U, true, true, false, false, false, false, false, false, "static", true, "IndustrialStorageAdaptor", 6464, 7 },
+    { "industrialcombiner.deployed", "industrialcombiner deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/industrialcombiner/industrialcombiner.deployed.prefab", 2557715962U, true, true, false, false, false, false, false, false, "static", true, "ElectricalCombiner", 6471, 6 },
+    { "industrialconveyor.deployed", "industrialconveyor deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/industrialconveyor/industrialconveyor.deployed.prefab", 3459531520U, true, true, false, false, false, false, false, false, "static", true, "IndustrialConveyor", 6477, 7 },
+    { "industrialcrafter.deployed", "industrialcrafter deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/industrialcrafter/industrialcrafter.deployed.prefab", 273687723U, true, true, false, false, false, false, false, false, "static", true, "IndustrialCrafter", 6484, 7 },
+    { "industrialsplitter.deployed", "industrialsplitter deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/industrialsplitter/industrialsplitter.deployed.prefab", 4142483135U, true, true, false, false, false, false, false, false, "static", true, "Splitter", 6491, 6 },
+    { "electric.chandelier.deployed", "electric chandelier deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/cozypack/chandelier/electric.chandelier.deployed.prefab", 2172878916U, true, true, false, false, false, false, false, false, "static", true, "Chandelier", 6497, 6 },
+    { "electric.tablelamp.deployed", "electric tablelamp deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/cozypack/electrictablelamp/electric.tablelamp.deployed.prefab", 951064U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 6503, 6 },
+    { "electric.fairylights.deployed", "electric fairylights deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/cozypack/fairylights/electric.fairylights.deployed.prefab", 2715027079U, true, true, false, false, false, false, false, false, "static", true, "StringLights", 6509, 6 },
+    { "electric.fluorescentlight.ceiling.deployed", "electric fluorescentlight ceiling deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/cozypack/fluorescentlights/ceiling/electric.fluorescentlight.ceiling.deployed.prefab", 3414812695U, true, true, false, false, false, false, false, false, "static", true, "CeilingLight", 6515, 6 },
+    { "electric.fluorescentlight.deployed", "electric fluorescentlight deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/cozypack/fluorescentlights/electric.fluorescentlight.deployed.prefab", 297156836U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 6521, 6 },
+    { "electric.bulbstringlights.deployed", "electric bulbstringlights deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/cozypack/hangingbulbs/electric.bulbstringlights.deployed.prefab", 790776081U, true, true, false, false, false, false, false, false, "static", true, "StringLights", 6527, 6 },
+    { "electric.spotlight.deployed", "electric spotlight deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/electric.spotlight.deployed.prefab", 13233315U, true, true, false, false, false, false, false, false, "static", true, "OrientableLight", 6533, 7 },
+    { "electric.spotlight.tripod.deployed", "electric spotlight tripod deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/tripod/electric.spotlight.tripod.deployed.prefab", 1179002613U, true, true, false, false, false, false, false, false, "static", true, "OrientableLight", 6540, 7 },
+    { "electric.flasherlight.deployed", "electric flasherlight deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/flasherlight/electric.flasherlight.deployed.prefab", 3742301494U, true, true, false, false, false, false, false, false, "static", true, "FlasherLight", 6547, 6 },
+    { "simplelight", "simplelight", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/simplelight.prefab", 1797934483U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 6553, 6 },
+    { "electric.sirenlight.deployed", "electric sirenlight deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/lights/sirenlight/electric.sirenlight.deployed.prefab", 2436926577U, true, true, false, false, false, false, false, false, "static", true, "SirenLight", 6559, 6 },
+    { "poweredwaterpurifier.deployed", "poweredwaterpurifier deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/poweredwaterpurifier/poweredwaterpurifier.deployed.prefab", 1259335874U, true, true, false, false, false, false, false, false, "static", true, "PoweredWaterPurifier", 6565, 9 },
+    { "poweredwaterpurifier.storage", "poweredwaterpurifier storage", "Uncategorized", "assets/prefabs/deployable/playerioents/poweredwaterpurifier/poweredwaterpurifier.storage.prefab", 795179107U, true, true, false, false, false, false, false, false, "static", true, "LiquidContainer", 6574, 7 },
+    { "electric.seismicsensor.deployed", "electric seismicsensor deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/seismicsensor/electric.seismicsensor.deployed.prefab", 1565495109U, true, true, false, false, false, false, false, false, "static", true, "SeismicSensor", 6581, 6 },
+    { "switch", "switch", "Uncategorized", "assets/prefabs/deployable/playerioents/simpleswitch/switch.prefab", 2374429146U, true, true, false, false, false, false, false, false, "static", true, "ElectricSwitch", 6587, 6 },
+    { "splitter", "splitter", "Uncategorized", "assets/prefabs/deployable/playerioents/splitter/splitter.prefab", 2864726542U, true, true, false, false, false, false, false, false, "static", true, "Splitter", 6593, 6 },
+    { "electric.sprinkler.deployed", "electric sprinkler deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/sprinkler/electric.sprinkler.deployed.prefab", 2389629329U, true, true, false, false, false, false, false, false, "static", true, "Sprinkler", 6599, 6 },
+    { "teslacoil.deployed", "teslacoil deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/teslacoil/teslacoil.deployed.prefab", 60725884U, true, true, false, false, false, false, false, false, "static", true, "TeslaCoil", 6605, 6 },
+    { "timer", "timer", "Uncategorized", "assets/prefabs/deployable/playerioents/timers/timer.prefab", 3673859458U, true, true, false, false, false, false, false, false, "static", true, "CustomTimerSwitch", 6611, 7 },
+    { "cabletunnel", "cabletunnel", "Uncategorized", "assets/prefabs/deployable/playerioents/tunnel/cabletunnel.prefab", 3855268767U, true, true, false, false, false, false, false, false, "static", true, "CableTunnel", 6618, 6 },
+    { "water.pump.deployed", "water pump deployed", "Uncategorized", "assets/prefabs/deployable/playerioents/waterpump/water.pump.deployed.prefab", 3841120196U, true, true, false, false, false, false, false, false, "static", true, "WaterPump", 6624, 8 },
+    { "pooltable.deployed", "pooltable deployed", "Uncategorized", "assets/prefabs/deployable/pooltable/pooltable.deployed.prefab", 2101073864U, true, true, false, false, false, false, false, false, "static", true, "Pooltable", 6632, 4 },
+    { "pooltable.mountable", "pooltable mountable", "Uncategorized", "assets/prefabs/deployable/pooltable/pooltable.mountable.prefab", 2867835196U, true, true, false, false, false, false, false, false, "static", true, "PooltableMountable", 6636, 5 },
+    { "ptz_cctv.static", "ptz cctv static", "Uncategorized", "assets/prefabs/deployable/ptz security camera/ptz_cctv.static.prefab", 4131768945U, true, true, false, false, false, false, false, false, "static", true, "CCTV_RC", 6641, 7 },
+    { "ptz_cctv_deployed", "ptz cctv deployed", "Uncategorized", "assets/prefabs/deployable/ptz security camera/ptz_cctv_deployed.prefab", 2576173574U, true, true, false, false, false, false, false, false, "static", true, "CCTV_RC", 6648, 7 },
+    { "engineswitch", "engineswitch", "Uncategorized", "assets/prefabs/deployable/quarry/engineswitch.prefab", 167149050U, true, true, false, false, false, false, false, false, "static", true, "EngineSwitch", 6655, 3 },
+    { "fuelstorage", "fuelstorage", "Uncategorized", "assets/prefabs/deployable/quarry/fuelstorage.prefab", 362963830U, true, true, false, false, false, false, false, false, "static", true, "ResourceExtractorFuelStorage", 6658, 6 },
+    { "hopperoutput", "hopperoutput", "Uncategorized", "assets/prefabs/deployable/quarry/hopperoutput.prefab", 875142383U, true, true, false, false, false, false, false, false, "static", true, "ResourceExtractorFuelStorage", 6664, 6 },
+    { "mining_quarry", "mining quarry", "Uncategorized", "assets/prefabs/deployable/quarry/mining_quarry.prefab", 672916883U, true, true, false, false, false, false, false, false, "static", true, "MiningQuarry", 6670, 5 },
+    { "reactivetarget_deployed", "reactivetarget deployed", "Uncategorized", "assets/prefabs/deployable/reactive target/reactivetarget_deployed.prefab", 3994459244U, true, true, false, true, true, false, false, false, "static", true, "ReactiveTarget", 6675, 7 },
+    { "repairbench_deployed", "repairbench deployed", "Uncategorized", "assets/prefabs/deployable/repair bench/repairbench_deployed.prefab", 3846783416U, true, true, false, false, false, false, false, false, "static", true, "RepairBench", 6682, 6 },
+    { "researchtable_deployed", "researchtable deployed", "Uncategorized", "assets/prefabs/deployable/research table/researchtable_deployed.prefab", 146554961U, true, true, false, false, false, false, false, false, "static", true, "ResearchTable", 6688, 6 },
+    { "rug.bear.deployed", "rug bear deployed", "Uncategorized", "assets/prefabs/deployable/rug/rug.bear.deployed.prefab", 3110378351U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 6694, 5 },
+    { "rug.deployed", "rug deployed", "Uncategorized", "assets/prefabs/deployable/rug/rug.deployed.prefab", 4196580066U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 6699, 5 },
+    { "scientistplushie_deployed", "scientistplushie deployed", "Uncategorized", "assets/prefabs/deployable/scientistplushie/scientistplushie_deployed.prefab", 1982923662U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 6704, 3 },
+    { "sculpture.ice.deployed", "sculpture ice deployed", "Uncategorized", "assets/prefabs/deployable/sculptures/icesculpture/sculpture.ice.deployed.prefab", 2793055883U, true, true, false, false, false, false, false, false, "static", true, "BaseSculpture", 6707, 4 },
+    { "sculpture.rock.deployed", "sculpture rock deployed", "Uncategorized", "assets/prefabs/deployable/sculptures/rocksculpture/sculpture.rock.deployed.prefab", 4108633004U, true, true, false, false, false, false, false, false, "static", true, "BaseSculpture", 6711, 4 },
+    { "associatedsculpturestorage", "associatedsculpturestorage", "Uncategorized", "assets/prefabs/deployable/sculptures/shared/associatedsculpturestorage.prefab", 3422977757U, true, true, false, false, false, false, false, false, "static", true, "AssociatedSculptureStorage", 6715, 3 },
+    { "searchlight.deployed", "searchlight deployed", "Uncategorized", "assets/prefabs/deployable/search light/searchlight.deployed.prefab", 1427415412U, true, true, false, false, false, false, false, false, "static", true, "SearchLight", 6718, 6 },
+    { "secretlabchair.deployed", "secretlabchair deployed", "Uncategorized", "assets/prefabs/deployable/secretlab chair/secretlabchair.deployed.prefab", 286221745U, true, true, false, false, false, false, false, false, "static", true, "BaseChair", 6724, 5 },
+    { "shelves", "shelves", "Uncategorized", "assets/prefabs/deployable/shelves/shelves.prefab", 501605075U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 6729, 5 },
+    { "salvaged_bamboo_shelves", "salvaged bamboo shelves", "Uncategorized", "assets/prefabs/deployable/shelves/skins/salvaged_bamboo_shelves/salvaged_bamboo_shelves.prefab", 1462386041U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 6734, 5 },
+    { "salvaged_industrial_shelves.deployed", "salvaged industrial shelves deployed", "Uncategorized", "assets/prefabs/deployable/shelves/skins/salvaged_industrial_shelves/salvaged_industrial_shelves.deployed.prefab", 201785285U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 6739, 5 },
+    { "sign.hanging.banner.large", "sign hanging banner large", "Uncategorized", "assets/prefabs/deployable/signs/sign.hanging.banner.large.prefab", 637495597U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6744, 6 },
+    { "sign.hanging.ornate", "sign hanging ornate", "Uncategorized", "assets/prefabs/deployable/signs/sign.hanging.ornate.prefab", 1283107100U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6750, 6 },
+    { "sign.hanging", "sign hanging", "Uncategorized", "assets/prefabs/deployable/signs/sign.hanging.prefab", 550204242U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6756, 6 },
+    { "sign.huge.wood", "sign huge wood", "Uncategorized", "assets/prefabs/deployable/signs/sign.huge.wood.prefab", 3618197174U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6762, 6 },
+    { "sign.large.wood", "sign large wood", "Uncategorized", "assets/prefabs/deployable/signs/sign.large.wood.prefab", 3479792512U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6768, 6 },
+    { "sign.medium.wood", "sign medium wood", "Uncategorized", "assets/prefabs/deployable/signs/sign.medium.wood.prefab", 3715545584U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6774, 6 },
+    { "sign.pictureframe.landscape", "sign pictureframe landscape", "Uncategorized", "assets/prefabs/deployable/signs/sign.pictureframe.landscape.prefab", 3215377795U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6780, 6 },
+    { "sign.pictureframe.portrait", "sign pictureframe portrait", "Uncategorized", "assets/prefabs/deployable/signs/sign.pictureframe.portrait.prefab", 1960724311U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6786, 6 },
+    { "sign.pictureframe.tall", "sign pictureframe tall", "Uncategorized", "assets/prefabs/deployable/signs/sign.pictureframe.tall.prefab", 3159642196U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6792, 6 },
+    { "sign.pictureframe.xl", "sign pictureframe xl", "Uncategorized", "assets/prefabs/deployable/signs/sign.pictureframe.xl.prefab", 1957158128U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6798, 6 },
+    { "sign.pictureframe.xxl", "sign pictureframe xxl", "Uncategorized", "assets/prefabs/deployable/signs/sign.pictureframe.xxl.prefab", 3725754530U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6804, 6 },
+    { "sign.pole.banner.large", "sign pole banner large", "Uncategorized", "assets/prefabs/deployable/signs/sign.pole.banner.large.prefab", 3188315846U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6810, 6 },
+    { "sign.post.double", "sign post double", "Uncategorized", "assets/prefabs/deployable/signs/sign.post.double.prefab", 4290170446U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6816, 6 },
+    { "sign.post.single", "sign post single", "Uncategorized", "assets/prefabs/deployable/signs/sign.post.single.prefab", 58270319U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6822, 6 },
+    { "sign.post.town", "sign post town", "Uncategorized", "assets/prefabs/deployable/signs/sign.post.town.prefab", 120534793U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6828, 6 },
+    { "sign.post.town.roof", "sign post town roof", "Uncategorized", "assets/prefabs/deployable/signs/sign.post.town.roof.prefab", 4057957010U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6834, 6 },
+    { "sign.small.wood", "sign small wood", "Uncategorized", "assets/prefabs/deployable/signs/sign.small.wood.prefab", 1447270506U, true, true, false, false, false, false, false, false, "static", true, "Signage", 6840, 6 },
+    { "signcontent", "signcontent", "Uncategorized", "assets/prefabs/deployable/signs/signcontent.prefab", 2104891901U, true, true, false, false, false, false, false, false, "static", true, "SignContent", 6846, 4 },
+    { "guntrap.deployed", "guntrap deployed", "Uncategorized", "assets/prefabs/deployable/single shot trap/guntrap.deployed.prefab", 1348746224U, true, true, false, false, false, false, false, false, "static", true, "GunTrap", 6850, 6 },
+    { "gamesroom.shotgun.trap.deployed", "gamesroom shotgun trap deployed", "Uncategorized", "assets/prefabs/deployable/single shot trap/skins/gamesroom_shotgun_trap/gamesroom.shotgun.trap.deployed.prefab", 3867195975U, true, true, false, false, false, false, false, false, "static", true, "GunTrap", 6856, 6 },
+    { "sleepingbag.corpse", "sleepingbag corpse", "Uncategorized", "assets/prefabs/deployable/sleeping bag/sleepingbag.corpse.prefab", 403186932U, true, true, false, false, false, false, false, false, "static", true, "SleepingBag", 6862, 5 },
+    { "sleepingbag_leather_deployed", "sleepingbag leather deployed", "Uncategorized", "assets/prefabs/deployable/sleeping bag/sleepingbag_leather_deployed.prefab", 159326486U, true, true, false, false, false, false, false, false, "static", true, "SleepingBag", 6867, 5 },
+    { "small_stash_deployed", "small stash deployed", "Uncategorized", "assets/prefabs/deployable/small stash/small_stash_deployed.prefab", 2568831788U, true, true, false, false, false, false, false, false, "static", true, "StashContainer", 6872, 6 },
+    { "sofaseat", "sofaseat", "Uncategorized", "assets/prefabs/deployable/sofa/seats/sofaseat.prefab", 2119696825U, true, true, false, false, false, false, false, false, "static", true, "BaseChair", 6878, 5 },
+    { "sofa.deployed", "sofa deployed", "Uncategorized", "assets/prefabs/deployable/sofa/sofa.deployed.prefab", 51176708U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicle", 6883, 5 },
+    { "sofa.pattern.deployed", "sofa pattern deployed", "Uncategorized", "assets/prefabs/deployable/sofa/sofa.pattern.deployed.prefab", 836629684U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicle", 6888, 5 },
+    { "twitch_rivals_sofa.deployed", "twitch rivals sofa deployed", "Uncategorized", "assets/prefabs/deployable/sofa/twitch_rivals/twitch_rivals_sofa.deployed.prefab", 3169453665U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicle", 6893, 5 },
+    { "spikes.trap", "spikes trap", "Uncategorized", "assets/prefabs/deployable/spike trap/spikes.trap.prefab", 3006607439U, true, true, false, false, false, false, false, false, "static", true, "Barricade", 6898, 5 },
+    { "spinner.wheel.deployed", "spinner wheel deployed", "Uncategorized", "assets/prefabs/deployable/spinner_wheel/spinner.wheel.deployed.prefab", 4006597758U, true, true, false, false, false, false, false, false, "static", true, "SpinnerWheel", 6903, 7 },
+    { "survivalfishtrap.deployed", "survivalfishtrap deployed", "Uncategorized", "assets/prefabs/deployable/survivalfishtrap/survivalfishtrap.deployed.prefab", 3119617183U, true, true, false, false, false, false, false, false, "static", true, "SurvivalFishTrap", 6910, 7 },
+    { "table.deployed", "table deployed", "Uncategorized", "assets/prefabs/deployable/table/table.deployed.prefab", 2662124780U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 6917, 5 },
+    { "workbench1.deployed.corpse", "workbench1 deployed corpse", "Uncategorized", "assets/prefabs/deployable/tier 1 workbench/workbench1.deployed.corpse.prefab", 4066798181U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6922, 7 },
+    { "workbench1.deployed", "workbench1 deployed", "Uncategorized", "assets/prefabs/deployable/tier 1 workbench/workbench1.deployed.prefab", 2561955800U, true, true, false, false, false, false, false, false, "static", true, "Workbench", 6929, 6 },
+    { "workbench2.deployed.corpse", "workbench2 deployed corpse", "Uncategorized", "assets/prefabs/deployable/tier 2 workbench/workbench2.deployed.corpse.prefab", 3145678818U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6935, 7 },
+    { "workbench2.deployed", "workbench2 deployed", "Uncategorized", "assets/prefabs/deployable/tier 2 workbench/workbench2.deployed.prefab", 601265145U, true, true, false, false, false, false, false, false, "static", true, "Workbench", 6942, 6 },
+    { "workbench3.deployed.corpse", "workbench3 deployed corpse", "Uncategorized", "assets/prefabs/deployable/tier 3 workbench/workbench3.deployed.corpse.prefab", 3678765790U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6948, 7 },
+    { "workbench3.deployed", "workbench3 deployed", "Uncategorized", "assets/prefabs/deployable/tier 3 workbench/workbench3.deployed.prefab", 2764275075U, true, true, false, false, false, false, false, false, "static", true, "Workbench", 6955, 6 },
+    { "cupboard.tool.corpse", "cupboard tool corpse", "Uncategorized", "assets/prefabs/deployable/tool cupboard/cupboard.tool.corpse.prefab", 1978042149U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6961, 7 },
+    { "cupboard.tool.deployed", "cupboard tool deployed", "Uncategorized", "assets/prefabs/deployable/tool cupboard/cupboard.tool.deployed.prefab", 2476970476U, true, true, false, false, false, false, false, false, "static", true, "BuildingPrivlidge", 6968, 6 },
+    { "invisible_building_auth", "invisible building auth", "Uncategorized", "assets/prefabs/deployable/tool cupboard/invisible_building_auth.prefab", 216998040U, true, true, false, false, false, false, false, false, "static", true, "BuildingPrivlidge", 6974, 6 },
+    { "cupboard.tool.retro.deployed.corpse", "cupboard tool retro deployed corpse", "Uncategorized", "assets/prefabs/deployable/tool cupboard/retro/cupboard.tool.retro.deployed.corpse.prefab", 2103277438U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 6980, 7 },
+    { "cupboard.tool.retro.deployed", "cupboard tool retro deployed", "Uncategorized", "assets/prefabs/deployable/tool cupboard/retro/cupboard.tool.retro.deployed.prefab", 785685130U, true, true, false, false, false, false, false, false, "static", true, "BuildingPrivilegeRetro", 6987, 7 },
+    { "storageadaptor_retro_tc.deployed", "storageadaptor retro tc deployed", "Uncategorized", "assets/prefabs/deployable/tool cupboard/retro/storageadaptor_retro_tc.deployed.prefab", 1420913995U, true, true, false, false, false, false, false, false, "static", true, "IndustrialStorageAdaptor", 6994, 7 },
+    { "cupboard.tool.shockbyte.deployed.corpse", "cupboard tool shockbyte deployed corpse", "Uncategorized", "assets/prefabs/deployable/tool cupboard/shockbyte/cupboard.tool.shockbyte.deployed.corpse.prefab", 272439463U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 7001, 7 },
+    { "cupboard.tool.shockbyte.deployed", "cupboard tool shockbyte deployed", "Uncategorized", "assets/prefabs/deployable/tool cupboard/shockbyte/cupboard.tool.shockbyte.deployed.prefab", 3932172323U, true, true, false, false, false, false, false, false, "static", true, "BuildingPrivlidge", 7008, 6 },
+    { "tunalight.deployed", "tunalight deployed", "Uncategorized", "assets/prefabs/deployable/tuna can wall lamp/tunalight.deployed.prefab", 1392608348U, true, true, false, false, false, false, false, false, "static", true, "BaseFuelLightSource", 7014, 7 },
+    { "npcvendingmachine", "npcvendingmachine", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachine.prefab", 2245774897U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7021, 8 },
+    { "npcvendingmachine_attire", "npcvendingmachine attire", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_attire.prefab", 3971055878U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7029, 8 },
+    { "npcvendingmachine_building", "npcvendingmachine building", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_building.prefab", 538046694U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7037, 8 },
+    { "npcvendingmachine_components", "npcvendingmachine components", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_components.prefab", 567510558U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7045, 8 },
+    { "npcvendingmachine_extra", "npcvendingmachine extra", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_extra.prefab", 2876719793U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7053, 8 },
+    { "npcvendingmachine_farming", "npcvendingmachine farming", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_farming.prefab", 3866668316U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7061, 8 },
+    { "npcvendingmachine_fishexchange", "npcvendingmachine fishexchange", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_fishexchange.prefab", 712757139U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7069, 8 },
+    { "npcvendingmachine_hapisexchange", "npcvendingmachine hapisexchange", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_hapisexchange.prefab", 2055811113U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7077, 8 },
+    { "npcvendingmachine_resources", "npcvendingmachine resources", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_resources.prefab", 1505537622U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7085, 8 },
+    { "npcvendingmachine_tools", "npcvendingmachine tools", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_tools.prefab", 2259994529U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7093, 8 },
+    { "npcvendingmachine_travellingvendor", "npcvendingmachine travellingvendor", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_travellingvendor.prefab", 534084276U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7101, 8 },
+    { "npcvendingmachine_vehicles", "npcvendingmachine vehicles", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_vehicles.prefab", 3835594039U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7109, 8 },
+    { "npcvendingmachine_vehicleshigh", "npcvendingmachine vehicleshigh", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_vehicleshigh.prefab", 2038954881U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7117, 8 },
+    { "npcvendingmachine_weapons", "npcvendingmachine weapons", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/npcvendingmachine_weapons.prefab", 3836034446U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCVendingMachine", 7125, 8 },
+    { "shopkeeper_vm_invis", "shopkeeper vm invis", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/shopkeeper_vm_invis.prefab", 858853278U, true, true, false, false, false, false, false, false, "dynamic", false, "InvisibleVendingMachine", 7133, 9 },
+    { "shopkeeper_vm_invis_waterwell", "shopkeeper vm invis waterwell", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/shopkeeper_vm_invis_waterwell.prefab", 2799101936U, true, true, false, false, false, false, false, false, "dynamic", false, "InvisibleVendingMachine", 7142, 9 },
+    { "shopkeeper_vm_rentableshop", "shopkeeper vm rentableshop", "Uncategorized", "assets/prefabs/deployable/vendingmachine/npcvendingmachines/shopkeeper_vm_rentableshop.prefab", 1084429088U, true, true, false, false, false, false, false, false, "dynamic", false, "RentableShopVendingMachine", 7151, 10 },
+    { "vending_mapmarker", "vending mapmarker", "Uncategorized", "assets/prefabs/deployable/vendingmachine/vending_mapmarker.prefab", 3459945130U, true, true, false, false, false, false, false, false, "static", true, "VendingMachineMapMarker", 7161, 4 },
+    { "vendingfront", "vendingfront", "Uncategorized", "assets/prefabs/deployable/vendingmachine/vendingfront.prefab", 1107947433U, true, true, false, false, false, false, false, false, "static", true, "VendingMachineFront", 7165, 3 },
+    { "vendingmachine.deployed.corpse", "vendingmachine deployed corpse", "Uncategorized", "assets/prefabs/deployable/vendingmachine/vendingmachine.deployed.corpse.prefab", 2525285291U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 7168, 7 },
+    { "vendingmachine.deployed", "vendingmachine deployed", "Uncategorized", "assets/prefabs/deployable/vendingmachine/vendingmachine.deployed.prefab", 186002280U, true, true, false, false, false, false, false, false, "static", true, "VendingMachine", 7175, 7 },
+    { "electric.wallcabinet.corpse", "electric wallcabinet corpse", "Uncategorized", "assets/prefabs/deployable/wall cabinet/electric.wallcabinet.corpse.prefab", 3529359528U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 7182, 7 },
+    { "electric.wallcabinet.deployed", "electric wallcabinet deployed", "Uncategorized", "assets/prefabs/deployable/wall cabinet/electric.wallcabinet.deployed.prefab", 3113345730U, true, true, false, false, false, false, false, false, "static", true, "ContainerIOEntity", 7189, 6 },
+    { "wall_shallow_industrial_shelves.deployed", "wall shallow industrial shelves deployed", "Uncategorized", "assets/prefabs/deployable/wall_single_shallow_shelves/skins/wall_shallow_industrial_shelf/wall_shallow_industrial_shelves.deployed.prefab", 1528396724U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 7195, 5 },
+    { "wall_single_shallow_shelf", "wall single shallow shelf", "Uncategorized", "assets/prefabs/deployable/wall_single_shallow_shelves/wall_single_shallow_shelf.prefab", 4019546054U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 7200, 5 },
+    { "water_catcher_large", "water catcher large", "Uncategorized", "assets/prefabs/deployable/water catcher/water_catcher_large.prefab", 3418194637U, true, true, false, false, false, false, false, false, "static", true, "WaterCatcher", 7205, 8 },
+    { "water_catcher_small", "water catcher small", "Uncategorized", "assets/prefabs/deployable/water catcher/water_catcher_small.prefab", 3661185369U, true, true, false, false, false, false, false, false, "static", true, "WaterCatcher", 7213, 8 },
+    { "waterwellstatic", "waterwellstatic", "Uncategorized", "assets/prefabs/deployable/water well/waterwellstatic.prefab", 3529835336U, true, true, false, false, false, false, false, false, "static", true, "WaterWell", 7221, 8 },
+    { "electric.waterwheel", "electric waterwheel", "Uncategorized", "assets/prefabs/deployable/water wheel/electric.waterwheel.prefab", 1468161152U, true, true, false, false, false, false, false, false, "static", true, "ElectricWaterWheel", 7229, 6 },
+    { "waterwheel.mountable", "waterwheel mountable", "Uncategorized", "assets/prefabs/deployable/water wheel/waterwheel.mountable.prefab", 966720564U, true, true, false, false, false, false, false, false, "static", true, "WaterWheelMountable", 7235, 5 },
+    { "waterpurifier.deployed", "waterpurifier deployed", "Uncategorized", "assets/prefabs/deployable/waterpurifier/waterpurifier.deployed.prefab", 2905007296U, true, true, false, false, false, false, false, false, "static", true, "WaterPurifier", 7240, 8 },
+    { "waterstorage", "waterstorage", "Uncategorized", "assets/prefabs/deployable/waterpurifier/waterstorage.prefab", 1488612322U, true, true, false, false, false, false, false, false, "static", true, "LiquidContainer", 7248, 7 },
+    { "weaponrack_horizontal.deployed", "weaponrack horizontal deployed", "Uncategorized", "assets/prefabs/deployable/weaponracks/weaponrack_horizontal.deployed.prefab", 1712643514U, true, true, false, false, false, false, false, false, "static", true, "WeaponRack", 7255, 6 },
+    { "weaponrack_single1.deployed", "weaponrack single1 deployed", "Uncategorized", "assets/prefabs/deployable/weaponracks/weaponrack_single1.deployed.prefab", 1566147802U, true, true, false, false, false, false, false, false, "static", true, "WeaponRack", 7261, 6 },
+    { "weaponrack_single2.deployed", "weaponrack single2 deployed", "Uncategorized", "assets/prefabs/deployable/weaponracks/weaponrack_single2.deployed.prefab", 1265527567U, true, true, false, false, false, false, false, false, "static", true, "WeaponRack", 7267, 6 },
+    { "weaponrack_single3.deployed", "weaponrack single3 deployed", "Uncategorized", "assets/prefabs/deployable/weaponracks/weaponrack_single3.deployed.prefab", 2110811006U, true, true, false, false, false, false, false, false, "static", true, "WeaponRack", 7273, 6 },
+    { "weaponrack_stand.deployed", "weaponrack stand deployed", "Uncategorized", "assets/prefabs/deployable/weaponracks/weaponrack_stand.deployed.prefab", 3672909226U, true, true, false, false, false, false, false, false, "static", true, "WeaponRack", 7279, 6 },
+    { "weaponrack_tall.deployed", "weaponrack tall deployed", "Uncategorized", "assets/prefabs/deployable/weaponracks/weaponrack_tall.deployed.prefab", 602299960U, true, true, false, false, false, false, false, false, "static", true, "WeaponRack", 7285, 6 },
+    { "weaponrack_wide.deployed", "weaponrack wide deployed", "Uncategorized", "assets/prefabs/deployable/weaponracks/weaponrack_wide.deployed.prefab", 1633182403U, true, true, false, false, false, false, false, false, "static", true, "WeaponRack", 7291, 6 },
+    { "electric.windmill.small", "electric windmill small", "Uncategorized", "assets/prefabs/deployable/windmill/electric.windmill.small.prefab", 1192074893U, true, true, false, false, false, false, false, false, "static", true, "ElectricWindmill", 7297, 6 },
+    { "generator.wind.scrap", "generator wind scrap", "Uncategorized", "assets/prefabs/deployable/windmill/generator.wind.scrap.prefab", 3038465934U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 7303, 6 },
+    { "pilot_hazmat_woodbox_deployed.corpse", "pilot hazmat woodbox deployed corpse", "Uncategorized", "assets/prefabs/deployable/woodenbox/skins/pilot_hazmat_wooden_box/pilot_hazmat_woodbox_deployed.corpse.prefab", 3758828704U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 7309, 7 },
+    { "pilot_hazmat_woodbox_deployed", "pilot hazmat woodbox deployed", "Uncategorized", "assets/prefabs/deployable/woodenbox/skins/pilot_hazmat_wooden_box/pilot_hazmat_woodbox_deployed.prefab", 2203540697U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 7316, 6 },
+    { "woodbox_deployed.corpse", "woodbox deployed corpse", "Uncategorized", "assets/prefabs/deployable/woodenbox/woodbox_deployed.corpse.prefab", 2010632750U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 7322, 7 },
+    { "woodbox_deployed", "woodbox deployed", "Uncategorized", "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab", 1560881570U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 7329, 6 },
+    { "hazmat_youtooz.deployed", "hazmat youtooz deployed", "Uncategorized", "assets/prefabs/deployable/youtooz_figurines/hazmat_youtooz.deployed.prefab", 1290959361U, true, true, false, false, false, false, false, false, "static", true, "DeployedFigurine", 7335, 4 },
+    { "heavyscientist_youtooz.deployed", "heavyscientist youtooz deployed", "Uncategorized", "assets/prefabs/deployable/youtooz_figurines/heavyscientist_youtooz.deployed.prefab", 801665394U, true, true, false, false, false, false, false, false, "static", true, "DeployedFigurine", 7339, 4 },
+    { "bota_bag.entity", "Bota Bag", "Uncategorized", "assets/prefabs/food/bota bag/bota_bag.entity.prefab", 1851422019U, true, true, false, false, false, false, false, false, "static", true, "BaseLiquidVessel", 7343, 5 },
+    { "food_pie_generic.entity", "Apple Pie", "Uncategorized", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, true, true, false, false, false, false, false, false, "static", true, "Food", 7348, 6 },
+    { "smallwaterbottle.entity", "Small Water Bottle", "Uncategorized", "assets/prefabs/food/small water bottle/smallwaterbottle.entity.prefab", 139849256U, true, true, false, false, false, false, false, false, "static", true, "BaseLiquidVessel", 7354, 5 },
+    { "waterjug.entity", "Water Jug", "Uncategorized", "assets/prefabs/food/water jug/waterjug.entity.prefab", 366999130U, true, true, false, false, false, false, false, false, "static", true, "BaseLiquidVessel", 7359, 5 },
+    { "deathmatch", "deathmatch", "Uncategorized", "assets/prefabs/gamemodes/deathmatch.prefab", 3323268180U, true, true, false, false, false, false, false, false, "static", true, "BaseGameMode", 7364, 3 },
+    { "hardcore", "hardcore", "Uncategorized", "assets/prefabs/gamemodes/hardcore.prefab", 2882540700U, true, true, false, false, false, false, false, false, "static", true, "GameModeHardcore", 7367, 5 },
+    { "kingofthehilldm", "kingofthehilldm", "Uncategorized", "assets/prefabs/gamemodes/kingofthehilldm.prefab", 825419898U, true, true, false, false, false, false, false, false, "static", true, "BaseGameMode", 7372, 3 },
+    { "kingofthehillteam", "kingofthehillteam", "Uncategorized", "assets/prefabs/gamemodes/kingofthehillteam.prefab", 4276462027U, true, true, false, false, false, false, false, false, "static", true, "BaseGameMode", 7375, 3 },
+    { "capturepoint", "capturepoint", "Uncategorized", "assets/prefabs/gamemodes/objects/capturepoint/capturepoint.prefab", 3788504645U, true, true, false, false, false, false, false, false, "static", true, "GameModeCapturePoint", 7378, 3 },
+    { "reclaimmanager", "reclaimmanager", "Uncategorized", "assets/prefabs/gamemodes/objects/reclaim/reclaimmanager.prefab", 3866571115U, true, true, false, false, false, false, false, false, "static", true, "ReclaimManager", 7381, 3 },
+    { "reclaimterminal", "reclaimterminal", "Uncategorized", "assets/prefabs/gamemodes/objects/reclaim/reclaimterminal.prefab", 2564311448U, true, true, false, false, false, false, false, false, "static", true, "ReclaimTerminal", 7384, 6 },
+    { "onedeath", "onedeath", "Uncategorized", "assets/prefabs/gamemodes/onedeath.prefab", 3275115225U, true, true, false, false, false, false, false, false, "static", true, "BaseGameMode", 7390, 3 },
+    { "primitive", "primitive", "Uncategorized", "assets/prefabs/gamemodes/primitive.prefab", 2393539753U, true, true, false, false, false, false, false, false, "static", true, "PrimitiveGameMode", 7393, 5 },
+    { "softcore", "softcore", "Uncategorized", "assets/prefabs/gamemodes/softcore.prefab", 1954920076U, true, true, false, false, false, false, false, false, "static", true, "GameModeSoftcore", 7398, 5 },
+    { "staticrespawnzonebandit", "staticrespawnzonebandit", "Uncategorized", "assets/prefabs/gamemodes/softcore/staticrespawnzonebandit.prefab", 3810400291U, true, true, false, false, false, false, false, false, "static", true, "StaticRespawnArea", 7403, 6 },
+    { "staticrespawnzonecompound", "staticrespawnzonecompound", "Uncategorized", "assets/prefabs/gamemodes/softcore/staticrespawnzonecompound.prefab", 1919922518U, true, true, false, false, false, false, false, false, "static", true, "StaticRespawnArea", 7409, 6 },
+    { "teamdeathmatch", "teamdeathmatch", "Uncategorized", "assets/prefabs/gamemodes/teamdeathmatch.prefab", 18701516U, true, true, false, false, false, false, false, false, "static", true, "BaseGameMode", 7415, 3 },
+    { "vanilla", "vanilla", "Uncategorized", "assets/prefabs/gamemodes/vanilla.prefab", 2957505463U, true, true, false, false, false, false, false, false, "static", true, "BaseGameMode", 7418, 3 },
+    { "weapontest", "weapontest", "Uncategorized", "assets/prefabs/gamemodes/weapontest.prefab", 798330873U, true, true, false, false, false, false, false, false, "static", true, "BaseGameMode", 7421, 3 },
+    { "bass.weapon", "Shovel Bass", "Uncategorized", "assets/prefabs/instruments/bass/bass.weapon.prefab", 2465202152U, true, true, false, false, false, false, false, false, "static", true, "InstrumentToolGuitar", 7424, 5 },
+    { "cowbell.weapon", "Cowbell", "Uncategorized", "assets/prefabs/instruments/cowbell/cowbell.weapon.prefab", 52738779U, true, true, false, false, false, false, false, false, "static", true, "InstrumentTool", 7429, 4 },
+    { "drumkit.deployed", "drumkit deployed", "Uncategorized", "assets/prefabs/instruments/drumkit/drumkit.deployed.prefab", 1980628900U, true, true, false, false, false, false, false, false, "static", true, "StaticInstrument", 7433, 5 },
+    { "flute.weapon", "Pan Flute", "Uncategorized", "assets/prefabs/instruments/flute/flute.weapon.prefab", 3789219502U, true, true, false, false, false, false, false, false, "static", true, "InstrumentTool", 7438, 4 },
+    { "guitar.weapon", "Acoustic Guitar", "Uncategorized", "assets/prefabs/instruments/guitar/guitar.weapon.prefab", 4177390149U, true, true, false, false, false, false, false, false, "static", true, "InstrumentToolGuitar", 7442, 5 },
+    { "jerrycanguitar.weapon", "Jerry Can Guitar", "Uncategorized", "assets/prefabs/instruments/jerrycanguitar/jerrycanguitar.weapon.prefab", 1977067472U, true, true, false, false, false, false, false, false, "static", true, "InstrumentToolGuitar", 7447, 5 },
+    { "piano.deployed", "piano deployed", "Uncategorized", "assets/prefabs/instruments/piano/piano.deployed.prefab", 3691382632U, true, true, false, false, false, false, false, false, "static", true, "StaticInstrument", 7452, 5 },
+    { "tambourine.weapon", "Canbourine", "Uncategorized", "assets/prefabs/instruments/tambourine/tambourine.weapon.prefab", 1754256281U, true, true, false, false, false, false, false, false, "static", true, "InstrumentTool", 7457, 4 },
+    { "trumpet.weapon", "Plumber's Trumpet", "Uncategorized", "assets/prefabs/instruments/trumpet/trumpet.weapon.prefab", 1050701358U, true, true, false, false, false, false, false, false, "static", true, "InstrumentTool", 7461, 4 },
+    { "tuba.weapon", "Sousaphone", "Uncategorized", "assets/prefabs/instruments/tuba/tuba.weapon.prefab", 2388319642U, true, true, false, false, false, false, false, false, "static", true, "InstrumentTool", 7465, 4 },
+    { "xylophone.deployed", "xylophone deployed", "Uncategorized", "assets/prefabs/instruments/xylophone/xylophone.deployed.prefab", 3363531184U, true, true, false, false, false, false, false, false, "static", true, "StaticInstrument", 7469, 5 },
+    { "generator.noreset.static", "generator noreset static", "Uncategorized", "assets/prefabs/io/electric/generators/generator.noreset.static.prefab", 1699170926U, true, true, false, false, false, false, false, false, "static", true, "ElectricGenerator", 7474, 6 },
+    { "generator.static", "generator static", "Uncategorized", "assets/prefabs/io/electric/generators/generator.static.prefab", 1331920001U, true, true, false, false, false, false, false, false, "static", true, "ElectricGenerator", 7480, 6 },
+    { "generator.static_hidden", "generator static hidden", "Uncategorized", "assets/prefabs/io/electric/generators/generator.static_hidden.prefab", 3467084113U, true, true, false, false, false, false, false, false, "static", true, "ElectricGenerator", 7486, 6 },
+    { "powergrid_accesspoint.static", "powergrid accesspoint static", "Uncategorized", "assets/prefabs/io/electric/generators/powergrid_accesspoint.static.prefab", 1390723258U, true, true, false, false, false, false, false, false, "static", true, "PowergridIOAccessPoint", 7492, 6 },
+    { "powergrid_powerline_io.static", "Power Grid", "Uncategorized", "assets/prefabs/io/electric/generators/powergrid_powerline_io.static.prefab", 1653306314U, true, true, false, false, false, false, false, false, "static", true, "PowergridIOAccessPoint", 7498, 6 },
+    { "simplelight", "simplelight", "Uncategorized", "assets/prefabs/io/electric/lights/simplelight.prefab", 1523703314U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7504, 6 },
+    { "sirenlightblue", "sirenlightblue", "Uncategorized", "assets/prefabs/io/electric/lights/sirenlightblue.prefab", 1124418807U, true, true, false, false, false, false, false, false, "static", true, "IOEntity", 7510, 5 },
+    { "sirenlightgreen", "sirenlightgreen", "Uncategorized", "assets/prefabs/io/electric/lights/sirenlightgreen.prefab", 2400067639U, true, true, false, false, false, false, false, false, "static", true, "IOEntity", 7515, 5 },
+    { "sirenlightorange", "sirenlightorange", "Uncategorized", "assets/prefabs/io/electric/lights/sirenlightorange.prefab", 4129440825U, true, true, false, false, false, false, false, false, "static", true, "IOEntity", 7520, 5 },
+    { "alarmsound", "alarmsound", "Uncategorized", "assets/prefabs/io/electric/other/alarmsound.prefab", 500822506U, true, true, false, false, false, false, false, false, "static", true, "IOEntity", 7525, 5 },
+    { "fridge_respawnableloot.static.entity", "fridge respawnableloot static entity", "Uncategorized", "assets/prefabs/io/electric/other/fridge_respawnableloot.static.entity.prefab", 2291424085U, true, true, false, false, false, false, false, false, "static", true, "RespawnableLootFridge", 7530, 8 },
+    { "oilswitchbroadcaster.static", "oilswitchbroadcaster static", "Uncategorized", "assets/prefabs/io/electric/other/oilswitchbroadcaster.static.prefab", 3121685313U, true, true, false, false, false, false, false, false, "static", true, "OilSwitchBroadcast", 7538, 6 },
+    { "rfbroadcaster.static", "rfbroadcaster static", "Uncategorized", "assets/prefabs/io/electric/other/rfbroadcaster.static.prefab", 1174518703U, true, true, false, false, false, false, false, false, "static", true, "RFBroadcaster", 7544, 6 },
+    { "andswitch", "andswitch", "Uncategorized", "assets/prefabs/io/electric/switches/andswitch.prefab", 2864014888U, true, true, false, false, false, false, false, false, "static", true, "ANDSwitch", 7550, 6 },
+    { "cardreader", "cardreader", "Uncategorized", "assets/prefabs/io/electric/switches/cardreader.prefab", 1841596500U, true, true, false, false, false, false, false, false, "static", true, "CardReader", 7556, 6 },
+    { "doormanipulator.invisible", "doormanipulator invisible", "Uncategorized", "assets/prefabs/io/electric/switches/doormanipulator.invisible.prefab", 3444518220U, true, true, false, false, false, false, false, false, "static", true, "DoorManipulator", 7562, 6 },
+    { "doormanipulator", "doormanipulator", "Uncategorized", "assets/prefabs/io/electric/switches/doormanipulator.prefab", 3165678508U, true, true, false, false, false, false, false, false, "static", true, "DoorManipulator", 7568, 6 },
+    { "fusebox", "fusebox", "Uncategorized", "assets/prefabs/io/electric/switches/fusebox/fusebox.prefab", 3622071578U, true, true, false, false, false, false, false, false, "static", true, "ItemBasedFlowRestrictor", 7574, 6 },
+    { "powergrid_fusebox_big", "powergrid fusebox big", "Uncategorized", "assets/prefabs/io/electric/switches/fusebox/powergrid_fusebox_big.prefab", 2245659838U, true, true, false, false, false, false, false, false, "static", true, "PowergridFuseBox", 7580, 3 },
+    { "powergrid_fusebox_small", "powergrid fusebox small", "Uncategorized", "assets/prefabs/io/electric/switches/fusebox/powergrid_fusebox_small.prefab", 1923819422U, true, true, false, false, false, false, false, false, "static", true, "PowergridFuseBox", 7583, 3 },
+    { "gearbox", "gearbox", "Uncategorized", "assets/prefabs/io/electric/switches/gearbox/gearbox.prefab", 2381092631U, true, true, false, false, false, false, false, false, "static", true, "ItemRestrictedWheelSwitch", 7586, 7 },
+    { "orswitch", "orswitch", "Uncategorized", "assets/prefabs/io/electric/switches/orswitch.prefab", 2179325520U, true, true, false, false, false, false, false, false, "static", true, "ORSwitch", 7593, 6 },
+    { "pressbutton", "pressbutton", "Uncategorized", "assets/prefabs/io/electric/switches/pressbutton/pressbutton.prefab", 4224395968U, true, true, false, false, false, false, false, false, "static", true, "PressButton", 7599, 6 },
+    { "pressbutton_compact", "pressbutton compact", "Uncategorized", "assets/prefabs/io/electric/switches/pressbutton/pressbutton_compact.prefab", 3594608867U, true, true, false, false, false, false, false, false, "static", true, "PressButton", 7605, 6 },
+    { "pressbutton_invisible", "pressbutton invisible", "Uncategorized", "assets/prefabs/io/electric/switches/pressbutton/pressbutton_invisible.prefab", 2427905255U, true, true, false, false, false, false, false, false, "static", true, "PressButton", 7611, 6 },
+    { "pressbutton_officeelevatorcall", "pressbutton officeelevatorcall", "Uncategorized", "assets/prefabs/io/electric/switches/pressbutton/pressbutton_officeelevatorcall.prefab", 3024956667U, true, true, false, false, false, false, false, false, "dynamic", false, "PressButton_TrainTunnel", 7617, 7 },
+    { "pressbutton_officeelevatordown", "pressbutton officeelevatordown", "Uncategorized", "assets/prefabs/io/electric/switches/pressbutton/pressbutton_officeelevatordown.prefab", 2322765486U, true, true, false, false, false, false, false, false, "dynamic", false, "PressButton_TrainTunnel", 7624, 7 },
+    { "pressbutton_officeelevatorup", "pressbutton officeelevatorup", "Uncategorized", "assets/prefabs/io/electric/switches/pressbutton/pressbutton_officeelevatorup.prefab", 322122625U, true, true, false, false, false, false, false, false, "dynamic", false, "PressButton_TrainTunnel", 7631, 7 },
+    { "pressbutton_trainstairwell", "pressbutton trainstairwell", "Uncategorized", "assets/prefabs/io/electric/switches/pressbutton/pressbutton_trainstairwell.prefab", 1802909967U, true, true, false, false, false, false, false, false, "dynamic", false, "PressButton_TrainTunnel", 7638, 7 },
+    { "simpleswitch", "simpleswitch", "Uncategorized", "assets/prefabs/io/electric/switches/simpleswitch/simpleswitch.prefab", 2055550712U, true, true, false, false, false, false, false, false, "static", true, "ElectricSwitch", 7645, 6 },
+    { "simpleswitch_lightswitch", "simpleswitch lightswitch", "Uncategorized", "assets/prefabs/io/electric/switches/simpleswitch_lightswitch/simpleswitch_lightswitch.prefab", 407841511U, true, true, false, false, false, false, false, false, "static", true, "ElectricSwitch", 7651, 6 },
+    { "splitter", "splitter", "Uncategorized", "assets/prefabs/io/electric/switches/splitter.prefab", 850739563U, true, true, false, false, false, false, false, false, "static", true, "Splitter", 7657, 6 },
+    { "timerswitch", "timerswitch", "Uncategorized", "assets/prefabs/io/electric/switches/timerswitch.prefab", 2873681431U, true, true, false, false, false, false, false, false, "static", true, "TimerSwitch", 7663, 6 },
+    { "xorswitch", "xorswitch", "Uncategorized", "assets/prefabs/io/electric/switches/xorswitch.prefab", 4139825974U, true, true, false, false, false, false, false, false, "static", true, "XORSwitch", 7669, 6 },
+    { "wheelswitch", "wheelswitch", "Uncategorized", "assets/prefabs/io/kinetic/wheelswitch.prefab", 1268553078U, true, true, false, false, false, false, false, false, "static", true, "WheelSwitch", 7675, 6 },
+    { "wheelswitch_wheel_only", "wheelswitch wheel only", "Uncategorized", "assets/prefabs/io/kinetic/wheelswitch_wheel_only.prefab", 3508954061U, true, true, false, false, false, false, false, false, "static", true, "WheelSwitch", 7681, 6 },
+    { "lock.key", "lock key", "Uncategorized", "assets/prefabs/locks/keylock/lock.key.prefab", 2106860026U, true, true, false, false, false, false, false, false, "static", true, "KeyLock", 7687, 4 },
+    { "lock.code", "lock code", "Uncategorized", "assets/prefabs/locks/keypad/lock.code.prefab", 3518824735U, true, true, false, false, false, false, false, false, "static", true, "CodeLock", 7691, 4 },
+    { "lock.code.a.pilot", "lock code a pilot", "Uncategorized", "assets/prefabs/locks/keypad/skins/codelock_a_pilot/lock.code.a.pilot.prefab", 319071656U, true, true, false, false, false, false, false, false, "static", true, "DigitSendCodeLock", 7695, 5 },
+    { "sign.artistcanvas.l", "sign artistcanvas l", "Uncategorized", "assets/prefabs/misc/artist_dlc/artistscanvases/sign.artistcanvas.l.prefab", 2535615922U, true, true, false, false, false, false, false, false, "static", true, "Signage", 7700, 6 },
+    { "sign.artistcanvas.m", "sign artistcanvas m", "Uncategorized", "assets/prefabs/misc/artist_dlc/artistscanvases/sign.artistcanvas.m.prefab", 797368798U, true, true, false, false, false, false, false, false, "static", true, "Signage", 7706, 6 },
+    { "sign.artistcanvas.s", "sign artistcanvas s", "Uncategorized", "assets/prefabs/misc/artist_dlc/artistscanvases/sign.artistcanvas.s.prefab", 3056672841U, true, true, false, false, false, false, false, false, "static", true, "Signage", 7712, 6 },
+    { "sign.artistcanvas.xl", "sign artistcanvas xl", "Uncategorized", "assets/prefabs/misc/artist_dlc/artistscanvases/sign.artistcanvas.xl.prefab", 1939665302U, true, true, false, false, false, false, false, false, "static", true, "Signage", 7718, 6 },
+    { "sign.artistcanvas.xs", "sign artistcanvas xs", "Uncategorized", "assets/prefabs/misc/artist_dlc/artistscanvases/sign.artistcanvas.xs.prefab", 1729209623U, true, true, false, false, false, false, false, false, "static", true, "Signage", 7724, 6 },
+    { "sign.artistcanvas.xxl", "sign artistcanvas xxl", "Uncategorized", "assets/prefabs/misc/artist_dlc/artistscanvases/sign.artistcanvas.xxl.prefab", 121897445U, true, true, false, false, false, false, false, false, "static", true, "Signage", 7730, 6 },
+    { "lightupframe.large", "lightupframe large", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/lightupframe.large.prefab", 3297576892U, true, true, false, false, false, false, false, false, "static", true, "FlagTogglePhotoFrame", 7736, 7 },
+    { "lightupframe.medium", "lightupframe medium", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/lightupframe.medium.prefab", 2703989313U, true, true, false, false, false, false, false, false, "static", true, "FlagTogglePhotoFrame", 7743, 7 },
+    { "lightupframe.small", "lightupframe small", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/lightupframe.small.prefab", 3602290925U, true, true, false, false, false, false, false, false, "static", true, "FlagTogglePhotoFrame", 7750, 7 },
+    { "lightupframe.standing", "lightupframe standing", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/lightupframe.standing.prefab", 2296327774U, true, true, false, false, false, false, false, false, "static", true, "FlagTogglePhotoFrame", 7757, 7 },
+    { "lightupframe.xl", "lightupframe xl", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/lightupframe.xl.prefab", 879893360U, true, true, false, false, false, false, false, false, "static", true, "FlagTogglePhotoFrame", 7764, 7 },
+    { "lightupframe.xxl", "lightupframe xxl", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/lightupframe.xxl.prefab", 2127235542U, true, true, false, false, false, false, false, false, "static", true, "FlagTogglePhotoFrame", 7771, 7 },
+    { "lightupframe.ioent.large", "lightupframe ioent large", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/subents/lightupframe.ioent.large.prefab", 3687349212U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7778, 6 },
+    { "lightupframe.ioent.medium", "lightupframe ioent medium", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/subents/lightupframe.ioent.medium.prefab", 176410268U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7784, 6 },
+    { "lightupframe.ioent.small", "lightupframe ioent small", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/subents/lightupframe.ioent.small.prefab", 2525660658U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7790, 6 },
+    { "lightupframe.ioent.standing", "lightupframe ioent standing", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/subents/lightupframe.ioent.standing.prefab", 3078681327U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7796, 6 },
+    { "lightupframe.ioent.xl", "lightupframe ioent xl", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/subents/lightupframe.ioent.xl.prefab", 3453753706U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7802, 6 },
+    { "lightupframe.ioent.xxl", "lightupframe ioent xxl", "Uncategorized", "assets/prefabs/misc/artist_dlc/light-up frame/subents/lightupframe.ioent.xxl.prefab", 1885995974U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7808, 6 },
+    { "goldframe.large", "goldframe large", "Uncategorized", "assets/prefabs/misc/artist_dlc/ornate frame/goldframe.large.prefab", 798161878U, true, true, false, false, false, false, false, false, "static", true, "OrnateFrame", 7814, 7 },
+    { "goldframe.medium", "goldframe medium", "Uncategorized", "assets/prefabs/misc/artist_dlc/ornate frame/goldframe.medium.prefab", 4033431204U, true, true, false, false, false, false, false, false, "static", true, "OrnateFrame", 7821, 7 },
+    { "goldframe.small", "goldframe small", "Uncategorized", "assets/prefabs/misc/artist_dlc/ornate frame/goldframe.small.prefab", 485350915U, true, true, false, false, false, false, false, false, "static", true, "OrnateFrame", 7828, 7 },
+    { "goldframe.standing", "goldframe standing", "Uncategorized", "assets/prefabs/misc/artist_dlc/ornate frame/goldframe.standing.prefab", 3396336042U, true, true, false, false, false, false, false, false, "static", true, "OrnateFrame", 7835, 7 },
+    { "goldframe.xl", "goldframe xl", "Uncategorized", "assets/prefabs/misc/artist_dlc/ornate frame/goldframe.xl.prefab", 3754396910U, true, true, false, false, false, false, false, false, "static", true, "OrnateFrame", 7842, 7 },
+    { "goldframe.xxl", "goldframe xxl", "Uncategorized", "assets/prefabs/misc/artist_dlc/ornate frame/goldframe.xxl.prefab", 284403021U, true, true, false, false, false, false, false, false, "static", true, "OrnateFrame", 7849, 7 },
+    { "paintable_reactive_target.deployed", "paintable reactive target deployed", "Uncategorized", "assets/prefabs/misc/artist_dlc/paintable reactive target/paintable_reactive_target.deployed.prefab", 2311585556U, true, true, false, false, false, false, false, false, "static", true, "ReactiveTarget", 7856, 7 },
+    { "window.paintable", "window paintable", "Uncategorized", "assets/prefabs/misc/artist_dlc/paintable window/window.paintable.prefab", 1804926480U, true, true, false, false, false, false, false, false, "static", true, "Signage", 7863, 6 },
+    { "scrapframe.large", "scrapframe large", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/scrapframe.large.prefab", 3892777780U, true, true, false, false, false, false, false, false, "static", true, "ShutterFrame", 7869, 7 },
+    { "scrapframe.medium", "scrapframe medium", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/scrapframe.medium.prefab", 568958593U, true, true, false, false, false, false, false, false, "static", true, "ShutterFrame", 7876, 7 },
+    { "scrapframe.small", "scrapframe small", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/scrapframe.small.prefab", 2729848647U, true, true, false, false, false, false, false, false, "static", true, "ShutterFrame", 7883, 7 },
+    { "scrapframe.standing", "scrapframe standing", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/scrapframe.standing.prefab", 1938985149U, true, true, false, false, false, false, false, false, "static", true, "ShutterFrame", 7890, 7 },
+    { "scrapframe.xl", "scrapframe xl", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/scrapframe.xl.prefab", 958885520U, true, true, false, false, false, false, false, false, "static", true, "ShutterFrame", 7897, 7 },
+    { "scrapframe.xxl", "scrapframe xxl", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/scrapframe.xxl.prefab", 2760478303U, true, true, false, false, false, false, false, false, "static", true, "ShutterFrame", 7904, 7 },
+    { "scrapframe.ioent.large", "scrapframe ioent large", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/subents/scrapframe.ioent.large.prefab", 3532150403U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7911, 6 },
+    { "scrapframe.ioent.medium", "scrapframe ioent medium", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/subents/scrapframe.ioent.medium.prefab", 2808686863U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7917, 6 },
+    { "scrapframe.ioent.small", "scrapframe ioent small", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/subents/scrapframe.ioent.small.prefab", 2662530111U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7923, 6 },
+    { "scrapframe.ioent.standing", "scrapframe ioent standing", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/subents/scrapframe.ioent.standing.prefab", 1228245501U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7929, 6 },
+    { "scrapframe.ioent.xl", "scrapframe ioent xl", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/subents/scrapframe.ioent.xl.prefab", 2178232552U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7935, 6 },
+    { "scrapframe.ioent.xxl", "scrapframe ioent xxl", "Uncategorized", "assets/prefabs/misc/artist_dlc/scrap frame/subents/scrapframe.ioent.xxl.prefab", 1586875222U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 7941, 6 },
+    { "woodframe.large", "woodframe large", "Uncategorized", "assets/prefabs/misc/artist_dlc/wood frame (unused)/woodframe.large.prefab", 1867483538U, true, true, false, false, false, false, false, false, "static", true, "PhotoFrame", 7947, 6 },
+    { "woodframe.medium", "woodframe medium", "Uncategorized", "assets/prefabs/misc/artist_dlc/wood frame (unused)/woodframe.medium.prefab", 3494723332U, true, true, false, false, false, false, false, false, "static", true, "PhotoFrame", 7953, 6 },
+    { "woodframe.small", "woodframe small", "Uncategorized", "assets/prefabs/misc/artist_dlc/wood frame (unused)/woodframe.small.prefab", 2679749389U, true, true, false, false, false, false, false, false, "static", true, "PhotoFrame", 7959, 6 },
+    { "woodframe.standing", "woodframe standing", "Uncategorized", "assets/prefabs/misc/artist_dlc/wood frame (unused)/woodframe.standing.prefab", 2425277060U, true, true, false, false, false, false, false, false, "static", true, "PhotoFrame", 7965, 6 },
+    { "circle_balloon.deployed", "circle balloon deployed", "Uncategorized", "assets/prefabs/misc/birthday_balloons_2025/circle_balloon.deployed.prefab", 1020698817U, true, true, false, false, false, false, false, false, "static", true, "PartyBalloon", 7971, 4 },
+    { "heart_balloon.deployed", "heart balloon deployed", "Uncategorized", "assets/prefabs/misc/birthday_balloons_2025/heart_balloon.deployed.prefab", 51953109U, true, true, false, false, false, false, false, false, "static", true, "PartyBalloon", 7975, 4 },
+    { "latex_balloon.deployed", "latex balloon deployed", "Uncategorized", "assets/prefabs/misc/birthday_balloons_2025/latex_balloon.deployed.prefab", 1667260774U, true, true, false, false, false, false, false, false, "static", true, "PartyBalloon", 7979, 4 },
+    { "latexclump_balloon.deployed", "latexclump balloon deployed", "Uncategorized", "assets/prefabs/misc/birthday_balloons_2025/latexclump_balloon.deployed.prefab", 2097023580U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 7983, 3 },
+    { "mixedclump_balloon.deployed", "mixedclump balloon deployed", "Uncategorized", "assets/prefabs/misc/birthday_balloons_2025/mixedclump_balloon.deployed.prefab", 2723764296U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 7986, 3 },
+    { "speechbubble_balloon.deployed", "speechbubble balloon deployed", "Uncategorized", "assets/prefabs/misc/birthday_balloons_2025/speechbubble_balloon.deployed.prefab", 513939161U, true, true, false, false, false, false, false, false, "static", true, "PartyBalloon", 7989, 4 },
+    { "star_balloon.deployed", "star balloon deployed", "Uncategorized", "assets/prefabs/misc/birthday_balloons_2025/star_balloon.deployed.prefab", 1969418053U, true, true, false, false, false, false, false, false, "static", true, "PartyBalloon", 7993, 4 },
+    { "generic_world", "generic world", "Uncategorized", "assets/prefabs/misc/burlap sack/generic_world.prefab", 3255145925U, true, true, false, false, false, false, false, false, "static", true, "DroppedItem", 7997, 4 },
+    { "big_wheel", "big wheel", "Uncategorized", "assets/prefabs/misc/casino/bigwheel/big_wheel.prefab", 3690849383U, true, true, false, false, false, false, false, false, "static", true, "BigWheelGame", 8001, 8 },
+    { "bigwheelbettingterminal", "bigwheelbettingterminal", "Uncategorized", "assets/prefabs/misc/casino/bigwheel/bigwheelbettingterminal.prefab", 2924713120U, true, true, false, false, false, false, false, false, "static", true, "BigWheelBettingTerminal", 8009, 6 },
+    { "slotmachine", "slotmachine", "Uncategorized", "assets/prefabs/misc/casino/slotmachine/slotmachine.prefab", 2230162530U, true, true, false, false, false, false, false, false, "static", true, "SlotMachine", 8015, 5 },
+    { "slotmachinestorage", "slotmachinestorage", "Uncategorized", "assets/prefabs/misc/casino/slotmachine/slotmachinestorage.prefab", 3176258750U, true, true, false, false, false, false, false, false, "static", true, "SlotMachineStorage", 8020, 6 },
+    { "chinese_door_decoration", "chinese door decoration", "Uncategorized", "assets/prefabs/misc/chinesenewyear/chinese_door_decoration/chinese_door_decoration.prefab", 2084471865U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 8026, 6 },
+    { "chinese_door_frame_decoration", "chinese door frame decoration", "Uncategorized", "assets/prefabs/misc/chinesenewyear/chinese_door_frame_decoration/chinese_door_frame_decoration.prefab", 2040594012U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 8032, 6 },
+    { "chineselantern.deployed", "chineselantern deployed", "Uncategorized", "assets/prefabs/misc/chinesenewyear/chineselantern/chineselantern.deployed.prefab", 3887352222U, true, true, false, false, false, false, false, false, "static", true, "ChineseLantern", 8038, 8 },
+    { "chineselantern_white.deployed", "chineselantern white deployed", "Uncategorized", "assets/prefabs/misc/chinesenewyear/chineselantern/chineselantern_white.deployed.prefab", 2201663291U, true, true, false, false, false, false, false, false, "static", true, "ChineseLantern", 8046, 8 },
+    { "dragondoorknocker.deployed", "dragondoorknocker deployed", "Uncategorized", "assets/prefabs/misc/chinesenewyear/dragondoorknocker/dragondoorknocker.deployed.prefab", 4125587834U, true, true, false, false, false, false, false, false, "static", true, "DoorKnocker", 8054, 4 },
+    { "newyeargong.deployed", "newyeargong deployed", "Uncategorized", "assets/prefabs/misc/chinesenewyear/newyeargong/newyeargong.deployed.prefab", 2687699909U, true, true, false, false, false, false, false, false, "static", true, "NewYearGong", 8058, 4 },
+    { "skylantern.deployed", "skylantern deployed", "Uncategorized", "assets/prefabs/misc/chinesenewyear/sky_lantern/skylantern.deployed.prefab", 2869067981U, true, true, false, false, false, false, false, false, "static", true, "SkyLantern", 8062, 6 },
+    { "skylantern.skylantern.green", "skylantern skylantern green", "Uncategorized", "assets/prefabs/misc/chinesenewyear/sky_lantern/skylantern.skylantern.green.prefab", 4232309112U, true, true, false, false, false, false, false, false, "static", true, "SkyLantern", 8068, 6 },
+    { "skylantern.skylantern.orange", "skylantern skylantern orange", "Uncategorized", "assets/prefabs/misc/chinesenewyear/sky_lantern/skylantern.skylantern.orange.prefab", 2908920493U, true, true, false, false, false, false, false, false, "static", true, "SkyLantern", 8074, 6 },
+    { "skylantern.skylantern.purple", "skylantern skylantern purple", "Uncategorized", "assets/prefabs/misc/chinesenewyear/sky_lantern/skylantern.skylantern.purple.prefab", 1049099687U, true, true, false, false, false, false, false, false, "static", true, "SkyLantern", 8080, 6 },
+    { "skylantern.skylantern.red", "skylantern skylantern red", "Uncategorized", "assets/prefabs/misc/chinesenewyear/sky_lantern/skylantern.skylantern.red.prefab", 700699236U, true, true, false, false, false, false, false, false, "static", true, "SkyLantern", 8086, 6 },
+    { "firecrackers.deployed", "firecrackers deployed", "Uncategorized", "assets/prefabs/misc/chinesenewyear/throwablefirecrackers/firecrackers.deployed.prefab", 3428971889U, true, true, false, true, false, true, false, false, "dynamic", false, "StringFirecracker", 8092, 4 },
+    { "firecrackers.entity", "Firecracker String", "Uncategorized", "assets/prefabs/misc/chinesenewyear/throwablefirecrackers/firecrackers.entity.prefab", 628064879U, true, true, false, false, false, false, false, false, "static", true, "GrenadeWeapon", 8096, 6 },
+    { "chippyarcademachine", "chippyarcademachine", "Uncategorized", "assets/prefabs/misc/chippy arcade/chippyarcademachine.prefab", 4267988016U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseArcadeMachine", 8102, 6 },
+    { "confetticannon.deployed", "confetticannon deployed", "Uncategorized", "assets/prefabs/misc/confetticannon/confetticannon.deployed.prefab", 2703688515U, true, true, false, false, false, false, false, false, "static", true, "ConfettiCannon", 8108, 5 },
+    { "door.double.hinged.bardoors", "door double hinged bardoors", "Uncategorized", "assets/prefabs/misc/decor_dlc/bardoors/door.double.hinged.bardoors.prefab", 2944302698U, true, true, false, false, false, false, false, false, "static", true, "GestureDoor", 8113, 8 },
+    { "bathtub.planter.deployed", "bathtub planter deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/bath tub planter/bathtub.planter.deployed.prefab", 2846319393U, true, true, false, false, false, false, false, false, "static", true, "PlanterBox", 8121, 6 },
+    { "bathtub.planter.respawning.static", "bathtub planter respawning static", "Uncategorized", "assets/prefabs/misc/decor_dlc/bath tub planter/bathtub.planter.respawning.static.prefab", 2264146188U, true, true, false, false, false, false, false, false, "static", true, "PlanterBoxStatic", 8127, 7 },
+    { "headbag", "headbag", "Uncategorized", "assets/prefabs/misc/decor_dlc/heads/headbag.prefab", 3620851723U, true, true, false, false, false, false, false, false, "static", true, "HeadEntity", 8134, 3 },
+    { "fishtrophy.deployed", "fishtrophy deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/huntingtrophy_fish/fishtrophy.deployed.prefab", 1962641099U, true, true, false, false, false, false, false, false, "static", true, "FishMount", 8137, 6 },
+    { "huntingtrophylarge.deployed", "huntingtrophylarge deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/huntingtrophy_large/huntingtrophylarge.deployed.prefab", 471249640U, true, true, false, false, false, false, false, false, "static", true, "HuntingTrophy", 8143, 6 },
+    { "huntingtrophysmall.deployed", "huntingtrophysmall deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/huntingtrophy_small/huntingtrophysmall.deployed.prefab", 1521270672U, true, true, false, false, false, false, false, false, "static", true, "HuntingTrophy", 8149, 6 },
+    { "minecart.planter.deployed", "minecart planter deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/minecart planter/minecart.planter.deployed.prefab", 47518702U, true, true, false, false, false, false, false, false, "static", true, "PlanterBox", 8155, 6 },
+    { "minecart.planter.respawning.static", "minecart planter respawning static", "Uncategorized", "assets/prefabs/misc/decor_dlc/minecart planter/minecart.planter.respawning.static.prefab", 3790665304U, true, true, false, false, false, false, false, false, "static", true, "PlanterBoxStatic", 8161, 7 },
+    { "railroadplanter.deployed", "railroadplanter deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/rail road planter/railroadplanter.deployed.prefab", 115096413U, true, true, false, false, false, false, false, false, "static", true, "PlanterBox", 8168, 6 },
+    { "railroadplanter.respawning.static", "railroadplanter respawning static", "Uncategorized", "assets/prefabs/misc/decor_dlc/rail road planter/railroadplanter.respawning.static.prefab", 758859662U, true, true, false, false, false, false, false, false, "static", true, "PlanterBoxStatic", 8174, 7 },
+    { "triangle_railroad_planter.deployed", "triangle railroad planter deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/rail road planter/triangle_railroad_planter.deployed.prefab", 3449130218U, true, true, false, false, false, false, false, false, "static", true, "PlanterBox", 8181, 6 },
+    { "rockingchair.deployed", "rockingchair deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/rockingchair/rockingchair.deployed.prefab", 1808651928U, true, true, false, false, false, false, false, false, "static", true, "RockingChair", 8187, 6 },
+    { "rockingchair.rockingchair2.deployed", "rockingchair rockingchair2 deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/rockingchair/skins/rockingchair.rockingchair2.deployed.prefab", 720514301U, true, true, false, false, false, false, false, false, "static", true, "RockingChair", 8193, 6 },
+    { "rockingchair.rockingchair3.deployed", "rockingchair rockingchair3 deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/rockingchair/skins/rockingchair.rockingchair3.deployed.prefab", 804668581U, true, true, false, false, false, false, false, false, "static", true, "RockingChair", 8199, 6 },
+    { "skinningknife.entity", "Skinning Knife", "Uncategorized", "assets/prefabs/misc/decor_dlc/skinning knife/skinningknife.entity.prefab", 995189561U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 8205, 5 },
+    { "storage_barrel_b.corpse", "storage barrel b corpse", "Uncategorized", "assets/prefabs/misc/decor_dlc/storagebarrel/storage_barrel_b.corpse.prefab", 1186322904U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 8210, 7 },
+    { "storage_barrel_b", "storage barrel b", "Uncategorized", "assets/prefabs/misc/decor_dlc/storagebarrel/storage_barrel_b.prefab", 1502013593U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 8217, 6 },
+    { "storage_barrel_c.corpse", "storage barrel c corpse", "Uncategorized", "assets/prefabs/misc/decor_dlc/storagebarrel/storage_barrel_c.corpse.prefab", 632015332U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 8223, 7 },
+    { "storage_barrel_c", "storage barrel c", "Uncategorized", "assets/prefabs/misc/decor_dlc/storagebarrel/storage_barrel_c.prefab", 2261122309U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 8230, 6 },
+    { "unused_storage_barrel_a", "unused storage barrel a", "Uncategorized", "assets/prefabs/misc/decor_dlc/storagebarrel/unused_storage_barrel_a.prefab", 1429074576U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 8236, 6 },
+    { "torchholder.deployed", "torchholder deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/torchholder/torchholder.deployed.prefab", 39066900U, true, true, false, false, false, false, false, false, "static", true, "TorchDeployableLightSource", 8242, 6 },
+    { "wantedposter.wantedposter2", "wantedposter wantedposter2", "Uncategorized", "assets/prefabs/misc/decor_dlc/wantedposter/skins/wantedposter.wantedposter2.prefab", 18924473U, true, true, false, false, false, false, false, false, "static", true, "WantedPoster", 8248, 5 },
+    { "wantedposter.wantedposter3", "wantedposter wantedposter3", "Uncategorized", "assets/prefabs/misc/decor_dlc/wantedposter/skins/wantedposter.wantedposter3.prefab", 1570465433U, true, true, false, false, false, false, false, false, "static", true, "WantedPoster", 8253, 5 },
+    { "wantedposter.wantedposter4", "wantedposter wantedposter4", "Uncategorized", "assets/prefabs/misc/decor_dlc/wantedposter/skins/wantedposter.wantedposter4.prefab", 4144024614U, true, true, false, false, false, false, false, false, "static", true, "WantedPoster", 8258, 5 },
+    { "wantedposter.deployed", "wantedposter deployed", "Uncategorized", "assets/prefabs/misc/decor_dlc/wantedposter/wantedposter.deployed.prefab", 1683627733U, true, true, false, false, false, false, false, false, "static", true, "WantedPoster", 8263, 5 },
+    { "bunkercannon", "bunkercannon", "Uncategorized", "assets/prefabs/misc/deepseadwellings/bunkercannon.prefab", 3478623418U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8268, 3 },
+    { "dwelling_orefield_large_tropical1_metal", "dwelling orefield large tropical1 metal", "Uncategorized", "assets/prefabs/misc/deepseadwellings/dwelling_orefield_large_tropical1_metal.prefab", 1051214675U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8271, 3 },
+    { "dwelling_orefield_large_tropical1_sulfur variant", "dwelling orefield large tropical1 sulfur variant", "Uncategorized", "assets/prefabs/misc/deepseadwellings/dwelling_orefield_large_tropical1_sulfur variant.prefab", 2446035545U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8274, 3 },
+    { "dwelling_orefield_large_tropical2_metal", "dwelling orefield large tropical2 metal", "Uncategorized", "assets/prefabs/misc/deepseadwellings/dwelling_orefield_large_tropical2_metal.prefab", 368231912U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8277, 3 },
+    { "dwelling_orefield_large_tropical2_sulfur variant", "dwelling orefield large tropical2 sulfur variant", "Uncategorized", "assets/prefabs/misc/deepseadwellings/dwelling_orefield_large_tropical2_sulfur variant.prefab", 2462471120U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8280, 3 },
+    { "dwelling_orefield_large_tropical3_metal", "dwelling orefield large tropical3 metal", "Uncategorized", "assets/prefabs/misc/deepseadwellings/dwelling_orefield_large_tropical3_metal.prefab", 3616866229U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8283, 3 },
+    { "dwelling_orefield_large_tropical3_sulfur variant", "dwelling orefield large tropical3 sulfur variant", "Uncategorized", "assets/prefabs/misc/deepseadwellings/dwelling_orefield_large_tropical3_sulfur variant.prefab", 2458692433U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8286, 3 },
+    { "dwelling_orefield_large_tropical4_metal", "dwelling orefield large tropical4 metal", "Uncategorized", "assets/prefabs/misc/deepseadwellings/dwelling_orefield_large_tropical4_metal.prefab", 521632693U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8289, 3 },
+    { "dwelling_orefield_large_tropical4_sulfur variant", "dwelling orefield large tropical4 sulfur variant", "Uncategorized", "assets/prefabs/misc/deepseadwellings/dwelling_orefield_large_tropical4_sulfur variant.prefab", 3085970401U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8292, 3 },
+    { "tropical_island_dwelling_a", "tropical island dwelling a", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_a.prefab", 2303985447U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8295, 3 },
+    { "tropical_island_dwelling_blank", "tropical island dwelling blank", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_blank.prefab", 401205269U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8298, 3 },
+    { "tropical_island_dwelling_docks_boats_a", "tropical island dwelling docks boats a", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_docks_boats_a.prefab", 2326685902U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8301, 3 },
+    { "tropical_island_dwelling_docks_boats_b", "tropical island dwelling docks boats b", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_docks_boats_b.prefab", 316297516U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8304, 3 },
+    { "tropical_island_dwelling_docks_large_a", "tropical island dwelling docks large a", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_docks_large_a.prefab", 1189526737U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8307, 3 },
+    { "tropical_island_dwelling_docks_small_a", "tropical island dwelling docks small a", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_docks_small_a.prefab", 3405314486U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8310, 3 },
+    { "tropical_island_dwelling_docks_small_b", "tropical island dwelling docks small b", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_docks_small_b.prefab", 2633436050U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8313, 3 },
+    { "tropical_island_dwelling_docks_small_c", "tropical island dwelling docks small c", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_docks_small_c.prefab", 1877198989U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8316, 3 },
+    { "tropical_island_dwelling_ruins_b", "tropical island dwelling ruins b", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_ruins_b.prefab", 579008158U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8319, 3 },
+    { "tropical_island_dwelling_ruins_c", "tropical island dwelling ruins c", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_ruins_c.prefab", 1715466672U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8322, 3 },
+    { "tropical_island_dwelling_ruins_d", "tropical island dwelling ruins d", "Uncategorized", "assets/prefabs/misc/deepseadwellings/tropical_island_dwelling_ruins_d.prefab", 1685826038U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8325, 3 },
+    { "desert_dwelling_double_a", "desert dwelling double a", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_double_a.prefab", 3879517825U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8328, 3 },
+    { "desert_dwelling_double_b", "desert dwelling double b", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_double_b.prefab", 1794805097U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8331, 3 },
+    { "desert_dwelling_double_c", "desert dwelling double c", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_double_c.prefab", 3736202536U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8334, 3 },
+    { "desert_dwelling_double_d", "desert dwelling double d", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_double_d.prefab", 145441199U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8337, 3 },
+    { "desert_dwelling_double_e", "desert dwelling double e", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_double_e.prefab", 697008925U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8340, 3 },
+    { "desert_dwelling_double_f", "desert dwelling double f", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_double_f.prefab", 1244275247U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8343, 3 },
+    { "desert_dwelling_double_g", "desert dwelling double g", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_double_g.prefab", 1787891413U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCDwelling", 8346, 3 },
+    { "desert_dwelling_double_h", "desert dwelling double h", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_double_h.prefab", 1522065566U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8349, 3 },
+    { "desert_dwelling_double_i", "desert dwelling double i", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_double_i.prefab", 141711534U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8352, 3 },
+    { "desert_dwelling_single_a", "desert dwelling single a", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_a.prefab", 3753747337U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8355, 3 },
+    { "desert_dwelling_single_b", "desert dwelling single b", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_b.prefab", 2116118137U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8358, 3 },
+    { "desert_dwelling_single_c", "desert dwelling single c", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_c.prefab", 2655033203U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8361, 3 },
+    { "desert_dwelling_single_d", "desert dwelling single d", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_d.prefab", 3783075070U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8364, 3 },
+    { "desert_dwelling_single_e", "desert dwelling single e", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_e.prefab", 3182213659U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8367, 3 },
+    { "desert_dwelling_single_f", "desert dwelling single f", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_f.prefab", 321391832U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8370, 3 },
+    { "desert_dwelling_single_g", "desert dwelling single g", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_g.prefab", 2404833927U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8373, 3 },
+    { "desert_dwelling_single_h", "desert dwelling single h", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_h.prefab", 607177296U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8376, 3 },
+    { "desert_dwelling_single_i", "desert dwelling single i", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_i.prefab", 1353231516U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8379, 3 },
+    { "desert_dwelling_single_j", "desert dwelling single j", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_j.prefab", 1569310753U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8382, 3 },
+    { "desert_dwelling_single_k", "desert dwelling single k", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_k.prefab", 1533955323U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8385, 3 },
+    { "desert_dwelling_single_l", "desert dwelling single l", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_l.prefab", 11006879U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8388, 3 },
+    { "desert_dwelling_single_m", "desert dwelling single m", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_m.prefab", 2451307776U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8391, 3 },
+    { "desert_dwelling_single_n", "desert dwelling single n", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_n.prefab", 4141993402U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8394, 3 },
+    { "desert_dwelling_single_o", "desert dwelling single o", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_o.prefab", 2497356755U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8397, 3 },
+    { "desert_dwelling_single_p", "desert dwelling single p", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_p.prefab", 3728083511U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8400, 3 },
+    { "desert_dwelling_single_q", "desert dwelling single q", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_q.prefab", 1405232012U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8403, 3 },
+    { "desert_dwelling_single_r", "desert dwelling single r", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_r.prefab", 420601661U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8406, 3 },
+    { "desert_dwelling_single_s", "desert dwelling single s", "Uncategorized", "assets/prefabs/misc/desertbasedwelling/desert_dwelling_single_s.prefab", 3879469933U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 8409, 3 },
+    { "divesite_a", "divesite a", "Uncategorized", "assets/prefabs/misc/divesite/divesite_a.prefab", 2419904621U, true, true, false, false, false, false, false, false, "static", true, "DiveSite", 8412, 4 },
+    { "divesite_b", "divesite b", "Uncategorized", "assets/prefabs/misc/divesite/divesite_b.prefab", 2048371271U, true, true, false, false, false, false, false, false, "static", true, "DiveSite", 8416, 4 },
+    { "divesite_c", "divesite c", "Uncategorized", "assets/prefabs/misc/divesite/divesite_c.prefab", 1891214172U, true, true, false, false, false, false, false, false, "static", true, "DiveSite", 8420, 4 },
+    { "divesite_d", "divesite d", "Uncategorized", "assets/prefabs/misc/divesite/divesite_d.prefab", 1429756914U, true, true, false, false, false, false, false, false, "static", true, "DiveSite", 8424, 4 },
+    { "divesite_e", "divesite e", "Uncategorized", "assets/prefabs/misc/divesite/divesite_e.prefab", 365020138U, true, true, false, false, false, false, false, false, "static", true, "DiveSite", 8428, 4 },
+    { "divesite_f", "divesite f", "Uncategorized", "assets/prefabs/misc/divesite/divesite_f.prefab", 3158334014U, true, true, false, false, false, false, false, false, "static", true, "DiveSite", 8432, 4 },
+    { "oceanwreckbuoy", "oceanwreckbuoy", "Uncategorized", "assets/prefabs/misc/divesite/oceanwreckbuoy.prefab", 2825845166U, true, true, false, false, false, false, false, false, "static", true, "DiveSiteBuoy", 8436, 3 },
+    { "oceanwreckbuoysmall", "oceanwreckbuoysmall", "Uncategorized", "assets/prefabs/misc/divesite/oceanwreckbuoysmall.prefab", 702334137U, true, true, false, false, false, false, false, false, "static", true, "DiveSiteBuoy", 8439, 3 },
+    { "doorcloser", "doorcloser", "Uncategorized", "assets/prefabs/misc/doorcloser/doorcloser.prefab", 1831641807U, true, true, false, false, false, false, false, false, "static", true, "DoorCloser", 8442, 3 },
+    { "dynamicpreventbuilding", "dynamicpreventbuilding", "Uncategorized", "assets/prefabs/misc/dynamicpreventbuilding.prefab", 4124785483U, true, true, false, false, false, false, false, false, "static", true, "BaseEntity", 8445, 2 },
+    { "easter_door_wreath_deployed", "easter door wreath deployed", "Uncategorized", "assets/prefabs/misc/easter/door_wreath/easter_door_wreath_deployed.prefab", 3375996320U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 8447, 3 },
+    { "easter_basket.entity", "Egg Basket", "Uncategorized", "assets/prefabs/misc/easter/easter basket/easter_basket.entity.prefab", 557749706U, true, true, false, false, false, false, false, false, "static", true, "EasterBasket", 8450, 5 },
+    { "eastereggprojectile", "eastereggprojectile", "Uncategorized", "assets/prefabs/misc/easter/easter basket/eastereggprojectile.prefab", 3721260684U, true, true, false, false, false, false, false, false, "static", true, "SeasonalTimedExplosive", 8455, 4 },
+    { "item.painted.storage", "item painted storage", "Uncategorized", "assets/prefabs/misc/easter/egg_suit/item.painted.storage.prefab", 2806530431U, true, true, false, false, false, false, false, false, "static", true, "PaintedItemStorageEntity", 8459, 3 },
+    { "egghunt", "egghunt", "Uncategorized", "assets/prefabs/misc/easter/egghunt.prefab", 3376609576U, true, true, false, false, false, false, false, false, "static", true, "EggHuntEvent", 8462, 4 },
+    { "rustigeegg_a.deployed", "rustigeegg a deployed", "Uncategorized", "assets/prefabs/misc/easter/faberge_egg_a/rustigeegg_a.deployed.prefab", 2952734041U, true, true, false, false, false, false, false, false, "static", true, "RustigeEgg", 8466, 4 },
+    { "rustigeegg_b.deployed", "rustigeegg b deployed", "Uncategorized", "assets/prefabs/misc/easter/faberge_egg_b/rustigeegg_b.deployed.prefab", 2769334849U, true, true, false, false, false, false, false, false, "static", true, "RustigeEgg", 8470, 4 },
+    { "rustigeegg_c.deployed", "rustigeegg c deployed", "Uncategorized", "assets/prefabs/misc/easter/faberge_egg_c/rustigeegg_c.deployed.prefab", 2259790452U, true, true, false, false, false, false, false, false, "static", true, "RustigeEgg", 8474, 4 },
+    { "rustigeegg_d.deployed", "rustigeegg d deployed", "Uncategorized", "assets/prefabs/misc/easter/faberge_egg_d/rustigeegg_d.deployed.prefab", 3394396962U, true, true, false, false, false, false, false, false, "static", true, "RustigeEgg", 8478, 4 },
+    { "rustigeegg_e.deployed", "rustigeegg e deployed", "Uncategorized", "assets/prefabs/misc/easter/faberge_egg_e/rustigeegg_e.deployed.prefab", 1833328825U, true, true, false, false, false, false, false, false, "static", true, "RustigeEgg", 8482, 4 },
+    { "rustigeegg_f.deployed", "rustigeegg f deployed", "Uncategorized", "assets/prefabs/misc/easter/faberge_egg_f/rustigeegg_f.deployed.prefab", 31755465U, true, true, false, false, false, false, false, false, "static", true, "RustigeEgg", 8486, 4 },
+    { "rustigeegg_g.deployed", "rustigeegg g deployed", "Uncategorized", "assets/prefabs/misc/easter/faberge_egg_g/rustigeegg_g.deployed.prefab", 968699775U, true, true, false, false, false, false, false, false, "static", true, "RustigeEgg", 8490, 4 },
+    { "rustigeegg_h.deployed", "rustigeegg h deployed", "Uncategorized", "assets/prefabs/misc/easter/faberge_egg_h/rustigeegg_h.deployed.prefab", 3584759614U, true, true, false, false, false, false, false, false, "static", true, "RustigeEgg", 8494, 4 },
+    { "collectableegg", "collectableegg", "Uncategorized", "assets/prefabs/misc/easter/painted eggs/collectableegg.prefab", 2492538492U, true, true, false, false, false, false, false, false, "static", true, "CollectableEasterEgg", 8498, 3 },
+    { "food_cache_001", "food cache 001", "Uncategorized", "assets/prefabs/misc/food cache/food_cache_001.prefab", 1254812818U, true, true, false, false, false, false, false, false, "static", true, "LootContainer", 8501, 6 },
+    { "food_cache_002", "food cache 002", "Uncategorized", "assets/prefabs/misc/food cache/food_cache_002.prefab", 4273542191U, true, true, false, false, false, false, false, false, "static", true, "LootContainer", 8507, 6 },
+    { "food_cache_003", "food cache 003", "Uncategorized", "assets/prefabs/misc/food cache/food_cache_003.prefab", 3858903386U, true, true, false, false, false, false, false, false, "static", true, "LootContainer", 8513, 6 },
+    { "food_cache_004", "food cache 004", "Uncategorized", "assets/prefabs/misc/food cache/food_cache_004.prefab", 372904702U, true, true, false, false, false, false, false, false, "static", true, "LootContainer", 8519, 6 },
+    { "food_cache_005", "food cache 005", "Uncategorized", "assets/prefabs/misc/food cache/food_cache_005.prefab", 1465626697U, true, true, false, false, false, false, false, false, "static", true, "LootContainer", 8525, 6 },
+    { "ghostship", "ghostship", "Uncategorized", "assets/prefabs/misc/ghostships/ghostship.prefab", 1159044978U, true, true, false, true, true, false, false, false, "static", true, "Prefabs.Misc.GhostShip", 8531, 5 },
+    { "ghostship_b", "ghostship b", "Uncategorized", "assets/prefabs/misc/ghostships/ghostship_b.prefab", 2529944595U, true, true, false, true, true, false, false, false, "static", true, "Prefabs.Misc.GhostShip", 8536, 5 },
+    { "ghostship_c", "ghostship c", "Uncategorized", "assets/prefabs/misc/ghostships/ghostship_c.prefab", 752720933U, true, true, false, true, true, false, false, false, "static", true, "Prefabs.Misc.GhostShip", 8541, 5 },
+    { "ghostship_d", "ghostship d", "Uncategorized", "assets/prefabs/misc/ghostships/ghostship_d.prefab", 3868701128U, true, true, false, true, true, false, false, false, "static", true, "Prefabs.Misc.GhostShip", 8546, 5 },
+    { "ghostshipmapmarker", "ghostshipmapmarker", "Uncategorized", "assets/prefabs/misc/ghostships/ghostshipmapmarker.prefab", 3667054617U, true, true, false, false, false, false, false, false, "static", true, "GhostShipMapMarker", 8551, 4 },
+    { "candyprojectile", "candyprojectile", "Uncategorized", "assets/prefabs/misc/halloween/candies/candyprojectile.prefab", 1465468950U, true, true, false, false, false, false, false, false, "static", true, "SeasonalTimedExplosive", 8555, 4 },
+    { "collectablecandy", "collectablecandy", "Uncategorized", "assets/prefabs/misc/halloween/candies/collectablecandy.prefab", 2495043668U, true, true, false, false, false, false, false, false, "static", true, "CollectableEasterEgg", 8559, 3 },
+    { "largecandleset", "largecandleset", "Uncategorized", "assets/prefabs/misc/halloween/candles/largecandleset.prefab", 3049520350U, true, true, false, false, false, false, false, false, "static", true, "Candle", 8562, 4 },
+    { "smallcandleset", "smallcandleset", "Uncategorized", "assets/prefabs/misc/halloween/candles/smallcandleset.prefab", 3435611199U, true, true, false, false, false, false, false, false, "static", true, "Candle", 8566, 4 },
+    { "carvable.pumpkin", "carvable pumpkin", "Uncategorized", "assets/prefabs/misc/halloween/carvablepumpkin/carvable.pumpkin.prefab", 3038860934U, true, true, false, false, false, false, false, false, "static", true, "CarvablePumpkin", 8570, 7 },
+    { "coffinstorage.corpse", "coffinstorage corpse", "Uncategorized", "assets/prefabs/misc/halloween/coffin/coffinstorage.corpse.prefab", 1441221703U, true, true, false, false, false, false, false, false, "static", true, "ContainerCorpse", 8577, 7 },
+    { "coffinstorage", "coffinstorage", "Uncategorized", "assets/prefabs/misc/halloween/coffin/coffinstorage.prefab", 4080262419U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 8584, 6 },
+    { "cursedcauldron.deployed", "cursedcauldron deployed", "Uncategorized", "assets/prefabs/misc/halloween/cursed_cauldron/cursedcauldron.deployed.prefab", 1348425051U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 8590, 6 },
+    { "gravestone.stone.deployed", "gravestone stone deployed", "Uncategorized", "assets/prefabs/misc/halloween/deployablegravestone/gravestone.stone.deployed.prefab", 2548600751U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 8596, 3 },
+    { "gravestone.wood.deployed", "gravestone wood deployed", "Uncategorized", "assets/prefabs/misc/halloween/deployablegravestone/gravestone.wood.deployed.prefab", 2983602886U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 8599, 3 },
+    { "graveyardfence", "graveyardfence", "Uncategorized", "assets/prefabs/misc/halloween/graveyard_fence/graveyardfence.prefab", 1766793357U, true, true, false, false, false, false, false, false, "static", true, "GraveyardFence", 8602, 7 },
+    { "halloweenhunt", "halloweenhunt", "Uncategorized", "assets/prefabs/misc/halloween/halloweenhunt.prefab", 1937756239U, true, true, false, false, false, false, false, false, "static", true, "HalloweenHunt", 8609, 5 },
+    { "pumpkin_basket.entity", "Pumpkin Basket", "Uncategorized", "assets/prefabs/misc/halloween/pumpkin_bucket/pumpkin_basket.entity.prefab", 2763047865U, true, true, false, false, false, false, false, false, "static", true, "EasterBasket", 8614, 5 },
+    { "scarecrow.deployed", "scarecrow deployed", "Uncategorized", "assets/prefabs/misc/halloween/scarecrow/scarecrow.deployed.prefab", 482680556U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 8619, 5 },
+    { "skullspikes.candles.deployed", "skullspikes candles deployed", "Uncategorized", "assets/prefabs/misc/halloween/skull spikes/skins/skullspikes.candles.deployed.prefab", 1273690005U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 8624, 3 },
+    { "skullspikes.pumpkin.deployed", "skullspikes pumpkin deployed", "Uncategorized", "assets/prefabs/misc/halloween/skull spikes/skins/skullspikes.pumpkin.deployed.prefab", 4242782819U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 8627, 3 },
+    { "skullspikes.deployed", "skullspikes deployed", "Uncategorized", "assets/prefabs/misc/halloween/skull spikes/skullspikes.deployed.prefab", 1005607405U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 8630, 3 },
+    { "skull_door_knocker.deployed", "skull door knocker deployed", "Uncategorized", "assets/prefabs/misc/halloween/skull_door_knocker/skull_door_knocker.deployed.prefab", 622673951U, true, true, false, false, false, false, false, false, "static", true, "DoorKnocker", 8633, 4 },
+    { "skull_door_knocker", "skull door knocker", "Uncategorized", "assets/prefabs/misc/halloween/skull_door_knocker/skull_door_knocker.prefab", 1796973138U, true, true, false, false, false, false, false, false, "static", true, "DoorKnocker", 8637, 4 },
+    { "skull_fire_pit", "skull fire pit", "Uncategorized", "assets/prefabs/misc/halloween/skull_fire_pit/skull_fire_pit.prefab", 1906669538U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 8641, 6 },
+    { "spiderweba", "spiderweba", "Uncategorized", "assets/prefabs/misc/halloween/spiderweb/spiderweba.prefab", 1177722664U, true, true, false, false, false, false, false, false, "static", true, "SpiderWeb", 8647, 4 },
+    { "spookyspeaker", "spookyspeaker", "Uncategorized", "assets/prefabs/misc/halloween/spookyspeaker/spookyspeaker.prefab", 25095088U, true, true, false, false, false, false, false, false, "static", true, "SpookySpeaker", 8651, 6 },
+    { "skulltrophy.jar.deployed", "skulltrophy jar deployed", "Uncategorized", "assets/prefabs/misc/halloween/trophy skulls/skins/skulltrophy.jar.deployed.prefab", 888153605U, true, true, false, false, false, false, false, false, "static", true, "SkullTrophy", 8657, 6 },
+    { "skulltrophy.jar2.deployed", "skulltrophy jar2 deployed", "Uncategorized", "assets/prefabs/misc/halloween/trophy skulls/skins/skulltrophy.jar2.deployed.prefab", 516794212U, true, true, false, false, false, false, false, false, "static", true, "SkullTrophy", 8663, 6 },
+    { "skulltrophy.table.deployed", "skulltrophy table deployed", "Uncategorized", "assets/prefabs/misc/halloween/trophy skulls/skins/skulltrophy.table.deployed.prefab", 3944492824U, true, true, false, false, false, false, false, false, "static", true, "SkullTrophy", 8669, 6 },
+    { "skulltrophy.deployed", "skulltrophy deployed", "Uncategorized", "assets/prefabs/misc/halloween/trophy skulls/skulltrophy.deployed.prefab", 3036466305U, true, true, false, false, false, false, false, false, "static", true, "SkullTrophy", 8675, 6 },
+    { "item_drop", "item drop", "Uncategorized", "assets/prefabs/misc/item drop/item_drop.prefab", 545786656U, true, true, false, true, false, true, false, false, "dynamic", false, "DroppedItemContainer", 8681, 4 },
+    { "item_drop_backpack", "item drop backpack", "Uncategorized", "assets/prefabs/misc/item drop/item_drop_backpack.prefab", 1519640547U, true, true, false, true, false, true, false, false, "dynamic", false, "DroppedItemContainer", 8685, 4 },
+    { "item_drop_buoyant", "item drop buoyant", "Uncategorized", "assets/prefabs/misc/item drop/item_drop_buoyant.prefab", 146366564U, true, true, false, true, false, true, false, false, "dynamic", false, "DroppedItemContainer", 8689, 4 },
+    { "junkpile_a", "junkpile a", "Uncategorized", "assets/prefabs/misc/junkpile/junkpile_a.prefab", 1079458547U, true, true, false, false, false, false, false, false, "static", true, "JunkPile", 8693, 3 },
+    { "junkpile_b", "junkpile b", "Uncategorized", "assets/prefabs/misc/junkpile/junkpile_b.prefab", 53513351U, true, true, false, false, false, false, false, false, "static", true, "JunkPile", 8696, 3 },
+    { "junkpile_c", "junkpile c", "Uncategorized", "assets/prefabs/misc/junkpile/junkpile_c.prefab", 802190701U, true, true, false, false, false, false, false, false, "static", true, "JunkPile", 8699, 3 },
+    { "junkpile_d", "junkpile d", "Uncategorized", "assets/prefabs/misc/junkpile/junkpile_d.prefab", 1469191396U, true, true, false, false, false, false, false, false, "static", true, "JunkPile", 8702, 3 },
+    { "junkpile_e", "junkpile e", "Uncategorized", "assets/prefabs/misc/junkpile/junkpile_e.prefab", 2264041007U, true, true, false, false, false, false, false, false, "static", true, "JunkPile", 8705, 3 },
+    { "junkpile_f", "junkpile f", "Uncategorized", "assets/prefabs/misc/junkpile/junkpile_f.prefab", 2993735837U, true, true, false, false, false, false, false, false, "static", true, "JunkPile", 8708, 3 },
+    { "junkpile_g", "junkpile g", "Uncategorized", "assets/prefabs/misc/junkpile/junkpile_g.prefab", 4277459046U, true, true, false, false, false, false, false, false, "static", true, "JunkPile", 8711, 3 },
+    { "junkpile_h", "junkpile h", "Uncategorized", "assets/prefabs/misc/junkpile/junkpile_h.prefab", 1833448838U, true, true, false, false, false, false, false, false, "static", true, "JunkPile", 8714, 3 },
+    { "junkpile_i", "junkpile i", "Uncategorized", "assets/prefabs/misc/junkpile/junkpile_i.prefab", 3208542129U, true, true, false, false, false, false, false, false, "static", true, "JunkPile", 8717, 3 },
+    { "junkpile_j", "junkpile j", "Uncategorized", "assets/prefabs/misc/junkpile/junkpile_j.prefab", 4214664239U, true, true, false, false, false, false, false, false, "static", true, "JunkPile", 8720, 3 },
+    { "junkpile_water_a", "junkpile water a", "Uncategorized", "assets/prefabs/misc/junkpile_water/junkpile_water_a.prefab", 303596648U, true, true, false, true, true, false, false, false, "static", true, "JunkPileWater", 8723, 4 },
+    { "junkpile_water_b", "junkpile water b", "Uncategorized", "assets/prefabs/misc/junkpile_water/junkpile_water_b.prefab", 292159419U, true, true, false, true, true, false, false, false, "static", true, "JunkPileWater", 8727, 4 },
+    { "junkpile_water_c", "junkpile water c", "Uncategorized", "assets/prefabs/misc/junkpile_water/junkpile_water_c.prefab", 1744083475U, true, true, false, true, true, false, false, false, "static", true, "JunkPileWater", 8731, 4 },
+    { "deliverydronemarker", "deliverydronemarker", "Uncategorized", "assets/prefabs/misc/marketplace/deliverydronemarker.prefab", 3742716325U, true, true, false, false, false, false, false, false, "static", true, "MapMarkerDeliveryDrone", 8735, 4 },
+    { "drone.delivery", "drone delivery", "Uncategorized", "assets/prefabs/misc/marketplace/drone.delivery.prefab", 2325891644U, true, true, false, true, false, true, false, false, "dynamic", false, "DeliveryDrone", 8739, 6 },
+    { "marketplace", "marketplace", "Uncategorized", "assets/prefabs/misc/marketplace/marketplace.prefab", 3953076030U, true, true, false, false, false, false, false, false, "static", true, "Marketplace", 8745, 3 },
+    { "marketterminal", "marketterminal", "Uncategorized", "assets/prefabs/misc/marketplace/marketterminal.prefab", 407767262U, true, true, false, false, false, false, false, false, "static", true, "MarketTerminal", 8748, 6 },
+    { "medieval.door.double.hinged.metal", "medieval door double hinged metal", "Uncategorized", "assets/prefabs/misc/medieval door skin/medieval.door.double.hinged.metal.prefab", 2035885868U, true, true, false, false, false, false, false, false, "static", true, "Door", 8754, 7 },
+    { "medieval.door.hinged.metal", "medieval door hinged metal", "Uncategorized", "assets/prefabs/misc/medieval door skin/medieval.door.hinged.metal.prefab", 1019562202U, true, true, false, false, false, false, false, false, "static", true, "Door", 8761, 7 },
+    { "frontiermirror.large", "frontiermirror large", "Uncategorized", "assets/prefabs/misc/mirror/frontiermirror.large.prefab", 2749812535U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8768, 5 },
+    { "frontiermirror.medium", "frontiermirror medium", "Uncategorized", "assets/prefabs/misc/mirror/frontiermirror.medium.prefab", 3598691256U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8773, 5 },
+    { "frontiermirror.small", "frontiermirror small", "Uncategorized", "assets/prefabs/misc/mirror/frontiermirror.small.prefab", 912233462U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8778, 5 },
+    { "frontiermirror.standing", "frontiermirror standing", "Uncategorized", "assets/prefabs/misc/mirror/frontiermirror.standing.prefab", 3834610001U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8783, 5 },
+    { "goldmirror.large", "goldmirror large", "Uncategorized", "assets/prefabs/misc/mirror/goldmirror.large.prefab", 740693447U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8788, 5 },
+    { "goldmirror.medium", "goldmirror medium", "Uncategorized", "assets/prefabs/misc/mirror/goldmirror.medium.prefab", 3939513589U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8793, 5 },
+    { "goldmirror.small", "goldmirror small", "Uncategorized", "assets/prefabs/misc/mirror/goldmirror.small.prefab", 2281266470U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8798, 5 },
+    { "goldmirror.standing", "goldmirror standing", "Uncategorized", "assets/prefabs/misc/mirror/goldmirror.standing.prefab", 4167032160U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8803, 5 },
+    { "lightupmirror.large", "lightupmirror large", "Uncategorized", "assets/prefabs/misc/mirror/lightupmirror.large.prefab", 2236356683U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8808, 5 },
+    { "lightupmirror.medium", "lightupmirror medium", "Uncategorized", "assets/prefabs/misc/mirror/lightupmirror.medium.prefab", 1086370258U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8813, 5 },
+    { "lightupmirror.small", "lightupmirror small", "Uncategorized", "assets/prefabs/misc/mirror/lightupmirror.small.prefab", 1114298286U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8818, 5 },
+    { "lightupmirror.standing", "lightupmirror standing", "Uncategorized", "assets/prefabs/misc/mirror/lightupmirror.standing.prefab", 1845154321U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8823, 5 },
+    { "scrapmirror.large", "scrapmirror large", "Uncategorized", "assets/prefabs/misc/mirror/scrapmirror.large.prefab", 3960181825U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8828, 5 },
+    { "scrapmirror.medium", "scrapmirror medium", "Uncategorized", "assets/prefabs/misc/mirror/scrapmirror.medium.prefab", 437352593U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8833, 5 },
+    { "scrapmirror.small", "scrapmirror small", "Uncategorized", "assets/prefabs/misc/mirror/scrapmirror.small.prefab", 4086373203U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8838, 5 },
+    { "scrapmirror.standing", "scrapmirror standing", "Uncategorized", "assets/prefabs/misc/mirror/scrapmirror.standing.prefab", 1355163738U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8843, 5 },
+    { "woodmirror.large", "woodmirror large", "Uncategorized", "assets/prefabs/misc/mirror/woodmirror.large.prefab", 3482661483U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8848, 5 },
+    { "woodmirror.medium", "woodmirror medium", "Uncategorized", "assets/prefabs/misc/mirror/woodmirror.medium.prefab", 2816380117U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8853, 5 },
+    { "woodmirror.small", "woodmirror small", "Uncategorized", "assets/prefabs/misc/mirror/woodmirror.small.prefab", 1417110052U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8858, 5 },
+    { "woodmirror.standing", "woodmirror standing", "Uncategorized", "assets/prefabs/misc/mirror/woodmirror.standing.prefab", 897377265U, true, true, false, false, false, false, false, false, "static", true, "ReflectionPlane", 8863, 5 },
+    { "oil_rig_radiation", "oil rig radiation", "Uncategorized", "assets/prefabs/misc/monument/radiation/oil_rig_radiation.prefab", 2899507223U, true, true, false, false, false, false, false, false, "static", true, "RadiationSphere", 8868, 3 },
+    { "orebonus_generic", "orebonus generic", "Uncategorized", "assets/prefabs/misc/orebonus/orebonus_generic.prefab", 1618627814U, true, true, false, false, false, false, false, false, "static", true, "OreHotSpot", 8871, 4 },
+    { "orebonus_wood", "orebonus wood", "Uncategorized", "assets/prefabs/misc/orebonus/orebonus_wood.prefab", 658131457U, true, true, false, false, false, false, false, false, "static", true, "OreHotSpot", 8875, 4 },
+    { "parachute", "parachute", "Uncategorized", "assets/prefabs/misc/parachute/parachute.prefab", 1268659691U, true, true, false, true, false, true, false, false, "dynamic", false, "Parachute", 8879, 6 },
+    { "parachuteunpacked", "parachuteunpacked", "Uncategorized", "assets/prefabs/misc/parachute/parachuteunpacked.prefab", 2000744684U, true, true, false, true, false, true, false, false, "dynamic", false, "ParachuteUnpacked", 8885, 5 },
+    { "door.hinged.industrial.d", "door hinged industrial d", "Uncategorized", "assets/prefabs/misc/permstore/factorydoor/door.hinged.industrial.d.prefab", 1001564208U, true, true, false, false, false, false, false, false, "static", true, "Door", 8890, 7 },
+    { "industrial.wall.lamp.blue.deployed", "industrial wall lamp blue deployed", "Uncategorized", "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.blue.deployed.prefab", 1820531533U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 8897, 6 },
+    { "industrial.wall.lamp.deployed", "industrial wall lamp deployed", "Uncategorized", "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.deployed.prefab", 1908182065U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 8903, 6 },
+    { "industrial.wall.lamp.green.deployed", "industrial wall lamp green deployed", "Uncategorized", "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.green.deployed.prefab", 3341019015U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 8909, 6 },
+    { "industrial.wall.lamp.red.deployed", "industrial wall lamp red deployed", "Uncategorized", "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab", 3293089444U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 8915, 6 },
+    { "pinata.deployed", "pinata deployed", "Uncategorized", "assets/prefabs/misc/pinata/pinata.deployed.prefab", 1348634331U, true, true, false, false, false, false, false, false, "static", true, "Pinata", 8921, 4 },
+    { "platform.entity", "platform entity", "Uncategorized", "assets/prefabs/misc/platform/platform.entity.prefab", 2101896921U, true, true, false, false, false, false, false, false, "static", true, "PlatformEntity", 8925, 3 },
+    { "platform.exclusion.entity", "platform exclusion entity", "Uncategorized", "assets/prefabs/misc/platform/platform.exclusion.entity.prefab", 2065397772U, true, true, false, false, false, false, false, false, "static", true, "PlatformEntity", 8928, 3 },
+    { "platform.force.entity", "platform force entity", "Uncategorized", "assets/prefabs/misc/platform/platform.force.entity.prefab", 1224573690U, true, true, false, false, false, false, false, false, "static", true, "PlatformEntity", 8931, 3 },
+    { "staticrespawnzonecompound_vanilla", "staticrespawnzonecompound vanilla", "Uncategorized", "assets/prefabs/misc/playerspawn/staticrespawnzonecompound_vanilla.prefab", 948487089U, true, true, false, false, false, false, false, false, "static", true, "StaticRespawnArea", 8934, 6 },
+    { "planter.small.respawning.static", "planter small respawning static", "Uncategorized", "assets/prefabs/misc/respawningplanters/planter.small.respawning.static.prefab", 4258681299U, true, true, false, false, false, false, false, false, "static", true, "PlanterBoxStatic", 8940, 7 },
+    { "simplelootbox", "simplelootbox", "Uncategorized", "assets/prefabs/misc/simplelootbox.prefab", 2187258018U, true, true, false, false, false, false, false, false, "static", true, "BoxStorage", 8947, 6 },
+    { "abovegroundpool.deployed", "abovegroundpool deployed", "Uncategorized", "assets/prefabs/misc/summer_dlc/abovegroundpool/abovegroundpool.deployed.prefab", 2030353082U, true, true, false, false, false, false, false, false, "static", true, "PaddlingPool", 8953, 8 },
+    { "beachchair.deployed", "beachchair deployed", "Uncategorized", "assets/prefabs/misc/summer_dlc/beach_chair/beachchair.deployed.prefab", 3552983236U, true, true, false, false, false, false, false, false, "static", true, "BaseChair", 8961, 5 },
+    { "beachparasol.deployed", "beachparasol deployed", "Uncategorized", "assets/prefabs/misc/summer_dlc/beach_chair/beachparasol.deployed.prefab", 1573548060U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 8966, 5 },
+    { "beachtable.deployed", "beachtable deployed", "Uncategorized", "assets/prefabs/misc/summer_dlc/beach_chair/beachtable.deployed.prefab", 4146728277U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 8971, 5 },
+    { "beachtowel.deployed.corpse", "beachtowel deployed corpse", "Uncategorized", "assets/prefabs/misc/summer_dlc/beach_towel/beachtowel.deployed.corpse.prefab", 2298267336U, true, true, false, false, false, false, false, false, "static", true, "SleepingBag", 8976, 5 },
+    { "beachtowel.deployed", "beachtowel deployed", "Uncategorized", "assets/prefabs/misc/summer_dlc/beach_towel/beachtowel.deployed.prefab", 3003382652U, true, true, false, false, false, false, false, false, "static", true, "SleepingBag", 8981, 5 },
+    { "boogieboard.deployed", "boogieboard deployed", "Uncategorized", "assets/prefabs/misc/summer_dlc/boogie_board/boogieboard.deployed.prefab", 4218596772U, true, true, false, true, false, true, false, false, "dynamic", false, "WaterInflatable", 8986, 5 },
+    { "innertube.deployed", "innertube deployed", "Uncategorized", "assets/prefabs/misc/summer_dlc/inner_tube/innertube.deployed.prefab", 1252195950U, true, true, false, true, false, true, false, false, "dynamic", false, "WaterInflatable", 8991, 5 },
+    { "innertube.horse.deployed", "innertube horse deployed", "Uncategorized", "assets/prefabs/misc/summer_dlc/inner_tube/skins/innertube.horse.deployed.prefab", 1864659065U, true, true, false, true, false, true, false, false, "dynamic", false, "WaterInflatable", 8996, 5 },
+    { "innertube.unicorn.deployed", "innertube unicorn deployed", "Uncategorized", "assets/prefabs/misc/summer_dlc/inner_tube/skins/innertube.unicorn.deployed.prefab", 2349300716U, true, true, false, true, false, true, false, false, "dynamic", false, "WaterInflatable", 9001, 5 },
+    { "instant_camera.entity", "Instant Camera", "Uncategorized", "assets/prefabs/misc/summer_dlc/instantcamera/instant_camera.entity.prefab", 509717370U, true, true, false, false, false, false, false, false, "static", true, "InstantCameraTool", 9006, 4 },
+    { "paddlingpool.deployed", "paddlingpool deployed", "Uncategorized", "assets/prefabs/misc/summer_dlc/paddling_pool/paddlingpool.deployed.prefab", 1462241537U, true, true, false, false, false, false, false, false, "static", true, "PaddlingPool", 9010, 8 },
+    { "photo.entity", "photo entity", "Uncategorized", "assets/prefabs/misc/summer_dlc/photo/photo.entity.prefab", 34183897U, true, true, false, false, false, false, false, false, "static", true, "PhotoEntity", 9018, 4 },
+    { "photoframe.landscape", "photoframe landscape", "Uncategorized", "assets/prefabs/misc/summer_dlc/photoframe/photoframe.landscape.prefab", 329573570U, true, true, false, false, false, false, false, false, "static", true, "PhotoFrame", 9022, 6 },
+    { "photoframe.large", "photoframe large", "Uncategorized", "assets/prefabs/misc/summer_dlc/photoframe/photoframe.large.prefab", 3931119293U, true, true, false, false, false, false, false, false, "static", true, "PhotoFrame", 9028, 6 },
+    { "photoframe.portrait", "photoframe portrait", "Uncategorized", "assets/prefabs/misc/summer_dlc/photoframe/photoframe.portrait.prefab", 1814168131U, true, true, false, false, false, false, false, false, "static", true, "PhotoFrame", 9034, 6 },
+    { "watergun.entity", "Water Gun", "Uncategorized", "assets/prefabs/misc/summer_dlc/watergun/watergun.entity.prefab", 37937194U, true, true, false, false, false, false, false, false, "static", true, "LiquidWeapon", 9040, 6 },
+    { "waterpistol.entity", "Water Pistol", "Uncategorized", "assets/prefabs/misc/summer_dlc/waterpistol/waterpistol.entity.prefab", 1502994528U, true, true, false, false, false, false, false, false, "static", true, "LiquidWeapon", 9046, 6 },
+    { "supply_drop", "supply drop", "Uncategorized", "assets/prefabs/misc/supply drop/supply_drop.prefab", 3632568684U, true, true, false, true, false, true, false, false, "dynamic", false, "SupplyDrop", 9052, 7 },
+    { "trophy.deployed", "trophy deployed", "Uncategorized", "assets/prefabs/misc/trophy/trophy.deployed.prefab", 3271649842U, true, true, false, false, false, false, false, false, "static", true, "TwitchTrophy", 9059, 4 },
+    { "trophy_2023.deployed", "trophy 2023 deployed", "Uncategorized", "assets/prefabs/misc/trophy_2023/trophy_2023.deployed.prefab", 2946164983U, true, true, false, false, false, false, false, false, "static", true, "TwitchTrophy", 9063, 4 },
+    { "tunnel_dwelling_a", "tunnel dwelling a", "Uncategorized", "assets/prefabs/misc/tunneldwelling/tunnel_dwelling_a.prefab", 1864849250U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9067, 3 },
+    { "tunnel_dwelling_b", "tunnel dwelling b", "Uncategorized", "assets/prefabs/misc/tunneldwelling/tunnel_dwelling_b.prefab", 914018621U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9070, 3 },
+    { "tunnel_dwelling_c", "tunnel dwelling c", "Uncategorized", "assets/prefabs/misc/tunneldwelling/tunnel_dwelling_c.prefab", 2692544615U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9073, 3 },
+    { "tunnel_dwelling_d", "tunnel dwelling d", "Uncategorized", "assets/prefabs/misc/tunneldwelling/tunnel_dwelling_d.prefab", 4148006895U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9076, 3 },
+    { "tunnel_dwelling_e", "tunnel dwelling e", "Uncategorized", "assets/prefabs/misc/tunneldwelling/tunnel_dwelling_e.prefab", 1913161776U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9079, 3 },
+    { "tunnel_dwelling_f", "tunnel dwelling f", "Uncategorized", "assets/prefabs/misc/tunneldwelling/tunnel_dwelling_f.prefab", 1784918280U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9082, 3 },
+    { "tunnel_dwelling_g", "tunnel dwelling g", "Uncategorized", "assets/prefabs/misc/tunneldwelling/tunnel_dwelling_g.prefab", 2926207843U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9085, 3 },
+    { "tunnel_dwelling_h", "tunnel dwelling h", "Uncategorized", "assets/prefabs/misc/tunneldwelling/tunnel_dwelling_h.prefab", 563461422U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9088, 3 },
+    { "tunnellootstrip_a", "tunnellootstrip a", "Uncategorized", "assets/prefabs/misc/tunneldwelling/tunnellootstrip_a.prefab", 1970684768U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9091, 3 },
+    { "hexagongrid.entity", "hexagongrid entity", "Uncategorized", "assets/prefabs/misc/twitch/hex-a-gone/hexagongrid.entity.prefab", 2384030014U, true, true, false, false, false, false, false, false, "static", true, "HexagonGridGenerator", 9094, 3 },
+    { "hexagontile_blue.entity", "hexagontile blue entity", "Uncategorized", "assets/prefabs/misc/twitch/hex-a-gone/hexagontile_blue.entity.prefab", 608676425U, true, true, false, true, true, false, false, false, "static", true, "HexagonTile", 9097, 4 },
+    { "hexagontile_green.entity", "hexagontile green entity", "Uncategorized", "assets/prefabs/misc/twitch/hex-a-gone/hexagontile_green.entity.prefab", 1104684023U, true, true, false, true, true, false, false, false, "static", true, "HexagonTile", 9101, 4 },
+    { "hexagontile_purple.entity", "hexagontile purple entity", "Uncategorized", "assets/prefabs/misc/twitch/hex-a-gone/hexagontile_purple.entity.prefab", 3592367408U, true, true, false, true, true, false, false, false, "static", true, "HexagonTile", 9105, 4 },
+    { "hexagontile_red.entity", "hexagontile red entity", "Uncategorized", "assets/prefabs/misc/twitch/hex-a-gone/hexagontile_red.entity.prefab", 3997402336U, true, true, false, true, true, false, false, false, "static", true, "HexagonTile", 9109, 4 },
+    { "hexagontile_yellow.entity", "hexagontile yellow entity", "Uncategorized", "assets/prefabs/misc/twitch/hex-a-gone/hexagontile_yellow.entity.prefab", 2266932968U, true, true, false, true, true, false, false, false, "static", true, "HexagonTile", 9113, 4 },
+    { "hobobarrel.deployed", "hobobarrel deployed", "Uncategorized", "assets/prefabs/misc/twitch/hobobarrel/hobobarrel.deployed.prefab", 1748062128U, true, true, false, false, false, false, false, false, "static", true, "BaseOven", 9117, 6 },
+    { "door.hinged.industrial.a", "door hinged industrial a", "Uncategorized", "assets/prefabs/misc/twitch/industrialdoora/door.hinged.industrial.a.prefab", 358326125U, true, true, false, false, false, false, false, false, "static", true, "Door", 9123, 7 },
+    { "twitchrivals2023_desk.ioent", "twitchrivals2023 desk ioent", "Uncategorized", "assets/prefabs/misc/twitch/twitch_rivals_2023_desk/twitchrivals2023_desk.ioent.prefab", 1957369594U, true, true, false, false, false, false, false, false, "static", true, "ComputerStationIO", 9130, 6 },
+    { "twitchrivals2023_desk", "twitchrivals2023 desk", "Uncategorized", "assets/prefabs/misc/twitch/twitch_rivals_2023_desk/twitchrivals2023_desk.prefab", 379322905U, true, true, false, false, false, false, false, false, "static", true, "ComputerStation", 9136, 5 },
+    { "underwaterlab_dwelling_300_corner_a", "underwaterlab dwelling 300 corner a", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_a.prefab", 573313214U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9141, 3 },
+    { "underwaterlab_dwelling_300_corner_b", "underwaterlab dwelling 300 corner b", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_b.prefab", 452830878U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9144, 3 },
+    { "underwaterlab_dwelling_300_corner_c", "underwaterlab dwelling 300 corner c", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_c.prefab", 2543356238U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9147, 3 },
+    { "underwaterlab_dwelling_300_corner_d", "underwaterlab dwelling 300 corner d", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_d.prefab", 717651109U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9150, 3 },
+    { "underwaterlab_dwelling_300_corner_deep_a", "underwaterlab dwelling 300 corner deep a", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_a.prefab", 3730625512U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9153, 3 },
+    { "underwaterlab_dwelling_300_corner_deep_b", "underwaterlab dwelling 300 corner deep b", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_b.prefab", 1472035765U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9156, 3 },
+    { "underwaterlab_dwelling_300_corner_deep_c", "underwaterlab dwelling 300 corner deep c", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_c.prefab", 297366751U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9159, 3 },
+    { "underwaterlab_dwelling_300_corner_deep_d", "underwaterlab dwelling 300 corner deep d", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_d.prefab", 2884932104U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9162, 3 },
+    { "underwaterlab_dwelling_300_corner_deep_e", "underwaterlab dwelling 300 corner deep e", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_e.prefab", 2882057292U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9165, 3 },
+    { "underwaterlab_dwelling_300_corner_deep_f", "underwaterlab dwelling 300 corner deep f", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_f.prefab", 1728416769U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9168, 3 },
+    { "underwaterlab_dwelling_300_corner_deep_g", "underwaterlab dwelling 300 corner deep g", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_g.prefab", 1196858687U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9171, 3 },
+    { "underwaterlab_dwelling_300_corner_deep_h", "underwaterlab dwelling 300 corner deep h", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_h.prefab", 1542155264U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9174, 3 },
+    { "underwaterlab_dwelling_300_corner_deep_i", "underwaterlab dwelling 300 corner deep i", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_i.prefab", 3832425675U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9177, 3 },
+    { "underwaterlab_dwelling_300_corner_deep_j", "underwaterlab dwelling 300 corner deep j", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_j.prefab", 3522859745U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9180, 3 },
+    { "underwaterlab_dwelling_300_corner_deep_k", "underwaterlab dwelling 300 corner deep k", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_k.prefab", 2703730801U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9183, 3 },
+    { "underwaterlab_dwelling_300_corner_deep_l", "underwaterlab dwelling 300 corner deep l", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_deep_l.prefab", 4202988174U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9186, 3 },
+    { "underwaterlab_dwelling_300_corner_e", "underwaterlab dwelling 300 corner e", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_e.prefab", 3778415973U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9189, 3 },
+    { "underwaterlab_dwelling_300_corner_f", "underwaterlab dwelling 300 corner f", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_f.prefab", 2328541952U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9192, 3 },
+    { "underwaterlab_dwelling_300_corner_g", "underwaterlab dwelling 300 corner g", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_g.prefab", 2527925506U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9195, 3 },
+    { "underwaterlab_dwelling_300_corner_h", "underwaterlab dwelling 300 corner h", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_h.prefab", 366436161U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9198, 3 },
+    { "underwaterlab_dwelling_300_corner_i", "underwaterlab dwelling 300 corner i", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_i.prefab", 3139283041U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9201, 3 },
+    { "underwaterlab_dwelling_300_corner_j", "underwaterlab dwelling 300 corner j", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_j.prefab", 2127434160U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9204, 3 },
+    { "underwaterlab_dwelling_300_corner_k", "underwaterlab dwelling 300 corner k", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_k.prefab", 3112614812U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9207, 3 },
+    { "underwaterlab_dwelling_300_corner_l", "underwaterlab dwelling 300 corner l", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corner_l.prefab", 2087494236U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9210, 3 },
+    { "underwaterlab_dwelling_300_corridor_a", "underwaterlab dwelling 300 corridor a", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corridor_a.prefab", 2231268580U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9213, 3 },
+    { "underwaterlab_dwelling_300_corridor_b", "underwaterlab dwelling 300 corridor b", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_corridor_b.prefab", 1214133601U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9216, 3 },
+    { "underwaterlab_dwelling_300_edge_a", "underwaterlab dwelling 300 edge a", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_a.prefab", 3218090200U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9219, 3 },
+    { "underwaterlab_dwelling_300_edge_b", "underwaterlab dwelling 300 edge b", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_b.prefab", 2099089818U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9222, 3 },
+    { "underwaterlab_dwelling_300_edge_c", "underwaterlab dwelling 300 edge c", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_c.prefab", 4210133804U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9225, 3 },
+    { "underwaterlab_dwelling_300_edge_d", "underwaterlab dwelling 300 edge d", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_d.prefab", 4020445937U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9228, 3 },
+    { "underwaterlab_dwelling_300_edge_deep_a", "underwaterlab dwelling 300 edge deep a", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_deep_a.prefab", 922430532U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9231, 3 },
+    { "underwaterlab_dwelling_300_edge_deep_b", "underwaterlab dwelling 300 edge deep b", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_deep_b.prefab", 3773945132U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9234, 3 },
+    { "underwaterlab_dwelling_300_edge_deep_c", "underwaterlab dwelling 300 edge deep c", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_deep_c.prefab", 752935314U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9237, 3 },
+    { "underwaterlab_dwelling_300_edge_deep_d", "underwaterlab dwelling 300 edge deep d", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_deep_d.prefab", 2553093706U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9240, 3 },
+    { "underwaterlab_dwelling_300_edge_deep_e", "underwaterlab dwelling 300 edge deep e", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_deep_e.prefab", 3401722117U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9243, 3 },
+    { "underwaterlab_dwelling_300_edge_deep_f", "underwaterlab dwelling 300 edge deep f", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_deep_f.prefab", 1246106772U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9246, 3 },
+    { "underwaterlab_dwelling_300_edge_deep_g", "underwaterlab dwelling 300 edge deep g", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_deep_g.prefab", 2596791892U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9249, 3 },
+    { "underwaterlab_dwelling_300_edge_e", "underwaterlab dwelling 300 edge e", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_e.prefab", 2836373108U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9252, 3 },
+    { "underwaterlab_dwelling_300_edge_f", "underwaterlab dwelling 300 edge f", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_f.prefab", 2492794546U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9255, 3 },
+    { "underwaterlab_dwelling_300_edge_g", "underwaterlab dwelling 300 edge g", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_300_edge_g.prefab", 4169028500U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9258, 3 },
+    { "underwaterlab_dwelling_600_corner_a", "underwaterlab dwelling 600 corner a", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corner_a.prefab", 2253200378U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9261, 3 },
+    { "underwaterlab_dwelling_600_corner_b", "underwaterlab dwelling 600 corner b", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corner_b.prefab", 1122132299U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9264, 3 },
+    { "underwaterlab_dwelling_600_corner_c", "underwaterlab dwelling 600 corner c", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corner_c.prefab", 2528473143U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9267, 3 },
+    { "underwaterlab_dwelling_600_corner_d", "underwaterlab dwelling 600 corner d", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corner_d.prefab", 369594738U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9270, 3 },
+    { "underwaterlab_dwelling_600_corner_e", "underwaterlab dwelling 600 corner e", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corner_e.prefab", 3006311855U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9273, 3 },
+    { "underwaterlab_dwelling_600_corner_f", "underwaterlab dwelling 600 corner f", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corner_f.prefab", 2933815190U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9276, 3 },
+    { "underwaterlab_dwelling_600_corridor_a", "underwaterlab dwelling 600 corridor a", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corridor_a.prefab", 355870851U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9279, 3 },
+    { "underwaterlab_dwelling_600_corridor_b", "underwaterlab dwelling 600 corridor b", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corridor_b.prefab", 642230139U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9282, 3 },
+    { "underwaterlab_dwelling_600_corridor_double_a", "underwaterlab dwelling 600 corridor double a", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corridor_double_a.prefab", 4099081267U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9285, 3 },
+    { "underwaterlab_dwelling_600_corridor_double_b", "underwaterlab dwelling 600 corridor double b", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corridor_double_b.prefab", 3231940198U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9288, 3 },
+    { "underwaterlab_dwelling_600_corridor_double_c", "underwaterlab dwelling 600 corridor double c", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corridor_double_c.prefab", 1946304174U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9291, 3 },
+    { "underwaterlab_dwelling_600_corridor_double_d", "underwaterlab dwelling 600 corridor double d", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_corridor_double_d.prefab", 4043584837U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9294, 3 },
+    { "underwaterlab_dwelling_600_edge_a", "underwaterlab dwelling 600 edge a", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_edge_a.prefab", 1004620429U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9297, 3 },
+    { "underwaterlab_dwelling_600_edge_b", "underwaterlab dwelling 600 edge b", "Uncategorized", "assets/prefabs/misc/underwaterlabsdwelling/underwaterlab_dwelling_600_edge_b.prefab", 1744489200U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9300, 3 },
+    { "waypointrace", "waypointrace", "Uncategorized", "assets/prefabs/misc/waypointrace/waypointrace.prefab", 1109924250U, true, true, false, false, false, false, false, false, "static", true, "WaypointRace", 9303, 3 },
+    { "advendcalendar.deployed", "advendcalendar deployed", "Uncategorized", "assets/prefabs/misc/xmas/advent_calendar/advendcalendar.deployed.prefab", 3858313461U, true, true, false, false, false, false, false, false, "static", true, "AdventCalendar", 9306, 4 },
+    { "candy_cane.entity", "Candy Cane Club", "Uncategorized", "assets/prefabs/misc/xmas/candy cane club/candy_cane.entity.prefab", 3331777431U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 9310, 5 },
+    { "xmas.lightstring.deployed", "xmas lightstring deployed", "Uncategorized", "assets/prefabs/misc/xmas/christmas_lights/xmas.lightstring.deployed.prefab", 3484744962U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 9315, 3 },
+    { "doorgarland.deployed", "doorgarland deployed", "Uncategorized", "assets/prefabs/misc/xmas/doorgarland/doorgarland.deployed.prefab", 1747236253U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 9318, 6 },
+    { "double_doorgarland.deployed", "double doorgarland deployed", "Uncategorized", "assets/prefabs/misc/xmas/double_doorgarland/double_doorgarland.deployed.prefab", 2234313662U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 9324, 6 },
+    { "giantcandycane.deployed", "giantcandycane deployed", "Uncategorized", "assets/prefabs/misc/xmas/giant_candy_cane/giantcandycane.deployed.prefab", 591428215U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 9330, 5 },
+    { "giftbox_loot", "giftbox loot", "Uncategorized", "assets/prefabs/misc/xmas/giftbox/giftbox_loot.prefab", 2216891097U, true, true, false, false, false, false, false, false, "static", true, "LootContainer", 9335, 6 },
+    { "icewall", "icewall", "Uncategorized", "assets/prefabs/misc/xmas/icewalls/icewall.prefab", 797759041U, true, true, false, false, false, false, false, false, "static", true, "IceFence", 9341, 8 },
+    { "wall.external.high.ice", "wall external high ice", "Uncategorized", "assets/prefabs/misc/xmas/icewalls/wall.external.high.ice.prefab", 921229511U, true, true, false, false, false, false, false, false, "static", true, "IceFence", 9349, 8 },
+    { "giantlollipops.deployed", "giantlollipops deployed", "Uncategorized", "assets/prefabs/misc/xmas/lollipop_bundle/giantlollipops.deployed.prefab", 2711960434U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 9357, 5 },
+    { "sign.neon.125x125", "sign neon 125x125", "Uncategorized", "assets/prefabs/misc/xmas/neon_sign/sign.neon.125x125.prefab", 3919686896U, true, true, false, false, false, false, false, false, "static", true, "NeonSign", 9362, 7 },
+    { "sign.neon.125x215.animated", "sign neon 125x215 animated", "Uncategorized", "assets/prefabs/misc/xmas/neon_sign/sign.neon.125x215.animated.prefab", 3591916872U, true, true, false, false, false, false, false, false, "static", true, "NeonSign", 9369, 7 },
+    { "sign.neon.125x215", "sign neon 125x215", "Uncategorized", "assets/prefabs/misc/xmas/neon_sign/sign.neon.125x215.prefab", 2628005754U, true, true, false, false, false, false, false, false, "static", true, "NeonSign", 9376, 7 },
+    { "sign.neon.xl.animated", "sign neon xl animated", "Uncategorized", "assets/prefabs/misc/xmas/neon_sign/sign.neon.xl.animated.prefab", 708840119U, true, true, false, false, false, false, false, false, "static", true, "NeonSign", 9383, 7 },
+    { "sign.neon.xl", "sign neon xl", "Uncategorized", "assets/prefabs/misc/xmas/neon_sign/sign.neon.xl.prefab", 3168507223U, true, true, false, false, false, false, false, false, "static", true, "NeonSign", 9390, 7 },
+    { "pookie_deployed", "pookie deployed", "Uncategorized", "assets/prefabs/misc/xmas/pookie/pookie_deployed.prefab", 1447082346U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 9397, 3 },
+    { "xmas.advanced.lights.deployed", "xmas advanced lights deployed", "Uncategorized", "assets/prefabs/misc/xmas/poweredlights/xmas.advanced.lights.deployed.prefab", 132493746U, true, true, false, false, false, false, false, false, "static", true, "ChristmasLights", 9400, 7 },
+    { "sled.deployed.xmas", "sled deployed xmas", "Uncategorized", "assets/prefabs/misc/xmas/sled/skins/sled.deployed.xmas.prefab", 3689934812U, true, true, false, true, false, true, false, false, "dynamic", false, "Sled", 9407, 6 },
+    { "sled.deployed", "sled deployed", "Uncategorized", "assets/prefabs/misc/xmas/sled/sled.deployed.prefab", 4063253222U, true, true, false, true, false, true, false, false, "dynamic", false, "Sled", 9413, 6 },
+    { "presentdrop", "presentdrop", "Uncategorized", "assets/prefabs/misc/xmas/sleigh/presentdrop.prefab", 1473303316U, true, true, false, true, false, true, false, false, "dynamic", false, "SupplyDrop", 9419, 7 },
+    { "santasleigh", "santasleigh", "Uncategorized", "assets/prefabs/misc/xmas/sleigh/santasleigh.prefab", 247291312U, true, true, false, false, false, false, false, false, "static", true, "SantaSleigh", 9426, 3 },
+    { "snowmachine", "snowmachine", "Uncategorized", "assets/prefabs/misc/xmas/snow_machine/models/snowmachine.prefab", 2117501564U, true, true, false, false, false, false, false, false, "static", true, "SnowMachine", 9429, 8 },
+    { "snowball.entity", "Snowball", "Uncategorized", "assets/prefabs/misc/xmas/snowball/snowball.entity.prefab", 591451995U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 9437, 5 },
+    { "snowballgun.entity", "Snowball Gun", "Uncategorized", "assets/prefabs/misc/xmas/snowballgun/snowballgun.entity.prefab", 3228215527U, true, true, false, false, false, false, false, false, "dynamic", false, "SnowballGun", 9442, 6 },
+    { "snowman.deployed", "snowman deployed", "Uncategorized", "assets/prefabs/misc/xmas/snowman/snowman.deployed.prefab", 1103550732U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 9448, 5 },
+    { "stocking_large_deployed", "stocking large deployed", "Uncategorized", "assets/prefabs/misc/xmas/stockings/stocking_large_deployed.prefab", 771996658U, true, true, false, false, false, false, false, false, "static", true, "Stocking", 9453, 7 },
+    { "stocking_small_deployed", "stocking small deployed", "Uncategorized", "assets/prefabs/misc/xmas/stockings/stocking_small_deployed.prefab", 3141927338U, true, true, false, false, false, false, false, false, "static", true, "Stocking", 9460, 7 },
+    { "windowgarland.deployed", "windowgarland deployed", "Uncategorized", "assets/prefabs/misc/xmas/windowgarland/windowgarland.deployed.prefab", 1321691542U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 9467, 6 },
+    { "christmas_door_wreath_deployed", "christmas door wreath deployed", "Uncategorized", "assets/prefabs/misc/xmas/wreath/christmas_door_wreath_deployed.prefab", 2207899193U, true, true, false, false, false, false, false, false, "static", true, "BaseCombatEntity", 9473, 3 },
+    { "xmasdwelling_a", "xmasdwelling a", "Uncategorized", "assets/prefabs/misc/xmas/xmasdwellings/xmasdwelling_a.prefab", 2989328402U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9476, 3 },
+    { "xmasdwelling_b", "xmasdwelling b", "Uncategorized", "assets/prefabs/misc/xmas/xmasdwellings/xmasdwelling_b.prefab", 4279789862U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9479, 3 },
+    { "xmasdwelling_c", "xmasdwelling c", "Uncategorized", "assets/prefabs/misc/xmas/xmasdwellings/xmasdwelling_c.prefab", 3226822244U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9482, 3 },
+    { "xmasdwelling_d", "xmasdwelling d", "Uncategorized", "assets/prefabs/misc/xmas/xmasdwellings/xmasdwelling_d.prefab", 3872949008U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCDwelling", 9485, 3 },
+    { "xmasrefill", "xmasrefill", "Uncategorized", "assets/prefabs/misc/xmas/xmasrefill.prefab", 2750850993U, true, true, false, false, false, false, false, false, "static", true, "XMasRefill", 9488, 3 },
+    { "xmas_tree.deployed", "xmas tree deployed", "Uncategorized", "assets/prefabs/misc/xmas/xmastree/xmas_tree.deployed.prefab", 1181698029U, true, true, false, false, false, false, false, false, "static", true, "ChristmasTree", 9491, 6 },
+    { "xmas_tree_a.deployed", "xmas tree a deployed", "Uncategorized", "assets/prefabs/misc/xmas/xmastree/xmas_tree_a.deployed.prefab", 3520045458U, true, true, false, false, false, false, false, false, "static", true, "DecorDeployable", 9497, 5 },
+    { "deepseatreasuremission_box", "deepseatreasuremission box", "Uncategorized", "assets/prefabs/missions/entities/deepseatreasuremission_box.prefab", 4272375622U, true, true, false, false, false, false, false, false, "static", true, "SingleUseMissionStorageContainer", 9502, 7 },
+    { "dynamicmissionstash", "dynamicmissionstash", "Uncategorized", "assets/prefabs/missions/entities/dynamicmissionstash.prefab", 3416881577U, true, true, false, false, false, false, false, false, "static", true, "WhitelistLootContainer", 9509, 7 },
+    { "genericmissionlootcontainerreusable", "genericmissionlootcontainerreusable", "Uncategorized", "assets/prefabs/missions/entities/genericmissionlootcontainerreusable.prefab", 3294618459U, true, true, false, false, false, false, false, false, "static", true, "StaticMissionItemDispenser", 9516, 6 },
+    { "holdmissionentity", "holdmissionentity", "Uncategorized", "assets/prefabs/missions/entities/holdmissionentity.prefab", 2898645756U, true, true, false, false, false, false, false, false, "static", true, "MissionSlowUseObject", 9522, 3 },
+    { "logstash", "logstash", "Uncategorized", "assets/prefabs/missions/entities/logstash.prefab", 1943082497U, true, true, false, false, false, false, false, false, "static", true, "WhitelistLootContainer", 9525, 7 },
+    { "missionlootbox_basic", "missionlootbox basic", "Uncategorized", "assets/prefabs/missions/entities/missionlootbox_basic.prefab", 3128236346U, true, true, false, false, false, false, false, false, "static", true, "WhitelistLootContainer", 9532, 7 },
+    { "missionstash", "missionstash", "Uncategorized", "assets/prefabs/missions/entities/missionstash.prefab", 3490516309U, true, true, false, false, false, false, false, false, "static", true, "WhitelistLootContainer", 9539, 7 },
+    { "tacklebox", "tacklebox", "Uncategorized", "assets/prefabs/missions/entities/tacklebox.prefab", 1126295133U, true, true, false, false, false, false, false, false, "static", true, "WhitelistLootContainer", 9546, 7 },
+    { "bunker", "bunker", "Uncategorized", "assets/prefabs/missions/portal/bunker.prefab", 2750475248U, true, true, false, false, false, false, false, false, "static", true, "DynamicDungeon", 9553, 3 },
+    { "bunker_corridor_a", "bunker corridor a", "Uncategorized", "assets/prefabs/missions/portal/bunker_corridor_a.prefab", 362606634U, true, true, false, false, false, false, false, false, "static", true, "DynamicDungeon", 9556, 3 },
+    { "bunker_door_portal", "bunker door portal", "Uncategorized", "assets/prefabs/missions/portal/bunker_door_portal.prefab", 2895212062U, true, true, false, false, false, false, false, false, "static", true, "BasePortal", 9559, 4 },
+    { "bunker_entrance", "bunker entrance", "Uncategorized", "assets/prefabs/missions/portal/bunker_entrance.prefab", 3789623955U, true, true, false, false, false, false, false, false, "static", true, "BunkerEntrance", 9563, 3 },
+    { "halloweenportalentry", "halloweenportalentry", "Uncategorized", "assets/prefabs/missions/portal/halloweenportalentry.prefab", 3939551954U, true, true, false, false, false, false, false, false, "static", true, "HalloweenDungeon", 9566, 5 },
+    { "halloweenportalexit", "halloweenportalexit", "Uncategorized", "assets/prefabs/missions/portal/halloweenportalexit.prefab", 1686410832U, true, true, false, false, false, false, false, false, "static", true, "BasePortal", 9571, 4 },
+    { "minedungeon", "minedungeon", "Uncategorized", "assets/prefabs/missions/portal/minedungeon.prefab", 3461158248U, true, true, false, false, false, false, false, false, "static", true, "ProceduralDynamicDungeon", 9575, 3 },
+    { "xmastunnellootbox", "xmastunnellootbox", "Uncategorized", "assets/prefabs/missions/portal/proceduraldungeon/xmastunnels/loot/xmastunnellootbox.prefab", 3343729976U, true, true, false, false, false, false, false, false, "static", true, "LootContainer", 9578, 6 },
+    { "xmasgingerbreaddungeon", "xmasgingerbreaddungeon", "Uncategorized", "assets/prefabs/missions/portal/xmasgingerbreaddungeon.prefab", 2614965312U, true, true, false, false, false, false, false, false, "static", true, "ProceduralDynamicDungeon", 9584, 3 },
+    { "xmasportalentry", "xmasportalentry", "Uncategorized", "assets/prefabs/missions/portal/xmasportalentry.prefab", 2270960267U, true, true, false, false, false, false, false, false, "static", true, "XmasDungeon", 9587, 6 },
+    { "xmasportalexit", "xmasportalexit", "Uncategorized", "assets/prefabs/missions/portal/xmasportalexit.prefab", 2696291976U, true, true, false, false, false, false, false, false, "static", true, "BasePortal", 9593, 4 },
+    { "crate_elite_tutorial", "crate elite tutorial", "Uncategorized", "assets/prefabs/missions/tutorialisland/crate_elite_tutorial.prefab", 3586383791U, true, true, false, false, false, false, false, false, "static", true, "LootContainerAchievement", 9597, 7 },
+    { "crate_tools_tutorial", "crate tools tutorial", "Uncategorized", "assets/prefabs/missions/tutorialisland/crate_tools_tutorial.prefab", 25203603U, true, true, false, false, false, false, false, false, "static", true, "TutorialContainer", 9604, 6 },
+    { "endtutorialcinematic", "endtutorialcinematic", "Uncategorized", "assets/prefabs/missions/tutorialisland/endtutorialcinematic.prefab", 2744328499U, true, true, false, false, false, false, false, false, "static", true, "CinematicScenePlaybackEntity", 9610, 3 },
+    { "loot-barrel-tutorial", "loot barrel tutorial", "Uncategorized", "assets/prefabs/missions/tutorialisland/loot-barrel-tutorial.prefab", 1380255172U, true, true, false, false, false, false, false, false, "static", true, "LootContainer", 9613, 6 },
+    { "tutorialisland", "tutorialisland", "Uncategorized", "assets/prefabs/missions/tutorialisland/tutorialisland.prefab", 3290961355U, true, true, false, true, true, false, false, false, "static", true, "TutorialIsland", 9619, 3 },
+    { "tutorialmapmarker", "tutorialmapmarker", "Uncategorized", "assets/prefabs/missions/tutorialisland/tutorialmapmarker.prefab", 3719689594U, true, true, false, false, false, false, false, false, "static", true, "TutorialIsland_MapMarker", 9622, 4 },
+    { "apartment_security", "apartment security", "Uncategorized", "assets/prefabs/npc/apartment/apartment_security.prefab", 3317159439U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCApartmentSecurity", 9626, 8 },
+    { "apartment_vendor", "apartment vendor", "Uncategorized", "assets/prefabs/npc/apartment/apartment_vendor.prefab", 3396970230U, true, true, false, true, true, false, false, false, "dynamic", false, "ApartmentVendor", 9634, 8 },
+    { "autoturret_deployed", "autoturret deployed", "Uncategorized", "assets/prefabs/npc/autoturret/autoturret_deployed.prefab", 3312510084U, true, true, false, false, false, false, false, false, "static", true, "AutoTurret", 9642, 7 },
+    { "industrial_autoturret_deployed", "industrial autoturret deployed", "Uncategorized", "assets/prefabs/npc/autoturret/skins/industrial_autoturret/industrial_autoturret_deployed.prefab", 2823049573U, true, true, false, false, false, false, false, false, "static", true, "AutoTurret", 9649, 7 },
+    { "airwolf_helipad.repairable", "airwolf helipad repairable", "Uncategorized", "assets/prefabs/npc/bandit/airwolf_helipad.repairable.prefab", 2911153046U, true, true, false, false, false, false, false, false, "dynamic", false, "RepairableVehiclePad", 9656, 7 },
+    { "airwolfspawner", "airwolfspawner", "Uncategorized", "assets/prefabs/npc/bandit/airwolfspawner.prefab", 3960558419U, true, true, false, false, false, false, false, false, "dynamic", false, "VehicleSpawner", 9663, 3 },
+    { "boatspawner", "boatspawner", "Uncategorized", "assets/prefabs/npc/bandit/boatspawner.prefab", 2609911909U, true, true, false, false, false, false, false, false, "dynamic", false, "VehicleSpawner", 9666, 3 },
+    { "horsespawner", "horsespawner", "Uncategorized", "assets/prefabs/npc/bandit/horsespawner.prefab", 4058311563U, true, true, false, false, false, false, false, false, "dynamic", false, "HorseSpawner", 9669, 4 },
+    { "missionprovider_bandit_a", "missionprovider bandit a", "Uncategorized", "assets/prefabs/npc/bandit/missionproviders/missionprovider_bandit_a.prefab", 372889267U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCSimpleMissionProvider", 9673, 8 },
+    { "missionprovider_bandit_b", "missionprovider bandit b", "Uncategorized", "assets/prefabs/npc/bandit/missionproviders/missionprovider_bandit_b.prefab", 322083179U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCMissionProvider", 9681, 8 },
+    { "missionprovider_fishing_a", "missionprovider fishing a", "Uncategorized", "assets/prefabs/npc/bandit/missionproviders/missionprovider_fishing_a.prefab", 350957926U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCMissionProvider", 9689, 8 },
+    { "missionprovider_fishing_b", "missionprovider fishing b", "Uncategorized", "assets/prefabs/npc/bandit/missionproviders/missionprovider_fishing_b.prefab", 3694999410U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCSimpleMissionProvider", 9697, 8 },
+    { "missionprovider_floatingcity_a", "missionprovider floatingcity a", "Uncategorized", "assets/prefabs/npc/bandit/missionproviders/missionprovider_floatingcity_a.prefab", 2263543605U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCSimpleMissionProvider", 9705, 8 },
+    { "missionprovider_generic_a", "missionprovider generic a", "Uncategorized", "assets/prefabs/npc/bandit/missionproviders/missionprovider_generic_a.prefab", 4018233975U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCSimpleMissionProvider", 9713, 8 },
+    { "missionprovider_outpost_a", "missionprovider outpost a", "Uncategorized", "assets/prefabs/npc/bandit/missionproviders/missionprovider_outpost_a.prefab", 3928572443U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCSimpleMissionProvider", 9721, 8 },
+    { "missionprovider_outpost_b", "missionprovider outpost b", "Uncategorized", "assets/prefabs/npc/bandit/missionproviders/missionprovider_outpost_b.prefab", 1091655158U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCMissionProvider", 9729, 8 },
+    { "missionprovider_stables_a", "missionprovider stables a", "Uncategorized", "assets/prefabs/npc/bandit/missionproviders/missionprovider_stables_a.prefab", 930153435U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCMissionProvider", 9737, 8 },
+    { "missionprovider_stables_b", "missionprovider stables b", "Uncategorized", "assets/prefabs/npc/bandit/missionproviders/missionprovider_stables_b.prefab", 3892089538U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCSimpleMissionProvider", 9745, 8 },
+    { "bandit_conversationalist", "bandit conversationalist", "Uncategorized", "assets/prefabs/npc/bandit/shopkeepers/bandit_conversationalist.prefab", 251735616U, true, true, false, true, true, false, false, false, "dynamic", false, "VehicleVendor", 9753, 8 },
+    { "bandit_shopkeeper", "bandit shopkeeper", "Uncategorized", "assets/prefabs/npc/bandit/shopkeepers/bandit_shopkeeper.prefab", 2404773048U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCShopKeeper", 9761, 6 },
+    { "bandit_shopkeeper_sitting", "bandit shopkeeper sitting", "Uncategorized", "assets/prefabs/npc/bandit/shopkeepers/bandit_shopkeeper_sitting.prefab", 2891949068U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCShopKeeper", 9767, 6 },
+    { "boat_shopkeeper", "boat shopkeeper", "Uncategorized", "assets/prefabs/npc/bandit/shopkeepers/boat_shopkeeper.prefab", 2913617060U, true, true, false, true, true, false, false, false, "dynamic", false, "VehicleVendor", 9773, 8 },
+    { "missionprovider_test", "missionprovider test", "Uncategorized", "assets/prefabs/npc/bandit/shopkeepers/missionprovider_test.prefab", 4115840942U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCMissionProvider", 9781, 8 },
+    { "stables_shopkeeper", "stables shopkeeper", "Uncategorized", "assets/prefabs/npc/bandit/shopkeepers/stables_shopkeeper.prefab", 7488435U, true, true, false, true, true, false, false, false, "dynamic", false, "VehicleVendor", 9789, 8 },
+    { "beemasterswarm", "beemasterswarm", "Uncategorized", "assets/prefabs/npc/beeswarm/beemasterswarm.prefab", 3827650729U, true, true, false, false, false, false, false, false, "static", true, "BeeSwarmMaster", 9797, 4 },
+    { "beeswarm", "beeswarm", "Uncategorized", "assets/prefabs/npc/beeswarm/beeswarm.prefab", 4224371694U, true, true, false, true, true, false, false, false, "static", true, "BeeSwarmAI", 9801, 4 },
+    { "cargo_plane", "cargo plane", "Uncategorized", "assets/prefabs/npc/cargo plane/cargo_plane.prefab", 2383782438U, true, true, false, false, false, false, false, false, "static", true, "CargoPlane", 9805, 3 },
+    { "alarmsytstem", "alarmsytstem", "Uncategorized", "assets/prefabs/npc/ch47/alarmsytstem.prefab", 680397581U, true, true, false, false, false, false, false, false, "static", true, "DummySwitch", 9808, 6 },
+    { "ch47.entity", "ch47 entity", "Uncategorized", "assets/prefabs/npc/ch47/ch47.entity.prefab", 1675349834U, true, true, false, true, false, true, false, false, "dynamic", false, "CH47Helicopter", 9814, 7 },
+    { "ch47scientists.entity", "ch47scientists entity", "Uncategorized", "assets/prefabs/npc/ch47/ch47scientists.entity.prefab", 1514383717U, true, true, false, true, false, true, false, false, "dynamic", false, "CH47HelicopterAIController", 9821, 8 },
+    { "reinforcementslistener", "reinforcementslistener", "Uncategorized", "assets/prefabs/npc/ch47/reinforcementslistener.prefab", 667569163U, true, true, false, false, false, false, false, false, "static", true, "CH47ReinforcementListener", 9829, 3 },
+    { "servergibs_ch47", "servergibs ch47", "Uncategorized", "assets/prefabs/npc/ch47/servergibs_ch47.prefab", 3745320211U, true, true, false, false, false, false, false, false, "dynamic", false, "HelicopterDebris", 9832, 5 },
+    { "flameturret.deployed", "flameturret deployed", "Uncategorized", "assets/prefabs/npc/flame turret/flameturret.deployed.prefab", 4075317686U, true, true, false, false, false, false, false, false, "static", true, "FlameTurret", 9837, 6 },
+    { "flameturret_fireball", "flameturret fireball", "Uncategorized", "assets/prefabs/npc/flame turret/flameturret_fireball.prefab", 2781905939U, true, true, false, true, false, true, false, false, "dynamic", false, "FireBall", 9843, 3 },
+    { "farm_access_guard", "farm access guard", "Uncategorized", "assets/prefabs/npc/floatingcity/farm_access_guard.prefab", 204695781U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCFarmAccess", 9846, 8 },
+    { "gingerbread_corpse_female", "gingerbread corpse female", "Uncategorized", "assets/prefabs/npc/gingerbread/gingerbread_corpse_female.prefab", 3250554959U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCPlayerCorpse", 9854, 7 },
+    { "gingerbread_corpse_male", "gingerbread corpse male", "Uncategorized", "assets/prefabs/npc/gingerbread/gingerbread_corpse_male.prefab", 3865171876U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCPlayerCorpse", 9861, 7 },
+    { "gingerbread_dungeon", "gingerbread dungeon", "Uncategorized", "assets/prefabs/npc/gingerbread/gingerbread_dungeon.prefab", 2992757580U, true, true, false, true, true, false, true, false, "dynamic", false, "GingerbreadNPC", 9868, 7 },
+    { "gingerbread_meleedungeon", "gingerbread meleedungeon", "Uncategorized", "assets/prefabs/npc/gingerbread/gingerbread_meleedungeon.prefab", 1172642608U, true, true, false, true, true, false, true, false, "dynamic", false, "GingerbreadNPC", 9875, 7 },
+    { "bradley_crate", "bradley crate", "Uncategorized", "assets/prefabs/npc/m2bradley/bradley_crate.prefab", 1737870479U, true, true, false, false, false, false, false, false, "static", true, "LockedByEntCrate", 9882, 7 },
+    { "bradleyapc", "bradleyapc", "Uncategorized", "assets/prefabs/npc/m2bradley/bradleyapc.prefab", 1456850188U, true, true, false, true, false, true, false, false, "dynamic", false, "BradleyAPC", 9889, 4 },
+    { "maincannonshell", "maincannonshell", "Uncategorized", "assets/prefabs/npc/m2bradley/maincannonshell.prefab", 3032863244U, true, true, false, false, false, false, false, false, "static", true, "TimedExplosive", 9893, 3 },
+    { "oilfireball2", "oilfireball2", "Uncategorized", "assets/prefabs/npc/m2bradley/oilfireball2.prefab", 3761185980U, true, true, false, true, false, true, false, false, "dynamic", false, "FireBall", 9896, 3 },
+    { "servergibs_bradley", "servergibs bradley", "Uncategorized", "assets/prefabs/npc/m2bradley/servergibs_bradley.prefab", 4214400966U, true, true, false, false, false, false, false, false, "dynamic", false, "HelicopterDebris", 9899, 5 },
+    { "murderer_corpse", "murderer corpse", "Uncategorized", "assets/prefabs/npc/murderer/murderer_corpse.prefab", 2400390439U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCPlayerCorpse", 9904, 7 },
+    { "heli_crate", "heli crate", "Uncategorized", "assets/prefabs/npc/patrol helicopter/heli_crate.prefab", 1314849795U, true, true, false, false, false, false, false, false, "static", true, "LockedByEntCrate", 9911, 7 },
+    { "patrolhelicopter", "patrolhelicopter", "Uncategorized", "assets/prefabs/npc/patrol helicopter/patrolhelicopter.prefab", 3029415845U, true, true, false, true, true, false, false, false, "dynamic", false, "PatrolHelicopter", 9918, 4 },
+    { "patrolhelicopterfleemarker", "patrolhelicopterfleemarker", "Uncategorized", "assets/prefabs/npc/patrol helicopter/patrolhelicopterfleemarker.prefab", 2618904203U, true, true, false, false, false, false, false, false, "dynamic", false, "MapMarkerHelicopterFlee", 9922, 4 },
+    { "patrolhelicoptermarker", "patrolhelicoptermarker", "Uncategorized", "assets/prefabs/npc/patrol helicopter/patrolhelicoptermarker.prefab", 3212876472U, true, true, false, false, false, false, false, false, "static", true, "MapMarkerCH47", 9926, 4 },
+    { "rocket_heli", "rocket heli", "Uncategorized", "assets/prefabs/npc/patrol helicopter/rocket_heli.prefab", 129320027U, true, true, false, false, false, false, false, false, "static", true, "TimedExplosive", 9930, 3 },
+    { "rocket_heli_airburst", "rocket heli airburst", "Uncategorized", "assets/prefabs/npc/patrol helicopter/rocket_heli_airburst.prefab", 3253859536U, true, true, false, false, false, false, false, false, "static", true, "TimedExplosive", 9933, 3 },
+    { "rocket_heli_napalm", "rocket heli napalm", "Uncategorized", "assets/prefabs/npc/patrol helicopter/rocket_heli_napalm.prefab", 200672762U, true, true, false, false, false, false, false, false, "static", true, "FlameExplosive", 9936, 4 },
+    { "servergibs_patrolhelicopter", "servergibs patrolhelicopter", "Uncategorized", "assets/prefabs/npc/patrol helicopter/servergibs_patrolhelicopter.prefab", 1829321077U, true, true, false, false, false, false, false, false, "dynamic", false, "HelicopterDebris", 9940, 5 },
+    { "livestockvendor_stables", "livestockvendor stables", "Uncategorized", "assets/prefabs/npc/ranch/livestockvendor_stables.prefab", 3637147323U, true, true, false, true, true, false, false, false, "dynamic", false, "LivestockVendor", 9945, 8 },
+    { "overgrazedarea", "overgrazedarea", "Uncategorized", "assets/prefabs/npc/ranch/overgrazedarea.prefab", 330087688U, true, true, false, false, false, false, false, false, "static", true, "OvergrazedArea", 9953, 4 },
+    { "rocket_sam", "rocket sam", "Uncategorized", "assets/prefabs/npc/sam_site_turret/rocket_sam.prefab", 2160908677U, true, true, false, false, false, false, false, false, "static", true, "TimedExplosive", 9957, 3 },
+    { "sam_ammo", "sam ammo", "Uncategorized", "assets/prefabs/npc/sam_site_turret/sam_ammo.prefab", 3414321847U, true, true, false, false, false, false, false, false, "static", true, "TimedExplosive", 9960, 3 },
+    { "sam_site_turret_deployed", "sam site turret deployed", "Uncategorized", "assets/prefabs/npc/sam_site_turret/sam_site_turret_deployed.prefab", 2059775839U, true, true, false, false, false, false, false, false, "static", true, "SamSite", 9963, 7 },
+    { "sam_static", "sam static", "Uncategorized", "assets/prefabs/npc/sam_site_turret/sam_static.prefab", 2934818568U, true, true, false, false, false, false, false, false, "static", true, "SamSite", 9970, 7 },
+    { "scarecrow", "scarecrow", "Uncategorized", "assets/prefabs/npc/scarecrow/scarecrow.prefab", 3473349223U, true, true, false, true, true, false, true, false, "dynamic", false, "ScarecrowNPC", 9977, 6 },
+    { "scarecrow_dungeon", "scarecrow dungeon", "Uncategorized", "assets/prefabs/npc/scarecrow/scarecrow_dungeon.prefab", 3019050354U, true, true, false, true, true, false, true, false, "dynamic", false, "ScarecrowNPC", 9983, 6 },
+    { "scarecrow_dungeonnoroam", "scarecrow dungeonnoroam", "Uncategorized", "assets/prefabs/npc/scarecrow/scarecrow_dungeonnoroam.prefab", 70161046U, true, true, false, true, true, false, true, false, "dynamic", false, "ScarecrowNPC", 9989, 6 },
+    { "scientist_corpse", "scientist corpse", "Uncategorized", "assets/prefabs/npc/scientist/scientist_corpse.prefab", 1236143239U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCPlayerCorpse", 9995, 7 },
+    { "npcvendorturretmodified variant", "npcvendorturretmodified variant", "Uncategorized", "assets/prefabs/npc/travelling vendor/npcvendorturretmodified variant.prefab", 2857401739U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCAutoTurret", 10002, 8 },
+    { "npcvendorturretside", "npcvendorturretside", "Uncategorized", "assets/prefabs/npc/travelling vendor/npcvendorturretside.prefab", 4291749291U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCAutoTurret", 10010, 8 },
+    { "travellingvendor", "travellingvendor", "Uncategorized", "assets/prefabs/npc/travelling vendor/travellingvendor.prefab", 3338740337U, true, true, false, true, false, true, false, false, "dynamic", false, "TravellingVendor", 10018, 3 },
+    { "missionprovider_tutorial", "missionprovider tutorial", "Uncategorized", "assets/prefabs/npc/tutorial/missionprovider_tutorial.prefab", 3344407138U, true, true, false, true, true, false, false, false, "dynamic", false, "TutorialNPC", 10021, 9 },
+    { "waterwell_shopkeeper", "waterwell shopkeeper", "Uncategorized", "assets/prefabs/npc/waterwell/waterwell_shopkeeper.prefab", 1907791058U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCShopKeeper", 10030, 6 },
+    { "physicsentitycube", "physicsentitycube", "Uncategorized", "assets/prefabs/physicstesting/physicsentitycube.prefab", 681646903U, true, true, false, true, false, true, false, false, "dynamic", false, "BaseEntity", 10036, 2 },
+    { "physicsentitycube_maxfriction", "physicsentitycube maxfriction", "Uncategorized", "assets/prefabs/physicstesting/physicsentitycube_maxfriction.prefab", 4224922530U, true, true, false, true, false, true, false, false, "dynamic", false, "BaseEntity", 10038, 2 },
+    { "physicsentitycube_maxfriction_heavy", "physicsentitycube maxfriction heavy", "Uncategorized", "assets/prefabs/physicstesting/physicsentitycube_maxfriction_heavy.prefab", 2366673790U, true, true, false, true, false, true, false, false, "dynamic", false, "BaseEntity", 10040, 2 },
+    { "physicsentitycube_maxfriction_light", "physicsentitycube maxfriction light", "Uncategorized", "assets/prefabs/physicstesting/physicsentitycube_maxfriction_light.prefab", 474343723U, true, true, false, true, false, true, false, false, "dynamic", false, "BaseEntity", 10042, 2 },
+    { "black_berry.entity", "black berry entity", "Uncategorized", "assets/prefabs/plants/berrry/black/black_berry.entity.prefab", 654911969U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 10044, 4 },
+    { "blue_berry.entity", "blue berry entity", "Uncategorized", "assets/prefabs/plants/berrry/blue/blue_berry.entity.prefab", 402225589U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 10048, 4 },
+    { "green_berry.entity", "green berry entity", "Uncategorized", "assets/prefabs/plants/berrry/green/green_berry.entity.prefab", 1267013032U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 10052, 4 },
+    { "red_berry.entity", "red berry entity", "Uncategorized", "assets/prefabs/plants/berrry/red/red_berry.entity.prefab", 3359110450U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 10056, 4 },
+    { "white_berry.entity", "white berry entity", "Uncategorized", "assets/prefabs/plants/berrry/white/white_berry.entity.prefab", 4038822397U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 10060, 4 },
+    { "yellow_berry.entity", "yellow berry entity", "Uncategorized", "assets/prefabs/plants/berrry/yellow/yellow_berry.entity.prefab", 2747504285U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 10064, 4 },
+    { "corn.entity", "corn entity", "Uncategorized", "assets/prefabs/plants/corn/corn.entity.prefab", 112964822U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 10068, 4 },
+    { "hemp.entity", "hemp entity", "Uncategorized", "assets/prefabs/plants/hemp/hemp.entity.prefab", 3587624038U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 10072, 4 },
+    { "orchid.entity", "orchid entity", "Uncategorized", "assets/prefabs/plants/orchid/orchid.entity.prefab", 2529869539U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 10076, 4 },
+    { "potato.entity", "potato entity", "Uncategorized", "assets/prefabs/plants/potato/potato.entity.prefab", 451737085U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 10080, 4 },
+    { "pumpkin.entity", "pumpkin entity", "Uncategorized", "assets/prefabs/plants/pumpkin/pumpkin.entity.prefab", 1524652375U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 10084, 4 },
+    { "rose.entity", "rose entity", "Uncategorized", "assets/prefabs/plants/rose/rose.entity.prefab", 773690139U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 10088, 4 },
+    { "sunflower.entity", "sunflower entity", "Uncategorized", "assets/prefabs/plants/sunflower/sunflower.entity.prefab", 3882604163U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 10092, 4 },
+    { "wheat.entity", "wheat entity", "Uncategorized", "assets/prefabs/plants/wheat/wheat.entity.prefab", 1410137143U, true, true, false, false, false, false, false, false, "static", true, "GrowableEntity", 10096, 4 },
+    { "player", "player", "Uncategorized", "assets/prefabs/player/player.prefab", 4108440852U, true, true, false, true, true, false, false, false, "dynamic", false, "BasePlayer", 10100, 4 },
+    { "player_corpse", "player corpse", "Uncategorized", "assets/prefabs/player/player_corpse.prefab", 2604534927U, true, true, false, false, false, false, false, false, "dynamic", false, "PlayerCorpse", 10104, 6 },
+    { "player_corpse_new", "player corpse new", "Uncategorized", "assets/prefabs/player/player_corpse_new.prefab", 391715894U, true, true, false, true, false, true, false, false, "dynamic", false, "PlayerCorpse", 10110, 6 },
+    { "player_temp_ragdoll", "player temp ragdoll", "Uncategorized", "assets/prefabs/player/player_temp_ragdoll.prefab", 886972632U, true, true, false, true, false, true, false, false, "dynamic", false, "BaseRagdoll", 10116, 5 },
+    { "advancedblueprintfragment_pickup.entity", "advancedblueprintfragment pickup entity", "Uncategorized", "assets/prefabs/resource/blueprint fragment/advancedblueprintfragment_pickup.entity.prefab", 120188964U, true, true, false, false, false, false, false, false, "static", true, "ItemPickup", 10121, 5 },
+    { "basicblueprintfragment_pickup.entity", "basicblueprintfragment pickup entity", "Uncategorized", "assets/prefabs/resource/blueprint fragment/basicblueprintfragment_pickup.entity.prefab", 4011844428U, true, true, false, false, false, false, false, false, "static", true, "ItemPickup", 10126, 5 },
+    { "basicblueprintfragment_singlepickup.entity", "basicblueprintfragment singlepickup entity", "Uncategorized", "assets/prefabs/resource/blueprint fragment/basicblueprintfragment_singlepickup.entity.prefab", 14164597U, true, true, false, false, false, false, false, false, "static", true, "ItemPickup", 10131, 5 },
+    { "diesel_barrel_world", "diesel barrel world", "Uncategorized", "assets/prefabs/resource/diesel barrel/diesel_barrel_world.prefab", 4140706055U, true, true, false, false, false, false, false, false, "static", true, "LootContainer", 10136, 6 },
+    { "horsedung.entity", "horsedung entity", "Uncategorized", "assets/prefabs/resource/horsedung/horsedung.entity.prefab", 2046937803U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 10142, 5 },
+    { "crudeoilproducer", "crudeoilproducer", "Uncategorized", "assets/prefabs/resource/liquidproducer/crudeoilproducer.prefab", 3451647698U, true, true, false, false, false, false, false, false, "static", true, "WaterCatcher", 10147, 8 },
+    { "waterproducer", "waterproducer", "Uncategorized", "assets/prefabs/resource/liquidproducer/waterproducer.prefab", 3154707280U, true, true, false, false, false, false, false, false, "static", true, "WaterCatcher", 10155, 8 },
+    { "waterproducer_invisible", "waterproducer invisible", "Uncategorized", "assets/prefabs/resource/liquidproducer/waterproducer_invisible.prefab", 3813053556U, true, true, false, false, false, false, false, false, "static", true, "WaterCatcher", 10163, 8 },
+    { "beehive.natural", "beehive natural", "Uncategorized", "assets/prefabs/resource/natural beehive/beehive.natural.prefab", 1577933610U, true, true, false, false, false, false, false, false, "static", true, "NaturalBeehive", 10171, 7 },
+    { "satellitecontrolcomputer.entity", "satellitecontrolcomputer entity", "Uncategorized", "assets/prefabs/satellitecrash/controlcomputer/satellitecontrolcomputer.entity.prefab", 1395966456U, true, true, false, false, false, false, false, false, "static", true, "SatelliteControlComputer", 10178, 5 },
+    { "satellitecontrolcomputer.static.entity", "satellitecontrolcomputer static entity", "Uncategorized", "assets/prefabs/satellitecrash/controlcomputer/satellitecontrolcomputer.static.entity.prefab", 1346829530U, true, true, false, false, false, false, false, false, "static", true, "SatelliteControlComputer", 10183, 5 },
+    { "satellitecontrolcomputer_storage.entity", "satellitecontrolcomputer storage entity", "Uncategorized", "assets/prefabs/satellitecrash/controlcomputer/satellitecontrolcomputer_storage.entity.prefab", 3673999874U, true, true, false, false, false, false, false, false, "static", true, "SatelliteFuelStorage", 10188, 6 },
+    { "satellite_crate_1.entity", "satellite crate 1 entity", "Uncategorized", "assets/prefabs/satellitecrash/crates/satellite_crate_1.entity.prefab", 3827148288U, true, true, false, false, false, false, false, false, "static", true, "LockedByEntCrate", 10194, 7 },
+    { "satellite_crate_2.entity", "satellite crate 2 entity", "Uncategorized", "assets/prefabs/satellitecrash/crates/satellite_crate_2.entity.prefab", 1629625041U, true, true, false, false, false, false, false, false, "static", true, "LockedByEntCrate", 10201, 7 },
+    { "satellite_crate_3.entity", "satellite crate 3 entity", "Uncategorized", "assets/prefabs/satellitecrash/crates/satellite_crate_3.entity.prefab", 3217579596U, true, true, false, false, false, false, false, false, "static", true, "LockedByEntCrate", 10208, 7 },
+    { "satellite.entity", "satellite entity", "Uncategorized", "assets/prefabs/satellitecrash/satellite.entity.prefab", 900308836U, true, true, false, false, false, false, false, false, "static", true, "SatelliteCrash", 10215, 4 },
+    { "satellite_pending_crash_site.entity", "satellite pending crash site entity", "Uncategorized", "assets/prefabs/satellitecrash/satellite_pending_crash_site.entity.prefab", 1877649312U, true, true, false, false, false, false, false, false, "static", true, "SatellitePendingCrashSite", 10219, 3 },
+    { "satellite_remains.entity", "satellite remains entity", "Uncategorized", "assets/prefabs/satellitecrash/satellite_remains.entity.prefab", 2443571139U, true, true, false, false, false, false, false, false, "static", true, "SatelliteCrashRemains", 10222, 4 },
+    { "binocular.entity", "Binoculars", "Uncategorized", "assets/prefabs/tools/binoculars/binocular.entity.prefab", 436023350U, true, true, false, false, false, false, false, false, "static", true, "Binocular", 10226, 5 },
+    { "explosive.timed.deployed", "explosive timed deployed", "Uncategorized", "assets/prefabs/tools/c4/explosive.timed.deployed.prefab", 3898309212U, true, true, false, true, false, true, false, false, "dynamic", false, "RFTimedExplosive", 10231, 4 },
+    { "explosive.timed.entity", "Timed Explosive Charge", "Uncategorized", "assets/prefabs/tools/c4/explosive.timed.entity.prefab", 1915331115U, true, true, false, false, false, false, false, false, "static", true, "ThrownWeapon", 10235, 5 },
+    { "tool_camera", "Camera", "Uncategorized", "assets/prefabs/tools/camera/tool_camera.prefab", 1410597758U, true, true, false, false, false, false, false, false, "static", true, "CameraTool", 10240, 4 },
+    { "compass.entity", "Compass", "Uncategorized", "assets/prefabs/tools/compass/compass.entity.prefab", 2757054139U, true, true, false, false, false, false, false, false, "static", true, "Compass", 10244, 4 },
+    { "generic_deploy", "Storage Monitor", "Uncategorized", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, true, true, false, false, false, false, false, false, "static", true, "Deployer", 10248, 4 },
+    { "detonator.entity", "RF Transmitter", "Uncategorized", "assets/prefabs/tools/detonator/detonator.entity.prefab", 3503830994U, true, true, false, false, false, false, false, false, "static", true, "Detonator", 10252, 4 },
+    { "bobber.entity", "bobber entity", "Uncategorized", "assets/prefabs/tools/fishing rod/bobber/bobber.entity.prefab", 2984848657U, true, true, false, true, false, true, false, false, "dynamic", false, "FishingBobber", 10256, 4 },
+    { "fishing_rod.entity", "Handmade Fishing Rod", "Uncategorized", "assets/prefabs/tools/fishing rod/fishing_rod.entity.prefab", 2057865657U, true, true, false, false, false, false, false, false, "static", true, "BaseFishingRod", 10260, 4 },
+    { "overfishedarea", "overfishedarea", "Uncategorized", "assets/prefabs/tools/fishing rod/overfishedarea.prefab", 816085840U, true, true, false, false, false, false, false, false, "static", true, "OverfishedArea", 10264, 4 },
+    { "flare.deployed", "flare deployed", "Uncategorized", "assets/prefabs/tools/flareold/flare.deployed.prefab", 1693887801U, true, true, false, true, false, true, false, false, "dynamic", false, "RoadFlare", 10268, 4 },
+    { "flare.weapon", "Flare", "Uncategorized", "assets/prefabs/tools/flareold/flare.weapon.prefab", 2661658442U, true, true, false, false, false, false, false, false, "static", true, "GrenadeWeapon", 10272, 6 },
+    { "flashlight.entity", "Flashlight", "Uncategorized", "assets/prefabs/tools/flashlight/flashlight.entity.prefab", 72718095U, true, true, false, false, false, false, false, false, "static", true, "FlashlightWeapon", 10278, 7 },
+    { "geiger_counter.entity", "Geiger Counter", "Uncategorized", "assets/prefabs/tools/geiger counter/geiger_counter.entity.prefab", 47304962U, true, true, false, false, false, false, false, false, "static", true, "GeigerCounter", 10285, 5 },
+    { "handcuffs.entity", "Handcuffs", "Uncategorized", "assets/prefabs/tools/handcuffs/handcuffs.entity.prefab", 3263286159U, true, true, false, false, false, false, false, false, "static", true, "Handcuffs", 10290, 6 },
+    { "hosetool.entity", "Hose Tool", "Uncategorized", "assets/prefabs/tools/hose/hosetool.entity.prefab", 3568270288U, true, true, false, false, false, false, false, false, "static", true, "WireTool", 10296, 4 },
+    { "jackhammer.entity", "Jackhammer", "Uncategorized", "assets/prefabs/tools/jackhammer/jackhammer.entity.prefab", 3537156861U, true, true, false, false, false, false, false, false, "static", true, "Jackhammer", 10300, 6 },
+    { "keycard.entity", "Blue Keycard", "Uncategorized", "assets/prefabs/tools/keycard/keycard.entity.prefab", 3773357817U, true, true, false, false, false, false, false, false, "static", true, "Keycard", 10306, 5 },
+    { "keycard_blue_pickup.entity", "keycard blue pickup entity", "Uncategorized", "assets/prefabs/tools/keycard/keycard_blue_pickup.entity.prefab", 675407027U, true, true, false, false, false, false, false, false, "static", true, "ItemPickup", 10311, 5 },
+    { "keycard_green_pickup.entity", "keycard green pickup entity", "Uncategorized", "assets/prefabs/tools/keycard/keycard_green_pickup.entity.prefab", 1317896088U, true, true, false, false, false, false, false, false, "static", true, "ItemPickup", 10316, 5 },
+    { "keycard_red_pickup.entity", "keycard red pickup entity", "Uncategorized", "assets/prefabs/tools/keycard/keycard_red_pickup.entity.prefab", 3985212893U, true, true, false, false, false, false, false, false, "static", true, "ItemPickup", 10321, 5 },
+    { "concrete_hatchet.entity", "Concrete Hatchet", "Uncategorized", "assets/prefabs/tools/lumberjack_tools/concrete_hatchet.entity.prefab", 1777756171U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 10326, 5 },
+    { "concrete_pickaxe.entity", "Concrete Pickaxe", "Uncategorized", "assets/prefabs/tools/lumberjack_tools/concrete_pickaxe.entity.prefab", 1480417083U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 10331, 5 },
+    { "lumberjack_axe.entity", "Prototype Hatchet", "Uncategorized", "assets/prefabs/tools/lumberjack_tools/lumberjack_axe.entity.prefab", 4035646930U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 10336, 5 },
+    { "lumberjack_pick.entity", "Prototype Pickaxe", "Uncategorized", "assets/prefabs/tools/lumberjack_tools/lumberjack_pick.entity.prefab", 1725165540U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 10341, 5 },
+    { "cargomarker", "cargomarker", "Uncategorized", "assets/prefabs/tools/map/cargomarker.prefab", 843218194U, true, true, false, false, false, false, false, false, "static", true, "MapMarkerCH47", 10346, 4 },
+    { "ch47marker", "ch47marker", "Uncategorized", "assets/prefabs/tools/map/ch47marker.prefab", 3775898198U, true, true, false, false, false, false, false, false, "static", true, "MapMarkerCH47", 10350, 4 },
+    { "cinemarkera", "cinemarkera", "Uncategorized", "assets/prefabs/tools/map/cinemarkera.prefab", 2913233310U, true, true, false, false, false, false, false, false, "static", true, "MapMarker", 10354, 3 },
+    { "cinemarkerb", "cinemarkerb", "Uncategorized", "assets/prefabs/tools/map/cinemarkerb.prefab", 1697598722U, true, true, false, false, false, false, false, false, "static", true, "MapMarker", 10357, 3 },
+    { "cinemarkerc", "cinemarkerc", "Uncategorized", "assets/prefabs/tools/map/cinemarkerc.prefab", 4244600952U, true, true, false, false, false, false, false, false, "static", true, "MapMarker", 10360, 3 },
+    { "cratemarker", "cratemarker", "Uncategorized", "assets/prefabs/tools/map/cratemarker.prefab", 2366974922U, true, true, false, false, false, false, false, false, "static", true, "MobileMapMarker", 10363, 4 },
+    { "explosionmarker", "explosionmarker", "Uncategorized", "assets/prefabs/tools/map/explosionmarker.prefab", 4060989661U, true, true, false, false, false, false, false, false, "static", true, "MapMarkerExplosion", 10367, 4 },
+    { "genericradiusmarker", "genericradiusmarker", "Uncategorized", "assets/prefabs/tools/map/genericradiusmarker.prefab", 2849728229U, true, true, false, false, false, false, false, false, "static", true, "MapMarkerGenericRadius", 10371, 4 },
+    { "map", "Paper Map", "Uncategorized", "assets/prefabs/tools/map/map.prefab", 491065559U, true, true, false, false, false, false, false, false, "static", true, "MapEntity", 10375, 4 },
+    { "missionprovidermarker", "missionprovidermarker", "Uncategorized", "assets/prefabs/tools/map/missionprovidermarker.prefab", 1670391308U, true, true, false, false, false, false, false, false, "static", true, "MapMarkerMissionProvider", 10379, 4 },
+    { "travellingvendormarker", "travellingvendormarker", "Uncategorized", "assets/prefabs/tools/map/travellingvendormarker.prefab", 4216742342U, true, true, false, false, false, false, false, false, "static", true, "MapMarkerCH47", 10383, 4 },
+    { "masterkey.entity", "Apartment Key", "Uncategorized", "assets/prefabs/tools/master key/masterkey.entity.prefab", 1148470020U, true, true, false, false, false, false, false, false, "static", true, "MasterKey", 10387, 6 },
+    { "syringe_medical.entity", "Medical Syringe", "Uncategorized", "assets/prefabs/tools/medical syringe/syringe_medical.entity.prefab", 283937635U, true, true, false, false, false, false, false, false, "static", true, "MedicalTool", 10393, 5 },
+    { "metal_detector.entity", "Metal Detector", "Uncategorized", "assets/prefabs/tools/metaldetector/metal_detector.entity.prefab", 892200099U, true, true, false, false, false, false, false, false, "static", true, "BaseMetalDetector", 10398, 4 },
+    { "metal_detector_flag.entity", "metal detector flag entity", "Uncategorized", "assets/prefabs/tools/metaldetector/metal_detector_flag.entity.prefab", 1406086660U, true, true, false, false, false, false, false, false, "static", true, "MetalDetectorFlag", 10402, 5 },
+    { "metal_detector_flag_deepsea.entity", "metal detector flag deepsea entity", "Uncategorized", "assets/prefabs/tools/metaldetector/metal_detector_flag_deepsea.entity.prefab", 3282154567U, true, true, false, false, false, false, false, false, "static", true, "MetalDetectorMissionFlag", 10407, 6 },
+    { "metal_detector_source.entity", "metal detector source entity", "Uncategorized", "assets/prefabs/tools/metaldetector/metal_detector_source.entity.prefab", 1244235496U, true, true, false, false, false, false, false, false, "static", true, "MetalDetectorSource", 10413, 3 },
+    { "metal_detector_source_deepsea.entity", "metal detector source deepsea entity", "Uncategorized", "assets/prefabs/tools/metaldetector/metal_detector_source_deepsea.entity.prefab", 1791061997U, true, true, false, false, false, false, false, false, "static", true, "MetalDetectorSource", 10416, 3 },
+    { "metal_detector_source_deepsea_mission.entity", "metal detector source deepsea mission entity", "Uncategorized", "assets/prefabs/tools/metaldetector/metal_detector_source_deepsea_mission.entity.prefab", 819836910U, true, true, false, false, false, false, false, false, "static", true, "MetalDetectorMissionSource", 10419, 4 },
+    { "outbreak_sprayer.entity", "Outbreak Sprayer", "Uncategorized", "assets/prefabs/tools/outbreaksprayer/outbreak_sprayer.entity.prefab", 3864758412U, true, true, false, false, false, false, false, false, "static", true, "GeigerCounter", 10423, 5 },
+    { "pager.entity", "pager entity", "Uncategorized", "assets/prefabs/tools/pager/pager.entity.prefab", 2918467232U, true, true, false, false, false, false, false, false, "static", true, "PagerEntity", 10428, 3 },
+    { "pipetool.entity", "Pipe Tool", "Uncategorized", "assets/prefabs/tools/pipe/pipetool.entity.prefab", 3896504765U, true, true, false, false, false, false, false, false, "static", true, "WireTool", 10431, 4 },
+    { "boat_planner.entity", "Boat Building Plan", "Uncategorized", "assets/prefabs/tools/planner/boat_planner.entity.prefab", 2721033560U, true, true, false, false, false, false, false, false, "static", true, "Planner", 10435, 4 },
+    { "building_planner.entity", "Discord Trophy", "Uncategorized", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, true, true, false, false, false, false, false, false, "static", true, "Planner", 10439, 4 },
+    { "shovel.entity", "Shovel", "Uncategorized", "assets/prefabs/tools/shovel/shovel.entity.prefab", 3196650451U, true, true, false, false, false, false, false, false, "static", true, "Shovel", 10443, 6 },
+    { "grenade.smoke.deployed", "grenade smoke deployed", "Uncategorized", "assets/prefabs/tools/smoke grenade/grenade.smoke.deployed.prefab", 1464001967U, true, true, false, true, false, true, false, false, "dynamic", false, "SmokeGrenade", 10449, 4 },
+    { "smoke_grenade.weapon", "Smoke Grenade", "Uncategorized", "assets/prefabs/tools/smoke grenade/smoke_grenade.weapon.prefab", 3642747736U, true, true, false, false, false, false, false, false, "static", true, "GrenadeWeapon", 10453, 6 },
+    { "spraylinedecal", "spraylinedecal", "Uncategorized", "assets/prefabs/tools/spraycan/freehandspray/spraylinedecal.prefab", 2542129442U, true, true, false, false, false, false, false, false, "static", true, "SprayCanSpray_Freehand", 10459, 6 },
+    { "spraycan.weapon", "Spray Can", "Uncategorized", "assets/prefabs/tools/spraycan/spraycan.weapon.prefab", 4251031431U, true, true, false, false, false, false, false, false, "static", true, "SprayCan", 10465, 4 },
+    { "spray.decal", "spray decal", "Uncategorized", "assets/prefabs/tools/spraycan/sprays/spray.decal.prefab", 3884356627U, true, true, false, false, false, false, false, false, "static", true, "SprayCanSpray_Decal", 10469, 6 },
+    { "grenade.supplysignal.deployed", "grenade supplysignal deployed", "Uncategorized", "assets/prefabs/tools/supply signal/grenade.supplysignal.deployed.prefab", 3350651790U, true, true, false, true, false, true, false, false, "dynamic", false, "SupplySignal", 10475, 4 },
+    { "supplysignal.weapon", "Supply Signal", "Uncategorized", "assets/prefabs/tools/supply signal/supplysignal.weapon.prefab", 775476535U, true, true, false, false, false, false, false, false, "static", true, "GrenadeWeapon", 10479, 6 },
+    { "survey_charge.deployed", "survey charge deployed", "Uncategorized", "assets/prefabs/tools/surveycharge/survey_charge.deployed.prefab", 2141863453U, true, true, false, true, false, true, false, false, "dynamic", false, "SurveyCharge", 10485, 4 },
+    { "survey_charge", "Survey Charge", "Uncategorized", "assets/prefabs/tools/surveycharge/survey_charge.prefab", 2698594377U, true, true, false, false, false, false, false, false, "static", true, "ThrownWeapon", 10489, 5 },
+    { "survey_crater", "survey crater", "Uncategorized", "assets/prefabs/tools/surveycharge/survey_crater.prefab", 2955484243U, true, true, false, false, false, false, false, false, "static", true, "SurveyCrater", 10494, 4 },
+    { "survey_crater_oil", "survey crater oil", "Uncategorized", "assets/prefabs/tools/surveycharge/survey_crater_oil.prefab", 1917257452U, true, true, false, false, false, false, false, false, "static", true, "SurveyCrater", 10498, 4 },
+    { "wiretool.entity", "Wire Tool", "Uncategorized", "assets/prefabs/tools/wire/wiretool.entity.prefab", 4258987144U, true, true, false, false, false, false, false, false, "static", true, "WireTool", 10502, 4 },
+    { "arcadeuser", "arcadeuser", "Uncategorized", "assets/prefabs/vehicle/seats/arcadeuser.prefab", 1600307371U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10506, 6 },
+    { "attackhelidriver", "attackhelidriver", "Uncategorized", "assets/prefabs/vehicle/seats/attackhelidriver.prefab", 70742988U, true, true, false, false, false, false, false, false, "dynamic", false, "AttackHeliDriverSeat", 10512, 7 },
+    { "attackheligunner", "attackheligunner", "Uncategorized", "assets/prefabs/vehicle/seats/attackheligunner.prefab", 240871686U, true, true, false, false, false, false, false, false, "dynamic", false, "AttackHeliGunnerSeat", 10519, 7 },
+    { "bikedriverseat", "bikedriverseat", "Uncategorized", "assets/prefabs/vehicle/seats/bikedriverseat.prefab", 4261260455U, true, true, false, false, false, false, false, false, "dynamic", false, "BikeDriverSeat", 10526, 9 },
+    { "bikepassengerseat", "bikepassengerseat", "Uncategorized", "assets/prefabs/vehicle/seats/bikepassengerseat.prefab", 3025064202U, true, true, false, false, false, false, false, false, "dynamic", false, "BikeSeat", 10535, 8 },
+    { "copilotseat", "copilotseat", "Uncategorized", "assets/prefabs/vehicle/seats/copilotseat.prefab", 1070668182U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10543, 6 },
+    { "craneoperator", "craneoperator", "Uncategorized", "assets/prefabs/vehicle/seats/craneoperator.prefab", 1103757790U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10549, 6 },
+    { "driverseat", "driverseat", "Uncategorized", "assets/prefabs/vehicle/seats/driverseat.prefab", 4088163379U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10555, 6 },
+    { "gunnertest", "gunnertest", "Uncategorized", "assets/prefabs/vehicle/seats/gunnertest.prefab", 986236302U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseAimable", 10561, 6 },
+    { "horsesaddle", "horsesaddle", "Uncategorized", "assets/prefabs/vehicle/seats/horsesaddle.prefab", 262646847U, true, true, false, false, false, false, false, false, "dynamic", false, "HorseSaddle", 10567, 7 },
+    { "horsesaddlerear", "horsesaddlerear", "Uncategorized", "assets/prefabs/vehicle/seats/horsesaddlerear.prefab", 2508371933U, true, true, false, false, false, false, false, false, "dynamic", false, "HorseSaddle", 10574, 7 },
+    { "internalmounteddouble50calturretseat", "internalmounteddouble50calturretseat", "Uncategorized", "assets/prefabs/vehicle/seats/internalmounteddouble50calturretseat.prefab", 3811102955U, true, true, false, false, false, false, false, false, "dynamic", false, "MountedWeaponSeat", 10581, 7 },
+    { "internalmountedturretseat", "internalmountedturretseat", "Uncategorized", "assets/prefabs/vehicle/seats/internalmountedturretseat.prefab", 780491012U, true, true, false, false, false, false, false, false, "dynamic", false, "MountedWeaponSeat", 10588, 7 },
+    { "kayakseat", "kayakseat", "Uncategorized", "assets/prefabs/vehicle/seats/kayakseat.prefab", 2907322464U, true, true, false, false, false, false, false, false, "dynamic", false, "KayakSeat", 10595, 7 },
+    { "locomotivedriver", "locomotivedriver", "Uncategorized", "assets/prefabs/vehicle/seats/locomotivedriver.prefab", 3398691772U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10602, 6 },
+    { "minihelipassenger", "minihelipassenger", "Uncategorized", "assets/prefabs/vehicle/seats/minihelipassenger.prefab", 1231746772U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10608, 6 },
+    { "miniheliseat", "miniheliseat", "Uncategorized", "assets/prefabs/vehicle/seats/miniheliseat.prefab", 3742994540U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10614, 6 },
+    { "modularcardriverseat", "modularcardriverseat", "Uncategorized", "assets/prefabs/vehicle/seats/modularcardriverseat.prefab", 1924089654U, true, true, false, false, false, false, false, false, "dynamic", false, "ModularCarSeat", 10620, 8 },
+    { "modularcarpassengerseatleft", "modularcarpassengerseatleft", "Uncategorized", "assets/prefabs/vehicle/seats/modularcarpassengerseatleft.prefab", 894444950U, true, true, false, false, false, false, false, false, "dynamic", false, "ModularCarSeat", 10628, 8 },
+    { "modularcarpassengerseatlesslegroomleft", "modularcarpassengerseatlesslegroomleft", "Uncategorized", "assets/prefabs/vehicle/seats/modularcarpassengerseatlesslegroomleft.prefab", 2487473786U, true, true, false, false, false, false, false, false, "dynamic", false, "ModularCarSeat", 10636, 8 },
+    { "modularcarpassengerseatlesslegroomright", "modularcarpassengerseatlesslegroomright", "Uncategorized", "assets/prefabs/vehicle/seats/modularcarpassengerseatlesslegroomright.prefab", 1826159939U, true, true, false, false, false, false, false, false, "dynamic", false, "ModularCarSeat", 10644, 8 },
+    { "modularcarpassengerseatright", "modularcarpassengerseatright", "Uncategorized", "assets/prefabs/vehicle/seats/modularcarpassengerseatright.prefab", 205354363U, true, true, false, false, false, false, false, false, "dynamic", false, "ModularCarSeat", 10652, 8 },
+    { "modularcarpassengerseatsidewayleft", "modularcarpassengerseatsidewayleft", "Uncategorized", "assets/prefabs/vehicle/seats/modularcarpassengerseatsidewayleft.prefab", 4116606551U, true, true, false, false, false, false, false, false, "dynamic", false, "ModularCarSeat", 10660, 8 },
+    { "motorbikedriverseat", "motorbikedriverseat", "Uncategorized", "assets/prefabs/vehicle/seats/motorbikedriverseat.prefab", 1359197088U, true, true, false, false, false, false, false, false, "dynamic", false, "BikeDriverSeat", 10668, 9 },
+    { "motorbikepassengerseat", "motorbikepassengerseat", "Uncategorized", "assets/prefabs/vehicle/seats/motorbikepassengerseat.prefab", 1177038454U, true, true, false, false, false, false, false, false, "dynamic", false, "BikeSeat", 10677, 8 },
+    { "parachuteseat", "parachuteseat", "Uncategorized", "assets/prefabs/vehicle/seats/parachuteseat.prefab", 3398060938U, true, true, false, false, false, false, false, false, "dynamic", false, "ParachuteSeat", 10685, 8 },
+    { "passenger", "passenger", "Uncategorized", "assets/prefabs/vehicle/seats/passenger.prefab", 2304142695U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10693, 6 },
+    { "passengerchair", "passengerchair", "Uncategorized", "assets/prefabs/vehicle/seats/passengerchair.prefab", 1954020959U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10699, 6 },
+    { "pilotseat", "pilotseat", "Uncategorized", "assets/prefabs/vehicle/seats/pilotseat.prefab", 952100854U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10705, 6 },
+    { "ptboatdriver", "ptboatdriver", "Uncategorized", "assets/prefabs/vehicle/seats/ptboatdriver.prefab", 212381033U, true, true, false, false, false, false, false, false, "dynamic", false, "RHIBDriver", 10711, 7 },
+    { "ptboatpassenger", "ptboatpassenger", "Uncategorized", "assets/prefabs/vehicle/seats/ptboatpassenger.prefab", 108682576U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10718, 6 },
+    { "rhibdriver", "rhibdriver", "Uncategorized", "assets/prefabs/vehicle/seats/rhibdriver.prefab", 2257815105U, true, true, false, false, false, false, false, false, "dynamic", false, "RHIBDriver", 10724, 7 },
+    { "roundaboutchair", "roundaboutchair", "Uncategorized", "assets/prefabs/vehicle/seats/roundaboutchair.prefab", 2709229839U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10731, 6 },
+    { "sledseatfront", "sledseatfront", "Uncategorized", "assets/prefabs/vehicle/seats/sledseatfront.prefab", 1212881407U, true, true, false, false, false, false, false, false, "dynamic", false, "SledSeat", 10737, 7 },
+    { "sledseatrear", "sledseatrear", "Uncategorized", "assets/prefabs/vehicle/seats/sledseatrear.prefab", 518673090U, true, true, false, false, false, false, false, false, "dynamic", false, "SledSeat", 10744, 7 },
+    { "smallboatdriver", "smallboatdriver", "Uncategorized", "assets/prefabs/vehicle/seats/smallboatdriver.prefab", 1239975468U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10751, 6 },
+    { "smallboatpassenger", "smallboatpassenger", "Uncategorized", "assets/prefabs/vehicle/seats/smallboatpassenger.prefab", 3241157857U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10757, 6 },
+    { "snowmobiledriverseat", "snowmobiledriverseat", "Uncategorized", "assets/prefabs/vehicle/seats/snowmobiledriverseat.prefab", 836439399U, true, true, false, false, false, false, false, false, "dynamic", false, "MouseSteerableSeat", 10763, 7 },
+    { "snowmobilepassengerseat tomaha", "snowmobilepassengerseat tomaha", "Uncategorized", "assets/prefabs/vehicle/seats/snowmobilepassengerseat tomaha.prefab", 1103815396U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10770, 6 },
+    { "snowmobilepassengerseat", "snowmobilepassengerseat", "Uncategorized", "assets/prefabs/vehicle/seats/snowmobilepassengerseat.prefab", 2602628913U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10776, 6 },
+    { "standingdriver", "standingdriver", "Uncategorized", "assets/prefabs/vehicle/seats/standingdriver.prefab", 1392704482U, true, true, false, false, false, false, false, false, "dynamic", false, "SledSeat", 10782, 7 },
+    { "standingmounted50calturretseat", "standingmounted50calturretseat", "Uncategorized", "assets/prefabs/vehicle/seats/standingmounted50calturretseat.prefab", 342862053U, true, true, false, false, false, false, false, false, "dynamic", false, "MountedWeaponSeat", 10789, 7 },
+    { "standingmountedturretseat", "standingmountedturretseat", "Uncategorized", "assets/prefabs/vehicle/seats/standingmountedturretseat.prefab", 980028944U, true, true, false, false, false, false, false, false, "dynamic", false, "MountedWeaponSeat", 10796, 7 },
+    { "submarineduodriverseat", "submarineduodriverseat", "Uncategorized", "assets/prefabs/vehicle/seats/submarineduodriverseat.prefab", 309883022U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10803, 6 },
+    { "submarineduopassengerseat", "submarineduopassengerseat", "Uncategorized", "assets/prefabs/vehicle/seats/submarineduopassengerseat.prefab", 2802580699U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10809, 6 },
+    { "submarinesolodriverstanding", "submarinesolodriverstanding", "Uncategorized", "assets/prefabs/vehicle/seats/submarinesolodriverstanding.prefab", 1922108893U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10815, 6 },
+    { "swingseat", "swingseat", "Uncategorized", "assets/prefabs/vehicle/seats/swingseat.prefab", 1130710742U, true, true, false, false, false, false, false, false, "dynamic", false, "SwingSeat", 10821, 7 },
+    { "testseat", "testseat", "Uncategorized", "assets/prefabs/vehicle/seats/testseat.prefab", 3179168237U, true, true, false, false, false, false, false, false, "static", true, "BaseMountable", 10828, 4 },
+    { "transporthelicopilot", "transporthelicopilot", "Uncategorized", "assets/prefabs/vehicle/seats/transporthelicopilot.prefab", 1771416011U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10832, 6 },
+    { "transporthelipilot", "transporthelipilot", "Uncategorized", "assets/prefabs/vehicle/seats/transporthelipilot.prefab", 3180731352U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10838, 6 },
+    { "tugboatdriver", "tugboatdriver", "Uncategorized", "assets/prefabs/vehicle/seats/tugboatdriver.prefab", 1955582400U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10844, 6 },
+    { "twitchbusseat", "twitchbusseat", "Uncategorized", "assets/prefabs/vehicle/seats/twitchbusseat.prefab", 1948876508U, true, true, false, false, false, false, false, false, "dynamic", false, "SledSeat", 10850, 7 },
+    { "workcartdriver", "workcartdriver", "Uncategorized", "assets/prefabs/vehicle/seats/workcartdriver.prefab", 311277167U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseVehicleSeat", 10857, 6 },
+    { "sphere", "sphere", "Uncategorized", "assets/prefabs/visualization/sphere.prefab", 3211242734U, true, true, false, false, false, false, false, false, "static", true, "SphereEntity", 10863, 3 },
+    { "boombox.deployed", "boombox deployed", "Uncategorized", "assets/prefabs/voiceaudio/boombox/boombox.deployed.prefab", 244503553U, true, true, false, false, false, false, false, false, "static", true, "DeployableBoomBox", 10866, 7 },
+    { "boombox.deployed.static", "boombox deployed static", "Uncategorized", "assets/prefabs/voiceaudio/boombox/boombox.deployed.static.prefab", 1709505846U, true, true, false, false, false, false, false, false, "static", true, "DeployableBoomBox", 10873, 7 },
+    { "boombox.static", "boombox static", "Uncategorized", "assets/prefabs/voiceaudio/boombox/boombox.static.prefab", 1771910647U, true, true, false, false, false, false, false, false, "static", true, "DeployableBoomBox", 10880, 7 },
+    { "boomboxportable.weapon", "Portable Boom Box", "Uncategorized", "assets/prefabs/voiceaudio/boomboxportable/boomboxportable.weapon.prefab", 617635188U, true, true, false, false, false, false, false, false, "static", true, "HeldBoomBox", 10887, 4 },
+    { "cassette.entity", "cassette entity", "Uncategorized", "assets/prefabs/voiceaudio/cassette/cassette.entity.prefab", 3549123016U, true, true, false, false, false, false, false, false, "static", true, "Cassette", 10891, 3 },
+    { "cassette.medium.entity", "cassette medium entity", "Uncategorized", "assets/prefabs/voiceaudio/cassette/cassette.medium.entity.prefab", 1513498993U, true, true, false, false, false, false, false, false, "static", true, "Cassette", 10894, 3 },
+    { "cassette.short.entity", "cassette short entity", "Uncategorized", "assets/prefabs/voiceaudio/cassette/cassette.short.entity.prefab", 253547591U, true, true, false, false, false, false, false, false, "static", true, "Cassette", 10897, 3 },
+    { "cassetterecorder.deployed", "cassetterecorder deployed", "Uncategorized", "assets/prefabs/voiceaudio/cassetterecorder/cassetterecorder.deployed.prefab", 760079751U, true, true, false, true, false, true, false, false, "dynamic", false, "DeployedRecorder", 10900, 6 },
+    { "cassetterecorder.weapon", "Cassette Recorder", "Uncategorized", "assets/prefabs/voiceaudio/cassetterecorder/cassetterecorder.weapon.prefab", 705457609U, true, true, false, false, false, false, false, false, "static", true, "RecorderTool", 10906, 6 },
+    { "discoball.deployed", "discoball deployed", "Uncategorized", "assets/prefabs/voiceaudio/discoball/discoball.deployed.prefab", 2613307285U, true, true, false, false, false, false, false, false, "static", true, "IOEntity", 10912, 5 },
+    { "discofloor.deployed", "discofloor deployed", "Uncategorized", "assets/prefabs/voiceaudio/discofloor/discofloor.deployed.prefab", 3677777210U, true, true, false, false, false, false, false, false, "static", true, "DiscoFloor", 10917, 7 },
+    { "discofloor.largetiles.deployed", "discofloor largetiles deployed", "Uncategorized", "assets/prefabs/voiceaudio/discofloor/skins/discofloor.largetiles.deployed.prefab", 1416531191U, true, true, false, false, false, false, false, false, "static", true, "DiscoFloor", 10924, 7 },
+    { "connectedspeaker.deployed", "connectedspeaker deployed", "Uncategorized", "assets/prefabs/voiceaudio/hornspeaker/connectedspeaker.deployed.prefab", 350348582U, true, true, false, false, false, false, false, false, "static", true, "ConnectedSpeaker", 10931, 6 },
+    { "connectedspeaker.deployed.static", "connectedspeaker deployed static", "Uncategorized", "assets/prefabs/voiceaudio/hornspeaker/connectedspeaker.deployed.static.prefab", 3946294029U, true, true, false, false, false, false, false, false, "static", true, "ConnectedSpeaker", 10937, 6 },
+    { "laserlight.deployed", "laserlight deployed", "Uncategorized", "assets/prefabs/voiceaudio/laserlight/laserlight.deployed.prefab", 4083964466U, true, true, false, false, false, false, false, false, "static", true, "LaserLight", 10943, 7 },
+    { "megaphone.weapon", "Megaphone", "Uncategorized", "assets/prefabs/voiceaudio/megaphone/megaphone.weapon.prefab", 3942416854U, true, true, false, false, false, false, false, false, "static", true, "Megaphone", 10950, 4 },
+    { "microphonestand.deployed", "microphonestand deployed", "Uncategorized", "assets/prefabs/voiceaudio/microphonestand/microphonestand.deployed.prefab", 3061223907U, true, true, false, false, false, false, false, false, "static", true, "MicrophoneStand", 10954, 5 },
+    { "microphonestand.deployed.static", "microphonestand deployed static", "Uncategorized", "assets/prefabs/voiceaudio/microphonestand/microphonestand.deployed.static.prefab", 113644298U, true, true, false, false, false, false, false, false, "static", true, "MicrophoneStand", 10959, 5 },
+    { "microphonestandio.entity", "microphonestandio entity", "Uncategorized", "assets/prefabs/voiceaudio/microphonestand/microphonestandio.entity.prefab", 1240315717U, true, true, false, false, false, false, false, false, "static", true, "MicrophoneStandIOEntity", 10964, 6 },
+    { "microphonestandio.entity.static", "microphonestandio entity static", "Uncategorized", "assets/prefabs/voiceaudio/microphonestand/microphonestandio.entity.static.prefab", 1226049576U, true, true, false, false, false, false, false, false, "static", true, "MicrophoneStandIOEntity", 10970, 6 },
+    { "mobileinventory.entity", "mobileinventory entity", "Uncategorized", "assets/prefabs/voiceaudio/mobilephone/mobileinventory.entity.prefab", 3945729556U, true, true, false, false, false, false, false, false, "static", true, "MobileInventoryEntity", 10976, 3 },
+    { "mobilephone.weapon", "Mobile Phone", "Uncategorized", "assets/prefabs/voiceaudio/mobilephone/mobilephone.weapon.prefab", 2342841515U, true, true, false, false, false, false, false, false, "static", true, "MobilePhone", 10979, 4 },
+    { "soundlight.deployed", "soundlight deployed", "Uncategorized", "assets/prefabs/voiceaudio/soundlight/soundlight.deployed.prefab", 58106244U, true, true, false, false, false, false, false, false, "static", true, "AudioVisualisationEntityLight", 10983, 7 },
+    { "telephone.deployed", "telephone deployed", "Uncategorized", "assets/prefabs/voiceaudio/telephone/telephone.deployed.prefab", 2160363615U, true, true, false, false, false, false, false, false, "static", true, "Telephone", 10990, 7 },
+    { "ceilingpaper.entity_iconrender", "ceilingpaper entity iconrender", "Uncategorized", "assets/prefabs/wallpaper/ceilingpaper.entity_iconrender.prefab", 2416512278U, true, true, false, false, false, false, false, false, "static", true, "WallpaperPlanner", 10997, 5 },
+    { "wallpaper.doorway.construction", "wallpaper doorway construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.doorway.construction.prefab", 1151746608U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 11002, 6 },
+    { "wallpaper.floor.construction", "wallpaper floor construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.floor.construction.prefab", 2910744970U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 11008, 6 },
+    { "wallpaper.floor.triangle.construction", "wallpaper floor triangle construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.floor.triangle.construction.prefab", 2061122277U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 11014, 6 },
+    { "wallpaper.foundation.construction", "wallpaper foundation construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.foundation.construction.prefab", 921716393U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 11020, 6 },
+    { "wallpaper.foundation.triangle.construction", "wallpaper foundation triangle construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.foundation.triangle.construction.prefab", 2418284139U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 11026, 6 },
+    { "wallpaper.roof.construction", "wallpaper roof construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.roof.construction.prefab", 3884404330U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 11032, 6 },
+    { "wallpaper.roof.triangle.construction", "wallpaper roof triangle construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.roof.triangle.construction.prefab", 3383920777U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 11038, 6 },
+    { "wallpaper.wall.construction", "wallpaper wall construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.wall.construction.prefab", 2402782496U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 11044, 6 },
+    { "wallpaper.wall.half.construction", "wallpaper wall half construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.wall.half.construction.prefab", 2617353051U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 11050, 6 },
+    { "wallpaper.wall.low.construction", "wallpaper wall low construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.wall.low.construction.prefab", 3024970135U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 11056, 6 },
+    { "wallpaper.window.construction", "wallpaper window construction", "Uncategorized", "assets/prefabs/wallpaper/constructions/wallpaper.window.construction.prefab", 2434851882U, true, true, false, false, false, false, false, false, "static", true, "SimpleBuildingBlock", 11062, 6 },
+    { "floorpaper.entity_iconrender", "floorpaper entity iconrender", "Uncategorized", "assets/prefabs/wallpaper/floorpaper.entity_iconrender.prefab", 1379706361U, true, true, false, false, false, false, false, false, "static", true, "WallpaperPlanner", 11068, 5 },
+    { "wallpaper.entity_iconrender", "wallpaper entity iconrender", "Uncategorized", "assets/prefabs/wallpaper/wallpaper.entity_iconrender.prefab", 3945642922U, true, true, false, false, false, false, false, false, "static", true, "WallpaperPlanner", 11073, 5 },
+    { "wallpaper.tool.entity", "Wallpaper Tool", "Uncategorized", "assets/prefabs/wallpaper/wallpaper.tool.entity.prefab", 2811911262U, true, true, false, false, false, false, false, false, "static", true, "WallpaperPlanner", 11078, 5 },
+    { "8xscope.entity", "Variable Zoom Scope", "Uncategorized", "assets/prefabs/weapon mods/8x scope/8xscope.entity.prefab", 4005260636U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11083, 3 },
+    { "8xscope.vm.attachment", "8xscope vm attachment", "Uncategorized", "assets/prefabs/weapon mods/8x scope/8xscope.vm.attachment.prefab", 545873399U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11086, 3 },
+    { "burstmodule.entity", "Burst Module", "Uncategorized", "assets/prefabs/weapon mods/burstmodule/burstmodule.entity.prefab", 1243102785U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11089, 3 },
+    { "extendedmags.entity", "Extended Magazine", "Uncategorized", "assets/prefabs/weapon mods/extendedmags/extendedmags.entity.prefab", 330399465U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11092, 3 },
+    { "flashlight.entity", "Weapon flashlight", "Uncategorized", "assets/prefabs/weapon mods/flashlight/flashlight.entity.prefab", 3357772531U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11095, 3 },
+    { "flashlight.vm.attachment", "flashlight vm attachment", "Uncategorized", "assets/prefabs/weapon mods/flashlight/flashlight.vm.attachment.prefab", 1529000711U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11098, 3 },
+    { "gascompressionoverdrive.entity", "Gas Compression Overdrive", "Uncategorized", "assets/prefabs/weapon mods/gascompressionoverdrive/gascompressionoverdrive.entity.prefab", 869056374U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11101, 3 },
+    { "holosight.entity", "Holosight", "Uncategorized", "assets/prefabs/weapon mods/holosight/holosight.entity.prefab", 1518608834U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11104, 3 },
+    { "holosight.vm.attachment", "holosight vm attachment", "Uncategorized", "assets/prefabs/weapon mods/holosight/holosight.vm.attachment.prefab", 1968563077U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11107, 3 },
+    { "lasersight.entity", "Weapon Lasersight", "Uncategorized", "assets/prefabs/weapon mods/lasersight/lasersight.entity.prefab", 768584306U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11110, 3 },
+    { "lasersight.vm.attachment", "lasersight vm attachment", "Uncategorized", "assets/prefabs/weapon mods/lasersight/lasersight.vm.attachment.prefab", 3175048729U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11113, 3 },
+    { "muzzleboost.entity", "Muzzle Boost", "Uncategorized", "assets/prefabs/weapon mods/muzzleboost/muzzleboost.entity.prefab", 4161515557U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11116, 3 },
+    { "muzzlebrake.entity", "Muzzle Brake", "Uncategorized", "assets/prefabs/weapon mods/muzzlebrake/muzzlebrake.entity.prefab", 3158761202U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11119, 3 },
+    { "simplesight.entity", "Simple Handmade Sight", "Uncategorized", "assets/prefabs/weapon mods/reddotsight/simplesight.entity.prefab", 320811722U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11122, 3 },
+    { "simplesight.vm.attachment", "simplesight vm attachment", "Uncategorized", "assets/prefabs/weapon mods/reddotsight/simplesight.vm.attachment.prefab", 1623429255U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11125, 3 },
+    { "oilfiltersilencer.entity", "Oil Filter Silencer", "Uncategorized", "assets/prefabs/weapon mods/silencers/oilfiltersilencer.entity.prefab", 516933957U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11128, 3 },
+    { "silencer.entity", "Military Silencer", "Uncategorized", "assets/prefabs/weapon mods/silencers/silencer.entity.prefab", 2395313048U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11131, 3 },
+    { "sodacansilencer.entity", "Soda Can Silencer", "Uncategorized", "assets/prefabs/weapon mods/silencers/sodacansilencer.entity.prefab", 688872962U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11134, 3 },
+    { "smallscope.entity", "8x Zoom Scope", "Uncategorized", "assets/prefabs/weapon mods/smallscope/smallscope.entity.prefab", 2957289628U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11137, 3 },
+    { "smallscope.vm.attachment", "smallscope vm attachment", "Uncategorized", "assets/prefabs/weapon mods/smallscope/smallscope.vm.attachment.prefab", 3672170763U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11140, 3 },
+    { "targetingattachment.entity", "Targeting Attachment", "Uncategorized", "assets/prefabs/weapon mods/targetingattachment/targetingattachment.entity.prefab", 40635747U, true, true, false, false, false, false, false, false, "dynamic", false, "ProjectileWeaponMod", 11143, 3 },
+    { "ak47u.entity", "Assault Rifle", "Uncategorized", "assets/prefabs/weapons/ak47u/ak47u.entity.prefab", 1978739833U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11146, 5 },
+    { "ak47u_diver.entity", "Abyss Assault Rifle", "Uncategorized", "assets/prefabs/weapons/ak47u/diver/ak47u_diver.entity.prefab", 4096772971U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11151, 5 },
+    { "ak47u.glass.blue.entity", "Crystal Assault Rifle Sapphire", "Uncategorized", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.blue.entity.prefab", 2408471514U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11156, 5 },
+    { "ak47u.glass.entity", "Crystal Assault Rifle Diamond", "Uncategorized", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.entity.prefab", 3842925800U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11161, 5 },
+    { "ak47u.glass.green.entity", "Crystal Assault Rifle Emerald", "Uncategorized", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.green.entity.prefab", 1246348333U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11166, 5 },
+    { "ak47u.glass.pink.entity", "Crystal Assault Rifle Pink Diamond", "Uncategorized", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.pink.entity.prefab", 2779585845U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11171, 5 },
+    { "ak47u.glass.red.entity", "Crystal Assault Rifle Ruby", "Uncategorized", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.red.entity.prefab", 3312136396U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11176, 5 },
+    { "ak47u_ice.entity", "Ice Assault Rifle", "Uncategorized", "assets/prefabs/weapons/ak47u/iceskin/ak47u_ice.entity.prefab", 1942738569U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11181, 5 },
+    { "ak47u_jungle.entity", "Jungle Relic Assault Rifle", "Uncategorized", "assets/prefabs/weapons/ak47u/jungle skin/ak47u_jungle.entity.prefab", 1934468549U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11186, 5 },
+    { "ak47u_med.entity", "Medieval Assault Rifle", "Uncategorized", "assets/prefabs/weapons/ak47u/medieval skin/ak47u_med.entity.prefab", 3192146626U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11191, 5 },
+    { "bandage.entity", "Bandage", "Uncategorized", "assets/prefabs/weapons/bandage/bandage.entity.prefab", 1383987667U, true, true, false, false, false, false, false, false, "static", true, "MedicalTool", 11196, 5 },
+    { "grenade.beancan.deployed", "grenade beancan deployed", "Uncategorized", "assets/prefabs/weapons/beancan grenade/grenade.beancan.deployed.prefab", 2144399804U, true, true, false, true, false, true, false, false, "dynamic", false, "DudTimedExplosive", 11201, 4 },
+    { "grenade.beancan.entity", "Beancan Grenade", "Uncategorized", "assets/prefabs/weapons/beancan grenade/grenade.beancan.entity.prefab", 3654150932U, true, true, false, false, false, false, false, false, "static", true, "GrenadeWeapon", 11205, 6 },
+    { "grenade.bee.deployed", "grenade bee deployed", "Uncategorized", "assets/prefabs/weapons/bee grenade/grenade.bee.deployed.prefab", 4036845226U, true, true, false, true, false, true, false, false, "dynamic", false, "BeeGrenade", 11211, 4 },
+    { "grenade.bee.entity", "Bee Grenade", "Uncategorized", "assets/prefabs/weapons/bee grenade/grenade.bee.entity.prefab", 3444797639U, true, true, false, false, false, false, false, false, "static", true, "GrenadeWeapon", 11215, 6 },
+    { "blowpipe.entity", "Blow Pipe", "Uncategorized", "assets/prefabs/weapons/blowpipe/blowpipe.entity.prefab", 996318821U, true, true, false, false, false, false, false, false, "dynamic", false, "BlowPipeWeapon", 11221, 6 },
+    { "blunderbuss.entity", "Blunderbuss", "Uncategorized", "assets/prefabs/weapons/blunderbuss/blunderbuss.entity.prefab", 2557812813U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11227, 5 },
+    { "bolt_rifle.entity", "Bolt Action Rifle", "Uncategorized", "assets/prefabs/weapons/bolt rifle/bolt_rifle.entity.prefab", 1665481300U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11232, 5 },
+    { "bone_club.entity", "Bone Club", "Uncategorized", "assets/prefabs/weapons/bone club/bone_club.entity.prefab", 3097934597U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11237, 5 },
+    { "knife_bone.entity", "Bone Knife", "Uncategorized", "assets/prefabs/weapons/bone knife/knife_bone.entity.prefab", 1483241467U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11242, 5 },
+    { "bone.knife.obsidian.entity", "Obsidian Bone Knife", "Uncategorized", "assets/prefabs/weapons/bone knife/skins/obsidian knife/bone.knife.obsidian.entity.prefab", 1443663060U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11247, 5 },
+    { "boomerang.entity", "Boomerang", "Uncategorized", "assets/prefabs/weapons/boomerang/boomerang.entity.prefab", 1402819630U, true, true, false, false, false, false, false, false, "static", true, "Boomerang", 11252, 6 },
+    { "boomerang.thrown.entity", "boomerang thrown entity", "Uncategorized", "assets/prefabs/weapons/boomerang/boomerang.thrown.entity.prefab", 3604660177U, true, true, false, false, false, false, false, false, "static", true, "ThrownBoomerang", 11258, 3 },
+    { "bow_hunting.entity", "Hunting Bow", "Uncategorized", "assets/prefabs/weapons/bow/bow_hunting.entity.prefab", 2836331625U, true, true, false, false, false, false, false, false, "dynamic", false, "BowWeapon", 11261, 7 },
+    { "cake.entity", "Birthday Cake", "Uncategorized", "assets/prefabs/weapons/cake/cake.entity.prefab", 1980046596U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11268, 5 },
+    { "chainsaw.entity", "Chainsaw", "Uncategorized", "assets/prefabs/weapons/chainsaw/chainsaw.entity.prefab", 1802634117U, true, true, false, false, false, false, false, false, "static", true, "Chainsaw", 11273, 6 },
+    { "salvaged_cleaver.entity", "Salvaged Cleaver", "Uncategorized", "assets/prefabs/weapons/cleaver big/salvaged_cleaver.entity.prefab", 3340056040U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11279, 5 },
+    { "cny_spear.entity", "Lunar New Year Spear", "Uncategorized", "assets/prefabs/weapons/cnyspear/cny_spear.entity.prefab", 3814317397U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11284, 5 },
+    { "compound_bow.entity", "Compound Bow", "Uncategorized", "assets/prefabs/weapons/compound bow/compound_bow.entity.prefab", 1537401592U, true, true, false, false, false, false, false, false, "dynamic", false, "CompoundBowWeapon", 11289, 8 },
+    { "crossbow.entity", "Crossbow", "Uncategorized", "assets/prefabs/weapons/crossbow/crossbow.entity.prefab", 2727391082U, true, true, false, false, false, false, false, false, "dynamic", false, "CrossbowWeapon", 11297, 7 },
+    { "crossbow_bowless.entity", "Bowless Crossbow", "Uncategorized", "assets/prefabs/weapons/crossbow/skins/bowless/crossbow_bowless.entity.prefab", 777174364U, true, true, false, false, false, false, false, false, "dynamic", false, "CrossbowWeapon", 11304, 7 },
+    { "explosivesiegedeployable", "explosivesiegedeployable", "Uncategorized", "assets/prefabs/weapons/deployablesiegeexplosives/explosivesiegedeployable.prefab", 2730518698U, true, true, false, false, false, false, false, false, "static", true, "DeployableSiegeExplosive", 11311, 4 },
+    { "flammablesiegedeployable", "flammablesiegedeployable", "Uncategorized", "assets/prefabs/weapons/deployablesiegeexplosives/flammablesiegedeployable.prefab", 3599700023U, true, true, false, false, false, false, false, false, "static", true, "DeployableSiegeExplosive", 11315, 4 },
+    { "diver_hatchet.entity", "Abyss Metal Hatchet", "Uncategorized", "assets/prefabs/weapons/diverhatchet/diver_hatchet.entity.prefab", 1396987940U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11319, 5 },
+    { "diver_pickaxe.entity", "Abyss Metal Pickaxe", "Uncategorized", "assets/prefabs/weapons/diverpickaxe/diver_pickaxe.entity.prefab", 190635670U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11324, 5 },
+    { "diver_torch.entity", "Abyss Torch", "Uncategorized", "assets/prefabs/weapons/divertorch/diver_torch.entity.prefab", 1029607191U, true, true, false, false, false, false, false, false, "static", true, "TorchWeapon", 11329, 7 },
+    { "double_shotgun.entity", "Double Barrel Shotgun", "Uncategorized", "assets/prefabs/weapons/doubleshotgun/double_shotgun.entity.prefab", 3474489095U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11336, 5 },
+    { "pistol_eoka.entity", "Eoka Pistol", "Uncategorized", "assets/prefabs/weapons/eoka pistol/pistol_eoka.entity.prefab", 2176761593U, true, true, false, false, false, false, false, false, "dynamic", false, "FlintStrikeWeapon", 11341, 6 },
+    { "grenade.f1.deployed", "grenade f1 deployed", "Uncategorized", "assets/prefabs/weapons/f1 grenade/grenade.f1.deployed.prefab", 1128089209U, true, true, false, true, false, true, false, false, "dynamic", false, "TimedExplosive", 11347, 3 },
+    { "grenade.f1.entity", "F1 Grenade", "Uncategorized", "assets/prefabs/weapons/f1 grenade/grenade.f1.entity.prefab", 45697420U, true, true, false, false, false, false, false, false, "static", true, "GrenadeWeapon", 11350, 6 },
+    { "flamethrower.entity", "Flame Thrower", "Uncategorized", "assets/prefabs/weapons/flamethrower/flamethrower.entity.prefab", 3717106868U, true, true, false, false, false, false, false, false, "static", true, "FlameThrower", 11356, 5 },
+    { "flamethrower_fireball", "flamethrower fireball", "Uncategorized", "assets/prefabs/weapons/flamethrower/flamethrower_fireball.prefab", 844008300U, true, true, false, true, false, true, false, false, "dynamic", false, "FireBall", 11361, 3 },
+    { "grenade.flashbang.deployed", "grenade flashbang deployed", "Uncategorized", "assets/prefabs/weapons/flashbang/grenade.flashbang.deployed.prefab", 1436152685U, true, true, false, true, false, true, false, false, "dynamic", false, "Flashbang", 11364, 4 },
+    { "grenade.flashbang.entity", "Flashbang", "Uncategorized", "assets/prefabs/weapons/flashbang/grenade.flashbang.entity.prefab", 758326244U, true, true, false, false, false, false, false, false, "static", true, "GrenadeWeapon", 11368, 6 },
+    { "frontier_hatchet.entity", "Frontier Hatchet", "Uncategorized", "assets/prefabs/weapons/frontier hatchet/frontier_hatchet.entity.prefab", 3662083119U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11374, 5 },
+    { "glock.entity", "Prototype 17", "Uncategorized", "assets/prefabs/weapons/glockskin/glock.entity.prefab", 636374895U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11379, 5 },
+    { "mgl.entity", "Multiple Grenade Launcher", "Uncategorized", "assets/prefabs/weapons/grenade launcher/mgl.entity.prefab", 1233562048U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseLauncher", 11384, 6 },
+    { "hacksaw.weapon", "hacksaw weapon", "Uncategorized", "assets/prefabs/weapons/hacksaw/hacksaw.weapon.prefab", 2487927393U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11390, 5 },
+    { "mace.baseballbat", "Baseball Bat", "Uncategorized", "assets/prefabs/weapons/halloween/baseballbat/mace.baseballbat.prefab", 1769459881U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11395, 5 },
+    { "butcherknife.entity", "Butcher Knife", "Uncategorized", "assets/prefabs/weapons/halloween/butcher knife/butcherknife.entity.prefab", 1362182970U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11400, 5 },
+    { "pitchfork.entity", "Pitchfork", "Uncategorized", "assets/prefabs/weapons/halloween/pitchfork/pitchfork.entity.prefab", 1009417331U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11405, 5 },
+    { "sickle.entity", "Sickle", "Uncategorized", "assets/prefabs/weapons/halloween/sickle/sickle.entity.prefab", 124547093U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11410, 5 },
+    { "skulltorch.entity", "Cultist Deer Torch", "Uncategorized", "assets/prefabs/weapons/halloween/skull torch/skulltorch.entity.prefab", 3258690150U, true, true, false, false, false, false, false, false, "static", true, "TorchWeapon", 11415, 7 },
+    { "skull.entity", "Skull", "Uncategorized", "assets/prefabs/weapons/halloween/skull_halloween/skull.entity.prefab", 1140399555U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11422, 5 },
+    { "vampirestake.entity", "Vampire Stake", "Uncategorized", "assets/prefabs/weapons/halloween/vampirestake/vampirestake.entity.prefab", 2186616991U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11427, 5 },
+    { "hammer.entity", "Hammer", "Uncategorized", "assets/prefabs/weapons/hammer/hammer.entity.prefab", 388861612U, true, true, false, false, false, false, false, false, "static", true, "Hammer", 11432, 6 },
+    { "hatchet.entity", "Hatchet", "Uncategorized", "assets/prefabs/weapons/hatchet/hatchet.entity.prefab", 365233245U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11438, 5 },
+    { "hc_revolver.entity", "High Caliber Revolver", "Uncategorized", "assets/prefabs/weapons/high caliber revolver/hc_revolver.entity.prefab", 2154182718U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11443, 5 },
+    { "hmlmg.entity", "HMLMG", "Uncategorized", "assets/prefabs/weapons/hmlmg/hmlmg.entity.prefab", 3459133190U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11448, 5 },
+    { "homing_missile_launcher.entity", "Homing Missile Launcher", "Uncategorized", "assets/prefabs/weapons/homingmissilelauncher/homing_missile_launcher.entity.prefab", 542600037U, true, true, false, false, false, false, false, false, "dynamic", false, "LockOnLauncher", 11453, 7 },
+    { "seekertest", "seekertest", "Uncategorized", "assets/prefabs/weapons/homingmissilelauncher/seekertestentity/seekertest.prefab", 678281183U, true, true, false, false, false, false, false, false, "static", true, "SeekerTest", 11460, 3 },
+    { "improvisedshield.entity", "Improvised Shield", "Uncategorized", "assets/prefabs/weapons/improvised_shield/improvisedshield.entity.prefab", 3088514867U, true, true, false, false, false, false, false, false, "static", true, "Shield", 11463, 4 },
+    { "knife.combat.entity", "Combat Knife", "Uncategorized", "assets/prefabs/weapons/knife/knife.combat.entity.prefab", 327944951U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11467, 5 },
+    { "sunken.knife.combat.entity", "Sunken Combat Knife", "Uncategorized", "assets/prefabs/weapons/knife/skins/sunkenknife/sunken.knife.combat.entity.prefab", 2957160983U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11472, 5 },
+    { "l96.entity", "L96 Rifle", "Uncategorized", "assets/prefabs/weapons/l96/l96.entity.prefab", 2620171289U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11477, 5 },
+    { "legacybow.entity", "Legacy Bow", "Uncategorized", "assets/prefabs/weapons/legacy bow/legacybow.entity.prefab", 1400027705U, true, true, false, false, false, false, false, false, "dynamic", false, "BowWeapon", 11482, 7 },
+    { "lr300.entity", "LR-300 Assault Rifle", "Uncategorized", "assets/prefabs/weapons/lr300/lr300.entity.prefab", 844375121U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11489, 5 },
+    { "lr300_space.entity", "Space LR-300 Assault Rifle", "Uncategorized", "assets/prefabs/weapons/lr300/skins/space/lr300_space.entity.prefab", 1407888186U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11494, 5 },
+    { "m16a2.entity", "M16A2", "Uncategorized", "assets/prefabs/weapons/m16a2/m16a2.entity.prefab", 4258809631U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11499, 5 },
+    { "m249.entity", "M249", "Uncategorized", "assets/prefabs/weapons/m249/m249.entity.prefab", 1440914039U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11504, 5 },
+    { "m39.entity", "M39 Rifle", "Uncategorized", "assets/prefabs/weapons/m39 emr/m39.entity.prefab", 1517089664U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11509, 5 },
+    { "m4_shotgun.entity", "M4 Shotgun", "Uncategorized", "assets/prefabs/weapons/m4 shotgun/m4_shotgun.entity.prefab", 2416998201U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11514, 5 },
+    { "m92.entity", "M92 Pistol", "Uncategorized", "assets/prefabs/weapons/m92/m92.entity.prefab", 2293870814U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11519, 5 },
+    { "mace.entity", "Mace", "Uncategorized", "assets/prefabs/weapons/mace/mace.entity.prefab", 2927698044U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11524, 5 },
+    { "machete.weapon", "Machete", "Uncategorized", "assets/prefabs/weapons/machete/machete.weapon.prefab", 2942508801U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11529, 5 },
+    { "honeybandage.entity", "Medical Honey Bandage", "Uncategorized", "assets/prefabs/weapons/medicalhoneybandage/honeybandage.entity.prefab", 89391648U, true, true, false, false, false, false, false, false, "static", true, "MedicalTool", 11534, 5 },
+    { "metalshield.entity", "Metal Shield", "Uncategorized", "assets/prefabs/weapons/metal_shield/metalshield.entity.prefab", 3703020820U, true, true, false, false, false, false, false, false, "static", true, "Shield", 11539, 4 },
+    { "militaryflamethrower.entity", "Military Flame Thrower", "Uncategorized", "assets/prefabs/weapons/military flamethrower/militaryflamethrower.entity.prefab", 1710208928U, true, true, false, false, false, false, false, false, "static", true, "FlameThrower", 11543, 5 },
+    { "mini_crossbow.entity", "Mini Crossbow", "Uncategorized", "assets/prefabs/weapons/mini crossbow/mini_crossbow.entity.prefab", 4274044420U, true, true, false, false, false, false, false, false, "dynamic", false, "MiniCrossbow", 11548, 6 },
+    { "minigun.entity", "Minigun", "Uncategorized", "assets/prefabs/weapons/minigun/minigun.entity.prefab", 4007138847U, true, true, false, false, false, false, false, false, "dynamic", false, "SpinUpWeapon", 11554, 6 },
+    { "grenade.molotov.deployed", "grenade molotov deployed", "Uncategorized", "assets/prefabs/weapons/molotov cocktail/grenade.molotov.deployed.prefab", 2144253630U, true, true, false, true, false, true, false, false, "dynamic", false, "FlameExplosive", 11560, 4 },
+    { "grenade.molotov.entity", "Molotov Cocktail", "Uncategorized", "assets/prefabs/weapons/molotov cocktail/grenade.molotov.entity.prefab", 4104126979U, true, true, false, false, false, false, false, false, "static", true, "MolotovCocktail", 11564, 7 },
+    { "mp5.entity", "MP5A4", "Uncategorized", "assets/prefabs/weapons/mp5/mp5.entity.prefab", 2545523575U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11571, 5 },
+    { "nailgun.entity", "Nailgun", "Uncategorized", "assets/prefabs/weapons/nailgun/nailgun.entity.prefab", 4279856314U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11576, 5 },
+    { "paddle.entity", "Paddle", "Uncategorized", "assets/prefabs/weapons/paddle/paddle.entity.prefab", 1850172004U, true, true, false, false, false, false, false, false, "static", true, "Paddle", 11581, 6 },
+    { "paintballgun.entity", "Paintball Gun", "Uncategorized", "assets/prefabs/weapons/paintball_gun/paintballgun.entity.prefab", 3749252572U, true, true, false, false, false, false, false, false, "dynamic", false, "PaintballGun", 11587, 6 },
+    { "pickaxe.entity", "Pickaxe", "Uncategorized", "assets/prefabs/weapons/pickaxe/pickaxe.entity.prefab", 1587077350U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11593, 5 },
+    { "shotgun_waterpipe.entity", "Waterpipe Shotgun", "Uncategorized", "assets/prefabs/weapons/pipe shotgun/shotgun_waterpipe.entity.prefab", 2696589892U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11598, 5 },
+    { "python.entity", "Python Revolver", "Uncategorized", "assets/prefabs/weapons/python/python.entity.prefab", 3305012504U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11603, 5 },
+    { "reinforcedwoodshield.entity", "Reinforced Wooden Shield", "Uncategorized", "assets/prefabs/weapons/reinforcedwoodshield/reinforcedwoodshield.entity.prefab", 2274489607U, true, true, false, false, false, false, false, false, "static", true, "Shield", 11608, 4 },
+    { "pistol_revolver.entity", "Revolver", "Uncategorized", "assets/prefabs/weapons/revolver/pistol_revolver.entity.prefab", 2477536592U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11612, 5 },
+    { "rock.entity", "Rock", "Uncategorized", "assets/prefabs/weapons/rock/rock.entity.prefab", 3940068399U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11617, 5 },
+    { "rock.a.jungle.entity", "Jungle Rock", "Uncategorized", "assets/prefabs/weapons/rock/skins/rock_a_jungle/rock.a.jungle.entity.prefab", 1746720686U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11622, 5 },
+    { "rocket_launcher.entity", "Rocket Launcher", "Uncategorized", "assets/prefabs/weapons/rocketlauncher/rocket_launcher.entity.prefab", 601440135U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseLauncher", 11627, 6 },
+    { "rocket_launcher_dragon.entity", "Dragon Rocket Launcher", "Uncategorized", "assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/rocket_launcher_dragon.entity.prefab", 3704640358U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseLauncher", 11633, 6 },
+    { "rpg7.entity", "RPG Launcher", "Uncategorized", "assets/prefabs/weapons/rocketlauncher/skins/rpg7/rpg7.entity.prefab", 3445264346U, true, true, false, false, false, false, false, false, "dynamic", false, "RPGLauncher", 11639, 7 },
+    { "axe_salvaged.entity", "Salvaged Axe", "Uncategorized", "assets/prefabs/weapons/salvaged_axe/axe_salvaged.entity.prefab", 3826414185U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11646, 5 },
+    { "hammer_salvaged.entity", "Salvaged Hammer", "Uncategorized", "assets/prefabs/weapons/salvaged_hammer/hammer_salvaged.entity.prefab", 1744180387U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11651, 5 },
+    { "icepick_salvaged.entity", "Salvaged Icepick", "Uncategorized", "assets/prefabs/weapons/salvaged_icepick/icepick_salvaged.entity.prefab", 109244214U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11656, 5 },
+    { "explosive.satchel.deployed", "explosive satchel deployed", "Uncategorized", "assets/prefabs/weapons/satchelcharge/explosive.satchel.deployed.prefab", 2742759844U, true, true, false, true, false, true, false, false, "dynamic", false, "DudTimedExplosive", 11661, 4 },
+    { "explosive.satchel.entity", "Satchel Charge", "Uncategorized", "assets/prefabs/weapons/satchelcharge/explosive.satchel.entity.prefab", 2671523489U, true, true, false, false, false, false, false, false, "static", true, "ThrownWeapon", 11665, 5 },
+    { "shotgun_pump.entity", "Pump Shotgun", "Uncategorized", "assets/prefabs/weapons/sawnoff_shotgun/shotgun_pump.entity.prefab", 554582418U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11670, 5 },
+    { "pistol_semiauto.entity", "Semi-Automatic Pistol", "Uncategorized", "assets/prefabs/weapons/semi auto pistol/pistol_semiauto.entity.prefab", 563371667U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11675, 5 },
+    { "pistol_semiauto.a.m15.entity", "M15 Semi-Automatic Pistol", "Uncategorized", "assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/pistol_semiauto.a.m15.entity.prefab", 2343718176U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11680, 5 },
+    { "semi_auto_rifle.entity", "Semi-Automatic Rifle", "Uncategorized", "assets/prefabs/weapons/semi auto rifle/semi_auto_rifle.entity.prefab", 4231282088U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11685, 5 },
+    { "sks.entity", "SKS", "Uncategorized", "assets/prefabs/weapons/sks/sks.entity.prefab", 4228529517U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11690, 5 },
+    { "smg.entity", "Custom SMG", "Uncategorized", "assets/prefabs/weapons/smg/smg.entity.prefab", 3759841439U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11695, 5 },
+    { "spas12.entity", "Spas-12 Shotgun", "Uncategorized", "assets/prefabs/weapons/spas12/spas12.entity.prefab", 1877401463U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11700, 5 },
+    { "speargun.entity", "Speargun", "Uncategorized", "assets/prefabs/weapons/speargun/speargun.entity.prefab", 4262383355U, true, true, false, false, false, false, false, false, "dynamic", false, "Speargun", 11705, 8 },
+    { "stonehatchet.entity", "Stone Hatchet", "Uncategorized", "assets/prefabs/weapons/stone hatchet/stonehatchet.entity.prefab", 3540736579U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11713, 5 },
+    { "stone_pickaxe.entity", "Stone Pickaxe", "Uncategorized", "assets/prefabs/weapons/stone pickaxe/stone_pickaxe.entity.prefab", 1450582435U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11718, 5 },
+    { "spear_stone.entity", "Stone Spear", "Uncategorized", "assets/prefabs/weapons/stone spear/spear_stone.entity.prefab", 1943636975U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11723, 5 },
+    { "longsword.entity", "Longsword", "Uncategorized", "assets/prefabs/weapons/sword big/longsword.entity.prefab", 3395979968U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11728, 5 },
+    { "salvaged_sword.entity", "Salvaged Sword", "Uncategorized", "assets/prefabs/weapons/sword/salvaged_sword.entity.prefab", 1663991785U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11733, 5 },
+    { "t1_smg.entity", "Handmade SMG", "Uncategorized", "assets/prefabs/weapons/t1 smg/t1_smg.entity.prefab", 4251501342U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11738, 5 },
+    { "thompson.entity", "Thompson", "Uncategorized", "assets/prefabs/weapons/thompson/thompson.entity.prefab", 3243900999U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11743, 5 },
+    { "toolgun.entity", "Garry's Mod Tool Gun", "Uncategorized", "assets/prefabs/weapons/toolgun/toolgun.entity.prefab", 417347909U, true, true, false, false, false, false, false, false, "static", true, "Toolgun", 11748, 7 },
+    { "industrial_torch.entity", "Industrial Torch", "Uncategorized", "assets/prefabs/weapons/torch/skins/industrial_torch/industrial_torch.entity.prefab", 1288011403U, true, true, false, false, false, false, false, false, "static", true, "IndustrialTorchWeapon", 11755, 8 },
+    { "torch.entity", "Torch", "Uncategorized", "assets/prefabs/weapons/torch/torch.entity.prefab", 1543342082U, true, true, false, false, false, false, false, false, "static", true, "TorchWeapon", 11763, 7 },
+    { "krieg_chainsword.entity", "Krieg chainsword", "Uncategorized", "assets/prefabs/weapons/warhammer/krieg chainsword/krieg_chainsword.entity.prefab", 4148293472U, true, true, false, false, false, false, false, false, "static", true, "Chainsaw", 11770, 6 },
+    { "krieg_shotgun.entity", "Krieg Shotgun", "Uncategorized", "assets/prefabs/weapons/warhammer/krieg shotgun/krieg_shotgun.entity.prefab", 1896956209U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseProjectile", 11776, 5 },
+    { "waterball", "waterball", "Uncategorized", "assets/prefabs/weapons/waterbucket/waterball.prefab", 556797242U, true, true, false, true, false, true, false, false, "dynamic", false, "WaterBall", 11781, 3 },
+    { "waterbucket.entity", "Water Bucket", "Uncategorized", "assets/prefabs/weapons/waterbucket/waterbucket.entity.prefab", 1182699531U, true, true, false, false, false, false, false, false, "static", true, "BaseLiquidVessel", 11784, 5 },
+    { "woodenshield.entity", "Wooden Shield", "Uncategorized", "assets/prefabs/weapons/wooden shield/woodenshield.entity.prefab", 3637711865U, true, true, false, false, false, false, false, false, "static", true, "Shield", 11789, 4 },
+    { "spear_wooden.entity", "Wooden Spear", "Uncategorized", "assets/prefabs/weapons/wooden spear/spear_wooden.entity.prefab", 2828546575U, true, true, false, false, false, false, false, false, "static", true, "BaseMelee", 11793, 5 },
+    { "bear.corpse", "bear corpse", "Uncategorized", "assets/rust.ai/agents/bear/bear.corpse.prefab", 4102891990U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 11798, 4 },
+    { "bear", "Bear", "Uncategorized", "assets/rust.ai/agents/bear/bear.prefab", 1799741974U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Bear", 11802, 5 },
+    { "bear_tutorial.corpse", "bear tutorial corpse", "Uncategorized", "assets/rust.ai/agents/bear/bear_tutorial.corpse.prefab", 3849045871U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 11807, 4 },
+    { "bear_tutorial", "Bear", "Uncategorized", "assets/rust.ai/agents/bear/bear_tutorial.prefab", 3752179891U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Bear", 11811, 5 },
+    { "polarbear.corpse", "polarbear corpse", "Uncategorized", "assets/rust.ai/agents/bear/polarbear.corpse.prefab", 2275652760U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 11816, 4 },
+    { "polarbear", "Polar Bear", "Uncategorized", "assets/rust.ai/agents/bear/polarbear.prefab", 749308997U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.PolarBear", 11820, 5 },
+    { "boar.corpse", "boar corpse", "Uncategorized", "assets/rust.ai/agents/boar/boar.corpse.prefab", 3307373733U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 11825, 4 },
+    { "boar", "Boar", "Uncategorized", "assets/rust.ai/agents/boar/boar.prefab", 502341109U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Boar", 11829, 5 },
+    { "bottest", "bottest", "Uncategorized", "assets/rust.ai/agents/bottest/bottest.prefab", 1784396605U, true, true, false, true, true, false, false, false, "dynamic", false, "BasePlayer", 11834, 4 },
+    { "bull.corpse", "bull corpse", "Uncategorized", "assets/rust.ai/agents/bull/bull.corpse.prefab", 2110106795U, true, true, false, false, false, false, false, false, "dynamic", false, "Rust.Ai.Gen2.LivestockCorpse", 11838, 5 },
+    { "bull", "Bull", "Uncategorized", "assets/rust.ai/agents/bull/bull.prefab", 2899085138U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Cow", 11843, 6 },
+    { "calf.corpse", "calf corpse", "Uncategorized", "assets/rust.ai/agents/calf/calf.corpse.prefab", 2717327036U, true, true, false, false, false, false, false, false, "dynamic", false, "Rust.Ai.Gen2.LivestockCorpse", 11849, 5 },
+    { "calf", "Calf", "Uncategorized", "assets/rust.ai/agents/calf/calf.prefab", 1700627756U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Cow", 11854, 6 },
+    { "calfmale.corpse", "calfmale corpse", "Uncategorized", "assets/rust.ai/agents/calf/calfmale.corpse.prefab", 3908118774U, true, true, false, false, false, false, false, false, "dynamic", false, "Rust.Ai.Gen2.LivestockCorpse", 11860, 5 },
+    { "calfmale", "Calf", "Uncategorized", "assets/rust.ai/agents/calf/calfmale.prefab", 2086004806U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Cow", 11865, 6 },
+    { "chicken.corpse", "chicken corpse", "Uncategorized", "assets/rust.ai/agents/chicken/chicken.corpse.prefab", 345706504U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 11871, 4 },
+    { "chicken.corpse.tutorial", "chicken corpse tutorial", "Uncategorized", "assets/rust.ai/agents/chicken/chicken.corpse.tutorial.prefab", 1502667878U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 11875, 4 },
+    { "chicken", "Chicken", "Uncategorized", "assets/rust.ai/agents/chicken/chicken.prefab", 152398164U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Chicken", 11879, 5 },
+    { "chicken.tutorial", "Chicken", "Uncategorized", "assets/rust.ai/agents/chicken/chicken.tutorial.prefab", 2830011179U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Chicken", 11884, 5 },
+    { "cow.corpse", "cow corpse", "Uncategorized", "assets/rust.ai/agents/cow/cow.corpse.prefab", 178979119U, true, true, false, false, false, false, false, false, "dynamic", false, "Rust.Ai.Gen2.LivestockCorpse", 11889, 5 },
+    { "cow", "Cow", "Uncategorized", "assets/rust.ai/agents/cow/cow.prefab", 1272743192U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Cow", 11894, 6 },
+    { "crab_single", "Crabs", "Uncategorized", "assets/rust.ai/agents/crabs/crab_single.prefab", 2419721607U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Crabs", 11900, 6 },
+    { "crabs", "Crabs", "Uncategorized", "assets/rust.ai/agents/crabs/crabs.prefab", 2682064676U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Crabs", 11906, 6 },
+    { "crocodile.corpse", "crocodile corpse", "Uncategorized", "assets/rust.ai/agents/crocodile/crocodile.corpse.prefab", 2697812644U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 11912, 4 },
+    { "crocodile", "Crocodile", "Uncategorized", "assets/rust.ai/agents/crocodile/crocodile.prefab", 43745372U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Crocodile", 11916, 5 },
+    { "shark.corpse", "shark corpse", "Uncategorized", "assets/rust.ai/agents/fish/shark.corpse.prefab", 3051190050U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 11921, 4 },
+    { "shark_unused", "shark unused", "Uncategorized", "assets/rust.ai/agents/fish/shark_unused.prefab", 1738989765U, true, true, false, false, false, false, true, false, "dynamic", false, "BaseFishNPC", 11925, 5 },
+    { "simpleshark", "simpleshark", "Uncategorized", "assets/rust.ai/agents/fish/simpleshark.prefab", 947646353U, true, true, false, false, false, false, false, false, "dynamic", false, "SimpleShark", 11930, 4 },
+    { "frog", "Frog", "Uncategorized", "assets/rust.ai/agents/frog/frog.prefab", 3399313879U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Frog", 11934, 6 },
+    { "jellyfish", "Crabs", "Uncategorized", "assets/rust.ai/agents/jellyfish/jellyfish.prefab", 4234803065U, true, true, false, false, false, false, true, false, "dynamic", false, "Jellyfish", 11940, 6 },
+    { "npc_bandit_guard", "npc bandit guard", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/banditguard/npc_bandit_guard.prefab", 412745708U, true, true, false, true, true, false, true, false, "dynamic", false, "BanditGuard", 11946, 7 },
+    { "npcgrenade.smoke", "npcgrenade smoke", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/npclevelscript/npcgrenade.smoke.prefab", 1630143092U, true, true, false, false, false, false, false, false, "dynamic", false, "Rust.Ai.Gen2.NpcGrenade", 11953, 3 },
+    { "scientist2.corpse", "scientist2 corpse", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.corpse.prefab", 3554738798U, true, true, false, false, false, false, false, false, "dynamic", false, "LootableCorpse", 11956, 5 },
+    { "scientist2.grenade.f1.deployed", "scientist2 grenade f1 deployed", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.grenade.f1.deployed.prefab", 3292751488U, true, true, false, true, false, true, false, false, "dynamic", false, "TimedExplosive", 11961, 3 },
+    { "scientist2.grenade.smoke.deployed", "scientist2 grenade smoke deployed", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.grenade.smoke.deployed.prefab", 1013743524U, true, true, false, true, false, true, false, false, "dynamic", false, "SmokeGrenade", 11964, 4 },
+    { "scientist2.heavy.corpse", "scientist2 heavy corpse", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.heavy.corpse.prefab", 1179669532U, true, true, false, false, false, false, false, false, "dynamic", false, "LootableCorpse", 11968, 5 },
+    { "scientist2.heavy", "Heavy Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.heavy.prefab", 2254599158U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.ScientistNPC2", 11973, 5 },
+    { "scientist2", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.prefab", 4227413660U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.ScientistNPC2", 11978, 5 },
+    { "scientist2.shotgun", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/gen2/scientist2.shotgun.prefab", 3441714695U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.ScientistNPC2", 11983, 5 },
+    { "scientistnpc_arena", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_arena.prefab", 3430609603U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11988, 7 },
+    { "scientistnpc_bradley", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_bradley.prefab", 1126473739U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 11995, 7 },
+    { "scientistnpc_bradley_heavy", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_bradley_heavy.prefab", 3572389335U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12002, 7 },
+    { "scientistnpc_cargo", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_cargo.prefab", 3623670799U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12009, 7 },
+    { "scientistnpc_cargo_turret_any", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_cargo_turret_any.prefab", 1639447304U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12016, 7 },
+    { "scientistnpc_cargo_turret_lr300", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_cargo_turret_lr300.prefab", 881071619U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12023, 7 },
+    { "scientistnpc_ch47_gunner", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_ch47_gunner.prefab", 1017671955U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12030, 7 },
+    { "scientistnpc_excavator", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_excavator.prefab", 4293908444U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12037, 7 },
+    { "scientistnpc_full_any", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_full_any.prefab", 1539172658U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12044, 7 },
+    { "scientistnpc_full_lr300", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_full_lr300.prefab", 3763080634U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12051, 7 },
+    { "scientistnpc_full_mp5", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_full_mp5.prefab", 3595426380U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12058, 7 },
+    { "scientistnpc_full_pistol", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_full_pistol.prefab", 712785714U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12065, 7 },
+    { "scientistnpc_full_shotgun", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_full_shotgun.prefab", 1410044857U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12072, 7 },
+    { "scientistnpc_heavy", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_heavy.prefab", 1536035819U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12079, 7 },
+    { "scientistnpc_junkpile_pistol", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_junkpile_pistol.prefab", 2066159302U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12086, 7 },
+    { "scientistnpc_oilrig", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_oilrig.prefab", 548379897U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12093, 7 },
+    { "scientistnpc_outbreak", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_outbreak.prefab", 2392284122U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12100, 7 },
+    { "scientistnpc_patrol", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_patrol.prefab", 4272904018U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12107, 7 },
+    { "scientistnpc_patrol_arctic", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_patrol_arctic.prefab", 387319993U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12114, 7 },
+    { "scientistnpc_peacekeeper", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_peacekeeper.prefab", 2390854225U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12121, 7 },
+    { "scientistnpc_ptboat", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_ptboat.prefab", 499806986U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12128, 7 },
+    { "scientistnpc_rhib", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_rhib.prefab", 1361476945U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12135, 7 },
+    { "scientistnpc_roam", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_roam.prefab", 4199494415U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12142, 7 },
+    { "scientistnpc_roam_nvg_variant", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_roam_nvg_variant.prefab", 4134517186U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12149, 7 },
+    { "scientistnpc_roamtethered", "Scientist", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_roamtethered.prefab", 529928930U, true, true, false, true, true, false, true, false, "dynamic", false, "ScientistNPC", 12156, 7 },
+    { "npc_tunneldweller", "Tunnel Dweller", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/tunneldweller/npc_tunneldweller.prefab", 732025282U, true, true, false, true, true, false, true, false, "dynamic", false, "TunnelDweller", 12163, 7 },
+    { "npc_tunneldwellerspawned", "Tunnel Dweller", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/tunneldweller/npc_tunneldwellerspawned.prefab", 1934869703U, true, true, false, true, true, false, true, false, "dynamic", false, "TunnelDweller", 12170, 7 },
+    { "npc_underwaterdweller", "Underwater Dweller", "Uncategorized", "assets/rust.ai/agents/npcplayer/humannpc/underwaterdweller/npc_underwaterdweller.prefab", 1605597847U, true, true, false, true, true, false, true, false, "dynamic", false, "UnderwaterDweller", 12177, 7 },
+    { "npcplayertest", "npcplayertest", "Uncategorized", "assets/rust.ai/agents/npcplayer/npcplayertest.prefab", 1256759028U, true, true, false, true, true, false, false, false, "dynamic", false, "NPCPlayer", 12184, 5 },
+    { "frankensteinpet", "frankensteinpet", "Uncategorized", "assets/rust.ai/agents/npcplayer/pet/frankensteinpet.prefab", 3489787657U, true, true, false, true, true, false, true, false, "dynamic", false, "FrankensteinPet", 12189, 7 },
+    { "frankensteinpet_corpse", "frankensteinpet corpse", "Uncategorized", "assets/rust.ai/agents/npcplayer/pet/frankensteinpet_corpse.prefab", 3842948583U, true, true, false, false, false, false, false, false, "dynamic", false, "NPCPlayerCorpse", 12196, 7 },
+    { "frankensteinpetmarker", "frankensteinpetmarker", "Uncategorized", "assets/rust.ai/agents/npcplayer/pet/frankensteinpetmarker.prefab", 3667371159U, true, true, false, false, false, false, false, false, "dynamic", false, "MapMarkerPet", 12203, 4 },
+    { "panther.corpse", "panther corpse", "Uncategorized", "assets/rust.ai/agents/panther/panther.corpse.prefab", 2835842148U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 12207, 4 },
+    { "panther", "Panther", "Uncategorized", "assets/rust.ai/agents/panther/panther.prefab", 711690240U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Panther", 12211, 5 },
+    { "rabbit", "Rabbit", "Uncategorized", "assets/rust.ai/agents/rabbit/rabbit.prefab", 1603855141U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Rabbit", 12216, 6 },
+    { "seaturtle", "Sea Turtle", "Uncategorized", "assets/rust.ai/agents/seaturtle/seaturtle.prefab", 2631877691U, true, true, false, false, false, false, false, false, "dynamic", false, "SeaTurtle", 12222, 6 },
+    { "lamb.corpse", "lamb corpse", "Uncategorized", "assets/rust.ai/agents/sheep/lamb.corpse.prefab", 1315217008U, true, true, false, false, false, false, false, false, "dynamic", false, "Rust.Ai.Gen2.LivestockCorpse", 12228, 5 },
+    { "lamb", "Lamb", "Uncategorized", "assets/rust.ai/agents/sheep/lamb.prefab", 1002041950U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Sheep", 12233, 6 },
+    { "sheep.corpse", "sheep corpse", "Uncategorized", "assets/rust.ai/agents/sheep/sheep.corpse.prefab", 86849409U, true, true, false, false, false, false, false, false, "dynamic", false, "Rust.Ai.Gen2.LivestockCorpse", 12239, 5 },
+    { "sheep", "Sheep", "Uncategorized", "assets/rust.ai/agents/sheep/sheep.prefab", 3201203472U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Sheep", 12244, 6 },
+    { "snake.corpse", "snake corpse", "Uncategorized", "assets/rust.ai/agents/snake/snake.corpse.prefab", 1265808053U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 12250, 4 },
+    { "snake.entity", "snake entity", "Uncategorized", "assets/rust.ai/agents/snake/snake.entity.prefab", 711144264U, true, true, false, false, false, false, false, false, "dynamic", false, "SnakeHazard", 12254, 5 },
+    { "squirrel", "Squirrel", "Uncategorized", "assets/rust.ai/agents/squirrel/squirrel.prefab", 1987634752U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Squirrel", 12259, 6 },
+    { "stag.corpse", "stag corpse", "Uncategorized", "assets/rust.ai/agents/stag/stag.corpse.prefab", 784238137U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 12265, 4 },
+    { "stag", "Stag", "Uncategorized", "assets/rust.ai/agents/stag/stag.prefab", 1378621008U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Stag", 12269, 5 },
+    { "tigerclawmark", "tigerclawmark", "Uncategorized", "assets/rust.ai/agents/tiger/clawmark/tigerclawmark.prefab", 4224089064U, true, true, false, false, false, false, false, false, "dynamic", false, "ClawMark", 12274, 3 },
+    { "tiger.corpse", "tiger corpse", "Uncategorized", "assets/rust.ai/agents/tiger/tiger.corpse.prefab", 2675550198U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 12277, 4 },
+    { "tiger", "Tiger", "Uncategorized", "assets/rust.ai/agents/tiger/tiger.prefab", 3242487723U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Tiger", 12281, 5 },
+    { "wolf.corpse", "wolf corpse", "Uncategorized", "assets/rust.ai/agents/wolf/wolf.corpse.prefab", 4107384580U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 12286, 4 },
+    { "wolf2", "Wolf", "Uncategorized", "assets/rust.ai/agents/wolf/wolf2.prefab", 2288788453U, true, true, false, false, false, false, true, false, "dynamic", false, "Rust.Ai.Gen2.Wolf2", 12290, 5 },
+    { "zombie.corpse", "zombie corpse", "Uncategorized", "assets/rust.ai/agents/zombie/zombie.corpse.prefab", 81333250U, true, true, false, false, false, false, false, false, "dynamic", false, "BaseCorpse", 12295, 4 },
+    { "zombie", "zombie", "Uncategorized", "assets/rust.ai/agents/zombie/zombie.prefab", 2805320019U, true, true, false, false, false, false, true, false, "dynamic", false, "Zombie", 12299, 6 },
+    { "airdrop rate terminal", "airdrop rate terminal", "Uncategorized", "assets/scenes/prefabs/airfield/maintainables/airdrop rate terminal.prefab", 520240521U, true, true, false, false, false, false, false, false, "static", true, "AirfieldAirdropTerminal", 12305, 7 },
+    { "chinook call terminal", "chinook call terminal", "Uncategorized", "assets/scenes/prefabs/airfield/maintainables/chinook call terminal.prefab", 1580739U, true, true, false, false, false, false, false, false, "static", true, "AirfieldCallChinookTerminal", 12312, 7 },
+    { "gasstationcarlift", "gasstationcarlift", "Uncategorized", "assets/scenes/prefabs/gas_station/maintainables/gasstationcarlift.prefab", 880072591U, true, true, false, false, false, false, false, false, "static", true, "GasStationCarGarage", 12319, 8 },
+    { "gasstationlootspawnswitcher", "gasstationlootspawnswitcher", "Uncategorized", "assets/scenes/prefabs/gas_station/maintainables/gasstationlootspawnswitcher.prefab", 3344299633U, true, true, false, false, false, false, false, false, "static", true, "SimpleLight", 12327, 6 },
+    { "gasstationwidegaragedoor", "gasstationwidegaragedoor", "Uncategorized", "assets/scenes/prefabs/gas_station/maintainables/gasstationwidegaragedoor.prefab", 2432661514U, true, true, false, false, false, false, false, false, "static", true, "Door", 12333, 7 },
+    { "coaling_tower_mechanism.entity", "coaling tower mechanism entity", "Uncategorized", "assets/scenes/prefabs/trainyard/coaling_tower_mechanism.entity.prefab", 4234742552U, true, true, false, false, false, false, false, false, "static", true, "CoalingTower", 12340, 6 },
+    { "coaling_tower_fuel_storage.entity", "coaling tower fuel storage entity", "Uncategorized", "assets/scenes/prefabs/trainyard/subents/coaling_tower_fuel_storage.entity.prefab", 597741544U, true, true, false, false, false, false, false, false, "static", true, "PercentFullStorageContainer", 12346, 6 },
+    { "coaling_tower_ore_storage.entity", "coaling tower ore storage entity", "Uncategorized", "assets/scenes/prefabs/trainyard/subents/coaling_tower_ore_storage.entity.prefab", 3609973791U, true, true, false, false, false, false, false, false, "static", true, "OreHopper", 12352, 7 },
+    { "watertreatment_pipe_waterproducer", "watertreatment pipe waterproducer", "Uncategorized", "assets/scenes/prefabs/water treatment plant/maintainables/watertreatment_pipe_waterproducer.prefab", 1732020479U, true, true, false, false, false, false, false, false, "static", true, "WaterTreatmentWaterCatcher", 12359, 9 },
+    { "wtp_watertankspinner", "wtp watertankspinner", "Uncategorized", "assets/scenes/prefabs/water treatment plant/maintainables/wtp_watertankspinner.prefab", 1825376703U, true, true, false, false, false, false, false, false, "static", true, "WaterTreatmentWaterTank", 12368, 6 },
+    { "f15e", "f15e", "Uncategorized", "assets/scripts/entity/misc/f15/f15e.prefab", 2100330297U, true, true, false, false, false, false, false, false, "static", true, "F15", 12374, 4 },
+    { "visualshelvestest", "visualshelvestest", "Uncategorized", "assets/scripts/entity/misc/visualstoragecontainer/visualshelvestest.prefab", 3989929317U, true, true, false, false, false, false, false, false, "static", true, "VisualStorageContainer", 12378, 7 }
 };
 
 inline const PrefabData* GetByPrefabId(std::uint32_t prefab_id) noexcept
@@ -15654,1380 +15855,1410 @@ inline const PrefabData* GetByPrefabId(std::uint32_t prefab_id) noexcept
     case 3573484548U: return &kData[1001]; // debris.stone.external.wall
     case 1424066995U: return &kData[1002]; // debris.wall
     case 2304619954U: return &kData[1003]; // debris.wood.external.wall
-    case 2057881102U: return &kData[1004]; // barricade.concrete
-    case 1581233281U: return &kData[1005]; // barricade.cover.wood
-    case 2982625522U: return &kData[1006]; // barricade.cover.wood_double
-    case 56566310U: return &kData[1007]; // barricade.medieval
-    case 3824663394U: return &kData[1008]; // barricade.metal
-    case 2335812770U: return &kData[1009]; // barricade.sandbags
-    case 1206527181U: return &kData[1010]; // barricade.stone
-    case 4254045167U: return &kData[1011]; // barricade.wood
-    case 1202834203U: return &kData[1012]; // barricade.woodwire
-    case 2279735483U: return &kData[1013]; // bbq.campermodule
-    case 2409469892U: return &kData[1014]; // bbq.deployed
-    case 922529517U: return &kData[1015]; // beartrap
-    case 1642908740U: return &kData[1016]; // bed_deployed.corpse
-    case 3928883189U: return &kData[1017]; // bed_deployed
-    case 3773792636U: return &kData[1018]; // beehive.deployed
-    case 75540915U: return &kData[1019]; // boatbuildingstation.deployed
-    case 1483764430U: return &kData[1020]; // boatbuildingstation.static
-    case 2197720167U: return &kData[1021]; // anchor.deployed
-    case 2936999800U: return &kData[1022]; // cannon.deployed
-    case 4179234465U: return &kData[1023]; // cannon.land.static
-    case 1199568476U: return &kData[1024]; // cannonball
-    case 1783121496U: return &kData[1025]; // plank.deployed
-    case 60611771U: return &kData[1026]; // sail.deployed
-    case 1294413327U: return &kData[1027]; // small_ramp.deployed
-    case 89844878U: return &kData[1028]; // smallengine.deployed
-    case 2114674288U: return &kData[1029]; // fuel_storage
-    case 1346716961U: return &kData[1030]; // steeringwheel.deployed
-    case 4160694184U: return &kData[1031]; // campfire
-    case 1708930778U: return &kData[1032]; // _cardtable_base
-    case 1845856065U: return &kData[1033]; // cardtable.deployed
-    case 4262635170U: return &kData[1034]; // cardtable.static_configa
-    case 2597581320U: return &kData[1035]; // cardtable.static_configa_hidden
-    case 2447998865U: return &kData[1036]; // cardtable.static_configb
-    case 1390750221U: return &kData[1037]; // cardtable.static_configc
-    case 690460714U: return &kData[1038]; // cardtable.static_configd
-    case 3031328897U: return &kData[1039]; // cardgameplayerstorage
-    case 1584910940U: return &kData[1040]; // cardgamepotstorage
-    case 2254147427U: return &kData[1041]; // cardtableseat
-    case 1096666154U: return &kData[1042]; // cctv.static
-    case 2633567939U: return &kData[1043]; // cctv_deployed
-    case 3953213470U: return &kData[1044]; // ceilinglight.deployed
-    case 1992774774U: return &kData[1045]; // chair.deployed
-    case 3579302978U: return &kData[1046]; // chair.icethrone
-    case 887058568U: return &kData[1047]; // bar.games.bar.stool.metal.deployed
-    case 3404567684U: return &kData[1048]; // bar.games.bar.stool.wood.deployed
-    case 3824051769U: return &kData[1049]; // beanbag.seat.fabric.deployed
-    case 1742249447U: return &kData[1050]; // beanbag.seat.leather.deployed
-    case 454013157U: return &kData[1051]; // chair.ejectorseat
-    case 2143844589U: return &kData[1052]; // charityplushie_01_deployed
-    case 1164581789U: return &kData[1053]; // charityplushie_02_deployed
-    case 2352430490U: return &kData[1054]; // charityplushie_03_deployed
-    case 2331136578U: return &kData[1055]; // charityplushie_04_deployed
-    case 1393130608U: return &kData[1056]; // chickencoop.deployed
-    case 1404456901U: return &kData[1057]; // simplechicken.entity
-    case 209286362U: return &kData[1058]; // codelockedhackablecrate
-    case 2068208223U: return &kData[1059]; // codelockedhackablecrate_ghostship
-    case 2043434947U: return &kData[1060]; // codelockedhackablecrate_oilrig
-    case 319712039U: return &kData[1061]; // clan.table
-    case 1545936318U: return &kData[1062]; // clantable.deployed
-    case 1091538011U: return &kData[1063]; // clantable.static
-    case 1921897480U: return &kData[1064]; // composter
-    case 4224482427U: return &kData[1065]; // computerstation.apartmentcomplex.static
-    case 2493676858U: return &kData[1066]; // computerstation.deployed
-    case 2305339623U: return &kData[1067]; // computerstation.ioent
-    case 3814928951U: return &kData[1068]; // computerstation.static
-    case 431357582U: return &kData[1069]; // cookingworkbench.bbq
-    case 1604022909U: return &kData[1070]; // cookingworkbench.deployed
-    case 761048428U: return &kData[1071]; // dartboard.deployed
-    case 2234097594U: return &kData[1072]; // dartboard.mountable
-    case 426877686U: return &kData[1073]; // discordplushie_deployed
-    case 931526157U: return &kData[1074]; // door_barricade_a
-    case 382418191U: return &kData[1075]; // door_barricade_a_large
-    case 2483166070U: return &kData[1076]; // door_barricade_b
-    case 2342515045U: return &kData[1077]; // door_barricade_dbl_a
-    case 3737132756U: return &kData[1078]; // door_barricade_dbl_a_large
-    case 623754980U: return &kData[1079]; // door_barricade_dbl_b
-    case 3440671703U: return &kData[1080]; // door_barricade_dbl_b_large
-    case 1191314495U: return &kData[1081]; // drone.deployed
-    case 1397446101U: return &kData[1082]; // drone.storage
-    case 661881069U: return &kData[1083]; // dropbox.deployed
-    case 495819493U: return &kData[1084]; // easel.deployed
-    case 3978222077U: return &kData[1085]; // elevator
-    case 147094869U: return &kData[1086]; // elevator_lift
-    case 2008256530U: return &kData[1087]; // elevator.static.office.top
-    case 140200872U: return &kData[1088]; // elevator.static
-    case 1033358365U: return &kData[1089]; // elevator.static.top
-    case 3845190333U: return &kData[1090]; // elevator_lift.static
-    case 110576239U: return &kData[1091]; // fireplace.deployed
-    case 3537935076U: return &kData[1092]; // mortarblue
-    case 1538862213U: return &kData[1093]; // mortarchampagne
-    case 1303486792U: return &kData[1094]; // mortargreen
-    case 2125925416U: return &kData[1095]; // mortarorange
-    case 4155476352U: return &kData[1096]; // mortarpattern
-    case 2059113465U: return &kData[1097]; // mortarred
-    case 571344195U: return &kData[1098]; // mortarviolet
-    case 915055899U: return &kData[1099]; // mortarwhite
-    case 1410649145U: return &kData[1100]; // romancandle
-    case 3989759960U: return &kData[1101]; // romancandleblue
-    case 1833523633U: return &kData[1102]; // romancandlegreen
-    case 4013199910U: return &kData[1103]; // romancandleviolet
-    case 1311124308U: return &kData[1104]; // volcanofirework-red
-    case 2771932546U: return &kData[1105]; // volcanofirework-violet
-    case 4042905807U: return &kData[1106]; // volcanofirework
-    case 976279966U: return &kData[1107]; // spikes.floor
-    case 712007742U: return &kData[1108]; // halfheight_salvaged_bamboo_shelves
-    case 2206921343U: return &kData[1109]; // halfheight_salvaged_industrial_shelves.deployed
-    case 1178330157U: return &kData[1110]; // frankensteintable.deployed
-    case 2800679511U: return &kData[1111]; // fridge.deployed.corpse
-    case 1844023509U: return &kData[1112]; // fridge.deployed
-    case 1374462671U: return &kData[1113]; // furnace.large
-    case 480290137U: return &kData[1114]; // industrial.furnace.large
-    case 1839500069U: return &kData[1115]; // furnace.corpse
-    case 2931042549U: return &kData[1116]; // furnace
-    case 107031364U: return &kData[1117]; // weaponracklight
-    case 3489283376U: return &kData[1118]; // weaponracklightdouble
-    case 2953997641U: return &kData[1119]; // hazmatplushy_deployed
-    case 1085184301U: return &kData[1120]; // heavyscientistplushie_deployed
-    case 3238272924U: return &kData[1121]; // hitchtrough.deployed
-    case 3932476457U: return &kData[1122]; // hopper.deployed
-    case 1684527864U: return &kData[1123]; // door.hinged.hab_t1
-    case 3111236903U: return &kData[1124]; // hotairballoon
-    case 1186772083U: return &kData[1125]; // hotairballoon_armor_t1
-    case 675927205U: return &kData[1126]; // hab_storage
-    case 3239470043U: return &kData[1127]; // io.table.deployed
-    case 1889323056U: return &kData[1128]; // jackolantern.angry
-    case 630866573U: return &kData[1129]; // jackolantern.happy
-    case 2292919455U: return &kData[1130]; // jukebox.deployed
-    case 1463807579U: return &kData[1131]; // landmine
-    case 4027991414U: return &kData[1132]; // lantern.deployed
-    case 2785194784U: return &kData[1133]; // box.wooden.large.corpse
-    case 2206646561U: return &kData[1134]; // box.wooden.large
-    case 3252334872U: return &kData[1135]; // abyss_barrel_horizontal.corpse
-    case 339191443U: return &kData[1136]; // abyss_barrel_horizontal
-    case 1768548626U: return &kData[1137]; // abyss_barrel_vertical.corpse
-    case 2794435815U: return &kData[1138]; // abyss_barrel_vertical
-    case 1227364378U: return &kData[1139]; // component.box.ammo.large.corpse
-    case 3854928623U: return &kData[1140]; // component.box.ammo.large
-    case 3675895900U: return &kData[1141]; // component.box.armor.large.corpse
-    case 528028244U: return &kData[1142]; // component.box.armor.large
-    case 1803454902U: return &kData[1143]; // component.box.charcoal.large.corpse
-    case 2069829540U: return &kData[1144]; // component.box.charcoal.large
-    case 1739352808U: return &kData[1145]; // component.box.clothing.large.corpse
-    case 916817183U: return &kData[1146]; // component.box.clothing.large
-    case 2157794217U: return &kData[1147]; // component.box.comps.large.corpse
-    case 4199785085U: return &kData[1148]; // component.box.comps.large
-    case 3237620973U: return &kData[1149]; // component.box.explosives.large.corpse
-    case 3966119321U: return &kData[1150]; // component.box.explosives.large
-    case 2199371708U: return &kData[1151]; // component.box.food.large.corpse
-    case 4013283025U: return &kData[1152]; // component.box.food.large
-    case 2699150381U: return &kData[1153]; // component.box.guns.large.corpse
-    case 3610735283U: return &kData[1154]; // component.box.guns.large
-    case 2067485643U: return &kData[1155]; // component.box.meds.large.corpse
-    case 628186519U: return &kData[1156]; // component.box.meds.large
-    case 818948686U: return &kData[1157]; // component.box.metal.large.corpse
-    case 2121520844U: return &kData[1158]; // component.box.metal.large
-    case 3879561467U: return &kData[1159]; // component.box.ore.large.corpse
-    case 1535470320U: return &kData[1160]; // component.box.ore.large
-    case 992082064U: return &kData[1161]; // component.box.scrap.large.corpse
-    case 3603022102U: return &kData[1162]; // component.box.scrap.large
-    case 4046463154U: return &kData[1163]; // component.box.stone.large.corpse
-    case 807646626U: return &kData[1164]; // component.box.stone.large
-    case 3433986334U: return &kData[1165]; // component.box.sulfur.large.corpse
-    case 2567266676U: return &kData[1166]; // component.box.sulfur.large
-    case 4135480801U: return &kData[1167]; // component.box.tools.large.corpse
-    case 2302868354U: return &kData[1168]; // component.box.tools.large
-    case 2090035546U: return &kData[1169]; // component.box.wood.large.corpse
-    case 293427194U: return &kData[1170]; // component.box.wood.large
-    case 2620129937U: return &kData[1171]; // industrial_storage_horizontal.corpse
-    case 849395666U: return &kData[1172]; // industrial_storage_horizontal
-    case 4125503230U: return &kData[1173]; // industrial_storage_vertical.corpse
-    case 1015225219U: return &kData[1174]; // industrial_storage_vertical
-    case 1634507366U: return &kData[1175]; // wicker_barrel.corpse
-    case 496929911U: return &kData[1176]; // wicker_barrel
-    case 3097167028U: return &kData[1177]; // bamboo_barrel.corpse
-    case 1496407812U: return &kData[1178]; // bamboo_barrel
-    case 2064794966U: return &kData[1179]; // medieval.box.wooden.large.corpse
-    case 2142950612U: return &kData[1180]; // medieval.box.wooden.large
-    case 2755571140U: return &kData[1181]; // krieg_storage_horizontal.corpse
-    case 295691137U: return &kData[1182]; // krieg_storage_horizontal
-    case 983075320U: return &kData[1183]; // krieg_storage_vertical.corpse
-    case 2980428674U: return &kData[1184]; // krieg_storage_vertical
-    case 1538368754U: return &kData[1185]; // legacy_furnace.corpse
-    case 2013224025U: return &kData[1186]; // legacy_furnace
-    case 3746060889U: return &kData[1187]; // waterbarrel
-    case 1486794265U: return &kData[1188]; // waterbarrel.static
-    case 1298400075U: return &kData[1189]; // locker.campermodule
-    case 1291020492U: return &kData[1190]; // locker.deployed.corpse
-    case 177343599U: return &kData[1191]; // locker.deployed
-    case 1994630628U: return &kData[1192]; // lunar_near_year_2025_wall_divider_a
-    case 594151811U: return &kData[1193]; // lunar_near_year_2025_wall_divider_b
-    case 3245461981U: return &kData[1194]; // lunar_near_year_2025_wall_divider_c
-    case 2697131904U: return &kData[1195]; // mailbox.deployed
-    case 2081428822U: return &kData[1196]; // mannequin_deployed.corpse
-    case 91888137U: return &kData[1197]; // mannequin_deployed
-    case 3870025584U: return &kData[1198]; // minifridge.deployed.corpse
-    case 1535651257U: return &kData[1199]; // minifridge.deployed
-    case 3713325830U: return &kData[1200]; // gamesroom.minifridge.deployed.corpse
-    case 1650211215U: return &kData[1201]; // gamesroom.minifridge.deployed
-    case 2330684337U: return &kData[1202]; // mixingtable.deployed
-    case 428217161U: return &kData[1203]; // electrical.modularcarlift.deployed
-    case 656924125U: return &kData[1204]; // monument_cctv_desk.static
-    case 3181101008U: return &kData[1205]; // mortar.entity
-    case 3093831259U: return &kData[1206]; // mortar_shell_basic
-    case 799615933U: return &kData[1207]; // mortar_shell_fragment
-    case 3254452298U: return &kData[1208]; // neonsigntr.deployed
-    case 70163214U: return &kData[1209]; // crudeoutput
-    case 336885727U: return &kData[1210]; // engineswitch
-    case 4260630588U: return &kData[1211]; // fuelstorage
-    case 1599225199U: return &kData[1212]; // mining.pumpjack
-    case 1057236622U: return &kData[1213]; // refinery_small_deployed
-    case 2685133268U: return &kData[1214]; // plantpot.single.deployed
-    case 1162882237U: return &kData[1215]; // planter.large.deployed
-    case 467313155U: return &kData[1216]; // planter.small.deployed
-    case 375169930U: return &kData[1217]; // planter.triangle.deployed
-    case 1056621402U: return &kData[1218]; // audioalarm
-    case 3788087038U: return &kData[1219]; // smartalarm
-    case 457838080U: return &kData[1220]; // smartswitch
-    case 2575066828U: return &kData[1221]; // storagemonitor.deployed
-    case 3398686648U: return &kData[1222]; // large.rechargable.battery.deployed
-    case 262703036U: return &kData[1223]; // medium.rechargable.battery.deployed
-    case 918119888U: return &kData[1224]; // smallrechargablebattery.deployed
-    case 52925389U: return &kData[1225]; // button
-    case 3942188602U: return &kData[1226]; // command.block.deployed
-    case 4254177840U: return &kData[1227]; // counter
-    case 986625916U: return &kData[1228]; // hbhfsensor.deployed
-    case 2260707523U: return &kData[1229]; // laserdetector
-    case 687239341U: return &kData[1230]; // pressurepad.deployed
-    case 1200964049U: return &kData[1231]; // tincan.alarm.deployed
-    case 2275599299U: return &kData[1232]; // electric.digitalclock.deployed
-    case 2343730564U: return &kData[1233]; // doorcontroller.deployed
-    case 3711844390U: return &kData[1234]; // electricfurnace.deployed.corpse
-    case 3808299817U: return &kData[1235]; // electricfurnace.deployed
-    case 2011868250U: return &kData[1236]; // electricfurnace.deployed_workshop
-    case 2678691787U: return &kData[1237]; // electricfurnace.io
-    case 1948496164U: return &kData[1238]; // industrial_electric_furnace.deployed.corpse
-    case 3924463048U: return &kData[1239]; // industrial_electric_furnace.deployed
-    case 3947156055U: return &kData[1240]; // industrial_electric_furnace.io
-    case 3077222881U: return &kData[1241]; // electrical.heater
-    case 4043799246U: return &kData[1242]; // fluid.combiner.deployed
-    case 2150367216U: return &kData[1243]; // fluidsplitter
-    case 4057013647U: return &kData[1244]; // fluidswitch
-    case 4274766536U: return &kData[1245]; // andswitch.entity
-    case 4215863876U: return &kData[1246]; // electrical.blocker.deployed
-    case 1262782874U: return &kData[1247]; // electrical.branch.deployed
-    case 2378858100U: return &kData[1248]; // electrical.combiner.deployed
-    case 1220166918U: return &kData[1249]; // electrical.memorycell.deployed
-    case 1354328722U: return &kData[1250]; // orswitch.entity
-    case 489282820U: return &kData[1251]; // electrical.random.switch.deployed
-    case 2880296175U: return &kData[1252]; // rfbroadcaster
-    case 525502317U: return &kData[1253]; // rfreceiver
-    case 1074446568U: return &kData[1254]; // xorswitch.entity
-    case 3518207786U: return &kData[1255]; // small_fuel_generator.deployed
-    case 297783762U: return &kData[1256]; // small_fuel_generator.static
-    case 1216081662U: return &kData[1257]; // generator.small
-    case 2231260353U: return &kData[1258]; // solarpanel.large.deployed
-    case 3946116692U: return &kData[1259]; // igniter.deployed
-    case 1077498142U: return &kData[1260]; // storageadaptor.deployed
-    case 2557715962U: return &kData[1261]; // industrialcombiner.deployed
-    case 3459531520U: return &kData[1262]; // industrialconveyor.deployed
-    case 273687723U: return &kData[1263]; // industrialcrafter.deployed
-    case 4142483135U: return &kData[1264]; // industrialsplitter.deployed
-    case 2172878916U: return &kData[1265]; // electric.chandelier.deployed
-    case 951064U: return &kData[1266]; // electric.tablelamp.deployed
-    case 2715027079U: return &kData[1267]; // electric.fairylights.deployed
-    case 3414812695U: return &kData[1268]; // electric.fluorescentlight.ceiling.deployed
-    case 297156836U: return &kData[1269]; // electric.fluorescentlight.deployed
-    case 790776081U: return &kData[1270]; // electric.bulbstringlights.deployed
-    case 13233315U: return &kData[1271]; // electric.spotlight.deployed
-    case 1179002613U: return &kData[1272]; // electric.spotlight.tripod.deployed
-    case 3742301494U: return &kData[1273]; // electric.flasherlight.deployed
-    case 1797934483U: return &kData[1274]; // simplelight
-    case 2436926577U: return &kData[1275]; // electric.sirenlight.deployed
-    case 1259335874U: return &kData[1276]; // poweredwaterpurifier.deployed
-    case 795179107U: return &kData[1277]; // poweredwaterpurifier.storage
-    case 1565495109U: return &kData[1278]; // electric.seismicsensor.deployed
-    case 2374429146U: return &kData[1279]; // switch
-    case 2864726542U: return &kData[1280]; // splitter
-    case 2389629329U: return &kData[1281]; // electric.sprinkler.deployed
-    case 60725884U: return &kData[1282]; // teslacoil.deployed
-    case 3673859458U: return &kData[1283]; // timer
-    case 3855268767U: return &kData[1284]; // cabletunnel
-    case 3841120196U: return &kData[1285]; // water.pump.deployed
-    case 2101073864U: return &kData[1286]; // pooltable.deployed
-    case 2867835196U: return &kData[1287]; // pooltable.mountable
-    case 4131768945U: return &kData[1288]; // ptz_cctv.static
-    case 2576173574U: return &kData[1289]; // ptz_cctv_deployed
-    case 167149050U: return &kData[1290]; // engineswitch
-    case 362963830U: return &kData[1291]; // fuelstorage
-    case 875142383U: return &kData[1292]; // hopperoutput
-    case 672916883U: return &kData[1293]; // mining_quarry
-    case 3994459244U: return &kData[1294]; // reactivetarget_deployed
-    case 3846783416U: return &kData[1295]; // repairbench_deployed
-    case 146554961U: return &kData[1296]; // researchtable_deployed
-    case 3110378351U: return &kData[1297]; // rug.bear.deployed
-    case 4196580066U: return &kData[1298]; // rug.deployed
-    case 1982923662U: return &kData[1299]; // scientistplushie_deployed
-    case 2793055883U: return &kData[1300]; // sculpture.ice.deployed
-    case 4108633004U: return &kData[1301]; // sculpture.rock.deployed
-    case 3422977757U: return &kData[1302]; // associatedsculpturestorage
-    case 1427415412U: return &kData[1303]; // searchlight.deployed
-    case 286221745U: return &kData[1304]; // secretlabchair.deployed
-    case 501605075U: return &kData[1305]; // shelves
-    case 1462386041U: return &kData[1306]; // salvaged_bamboo_shelves
-    case 201785285U: return &kData[1307]; // salvaged_industrial_shelves.deployed
-    case 637495597U: return &kData[1308]; // sign.hanging.banner.large
-    case 1283107100U: return &kData[1309]; // sign.hanging.ornate
-    case 550204242U: return &kData[1310]; // sign.hanging
-    case 3618197174U: return &kData[1311]; // sign.huge.wood
-    case 3479792512U: return &kData[1312]; // sign.large.wood
-    case 3715545584U: return &kData[1313]; // sign.medium.wood
-    case 3215377795U: return &kData[1314]; // sign.pictureframe.landscape
-    case 1960724311U: return &kData[1315]; // sign.pictureframe.portrait
-    case 3159642196U: return &kData[1316]; // sign.pictureframe.tall
-    case 1957158128U: return &kData[1317]; // sign.pictureframe.xl
-    case 3725754530U: return &kData[1318]; // sign.pictureframe.xxl
-    case 3188315846U: return &kData[1319]; // sign.pole.banner.large
-    case 4290170446U: return &kData[1320]; // sign.post.double
-    case 58270319U: return &kData[1321]; // sign.post.single
-    case 120534793U: return &kData[1322]; // sign.post.town
-    case 4057957010U: return &kData[1323]; // sign.post.town.roof
-    case 1447270506U: return &kData[1324]; // sign.small.wood
-    case 2104891901U: return &kData[1325]; // signcontent
-    case 1348746224U: return &kData[1326]; // guntrap.deployed
-    case 3867195975U: return &kData[1327]; // gamesroom.shotgun.trap.deployed
-    case 403186932U: return &kData[1328]; // sleepingbag.corpse
-    case 159326486U: return &kData[1329]; // sleepingbag_leather_deployed
-    case 2568831788U: return &kData[1330]; // small_stash_deployed
-    case 2119696825U: return &kData[1331]; // sofaseat
-    case 51176708U: return &kData[1332]; // sofa.deployed
-    case 836629684U: return &kData[1333]; // sofa.pattern.deployed
-    case 3169453665U: return &kData[1334]; // twitch_rivals_sofa.deployed
-    case 3006607439U: return &kData[1335]; // spikes.trap
-    case 4006597758U: return &kData[1336]; // spinner.wheel.deployed
-    case 3119617183U: return &kData[1337]; // survivalfishtrap.deployed
-    case 2662124780U: return &kData[1338]; // table.deployed
-    case 4066798181U: return &kData[1339]; // workbench1.deployed.corpse
-    case 2561955800U: return &kData[1340]; // workbench1.deployed
-    case 3145678818U: return &kData[1341]; // workbench2.deployed.corpse
-    case 601265145U: return &kData[1342]; // workbench2.deployed
-    case 3678765790U: return &kData[1343]; // workbench3.deployed.corpse
-    case 2764275075U: return &kData[1344]; // workbench3.deployed
-    case 1978042149U: return &kData[1345]; // cupboard.tool.corpse
-    case 2476970476U: return &kData[1346]; // cupboard.tool.deployed
-    case 216998040U: return &kData[1347]; // invisible_building_auth
-    case 2103277438U: return &kData[1348]; // cupboard.tool.retro.deployed.corpse
-    case 785685130U: return &kData[1349]; // cupboard.tool.retro.deployed
-    case 1420913995U: return &kData[1350]; // storageadaptor_retro_tc.deployed
-    case 272439463U: return &kData[1351]; // cupboard.tool.shockbyte.deployed.corpse
-    case 3932172323U: return &kData[1352]; // cupboard.tool.shockbyte.deployed
-    case 1392608348U: return &kData[1353]; // tunalight.deployed
-    case 2245774897U: return &kData[1354]; // npcvendingmachine
-    case 3971055878U: return &kData[1355]; // npcvendingmachine_attire
-    case 538046694U: return &kData[1356]; // npcvendingmachine_building
-    case 567510558U: return &kData[1357]; // npcvendingmachine_components
-    case 2876719793U: return &kData[1358]; // npcvendingmachine_extra
-    case 3866668316U: return &kData[1359]; // npcvendingmachine_farming
-    case 712757139U: return &kData[1360]; // npcvendingmachine_fishexchange
-    case 2055811113U: return &kData[1361]; // npcvendingmachine_hapisexchange
-    case 1505537622U: return &kData[1362]; // npcvendingmachine_resources
-    case 2259994529U: return &kData[1363]; // npcvendingmachine_tools
-    case 534084276U: return &kData[1364]; // npcvendingmachine_travellingvendor
-    case 3835594039U: return &kData[1365]; // npcvendingmachine_vehicles
-    case 2038954881U: return &kData[1366]; // npcvendingmachine_vehicleshigh
-    case 3836034446U: return &kData[1367]; // npcvendingmachine_weapons
-    case 858853278U: return &kData[1368]; // shopkeeper_vm_invis
-    case 2799101936U: return &kData[1369]; // shopkeeper_vm_invis_waterwell
-    case 1084429088U: return &kData[1370]; // shopkeeper_vm_rentableshop
-    case 3459945130U: return &kData[1371]; // vending_mapmarker
-    case 1107947433U: return &kData[1372]; // vendingfront
-    case 2525285291U: return &kData[1373]; // vendingmachine.deployed.corpse
-    case 186002280U: return &kData[1374]; // vendingmachine.deployed
-    case 3529359528U: return &kData[1375]; // electric.wallcabinet.corpse
-    case 3113345730U: return &kData[1376]; // electric.wallcabinet.deployed
-    case 1528396724U: return &kData[1377]; // wall_shallow_industrial_shelves.deployed
-    case 4019546054U: return &kData[1378]; // wall_single_shallow_shelf
-    case 3418194637U: return &kData[1379]; // water_catcher_large
-    case 3661185369U: return &kData[1380]; // water_catcher_small
-    case 3529835336U: return &kData[1381]; // waterwellstatic
-    case 1468161152U: return &kData[1382]; // electric.waterwheel
-    case 966720564U: return &kData[1383]; // waterwheel.mountable
-    case 2905007296U: return &kData[1384]; // waterpurifier.deployed
-    case 1488612322U: return &kData[1385]; // waterstorage
-    case 1712643514U: return &kData[1386]; // weaponrack_horizontal.deployed
-    case 1566147802U: return &kData[1387]; // weaponrack_single1.deployed
-    case 1265527567U: return &kData[1388]; // weaponrack_single2.deployed
-    case 2110811006U: return &kData[1389]; // weaponrack_single3.deployed
-    case 3672909226U: return &kData[1390]; // weaponrack_stand.deployed
-    case 602299960U: return &kData[1391]; // weaponrack_tall.deployed
-    case 1633182403U: return &kData[1392]; // weaponrack_wide.deployed
-    case 1192074893U: return &kData[1393]; // electric.windmill.small
-    case 3038465934U: return &kData[1394]; // generator.wind.scrap
-    case 3758828704U: return &kData[1395]; // pilot_hazmat_woodbox_deployed.corpse
-    case 2203540697U: return &kData[1396]; // pilot_hazmat_woodbox_deployed
-    case 2010632750U: return &kData[1397]; // woodbox_deployed.corpse
-    case 1560881570U: return &kData[1398]; // woodbox_deployed
-    case 1290959361U: return &kData[1399]; // hazmat_youtooz.deployed
-    case 801665394U: return &kData[1400]; // heavyscientist_youtooz.deployed
-    case 1851422019U: return &kData[1401]; // bota_bag.entity
-    case 797425204U: return &kData[1402]; // food_pie_generic.entity
-    case 139849256U: return &kData[1403]; // smallwaterbottle.entity
-    case 366999130U: return &kData[1404]; // waterjug.entity
-    case 3323268180U: return &kData[1405]; // deathmatch
-    case 2882540700U: return &kData[1406]; // hardcore
-    case 825419898U: return &kData[1407]; // kingofthehilldm
-    case 4276462027U: return &kData[1408]; // kingofthehillteam
-    case 3788504645U: return &kData[1409]; // capturepoint
-    case 3866571115U: return &kData[1410]; // reclaimmanager
-    case 2564311448U: return &kData[1411]; // reclaimterminal
-    case 3275115225U: return &kData[1412]; // onedeath
-    case 2393539753U: return &kData[1413]; // primitive
-    case 1954920076U: return &kData[1414]; // softcore
-    case 3810400291U: return &kData[1415]; // staticrespawnzonebandit
-    case 1919922518U: return &kData[1416]; // staticrespawnzonecompound
-    case 18701516U: return &kData[1417]; // teamdeathmatch
-    case 2957505463U: return &kData[1418]; // vanilla
-    case 798330873U: return &kData[1419]; // weapontest
-    case 2465202152U: return &kData[1420]; // bass.weapon
-    case 52738779U: return &kData[1421]; // cowbell.weapon
-    case 1980628900U: return &kData[1422]; // drumkit.deployed
-    case 3789219502U: return &kData[1423]; // flute.weapon
-    case 4177390149U: return &kData[1424]; // guitar.weapon
-    case 1977067472U: return &kData[1425]; // jerrycanguitar.weapon
-    case 3691382632U: return &kData[1426]; // piano.deployed
-    case 1754256281U: return &kData[1427]; // tambourine.weapon
-    case 1050701358U: return &kData[1428]; // trumpet.weapon
-    case 2388319642U: return &kData[1429]; // tuba.weapon
-    case 3363531184U: return &kData[1430]; // xylophone.deployed
-    case 1699170926U: return &kData[1431]; // generator.noreset.static
-    case 1331920001U: return &kData[1432]; // generator.static
-    case 3467084113U: return &kData[1433]; // generator.static_hidden
-    case 1390723258U: return &kData[1434]; // powergrid_accesspoint.static
-    case 1653306314U: return &kData[1435]; // powergrid_powerline_io.static
-    case 1523703314U: return &kData[1436]; // simplelight
-    case 1124418807U: return &kData[1437]; // sirenlightblue
-    case 2400067639U: return &kData[1438]; // sirenlightgreen
-    case 4129440825U: return &kData[1439]; // sirenlightorange
-    case 500822506U: return &kData[1440]; // alarmsound
-    case 2291424085U: return &kData[1441]; // fridge_respawnableloot.static.entity
-    case 3121685313U: return &kData[1442]; // oilswitchbroadcaster.static
-    case 1174518703U: return &kData[1443]; // rfbroadcaster.static
-    case 2864014888U: return &kData[1444]; // andswitch
-    case 1841596500U: return &kData[1445]; // cardreader
-    case 3444518220U: return &kData[1446]; // doormanipulator.invisible
-    case 3165678508U: return &kData[1447]; // doormanipulator
-    case 3622071578U: return &kData[1448]; // fusebox
-    case 2245659838U: return &kData[1449]; // powergrid_fusebox_big
-    case 1923819422U: return &kData[1450]; // powergrid_fusebox_small
-    case 2381092631U: return &kData[1451]; // gearbox
-    case 2179325520U: return &kData[1452]; // orswitch
-    case 4224395968U: return &kData[1453]; // pressbutton
-    case 3594608867U: return &kData[1454]; // pressbutton_compact
-    case 2427905255U: return &kData[1455]; // pressbutton_invisible
-    case 3024956667U: return &kData[1456]; // pressbutton_officeelevatorcall
-    case 2322765486U: return &kData[1457]; // pressbutton_officeelevatordown
-    case 322122625U: return &kData[1458]; // pressbutton_officeelevatorup
-    case 1802909967U: return &kData[1459]; // pressbutton_trainstairwell
-    case 2055550712U: return &kData[1460]; // simpleswitch
-    case 407841511U: return &kData[1461]; // simpleswitch_lightswitch
-    case 850739563U: return &kData[1462]; // splitter
-    case 2873681431U: return &kData[1463]; // timerswitch
-    case 4139825974U: return &kData[1464]; // xorswitch
-    case 1268553078U: return &kData[1465]; // wheelswitch
-    case 3508954061U: return &kData[1466]; // wheelswitch_wheel_only
-    case 2106860026U: return &kData[1467]; // lock.key
-    case 3518824735U: return &kData[1468]; // lock.code
-    case 319071656U: return &kData[1469]; // lock.code.a.pilot
-    case 2535615922U: return &kData[1470]; // sign.artistcanvas.l
-    case 797368798U: return &kData[1471]; // sign.artistcanvas.m
-    case 3056672841U: return &kData[1472]; // sign.artistcanvas.s
-    case 1939665302U: return &kData[1473]; // sign.artistcanvas.xl
-    case 1729209623U: return &kData[1474]; // sign.artistcanvas.xs
-    case 121897445U: return &kData[1475]; // sign.artistcanvas.xxl
-    case 3297576892U: return &kData[1476]; // lightupframe.large
-    case 2703989313U: return &kData[1477]; // lightupframe.medium
-    case 3602290925U: return &kData[1478]; // lightupframe.small
-    case 2296327774U: return &kData[1479]; // lightupframe.standing
-    case 879893360U: return &kData[1480]; // lightupframe.xl
-    case 2127235542U: return &kData[1481]; // lightupframe.xxl
-    case 3687349212U: return &kData[1482]; // lightupframe.ioent.large
-    case 176410268U: return &kData[1483]; // lightupframe.ioent.medium
-    case 2525660658U: return &kData[1484]; // lightupframe.ioent.small
-    case 3078681327U: return &kData[1485]; // lightupframe.ioent.standing
-    case 3453753706U: return &kData[1486]; // lightupframe.ioent.xl
-    case 1885995974U: return &kData[1487]; // lightupframe.ioent.xxl
-    case 798161878U: return &kData[1488]; // goldframe.large
-    case 4033431204U: return &kData[1489]; // goldframe.medium
-    case 485350915U: return &kData[1490]; // goldframe.small
-    case 3396336042U: return &kData[1491]; // goldframe.standing
-    case 3754396910U: return &kData[1492]; // goldframe.xl
-    case 284403021U: return &kData[1493]; // goldframe.xxl
-    case 2311585556U: return &kData[1494]; // paintable_reactive_target.deployed
-    case 1804926480U: return &kData[1495]; // window.paintable
-    case 3892777780U: return &kData[1496]; // scrapframe.large
-    case 568958593U: return &kData[1497]; // scrapframe.medium
-    case 2729848647U: return &kData[1498]; // scrapframe.small
-    case 1938985149U: return &kData[1499]; // scrapframe.standing
-    case 958885520U: return &kData[1500]; // scrapframe.xl
-    case 2760478303U: return &kData[1501]; // scrapframe.xxl
-    case 3532150403U: return &kData[1502]; // scrapframe.ioent.large
-    case 2808686863U: return &kData[1503]; // scrapframe.ioent.medium
-    case 2662530111U: return &kData[1504]; // scrapframe.ioent.small
-    case 1228245501U: return &kData[1505]; // scrapframe.ioent.standing
-    case 2178232552U: return &kData[1506]; // scrapframe.ioent.xl
-    case 1586875222U: return &kData[1507]; // scrapframe.ioent.xxl
-    case 1867483538U: return &kData[1508]; // woodframe.large
-    case 3494723332U: return &kData[1509]; // woodframe.medium
-    case 2679749389U: return &kData[1510]; // woodframe.small
-    case 2425277060U: return &kData[1511]; // woodframe.standing
-    case 1020698817U: return &kData[1512]; // circle_balloon.deployed
-    case 51953109U: return &kData[1513]; // heart_balloon.deployed
-    case 1667260774U: return &kData[1514]; // latex_balloon.deployed
-    case 2097023580U: return &kData[1515]; // latexclump_balloon.deployed
-    case 2723764296U: return &kData[1516]; // mixedclump_balloon.deployed
-    case 513939161U: return &kData[1517]; // speechbubble_balloon.deployed
-    case 1969418053U: return &kData[1518]; // star_balloon.deployed
-    case 3255145925U: return &kData[1519]; // generic_world
-    case 3690849383U: return &kData[1520]; // big_wheel
-    case 2924713120U: return &kData[1521]; // bigwheelbettingterminal
-    case 2230162530U: return &kData[1522]; // slotmachine
-    case 3176258750U: return &kData[1523]; // slotmachinestorage
-    case 2084471865U: return &kData[1524]; // chinese_door_decoration
-    case 2040594012U: return &kData[1525]; // chinese_door_frame_decoration
-    case 3887352222U: return &kData[1526]; // chineselantern.deployed
-    case 2201663291U: return &kData[1527]; // chineselantern_white.deployed
-    case 4125587834U: return &kData[1528]; // dragondoorknocker.deployed
-    case 2687699909U: return &kData[1529]; // newyeargong.deployed
-    case 2869067981U: return &kData[1530]; // skylantern.deployed
-    case 4232309112U: return &kData[1531]; // skylantern.skylantern.green
-    case 2908920493U: return &kData[1532]; // skylantern.skylantern.orange
-    case 1049099687U: return &kData[1533]; // skylantern.skylantern.purple
-    case 700699236U: return &kData[1534]; // skylantern.skylantern.red
-    case 3428971889U: return &kData[1535]; // firecrackers.deployed
-    case 628064879U: return &kData[1536]; // firecrackers.entity
-    case 4267988016U: return &kData[1537]; // chippyarcademachine
-    case 2703688515U: return &kData[1538]; // confetticannon.deployed
-    case 2944302698U: return &kData[1539]; // door.double.hinged.bardoors
-    case 2846319393U: return &kData[1540]; // bathtub.planter.deployed
-    case 2264146188U: return &kData[1541]; // bathtub.planter.respawning.static
-    case 3620851723U: return &kData[1542]; // headbag
-    case 1962641099U: return &kData[1543]; // fishtrophy.deployed
-    case 471249640U: return &kData[1544]; // huntingtrophylarge.deployed
-    case 1521270672U: return &kData[1545]; // huntingtrophysmall.deployed
-    case 47518702U: return &kData[1546]; // minecart.planter.deployed
-    case 3790665304U: return &kData[1547]; // minecart.planter.respawning.static
-    case 115096413U: return &kData[1548]; // railroadplanter.deployed
-    case 758859662U: return &kData[1549]; // railroadplanter.respawning.static
-    case 3449130218U: return &kData[1550]; // triangle_railroad_planter.deployed
-    case 1808651928U: return &kData[1551]; // rockingchair.deployed
-    case 720514301U: return &kData[1552]; // rockingchair.rockingchair2.deployed
-    case 804668581U: return &kData[1553]; // rockingchair.rockingchair3.deployed
-    case 995189561U: return &kData[1554]; // skinningknife.entity
-    case 1186322904U: return &kData[1555]; // storage_barrel_b.corpse
-    case 1502013593U: return &kData[1556]; // storage_barrel_b
-    case 632015332U: return &kData[1557]; // storage_barrel_c.corpse
-    case 2261122309U: return &kData[1558]; // storage_barrel_c
-    case 1429074576U: return &kData[1559]; // unused_storage_barrel_a
-    case 39066900U: return &kData[1560]; // torchholder.deployed
-    case 18924473U: return &kData[1561]; // wantedposter.wantedposter2
-    case 1570465433U: return &kData[1562]; // wantedposter.wantedposter3
-    case 4144024614U: return &kData[1563]; // wantedposter.wantedposter4
-    case 1683627733U: return &kData[1564]; // wantedposter.deployed
-    case 3478623418U: return &kData[1565]; // bunkercannon
-    case 1051214675U: return &kData[1566]; // dwelling_orefield_large_tropical1_metal
-    case 2446035545U: return &kData[1567]; // dwelling_orefield_large_tropical1_sulfur variant
-    case 368231912U: return &kData[1568]; // dwelling_orefield_large_tropical2_metal
-    case 2462471120U: return &kData[1569]; // dwelling_orefield_large_tropical2_sulfur variant
-    case 3616866229U: return &kData[1570]; // dwelling_orefield_large_tropical3_metal
-    case 2458692433U: return &kData[1571]; // dwelling_orefield_large_tropical3_sulfur variant
-    case 521632693U: return &kData[1572]; // dwelling_orefield_large_tropical4_metal
-    case 3085970401U: return &kData[1573]; // dwelling_orefield_large_tropical4_sulfur variant
-    case 2303985447U: return &kData[1574]; // tropical_island_dwelling_a
-    case 401205269U: return &kData[1575]; // tropical_island_dwelling_blank
-    case 2326685902U: return &kData[1576]; // tropical_island_dwelling_docks_boats_a
-    case 316297516U: return &kData[1577]; // tropical_island_dwelling_docks_boats_b
-    case 1189526737U: return &kData[1578]; // tropical_island_dwelling_docks_large_a
-    case 3405314486U: return &kData[1579]; // tropical_island_dwelling_docks_small_a
-    case 2633436050U: return &kData[1580]; // tropical_island_dwelling_docks_small_b
-    case 1877198989U: return &kData[1581]; // tropical_island_dwelling_docks_small_c
-    case 579008158U: return &kData[1582]; // tropical_island_dwelling_ruins_b
-    case 1715466672U: return &kData[1583]; // tropical_island_dwelling_ruins_c
-    case 1685826038U: return &kData[1584]; // tropical_island_dwelling_ruins_d
-    case 3879517825U: return &kData[1585]; // desert_dwelling_double_a
-    case 1794805097U: return &kData[1586]; // desert_dwelling_double_b
-    case 3736202536U: return &kData[1587]; // desert_dwelling_double_c
-    case 145441199U: return &kData[1588]; // desert_dwelling_double_d
-    case 697008925U: return &kData[1589]; // desert_dwelling_double_e
-    case 1244275247U: return &kData[1590]; // desert_dwelling_double_f
-    case 1787891413U: return &kData[1591]; // desert_dwelling_double_g
-    case 1522065566U: return &kData[1592]; // desert_dwelling_double_h
-    case 141711534U: return &kData[1593]; // desert_dwelling_double_i
-    case 3753747337U: return &kData[1594]; // desert_dwelling_single_a
-    case 2116118137U: return &kData[1595]; // desert_dwelling_single_b
-    case 2655033203U: return &kData[1596]; // desert_dwelling_single_c
-    case 3783075070U: return &kData[1597]; // desert_dwelling_single_d
-    case 3182213659U: return &kData[1598]; // desert_dwelling_single_e
-    case 321391832U: return &kData[1599]; // desert_dwelling_single_f
-    case 2404833927U: return &kData[1600]; // desert_dwelling_single_g
-    case 607177296U: return &kData[1601]; // desert_dwelling_single_h
-    case 1353231516U: return &kData[1602]; // desert_dwelling_single_i
-    case 1569310753U: return &kData[1603]; // desert_dwelling_single_j
-    case 1533955323U: return &kData[1604]; // desert_dwelling_single_k
-    case 11006879U: return &kData[1605]; // desert_dwelling_single_l
-    case 2451307776U: return &kData[1606]; // desert_dwelling_single_m
-    case 4141993402U: return &kData[1607]; // desert_dwelling_single_n
-    case 2497356755U: return &kData[1608]; // desert_dwelling_single_o
-    case 3728083511U: return &kData[1609]; // desert_dwelling_single_p
-    case 1405232012U: return &kData[1610]; // desert_dwelling_single_q
-    case 420601661U: return &kData[1611]; // desert_dwelling_single_r
-    case 3879469933U: return &kData[1612]; // desert_dwelling_single_s
-    case 2419904621U: return &kData[1613]; // divesite_a
-    case 2048371271U: return &kData[1614]; // divesite_b
-    case 1891214172U: return &kData[1615]; // divesite_c
-    case 1429756914U: return &kData[1616]; // divesite_d
-    case 365020138U: return &kData[1617]; // divesite_e
-    case 3158334014U: return &kData[1618]; // divesite_f
-    case 2825845166U: return &kData[1619]; // oceanwreckbuoy
-    case 702334137U: return &kData[1620]; // oceanwreckbuoysmall
-    case 1831641807U: return &kData[1621]; // doorcloser
-    case 4124785483U: return &kData[1622]; // dynamicpreventbuilding
-    case 3375996320U: return &kData[1623]; // easter_door_wreath_deployed
-    case 557749706U: return &kData[1624]; // easter_basket.entity
-    case 3721260684U: return &kData[1625]; // eastereggprojectile
-    case 2806530431U: return &kData[1626]; // item.painted.storage
-    case 3376609576U: return &kData[1627]; // egghunt
-    case 2952734041U: return &kData[1628]; // rustigeegg_a.deployed
-    case 2769334849U: return &kData[1629]; // rustigeegg_b.deployed
-    case 2259790452U: return &kData[1630]; // rustigeegg_c.deployed
-    case 3394396962U: return &kData[1631]; // rustigeegg_d.deployed
-    case 1833328825U: return &kData[1632]; // rustigeegg_e.deployed
-    case 31755465U: return &kData[1633]; // rustigeegg_f.deployed
-    case 968699775U: return &kData[1634]; // rustigeegg_g.deployed
-    case 3584759614U: return &kData[1635]; // rustigeegg_h.deployed
-    case 2492538492U: return &kData[1636]; // collectableegg
-    case 1254812818U: return &kData[1637]; // food_cache_001
-    case 4273542191U: return &kData[1638]; // food_cache_002
-    case 3858903386U: return &kData[1639]; // food_cache_003
-    case 372904702U: return &kData[1640]; // food_cache_004
-    case 1465626697U: return &kData[1641]; // food_cache_005
-    case 1159044978U: return &kData[1642]; // ghostship
-    case 2529944595U: return &kData[1643]; // ghostship_b
-    case 752720933U: return &kData[1644]; // ghostship_c
-    case 3868701128U: return &kData[1645]; // ghostship_d
-    case 3667054617U: return &kData[1646]; // ghostshipmapmarker
-    case 1465468950U: return &kData[1647]; // candyprojectile
-    case 2495043668U: return &kData[1648]; // collectablecandy
-    case 3049520350U: return &kData[1649]; // largecandleset
-    case 3435611199U: return &kData[1650]; // smallcandleset
-    case 3038860934U: return &kData[1651]; // carvable.pumpkin
-    case 1441221703U: return &kData[1652]; // coffinstorage.corpse
-    case 4080262419U: return &kData[1653]; // coffinstorage
-    case 1348425051U: return &kData[1654]; // cursedcauldron.deployed
-    case 2548600751U: return &kData[1655]; // gravestone.stone.deployed
-    case 2983602886U: return &kData[1656]; // gravestone.wood.deployed
-    case 1766793357U: return &kData[1657]; // graveyardfence
-    case 1937756239U: return &kData[1658]; // halloweenhunt
-    case 2763047865U: return &kData[1659]; // pumpkin_basket.entity
-    case 482680556U: return &kData[1660]; // scarecrow.deployed
-    case 1273690005U: return &kData[1661]; // skullspikes.candles.deployed
-    case 4242782819U: return &kData[1662]; // skullspikes.pumpkin.deployed
-    case 1005607405U: return &kData[1663]; // skullspikes.deployed
-    case 622673951U: return &kData[1664]; // skull_door_knocker.deployed
-    case 1796973138U: return &kData[1665]; // skull_door_knocker
-    case 1906669538U: return &kData[1666]; // skull_fire_pit
-    case 1177722664U: return &kData[1667]; // spiderweba
-    case 25095088U: return &kData[1668]; // spookyspeaker
-    case 888153605U: return &kData[1669]; // skulltrophy.jar.deployed
-    case 516794212U: return &kData[1670]; // skulltrophy.jar2.deployed
-    case 3944492824U: return &kData[1671]; // skulltrophy.table.deployed
-    case 3036466305U: return &kData[1672]; // skulltrophy.deployed
-    case 545786656U: return &kData[1673]; // item_drop
-    case 1519640547U: return &kData[1674]; // item_drop_backpack
-    case 146366564U: return &kData[1675]; // item_drop_buoyant
-    case 1079458547U: return &kData[1676]; // junkpile_a
-    case 53513351U: return &kData[1677]; // junkpile_b
-    case 802190701U: return &kData[1678]; // junkpile_c
-    case 1469191396U: return &kData[1679]; // junkpile_d
-    case 2264041007U: return &kData[1680]; // junkpile_e
-    case 2993735837U: return &kData[1681]; // junkpile_f
-    case 4277459046U: return &kData[1682]; // junkpile_g
-    case 1833448838U: return &kData[1683]; // junkpile_h
-    case 3208542129U: return &kData[1684]; // junkpile_i
-    case 4214664239U: return &kData[1685]; // junkpile_j
-    case 303596648U: return &kData[1686]; // junkpile_water_a
-    case 292159419U: return &kData[1687]; // junkpile_water_b
-    case 1744083475U: return &kData[1688]; // junkpile_water_c
-    case 3742716325U: return &kData[1689]; // deliverydronemarker
-    case 2325891644U: return &kData[1690]; // drone.delivery
-    case 3953076030U: return &kData[1691]; // marketplace
-    case 407767262U: return &kData[1692]; // marketterminal
-    case 2035885868U: return &kData[1693]; // medieval.door.double.hinged.metal
-    case 1019562202U: return &kData[1694]; // medieval.door.hinged.metal
-    case 2749812535U: return &kData[1695]; // frontiermirror.large
-    case 3598691256U: return &kData[1696]; // frontiermirror.medium
-    case 912233462U: return &kData[1697]; // frontiermirror.small
-    case 3834610001U: return &kData[1698]; // frontiermirror.standing
-    case 740693447U: return &kData[1699]; // goldmirror.large
-    case 3939513589U: return &kData[1700]; // goldmirror.medium
-    case 2281266470U: return &kData[1701]; // goldmirror.small
-    case 4167032160U: return &kData[1702]; // goldmirror.standing
-    case 2236356683U: return &kData[1703]; // lightupmirror.large
-    case 1086370258U: return &kData[1704]; // lightupmirror.medium
-    case 1114298286U: return &kData[1705]; // lightupmirror.small
-    case 1845154321U: return &kData[1706]; // lightupmirror.standing
-    case 3960181825U: return &kData[1707]; // scrapmirror.large
-    case 437352593U: return &kData[1708]; // scrapmirror.medium
-    case 4086373203U: return &kData[1709]; // scrapmirror.small
-    case 1355163738U: return &kData[1710]; // scrapmirror.standing
-    case 3482661483U: return &kData[1711]; // woodmirror.large
-    case 2816380117U: return &kData[1712]; // woodmirror.medium
-    case 1417110052U: return &kData[1713]; // woodmirror.small
-    case 897377265U: return &kData[1714]; // woodmirror.standing
-    case 2899507223U: return &kData[1715]; // oil_rig_radiation
-    case 1618627814U: return &kData[1716]; // orebonus_generic
-    case 658131457U: return &kData[1717]; // orebonus_wood
-    case 1268659691U: return &kData[1718]; // parachute
-    case 2000744684U: return &kData[1719]; // parachuteunpacked
-    case 1001564208U: return &kData[1720]; // door.hinged.industrial.d
-    case 1820531533U: return &kData[1721]; // industrial.wall.lamp.blue.deployed
-    case 1908182065U: return &kData[1722]; // industrial.wall.lamp.deployed
-    case 3341019015U: return &kData[1723]; // industrial.wall.lamp.green.deployed
-    case 3293089444U: return &kData[1724]; // industrial.wall.lamp.red.deployed
-    case 1348634331U: return &kData[1725]; // pinata.deployed
-    case 2101896921U: return &kData[1726]; // platform.entity
-    case 2065397772U: return &kData[1727]; // platform.exclusion.entity
-    case 1224573690U: return &kData[1728]; // platform.force.entity
-    case 948487089U: return &kData[1729]; // staticrespawnzonecompound_vanilla
-    case 4258681299U: return &kData[1730]; // planter.small.respawning.static
-    case 2187258018U: return &kData[1731]; // simplelootbox
-    case 2030353082U: return &kData[1732]; // abovegroundpool.deployed
-    case 3552983236U: return &kData[1733]; // beachchair.deployed
-    case 1573548060U: return &kData[1734]; // beachparasol.deployed
-    case 4146728277U: return &kData[1735]; // beachtable.deployed
-    case 2298267336U: return &kData[1736]; // beachtowel.deployed.corpse
-    case 3003382652U: return &kData[1737]; // beachtowel.deployed
-    case 4218596772U: return &kData[1738]; // boogieboard.deployed
-    case 1252195950U: return &kData[1739]; // innertube.deployed
-    case 1864659065U: return &kData[1740]; // innertube.horse.deployed
-    case 2349300716U: return &kData[1741]; // innertube.unicorn.deployed
-    case 509717370U: return &kData[1742]; // instant_camera.entity
-    case 1462241537U: return &kData[1743]; // paddlingpool.deployed
-    case 34183897U: return &kData[1744]; // photo.entity
-    case 329573570U: return &kData[1745]; // photoframe.landscape
-    case 3931119293U: return &kData[1746]; // photoframe.large
-    case 1814168131U: return &kData[1747]; // photoframe.portrait
-    case 37937194U: return &kData[1748]; // watergun.entity
-    case 1502994528U: return &kData[1749]; // waterpistol.entity
-    case 3632568684U: return &kData[1750]; // supply_drop
-    case 3271649842U: return &kData[1751]; // trophy.deployed
-    case 2946164983U: return &kData[1752]; // trophy_2023.deployed
-    case 1864849250U: return &kData[1753]; // tunnel_dwelling_a
-    case 914018621U: return &kData[1754]; // tunnel_dwelling_b
-    case 2692544615U: return &kData[1755]; // tunnel_dwelling_c
-    case 4148006895U: return &kData[1756]; // tunnel_dwelling_d
-    case 1913161776U: return &kData[1757]; // tunnel_dwelling_e
-    case 1784918280U: return &kData[1758]; // tunnel_dwelling_f
-    case 2926207843U: return &kData[1759]; // tunnel_dwelling_g
-    case 563461422U: return &kData[1760]; // tunnel_dwelling_h
-    case 1970684768U: return &kData[1761]; // tunnellootstrip_a
-    case 2384030014U: return &kData[1762]; // hexagongrid.entity
-    case 608676425U: return &kData[1763]; // hexagontile_blue.entity
-    case 1104684023U: return &kData[1764]; // hexagontile_green.entity
-    case 3592367408U: return &kData[1765]; // hexagontile_purple.entity
-    case 3997402336U: return &kData[1766]; // hexagontile_red.entity
-    case 2266932968U: return &kData[1767]; // hexagontile_yellow.entity
-    case 1748062128U: return &kData[1768]; // hobobarrel.deployed
-    case 358326125U: return &kData[1769]; // door.hinged.industrial.a
-    case 1957369594U: return &kData[1770]; // twitchrivals2023_desk.ioent
-    case 379322905U: return &kData[1771]; // twitchrivals2023_desk
-    case 573313214U: return &kData[1772]; // underwaterlab_dwelling_300_corner_a
-    case 452830878U: return &kData[1773]; // underwaterlab_dwelling_300_corner_b
-    case 2543356238U: return &kData[1774]; // underwaterlab_dwelling_300_corner_c
-    case 717651109U: return &kData[1775]; // underwaterlab_dwelling_300_corner_d
-    case 3730625512U: return &kData[1776]; // underwaterlab_dwelling_300_corner_deep_a
-    case 1472035765U: return &kData[1777]; // underwaterlab_dwelling_300_corner_deep_b
-    case 297366751U: return &kData[1778]; // underwaterlab_dwelling_300_corner_deep_c
-    case 2884932104U: return &kData[1779]; // underwaterlab_dwelling_300_corner_deep_d
-    case 2882057292U: return &kData[1780]; // underwaterlab_dwelling_300_corner_deep_e
-    case 1728416769U: return &kData[1781]; // underwaterlab_dwelling_300_corner_deep_f
-    case 1196858687U: return &kData[1782]; // underwaterlab_dwelling_300_corner_deep_g
-    case 1542155264U: return &kData[1783]; // underwaterlab_dwelling_300_corner_deep_h
-    case 3832425675U: return &kData[1784]; // underwaterlab_dwelling_300_corner_deep_i
-    case 3522859745U: return &kData[1785]; // underwaterlab_dwelling_300_corner_deep_j
-    case 2703730801U: return &kData[1786]; // underwaterlab_dwelling_300_corner_deep_k
-    case 4202988174U: return &kData[1787]; // underwaterlab_dwelling_300_corner_deep_l
-    case 3778415973U: return &kData[1788]; // underwaterlab_dwelling_300_corner_e
-    case 2328541952U: return &kData[1789]; // underwaterlab_dwelling_300_corner_f
-    case 2527925506U: return &kData[1790]; // underwaterlab_dwelling_300_corner_g
-    case 366436161U: return &kData[1791]; // underwaterlab_dwelling_300_corner_h
-    case 3139283041U: return &kData[1792]; // underwaterlab_dwelling_300_corner_i
-    case 2127434160U: return &kData[1793]; // underwaterlab_dwelling_300_corner_j
-    case 3112614812U: return &kData[1794]; // underwaterlab_dwelling_300_corner_k
-    case 2087494236U: return &kData[1795]; // underwaterlab_dwelling_300_corner_l
-    case 2231268580U: return &kData[1796]; // underwaterlab_dwelling_300_corridor_a
-    case 1214133601U: return &kData[1797]; // underwaterlab_dwelling_300_corridor_b
-    case 3218090200U: return &kData[1798]; // underwaterlab_dwelling_300_edge_a
-    case 2099089818U: return &kData[1799]; // underwaterlab_dwelling_300_edge_b
-    case 4210133804U: return &kData[1800]; // underwaterlab_dwelling_300_edge_c
-    case 4020445937U: return &kData[1801]; // underwaterlab_dwelling_300_edge_d
-    case 922430532U: return &kData[1802]; // underwaterlab_dwelling_300_edge_deep_a
-    case 3773945132U: return &kData[1803]; // underwaterlab_dwelling_300_edge_deep_b
-    case 752935314U: return &kData[1804]; // underwaterlab_dwelling_300_edge_deep_c
-    case 2553093706U: return &kData[1805]; // underwaterlab_dwelling_300_edge_deep_d
-    case 3401722117U: return &kData[1806]; // underwaterlab_dwelling_300_edge_deep_e
-    case 1246106772U: return &kData[1807]; // underwaterlab_dwelling_300_edge_deep_f
-    case 2596791892U: return &kData[1808]; // underwaterlab_dwelling_300_edge_deep_g
-    case 2836373108U: return &kData[1809]; // underwaterlab_dwelling_300_edge_e
-    case 2492794546U: return &kData[1810]; // underwaterlab_dwelling_300_edge_f
-    case 4169028500U: return &kData[1811]; // underwaterlab_dwelling_300_edge_g
-    case 2253200378U: return &kData[1812]; // underwaterlab_dwelling_600_corner_a
-    case 1122132299U: return &kData[1813]; // underwaterlab_dwelling_600_corner_b
-    case 2528473143U: return &kData[1814]; // underwaterlab_dwelling_600_corner_c
-    case 369594738U: return &kData[1815]; // underwaterlab_dwelling_600_corner_d
-    case 3006311855U: return &kData[1816]; // underwaterlab_dwelling_600_corner_e
-    case 2933815190U: return &kData[1817]; // underwaterlab_dwelling_600_corner_f
-    case 355870851U: return &kData[1818]; // underwaterlab_dwelling_600_corridor_a
-    case 642230139U: return &kData[1819]; // underwaterlab_dwelling_600_corridor_b
-    case 4099081267U: return &kData[1820]; // underwaterlab_dwelling_600_corridor_double_a
-    case 3231940198U: return &kData[1821]; // underwaterlab_dwelling_600_corridor_double_b
-    case 1946304174U: return &kData[1822]; // underwaterlab_dwelling_600_corridor_double_c
-    case 4043584837U: return &kData[1823]; // underwaterlab_dwelling_600_corridor_double_d
-    case 1004620429U: return &kData[1824]; // underwaterlab_dwelling_600_edge_a
-    case 1744489200U: return &kData[1825]; // underwaterlab_dwelling_600_edge_b
-    case 1109924250U: return &kData[1826]; // waypointrace
-    case 3858313461U: return &kData[1827]; // advendcalendar.deployed
-    case 3331777431U: return &kData[1828]; // candy_cane.entity
-    case 3484744962U: return &kData[1829]; // xmas.lightstring.deployed
-    case 1747236253U: return &kData[1830]; // doorgarland.deployed
-    case 2234313662U: return &kData[1831]; // double_doorgarland.deployed
-    case 591428215U: return &kData[1832]; // giantcandycane.deployed
-    case 2216891097U: return &kData[1833]; // giftbox_loot
-    case 797759041U: return &kData[1834]; // icewall
-    case 921229511U: return &kData[1835]; // wall.external.high.ice
-    case 2711960434U: return &kData[1836]; // giantlollipops.deployed
-    case 3919686896U: return &kData[1837]; // sign.neon.125x125
-    case 3591916872U: return &kData[1838]; // sign.neon.125x215.animated
-    case 2628005754U: return &kData[1839]; // sign.neon.125x215
-    case 708840119U: return &kData[1840]; // sign.neon.xl.animated
-    case 3168507223U: return &kData[1841]; // sign.neon.xl
-    case 1447082346U: return &kData[1842]; // pookie_deployed
-    case 132493746U: return &kData[1843]; // xmas.advanced.lights.deployed
-    case 3689934812U: return &kData[1844]; // sled.deployed.xmas
-    case 4063253222U: return &kData[1845]; // sled.deployed
-    case 1473303316U: return &kData[1846]; // presentdrop
-    case 247291312U: return &kData[1847]; // santasleigh
-    case 2117501564U: return &kData[1848]; // snowmachine
-    case 591451995U: return &kData[1849]; // snowball.entity
-    case 3228215527U: return &kData[1850]; // snowballgun.entity
-    case 1103550732U: return &kData[1851]; // snowman.deployed
-    case 771996658U: return &kData[1852]; // stocking_large_deployed
-    case 3141927338U: return &kData[1853]; // stocking_small_deployed
-    case 1321691542U: return &kData[1854]; // windowgarland.deployed
-    case 2207899193U: return &kData[1855]; // christmas_door_wreath_deployed
-    case 2989328402U: return &kData[1856]; // xmasdwelling_a
-    case 4279789862U: return &kData[1857]; // xmasdwelling_b
-    case 3226822244U: return &kData[1858]; // xmasdwelling_c
-    case 3872949008U: return &kData[1859]; // xmasdwelling_d
-    case 2750850993U: return &kData[1860]; // xmasrefill
-    case 1181698029U: return &kData[1861]; // xmas_tree.deployed
-    case 3520045458U: return &kData[1862]; // xmas_tree_a.deployed
-    case 4272375622U: return &kData[1863]; // deepseatreasuremission_box
-    case 3416881577U: return &kData[1864]; // dynamicmissionstash
-    case 3294618459U: return &kData[1865]; // genericmissionlootcontainerreusable
-    case 2898645756U: return &kData[1866]; // holdmissionentity
-    case 1943082497U: return &kData[1867]; // logstash
-    case 3128236346U: return &kData[1868]; // missionlootbox_basic
-    case 3490516309U: return &kData[1869]; // missionstash
-    case 1126295133U: return &kData[1870]; // tacklebox
-    case 2750475248U: return &kData[1871]; // bunker
-    case 362606634U: return &kData[1872]; // bunker_corridor_a
-    case 2895212062U: return &kData[1873]; // bunker_door_portal
-    case 3789623955U: return &kData[1874]; // bunker_entrance
-    case 3939551954U: return &kData[1875]; // halloweenportalentry
-    case 1686410832U: return &kData[1876]; // halloweenportalexit
-    case 3461158248U: return &kData[1877]; // minedungeon
-    case 3343729976U: return &kData[1878]; // xmastunnellootbox
-    case 2614965312U: return &kData[1879]; // xmasgingerbreaddungeon
-    case 2270960267U: return &kData[1880]; // xmasportalentry
-    case 2696291976U: return &kData[1881]; // xmasportalexit
-    case 3586383791U: return &kData[1882]; // crate_elite_tutorial
-    case 25203603U: return &kData[1883]; // crate_tools_tutorial
-    case 2744328499U: return &kData[1884]; // endtutorialcinematic
-    case 1380255172U: return &kData[1885]; // loot-barrel-tutorial
-    case 3290961355U: return &kData[1886]; // tutorialisland
-    case 3719689594U: return &kData[1887]; // tutorialmapmarker
-    case 3317159439U: return &kData[1888]; // apartment_security
-    case 3396970230U: return &kData[1889]; // apartment_vendor
-    case 3312510084U: return &kData[1890]; // autoturret_deployed
-    case 2823049573U: return &kData[1891]; // industrial_autoturret_deployed
-    case 3960558419U: return &kData[1892]; // airwolfspawner
-    case 2609911909U: return &kData[1893]; // boatspawner
-    case 4058311563U: return &kData[1894]; // horsespawner
-    case 372889267U: return &kData[1895]; // missionprovider_bandit_a
-    case 322083179U: return &kData[1896]; // missionprovider_bandit_b
-    case 350957926U: return &kData[1897]; // missionprovider_fishing_a
-    case 3694999410U: return &kData[1898]; // missionprovider_fishing_b
-    case 2263543605U: return &kData[1899]; // missionprovider_floatingcity_a
-    case 4018233975U: return &kData[1900]; // missionprovider_generic_a
-    case 3928572443U: return &kData[1901]; // missionprovider_outpost_a
-    case 1091655158U: return &kData[1902]; // missionprovider_outpost_b
-    case 930153435U: return &kData[1903]; // missionprovider_stables_a
-    case 3892089538U: return &kData[1904]; // missionprovider_stables_b
-    case 251735616U: return &kData[1905]; // bandit_conversationalist
-    case 2404773048U: return &kData[1906]; // bandit_shopkeeper
-    case 2891949068U: return &kData[1907]; // bandit_shopkeeper_sitting
-    case 2913617060U: return &kData[1908]; // boat_shopkeeper
-    case 4115840942U: return &kData[1909]; // missionprovider_test
-    case 7488435U: return &kData[1910]; // stables_shopkeeper
-    case 3827650729U: return &kData[1911]; // beemasterswarm
-    case 4224371694U: return &kData[1912]; // beeswarm
-    case 2383782438U: return &kData[1913]; // cargo_plane
-    case 680397581U: return &kData[1914]; // alarmsytstem
-    case 1675349834U: return &kData[1915]; // ch47.entity
-    case 1514383717U: return &kData[1916]; // ch47scientists.entity
-    case 667569163U: return &kData[1917]; // reinforcementslistener
-    case 3745320211U: return &kData[1918]; // servergibs_ch47
-    case 4075317686U: return &kData[1919]; // flameturret.deployed
-    case 2781905939U: return &kData[1920]; // flameturret_fireball
-    case 204695781U: return &kData[1921]; // farm_access_guard
-    case 3250554959U: return &kData[1922]; // gingerbread_corpse_female
-    case 3865171876U: return &kData[1923]; // gingerbread_corpse_male
-    case 2992757580U: return &kData[1924]; // gingerbread_dungeon
-    case 1172642608U: return &kData[1925]; // gingerbread_meleedungeon
-    case 1737870479U: return &kData[1926]; // bradley_crate
-    case 1456850188U: return &kData[1927]; // bradleyapc
-    case 3032863244U: return &kData[1928]; // maincannonshell
-    case 3761185980U: return &kData[1929]; // oilfireball2
-    case 4214400966U: return &kData[1930]; // servergibs_bradley
-    case 2400390439U: return &kData[1931]; // murderer_corpse
-    case 1314849795U: return &kData[1932]; // heli_crate
-    case 3029415845U: return &kData[1933]; // patrolhelicopter
-    case 2618904203U: return &kData[1934]; // patrolhelicopterfleemarker
-    case 3212876472U: return &kData[1935]; // patrolhelicoptermarker
-    case 129320027U: return &kData[1936]; // rocket_heli
-    case 3253859536U: return &kData[1937]; // rocket_heli_airburst
-    case 200672762U: return &kData[1938]; // rocket_heli_napalm
-    case 1829321077U: return &kData[1939]; // servergibs_patrolhelicopter
-    case 2160908677U: return &kData[1940]; // rocket_sam
-    case 3414321847U: return &kData[1941]; // sam_ammo
-    case 2059775839U: return &kData[1942]; // sam_site_turret_deployed
-    case 2934818568U: return &kData[1943]; // sam_static
-    case 3473349223U: return &kData[1944]; // scarecrow
-    case 3019050354U: return &kData[1945]; // scarecrow_dungeon
-    case 70161046U: return &kData[1946]; // scarecrow_dungeonnoroam
-    case 1236143239U: return &kData[1947]; // scientist_corpse
-    case 2857401739U: return &kData[1948]; // npcvendorturretmodified variant
-    case 4291749291U: return &kData[1949]; // npcvendorturretside
-    case 3338740337U: return &kData[1950]; // travellingvendor
-    case 3344407138U: return &kData[1951]; // missionprovider_tutorial
-    case 1907791058U: return &kData[1952]; // waterwell_shopkeeper
-    case 681646903U: return &kData[1953]; // physicsentitycube
-    case 4224922530U: return &kData[1954]; // physicsentitycube_maxfriction
-    case 2366673790U: return &kData[1955]; // physicsentitycube_maxfriction_heavy
-    case 474343723U: return &kData[1956]; // physicsentitycube_maxfriction_light
-    case 654911969U: return &kData[1957]; // black_berry.entity
-    case 402225589U: return &kData[1958]; // blue_berry.entity
-    case 1267013032U: return &kData[1959]; // green_berry.entity
-    case 3359110450U: return &kData[1960]; // red_berry.entity
-    case 4038822397U: return &kData[1961]; // white_berry.entity
-    case 2747504285U: return &kData[1962]; // yellow_berry.entity
-    case 112964822U: return &kData[1963]; // corn.entity
-    case 3587624038U: return &kData[1964]; // hemp.entity
-    case 2529869539U: return &kData[1965]; // orchid.entity
-    case 451737085U: return &kData[1966]; // potato.entity
-    case 1524652375U: return &kData[1967]; // pumpkin.entity
-    case 773690139U: return &kData[1968]; // rose.entity
-    case 3882604163U: return &kData[1969]; // sunflower.entity
-    case 1410137143U: return &kData[1970]; // wheat.entity
-    case 4108440852U: return &kData[1971]; // player
-    case 2604534927U: return &kData[1972]; // player_corpse
-    case 391715894U: return &kData[1973]; // player_corpse_new
-    case 886972632U: return &kData[1974]; // player_temp_ragdoll
-    case 120188964U: return &kData[1975]; // advancedblueprintfragment_pickup.entity
-    case 4011844428U: return &kData[1976]; // basicblueprintfragment_pickup.entity
-    case 14164597U: return &kData[1977]; // basicblueprintfragment_singlepickup.entity
-    case 4140706055U: return &kData[1978]; // diesel_barrel_world
-    case 2046937803U: return &kData[1979]; // horsedung.entity
-    case 3451647698U: return &kData[1980]; // crudeoilproducer
-    case 3154707280U: return &kData[1981]; // waterproducer
-    case 3813053556U: return &kData[1982]; // waterproducer_invisible
-    case 1577933610U: return &kData[1983]; // beehive.natural
-    case 1395966456U: return &kData[1984]; // satellitecontrolcomputer.entity
-    case 1346829530U: return &kData[1985]; // satellitecontrolcomputer.static.entity
-    case 3673999874U: return &kData[1986]; // satellitecontrolcomputer_storage.entity
-    case 3827148288U: return &kData[1987]; // satellite_crate_1.entity
-    case 1629625041U: return &kData[1988]; // satellite_crate_2.entity
-    case 3217579596U: return &kData[1989]; // satellite_crate_3.entity
-    case 900308836U: return &kData[1990]; // satellite.entity
-    case 1877649312U: return &kData[1991]; // satellite_pending_crash_site.entity
-    case 2443571139U: return &kData[1992]; // satellite_remains.entity
-    case 436023350U: return &kData[1993]; // binocular.entity
-    case 3898309212U: return &kData[1994]; // explosive.timed.deployed
-    case 1915331115U: return &kData[1995]; // explosive.timed.entity
-    case 1410597758U: return &kData[1996]; // tool_camera
-    case 2757054139U: return &kData[1997]; // compass.entity
-    case 2686008770U: return &kData[1998]; // generic_deploy
-    case 3503830994U: return &kData[1999]; // detonator.entity
-    case 2984848657U: return &kData[2000]; // bobber.entity
-    case 2057865657U: return &kData[2001]; // fishing_rod.entity
-    case 816085840U: return &kData[2002]; // overfishedarea
-    case 1693887801U: return &kData[2003]; // flare.deployed
-    case 2661658442U: return &kData[2004]; // flare.weapon
-    case 72718095U: return &kData[2005]; // flashlight.entity
-    case 47304962U: return &kData[2006]; // geiger_counter.entity
-    case 3263286159U: return &kData[2007]; // handcuffs.entity
-    case 3568270288U: return &kData[2008]; // hosetool.entity
-    case 3537156861U: return &kData[2009]; // jackhammer.entity
-    case 3773357817U: return &kData[2010]; // keycard.entity
-    case 675407027U: return &kData[2011]; // keycard_blue_pickup.entity
-    case 1317896088U: return &kData[2012]; // keycard_green_pickup.entity
-    case 3985212893U: return &kData[2013]; // keycard_red_pickup.entity
-    case 1777756171U: return &kData[2014]; // concrete_hatchet.entity
-    case 1480417083U: return &kData[2015]; // concrete_pickaxe.entity
-    case 4035646930U: return &kData[2016]; // lumberjack_axe.entity
-    case 1725165540U: return &kData[2017]; // lumberjack_pick.entity
-    case 843218194U: return &kData[2018]; // cargomarker
-    case 3775898198U: return &kData[2019]; // ch47marker
-    case 2913233310U: return &kData[2020]; // cinemarkera
-    case 1697598722U: return &kData[2021]; // cinemarkerb
-    case 4244600952U: return &kData[2022]; // cinemarkerc
-    case 2366974922U: return &kData[2023]; // cratemarker
-    case 4060989661U: return &kData[2024]; // explosionmarker
-    case 2849728229U: return &kData[2025]; // genericradiusmarker
-    case 491065559U: return &kData[2026]; // map
-    case 1670391308U: return &kData[2027]; // missionprovidermarker
-    case 4216742342U: return &kData[2028]; // travellingvendormarker
-    case 1148470020U: return &kData[2029]; // masterkey.entity
-    case 283937635U: return &kData[2030]; // syringe_medical.entity
-    case 892200099U: return &kData[2031]; // metal_detector.entity
-    case 1406086660U: return &kData[2032]; // metal_detector_flag.entity
-    case 3282154567U: return &kData[2033]; // metal_detector_flag_deepsea.entity
-    case 1244235496U: return &kData[2034]; // metal_detector_source.entity
-    case 1791061997U: return &kData[2035]; // metal_detector_source_deepsea.entity
-    case 819836910U: return &kData[2036]; // metal_detector_source_deepsea_mission.entity
-    case 3864758412U: return &kData[2037]; // outbreak_sprayer.entity
-    case 2918467232U: return &kData[2038]; // pager.entity
-    case 3896504765U: return &kData[2039]; // pipetool.entity
-    case 2721033560U: return &kData[2040]; // boat_planner.entity
-    case 3378931327U: return &kData[2041]; // building_planner.entity
-    case 3196650451U: return &kData[2042]; // shovel.entity
-    case 1464001967U: return &kData[2043]; // grenade.smoke.deployed
-    case 3642747736U: return &kData[2044]; // smoke_grenade.weapon
-    case 2542129442U: return &kData[2045]; // spraylinedecal
-    case 4251031431U: return &kData[2046]; // spraycan.weapon
-    case 3884356627U: return &kData[2047]; // spray.decal
-    case 3350651790U: return &kData[2048]; // grenade.supplysignal.deployed
-    case 775476535U: return &kData[2049]; // supplysignal.weapon
-    case 2141863453U: return &kData[2050]; // survey_charge.deployed
-    case 2698594377U: return &kData[2051]; // survey_charge
-    case 2955484243U: return &kData[2052]; // survey_crater
-    case 1917257452U: return &kData[2053]; // survey_crater_oil
-    case 4258987144U: return &kData[2054]; // wiretool.entity
-    case 1600307371U: return &kData[2055]; // arcadeuser
-    case 70742988U: return &kData[2056]; // attackhelidriver
-    case 240871686U: return &kData[2057]; // attackheligunner
-    case 4261260455U: return &kData[2058]; // bikedriverseat
-    case 3025064202U: return &kData[2059]; // bikepassengerseat
-    case 1070668182U: return &kData[2060]; // copilotseat
-    case 1103757790U: return &kData[2061]; // craneoperator
-    case 4088163379U: return &kData[2062]; // driverseat
-    case 986236302U: return &kData[2063]; // gunnertest
-    case 262646847U: return &kData[2064]; // horsesaddle
-    case 2508371933U: return &kData[2065]; // horsesaddlerear
-    case 3811102955U: return &kData[2066]; // internalmounteddouble50calturretseat
-    case 780491012U: return &kData[2067]; // internalmountedturretseat
-    case 2907322464U: return &kData[2068]; // kayakseat
-    case 3398691772U: return &kData[2069]; // locomotivedriver
-    case 1231746772U: return &kData[2070]; // minihelipassenger
-    case 3742994540U: return &kData[2071]; // miniheliseat
-    case 1924089654U: return &kData[2072]; // modularcardriverseat
-    case 894444950U: return &kData[2073]; // modularcarpassengerseatleft
-    case 2487473786U: return &kData[2074]; // modularcarpassengerseatlesslegroomleft
-    case 1826159939U: return &kData[2075]; // modularcarpassengerseatlesslegroomright
-    case 205354363U: return &kData[2076]; // modularcarpassengerseatright
-    case 4116606551U: return &kData[2077]; // modularcarpassengerseatsidewayleft
-    case 1359197088U: return &kData[2078]; // motorbikedriverseat
-    case 1177038454U: return &kData[2079]; // motorbikepassengerseat
-    case 3398060938U: return &kData[2080]; // parachuteseat
-    case 2304142695U: return &kData[2081]; // passenger
-    case 1954020959U: return &kData[2082]; // passengerchair
-    case 952100854U: return &kData[2083]; // pilotseat
-    case 212381033U: return &kData[2084]; // ptboatdriver
-    case 108682576U: return &kData[2085]; // ptboatpassenger
-    case 2257815105U: return &kData[2086]; // rhibdriver
-    case 2709229839U: return &kData[2087]; // roundaboutchair
-    case 1212881407U: return &kData[2088]; // sledseatfront
-    case 518673090U: return &kData[2089]; // sledseatrear
-    case 1239975468U: return &kData[2090]; // smallboatdriver
-    case 3241157857U: return &kData[2091]; // smallboatpassenger
-    case 836439399U: return &kData[2092]; // snowmobiledriverseat
-    case 1103815396U: return &kData[2093]; // snowmobilepassengerseat tomaha
-    case 2602628913U: return &kData[2094]; // snowmobilepassengerseat
-    case 1392704482U: return &kData[2095]; // standingdriver
-    case 342862053U: return &kData[2096]; // standingmounted50calturretseat
-    case 980028944U: return &kData[2097]; // standingmountedturretseat
-    case 309883022U: return &kData[2098]; // submarineduodriverseat
-    case 2802580699U: return &kData[2099]; // submarineduopassengerseat
-    case 1922108893U: return &kData[2100]; // submarinesolodriverstanding
-    case 1130710742U: return &kData[2101]; // swingseat
-    case 3179168237U: return &kData[2102]; // testseat
-    case 1771416011U: return &kData[2103]; // transporthelicopilot
-    case 3180731352U: return &kData[2104]; // transporthelipilot
-    case 1955582400U: return &kData[2105]; // tugboatdriver
-    case 1948876508U: return &kData[2106]; // twitchbusseat
-    case 311277167U: return &kData[2107]; // workcartdriver
-    case 3211242734U: return &kData[2108]; // sphere
-    case 244503553U: return &kData[2109]; // boombox.deployed
-    case 1709505846U: return &kData[2110]; // boombox.deployed.static
-    case 1771910647U: return &kData[2111]; // boombox.static
-    case 617635188U: return &kData[2112]; // boomboxportable.weapon
-    case 3549123016U: return &kData[2113]; // cassette.entity
-    case 1513498993U: return &kData[2114]; // cassette.medium.entity
-    case 253547591U: return &kData[2115]; // cassette.short.entity
-    case 760079751U: return &kData[2116]; // cassetterecorder.deployed
-    case 705457609U: return &kData[2117]; // cassetterecorder.weapon
-    case 2613307285U: return &kData[2118]; // discoball.deployed
-    case 3677777210U: return &kData[2119]; // discofloor.deployed
-    case 1416531191U: return &kData[2120]; // discofloor.largetiles.deployed
-    case 350348582U: return &kData[2121]; // connectedspeaker.deployed
-    case 3946294029U: return &kData[2122]; // connectedspeaker.deployed.static
-    case 4083964466U: return &kData[2123]; // laserlight.deployed
-    case 3942416854U: return &kData[2124]; // megaphone.weapon
-    case 3061223907U: return &kData[2125]; // microphonestand.deployed
-    case 113644298U: return &kData[2126]; // microphonestand.deployed.static
-    case 1240315717U: return &kData[2127]; // microphonestandio.entity
-    case 1226049576U: return &kData[2128]; // microphonestandio.entity.static
-    case 3945729556U: return &kData[2129]; // mobileinventory.entity
-    case 2342841515U: return &kData[2130]; // mobilephone.weapon
-    case 58106244U: return &kData[2131]; // soundlight.deployed
-    case 2160363615U: return &kData[2132]; // telephone.deployed
-    case 2416512278U: return &kData[2133]; // ceilingpaper.entity_iconrender
-    case 1151746608U: return &kData[2134]; // wallpaper.doorway.construction
-    case 2910744970U: return &kData[2135]; // wallpaper.floor.construction
-    case 2061122277U: return &kData[2136]; // wallpaper.floor.triangle.construction
-    case 921716393U: return &kData[2137]; // wallpaper.foundation.construction
-    case 2418284139U: return &kData[2138]; // wallpaper.foundation.triangle.construction
-    case 3884404330U: return &kData[2139]; // wallpaper.roof.construction
-    case 3383920777U: return &kData[2140]; // wallpaper.roof.triangle.construction
-    case 2402782496U: return &kData[2141]; // wallpaper.wall.construction
-    case 2617353051U: return &kData[2142]; // wallpaper.wall.half.construction
-    case 3024970135U: return &kData[2143]; // wallpaper.wall.low.construction
-    case 2434851882U: return &kData[2144]; // wallpaper.window.construction
-    case 1379706361U: return &kData[2145]; // floorpaper.entity_iconrender
-    case 3945642922U: return &kData[2146]; // wallpaper.entity_iconrender
-    case 2811911262U: return &kData[2147]; // wallpaper.tool.entity
-    case 4005260636U: return &kData[2148]; // 8xscope.entity
-    case 545873399U: return &kData[2149]; // 8xscope.vm.attachment
-    case 1243102785U: return &kData[2150]; // burstmodule.entity
-    case 330399465U: return &kData[2151]; // extendedmags.entity
-    case 3357772531U: return &kData[2152]; // flashlight.entity
-    case 1529000711U: return &kData[2153]; // flashlight.vm.attachment
-    case 869056374U: return &kData[2154]; // gascompressionoverdrive.entity
-    case 1518608834U: return &kData[2155]; // holosight.entity
-    case 1968563077U: return &kData[2156]; // holosight.vm.attachment
-    case 768584306U: return &kData[2157]; // lasersight.entity
-    case 3175048729U: return &kData[2158]; // lasersight.vm.attachment
-    case 4161515557U: return &kData[2159]; // muzzleboost.entity
-    case 3158761202U: return &kData[2160]; // muzzlebrake.entity
-    case 320811722U: return &kData[2161]; // simplesight.entity
-    case 1623429255U: return &kData[2162]; // simplesight.vm.attachment
-    case 516933957U: return &kData[2163]; // oilfiltersilencer.entity
-    case 2395313048U: return &kData[2164]; // silencer.entity
-    case 688872962U: return &kData[2165]; // sodacansilencer.entity
-    case 2957289628U: return &kData[2166]; // smallscope.entity
-    case 3672170763U: return &kData[2167]; // smallscope.vm.attachment
-    case 40635747U: return &kData[2168]; // targetingattachment.entity
-    case 1978739833U: return &kData[2169]; // ak47u.entity
-    case 4096772971U: return &kData[2170]; // ak47u_diver.entity
-    case 2408471514U: return &kData[2171]; // ak47u.glass.blue.entity
-    case 3842925800U: return &kData[2172]; // ak47u.glass.entity
-    case 1246348333U: return &kData[2173]; // ak47u.glass.green.entity
-    case 2779585845U: return &kData[2174]; // ak47u.glass.pink.entity
-    case 3312136396U: return &kData[2175]; // ak47u.glass.red.entity
-    case 1942738569U: return &kData[2176]; // ak47u_ice.entity
-    case 1934468549U: return &kData[2177]; // ak47u_jungle.entity
-    case 3192146626U: return &kData[2178]; // ak47u_med.entity
-    case 1383987667U: return &kData[2179]; // bandage.entity
-    case 2144399804U: return &kData[2180]; // grenade.beancan.deployed
-    case 3654150932U: return &kData[2181]; // grenade.beancan.entity
-    case 4036845226U: return &kData[2182]; // grenade.bee.deployed
-    case 3444797639U: return &kData[2183]; // grenade.bee.entity
-    case 996318821U: return &kData[2184]; // blowpipe.entity
-    case 2557812813U: return &kData[2185]; // blunderbuss.entity
-    case 1665481300U: return &kData[2186]; // bolt_rifle.entity
-    case 3097934597U: return &kData[2187]; // bone_club.entity
-    case 1483241467U: return &kData[2188]; // knife_bone.entity
-    case 1443663060U: return &kData[2189]; // bone.knife.obsidian.entity
-    case 1402819630U: return &kData[2190]; // boomerang.entity
-    case 3604660177U: return &kData[2191]; // boomerang.thrown.entity
-    case 2836331625U: return &kData[2192]; // bow_hunting.entity
-    case 1980046596U: return &kData[2193]; // cake.entity
-    case 1802634117U: return &kData[2194]; // chainsaw.entity
-    case 3340056040U: return &kData[2195]; // salvaged_cleaver.entity
-    case 3814317397U: return &kData[2196]; // cny_spear.entity
-    case 1537401592U: return &kData[2197]; // compound_bow.entity
-    case 2727391082U: return &kData[2198]; // crossbow.entity
-    case 777174364U: return &kData[2199]; // crossbow_bowless.entity
-    case 2730518698U: return &kData[2200]; // explosivesiegedeployable
-    case 3599700023U: return &kData[2201]; // flammablesiegedeployable
-    case 1396987940U: return &kData[2202]; // diver_hatchet.entity
-    case 190635670U: return &kData[2203]; // diver_pickaxe.entity
-    case 1029607191U: return &kData[2204]; // diver_torch.entity
-    case 3474489095U: return &kData[2205]; // double_shotgun.entity
-    case 2176761593U: return &kData[2206]; // pistol_eoka.entity
-    case 1128089209U: return &kData[2207]; // grenade.f1.deployed
-    case 45697420U: return &kData[2208]; // grenade.f1.entity
-    case 3717106868U: return &kData[2209]; // flamethrower.entity
-    case 844008300U: return &kData[2210]; // flamethrower_fireball
-    case 1436152685U: return &kData[2211]; // grenade.flashbang.deployed
-    case 758326244U: return &kData[2212]; // grenade.flashbang.entity
-    case 3662083119U: return &kData[2213]; // frontier_hatchet.entity
-    case 636374895U: return &kData[2214]; // glock.entity
-    case 1233562048U: return &kData[2215]; // mgl.entity
-    case 2487927393U: return &kData[2216]; // hacksaw.weapon
-    case 1769459881U: return &kData[2217]; // mace.baseballbat
-    case 1362182970U: return &kData[2218]; // butcherknife.entity
-    case 1009417331U: return &kData[2219]; // pitchfork.entity
-    case 124547093U: return &kData[2220]; // sickle.entity
-    case 3258690150U: return &kData[2221]; // skulltorch.entity
-    case 1140399555U: return &kData[2222]; // skull.entity
-    case 2186616991U: return &kData[2223]; // vampirestake.entity
-    case 388861612U: return &kData[2224]; // hammer.entity
-    case 365233245U: return &kData[2225]; // hatchet.entity
-    case 2154182718U: return &kData[2226]; // hc_revolver.entity
-    case 3459133190U: return &kData[2227]; // hmlmg.entity
-    case 542600037U: return &kData[2228]; // homing_missile_launcher.entity
-    case 678281183U: return &kData[2229]; // seekertest
-    case 3088514867U: return &kData[2230]; // improvisedshield.entity
-    case 327944951U: return &kData[2231]; // knife.combat.entity
-    case 2957160983U: return &kData[2232]; // sunken.knife.combat.entity
-    case 2620171289U: return &kData[2233]; // l96.entity
-    case 1400027705U: return &kData[2234]; // legacybow.entity
-    case 844375121U: return &kData[2235]; // lr300.entity
-    case 1407888186U: return &kData[2236]; // lr300_space.entity
-    case 4258809631U: return &kData[2237]; // m16a2.entity
-    case 1440914039U: return &kData[2238]; // m249.entity
-    case 1517089664U: return &kData[2239]; // m39.entity
-    case 2416998201U: return &kData[2240]; // m4_shotgun.entity
-    case 2293870814U: return &kData[2241]; // m92.entity
-    case 2927698044U: return &kData[2242]; // mace.entity
-    case 2942508801U: return &kData[2243]; // machete.weapon
-    case 89391648U: return &kData[2244]; // honeybandage.entity
-    case 3703020820U: return &kData[2245]; // metalshield.entity
-    case 1710208928U: return &kData[2246]; // militaryflamethrower.entity
-    case 4274044420U: return &kData[2247]; // mini_crossbow.entity
-    case 4007138847U: return &kData[2248]; // minigun.entity
-    case 2144253630U: return &kData[2249]; // grenade.molotov.deployed
-    case 4104126979U: return &kData[2250]; // grenade.molotov.entity
-    case 2545523575U: return &kData[2251]; // mp5.entity
-    case 4279856314U: return &kData[2252]; // nailgun.entity
-    case 1850172004U: return &kData[2253]; // paddle.entity
-    case 3749252572U: return &kData[2254]; // paintballgun.entity
-    case 1587077350U: return &kData[2255]; // pickaxe.entity
-    case 2696589892U: return &kData[2256]; // shotgun_waterpipe.entity
-    case 3305012504U: return &kData[2257]; // python.entity
-    case 2274489607U: return &kData[2258]; // reinforcedwoodshield.entity
-    case 2477536592U: return &kData[2259]; // pistol_revolver.entity
-    case 3940068399U: return &kData[2260]; // rock.entity
-    case 1746720686U: return &kData[2261]; // rock.a.jungle.entity
-    case 601440135U: return &kData[2262]; // rocket_launcher.entity
-    case 3704640358U: return &kData[2263]; // rocket_launcher_dragon.entity
-    case 3445264346U: return &kData[2264]; // rpg7.entity
-    case 3826414185U: return &kData[2265]; // axe_salvaged.entity
-    case 1744180387U: return &kData[2266]; // hammer_salvaged.entity
-    case 109244214U: return &kData[2267]; // icepick_salvaged.entity
-    case 2742759844U: return &kData[2268]; // explosive.satchel.deployed
-    case 2671523489U: return &kData[2269]; // explosive.satchel.entity
-    case 554582418U: return &kData[2270]; // shotgun_pump.entity
-    case 563371667U: return &kData[2271]; // pistol_semiauto.entity
-    case 2343718176U: return &kData[2272]; // pistol_semiauto.a.m15.entity
-    case 4231282088U: return &kData[2273]; // semi_auto_rifle.entity
-    case 4228529517U: return &kData[2274]; // sks.entity
-    case 3759841439U: return &kData[2275]; // smg.entity
-    case 1877401463U: return &kData[2276]; // spas12.entity
-    case 4262383355U: return &kData[2277]; // speargun.entity
-    case 3540736579U: return &kData[2278]; // stonehatchet.entity
-    case 1450582435U: return &kData[2279]; // stone_pickaxe.entity
-    case 1943636975U: return &kData[2280]; // spear_stone.entity
-    case 3395979968U: return &kData[2281]; // longsword.entity
-    case 1663991785U: return &kData[2282]; // salvaged_sword.entity
-    case 4251501342U: return &kData[2283]; // t1_smg.entity
-    case 3243900999U: return &kData[2284]; // thompson.entity
-    case 417347909U: return &kData[2285]; // toolgun.entity
-    case 1288011403U: return &kData[2286]; // industrial_torch.entity
-    case 1543342082U: return &kData[2287]; // torch.entity
-    case 4148293472U: return &kData[2288]; // krieg_chainsword.entity
-    case 1896956209U: return &kData[2289]; // krieg_shotgun.entity
-    case 556797242U: return &kData[2290]; // waterball
-    case 1182699531U: return &kData[2291]; // waterbucket.entity
-    case 3637711865U: return &kData[2292]; // woodenshield.entity
-    case 2828546575U: return &kData[2293]; // spear_wooden.entity
-    case 4102891990U: return &kData[2294]; // bear.corpse
-    case 1799741974U: return &kData[2295]; // bear
-    case 3849045871U: return &kData[2296]; // bear_tutorial.corpse
-    case 3752179891U: return &kData[2297]; // bear_tutorial
-    case 2275652760U: return &kData[2298]; // polarbear.corpse
-    case 749308997U: return &kData[2299]; // polarbear
-    case 3307373733U: return &kData[2300]; // boar.corpse
-    case 502341109U: return &kData[2301]; // boar
-    case 1784396605U: return &kData[2302]; // bottest
-    case 345706504U: return &kData[2303]; // chicken.corpse
-    case 1502667878U: return &kData[2304]; // chicken.corpse.tutorial
-    case 152398164U: return &kData[2305]; // chicken
-    case 2830011179U: return &kData[2306]; // chicken.tutorial
-    case 2697812644U: return &kData[2307]; // crocodile.corpse
-    case 43745372U: return &kData[2308]; // crocodile
-    case 3051190050U: return &kData[2309]; // shark.corpse
-    case 1738989765U: return &kData[2310]; // shark_unused
-    case 947646353U: return &kData[2311]; // simpleshark
-    case 412745708U: return &kData[2312]; // npc_bandit_guard
-    case 1630143092U: return &kData[2313]; // npcgrenade.smoke
-    case 3554738798U: return &kData[2314]; // scientist2.corpse
-    case 3292751488U: return &kData[2315]; // scientist2.grenade.f1.deployed
-    case 1013743524U: return &kData[2316]; // scientist2.grenade.smoke.deployed
-    case 1179669532U: return &kData[2317]; // scientist2.heavy.corpse
-    case 2254599158U: return &kData[2318]; // scientist2.heavy
-    case 4227413660U: return &kData[2319]; // scientist2
-    case 3441714695U: return &kData[2320]; // scientist2.shotgun
-    case 3430609603U: return &kData[2321]; // scientistnpc_arena
-    case 1126473739U: return &kData[2322]; // scientistnpc_bradley
-    case 3572389335U: return &kData[2323]; // scientistnpc_bradley_heavy
-    case 3623670799U: return &kData[2324]; // scientistnpc_cargo
-    case 1639447304U: return &kData[2325]; // scientistnpc_cargo_turret_any
-    case 881071619U: return &kData[2326]; // scientistnpc_cargo_turret_lr300
-    case 1017671955U: return &kData[2327]; // scientistnpc_ch47_gunner
-    case 4293908444U: return &kData[2328]; // scientistnpc_excavator
-    case 1539172658U: return &kData[2329]; // scientistnpc_full_any
-    case 3763080634U: return &kData[2330]; // scientistnpc_full_lr300
-    case 3595426380U: return &kData[2331]; // scientistnpc_full_mp5
-    case 712785714U: return &kData[2332]; // scientistnpc_full_pistol
-    case 1410044857U: return &kData[2333]; // scientistnpc_full_shotgun
-    case 1536035819U: return &kData[2334]; // scientistnpc_heavy
-    case 2066159302U: return &kData[2335]; // scientistnpc_junkpile_pistol
-    case 548379897U: return &kData[2336]; // scientistnpc_oilrig
-    case 2392284122U: return &kData[2337]; // scientistnpc_outbreak
-    case 4272904018U: return &kData[2338]; // scientistnpc_patrol
-    case 387319993U: return &kData[2339]; // scientistnpc_patrol_arctic
-    case 2390854225U: return &kData[2340]; // scientistnpc_peacekeeper
-    case 499806986U: return &kData[2341]; // scientistnpc_ptboat
-    case 1361476945U: return &kData[2342]; // scientistnpc_rhib
-    case 4199494415U: return &kData[2343]; // scientistnpc_roam
-    case 4134517186U: return &kData[2344]; // scientistnpc_roam_nvg_variant
-    case 529928930U: return &kData[2345]; // scientistnpc_roamtethered
-    case 732025282U: return &kData[2346]; // npc_tunneldweller
-    case 1934869703U: return &kData[2347]; // npc_tunneldwellerspawned
-    case 1605597847U: return &kData[2348]; // npc_underwaterdweller
-    case 1256759028U: return &kData[2349]; // npcplayertest
-    case 3489787657U: return &kData[2350]; // frankensteinpet
-    case 3842948583U: return &kData[2351]; // frankensteinpet_corpse
-    case 3667371159U: return &kData[2352]; // frankensteinpetmarker
-    case 2835842148U: return &kData[2353]; // panther.corpse
-    case 711690240U: return &kData[2354]; // panther
-    case 1265808053U: return &kData[2355]; // snake.corpse
-    case 711144264U: return &kData[2356]; // snake.entity
-    case 784238137U: return &kData[2357]; // stag.corpse
-    case 1378621008U: return &kData[2358]; // stag
-    case 4224089064U: return &kData[2359]; // tigerclawmark
-    case 2675550198U: return &kData[2360]; // tiger.corpse
-    case 3242487723U: return &kData[2361]; // tiger
-    case 4107384580U: return &kData[2362]; // wolf.corpse
-    case 2288788453U: return &kData[2363]; // wolf2
-    case 81333250U: return &kData[2364]; // zombie.corpse
-    case 2805320019U: return &kData[2365]; // zombie
-    case 520240521U: return &kData[2366]; // airdrop rate terminal
-    case 1580739U: return &kData[2367]; // chinook call terminal
-    case 880072591U: return &kData[2368]; // gasstationcarlift
-    case 3344299633U: return &kData[2369]; // gasstationlootspawnswitcher
-    case 2432661514U: return &kData[2370]; // gasstationwidegaragedoor
-    case 4234742552U: return &kData[2371]; // coaling_tower_mechanism.entity
-    case 597741544U: return &kData[2372]; // coaling_tower_fuel_storage.entity
-    case 3609973791U: return &kData[2373]; // coaling_tower_ore_storage.entity
-    case 1732020479U: return &kData[2374]; // watertreatment_pipe_waterproducer
-    case 1825376703U: return &kData[2375]; // wtp_watertankspinner
-    case 2100330297U: return &kData[2376]; // f15e
-    case 3989929317U: return &kData[2377]; // visualshelvestest
+    case 326719168U: return &kData[1004]; // animalfence.deployed
+    case 1227785423U: return &kData[1005]; // animalfencegate.deployed
+    case 2057881102U: return &kData[1006]; // barricade.concrete
+    case 1581233281U: return &kData[1007]; // barricade.cover.wood
+    case 2982625522U: return &kData[1008]; // barricade.cover.wood_double
+    case 56566310U: return &kData[1009]; // barricade.medieval
+    case 3824663394U: return &kData[1010]; // barricade.metal
+    case 3160617360U: return &kData[1011]; // barricade.sandbags.half
+    case 1200198402U: return &kData[1012]; // barricade.sandbags.pillbox
+    case 2335812770U: return &kData[1013]; // barricade.sandbags
+    case 4010288665U: return &kData[1014]; // barricade.sandbags.three.quarter
+    case 1206527181U: return &kData[1015]; // barricade.stone
+    case 4254045167U: return &kData[1016]; // barricade.wood
+    case 1202834203U: return &kData[1017]; // barricade.woodwire
+    case 2279735483U: return &kData[1018]; // bbq.campermodule
+    case 2409469892U: return &kData[1019]; // bbq.deployed
+    case 922529517U: return &kData[1020]; // beartrap
+    case 1642908740U: return &kData[1021]; // bed_deployed.corpse
+    case 3928883189U: return &kData[1022]; // bed_deployed
+    case 3773792636U: return &kData[1023]; // beehive.deployed
+    case 4142289329U: return &kData[1024]; // biofuel_generator.deployed
+    case 2810408234U: return &kData[1025]; // biofuel_generator.stirmount
+    case 75540915U: return &kData[1026]; // boatbuildingstation.deployed
+    case 1483764430U: return &kData[1027]; // boatbuildingstation.static
+    case 2197720167U: return &kData[1028]; // anchor.deployed
+    case 2936999800U: return &kData[1029]; // cannon.deployed
+    case 4179234465U: return &kData[1030]; // cannon.land.static
+    case 1199568476U: return &kData[1031]; // cannonball
+    case 1783121496U: return &kData[1032]; // plank.deployed
+    case 60611771U: return &kData[1033]; // sail.deployed
+    case 1294413327U: return &kData[1034]; // small_ramp.deployed
+    case 89844878U: return &kData[1035]; // smallengine.deployed
+    case 2114674288U: return &kData[1036]; // fuel_storage
+    case 1346716961U: return &kData[1037]; // steeringwheel.deployed
+    case 4160694184U: return &kData[1038]; // campfire
+    case 1708930778U: return &kData[1039]; // _cardtable_base
+    case 1845856065U: return &kData[1040]; // cardtable.deployed
+    case 4262635170U: return &kData[1041]; // cardtable.static_configa
+    case 2597581320U: return &kData[1042]; // cardtable.static_configa_hidden
+    case 2447998865U: return &kData[1043]; // cardtable.static_configb
+    case 1390750221U: return &kData[1044]; // cardtable.static_configc
+    case 690460714U: return &kData[1045]; // cardtable.static_configd
+    case 3031328897U: return &kData[1046]; // cardgameplayerstorage
+    case 1584910940U: return &kData[1047]; // cardgamepotstorage
+    case 2254147427U: return &kData[1048]; // cardtableseat
+    case 1096666154U: return &kData[1049]; // cctv.static
+    case 2633567939U: return &kData[1050]; // cctv_deployed
+    case 3953213470U: return &kData[1051]; // ceilinglight.deployed
+    case 1992774774U: return &kData[1052]; // chair.deployed
+    case 3579302978U: return &kData[1053]; // chair.icethrone
+    case 887058568U: return &kData[1054]; // bar.games.bar.stool.metal.deployed
+    case 3404567684U: return &kData[1055]; // bar.games.bar.stool.wood.deployed
+    case 3824051769U: return &kData[1056]; // beanbag.seat.fabric.deployed
+    case 1742249447U: return &kData[1057]; // beanbag.seat.leather.deployed
+    case 454013157U: return &kData[1058]; // chair.ejectorseat
+    case 2143844589U: return &kData[1059]; // charityplushie_01_deployed
+    case 1164581789U: return &kData[1060]; // charityplushie_02_deployed
+    case 2352430490U: return &kData[1061]; // charityplushie_03_deployed
+    case 2331136578U: return &kData[1062]; // charityplushie_04_deployed
+    case 1393130608U: return &kData[1063]; // chickencoop.deployed
+    case 1404456901U: return &kData[1064]; // simplechicken.entity
+    case 209286362U: return &kData[1065]; // codelockedhackablecrate
+    case 2068208223U: return &kData[1066]; // codelockedhackablecrate_ghostship
+    case 2043434947U: return &kData[1067]; // codelockedhackablecrate_oilrig
+    case 319712039U: return &kData[1068]; // clan.table
+    case 1545936318U: return &kData[1069]; // clantable.deployed
+    case 1091538011U: return &kData[1070]; // clantable.static
+    case 1921897480U: return &kData[1071]; // composter
+    case 4224482427U: return &kData[1072]; // computerstation.apartmentcomplex.static
+    case 2493676858U: return &kData[1073]; // computerstation.deployed
+    case 2305339623U: return &kData[1074]; // computerstation.ioent
+    case 3814928951U: return &kData[1075]; // computerstation.static
+    case 431357582U: return &kData[1076]; // cookingworkbench.bbq
+    case 1604022909U: return &kData[1077]; // cookingworkbench.deployed
+    case 761048428U: return &kData[1078]; // dartboard.deployed
+    case 2234097594U: return &kData[1079]; // dartboard.mountable
+    case 426877686U: return &kData[1080]; // discordplushie_deployed
+    case 931526157U: return &kData[1081]; // door_barricade_a
+    case 382418191U: return &kData[1082]; // door_barricade_a_large
+    case 2483166070U: return &kData[1083]; // door_barricade_b
+    case 2342515045U: return &kData[1084]; // door_barricade_dbl_a
+    case 3737132756U: return &kData[1085]; // door_barricade_dbl_a_large
+    case 623754980U: return &kData[1086]; // door_barricade_dbl_b
+    case 3440671703U: return &kData[1087]; // door_barricade_dbl_b_large
+    case 1191314495U: return &kData[1088]; // drone.deployed
+    case 1397446101U: return &kData[1089]; // drone.storage
+    case 661881069U: return &kData[1090]; // dropbox.deployed
+    case 495819493U: return &kData[1091]; // easel.deployed
+    case 3978222077U: return &kData[1092]; // elevator
+    case 147094869U: return &kData[1093]; // elevator_lift
+    case 2008256530U: return &kData[1094]; // elevator.static.office.top
+    case 140200872U: return &kData[1095]; // elevator.static
+    case 1033358365U: return &kData[1096]; // elevator.static.top
+    case 3845190333U: return &kData[1097]; // elevator_lift.static
+    case 110576239U: return &kData[1098]; // fireplace.deployed
+    case 3537935076U: return &kData[1099]; // mortarblue
+    case 1538862213U: return &kData[1100]; // mortarchampagne
+    case 1303486792U: return &kData[1101]; // mortargreen
+    case 2125925416U: return &kData[1102]; // mortarorange
+    case 4155476352U: return &kData[1103]; // mortarpattern
+    case 2059113465U: return &kData[1104]; // mortarred
+    case 571344195U: return &kData[1105]; // mortarviolet
+    case 915055899U: return &kData[1106]; // mortarwhite
+    case 1410649145U: return &kData[1107]; // romancandle
+    case 3989759960U: return &kData[1108]; // romancandleblue
+    case 1833523633U: return &kData[1109]; // romancandlegreen
+    case 4013199910U: return &kData[1110]; // romancandleviolet
+    case 1311124308U: return &kData[1111]; // volcanofirework-red
+    case 2771932546U: return &kData[1112]; // volcanofirework-violet
+    case 4042905807U: return &kData[1113]; // volcanofirework
+    case 976279966U: return &kData[1114]; // spikes.floor
+    case 712007742U: return &kData[1115]; // halfheight_salvaged_bamboo_shelves
+    case 2206921343U: return &kData[1116]; // halfheight_salvaged_industrial_shelves.deployed
+    case 1178330157U: return &kData[1117]; // frankensteintable.deployed
+    case 2800679511U: return &kData[1118]; // fridge.deployed.corpse
+    case 1844023509U: return &kData[1119]; // fridge.deployed
+    case 1374462671U: return &kData[1120]; // furnace.large
+    case 480290137U: return &kData[1121]; // industrial.furnace.large
+    case 1839500069U: return &kData[1122]; // furnace.corpse
+    case 2931042549U: return &kData[1123]; // furnace
+    case 107031364U: return &kData[1124]; // weaponracklight
+    case 3489283376U: return &kData[1125]; // weaponracklightdouble
+    case 2953997641U: return &kData[1126]; // hazmatplushy_deployed
+    case 1085184301U: return &kData[1127]; // heavyscientistplushie_deployed
+    case 3238272924U: return &kData[1128]; // hitchtrough.deployed
+    case 2081181732U: return &kData[1129]; // hitchtrough.waterstorage
+    case 3932476457U: return &kData[1130]; // hopper.deployed
+    case 1684527864U: return &kData[1131]; // door.hinged.hab_t1
+    case 3111236903U: return &kData[1132]; // hotairballoon
+    case 1186772083U: return &kData[1133]; // hotairballoon_armor_t1
+    case 675927205U: return &kData[1134]; // hab_storage
+    case 3239470043U: return &kData[1135]; // io.table.deployed
+    case 1889323056U: return &kData[1136]; // jackolantern.angry
+    case 630866573U: return &kData[1137]; // jackolantern.happy
+    case 2292919455U: return &kData[1138]; // jukebox.deployed
+    case 1463807579U: return &kData[1139]; // landmine
+    case 4027991414U: return &kData[1140]; // lantern.deployed
+    case 2785194784U: return &kData[1141]; // box.wooden.large.corpse
+    case 2206646561U: return &kData[1142]; // box.wooden.large
+    case 3252334872U: return &kData[1143]; // abyss_barrel_horizontal.corpse
+    case 339191443U: return &kData[1144]; // abyss_barrel_horizontal
+    case 1768548626U: return &kData[1145]; // abyss_barrel_vertical.corpse
+    case 2794435815U: return &kData[1146]; // abyss_barrel_vertical
+    case 1227364378U: return &kData[1147]; // component.box.ammo.large.corpse
+    case 3854928623U: return &kData[1148]; // component.box.ammo.large
+    case 3675895900U: return &kData[1149]; // component.box.armor.large.corpse
+    case 528028244U: return &kData[1150]; // component.box.armor.large
+    case 1803454902U: return &kData[1151]; // component.box.charcoal.large.corpse
+    case 2069829540U: return &kData[1152]; // component.box.charcoal.large
+    case 1739352808U: return &kData[1153]; // component.box.clothing.large.corpse
+    case 916817183U: return &kData[1154]; // component.box.clothing.large
+    case 2157794217U: return &kData[1155]; // component.box.comps.large.corpse
+    case 4199785085U: return &kData[1156]; // component.box.comps.large
+    case 3237620973U: return &kData[1157]; // component.box.explosives.large.corpse
+    case 3966119321U: return &kData[1158]; // component.box.explosives.large
+    case 2199371708U: return &kData[1159]; // component.box.food.large.corpse
+    case 4013283025U: return &kData[1160]; // component.box.food.large
+    case 2699150381U: return &kData[1161]; // component.box.guns.large.corpse
+    case 3610735283U: return &kData[1162]; // component.box.guns.large
+    case 2067485643U: return &kData[1163]; // component.box.meds.large.corpse
+    case 628186519U: return &kData[1164]; // component.box.meds.large
+    case 818948686U: return &kData[1165]; // component.box.metal.large.corpse
+    case 2121520844U: return &kData[1166]; // component.box.metal.large
+    case 3879561467U: return &kData[1167]; // component.box.ore.large.corpse
+    case 1535470320U: return &kData[1168]; // component.box.ore.large
+    case 992082064U: return &kData[1169]; // component.box.scrap.large.corpse
+    case 3603022102U: return &kData[1170]; // component.box.scrap.large
+    case 4046463154U: return &kData[1171]; // component.box.stone.large.corpse
+    case 807646626U: return &kData[1172]; // component.box.stone.large
+    case 3433986334U: return &kData[1173]; // component.box.sulfur.large.corpse
+    case 2567266676U: return &kData[1174]; // component.box.sulfur.large
+    case 4135480801U: return &kData[1175]; // component.box.tools.large.corpse
+    case 2302868354U: return &kData[1176]; // component.box.tools.large
+    case 2090035546U: return &kData[1177]; // component.box.wood.large.corpse
+    case 293427194U: return &kData[1178]; // component.box.wood.large
+    case 2620129937U: return &kData[1179]; // industrial_storage_horizontal.corpse
+    case 849395666U: return &kData[1180]; // industrial_storage_horizontal
+    case 4125503230U: return &kData[1181]; // industrial_storage_vertical.corpse
+    case 1015225219U: return &kData[1182]; // industrial_storage_vertical
+    case 1634507366U: return &kData[1183]; // wicker_barrel.corpse
+    case 496929911U: return &kData[1184]; // wicker_barrel
+    case 3097167028U: return &kData[1185]; // bamboo_barrel.corpse
+    case 1496407812U: return &kData[1186]; // bamboo_barrel
+    case 2064794966U: return &kData[1187]; // medieval.box.wooden.large.corpse
+    case 2142950612U: return &kData[1188]; // medieval.box.wooden.large
+    case 2755571140U: return &kData[1189]; // krieg_storage_horizontal.corpse
+    case 295691137U: return &kData[1190]; // krieg_storage_horizontal
+    case 983075320U: return &kData[1191]; // krieg_storage_vertical.corpse
+    case 2980428674U: return &kData[1192]; // krieg_storage_vertical
+    case 1538368754U: return &kData[1193]; // legacy_furnace.corpse
+    case 2013224025U: return &kData[1194]; // legacy_furnace
+    case 3746060889U: return &kData[1195]; // waterbarrel
+    case 1486794265U: return &kData[1196]; // waterbarrel.static
+    case 1298400075U: return &kData[1197]; // locker.campermodule
+    case 1291020492U: return &kData[1198]; // locker.deployed.corpse
+    case 177343599U: return &kData[1199]; // locker.deployed
+    case 1994630628U: return &kData[1200]; // lunar_near_year_2025_wall_divider_a
+    case 594151811U: return &kData[1201]; // lunar_near_year_2025_wall_divider_b
+    case 3245461981U: return &kData[1202]; // lunar_near_year_2025_wall_divider_c
+    case 2697131904U: return &kData[1203]; // mailbox.deployed
+    case 2081428822U: return &kData[1204]; // mannequin_deployed.corpse
+    case 91888137U: return &kData[1205]; // mannequin_deployed
+    case 3870025584U: return &kData[1206]; // minifridge.deployed.corpse
+    case 1535651257U: return &kData[1207]; // minifridge.deployed
+    case 3713325830U: return &kData[1208]; // gamesroom.minifridge.deployed.corpse
+    case 1650211215U: return &kData[1209]; // gamesroom.minifridge.deployed
+    case 2330684337U: return &kData[1210]; // mixingtable.deployed
+    case 428217161U: return &kData[1211]; // electrical.modularcarlift.deployed
+    case 656924125U: return &kData[1212]; // monument_cctv_desk.static
+    case 3181101008U: return &kData[1213]; // mortar.entity
+    case 3093831259U: return &kData[1214]; // mortar_shell_basic
+    case 799615933U: return &kData[1215]; // mortar_shell_fragment
+    case 3254452298U: return &kData[1216]; // neonsigntr.deployed
+    case 70163214U: return &kData[1217]; // crudeoutput
+    case 336885727U: return &kData[1218]; // engineswitch
+    case 4260630588U: return &kData[1219]; // fuelstorage
+    case 1599225199U: return &kData[1220]; // mining.pumpjack
+    case 1057236622U: return &kData[1221]; // refinery_small_deployed
+    case 2685133268U: return &kData[1222]; // plantpot.single.deployed
+    case 1162882237U: return &kData[1223]; // planter.large.deployed
+    case 467313155U: return &kData[1224]; // planter.small.deployed
+    case 375169930U: return &kData[1225]; // planter.triangle.deployed
+    case 1056621402U: return &kData[1226]; // audioalarm
+    case 3788087038U: return &kData[1227]; // smartalarm
+    case 457838080U: return &kData[1228]; // smartswitch
+    case 2575066828U: return &kData[1229]; // storagemonitor.deployed
+    case 3398686648U: return &kData[1230]; // large.rechargable.battery.deployed
+    case 262703036U: return &kData[1231]; // medium.rechargable.battery.deployed
+    case 918119888U: return &kData[1232]; // smallrechargablebattery.deployed
+    case 52925389U: return &kData[1233]; // button
+    case 3942188602U: return &kData[1234]; // command.block.deployed
+    case 4254177840U: return &kData[1235]; // counter
+    case 986625916U: return &kData[1236]; // hbhfsensor.deployed
+    case 2260707523U: return &kData[1237]; // laserdetector
+    case 687239341U: return &kData[1238]; // pressurepad.deployed
+    case 1200964049U: return &kData[1239]; // tincan.alarm.deployed
+    case 2275599299U: return &kData[1240]; // electric.digitalclock.deployed
+    case 2343730564U: return &kData[1241]; // doorcontroller.deployed
+    case 3711844390U: return &kData[1242]; // electricfurnace.deployed.corpse
+    case 3808299817U: return &kData[1243]; // electricfurnace.deployed
+    case 2011868250U: return &kData[1244]; // electricfurnace.deployed_workshop
+    case 2678691787U: return &kData[1245]; // electricfurnace.io
+    case 1948496164U: return &kData[1246]; // industrial_electric_furnace.deployed.corpse
+    case 3924463048U: return &kData[1247]; // industrial_electric_furnace.deployed
+    case 3947156055U: return &kData[1248]; // industrial_electric_furnace.io
+    case 3077222881U: return &kData[1249]; // electrical.heater
+    case 4043799246U: return &kData[1250]; // fluid.combiner.deployed
+    case 2150367216U: return &kData[1251]; // fluidsplitter
+    case 4057013647U: return &kData[1252]; // fluidswitch
+    case 4274766536U: return &kData[1253]; // andswitch.entity
+    case 4215863876U: return &kData[1254]; // electrical.blocker.deployed
+    case 1262782874U: return &kData[1255]; // electrical.branch.deployed
+    case 2378858100U: return &kData[1256]; // electrical.combiner.deployed
+    case 1220166918U: return &kData[1257]; // electrical.memorycell.deployed
+    case 1354328722U: return &kData[1258]; // orswitch.entity
+    case 489282820U: return &kData[1259]; // electrical.random.switch.deployed
+    case 2880296175U: return &kData[1260]; // rfbroadcaster
+    case 525502317U: return &kData[1261]; // rfreceiver
+    case 1074446568U: return &kData[1262]; // xorswitch.entity
+    case 3518207786U: return &kData[1263]; // small_fuel_generator.deployed
+    case 297783762U: return &kData[1264]; // small_fuel_generator.static
+    case 1216081662U: return &kData[1265]; // generator.small
+    case 2231260353U: return &kData[1266]; // solarpanel.large.deployed
+    case 3946116692U: return &kData[1267]; // igniter.deployed
+    case 1077498142U: return &kData[1268]; // storageadaptor.deployed
+    case 2557715962U: return &kData[1269]; // industrialcombiner.deployed
+    case 3459531520U: return &kData[1270]; // industrialconveyor.deployed
+    case 273687723U: return &kData[1271]; // industrialcrafter.deployed
+    case 4142483135U: return &kData[1272]; // industrialsplitter.deployed
+    case 2172878916U: return &kData[1273]; // electric.chandelier.deployed
+    case 951064U: return &kData[1274]; // electric.tablelamp.deployed
+    case 2715027079U: return &kData[1275]; // electric.fairylights.deployed
+    case 3414812695U: return &kData[1276]; // electric.fluorescentlight.ceiling.deployed
+    case 297156836U: return &kData[1277]; // electric.fluorescentlight.deployed
+    case 790776081U: return &kData[1278]; // electric.bulbstringlights.deployed
+    case 13233315U: return &kData[1279]; // electric.spotlight.deployed
+    case 1179002613U: return &kData[1280]; // electric.spotlight.tripod.deployed
+    case 3742301494U: return &kData[1281]; // electric.flasherlight.deployed
+    case 1797934483U: return &kData[1282]; // simplelight
+    case 2436926577U: return &kData[1283]; // electric.sirenlight.deployed
+    case 1259335874U: return &kData[1284]; // poweredwaterpurifier.deployed
+    case 795179107U: return &kData[1285]; // poweredwaterpurifier.storage
+    case 1565495109U: return &kData[1286]; // electric.seismicsensor.deployed
+    case 2374429146U: return &kData[1287]; // switch
+    case 2864726542U: return &kData[1288]; // splitter
+    case 2389629329U: return &kData[1289]; // electric.sprinkler.deployed
+    case 60725884U: return &kData[1290]; // teslacoil.deployed
+    case 3673859458U: return &kData[1291]; // timer
+    case 3855268767U: return &kData[1292]; // cabletunnel
+    case 3841120196U: return &kData[1293]; // water.pump.deployed
+    case 2101073864U: return &kData[1294]; // pooltable.deployed
+    case 2867835196U: return &kData[1295]; // pooltable.mountable
+    case 4131768945U: return &kData[1296]; // ptz_cctv.static
+    case 2576173574U: return &kData[1297]; // ptz_cctv_deployed
+    case 167149050U: return &kData[1298]; // engineswitch
+    case 362963830U: return &kData[1299]; // fuelstorage
+    case 875142383U: return &kData[1300]; // hopperoutput
+    case 672916883U: return &kData[1301]; // mining_quarry
+    case 3994459244U: return &kData[1302]; // reactivetarget_deployed
+    case 3846783416U: return &kData[1303]; // repairbench_deployed
+    case 146554961U: return &kData[1304]; // researchtable_deployed
+    case 3110378351U: return &kData[1305]; // rug.bear.deployed
+    case 4196580066U: return &kData[1306]; // rug.deployed
+    case 1982923662U: return &kData[1307]; // scientistplushie_deployed
+    case 2793055883U: return &kData[1308]; // sculpture.ice.deployed
+    case 4108633004U: return &kData[1309]; // sculpture.rock.deployed
+    case 3422977757U: return &kData[1310]; // associatedsculpturestorage
+    case 1427415412U: return &kData[1311]; // searchlight.deployed
+    case 286221745U: return &kData[1312]; // secretlabchair.deployed
+    case 501605075U: return &kData[1313]; // shelves
+    case 1462386041U: return &kData[1314]; // salvaged_bamboo_shelves
+    case 201785285U: return &kData[1315]; // salvaged_industrial_shelves.deployed
+    case 637495597U: return &kData[1316]; // sign.hanging.banner.large
+    case 1283107100U: return &kData[1317]; // sign.hanging.ornate
+    case 550204242U: return &kData[1318]; // sign.hanging
+    case 3618197174U: return &kData[1319]; // sign.huge.wood
+    case 3479792512U: return &kData[1320]; // sign.large.wood
+    case 3715545584U: return &kData[1321]; // sign.medium.wood
+    case 3215377795U: return &kData[1322]; // sign.pictureframe.landscape
+    case 1960724311U: return &kData[1323]; // sign.pictureframe.portrait
+    case 3159642196U: return &kData[1324]; // sign.pictureframe.tall
+    case 1957158128U: return &kData[1325]; // sign.pictureframe.xl
+    case 3725754530U: return &kData[1326]; // sign.pictureframe.xxl
+    case 3188315846U: return &kData[1327]; // sign.pole.banner.large
+    case 4290170446U: return &kData[1328]; // sign.post.double
+    case 58270319U: return &kData[1329]; // sign.post.single
+    case 120534793U: return &kData[1330]; // sign.post.town
+    case 4057957010U: return &kData[1331]; // sign.post.town.roof
+    case 1447270506U: return &kData[1332]; // sign.small.wood
+    case 2104891901U: return &kData[1333]; // signcontent
+    case 1348746224U: return &kData[1334]; // guntrap.deployed
+    case 3867195975U: return &kData[1335]; // gamesroom.shotgun.trap.deployed
+    case 403186932U: return &kData[1336]; // sleepingbag.corpse
+    case 159326486U: return &kData[1337]; // sleepingbag_leather_deployed
+    case 2568831788U: return &kData[1338]; // small_stash_deployed
+    case 2119696825U: return &kData[1339]; // sofaseat
+    case 51176708U: return &kData[1340]; // sofa.deployed
+    case 836629684U: return &kData[1341]; // sofa.pattern.deployed
+    case 3169453665U: return &kData[1342]; // twitch_rivals_sofa.deployed
+    case 3006607439U: return &kData[1343]; // spikes.trap
+    case 4006597758U: return &kData[1344]; // spinner.wheel.deployed
+    case 3119617183U: return &kData[1345]; // survivalfishtrap.deployed
+    case 2662124780U: return &kData[1346]; // table.deployed
+    case 4066798181U: return &kData[1347]; // workbench1.deployed.corpse
+    case 2561955800U: return &kData[1348]; // workbench1.deployed
+    case 3145678818U: return &kData[1349]; // workbench2.deployed.corpse
+    case 601265145U: return &kData[1350]; // workbench2.deployed
+    case 3678765790U: return &kData[1351]; // workbench3.deployed.corpse
+    case 2764275075U: return &kData[1352]; // workbench3.deployed
+    case 1978042149U: return &kData[1353]; // cupboard.tool.corpse
+    case 2476970476U: return &kData[1354]; // cupboard.tool.deployed
+    case 216998040U: return &kData[1355]; // invisible_building_auth
+    case 2103277438U: return &kData[1356]; // cupboard.tool.retro.deployed.corpse
+    case 785685130U: return &kData[1357]; // cupboard.tool.retro.deployed
+    case 1420913995U: return &kData[1358]; // storageadaptor_retro_tc.deployed
+    case 272439463U: return &kData[1359]; // cupboard.tool.shockbyte.deployed.corpse
+    case 3932172323U: return &kData[1360]; // cupboard.tool.shockbyte.deployed
+    case 1392608348U: return &kData[1361]; // tunalight.deployed
+    case 2245774897U: return &kData[1362]; // npcvendingmachine
+    case 3971055878U: return &kData[1363]; // npcvendingmachine_attire
+    case 538046694U: return &kData[1364]; // npcvendingmachine_building
+    case 567510558U: return &kData[1365]; // npcvendingmachine_components
+    case 2876719793U: return &kData[1366]; // npcvendingmachine_extra
+    case 3866668316U: return &kData[1367]; // npcvendingmachine_farming
+    case 712757139U: return &kData[1368]; // npcvendingmachine_fishexchange
+    case 2055811113U: return &kData[1369]; // npcvendingmachine_hapisexchange
+    case 1505537622U: return &kData[1370]; // npcvendingmachine_resources
+    case 2259994529U: return &kData[1371]; // npcvendingmachine_tools
+    case 534084276U: return &kData[1372]; // npcvendingmachine_travellingvendor
+    case 3835594039U: return &kData[1373]; // npcvendingmachine_vehicles
+    case 2038954881U: return &kData[1374]; // npcvendingmachine_vehicleshigh
+    case 3836034446U: return &kData[1375]; // npcvendingmachine_weapons
+    case 858853278U: return &kData[1376]; // shopkeeper_vm_invis
+    case 2799101936U: return &kData[1377]; // shopkeeper_vm_invis_waterwell
+    case 1084429088U: return &kData[1378]; // shopkeeper_vm_rentableshop
+    case 3459945130U: return &kData[1379]; // vending_mapmarker
+    case 1107947433U: return &kData[1380]; // vendingfront
+    case 2525285291U: return &kData[1381]; // vendingmachine.deployed.corpse
+    case 186002280U: return &kData[1382]; // vendingmachine.deployed
+    case 3529359528U: return &kData[1383]; // electric.wallcabinet.corpse
+    case 3113345730U: return &kData[1384]; // electric.wallcabinet.deployed
+    case 1528396724U: return &kData[1385]; // wall_shallow_industrial_shelves.deployed
+    case 4019546054U: return &kData[1386]; // wall_single_shallow_shelf
+    case 3418194637U: return &kData[1387]; // water_catcher_large
+    case 3661185369U: return &kData[1388]; // water_catcher_small
+    case 3529835336U: return &kData[1389]; // waterwellstatic
+    case 1468161152U: return &kData[1390]; // electric.waterwheel
+    case 966720564U: return &kData[1391]; // waterwheel.mountable
+    case 2905007296U: return &kData[1392]; // waterpurifier.deployed
+    case 1488612322U: return &kData[1393]; // waterstorage
+    case 1712643514U: return &kData[1394]; // weaponrack_horizontal.deployed
+    case 1566147802U: return &kData[1395]; // weaponrack_single1.deployed
+    case 1265527567U: return &kData[1396]; // weaponrack_single2.deployed
+    case 2110811006U: return &kData[1397]; // weaponrack_single3.deployed
+    case 3672909226U: return &kData[1398]; // weaponrack_stand.deployed
+    case 602299960U: return &kData[1399]; // weaponrack_tall.deployed
+    case 1633182403U: return &kData[1400]; // weaponrack_wide.deployed
+    case 1192074893U: return &kData[1401]; // electric.windmill.small
+    case 3038465934U: return &kData[1402]; // generator.wind.scrap
+    case 3758828704U: return &kData[1403]; // pilot_hazmat_woodbox_deployed.corpse
+    case 2203540697U: return &kData[1404]; // pilot_hazmat_woodbox_deployed
+    case 2010632750U: return &kData[1405]; // woodbox_deployed.corpse
+    case 1560881570U: return &kData[1406]; // woodbox_deployed
+    case 1290959361U: return &kData[1407]; // hazmat_youtooz.deployed
+    case 801665394U: return &kData[1408]; // heavyscientist_youtooz.deployed
+    case 1851422019U: return &kData[1409]; // bota_bag.entity
+    case 797425204U: return &kData[1410]; // food_pie_generic.entity
+    case 139849256U: return &kData[1411]; // smallwaterbottle.entity
+    case 366999130U: return &kData[1412]; // waterjug.entity
+    case 3323268180U: return &kData[1413]; // deathmatch
+    case 2882540700U: return &kData[1414]; // hardcore
+    case 825419898U: return &kData[1415]; // kingofthehilldm
+    case 4276462027U: return &kData[1416]; // kingofthehillteam
+    case 3788504645U: return &kData[1417]; // capturepoint
+    case 3866571115U: return &kData[1418]; // reclaimmanager
+    case 2564311448U: return &kData[1419]; // reclaimterminal
+    case 3275115225U: return &kData[1420]; // onedeath
+    case 2393539753U: return &kData[1421]; // primitive
+    case 1954920076U: return &kData[1422]; // softcore
+    case 3810400291U: return &kData[1423]; // staticrespawnzonebandit
+    case 1919922518U: return &kData[1424]; // staticrespawnzonecompound
+    case 18701516U: return &kData[1425]; // teamdeathmatch
+    case 2957505463U: return &kData[1426]; // vanilla
+    case 798330873U: return &kData[1427]; // weapontest
+    case 2465202152U: return &kData[1428]; // bass.weapon
+    case 52738779U: return &kData[1429]; // cowbell.weapon
+    case 1980628900U: return &kData[1430]; // drumkit.deployed
+    case 3789219502U: return &kData[1431]; // flute.weapon
+    case 4177390149U: return &kData[1432]; // guitar.weapon
+    case 1977067472U: return &kData[1433]; // jerrycanguitar.weapon
+    case 3691382632U: return &kData[1434]; // piano.deployed
+    case 1754256281U: return &kData[1435]; // tambourine.weapon
+    case 1050701358U: return &kData[1436]; // trumpet.weapon
+    case 2388319642U: return &kData[1437]; // tuba.weapon
+    case 3363531184U: return &kData[1438]; // xylophone.deployed
+    case 1699170926U: return &kData[1439]; // generator.noreset.static
+    case 1331920001U: return &kData[1440]; // generator.static
+    case 3467084113U: return &kData[1441]; // generator.static_hidden
+    case 1390723258U: return &kData[1442]; // powergrid_accesspoint.static
+    case 1653306314U: return &kData[1443]; // powergrid_powerline_io.static
+    case 1523703314U: return &kData[1444]; // simplelight
+    case 1124418807U: return &kData[1445]; // sirenlightblue
+    case 2400067639U: return &kData[1446]; // sirenlightgreen
+    case 4129440825U: return &kData[1447]; // sirenlightorange
+    case 500822506U: return &kData[1448]; // alarmsound
+    case 2291424085U: return &kData[1449]; // fridge_respawnableloot.static.entity
+    case 3121685313U: return &kData[1450]; // oilswitchbroadcaster.static
+    case 1174518703U: return &kData[1451]; // rfbroadcaster.static
+    case 2864014888U: return &kData[1452]; // andswitch
+    case 1841596500U: return &kData[1453]; // cardreader
+    case 3444518220U: return &kData[1454]; // doormanipulator.invisible
+    case 3165678508U: return &kData[1455]; // doormanipulator
+    case 3622071578U: return &kData[1456]; // fusebox
+    case 2245659838U: return &kData[1457]; // powergrid_fusebox_big
+    case 1923819422U: return &kData[1458]; // powergrid_fusebox_small
+    case 2381092631U: return &kData[1459]; // gearbox
+    case 2179325520U: return &kData[1460]; // orswitch
+    case 4224395968U: return &kData[1461]; // pressbutton
+    case 3594608867U: return &kData[1462]; // pressbutton_compact
+    case 2427905255U: return &kData[1463]; // pressbutton_invisible
+    case 3024956667U: return &kData[1464]; // pressbutton_officeelevatorcall
+    case 2322765486U: return &kData[1465]; // pressbutton_officeelevatordown
+    case 322122625U: return &kData[1466]; // pressbutton_officeelevatorup
+    case 1802909967U: return &kData[1467]; // pressbutton_trainstairwell
+    case 2055550712U: return &kData[1468]; // simpleswitch
+    case 407841511U: return &kData[1469]; // simpleswitch_lightswitch
+    case 850739563U: return &kData[1470]; // splitter
+    case 2873681431U: return &kData[1471]; // timerswitch
+    case 4139825974U: return &kData[1472]; // xorswitch
+    case 1268553078U: return &kData[1473]; // wheelswitch
+    case 3508954061U: return &kData[1474]; // wheelswitch_wheel_only
+    case 2106860026U: return &kData[1475]; // lock.key
+    case 3518824735U: return &kData[1476]; // lock.code
+    case 319071656U: return &kData[1477]; // lock.code.a.pilot
+    case 2535615922U: return &kData[1478]; // sign.artistcanvas.l
+    case 797368798U: return &kData[1479]; // sign.artistcanvas.m
+    case 3056672841U: return &kData[1480]; // sign.artistcanvas.s
+    case 1939665302U: return &kData[1481]; // sign.artistcanvas.xl
+    case 1729209623U: return &kData[1482]; // sign.artistcanvas.xs
+    case 121897445U: return &kData[1483]; // sign.artistcanvas.xxl
+    case 3297576892U: return &kData[1484]; // lightupframe.large
+    case 2703989313U: return &kData[1485]; // lightupframe.medium
+    case 3602290925U: return &kData[1486]; // lightupframe.small
+    case 2296327774U: return &kData[1487]; // lightupframe.standing
+    case 879893360U: return &kData[1488]; // lightupframe.xl
+    case 2127235542U: return &kData[1489]; // lightupframe.xxl
+    case 3687349212U: return &kData[1490]; // lightupframe.ioent.large
+    case 176410268U: return &kData[1491]; // lightupframe.ioent.medium
+    case 2525660658U: return &kData[1492]; // lightupframe.ioent.small
+    case 3078681327U: return &kData[1493]; // lightupframe.ioent.standing
+    case 3453753706U: return &kData[1494]; // lightupframe.ioent.xl
+    case 1885995974U: return &kData[1495]; // lightupframe.ioent.xxl
+    case 798161878U: return &kData[1496]; // goldframe.large
+    case 4033431204U: return &kData[1497]; // goldframe.medium
+    case 485350915U: return &kData[1498]; // goldframe.small
+    case 3396336042U: return &kData[1499]; // goldframe.standing
+    case 3754396910U: return &kData[1500]; // goldframe.xl
+    case 284403021U: return &kData[1501]; // goldframe.xxl
+    case 2311585556U: return &kData[1502]; // paintable_reactive_target.deployed
+    case 1804926480U: return &kData[1503]; // window.paintable
+    case 3892777780U: return &kData[1504]; // scrapframe.large
+    case 568958593U: return &kData[1505]; // scrapframe.medium
+    case 2729848647U: return &kData[1506]; // scrapframe.small
+    case 1938985149U: return &kData[1507]; // scrapframe.standing
+    case 958885520U: return &kData[1508]; // scrapframe.xl
+    case 2760478303U: return &kData[1509]; // scrapframe.xxl
+    case 3532150403U: return &kData[1510]; // scrapframe.ioent.large
+    case 2808686863U: return &kData[1511]; // scrapframe.ioent.medium
+    case 2662530111U: return &kData[1512]; // scrapframe.ioent.small
+    case 1228245501U: return &kData[1513]; // scrapframe.ioent.standing
+    case 2178232552U: return &kData[1514]; // scrapframe.ioent.xl
+    case 1586875222U: return &kData[1515]; // scrapframe.ioent.xxl
+    case 1867483538U: return &kData[1516]; // woodframe.large
+    case 3494723332U: return &kData[1517]; // woodframe.medium
+    case 2679749389U: return &kData[1518]; // woodframe.small
+    case 2425277060U: return &kData[1519]; // woodframe.standing
+    case 1020698817U: return &kData[1520]; // circle_balloon.deployed
+    case 51953109U: return &kData[1521]; // heart_balloon.deployed
+    case 1667260774U: return &kData[1522]; // latex_balloon.deployed
+    case 2097023580U: return &kData[1523]; // latexclump_balloon.deployed
+    case 2723764296U: return &kData[1524]; // mixedclump_balloon.deployed
+    case 513939161U: return &kData[1525]; // speechbubble_balloon.deployed
+    case 1969418053U: return &kData[1526]; // star_balloon.deployed
+    case 3255145925U: return &kData[1527]; // generic_world
+    case 3690849383U: return &kData[1528]; // big_wheel
+    case 2924713120U: return &kData[1529]; // bigwheelbettingterminal
+    case 2230162530U: return &kData[1530]; // slotmachine
+    case 3176258750U: return &kData[1531]; // slotmachinestorage
+    case 2084471865U: return &kData[1532]; // chinese_door_decoration
+    case 2040594012U: return &kData[1533]; // chinese_door_frame_decoration
+    case 3887352222U: return &kData[1534]; // chineselantern.deployed
+    case 2201663291U: return &kData[1535]; // chineselantern_white.deployed
+    case 4125587834U: return &kData[1536]; // dragondoorknocker.deployed
+    case 2687699909U: return &kData[1537]; // newyeargong.deployed
+    case 2869067981U: return &kData[1538]; // skylantern.deployed
+    case 4232309112U: return &kData[1539]; // skylantern.skylantern.green
+    case 2908920493U: return &kData[1540]; // skylantern.skylantern.orange
+    case 1049099687U: return &kData[1541]; // skylantern.skylantern.purple
+    case 700699236U: return &kData[1542]; // skylantern.skylantern.red
+    case 3428971889U: return &kData[1543]; // firecrackers.deployed
+    case 628064879U: return &kData[1544]; // firecrackers.entity
+    case 4267988016U: return &kData[1545]; // chippyarcademachine
+    case 2703688515U: return &kData[1546]; // confetticannon.deployed
+    case 2944302698U: return &kData[1547]; // door.double.hinged.bardoors
+    case 2846319393U: return &kData[1548]; // bathtub.planter.deployed
+    case 2264146188U: return &kData[1549]; // bathtub.planter.respawning.static
+    case 3620851723U: return &kData[1550]; // headbag
+    case 1962641099U: return &kData[1551]; // fishtrophy.deployed
+    case 471249640U: return &kData[1552]; // huntingtrophylarge.deployed
+    case 1521270672U: return &kData[1553]; // huntingtrophysmall.deployed
+    case 47518702U: return &kData[1554]; // minecart.planter.deployed
+    case 3790665304U: return &kData[1555]; // minecart.planter.respawning.static
+    case 115096413U: return &kData[1556]; // railroadplanter.deployed
+    case 758859662U: return &kData[1557]; // railroadplanter.respawning.static
+    case 3449130218U: return &kData[1558]; // triangle_railroad_planter.deployed
+    case 1808651928U: return &kData[1559]; // rockingchair.deployed
+    case 720514301U: return &kData[1560]; // rockingchair.rockingchair2.deployed
+    case 804668581U: return &kData[1561]; // rockingchair.rockingchair3.deployed
+    case 995189561U: return &kData[1562]; // skinningknife.entity
+    case 1186322904U: return &kData[1563]; // storage_barrel_b.corpse
+    case 1502013593U: return &kData[1564]; // storage_barrel_b
+    case 632015332U: return &kData[1565]; // storage_barrel_c.corpse
+    case 2261122309U: return &kData[1566]; // storage_barrel_c
+    case 1429074576U: return &kData[1567]; // unused_storage_barrel_a
+    case 39066900U: return &kData[1568]; // torchholder.deployed
+    case 18924473U: return &kData[1569]; // wantedposter.wantedposter2
+    case 1570465433U: return &kData[1570]; // wantedposter.wantedposter3
+    case 4144024614U: return &kData[1571]; // wantedposter.wantedposter4
+    case 1683627733U: return &kData[1572]; // wantedposter.deployed
+    case 3478623418U: return &kData[1573]; // bunkercannon
+    case 1051214675U: return &kData[1574]; // dwelling_orefield_large_tropical1_metal
+    case 2446035545U: return &kData[1575]; // dwelling_orefield_large_tropical1_sulfur variant
+    case 368231912U: return &kData[1576]; // dwelling_orefield_large_tropical2_metal
+    case 2462471120U: return &kData[1577]; // dwelling_orefield_large_tropical2_sulfur variant
+    case 3616866229U: return &kData[1578]; // dwelling_orefield_large_tropical3_metal
+    case 2458692433U: return &kData[1579]; // dwelling_orefield_large_tropical3_sulfur variant
+    case 521632693U: return &kData[1580]; // dwelling_orefield_large_tropical4_metal
+    case 3085970401U: return &kData[1581]; // dwelling_orefield_large_tropical4_sulfur variant
+    case 2303985447U: return &kData[1582]; // tropical_island_dwelling_a
+    case 401205269U: return &kData[1583]; // tropical_island_dwelling_blank
+    case 2326685902U: return &kData[1584]; // tropical_island_dwelling_docks_boats_a
+    case 316297516U: return &kData[1585]; // tropical_island_dwelling_docks_boats_b
+    case 1189526737U: return &kData[1586]; // tropical_island_dwelling_docks_large_a
+    case 3405314486U: return &kData[1587]; // tropical_island_dwelling_docks_small_a
+    case 2633436050U: return &kData[1588]; // tropical_island_dwelling_docks_small_b
+    case 1877198989U: return &kData[1589]; // tropical_island_dwelling_docks_small_c
+    case 579008158U: return &kData[1590]; // tropical_island_dwelling_ruins_b
+    case 1715466672U: return &kData[1591]; // tropical_island_dwelling_ruins_c
+    case 1685826038U: return &kData[1592]; // tropical_island_dwelling_ruins_d
+    case 3879517825U: return &kData[1593]; // desert_dwelling_double_a
+    case 1794805097U: return &kData[1594]; // desert_dwelling_double_b
+    case 3736202536U: return &kData[1595]; // desert_dwelling_double_c
+    case 145441199U: return &kData[1596]; // desert_dwelling_double_d
+    case 697008925U: return &kData[1597]; // desert_dwelling_double_e
+    case 1244275247U: return &kData[1598]; // desert_dwelling_double_f
+    case 1787891413U: return &kData[1599]; // desert_dwelling_double_g
+    case 1522065566U: return &kData[1600]; // desert_dwelling_double_h
+    case 141711534U: return &kData[1601]; // desert_dwelling_double_i
+    case 3753747337U: return &kData[1602]; // desert_dwelling_single_a
+    case 2116118137U: return &kData[1603]; // desert_dwelling_single_b
+    case 2655033203U: return &kData[1604]; // desert_dwelling_single_c
+    case 3783075070U: return &kData[1605]; // desert_dwelling_single_d
+    case 3182213659U: return &kData[1606]; // desert_dwelling_single_e
+    case 321391832U: return &kData[1607]; // desert_dwelling_single_f
+    case 2404833927U: return &kData[1608]; // desert_dwelling_single_g
+    case 607177296U: return &kData[1609]; // desert_dwelling_single_h
+    case 1353231516U: return &kData[1610]; // desert_dwelling_single_i
+    case 1569310753U: return &kData[1611]; // desert_dwelling_single_j
+    case 1533955323U: return &kData[1612]; // desert_dwelling_single_k
+    case 11006879U: return &kData[1613]; // desert_dwelling_single_l
+    case 2451307776U: return &kData[1614]; // desert_dwelling_single_m
+    case 4141993402U: return &kData[1615]; // desert_dwelling_single_n
+    case 2497356755U: return &kData[1616]; // desert_dwelling_single_o
+    case 3728083511U: return &kData[1617]; // desert_dwelling_single_p
+    case 1405232012U: return &kData[1618]; // desert_dwelling_single_q
+    case 420601661U: return &kData[1619]; // desert_dwelling_single_r
+    case 3879469933U: return &kData[1620]; // desert_dwelling_single_s
+    case 2419904621U: return &kData[1621]; // divesite_a
+    case 2048371271U: return &kData[1622]; // divesite_b
+    case 1891214172U: return &kData[1623]; // divesite_c
+    case 1429756914U: return &kData[1624]; // divesite_d
+    case 365020138U: return &kData[1625]; // divesite_e
+    case 3158334014U: return &kData[1626]; // divesite_f
+    case 2825845166U: return &kData[1627]; // oceanwreckbuoy
+    case 702334137U: return &kData[1628]; // oceanwreckbuoysmall
+    case 1831641807U: return &kData[1629]; // doorcloser
+    case 4124785483U: return &kData[1630]; // dynamicpreventbuilding
+    case 3375996320U: return &kData[1631]; // easter_door_wreath_deployed
+    case 557749706U: return &kData[1632]; // easter_basket.entity
+    case 3721260684U: return &kData[1633]; // eastereggprojectile
+    case 2806530431U: return &kData[1634]; // item.painted.storage
+    case 3376609576U: return &kData[1635]; // egghunt
+    case 2952734041U: return &kData[1636]; // rustigeegg_a.deployed
+    case 2769334849U: return &kData[1637]; // rustigeegg_b.deployed
+    case 2259790452U: return &kData[1638]; // rustigeegg_c.deployed
+    case 3394396962U: return &kData[1639]; // rustigeegg_d.deployed
+    case 1833328825U: return &kData[1640]; // rustigeegg_e.deployed
+    case 31755465U: return &kData[1641]; // rustigeegg_f.deployed
+    case 968699775U: return &kData[1642]; // rustigeegg_g.deployed
+    case 3584759614U: return &kData[1643]; // rustigeegg_h.deployed
+    case 2492538492U: return &kData[1644]; // collectableegg
+    case 1254812818U: return &kData[1645]; // food_cache_001
+    case 4273542191U: return &kData[1646]; // food_cache_002
+    case 3858903386U: return &kData[1647]; // food_cache_003
+    case 372904702U: return &kData[1648]; // food_cache_004
+    case 1465626697U: return &kData[1649]; // food_cache_005
+    case 1159044978U: return &kData[1650]; // ghostship
+    case 2529944595U: return &kData[1651]; // ghostship_b
+    case 752720933U: return &kData[1652]; // ghostship_c
+    case 3868701128U: return &kData[1653]; // ghostship_d
+    case 3667054617U: return &kData[1654]; // ghostshipmapmarker
+    case 1465468950U: return &kData[1655]; // candyprojectile
+    case 2495043668U: return &kData[1656]; // collectablecandy
+    case 3049520350U: return &kData[1657]; // largecandleset
+    case 3435611199U: return &kData[1658]; // smallcandleset
+    case 3038860934U: return &kData[1659]; // carvable.pumpkin
+    case 1441221703U: return &kData[1660]; // coffinstorage.corpse
+    case 4080262419U: return &kData[1661]; // coffinstorage
+    case 1348425051U: return &kData[1662]; // cursedcauldron.deployed
+    case 2548600751U: return &kData[1663]; // gravestone.stone.deployed
+    case 2983602886U: return &kData[1664]; // gravestone.wood.deployed
+    case 1766793357U: return &kData[1665]; // graveyardfence
+    case 1937756239U: return &kData[1666]; // halloweenhunt
+    case 2763047865U: return &kData[1667]; // pumpkin_basket.entity
+    case 482680556U: return &kData[1668]; // scarecrow.deployed
+    case 1273690005U: return &kData[1669]; // skullspikes.candles.deployed
+    case 4242782819U: return &kData[1670]; // skullspikes.pumpkin.deployed
+    case 1005607405U: return &kData[1671]; // skullspikes.deployed
+    case 622673951U: return &kData[1672]; // skull_door_knocker.deployed
+    case 1796973138U: return &kData[1673]; // skull_door_knocker
+    case 1906669538U: return &kData[1674]; // skull_fire_pit
+    case 1177722664U: return &kData[1675]; // spiderweba
+    case 25095088U: return &kData[1676]; // spookyspeaker
+    case 888153605U: return &kData[1677]; // skulltrophy.jar.deployed
+    case 516794212U: return &kData[1678]; // skulltrophy.jar2.deployed
+    case 3944492824U: return &kData[1679]; // skulltrophy.table.deployed
+    case 3036466305U: return &kData[1680]; // skulltrophy.deployed
+    case 545786656U: return &kData[1681]; // item_drop
+    case 1519640547U: return &kData[1682]; // item_drop_backpack
+    case 146366564U: return &kData[1683]; // item_drop_buoyant
+    case 1079458547U: return &kData[1684]; // junkpile_a
+    case 53513351U: return &kData[1685]; // junkpile_b
+    case 802190701U: return &kData[1686]; // junkpile_c
+    case 1469191396U: return &kData[1687]; // junkpile_d
+    case 2264041007U: return &kData[1688]; // junkpile_e
+    case 2993735837U: return &kData[1689]; // junkpile_f
+    case 4277459046U: return &kData[1690]; // junkpile_g
+    case 1833448838U: return &kData[1691]; // junkpile_h
+    case 3208542129U: return &kData[1692]; // junkpile_i
+    case 4214664239U: return &kData[1693]; // junkpile_j
+    case 303596648U: return &kData[1694]; // junkpile_water_a
+    case 292159419U: return &kData[1695]; // junkpile_water_b
+    case 1744083475U: return &kData[1696]; // junkpile_water_c
+    case 3742716325U: return &kData[1697]; // deliverydronemarker
+    case 2325891644U: return &kData[1698]; // drone.delivery
+    case 3953076030U: return &kData[1699]; // marketplace
+    case 407767262U: return &kData[1700]; // marketterminal
+    case 2035885868U: return &kData[1701]; // medieval.door.double.hinged.metal
+    case 1019562202U: return &kData[1702]; // medieval.door.hinged.metal
+    case 2749812535U: return &kData[1703]; // frontiermirror.large
+    case 3598691256U: return &kData[1704]; // frontiermirror.medium
+    case 912233462U: return &kData[1705]; // frontiermirror.small
+    case 3834610001U: return &kData[1706]; // frontiermirror.standing
+    case 740693447U: return &kData[1707]; // goldmirror.large
+    case 3939513589U: return &kData[1708]; // goldmirror.medium
+    case 2281266470U: return &kData[1709]; // goldmirror.small
+    case 4167032160U: return &kData[1710]; // goldmirror.standing
+    case 2236356683U: return &kData[1711]; // lightupmirror.large
+    case 1086370258U: return &kData[1712]; // lightupmirror.medium
+    case 1114298286U: return &kData[1713]; // lightupmirror.small
+    case 1845154321U: return &kData[1714]; // lightupmirror.standing
+    case 3960181825U: return &kData[1715]; // scrapmirror.large
+    case 437352593U: return &kData[1716]; // scrapmirror.medium
+    case 4086373203U: return &kData[1717]; // scrapmirror.small
+    case 1355163738U: return &kData[1718]; // scrapmirror.standing
+    case 3482661483U: return &kData[1719]; // woodmirror.large
+    case 2816380117U: return &kData[1720]; // woodmirror.medium
+    case 1417110052U: return &kData[1721]; // woodmirror.small
+    case 897377265U: return &kData[1722]; // woodmirror.standing
+    case 2899507223U: return &kData[1723]; // oil_rig_radiation
+    case 1618627814U: return &kData[1724]; // orebonus_generic
+    case 658131457U: return &kData[1725]; // orebonus_wood
+    case 1268659691U: return &kData[1726]; // parachute
+    case 2000744684U: return &kData[1727]; // parachuteunpacked
+    case 1001564208U: return &kData[1728]; // door.hinged.industrial.d
+    case 1820531533U: return &kData[1729]; // industrial.wall.lamp.blue.deployed
+    case 1908182065U: return &kData[1730]; // industrial.wall.lamp.deployed
+    case 3341019015U: return &kData[1731]; // industrial.wall.lamp.green.deployed
+    case 3293089444U: return &kData[1732]; // industrial.wall.lamp.red.deployed
+    case 1348634331U: return &kData[1733]; // pinata.deployed
+    case 2101896921U: return &kData[1734]; // platform.entity
+    case 2065397772U: return &kData[1735]; // platform.exclusion.entity
+    case 1224573690U: return &kData[1736]; // platform.force.entity
+    case 948487089U: return &kData[1737]; // staticrespawnzonecompound_vanilla
+    case 4258681299U: return &kData[1738]; // planter.small.respawning.static
+    case 2187258018U: return &kData[1739]; // simplelootbox
+    case 2030353082U: return &kData[1740]; // abovegroundpool.deployed
+    case 3552983236U: return &kData[1741]; // beachchair.deployed
+    case 1573548060U: return &kData[1742]; // beachparasol.deployed
+    case 4146728277U: return &kData[1743]; // beachtable.deployed
+    case 2298267336U: return &kData[1744]; // beachtowel.deployed.corpse
+    case 3003382652U: return &kData[1745]; // beachtowel.deployed
+    case 4218596772U: return &kData[1746]; // boogieboard.deployed
+    case 1252195950U: return &kData[1747]; // innertube.deployed
+    case 1864659065U: return &kData[1748]; // innertube.horse.deployed
+    case 2349300716U: return &kData[1749]; // innertube.unicorn.deployed
+    case 509717370U: return &kData[1750]; // instant_camera.entity
+    case 1462241537U: return &kData[1751]; // paddlingpool.deployed
+    case 34183897U: return &kData[1752]; // photo.entity
+    case 329573570U: return &kData[1753]; // photoframe.landscape
+    case 3931119293U: return &kData[1754]; // photoframe.large
+    case 1814168131U: return &kData[1755]; // photoframe.portrait
+    case 37937194U: return &kData[1756]; // watergun.entity
+    case 1502994528U: return &kData[1757]; // waterpistol.entity
+    case 3632568684U: return &kData[1758]; // supply_drop
+    case 3271649842U: return &kData[1759]; // trophy.deployed
+    case 2946164983U: return &kData[1760]; // trophy_2023.deployed
+    case 1864849250U: return &kData[1761]; // tunnel_dwelling_a
+    case 914018621U: return &kData[1762]; // tunnel_dwelling_b
+    case 2692544615U: return &kData[1763]; // tunnel_dwelling_c
+    case 4148006895U: return &kData[1764]; // tunnel_dwelling_d
+    case 1913161776U: return &kData[1765]; // tunnel_dwelling_e
+    case 1784918280U: return &kData[1766]; // tunnel_dwelling_f
+    case 2926207843U: return &kData[1767]; // tunnel_dwelling_g
+    case 563461422U: return &kData[1768]; // tunnel_dwelling_h
+    case 1970684768U: return &kData[1769]; // tunnellootstrip_a
+    case 2384030014U: return &kData[1770]; // hexagongrid.entity
+    case 608676425U: return &kData[1771]; // hexagontile_blue.entity
+    case 1104684023U: return &kData[1772]; // hexagontile_green.entity
+    case 3592367408U: return &kData[1773]; // hexagontile_purple.entity
+    case 3997402336U: return &kData[1774]; // hexagontile_red.entity
+    case 2266932968U: return &kData[1775]; // hexagontile_yellow.entity
+    case 1748062128U: return &kData[1776]; // hobobarrel.deployed
+    case 358326125U: return &kData[1777]; // door.hinged.industrial.a
+    case 1957369594U: return &kData[1778]; // twitchrivals2023_desk.ioent
+    case 379322905U: return &kData[1779]; // twitchrivals2023_desk
+    case 573313214U: return &kData[1780]; // underwaterlab_dwelling_300_corner_a
+    case 452830878U: return &kData[1781]; // underwaterlab_dwelling_300_corner_b
+    case 2543356238U: return &kData[1782]; // underwaterlab_dwelling_300_corner_c
+    case 717651109U: return &kData[1783]; // underwaterlab_dwelling_300_corner_d
+    case 3730625512U: return &kData[1784]; // underwaterlab_dwelling_300_corner_deep_a
+    case 1472035765U: return &kData[1785]; // underwaterlab_dwelling_300_corner_deep_b
+    case 297366751U: return &kData[1786]; // underwaterlab_dwelling_300_corner_deep_c
+    case 2884932104U: return &kData[1787]; // underwaterlab_dwelling_300_corner_deep_d
+    case 2882057292U: return &kData[1788]; // underwaterlab_dwelling_300_corner_deep_e
+    case 1728416769U: return &kData[1789]; // underwaterlab_dwelling_300_corner_deep_f
+    case 1196858687U: return &kData[1790]; // underwaterlab_dwelling_300_corner_deep_g
+    case 1542155264U: return &kData[1791]; // underwaterlab_dwelling_300_corner_deep_h
+    case 3832425675U: return &kData[1792]; // underwaterlab_dwelling_300_corner_deep_i
+    case 3522859745U: return &kData[1793]; // underwaterlab_dwelling_300_corner_deep_j
+    case 2703730801U: return &kData[1794]; // underwaterlab_dwelling_300_corner_deep_k
+    case 4202988174U: return &kData[1795]; // underwaterlab_dwelling_300_corner_deep_l
+    case 3778415973U: return &kData[1796]; // underwaterlab_dwelling_300_corner_e
+    case 2328541952U: return &kData[1797]; // underwaterlab_dwelling_300_corner_f
+    case 2527925506U: return &kData[1798]; // underwaterlab_dwelling_300_corner_g
+    case 366436161U: return &kData[1799]; // underwaterlab_dwelling_300_corner_h
+    case 3139283041U: return &kData[1800]; // underwaterlab_dwelling_300_corner_i
+    case 2127434160U: return &kData[1801]; // underwaterlab_dwelling_300_corner_j
+    case 3112614812U: return &kData[1802]; // underwaterlab_dwelling_300_corner_k
+    case 2087494236U: return &kData[1803]; // underwaterlab_dwelling_300_corner_l
+    case 2231268580U: return &kData[1804]; // underwaterlab_dwelling_300_corridor_a
+    case 1214133601U: return &kData[1805]; // underwaterlab_dwelling_300_corridor_b
+    case 3218090200U: return &kData[1806]; // underwaterlab_dwelling_300_edge_a
+    case 2099089818U: return &kData[1807]; // underwaterlab_dwelling_300_edge_b
+    case 4210133804U: return &kData[1808]; // underwaterlab_dwelling_300_edge_c
+    case 4020445937U: return &kData[1809]; // underwaterlab_dwelling_300_edge_d
+    case 922430532U: return &kData[1810]; // underwaterlab_dwelling_300_edge_deep_a
+    case 3773945132U: return &kData[1811]; // underwaterlab_dwelling_300_edge_deep_b
+    case 752935314U: return &kData[1812]; // underwaterlab_dwelling_300_edge_deep_c
+    case 2553093706U: return &kData[1813]; // underwaterlab_dwelling_300_edge_deep_d
+    case 3401722117U: return &kData[1814]; // underwaterlab_dwelling_300_edge_deep_e
+    case 1246106772U: return &kData[1815]; // underwaterlab_dwelling_300_edge_deep_f
+    case 2596791892U: return &kData[1816]; // underwaterlab_dwelling_300_edge_deep_g
+    case 2836373108U: return &kData[1817]; // underwaterlab_dwelling_300_edge_e
+    case 2492794546U: return &kData[1818]; // underwaterlab_dwelling_300_edge_f
+    case 4169028500U: return &kData[1819]; // underwaterlab_dwelling_300_edge_g
+    case 2253200378U: return &kData[1820]; // underwaterlab_dwelling_600_corner_a
+    case 1122132299U: return &kData[1821]; // underwaterlab_dwelling_600_corner_b
+    case 2528473143U: return &kData[1822]; // underwaterlab_dwelling_600_corner_c
+    case 369594738U: return &kData[1823]; // underwaterlab_dwelling_600_corner_d
+    case 3006311855U: return &kData[1824]; // underwaterlab_dwelling_600_corner_e
+    case 2933815190U: return &kData[1825]; // underwaterlab_dwelling_600_corner_f
+    case 355870851U: return &kData[1826]; // underwaterlab_dwelling_600_corridor_a
+    case 642230139U: return &kData[1827]; // underwaterlab_dwelling_600_corridor_b
+    case 4099081267U: return &kData[1828]; // underwaterlab_dwelling_600_corridor_double_a
+    case 3231940198U: return &kData[1829]; // underwaterlab_dwelling_600_corridor_double_b
+    case 1946304174U: return &kData[1830]; // underwaterlab_dwelling_600_corridor_double_c
+    case 4043584837U: return &kData[1831]; // underwaterlab_dwelling_600_corridor_double_d
+    case 1004620429U: return &kData[1832]; // underwaterlab_dwelling_600_edge_a
+    case 1744489200U: return &kData[1833]; // underwaterlab_dwelling_600_edge_b
+    case 1109924250U: return &kData[1834]; // waypointrace
+    case 3858313461U: return &kData[1835]; // advendcalendar.deployed
+    case 3331777431U: return &kData[1836]; // candy_cane.entity
+    case 3484744962U: return &kData[1837]; // xmas.lightstring.deployed
+    case 1747236253U: return &kData[1838]; // doorgarland.deployed
+    case 2234313662U: return &kData[1839]; // double_doorgarland.deployed
+    case 591428215U: return &kData[1840]; // giantcandycane.deployed
+    case 2216891097U: return &kData[1841]; // giftbox_loot
+    case 797759041U: return &kData[1842]; // icewall
+    case 921229511U: return &kData[1843]; // wall.external.high.ice
+    case 2711960434U: return &kData[1844]; // giantlollipops.deployed
+    case 3919686896U: return &kData[1845]; // sign.neon.125x125
+    case 3591916872U: return &kData[1846]; // sign.neon.125x215.animated
+    case 2628005754U: return &kData[1847]; // sign.neon.125x215
+    case 708840119U: return &kData[1848]; // sign.neon.xl.animated
+    case 3168507223U: return &kData[1849]; // sign.neon.xl
+    case 1447082346U: return &kData[1850]; // pookie_deployed
+    case 132493746U: return &kData[1851]; // xmas.advanced.lights.deployed
+    case 3689934812U: return &kData[1852]; // sled.deployed.xmas
+    case 4063253222U: return &kData[1853]; // sled.deployed
+    case 1473303316U: return &kData[1854]; // presentdrop
+    case 247291312U: return &kData[1855]; // santasleigh
+    case 2117501564U: return &kData[1856]; // snowmachine
+    case 591451995U: return &kData[1857]; // snowball.entity
+    case 3228215527U: return &kData[1858]; // snowballgun.entity
+    case 1103550732U: return &kData[1859]; // snowman.deployed
+    case 771996658U: return &kData[1860]; // stocking_large_deployed
+    case 3141927338U: return &kData[1861]; // stocking_small_deployed
+    case 1321691542U: return &kData[1862]; // windowgarland.deployed
+    case 2207899193U: return &kData[1863]; // christmas_door_wreath_deployed
+    case 2989328402U: return &kData[1864]; // xmasdwelling_a
+    case 4279789862U: return &kData[1865]; // xmasdwelling_b
+    case 3226822244U: return &kData[1866]; // xmasdwelling_c
+    case 3872949008U: return &kData[1867]; // xmasdwelling_d
+    case 2750850993U: return &kData[1868]; // xmasrefill
+    case 1181698029U: return &kData[1869]; // xmas_tree.deployed
+    case 3520045458U: return &kData[1870]; // xmas_tree_a.deployed
+    case 4272375622U: return &kData[1871]; // deepseatreasuremission_box
+    case 3416881577U: return &kData[1872]; // dynamicmissionstash
+    case 3294618459U: return &kData[1873]; // genericmissionlootcontainerreusable
+    case 2898645756U: return &kData[1874]; // holdmissionentity
+    case 1943082497U: return &kData[1875]; // logstash
+    case 3128236346U: return &kData[1876]; // missionlootbox_basic
+    case 3490516309U: return &kData[1877]; // missionstash
+    case 1126295133U: return &kData[1878]; // tacklebox
+    case 2750475248U: return &kData[1879]; // bunker
+    case 362606634U: return &kData[1880]; // bunker_corridor_a
+    case 2895212062U: return &kData[1881]; // bunker_door_portal
+    case 3789623955U: return &kData[1882]; // bunker_entrance
+    case 3939551954U: return &kData[1883]; // halloweenportalentry
+    case 1686410832U: return &kData[1884]; // halloweenportalexit
+    case 3461158248U: return &kData[1885]; // minedungeon
+    case 3343729976U: return &kData[1886]; // xmastunnellootbox
+    case 2614965312U: return &kData[1887]; // xmasgingerbreaddungeon
+    case 2270960267U: return &kData[1888]; // xmasportalentry
+    case 2696291976U: return &kData[1889]; // xmasportalexit
+    case 3586383791U: return &kData[1890]; // crate_elite_tutorial
+    case 25203603U: return &kData[1891]; // crate_tools_tutorial
+    case 2744328499U: return &kData[1892]; // endtutorialcinematic
+    case 1380255172U: return &kData[1893]; // loot-barrel-tutorial
+    case 3290961355U: return &kData[1894]; // tutorialisland
+    case 3719689594U: return &kData[1895]; // tutorialmapmarker
+    case 3317159439U: return &kData[1896]; // apartment_security
+    case 3396970230U: return &kData[1897]; // apartment_vendor
+    case 3312510084U: return &kData[1898]; // autoturret_deployed
+    case 2823049573U: return &kData[1899]; // industrial_autoturret_deployed
+    case 2911153046U: return &kData[1900]; // airwolf_helipad.repairable
+    case 3960558419U: return &kData[1901]; // airwolfspawner
+    case 2609911909U: return &kData[1902]; // boatspawner
+    case 4058311563U: return &kData[1903]; // horsespawner
+    case 372889267U: return &kData[1904]; // missionprovider_bandit_a
+    case 322083179U: return &kData[1905]; // missionprovider_bandit_b
+    case 350957926U: return &kData[1906]; // missionprovider_fishing_a
+    case 3694999410U: return &kData[1907]; // missionprovider_fishing_b
+    case 2263543605U: return &kData[1908]; // missionprovider_floatingcity_a
+    case 4018233975U: return &kData[1909]; // missionprovider_generic_a
+    case 3928572443U: return &kData[1910]; // missionprovider_outpost_a
+    case 1091655158U: return &kData[1911]; // missionprovider_outpost_b
+    case 930153435U: return &kData[1912]; // missionprovider_stables_a
+    case 3892089538U: return &kData[1913]; // missionprovider_stables_b
+    case 251735616U: return &kData[1914]; // bandit_conversationalist
+    case 2404773048U: return &kData[1915]; // bandit_shopkeeper
+    case 2891949068U: return &kData[1916]; // bandit_shopkeeper_sitting
+    case 2913617060U: return &kData[1917]; // boat_shopkeeper
+    case 4115840942U: return &kData[1918]; // missionprovider_test
+    case 7488435U: return &kData[1919]; // stables_shopkeeper
+    case 3827650729U: return &kData[1920]; // beemasterswarm
+    case 4224371694U: return &kData[1921]; // beeswarm
+    case 2383782438U: return &kData[1922]; // cargo_plane
+    case 680397581U: return &kData[1923]; // alarmsytstem
+    case 1675349834U: return &kData[1924]; // ch47.entity
+    case 1514383717U: return &kData[1925]; // ch47scientists.entity
+    case 667569163U: return &kData[1926]; // reinforcementslistener
+    case 3745320211U: return &kData[1927]; // servergibs_ch47
+    case 4075317686U: return &kData[1928]; // flameturret.deployed
+    case 2781905939U: return &kData[1929]; // flameturret_fireball
+    case 204695781U: return &kData[1930]; // farm_access_guard
+    case 3250554959U: return &kData[1931]; // gingerbread_corpse_female
+    case 3865171876U: return &kData[1932]; // gingerbread_corpse_male
+    case 2992757580U: return &kData[1933]; // gingerbread_dungeon
+    case 1172642608U: return &kData[1934]; // gingerbread_meleedungeon
+    case 1737870479U: return &kData[1935]; // bradley_crate
+    case 1456850188U: return &kData[1936]; // bradleyapc
+    case 3032863244U: return &kData[1937]; // maincannonshell
+    case 3761185980U: return &kData[1938]; // oilfireball2
+    case 4214400966U: return &kData[1939]; // servergibs_bradley
+    case 2400390439U: return &kData[1940]; // murderer_corpse
+    case 1314849795U: return &kData[1941]; // heli_crate
+    case 3029415845U: return &kData[1942]; // patrolhelicopter
+    case 2618904203U: return &kData[1943]; // patrolhelicopterfleemarker
+    case 3212876472U: return &kData[1944]; // patrolhelicoptermarker
+    case 129320027U: return &kData[1945]; // rocket_heli
+    case 3253859536U: return &kData[1946]; // rocket_heli_airburst
+    case 200672762U: return &kData[1947]; // rocket_heli_napalm
+    case 1829321077U: return &kData[1948]; // servergibs_patrolhelicopter
+    case 3637147323U: return &kData[1949]; // livestockvendor_stables
+    case 330087688U: return &kData[1950]; // overgrazedarea
+    case 2160908677U: return &kData[1951]; // rocket_sam
+    case 3414321847U: return &kData[1952]; // sam_ammo
+    case 2059775839U: return &kData[1953]; // sam_site_turret_deployed
+    case 2934818568U: return &kData[1954]; // sam_static
+    case 3473349223U: return &kData[1955]; // scarecrow
+    case 3019050354U: return &kData[1956]; // scarecrow_dungeon
+    case 70161046U: return &kData[1957]; // scarecrow_dungeonnoroam
+    case 1236143239U: return &kData[1958]; // scientist_corpse
+    case 2857401739U: return &kData[1959]; // npcvendorturretmodified variant
+    case 4291749291U: return &kData[1960]; // npcvendorturretside
+    case 3338740337U: return &kData[1961]; // travellingvendor
+    case 3344407138U: return &kData[1962]; // missionprovider_tutorial
+    case 1907791058U: return &kData[1963]; // waterwell_shopkeeper
+    case 681646903U: return &kData[1964]; // physicsentitycube
+    case 4224922530U: return &kData[1965]; // physicsentitycube_maxfriction
+    case 2366673790U: return &kData[1966]; // physicsentitycube_maxfriction_heavy
+    case 474343723U: return &kData[1967]; // physicsentitycube_maxfriction_light
+    case 654911969U: return &kData[1968]; // black_berry.entity
+    case 402225589U: return &kData[1969]; // blue_berry.entity
+    case 1267013032U: return &kData[1970]; // green_berry.entity
+    case 3359110450U: return &kData[1971]; // red_berry.entity
+    case 4038822397U: return &kData[1972]; // white_berry.entity
+    case 2747504285U: return &kData[1973]; // yellow_berry.entity
+    case 112964822U: return &kData[1974]; // corn.entity
+    case 3587624038U: return &kData[1975]; // hemp.entity
+    case 2529869539U: return &kData[1976]; // orchid.entity
+    case 451737085U: return &kData[1977]; // potato.entity
+    case 1524652375U: return &kData[1978]; // pumpkin.entity
+    case 773690139U: return &kData[1979]; // rose.entity
+    case 3882604163U: return &kData[1980]; // sunflower.entity
+    case 1410137143U: return &kData[1981]; // wheat.entity
+    case 4108440852U: return &kData[1982]; // player
+    case 2604534927U: return &kData[1983]; // player_corpse
+    case 391715894U: return &kData[1984]; // player_corpse_new
+    case 886972632U: return &kData[1985]; // player_temp_ragdoll
+    case 120188964U: return &kData[1986]; // advancedblueprintfragment_pickup.entity
+    case 4011844428U: return &kData[1987]; // basicblueprintfragment_pickup.entity
+    case 14164597U: return &kData[1988]; // basicblueprintfragment_singlepickup.entity
+    case 4140706055U: return &kData[1989]; // diesel_barrel_world
+    case 2046937803U: return &kData[1990]; // horsedung.entity
+    case 3451647698U: return &kData[1991]; // crudeoilproducer
+    case 3154707280U: return &kData[1992]; // waterproducer
+    case 3813053556U: return &kData[1993]; // waterproducer_invisible
+    case 1577933610U: return &kData[1994]; // beehive.natural
+    case 1395966456U: return &kData[1995]; // satellitecontrolcomputer.entity
+    case 1346829530U: return &kData[1996]; // satellitecontrolcomputer.static.entity
+    case 3673999874U: return &kData[1997]; // satellitecontrolcomputer_storage.entity
+    case 3827148288U: return &kData[1998]; // satellite_crate_1.entity
+    case 1629625041U: return &kData[1999]; // satellite_crate_2.entity
+    case 3217579596U: return &kData[2000]; // satellite_crate_3.entity
+    case 900308836U: return &kData[2001]; // satellite.entity
+    case 1877649312U: return &kData[2002]; // satellite_pending_crash_site.entity
+    case 2443571139U: return &kData[2003]; // satellite_remains.entity
+    case 436023350U: return &kData[2004]; // binocular.entity
+    case 3898309212U: return &kData[2005]; // explosive.timed.deployed
+    case 1915331115U: return &kData[2006]; // explosive.timed.entity
+    case 1410597758U: return &kData[2007]; // tool_camera
+    case 2757054139U: return &kData[2008]; // compass.entity
+    case 2686008770U: return &kData[2009]; // generic_deploy
+    case 3503830994U: return &kData[2010]; // detonator.entity
+    case 2984848657U: return &kData[2011]; // bobber.entity
+    case 2057865657U: return &kData[2012]; // fishing_rod.entity
+    case 816085840U: return &kData[2013]; // overfishedarea
+    case 1693887801U: return &kData[2014]; // flare.deployed
+    case 2661658442U: return &kData[2015]; // flare.weapon
+    case 72718095U: return &kData[2016]; // flashlight.entity
+    case 47304962U: return &kData[2017]; // geiger_counter.entity
+    case 3263286159U: return &kData[2018]; // handcuffs.entity
+    case 3568270288U: return &kData[2019]; // hosetool.entity
+    case 3537156861U: return &kData[2020]; // jackhammer.entity
+    case 3773357817U: return &kData[2021]; // keycard.entity
+    case 675407027U: return &kData[2022]; // keycard_blue_pickup.entity
+    case 1317896088U: return &kData[2023]; // keycard_green_pickup.entity
+    case 3985212893U: return &kData[2024]; // keycard_red_pickup.entity
+    case 1777756171U: return &kData[2025]; // concrete_hatchet.entity
+    case 1480417083U: return &kData[2026]; // concrete_pickaxe.entity
+    case 4035646930U: return &kData[2027]; // lumberjack_axe.entity
+    case 1725165540U: return &kData[2028]; // lumberjack_pick.entity
+    case 843218194U: return &kData[2029]; // cargomarker
+    case 3775898198U: return &kData[2030]; // ch47marker
+    case 2913233310U: return &kData[2031]; // cinemarkera
+    case 1697598722U: return &kData[2032]; // cinemarkerb
+    case 4244600952U: return &kData[2033]; // cinemarkerc
+    case 2366974922U: return &kData[2034]; // cratemarker
+    case 4060989661U: return &kData[2035]; // explosionmarker
+    case 2849728229U: return &kData[2036]; // genericradiusmarker
+    case 491065559U: return &kData[2037]; // map
+    case 1670391308U: return &kData[2038]; // missionprovidermarker
+    case 4216742342U: return &kData[2039]; // travellingvendormarker
+    case 1148470020U: return &kData[2040]; // masterkey.entity
+    case 283937635U: return &kData[2041]; // syringe_medical.entity
+    case 892200099U: return &kData[2042]; // metal_detector.entity
+    case 1406086660U: return &kData[2043]; // metal_detector_flag.entity
+    case 3282154567U: return &kData[2044]; // metal_detector_flag_deepsea.entity
+    case 1244235496U: return &kData[2045]; // metal_detector_source.entity
+    case 1791061997U: return &kData[2046]; // metal_detector_source_deepsea.entity
+    case 819836910U: return &kData[2047]; // metal_detector_source_deepsea_mission.entity
+    case 3864758412U: return &kData[2048]; // outbreak_sprayer.entity
+    case 2918467232U: return &kData[2049]; // pager.entity
+    case 3896504765U: return &kData[2050]; // pipetool.entity
+    case 2721033560U: return &kData[2051]; // boat_planner.entity
+    case 3378931327U: return &kData[2052]; // building_planner.entity
+    case 3196650451U: return &kData[2053]; // shovel.entity
+    case 1464001967U: return &kData[2054]; // grenade.smoke.deployed
+    case 3642747736U: return &kData[2055]; // smoke_grenade.weapon
+    case 2542129442U: return &kData[2056]; // spraylinedecal
+    case 4251031431U: return &kData[2057]; // spraycan.weapon
+    case 3884356627U: return &kData[2058]; // spray.decal
+    case 3350651790U: return &kData[2059]; // grenade.supplysignal.deployed
+    case 775476535U: return &kData[2060]; // supplysignal.weapon
+    case 2141863453U: return &kData[2061]; // survey_charge.deployed
+    case 2698594377U: return &kData[2062]; // survey_charge
+    case 2955484243U: return &kData[2063]; // survey_crater
+    case 1917257452U: return &kData[2064]; // survey_crater_oil
+    case 4258987144U: return &kData[2065]; // wiretool.entity
+    case 1600307371U: return &kData[2066]; // arcadeuser
+    case 70742988U: return &kData[2067]; // attackhelidriver
+    case 240871686U: return &kData[2068]; // attackheligunner
+    case 4261260455U: return &kData[2069]; // bikedriverseat
+    case 3025064202U: return &kData[2070]; // bikepassengerseat
+    case 1070668182U: return &kData[2071]; // copilotseat
+    case 1103757790U: return &kData[2072]; // craneoperator
+    case 4088163379U: return &kData[2073]; // driverseat
+    case 986236302U: return &kData[2074]; // gunnertest
+    case 262646847U: return &kData[2075]; // horsesaddle
+    case 2508371933U: return &kData[2076]; // horsesaddlerear
+    case 3811102955U: return &kData[2077]; // internalmounteddouble50calturretseat
+    case 780491012U: return &kData[2078]; // internalmountedturretseat
+    case 2907322464U: return &kData[2079]; // kayakseat
+    case 3398691772U: return &kData[2080]; // locomotivedriver
+    case 1231746772U: return &kData[2081]; // minihelipassenger
+    case 3742994540U: return &kData[2082]; // miniheliseat
+    case 1924089654U: return &kData[2083]; // modularcardriverseat
+    case 894444950U: return &kData[2084]; // modularcarpassengerseatleft
+    case 2487473786U: return &kData[2085]; // modularcarpassengerseatlesslegroomleft
+    case 1826159939U: return &kData[2086]; // modularcarpassengerseatlesslegroomright
+    case 205354363U: return &kData[2087]; // modularcarpassengerseatright
+    case 4116606551U: return &kData[2088]; // modularcarpassengerseatsidewayleft
+    case 1359197088U: return &kData[2089]; // motorbikedriverseat
+    case 1177038454U: return &kData[2090]; // motorbikepassengerseat
+    case 3398060938U: return &kData[2091]; // parachuteseat
+    case 2304142695U: return &kData[2092]; // passenger
+    case 1954020959U: return &kData[2093]; // passengerchair
+    case 952100854U: return &kData[2094]; // pilotseat
+    case 212381033U: return &kData[2095]; // ptboatdriver
+    case 108682576U: return &kData[2096]; // ptboatpassenger
+    case 2257815105U: return &kData[2097]; // rhibdriver
+    case 2709229839U: return &kData[2098]; // roundaboutchair
+    case 1212881407U: return &kData[2099]; // sledseatfront
+    case 518673090U: return &kData[2100]; // sledseatrear
+    case 1239975468U: return &kData[2101]; // smallboatdriver
+    case 3241157857U: return &kData[2102]; // smallboatpassenger
+    case 836439399U: return &kData[2103]; // snowmobiledriverseat
+    case 1103815396U: return &kData[2104]; // snowmobilepassengerseat tomaha
+    case 2602628913U: return &kData[2105]; // snowmobilepassengerseat
+    case 1392704482U: return &kData[2106]; // standingdriver
+    case 342862053U: return &kData[2107]; // standingmounted50calturretseat
+    case 980028944U: return &kData[2108]; // standingmountedturretseat
+    case 309883022U: return &kData[2109]; // submarineduodriverseat
+    case 2802580699U: return &kData[2110]; // submarineduopassengerseat
+    case 1922108893U: return &kData[2111]; // submarinesolodriverstanding
+    case 1130710742U: return &kData[2112]; // swingseat
+    case 3179168237U: return &kData[2113]; // testseat
+    case 1771416011U: return &kData[2114]; // transporthelicopilot
+    case 3180731352U: return &kData[2115]; // transporthelipilot
+    case 1955582400U: return &kData[2116]; // tugboatdriver
+    case 1948876508U: return &kData[2117]; // twitchbusseat
+    case 311277167U: return &kData[2118]; // workcartdriver
+    case 3211242734U: return &kData[2119]; // sphere
+    case 244503553U: return &kData[2120]; // boombox.deployed
+    case 1709505846U: return &kData[2121]; // boombox.deployed.static
+    case 1771910647U: return &kData[2122]; // boombox.static
+    case 617635188U: return &kData[2123]; // boomboxportable.weapon
+    case 3549123016U: return &kData[2124]; // cassette.entity
+    case 1513498993U: return &kData[2125]; // cassette.medium.entity
+    case 253547591U: return &kData[2126]; // cassette.short.entity
+    case 760079751U: return &kData[2127]; // cassetterecorder.deployed
+    case 705457609U: return &kData[2128]; // cassetterecorder.weapon
+    case 2613307285U: return &kData[2129]; // discoball.deployed
+    case 3677777210U: return &kData[2130]; // discofloor.deployed
+    case 1416531191U: return &kData[2131]; // discofloor.largetiles.deployed
+    case 350348582U: return &kData[2132]; // connectedspeaker.deployed
+    case 3946294029U: return &kData[2133]; // connectedspeaker.deployed.static
+    case 4083964466U: return &kData[2134]; // laserlight.deployed
+    case 3942416854U: return &kData[2135]; // megaphone.weapon
+    case 3061223907U: return &kData[2136]; // microphonestand.deployed
+    case 113644298U: return &kData[2137]; // microphonestand.deployed.static
+    case 1240315717U: return &kData[2138]; // microphonestandio.entity
+    case 1226049576U: return &kData[2139]; // microphonestandio.entity.static
+    case 3945729556U: return &kData[2140]; // mobileinventory.entity
+    case 2342841515U: return &kData[2141]; // mobilephone.weapon
+    case 58106244U: return &kData[2142]; // soundlight.deployed
+    case 2160363615U: return &kData[2143]; // telephone.deployed
+    case 2416512278U: return &kData[2144]; // ceilingpaper.entity_iconrender
+    case 1151746608U: return &kData[2145]; // wallpaper.doorway.construction
+    case 2910744970U: return &kData[2146]; // wallpaper.floor.construction
+    case 2061122277U: return &kData[2147]; // wallpaper.floor.triangle.construction
+    case 921716393U: return &kData[2148]; // wallpaper.foundation.construction
+    case 2418284139U: return &kData[2149]; // wallpaper.foundation.triangle.construction
+    case 3884404330U: return &kData[2150]; // wallpaper.roof.construction
+    case 3383920777U: return &kData[2151]; // wallpaper.roof.triangle.construction
+    case 2402782496U: return &kData[2152]; // wallpaper.wall.construction
+    case 2617353051U: return &kData[2153]; // wallpaper.wall.half.construction
+    case 3024970135U: return &kData[2154]; // wallpaper.wall.low.construction
+    case 2434851882U: return &kData[2155]; // wallpaper.window.construction
+    case 1379706361U: return &kData[2156]; // floorpaper.entity_iconrender
+    case 3945642922U: return &kData[2157]; // wallpaper.entity_iconrender
+    case 2811911262U: return &kData[2158]; // wallpaper.tool.entity
+    case 4005260636U: return &kData[2159]; // 8xscope.entity
+    case 545873399U: return &kData[2160]; // 8xscope.vm.attachment
+    case 1243102785U: return &kData[2161]; // burstmodule.entity
+    case 330399465U: return &kData[2162]; // extendedmags.entity
+    case 3357772531U: return &kData[2163]; // flashlight.entity
+    case 1529000711U: return &kData[2164]; // flashlight.vm.attachment
+    case 869056374U: return &kData[2165]; // gascompressionoverdrive.entity
+    case 1518608834U: return &kData[2166]; // holosight.entity
+    case 1968563077U: return &kData[2167]; // holosight.vm.attachment
+    case 768584306U: return &kData[2168]; // lasersight.entity
+    case 3175048729U: return &kData[2169]; // lasersight.vm.attachment
+    case 4161515557U: return &kData[2170]; // muzzleboost.entity
+    case 3158761202U: return &kData[2171]; // muzzlebrake.entity
+    case 320811722U: return &kData[2172]; // simplesight.entity
+    case 1623429255U: return &kData[2173]; // simplesight.vm.attachment
+    case 516933957U: return &kData[2174]; // oilfiltersilencer.entity
+    case 2395313048U: return &kData[2175]; // silencer.entity
+    case 688872962U: return &kData[2176]; // sodacansilencer.entity
+    case 2957289628U: return &kData[2177]; // smallscope.entity
+    case 3672170763U: return &kData[2178]; // smallscope.vm.attachment
+    case 40635747U: return &kData[2179]; // targetingattachment.entity
+    case 1978739833U: return &kData[2180]; // ak47u.entity
+    case 4096772971U: return &kData[2181]; // ak47u_diver.entity
+    case 2408471514U: return &kData[2182]; // ak47u.glass.blue.entity
+    case 3842925800U: return &kData[2183]; // ak47u.glass.entity
+    case 1246348333U: return &kData[2184]; // ak47u.glass.green.entity
+    case 2779585845U: return &kData[2185]; // ak47u.glass.pink.entity
+    case 3312136396U: return &kData[2186]; // ak47u.glass.red.entity
+    case 1942738569U: return &kData[2187]; // ak47u_ice.entity
+    case 1934468549U: return &kData[2188]; // ak47u_jungle.entity
+    case 3192146626U: return &kData[2189]; // ak47u_med.entity
+    case 1383987667U: return &kData[2190]; // bandage.entity
+    case 2144399804U: return &kData[2191]; // grenade.beancan.deployed
+    case 3654150932U: return &kData[2192]; // grenade.beancan.entity
+    case 4036845226U: return &kData[2193]; // grenade.bee.deployed
+    case 3444797639U: return &kData[2194]; // grenade.bee.entity
+    case 996318821U: return &kData[2195]; // blowpipe.entity
+    case 2557812813U: return &kData[2196]; // blunderbuss.entity
+    case 1665481300U: return &kData[2197]; // bolt_rifle.entity
+    case 3097934597U: return &kData[2198]; // bone_club.entity
+    case 1483241467U: return &kData[2199]; // knife_bone.entity
+    case 1443663060U: return &kData[2200]; // bone.knife.obsidian.entity
+    case 1402819630U: return &kData[2201]; // boomerang.entity
+    case 3604660177U: return &kData[2202]; // boomerang.thrown.entity
+    case 2836331625U: return &kData[2203]; // bow_hunting.entity
+    case 1980046596U: return &kData[2204]; // cake.entity
+    case 1802634117U: return &kData[2205]; // chainsaw.entity
+    case 3340056040U: return &kData[2206]; // salvaged_cleaver.entity
+    case 3814317397U: return &kData[2207]; // cny_spear.entity
+    case 1537401592U: return &kData[2208]; // compound_bow.entity
+    case 2727391082U: return &kData[2209]; // crossbow.entity
+    case 777174364U: return &kData[2210]; // crossbow_bowless.entity
+    case 2730518698U: return &kData[2211]; // explosivesiegedeployable
+    case 3599700023U: return &kData[2212]; // flammablesiegedeployable
+    case 1396987940U: return &kData[2213]; // diver_hatchet.entity
+    case 190635670U: return &kData[2214]; // diver_pickaxe.entity
+    case 1029607191U: return &kData[2215]; // diver_torch.entity
+    case 3474489095U: return &kData[2216]; // double_shotgun.entity
+    case 2176761593U: return &kData[2217]; // pistol_eoka.entity
+    case 1128089209U: return &kData[2218]; // grenade.f1.deployed
+    case 45697420U: return &kData[2219]; // grenade.f1.entity
+    case 3717106868U: return &kData[2220]; // flamethrower.entity
+    case 844008300U: return &kData[2221]; // flamethrower_fireball
+    case 1436152685U: return &kData[2222]; // grenade.flashbang.deployed
+    case 758326244U: return &kData[2223]; // grenade.flashbang.entity
+    case 3662083119U: return &kData[2224]; // frontier_hatchet.entity
+    case 636374895U: return &kData[2225]; // glock.entity
+    case 1233562048U: return &kData[2226]; // mgl.entity
+    case 2487927393U: return &kData[2227]; // hacksaw.weapon
+    case 1769459881U: return &kData[2228]; // mace.baseballbat
+    case 1362182970U: return &kData[2229]; // butcherknife.entity
+    case 1009417331U: return &kData[2230]; // pitchfork.entity
+    case 124547093U: return &kData[2231]; // sickle.entity
+    case 3258690150U: return &kData[2232]; // skulltorch.entity
+    case 1140399555U: return &kData[2233]; // skull.entity
+    case 2186616991U: return &kData[2234]; // vampirestake.entity
+    case 388861612U: return &kData[2235]; // hammer.entity
+    case 365233245U: return &kData[2236]; // hatchet.entity
+    case 2154182718U: return &kData[2237]; // hc_revolver.entity
+    case 3459133190U: return &kData[2238]; // hmlmg.entity
+    case 542600037U: return &kData[2239]; // homing_missile_launcher.entity
+    case 678281183U: return &kData[2240]; // seekertest
+    case 3088514867U: return &kData[2241]; // improvisedshield.entity
+    case 327944951U: return &kData[2242]; // knife.combat.entity
+    case 2957160983U: return &kData[2243]; // sunken.knife.combat.entity
+    case 2620171289U: return &kData[2244]; // l96.entity
+    case 1400027705U: return &kData[2245]; // legacybow.entity
+    case 844375121U: return &kData[2246]; // lr300.entity
+    case 1407888186U: return &kData[2247]; // lr300_space.entity
+    case 4258809631U: return &kData[2248]; // m16a2.entity
+    case 1440914039U: return &kData[2249]; // m249.entity
+    case 1517089664U: return &kData[2250]; // m39.entity
+    case 2416998201U: return &kData[2251]; // m4_shotgun.entity
+    case 2293870814U: return &kData[2252]; // m92.entity
+    case 2927698044U: return &kData[2253]; // mace.entity
+    case 2942508801U: return &kData[2254]; // machete.weapon
+    case 89391648U: return &kData[2255]; // honeybandage.entity
+    case 3703020820U: return &kData[2256]; // metalshield.entity
+    case 1710208928U: return &kData[2257]; // militaryflamethrower.entity
+    case 4274044420U: return &kData[2258]; // mini_crossbow.entity
+    case 4007138847U: return &kData[2259]; // minigun.entity
+    case 2144253630U: return &kData[2260]; // grenade.molotov.deployed
+    case 4104126979U: return &kData[2261]; // grenade.molotov.entity
+    case 2545523575U: return &kData[2262]; // mp5.entity
+    case 4279856314U: return &kData[2263]; // nailgun.entity
+    case 1850172004U: return &kData[2264]; // paddle.entity
+    case 3749252572U: return &kData[2265]; // paintballgun.entity
+    case 1587077350U: return &kData[2266]; // pickaxe.entity
+    case 2696589892U: return &kData[2267]; // shotgun_waterpipe.entity
+    case 3305012504U: return &kData[2268]; // python.entity
+    case 2274489607U: return &kData[2269]; // reinforcedwoodshield.entity
+    case 2477536592U: return &kData[2270]; // pistol_revolver.entity
+    case 3940068399U: return &kData[2271]; // rock.entity
+    case 1746720686U: return &kData[2272]; // rock.a.jungle.entity
+    case 601440135U: return &kData[2273]; // rocket_launcher.entity
+    case 3704640358U: return &kData[2274]; // rocket_launcher_dragon.entity
+    case 3445264346U: return &kData[2275]; // rpg7.entity
+    case 3826414185U: return &kData[2276]; // axe_salvaged.entity
+    case 1744180387U: return &kData[2277]; // hammer_salvaged.entity
+    case 109244214U: return &kData[2278]; // icepick_salvaged.entity
+    case 2742759844U: return &kData[2279]; // explosive.satchel.deployed
+    case 2671523489U: return &kData[2280]; // explosive.satchel.entity
+    case 554582418U: return &kData[2281]; // shotgun_pump.entity
+    case 563371667U: return &kData[2282]; // pistol_semiauto.entity
+    case 2343718176U: return &kData[2283]; // pistol_semiauto.a.m15.entity
+    case 4231282088U: return &kData[2284]; // semi_auto_rifle.entity
+    case 4228529517U: return &kData[2285]; // sks.entity
+    case 3759841439U: return &kData[2286]; // smg.entity
+    case 1877401463U: return &kData[2287]; // spas12.entity
+    case 4262383355U: return &kData[2288]; // speargun.entity
+    case 3540736579U: return &kData[2289]; // stonehatchet.entity
+    case 1450582435U: return &kData[2290]; // stone_pickaxe.entity
+    case 1943636975U: return &kData[2291]; // spear_stone.entity
+    case 3395979968U: return &kData[2292]; // longsword.entity
+    case 1663991785U: return &kData[2293]; // salvaged_sword.entity
+    case 4251501342U: return &kData[2294]; // t1_smg.entity
+    case 3243900999U: return &kData[2295]; // thompson.entity
+    case 417347909U: return &kData[2296]; // toolgun.entity
+    case 1288011403U: return &kData[2297]; // industrial_torch.entity
+    case 1543342082U: return &kData[2298]; // torch.entity
+    case 4148293472U: return &kData[2299]; // krieg_chainsword.entity
+    case 1896956209U: return &kData[2300]; // krieg_shotgun.entity
+    case 556797242U: return &kData[2301]; // waterball
+    case 1182699531U: return &kData[2302]; // waterbucket.entity
+    case 3637711865U: return &kData[2303]; // woodenshield.entity
+    case 2828546575U: return &kData[2304]; // spear_wooden.entity
+    case 4102891990U: return &kData[2305]; // bear.corpse
+    case 1799741974U: return &kData[2306]; // bear
+    case 3849045871U: return &kData[2307]; // bear_tutorial.corpse
+    case 3752179891U: return &kData[2308]; // bear_tutorial
+    case 2275652760U: return &kData[2309]; // polarbear.corpse
+    case 749308997U: return &kData[2310]; // polarbear
+    case 3307373733U: return &kData[2311]; // boar.corpse
+    case 502341109U: return &kData[2312]; // boar
+    case 1784396605U: return &kData[2313]; // bottest
+    case 2110106795U: return &kData[2314]; // bull.corpse
+    case 2899085138U: return &kData[2315]; // bull
+    case 2717327036U: return &kData[2316]; // calf.corpse
+    case 1700627756U: return &kData[2317]; // calf
+    case 3908118774U: return &kData[2318]; // calfmale.corpse
+    case 2086004806U: return &kData[2319]; // calfmale
+    case 345706504U: return &kData[2320]; // chicken.corpse
+    case 1502667878U: return &kData[2321]; // chicken.corpse.tutorial
+    case 152398164U: return &kData[2322]; // chicken
+    case 2830011179U: return &kData[2323]; // chicken.tutorial
+    case 178979119U: return &kData[2324]; // cow.corpse
+    case 1272743192U: return &kData[2325]; // cow
+    case 2419721607U: return &kData[2326]; // crab_single
+    case 2682064676U: return &kData[2327]; // crabs
+    case 2697812644U: return &kData[2328]; // crocodile.corpse
+    case 43745372U: return &kData[2329]; // crocodile
+    case 3051190050U: return &kData[2330]; // shark.corpse
+    case 1738989765U: return &kData[2331]; // shark_unused
+    case 947646353U: return &kData[2332]; // simpleshark
+    case 3399313879U: return &kData[2333]; // frog
+    case 4234803065U: return &kData[2334]; // jellyfish
+    case 412745708U: return &kData[2335]; // npc_bandit_guard
+    case 1630143092U: return &kData[2336]; // npcgrenade.smoke
+    case 3554738798U: return &kData[2337]; // scientist2.corpse
+    case 3292751488U: return &kData[2338]; // scientist2.grenade.f1.deployed
+    case 1013743524U: return &kData[2339]; // scientist2.grenade.smoke.deployed
+    case 1179669532U: return &kData[2340]; // scientist2.heavy.corpse
+    case 2254599158U: return &kData[2341]; // scientist2.heavy
+    case 4227413660U: return &kData[2342]; // scientist2
+    case 3441714695U: return &kData[2343]; // scientist2.shotgun
+    case 3430609603U: return &kData[2344]; // scientistnpc_arena
+    case 1126473739U: return &kData[2345]; // scientistnpc_bradley
+    case 3572389335U: return &kData[2346]; // scientistnpc_bradley_heavy
+    case 3623670799U: return &kData[2347]; // scientistnpc_cargo
+    case 1639447304U: return &kData[2348]; // scientistnpc_cargo_turret_any
+    case 881071619U: return &kData[2349]; // scientistnpc_cargo_turret_lr300
+    case 1017671955U: return &kData[2350]; // scientistnpc_ch47_gunner
+    case 4293908444U: return &kData[2351]; // scientistnpc_excavator
+    case 1539172658U: return &kData[2352]; // scientistnpc_full_any
+    case 3763080634U: return &kData[2353]; // scientistnpc_full_lr300
+    case 3595426380U: return &kData[2354]; // scientistnpc_full_mp5
+    case 712785714U: return &kData[2355]; // scientistnpc_full_pistol
+    case 1410044857U: return &kData[2356]; // scientistnpc_full_shotgun
+    case 1536035819U: return &kData[2357]; // scientistnpc_heavy
+    case 2066159302U: return &kData[2358]; // scientistnpc_junkpile_pistol
+    case 548379897U: return &kData[2359]; // scientistnpc_oilrig
+    case 2392284122U: return &kData[2360]; // scientistnpc_outbreak
+    case 4272904018U: return &kData[2361]; // scientistnpc_patrol
+    case 387319993U: return &kData[2362]; // scientistnpc_patrol_arctic
+    case 2390854225U: return &kData[2363]; // scientistnpc_peacekeeper
+    case 499806986U: return &kData[2364]; // scientistnpc_ptboat
+    case 1361476945U: return &kData[2365]; // scientistnpc_rhib
+    case 4199494415U: return &kData[2366]; // scientistnpc_roam
+    case 4134517186U: return &kData[2367]; // scientistnpc_roam_nvg_variant
+    case 529928930U: return &kData[2368]; // scientistnpc_roamtethered
+    case 732025282U: return &kData[2369]; // npc_tunneldweller
+    case 1934869703U: return &kData[2370]; // npc_tunneldwellerspawned
+    case 1605597847U: return &kData[2371]; // npc_underwaterdweller
+    case 1256759028U: return &kData[2372]; // npcplayertest
+    case 3489787657U: return &kData[2373]; // frankensteinpet
+    case 3842948583U: return &kData[2374]; // frankensteinpet_corpse
+    case 3667371159U: return &kData[2375]; // frankensteinpetmarker
+    case 2835842148U: return &kData[2376]; // panther.corpse
+    case 711690240U: return &kData[2377]; // panther
+    case 1603855141U: return &kData[2378]; // rabbit
+    case 2631877691U: return &kData[2379]; // seaturtle
+    case 1315217008U: return &kData[2380]; // lamb.corpse
+    case 1002041950U: return &kData[2381]; // lamb
+    case 86849409U: return &kData[2382]; // sheep.corpse
+    case 3201203472U: return &kData[2383]; // sheep
+    case 1265808053U: return &kData[2384]; // snake.corpse
+    case 711144264U: return &kData[2385]; // snake.entity
+    case 1987634752U: return &kData[2386]; // squirrel
+    case 784238137U: return &kData[2387]; // stag.corpse
+    case 1378621008U: return &kData[2388]; // stag
+    case 4224089064U: return &kData[2389]; // tigerclawmark
+    case 2675550198U: return &kData[2390]; // tiger.corpse
+    case 3242487723U: return &kData[2391]; // tiger
+    case 4107384580U: return &kData[2392]; // wolf.corpse
+    case 2288788453U: return &kData[2393]; // wolf2
+    case 81333250U: return &kData[2394]; // zombie.corpse
+    case 2805320019U: return &kData[2395]; // zombie
+    case 520240521U: return &kData[2396]; // airdrop rate terminal
+    case 1580739U: return &kData[2397]; // chinook call terminal
+    case 880072591U: return &kData[2398]; // gasstationcarlift
+    case 3344299633U: return &kData[2399]; // gasstationlootspawnswitcher
+    case 2432661514U: return &kData[2400]; // gasstationwidegaragedoor
+    case 4234742552U: return &kData[2401]; // coaling_tower_mechanism.entity
+    case 597741544U: return &kData[2402]; // coaling_tower_fuel_storage.entity
+    case 3609973791U: return &kData[2403]; // coaling_tower_ore_storage.entity
+    case 1732020479U: return &kData[2404]; // watertreatment_pipe_waterproducer
+    case 1825376703U: return &kData[2405]; // wtp_watertankspinner
+    case 2100330297U: return &kData[2406]; // f15e
+    case 3989929317U: return &kData[2407]; // visualshelvestest
     default: return nullptr;
     }
 }

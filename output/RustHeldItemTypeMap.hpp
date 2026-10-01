@@ -1,8 +1,8 @@
 //
 // Auto-generated Rust Held Item Type Map
-// Generated: 2026-09-28 18:32:17 UTC
-// Target: Protocol 2633.288.1 / Changeset 165217
-// Total entries: 710
+// Generated: 2026-10-01 21:33:03 UTC
+// Target: Protocol 2634.289.1 / Changeset 166494
+// Total entries: 728
 // Generator: RustDataExporter
 //
 // This file is generated from server-side Rust prefabs/components.
@@ -32,7 +32,7 @@ struct ItemTypeEntry
     std::size_t type_count;
 };
 
-inline constexpr std::size_t kTypeCount = 1651;
+inline constexpr std::size_t kTypeCount = 1711;
 inline constexpr const char* kTypeNames[kTypeCount == 0 ? 1 : kTypeCount] =
 {
     "BaseProjectile",
@@ -71,6 +71,12 @@ inline constexpr const char* kTypeNames[kTypeCount == 0 ? 1 : kTypeCount] =
     "HeldEntity",
     "MedicalTool",
     "AttackEntity",
+    "HeldEntity",
+    "Planner",
+    "HeldEntity",
+    "Planner",
+    "HeldEntity",
+    "Planner",
     "HeldEntity",
     "Planner",
     "HeldEntity",
@@ -634,6 +640,8 @@ inline constexpr const char* kTypeNames[kTypeCount == 0 ? 1 : kTypeCount] =
     "HeldEntity",
     "Planner",
     "HeldEntity",
+    "Planner",
+    "HeldEntity",
     "GrenadeWeapon",
     "ThrownWeapon",
     "AttackEntity",
@@ -986,6 +994,54 @@ inline constexpr const char* kTypeNames[kTypeCount == 0 ? 1 : kTypeCount] =
     "HeldEntity",
     "Planner",
     "HeldEntity",
+    "BaseMelee",
+    "AttackEntity",
+    "HeldEntity",
+    "Food",
+    "BaseMelee",
+    "AttackEntity",
+    "HeldEntity",
+    "Food",
+    "BaseMelee",
+    "AttackEntity",
+    "HeldEntity",
+    "Food",
+    "BaseMelee",
+    "AttackEntity",
+    "HeldEntity",
+    "Food",
+    "BaseMelee",
+    "AttackEntity",
+    "HeldEntity",
+    "Food",
+    "BaseMelee",
+    "AttackEntity",
+    "HeldEntity",
+    "Food",
+    "BaseMelee",
+    "AttackEntity",
+    "HeldEntity",
+    "Food",
+    "BaseMelee",
+    "AttackEntity",
+    "HeldEntity",
+    "Food",
+    "BaseMelee",
+    "AttackEntity",
+    "HeldEntity",
+    "Food",
+    "BaseMelee",
+    "AttackEntity",
+    "HeldEntity",
+    "Food",
+    "BaseMelee",
+    "AttackEntity",
+    "HeldEntity",
+    "Food",
+    "BaseMelee",
+    "AttackEntity",
+    "HeldEntity",
+    "Food",
     "BaseMelee",
     "AttackEntity",
     "HeldEntity",
@@ -1610,6 +1666,10 @@ inline constexpr const char* kTypeNames[kTypeCount == 0 ? 1 : kTypeCount] =
     "HeldEntity",
     "Planner",
     "HeldEntity",
+    "Planner",
+    "HeldEntity",
+    "Planner",
+    "HeldEntity",
     "WallpaperPlanner",
     "Planner",
     "HeldEntity",
@@ -1688,7 +1748,7 @@ inline constexpr const char* kTypeNames[kTypeCount == 0 ? 1 : kTypeCount] =
     "HeldEntity",
 };
 
-inline constexpr std::size_t kCount = 710;
+inline constexpr std::size_t kCount = 728;
 inline constexpr ItemTypeEntry kData[kCount == 0 ? 1 : kCount] =
 {
     { "50cal.mounted", "assets/content/vehicles/boats/ptboat/turrets/50cal/entities/50cal.single.entity.prefab", 3944162531U, "BaseProjectile", 0, 3 },
@@ -1712,695 +1772,713 @@ inline constexpr ItemTypeEntry kData[kCount == 0 ? 1 : kCount] =
     { "barricade.medieval", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 43, 2 },
     { "barricade.metal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 45, 2 },
     { "barricade.sandbags", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 47, 2 },
-    { "barricade.stone", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 49, 2 },
-    { "barricade.wood", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 51, 2 },
-    { "barricade.wood.cover", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 53, 2 },
-    { "barricade.woodwire", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 55, 2 },
-    { "bathtub.planter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 57, 2 },
-    { "batteringram", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 59, 2 },
-    { "bbq", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 61, 2 },
-    { "beachchair", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 63, 2 },
-    { "beachparasol", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 65, 2 },
-    { "beachtable", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 67, 2 },
-    { "beachtowel", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 69, 2 },
-    { "beanbagseatfabric", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 71, 2 },
-    { "beanbagseatleather", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 73, 2 },
-    { "bed", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 75, 2 },
-    { "beehive", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 77, 2 },
-    { "blowpipe", "assets/prefabs/weapons/blowpipe/blowpipe.entity.prefab", 996318821U, "BlowPipeWeapon", 79, 4 },
-    { "blunderbuss", "assets/prefabs/weapons/blunderbuss/blunderbuss.entity.prefab", 2557812813U, "BaseProjectile", 83, 3 },
-    { "boat.planner", "assets/prefabs/tools/planner/boat_planner.entity.prefab", 2721033560U, "Planner", 86, 2 },
-    { "boatbuildingstation", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 88, 2 },
-    { "bone.club", "assets/prefabs/weapons/bone club/bone_club.entity.prefab", 3097934597U, "BaseMelee", 90, 3 },
-    { "boogieboard", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 93, 2 },
-    { "boombox", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 95, 2 },
-    { "boomerang", "assets/prefabs/weapons/boomerang/boomerang.entity.prefab", 1402819630U, "Boomerang", 97, 4 },
-    { "botabag", "assets/prefabs/food/bota bag/bota_bag.entity.prefab", 1851422019U, "BaseLiquidVessel", 101, 3 },
-    { "bow.compound", "assets/prefabs/weapons/compound bow/compound_bow.entity.prefab", 1537401592U, "CompoundBowWeapon", 104, 6 },
-    { "bow.hunting", "assets/prefabs/weapons/bow/bow_hunting.entity.prefab", 2836331625U, "BowWeapon", 110, 5 },
-    { "box.repair.bench", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 115, 2 },
-    { "box.wooden", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 117, 2 },
-    { "box.wooden.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 119, 2 },
-    { "bucket.water", "assets/prefabs/weapons/waterbucket/waterbucket.entity.prefab", 1182699531U, "BaseLiquidVessel", 121, 3 },
-    { "building.planner", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 124, 2 },
-    { "cakefiveyear", "assets/prefabs/weapons/cake/cake.entity.prefab", 1980046596U, "BaseMelee", 126, 3 },
-    { "campfire", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 129, 2 },
-    { "candycaneclub", "assets/prefabs/misc/xmas/candy cane club/candy_cane.entity.prefab", 3331777431U, "BaseMelee", 131, 3 },
-    { "cannon", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 134, 2 },
-    { "cardtable", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 136, 2 },
-    { "carvable.pumpkin", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 138, 2 },
-    { "catapult", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 140, 2 },
-    { "catapult.ammo.explosive", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 142, 2 },
-    { "catapult.ammo.incendiary", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 144, 2 },
-    { "cctv.camera", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 146, 2 },
-    { "ceilinglight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 148, 2 },
-    { "chainsaw", "assets/prefabs/weapons/chainsaw/chainsaw.entity.prefab", 1802634117U, "Chainsaw", 150, 4 },
-    { "chair", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 154, 2 },
-    { "chair.ejector.seat", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 156, 2 },
-    { "chair.icethrone", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 158, 2 },
-    { "charity.plushy.01", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 160, 2 },
-    { "charity.plushy.02", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 162, 2 },
-    { "charity.plushy.03", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 164, 2 },
-    { "charity.plushy.04", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 166, 2 },
-    { "chickencoop", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 168, 2 },
-    { "chineselantern", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 170, 2 },
-    { "chineselanternwhite", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 172, 2 },
-    { "circleballoon2025", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 174, 2 },
-    { "clantable", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 176, 2 },
-    { "clone.black.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 178, 2 },
-    { "clone.blue.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 180, 2 },
-    { "clone.corn", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 182, 2 },
-    { "clone.green.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 184, 2 },
-    { "clone.hemp", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 186, 2 },
-    { "clone.orchid", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 188, 2 },
-    { "clone.potato", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 190, 2 },
-    { "clone.pumpkin", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 192, 2 },
-    { "clone.red.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 194, 2 },
-    { "clone.rose", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 196, 2 },
-    { "clone.sunflower", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 198, 2 },
-    { "clone.wheat", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 200, 2 },
-    { "clone.white.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 202, 2 },
-    { "clone.yellow.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 204, 2 },
-    { "coffin.storage", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 206, 2 },
-    { "command.block", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 208, 2 },
-    { "compass", "assets/prefabs/tools/compass/compass.entity.prefab", 2757054139U, "Compass", 210, 2 },
-    { "component.box.ammo.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 212, 2 },
-    { "component.box.armor.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 214, 2 },
-    { "component.box.charcoal.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 216, 2 },
-    { "component.box.clothing.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 218, 2 },
-    { "component.box.comps.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 220, 2 },
-    { "component.box.explosives.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 222, 2 },
-    { "component.box.food.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 224, 2 },
-    { "component.box.guns.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 226, 2 },
-    { "component.box.meds.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 228, 2 },
-    { "component.box.metal.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 230, 2 },
-    { "component.box.ore.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 232, 2 },
-    { "component.box.scrap.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 234, 2 },
-    { "component.box.stone.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 236, 2 },
-    { "component.box.sulfur.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 238, 2 },
-    { "component.box.tools.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 240, 2 },
-    { "component.box.wood.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 242, 2 },
-    { "composter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 244, 2 },
-    { "computerstation", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 246, 2 },
-    { "concretehatchet", "assets/prefabs/tools/lumberjack_tools/concrete_hatchet.entity.prefab", 1777756171U, "BaseMelee", 248, 3 },
-    { "concretepickaxe", "assets/prefabs/tools/lumberjack_tools/concrete_pickaxe.entity.prefab", 1480417083U, "BaseMelee", 251, 3 },
-    { "confetticannon", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 254, 2 },
-    { "connected.speaker", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 256, 2 },
-    { "cookingworkbench", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 258, 2 },
-    { "crossbow", "assets/prefabs/weapons/crossbow/crossbow.entity.prefab", 2727391082U, "CrossbowWeapon", 260, 5 },
-    { "crossbowbowless", "assets/prefabs/weapons/crossbow/skins/bowless/crossbow_bowless.entity.prefab", 777174364U, "CrossbowWeapon", 265, 5 },
-    { "cupboard.tool", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 270, 2 },
-    { "cupboard.tool.retro", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 272, 2 },
-    { "cupboard.tool.shockbyte", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 274, 2 },
-    { "cursedcauldron", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 276, 2 },
-    { "dartboard", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 278, 2 },
-    { "discoball", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 280, 2 },
-    { "discofloor", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 282, 2 },
-    { "discofloor.largetiles", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 284, 2 },
-    { "discord.plushie", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 286, 2 },
-    { "discord.trophy", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 288, 2 },
-    { "diverhatchet", "assets/prefabs/weapons/diverhatchet/diver_hatchet.entity.prefab", 1396987940U, "BaseMelee", 290, 3 },
-    { "diverpickaxe", "assets/prefabs/weapons/diverpickaxe/diver_pickaxe.entity.prefab", 190635670U, "BaseMelee", 293, 3 },
-    { "divertorch", "assets/prefabs/weapons/divertorch/diver_torch.entity.prefab", 1029607191U, "TorchWeapon", 296, 5 },
-    { "door.closer", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, "Deployer", 301, 2 },
-    { "door.double.hinged.bardoors", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 303, 2 },
-    { "door.double.hinged.metal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 305, 2 },
-    { "door.double.hinged.toptier", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 307, 2 },
-    { "door.double.hinged.wood", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 309, 2 },
-    { "door.hinged.boat.wood", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 311, 2 },
-    { "door.hinged.industrial.a", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 313, 2 },
-    { "door.hinged.metal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 315, 2 },
-    { "door.hinged.toptier", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 317, 2 },
-    { "door.hinged.wood", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 319, 2 },
-    { "dragondoorknocker", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, "Deployer", 321, 2 },
-    { "drone", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 323, 2 },
-    { "dropbox", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 325, 2 },
-    { "drumkit", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 327, 2 },
-    { "easel", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 329, 2 },
-    { "easterbasket", "assets/prefabs/misc/easter/easter basket/easter_basket.entity.prefab", 557749706U, "EasterBasket", 331, 3 },
-    { "easterdoorwreath", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, "Deployer", 334, 2 },
-    { "electric.andswitch", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 336, 2 },
-    { "electric.audioalarm", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 338, 2 },
-    { "electric.battery.rechargable.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 340, 2 },
-    { "electric.battery.rechargable.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 342, 2 },
-    { "electric.battery.rechargable.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 344, 2 },
-    { "electric.blocker", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 346, 2 },
-    { "electric.bulbstringlights", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 348, 2 },
-    { "electric.button", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 350, 2 },
-    { "electric.cabletunnel", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 352, 2 },
-    { "electric.chandelier", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 354, 2 },
-    { "electric.counter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 356, 2 },
-    { "electric.digitalclock", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 358, 2 },
-    { "electric.doorcontroller", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 360, 2 },
-    { "electric.fairylights", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 362, 2 },
-    { "electric.flasherlight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 364, 2 },
-    { "electric.fluorescentlight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 366, 2 },
-    { "electric.fluorescentlight.ceiling", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 368, 2 },
-    { "electric.fuelgenerator.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 370, 2 },
-    { "electric.furnace", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 372, 2 },
-    { "electric.generator.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 374, 2 },
-    { "electric.hbhfsensor", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 376, 2 },
-    { "electric.heater", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 378, 2 },
-    { "electric.igniter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 380, 2 },
-    { "electric.laserdetector", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 382, 2 },
-    { "electric.orswitch", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 384, 2 },
-    { "electric.pressurepad", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 386, 2 },
-    { "electric.random.switch", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 388, 2 },
-    { "electric.rf.broadcaster", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 390, 2 },
-    { "electric.rf.receiver", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 392, 2 },
-    { "electric.seismicsensor", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 394, 2 },
-    { "electric.simplelight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 396, 2 },
-    { "electric.sirenlight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 398, 2 },
-    { "electric.solarpanel.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 400, 2 },
-    { "electric.splitter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 402, 2 },
-    { "electric.spotlight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 404, 2 },
-    { "electric.spotlight.tripod", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 406, 2 },
-    { "electric.sprinkler", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 408, 2 },
-    { "electric.switch", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 410, 2 },
-    { "electric.tablelight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 412, 2 },
-    { "electric.teslacoil", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 414, 2 },
-    { "electric.timer", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 416, 2 },
-    { "electric.wallcabinet", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 418, 2 },
-    { "electric.xorswitch", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 420, 2 },
-    { "electrical.branch", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 422, 2 },
-    { "electrical.combiner", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 424, 2 },
-    { "electrical.memorycell", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 426, 2 },
-    { "elevator", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 428, 2 },
-    { "explosive.satchel", "assets/prefabs/weapons/satchelcharge/explosive.satchel.entity.prefab", 2671523489U, "ThrownWeapon", 430, 3 },
-    { "explosive.timed", "assets/prefabs/tools/c4/explosive.timed.entity.prefab", 1915331115U, "ThrownWeapon", 433, 3 },
-    { "factorydoor", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 436, 2 },
-    { "fireplace.stone", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 438, 2 },
-    { "firework.boomer.blue", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 440, 2 },
-    { "firework.boomer.champagne", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 442, 2 },
-    { "firework.boomer.green", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 444, 2 },
-    { "firework.boomer.orange", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 446, 2 },
-    { "firework.boomer.pattern", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 448, 2 },
-    { "firework.boomer.red", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 450, 2 },
-    { "firework.boomer.violet", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 452, 2 },
-    { "firework.boomer.white", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 454, 2 },
-    { "firework.romancandle.blue", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 456, 2 },
-    { "firework.romancandle.green", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 458, 2 },
-    { "firework.romancandle.red", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 460, 2 },
-    { "firework.romancandle.violet", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 462, 2 },
-    { "firework.volcano", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 464, 2 },
-    { "firework.volcano.red", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 466, 2 },
-    { "firework.volcano.violet", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 468, 2 },
-    { "fishingrod.handmade", "assets/prefabs/tools/fishing rod/fishing_rod.entity.prefab", 2057865657U, "BaseFishingRod", 470, 2 },
-    { "fishtrap.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 472, 2 },
-    { "fishtrophy", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 474, 2 },
-    { "flamethrower", "assets/prefabs/weapons/flamethrower/flamethrower.entity.prefab", 3717106868U, "FlameThrower", 476, 3 },
-    { "flameturret", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 479, 2 },
-    { "flare", "assets/prefabs/tools/flareold/flare.weapon.prefab", 2661658442U, "GrenadeWeapon", 481, 4 },
-    { "flashlight.held", "assets/prefabs/tools/flashlight/flashlight.entity.prefab", 72718095U, "FlashlightWeapon", 485, 5 },
-    { "floor.grill", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 490, 2 },
-    { "floor.ladder.hatch", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 492, 2 },
-    { "floor.ladder.hatch.toptier", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 494, 2 },
-    { "floor.triangle.grill", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 496, 2 },
-    { "floor.triangle.ladder.hatch", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 498, 2 },
-    { "floor.triangle.ladder.hatch.toptier", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 500, 2 },
-    { "fluid.combiner", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 502, 2 },
-    { "fluid.splitter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 504, 2 },
-    { "fluid.switch", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 506, 2 },
-    { "fogmachine", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 508, 2 },
-    { "frankensteintable", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 510, 2 },
-    { "fridge", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 512, 2 },
-    { "frontier_hatchet", "assets/prefabs/weapons/frontier hatchet/frontier_hatchet.entity.prefab", 3662083119U, "BaseMelee", 514, 3 },
-    { "frontiermirror.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 517, 2 },
-    { "frontiermirror.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 519, 2 },
-    { "frontiermirror.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 521, 2 },
-    { "frontiermirror.standing", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 523, 2 },
-    { "fun.bass", "assets/prefabs/instruments/bass/bass.weapon.prefab", 2465202152U, "InstrumentToolGuitar", 525, 3 },
-    { "fun.boomboxportable", "assets/prefabs/voiceaudio/boomboxportable/boomboxportable.weapon.prefab", 617635188U, "HeldBoomBox", 528, 2 },
-    { "fun.casetterecorder", "assets/prefabs/voiceaudio/cassetterecorder/cassetterecorder.weapon.prefab", 705457609U, "RecorderTool", 530, 4 },
-    { "fun.cowbell", "assets/prefabs/instruments/cowbell/cowbell.weapon.prefab", 52738779U, "InstrumentTool", 534, 2 },
-    { "fun.flute", "assets/prefabs/instruments/flute/flute.weapon.prefab", 3789219502U, "InstrumentTool", 536, 2 },
-    { "fun.guitar", "assets/prefabs/instruments/guitar/guitar.weapon.prefab", 4177390149U, "InstrumentToolGuitar", 538, 3 },
-    { "fun.jerrycanguitar", "assets/prefabs/instruments/jerrycanguitar/jerrycanguitar.weapon.prefab", 1977067472U, "InstrumentToolGuitar", 541, 3 },
-    { "fun.tambourine", "assets/prefabs/instruments/tambourine/tambourine.weapon.prefab", 1754256281U, "InstrumentTool", 544, 2 },
-    { "fun.trumpet", "assets/prefabs/instruments/trumpet/trumpet.weapon.prefab", 1050701358U, "InstrumentTool", 546, 2 },
-    { "fun.tuba", "assets/prefabs/instruments/tuba/tuba.weapon.prefab", 2388319642U, "InstrumentTool", 548, 2 },
-    { "furnace", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 550, 2 },
-    { "furnace.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 552, 2 },
-    { "gamesroom.minifridge", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 554, 2 },
-    { "gamesroom.shotgun.trap", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 556, 2 },
-    { "gates.external.high.adobe", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 558, 2 },
-    { "gates.external.high.legacy", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 560, 2 },
-    { "gates.external.high.stone", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 562, 2 },
-    { "gates.external.high.wood", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 564, 2 },
-    { "geiger.counter", "assets/prefabs/tools/geiger counter/geiger_counter.entity.prefab", 47304962U, "GeigerCounter", 566, 3 },
-    { "generator.water", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 569, 2 },
-    { "generator.wind.scrap", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 571, 2 },
-    { "giantcandycanedecor", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 573, 2 },
-    { "giantlollipops", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 575, 2 },
-    { "goldframe.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 577, 2 },
-    { "goldframe.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 579, 2 },
-    { "goldframe.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 581, 2 },
-    { "goldframe.standing", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 583, 2 },
-    { "goldframe.xl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 585, 2 },
-    { "goldframe.xxl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 587, 2 },
-    { "goldmirror.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 589, 2 },
-    { "goldmirror.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 591, 2 },
-    { "goldmirror.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 593, 2 },
-    { "goldmirror.standing", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 595, 2 },
-    { "gravestone", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 597, 2 },
-    { "grenade.beancan", "assets/prefabs/weapons/beancan grenade/grenade.beancan.entity.prefab", 3654150932U, "GrenadeWeapon", 599, 4 },
-    { "grenade.bee", "assets/prefabs/weapons/bee grenade/grenade.bee.entity.prefab", 3444797639U, "GrenadeWeapon", 603, 4 },
-    { "grenade.f1", "assets/prefabs/weapons/f1 grenade/grenade.f1.entity.prefab", 45697420U, "GrenadeWeapon", 607, 4 },
-    { "grenade.flashbang", "assets/prefabs/weapons/flashbang/grenade.flashbang.entity.prefab", 758326244U, "GrenadeWeapon", 611, 4 },
-    { "grenade.molotov", "assets/prefabs/weapons/molotov cocktail/grenade.molotov.entity.prefab", 4104126979U, "MolotovCocktail", 615, 5 },
-    { "grenade.smoke", "assets/prefabs/tools/smoke grenade/smoke_grenade.weapon.prefab", 3642747736U, "GrenadeWeapon", 620, 4 },
-    { "gun.water", "assets/prefabs/misc/summer_dlc/watergun/watergun.entity.prefab", 37937194U, "LiquidWeapon", 624, 4 },
-    { "gunrack.horizontal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 628, 2 },
-    { "gunrack.single.1.horizontal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 630, 2 },
-    { "gunrack.single.2.horizontal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 632, 2 },
-    { "gunrack.single.3.horizontal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 634, 2 },
-    { "gunrack_stand", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 636, 2 },
-    { "gunrack_tall.horizontal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 638, 2 },
-    { "gunrack_wide.horizontal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 640, 2 },
-    { "guntrap", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 642, 2 },
-    { "half.bamboo.shelves", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 644, 2 },
-    { "halfheight.industrial.shelves", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 646, 2 },
-    { "hammer", "assets/prefabs/weapons/hammer/hammer.entity.prefab", 388861612U, "Hammer", 648, 4 },
-    { "hammer.salvaged", "assets/prefabs/weapons/salvaged_hammer/hammer_salvaged.entity.prefab", 1744180387U, "BaseMelee", 652, 3 },
-    { "handcuffs", "assets/prefabs/tools/handcuffs/handcuffs.entity.prefab", 3263286159U, "Handcuffs", 655, 4 },
-    { "hatchet", "assets/prefabs/weapons/hatchet/hatchet.entity.prefab", 365233245U, "BaseMelee", 659, 3 },
-    { "hazmat.plushy", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 662, 2 },
-    { "hazmatyoutooz", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 664, 2 },
-    { "heartballoon2025", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 666, 2 },
-    { "heavy.scientist.plushie", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 668, 2 },
-    { "heavyscientistyoutooz", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 670, 2 },
-    { "hitchtroughcombo", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 672, 2 },
-    { "hmlmg", "assets/prefabs/weapons/hmlmg/hmlmg.entity.prefab", 3459133190U, "BaseProjectile", 674, 3 },
-    { "hobobarrel", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 677, 2 },
-    { "homingmissile.launcher", "assets/prefabs/weapons/homingmissilelauncher/homing_missile_launcher.entity.prefab", 542600037U, "LockOnLauncher", 679, 5 },
-    { "hopper", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 684, 2 },
-    { "hosetool", "assets/prefabs/tools/hose/hosetool.entity.prefab", 3568270288U, "WireTool", 686, 2 },
-    { "huntingtrophylarge", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 688, 2 },
-    { "huntingtrophysmall", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 690, 2 },
-    { "icepick.salvaged", "assets/prefabs/weapons/salvaged_icepick/icepick_salvaged.entity.prefab", 109244214U, "BaseMelee", 692, 3 },
-    { "improvised.shield", "assets/prefabs/weapons/improvised_shield/improvisedshield.entity.prefab", 3088514867U, "Shield", 695, 2 },
-    { "industrial.autoturret", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 697, 2 },
-    { "industrial.combiner", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 699, 2 },
-    { "industrial.conveyor", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 701, 2 },
-    { "industrial.crafter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 703, 2 },
-    { "industrial.electric.furnace", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 705, 2 },
-    { "industrial.furnace.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 707, 2 },
-    { "industrial.garagedoor", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 709, 2 },
-    { "industrial.splitter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 711, 2 },
-    { "industrial.storage.horizontal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 713, 2 },
-    { "industrial.storage.vertical", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 715, 2 },
-    { "industrial.torch", "assets/prefabs/weapons/torch/skins/industrial_torch/industrial_torch.entity.prefab", 1288011403U, "IndustrialTorchWeapon", 717, 6 },
-    { "industrial.wall.light", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 723, 2 },
-    { "industrial.wall.light.blue", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 725, 2 },
-    { "industrial.wall.light.green", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 727, 2 },
-    { "industrial.wall.light.red", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 729, 2 },
-    { "innertube", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 731, 2 },
-    { "innertube.horse", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 733, 2 },
-    { "innertube.unicorn", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 735, 2 },
-    { "iotable", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 737, 2 },
-    { "jackhammer", "assets/prefabs/tools/jackhammer/jackhammer.entity.prefab", 3537156861U, "Jackhammer", 739, 4 },
-    { "jackolantern.angry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 743, 2 },
-    { "jackolantern.happy", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 745, 2 },
-    { "jukebox", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 747, 2 },
-    { "jungle.rock", "assets/prefabs/weapons/rock/skins/rock_a_jungle/rock.a.jungle.entity.prefab", 1746720686U, "BaseMelee", 749, 3 },
-    { "kayak", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 752, 2 },
-    { "keycard_blue", "assets/prefabs/tools/keycard/keycard.entity.prefab", 3773357817U, "Keycard", 754, 3 },
-    { "keycard_green", "assets/prefabs/tools/keycard/keycard.entity.prefab", 3773357817U, "Keycard", 757, 3 },
-    { "keycard_red", "assets/prefabs/tools/keycard/keycard.entity.prefab", 3773357817U, "Keycard", 760, 3 },
-    { "knife.bone", "assets/prefabs/weapons/bone knife/knife_bone.entity.prefab", 1483241467U, "BaseMelee", 763, 3 },
-    { "knife.bone.obsidian", "assets/prefabs/weapons/bone knife/skins/obsidian knife/bone.knife.obsidian.entity.prefab", 1443663060U, "BaseMelee", 766, 3 },
-    { "knife.butcher", "assets/prefabs/weapons/halloween/butcher knife/butcherknife.entity.prefab", 1362182970U, "BaseMelee", 769, 3 },
-    { "knife.combat", "assets/prefabs/weapons/knife/knife.combat.entity.prefab", 327944951U, "BaseMelee", 772, 3 },
-    { "knife.skinning", "assets/prefabs/misc/decor_dlc/skinning knife/skinningknife.entity.prefab", 995189561U, "BaseMelee", 775, 3 },
-    { "krieg.chainsword", "assets/prefabs/weapons/warhammer/krieg chainsword/krieg_chainsword.entity.prefab", 4148293472U, "Chainsaw", 778, 4 },
-    { "krieg.shotgun", "assets/prefabs/weapons/warhammer/krieg shotgun/krieg_shotgun.entity.prefab", 1896956209U, "BaseProjectile", 782, 3 },
-    { "krieg.storage.horizontal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 785, 2 },
-    { "krieg.storage.vertical", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 787, 2 },
-    { "ladder.wooden.boat", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 789, 2 },
-    { "ladder.wooden.wall", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 791, 2 },
-    { "lantern", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 793, 2 },
-    { "largecandles", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 795, 2 },
-    { "laserlight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 797, 2 },
-    { "latexballoon2025", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 799, 2 },
-    { "latexclumpballoon2025", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 801, 2 },
-    { "legacy bow", "assets/prefabs/weapons/legacy bow/legacybow.entity.prefab", 1400027705U, "BowWeapon", 803, 5 },
-    { "legacy.shelter.wood", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 808, 2 },
-    { "legacyfurnace", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 810, 2 },
-    { "lightup.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 812, 2 },
-    { "lightup.xl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 814, 2 },
-    { "lightup.xxl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 816, 2 },
-    { "lightupframe.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 818, 2 },
-    { "lightupframe.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 820, 2 },
-    { "lightupframe.standing", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 822, 2 },
-    { "lightupmirror.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 824, 2 },
-    { "lightupmirror.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 826, 2 },
-    { "lightupmirror.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 828, 2 },
-    { "lightupmirror.standing", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 830, 2 },
-    { "lmg.m249", "assets/prefabs/weapons/m249/m249.entity.prefab", 1440914039U, "BaseProjectile", 832, 3 },
-    { "lock.code", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, "Deployer", 835, 2 },
-    { "lock.code.a.pilot", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, "Deployer", 837, 2 },
-    { "lock.key", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, "Deployer", 839, 2 },
-    { "locker", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 841, 2 },
-    { "longsword", "assets/prefabs/weapons/sword big/longsword.entity.prefab", 3395979968U, "BaseMelee", 843, 3 },
-    { "lumberjack.hatchet", "assets/prefabs/tools/lumberjack_tools/lumberjack_axe.entity.prefab", 4035646930U, "BaseMelee", 846, 3 },
-    { "lumberjack.pickaxe", "assets/prefabs/tools/lumberjack_tools/lumberjack_pick.entity.prefab", 1725165540U, "BaseMelee", 849, 3 },
-    { "lunar.firecrackers", "assets/prefabs/misc/chinesenewyear/throwablefirecrackers/firecrackers.entity.prefab", 628064879U, "GrenadeWeapon", 852, 4 },
-    { "m16a2", "assets/prefabs/weapons/m16a2/m16a2.entity.prefab", 4258809631U, "BaseProjectile", 856, 3 },
-    { "mace", "assets/prefabs/weapons/mace/mace.entity.prefab", 2927698044U, "BaseMelee", 859, 3 },
-    { "mace.baseballbat", "assets/prefabs/weapons/halloween/baseballbat/mace.baseballbat.prefab", 1769459881U, "BaseMelee", 862, 3 },
-    { "machete", "assets/prefabs/weapons/machete/machete.weapon.prefab", 2942508801U, "BaseMelee", 865, 3 },
-    { "mailbox", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 868, 2 },
-    { "mannequin", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 870, 2 },
-    { "map", "assets/prefabs/tools/map/map.prefab", 491065559U, "MapEntity", 872, 2 },
-    { "medical.honey.bandage", "assets/prefabs/weapons/medicalhoneybandage/honeybandage.entity.prefab", 89391648U, "MedicalTool", 874, 3 },
-    { "medieval.box.wooden.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 877, 2 },
-    { "medieval.door.double.hinged.metal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 879, 2 },
-    { "medieval.door.hinged.metal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 881, 2 },
-    { "megaphone", "assets/prefabs/voiceaudio/megaphone/megaphone.weapon.prefab", 3942416854U, "Megaphone", 883, 2 },
-    { "metal.detector", "assets/prefabs/tools/metaldetector/metal_detector.entity.prefab", 892200099U, "BaseMetalDetector", 885, 2 },
-    { "metal.shield", "assets/prefabs/weapons/metal_shield/metalshield.entity.prefab", 3703020820U, "Shield", 887, 2 },
-    { "microphonestand", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 889, 2 },
-    { "military flamethrower", "assets/prefabs/weapons/military flamethrower/militaryflamethrower.entity.prefab", 1710208928U, "FlameThrower", 891, 3 },
-    { "minecart.planter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 894, 2 },
-    { "mini fridge", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 896, 2 },
-    { "minicrossbow", "assets/prefabs/weapons/mini crossbow/mini_crossbow.entity.prefab", 4274044420U, "MiniCrossbow", 898, 4 },
-    { "minigun", "assets/prefabs/weapons/minigun/minigun.entity.prefab", 4007138847U, "SpinUpWeapon", 902, 4 },
-    { "mining.pumpjack", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 906, 2 },
-    { "mining.quarry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 908, 2 },
-    { "mixedclumpballoon2025", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 910, 2 },
-    { "mixingtable", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 912, 2 },
-    { "mobilephone", "assets/prefabs/voiceaudio/mobilephone/mobilephone.weapon.prefab", 2342841515U, "MobilePhone", 914, 2 },
-    { "modularcarlift", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 916, 2 },
-    { "mortar.deployable", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 918, 2 },
-    { "multiplegrenadelauncher", "assets/prefabs/weapons/grenade launcher/mgl.entity.prefab", 1233562048U, "BaseLauncher", 920, 4 },
-    { "neonsigntr", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 924, 2 },
-    { "newyeargong", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 926, 2 },
-    { "outbreak.sprayer", "assets/prefabs/tools/outbreaksprayer/outbreak_sprayer.entity.prefab", 3864758412U, "GeigerCounter", 928, 3 },
-    { "paddle", "assets/prefabs/weapons/paddle/paddle.entity.prefab", 1850172004U, "Paddle", 931, 4 },
-    { "paddlingpool", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 935, 2 },
-    { "paintabletarget.reactive", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 937, 2 },
-    { "paintballgun", "assets/prefabs/weapons/paintball_gun/paintballgun.entity.prefab", 3749252572U, "PaintballGun", 939, 4 },
-    { "photoframe.landscape", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 943, 2 },
-    { "photoframe.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 945, 2 },
-    { "photoframe.portrait", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 947, 2 },
-    { "piano", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 949, 2 },
-    { "pickaxe", "assets/prefabs/weapons/pickaxe/pickaxe.entity.prefab", 1587077350U, "BaseMelee", 951, 3 },
-    { "pie.apple", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 954, 4 },
-    { "pie.bear", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 958, 4 },
-    { "pie.bigcat", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 962, 4 },
-    { "pie.chicken", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 966, 4 },
-    { "pie.crocodile", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 970, 4 },
-    { "pie.fish", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 974, 4 },
-    { "pie.hunters", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 978, 4 },
-    { "pie.pork", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 982, 4 },
-    { "pie.pumpkin", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 986, 4 },
-    { "pie.survivors", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 990, 4 },
-    { "pilot.hazmat.box.wooden", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 994, 2 },
-    { "pinata", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 996, 2 },
-    { "pipetool", "assets/prefabs/tools/pipe/pipetool.entity.prefab", 3896504765U, "WireTool", 998, 2 },
-    { "pistol.eoka", "assets/prefabs/weapons/eoka pistol/pistol_eoka.entity.prefab", 2176761593U, "FlintStrikeWeapon", 1000, 4 },
-    { "pistol.m92", "assets/prefabs/weapons/m92/m92.entity.prefab", 2293870814U, "BaseProjectile", 1004, 3 },
-    { "pistol.nailgun", "assets/prefabs/weapons/nailgun/nailgun.entity.prefab", 4279856314U, "BaseProjectile", 1007, 3 },
-    { "pistol.prototype17", "assets/prefabs/weapons/glockskin/glock.entity.prefab", 636374895U, "BaseProjectile", 1010, 3 },
-    { "pistol.python", "assets/prefabs/weapons/python/python.entity.prefab", 3305012504U, "BaseProjectile", 1013, 3 },
-    { "pistol.revolver", "assets/prefabs/weapons/revolver/pistol_revolver.entity.prefab", 2477536592U, "BaseProjectile", 1016, 3 },
-    { "pistol.semiauto", "assets/prefabs/weapons/semi auto pistol/pistol_semiauto.entity.prefab", 563371667U, "BaseProjectile", 1019, 3 },
-    { "pistol.semiauto.a.m15", "assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/pistol_semiauto.a.m15.entity.prefab", 2343718176U, "BaseProjectile", 1022, 3 },
-    { "pistol.water", "assets/prefabs/misc/summer_dlc/waterpistol/waterpistol.entity.prefab", 1502994528U, "LiquidWeapon", 1025, 4 },
-    { "pitchfork", "assets/prefabs/weapons/halloween/pitchfork/pitchfork.entity.prefab", 1009417331U, "BaseMelee", 1029, 3 },
-    { "plank", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1032, 2 },
-    { "planter.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1034, 2 },
-    { "planter.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1036, 2 },
-    { "planter.triangle", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1038, 2 },
-    { "plantpot.single", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1040, 2 },
-    { "pookie.bear", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1042, 2 },
-    { "pooltable", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1044, 2 },
-    { "powered.water.purifier", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1046, 2 },
-    { "ptz.cctv.camera", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1048, 2 },
-    { "pumpkinbasket", "assets/prefabs/misc/halloween/pumpkin_bucket/pumpkin_basket.entity.prefab", 2763047865U, "EasterBasket", 1050, 3 },
-    { "rail.road.planter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1053, 2 },
-    { "reinforced.wooden.shield", "assets/prefabs/weapons/reinforcedwoodshield/reinforcedwoodshield.entity.prefab", 2274489607U, "Shield", 1055, 2 },
-    { "research.table", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1057, 2 },
-    { "revolver.hc", "assets/prefabs/weapons/high caliber revolver/hc_revolver.entity.prefab", 2154182718U, "BaseProjectile", 1059, 3 },
-    { "rf.detonator", "assets/prefabs/tools/detonator/detonator.entity.prefab", 3503830994U, "Detonator", 1062, 2 },
-    { "rifle.ak", "assets/prefabs/weapons/ak47u/ak47u.entity.prefab", 1978739833U, "BaseProjectile", 1064, 3 },
-    { "rifle.ak.diver", "assets/prefabs/weapons/ak47u/diver/ak47u_diver.entity.prefab", 4096772971U, "BaseProjectile", 1067, 3 },
-    { "rifle.ak.glass", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.entity.prefab", 3842925800U, "BaseProjectile", 1070, 3 },
-    { "rifle.ak.glass.blue", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.blue.entity.prefab", 2408471514U, "BaseProjectile", 1073, 3 },
-    { "rifle.ak.glass.green", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.green.entity.prefab", 1246348333U, "BaseProjectile", 1076, 3 },
-    { "rifle.ak.glass.pink", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.pink.entity.prefab", 2779585845U, "BaseProjectile", 1079, 3 },
-    { "rifle.ak.glass.red", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.red.entity.prefab", 3312136396U, "BaseProjectile", 1082, 3 },
-    { "rifle.ak.ice", "assets/prefabs/weapons/ak47u/iceskin/ak47u_ice.entity.prefab", 1942738569U, "BaseProjectile", 1085, 3 },
-    { "rifle.ak.jungle", "assets/prefabs/weapons/ak47u/jungle skin/ak47u_jungle.entity.prefab", 1934468549U, "BaseProjectile", 1088, 3 },
-    { "rifle.ak.med", "assets/prefabs/weapons/ak47u/medieval skin/ak47u_med.entity.prefab", 3192146626U, "BaseProjectile", 1091, 3 },
-    { "rifle.bolt", "assets/prefabs/weapons/bolt rifle/bolt_rifle.entity.prefab", 1665481300U, "BaseProjectile", 1094, 3 },
-    { "rifle.l96", "assets/prefabs/weapons/l96/l96.entity.prefab", 2620171289U, "BaseProjectile", 1097, 3 },
-    { "rifle.lr300", "assets/prefabs/weapons/lr300/lr300.entity.prefab", 844375121U, "BaseProjectile", 1100, 3 },
-    { "rifle.lr300.space", "assets/prefabs/weapons/lr300/skins/space/lr300_space.entity.prefab", 1407888186U, "BaseProjectile", 1103, 3 },
-    { "rifle.m39", "assets/prefabs/weapons/m39 emr/m39.entity.prefab", 1517089664U, "BaseProjectile", 1106, 3 },
-    { "rifle.semiauto", "assets/prefabs/weapons/semi auto rifle/semi_auto_rifle.entity.prefab", 4231282088U, "BaseProjectile", 1109, 3 },
-    { "rifle.sks", "assets/prefabs/weapons/sks/sks.entity.prefab", 4228529517U, "BaseProjectile", 1112, 3 },
-    { "rock", "assets/prefabs/weapons/rock/rock.entity.prefab", 3940068399U, "BaseMelee", 1115, 3 },
-    { "rocket.launcher", "assets/prefabs/weapons/rocketlauncher/rocket_launcher.entity.prefab", 601440135U, "BaseLauncher", 1118, 4 },
-    { "rocket.launcher.dragon", "assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/rocket_launcher_dragon.entity.prefab", 3704640358U, "BaseLauncher", 1122, 4 },
-    { "rocket.launcher.rpg7", "assets/prefabs/weapons/rocketlauncher/skins/rpg7/rpg7.entity.prefab", 3445264346U, "RPGLauncher", 1126, 5 },
-    { "rockingchair", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1131, 2 },
-    { "rockingchair.rockingchair2", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1133, 2 },
-    { "rockingchair.rockingchair3", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1135, 2 },
-    { "rug", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1137, 2 },
-    { "rug.bear", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1139, 2 },
-    { "rustige_egg_a", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1141, 2 },
-    { "rustige_egg_b", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1143, 2 },
-    { "rustige_egg_c", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1145, 2 },
-    { "rustige_egg_d", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1147, 2 },
-    { "rustige_egg_e", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1149, 2 },
-    { "rustige_egg_f", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1151, 2 },
-    { "rustige_egg_g", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1153, 2 },
-    { "rustige_egg_h", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1155, 2 },
-    { "sail", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1157, 2 },
-    { "salvaged.bamboo.shelves", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1159, 2 },
-    { "salvaged.cleaver", "assets/prefabs/weapons/cleaver big/salvaged_cleaver.entity.prefab", 3340056040U, "BaseMelee", 1161, 3 },
-    { "salvaged.industrial.shelves", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1164, 2 },
-    { "salvaged.sword", "assets/prefabs/weapons/sword/salvaged_sword.entity.prefab", 1663991785U, "BaseMelee", 1166, 3 },
-    { "samsite", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1169, 2 },
-    { "scarecrow", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1171, 2 },
-    { "scientist.plushie", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1173, 2 },
-    { "scrapframe.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1175, 2 },
-    { "scrapframe.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1177, 2 },
-    { "scrapframe.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1179, 2 },
-    { "scrapframe.standing", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1181, 2 },
-    { "scrapframe.xl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1183, 2 },
-    { "scrapframe.xxl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1185, 2 },
-    { "scrapmirror.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1187, 2 },
-    { "scrapmirror.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1189, 2 },
-    { "scrapmirror.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1191, 2 },
-    { "scrapmirror.standing", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1193, 2 },
-    { "sculpture.ice", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1195, 2 },
-    { "sculpture.rock", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1197, 2 },
-    { "searchlight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1199, 2 },
-    { "secretlabchair", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1201, 2 },
-    { "seed.black.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1203, 2 },
-    { "seed.blue.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1205, 2 },
-    { "seed.corn", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1207, 2 },
-    { "seed.green.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1209, 2 },
-    { "seed.hemp", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1211, 2 },
-    { "seed.orchid", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1213, 2 },
-    { "seed.potato", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1215, 2 },
-    { "seed.pumpkin", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1217, 2 },
-    { "seed.red.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1219, 2 },
-    { "seed.rose", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1221, 2 },
-    { "seed.sunflower", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1223, 2 },
-    { "seed.wheat", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1225, 2 },
-    { "seed.white.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1227, 2 },
-    { "seed.yellow.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1229, 2 },
-    { "shelves", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1231, 2 },
-    { "shotgun.double", "assets/prefabs/weapons/doubleshotgun/double_shotgun.entity.prefab", 3474489095U, "BaseProjectile", 1233, 3 },
-    { "shotgun.m4", "assets/prefabs/weapons/m4 shotgun/m4_shotgun.entity.prefab", 2416998201U, "BaseProjectile", 1236, 3 },
-    { "shotgun.pump", "assets/prefabs/weapons/sawnoff_shotgun/shotgun_pump.entity.prefab", 554582418U, "BaseProjectile", 1239, 3 },
-    { "shotgun.spas12", "assets/prefabs/weapons/spas12/spas12.entity.prefab", 1877401463U, "BaseProjectile", 1242, 3 },
-    { "shotgun.waterpipe", "assets/prefabs/weapons/pipe shotgun/shotgun_waterpipe.entity.prefab", 2696589892U, "BaseProjectile", 1245, 3 },
-    { "shovel", "assets/prefabs/tools/shovel/shovel.entity.prefab", 3196650451U, "Shovel", 1248, 4 },
-    { "shutter.metal.embrasure.a", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1252, 2 },
-    { "shutter.metal.embrasure.b", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1254, 2 },
-    { "shutter.wood.a", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1256, 2 },
-    { "sickle", "assets/prefabs/weapons/halloween/sickle/sickle.entity.prefab", 124547093U, "BaseMelee", 1258, 3 },
-    { "siegetower", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1261, 2 },
-    { "sign.artistcanvas.l", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1263, 2 },
-    { "sign.artistcanvas.m", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1265, 2 },
-    { "sign.artistcanvas.s", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1267, 2 },
-    { "sign.artistcanvas.xl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1269, 2 },
-    { "sign.artistcanvas.xs", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1271, 2 },
-    { "sign.artistcanvas.xxl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1273, 2 },
-    { "sign.hanging", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1275, 2 },
-    { "sign.hanging.banner.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1277, 2 },
-    { "sign.hanging.ornate", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1279, 2 },
-    { "sign.neon.125x125", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1281, 2 },
-    { "sign.neon.125x215", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1283, 2 },
-    { "sign.neon.125x215.animated", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1285, 2 },
-    { "sign.neon.xl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1287, 2 },
-    { "sign.neon.xl.animated", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1289, 2 },
-    { "sign.pictureframe.landscape", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1291, 2 },
-    { "sign.pictureframe.portrait", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1293, 2 },
-    { "sign.pictureframe.tall", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1295, 2 },
-    { "sign.pictureframe.xl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1297, 2 },
-    { "sign.pictureframe.xxl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1299, 2 },
-    { "sign.pole.banner.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1301, 2 },
-    { "sign.post.double", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1303, 2 },
-    { "sign.post.single", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1305, 2 },
-    { "sign.post.town", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1307, 2 },
-    { "sign.post.town.roof", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1309, 2 },
-    { "sign.wooden.huge", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1311, 2 },
-    { "sign.wooden.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1313, 2 },
-    { "sign.wooden.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1315, 2 },
-    { "sign.wooden.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1317, 2 },
-    { "single.shallow.wall.shelves", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1319, 2 },
-    { "skidoo", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1321, 2 },
-    { "skull", "assets/prefabs/weapons/halloween/skull_halloween/skull.entity.prefab", 1140399555U, "BaseMelee", 1323, 3 },
-    { "skull.trophy", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1326, 2 },
-    { "skull.trophy.jar", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1328, 2 },
-    { "skull.trophy.jar2", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1330, 2 },
-    { "skull.trophy.table", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1332, 2 },
-    { "skull_fire_pit", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1334, 2 },
-    { "skulldoorknocker", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, "Deployer", 1336, 2 },
-    { "skullspikes", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1338, 2 },
-    { "skullspikes.candles", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1340, 2 },
-    { "skullspikes.pumpkin", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1342, 2 },
-    { "skylantern", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1344, 2 },
-    { "skylantern.skylantern.green", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1346, 2 },
-    { "skylantern.skylantern.orange", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1348, 2 },
-    { "skylantern.skylantern.purple", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1350, 2 },
-    { "skylantern.skylantern.red", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1352, 2 },
-    { "sled", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1354, 2 },
-    { "sled.xmas", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1356, 2 },
-    { "sleepingbag", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1358, 2 },
-    { "small.oil.refinery", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1360, 2 },
-    { "small_ramp", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1362, 2 },
-    { "smallcandles", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1364, 2 },
-    { "smallengine", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1366, 2 },
-    { "smallwaterbottle", "assets/prefabs/food/small water bottle/smallwaterbottle.entity.prefab", 139849256U, "BaseLiquidVessel", 1368, 3 },
-    { "smart.alarm", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1371, 2 },
-    { "smart.switch", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1373, 2 },
-    { "smg.2", "assets/prefabs/weapons/smg/smg.entity.prefab", 3759841439U, "BaseProjectile", 1375, 3 },
-    { "smg.mp5", "assets/prefabs/weapons/mp5/mp5.entity.prefab", 2545523575U, "BaseProjectile", 1378, 3 },
-    { "smg.thompson", "assets/prefabs/weapons/thompson/thompson.entity.prefab", 3243900999U, "BaseProjectile", 1381, 3 },
-    { "snowball", "assets/prefabs/misc/xmas/snowball/snowball.entity.prefab", 591451995U, "BaseMelee", 1384, 3 },
-    { "snowballgun", "assets/prefabs/misc/xmas/snowballgun/snowballgun.entity.prefab", 3228215527U, "SnowballGun", 1387, 4 },
-    { "snowmachine", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1391, 2 },
-    { "snowman", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1393, 2 },
-    { "sofa", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1395, 2 },
-    { "sofa.pattern", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1397, 2 },
-    { "soundlight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1399, 2 },
-    { "spear.cny", "assets/prefabs/weapons/cnyspear/cny_spear.entity.prefab", 3814317397U, "BaseMelee", 1401, 3 },
-    { "spear.stone", "assets/prefabs/weapons/stone spear/spear_stone.entity.prefab", 1943636975U, "BaseMelee", 1404, 3 },
-    { "spear.wooden", "assets/prefabs/weapons/wooden spear/spear_wooden.entity.prefab", 2828546575U, "BaseMelee", 1407, 3 },
-    { "speargun", "assets/prefabs/weapons/speargun/speargun.entity.prefab", 4262383355U, "Speargun", 1410, 6 },
-    { "speechbubbleballoon2025", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1416, 2 },
-    { "spiderweb", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1418, 2 },
-    { "spikes.floor", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1420, 2 },
-    { "spikes.trap", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1422, 2 },
-    { "spinner.wheel", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1424, 2 },
-    { "spookyspeaker", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1426, 2 },
-    { "spraycan", "assets/prefabs/tools/spraycan/spraycan.weapon.prefab", 4251031431U, "SprayCan", 1428, 2 },
-    { "starballoon2025", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1430, 2 },
-    { "stash.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1432, 2 },
-    { "steeringwheel.boat", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1434, 2 },
-    { "stocking.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1436, 2 },
-    { "stocking.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1438, 2 },
-    { "stone.pickaxe", "assets/prefabs/weapons/stone pickaxe/stone_pickaxe.entity.prefab", 1450582435U, "BaseMelee", 1440, 3 },
-    { "stonehatchet", "assets/prefabs/weapons/stone hatchet/stonehatchet.entity.prefab", 3540736579U, "BaseMelee", 1443, 3 },
-    { "storage.monitor", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, "Deployer", 1446, 2 },
-    { "storage_barrel_a", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1448, 2 },
-    { "storage_barrel_b", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1450, 2 },
-    { "storage_barrel_c", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1452, 2 },
-    { "storageadaptor", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1454, 2 },
-    { "strobelight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1456, 2 },
-    { "sunken.knife", "assets/prefabs/weapons/knife/skins/sunkenknife/sunken.knife.combat.entity.prefab", 2957160983U, "BaseMelee", 1458, 3 },
-    { "supply.signal", "assets/prefabs/tools/supply signal/supplysignal.weapon.prefab", 775476535U, "GrenadeWeapon", 1461, 4 },
-    { "surveycharge", "assets/prefabs/tools/surveycharge/survey_charge.prefab", 2698594377U, "ThrownWeapon", 1465, 3 },
-    { "syringe.medical", "assets/prefabs/tools/medical syringe/syringe_medical.entity.prefab", 283937635U, "MedicalTool", 1468, 3 },
-    { "t1_smg", "assets/prefabs/weapons/t1 smg/t1_smg.entity.prefab", 4251501342U, "BaseProjectile", 1471, 3 },
-    { "table", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1474, 2 },
-    { "target.reactive", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1476, 2 },
-    { "telephone", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1478, 2 },
-    { "tincan.alarm", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1480, 2 },
-    { "tool.binoculars", "assets/prefabs/tools/binoculars/binocular.entity.prefab", 436023350U, "Binocular", 1482, 3 },
-    { "tool.camera", "assets/prefabs/tools/camera/tool_camera.prefab", 1410597758U, "CameraTool", 1485, 2 },
-    { "tool.instant_camera", "assets/prefabs/misc/summer_dlc/instantcamera/instant_camera.entity.prefab", 509717370U, "InstantCameraTool", 1487, 2 },
-    { "toolgun", "assets/prefabs/weapons/toolgun/toolgun.entity.prefab", 417347909U, "Toolgun", 1489, 5 },
-    { "torch", "assets/prefabs/weapons/torch/torch.entity.prefab", 1543342082U, "TorchWeapon", 1494, 5 },
-    { "torch.torch.skull", "assets/prefabs/weapons/halloween/skull torch/skulltorch.entity.prefab", 3258690150U, "TorchWeapon", 1499, 5 },
-    { "torchholder", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1504, 2 },
-    { "trap.bear", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1506, 2 },
-    { "trap.landmine", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1508, 2 },
-    { "triangle.rail.road.planter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1510, 2 },
-    { "trophy", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1512, 2 },
-    { "trophy2023", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1514, 2 },
-    { "tunalight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1516, 2 },
-    { "twitchrivals2023desk", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1518, 2 },
-    { "twitchrivals2025sofa", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1520, 2 },
-    { "vampire.stake", "assets/prefabs/weapons/halloween/vampirestake/vampirestake.entity.prefab", 2186616991U, "BaseMelee", 1522, 3 },
-    { "vehicle.car_radio", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1525, 2 },
-    { "vending.machine", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1527, 2 },
-    { "wall.external.high", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1529, 2 },
-    { "wall.external.high.adobe", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1531, 2 },
-    { "wall.external.high.ice", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1533, 2 },
-    { "wall.external.high.legacy", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1535, 2 },
-    { "wall.external.high.stone", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1537, 2 },
-    { "wall.frame.cell", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1539, 2 },
-    { "wall.frame.cell.gate", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1541, 2 },
-    { "wall.frame.fence", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1543, 2 },
-    { "wall.frame.fence.gate", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1545, 2 },
-    { "wall.frame.garagedoor", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1547, 2 },
-    { "wall.frame.lunar2025_a", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1549, 2 },
-    { "wall.frame.lunar2025_b", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1551, 2 },
-    { "wall.frame.lunar2025_c", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1553, 2 },
-    { "wall.frame.netting", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1555, 2 },
-    { "wall.frame.shopfront", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1557, 2 },
-    { "wall.frame.shopfront.metal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1559, 2 },
-    { "wall.graveyard.fence", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1561, 2 },
-    { "wall.ice.wall", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1563, 2 },
-    { "wall.shallow.industrial.shelves", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1565, 2 },
-    { "wall.window.bars.metal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1567, 2 },
-    { "wall.window.bars.toptier", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1569, 2 },
-    { "wall.window.bars.wood", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1571, 2 },
-    { "wall.window.glass.reinforced", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1573, 2 },
-    { "wallpaper.tool", "assets/prefabs/wallpaper/wallpaper.tool.entity.prefab", 2811911262U, "WallpaperPlanner", 1575, 3 },
-    { "wantedposter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1578, 2 },
-    { "wantedposter.wantedposter2", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1580, 2 },
-    { "wantedposter.wantedposter3", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1582, 2 },
-    { "wantedposter.wantedposter4", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1584, 2 },
-    { "watchtower.wood", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1586, 2 },
-    { "water.barrel", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1588, 2 },
-    { "water.catcher.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1590, 2 },
-    { "water.catcher.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1592, 2 },
-    { "water.purifier", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, "Deployer", 1594, 2 },
-    { "waterjug", "assets/prefabs/food/water jug/waterjug.entity.prefab", 366999130U, "BaseLiquidVessel", 1596, 3 },
-    { "waterpump", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1599, 2 },
-    { "wicker.barrel", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1601, 2 },
-    { "window.paintable", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1603, 2 },
-    { "wiretool", "assets/prefabs/tools/wire/wiretool.entity.prefab", 4258987144U, "WireTool", 1605, 2 },
-    { "woodcross", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1607, 2 },
-    { "wooden.shield", "assets/prefabs/weapons/wooden shield/woodenshield.entity.prefab", 3637711865U, "Shield", 1609, 2 },
-    { "woodframe.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1611, 2 },
-    { "woodframe.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1613, 2 },
-    { "woodframe.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1615, 2 },
-    { "woodframe.standing", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1617, 2 },
-    { "woodmirror.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1619, 2 },
-    { "woodmirror.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1621, 2 },
-    { "woodmirror.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1623, 2 },
-    { "woodmirror.standing", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1625, 2 },
-    { "workbench1", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1627, 2 },
-    { "workbench2", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1629, 2 },
-    { "workbench3", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1631, 2 },
-    { "xmas.advent", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1633, 2 },
-    { "xmas.door.garland", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1635, 2 },
-    { "xmas.double.door.garland", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1637, 2 },
-    { "xmas.lightstring", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1639, 2 },
-    { "xmas.lightstring.advanced", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1641, 2 },
-    { "xmas.tree", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1643, 2 },
-    { "xmas.window.garland", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1645, 2 },
-    { "xmasdoorwreath", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, "Deployer", 1647, 2 },
-    { "xylophone", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1649, 2 }
+    { "barricade.sandbags.half", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 49, 2 },
+    { "barricade.sandbags.pillbox", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 51, 2 },
+    { "barricade.sandbags.three.quarter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 53, 2 },
+    { "barricade.stone", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 55, 2 },
+    { "barricade.wood", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 57, 2 },
+    { "barricade.wood.cover", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 59, 2 },
+    { "barricade.woodwire", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 61, 2 },
+    { "bathtub.planter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 63, 2 },
+    { "batteringram", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 65, 2 },
+    { "bbq", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 67, 2 },
+    { "beachchair", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 69, 2 },
+    { "beachparasol", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 71, 2 },
+    { "beachtable", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 73, 2 },
+    { "beachtowel", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 75, 2 },
+    { "beanbagseatfabric", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 77, 2 },
+    { "beanbagseatleather", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 79, 2 },
+    { "bed", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 81, 2 },
+    { "beehive", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 83, 2 },
+    { "blowpipe", "assets/prefabs/weapons/blowpipe/blowpipe.entity.prefab", 996318821U, "BlowPipeWeapon", 85, 4 },
+    { "blunderbuss", "assets/prefabs/weapons/blunderbuss/blunderbuss.entity.prefab", 2557812813U, "BaseProjectile", 89, 3 },
+    { "boat.planner", "assets/prefabs/tools/planner/boat_planner.entity.prefab", 2721033560U, "Planner", 92, 2 },
+    { "boatbuildingstation", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 94, 2 },
+    { "bone.club", "assets/prefabs/weapons/bone club/bone_club.entity.prefab", 3097934597U, "BaseMelee", 96, 3 },
+    { "boogieboard", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 99, 2 },
+    { "boombox", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 101, 2 },
+    { "boomerang", "assets/prefabs/weapons/boomerang/boomerang.entity.prefab", 1402819630U, "Boomerang", 103, 4 },
+    { "botabag", "assets/prefabs/food/bota bag/bota_bag.entity.prefab", 1851422019U, "BaseLiquidVessel", 107, 3 },
+    { "bow.compound", "assets/prefabs/weapons/compound bow/compound_bow.entity.prefab", 1537401592U, "CompoundBowWeapon", 110, 6 },
+    { "bow.hunting", "assets/prefabs/weapons/bow/bow_hunting.entity.prefab", 2836331625U, "BowWeapon", 116, 5 },
+    { "box.repair.bench", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 121, 2 },
+    { "box.wooden", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 123, 2 },
+    { "box.wooden.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 125, 2 },
+    { "bucket.water", "assets/prefabs/weapons/waterbucket/waterbucket.entity.prefab", 1182699531U, "BaseLiquidVessel", 127, 3 },
+    { "building.planner", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 130, 2 },
+    { "cakefiveyear", "assets/prefabs/weapons/cake/cake.entity.prefab", 1980046596U, "BaseMelee", 132, 3 },
+    { "campfire", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 135, 2 },
+    { "candycaneclub", "assets/prefabs/misc/xmas/candy cane club/candy_cane.entity.prefab", 3331777431U, "BaseMelee", 137, 3 },
+    { "cannon", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 140, 2 },
+    { "cardtable", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 142, 2 },
+    { "carvable.pumpkin", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 144, 2 },
+    { "catapult", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 146, 2 },
+    { "catapult.ammo.explosive", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 148, 2 },
+    { "catapult.ammo.incendiary", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 150, 2 },
+    { "cctv.camera", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 152, 2 },
+    { "ceilinglight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 154, 2 },
+    { "chainsaw", "assets/prefabs/weapons/chainsaw/chainsaw.entity.prefab", 1802634117U, "Chainsaw", 156, 4 },
+    { "chair", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 160, 2 },
+    { "chair.ejector.seat", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 162, 2 },
+    { "chair.icethrone", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 164, 2 },
+    { "charity.plushy.01", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 166, 2 },
+    { "charity.plushy.02", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 168, 2 },
+    { "charity.plushy.03", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 170, 2 },
+    { "charity.plushy.04", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 172, 2 },
+    { "chickencoop", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 174, 2 },
+    { "chineselantern", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 176, 2 },
+    { "chineselanternwhite", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 178, 2 },
+    { "circleballoon2025", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 180, 2 },
+    { "clantable", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 182, 2 },
+    { "clone.black.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 184, 2 },
+    { "clone.blue.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 186, 2 },
+    { "clone.corn", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 188, 2 },
+    { "clone.green.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 190, 2 },
+    { "clone.hemp", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 192, 2 },
+    { "clone.orchid", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 194, 2 },
+    { "clone.potato", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 196, 2 },
+    { "clone.pumpkin", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 198, 2 },
+    { "clone.red.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 200, 2 },
+    { "clone.rose", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 202, 2 },
+    { "clone.sunflower", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 204, 2 },
+    { "clone.wheat", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 206, 2 },
+    { "clone.white.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 208, 2 },
+    { "clone.yellow.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 210, 2 },
+    { "coffin.storage", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 212, 2 },
+    { "command.block", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 214, 2 },
+    { "compass", "assets/prefabs/tools/compass/compass.entity.prefab", 2757054139U, "Compass", 216, 2 },
+    { "component.box.ammo.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 218, 2 },
+    { "component.box.armor.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 220, 2 },
+    { "component.box.charcoal.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 222, 2 },
+    { "component.box.clothing.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 224, 2 },
+    { "component.box.comps.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 226, 2 },
+    { "component.box.explosives.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 228, 2 },
+    { "component.box.food.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 230, 2 },
+    { "component.box.guns.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 232, 2 },
+    { "component.box.meds.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 234, 2 },
+    { "component.box.metal.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 236, 2 },
+    { "component.box.ore.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 238, 2 },
+    { "component.box.scrap.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 240, 2 },
+    { "component.box.stone.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 242, 2 },
+    { "component.box.sulfur.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 244, 2 },
+    { "component.box.tools.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 246, 2 },
+    { "component.box.wood.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 248, 2 },
+    { "composter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 250, 2 },
+    { "computerstation", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 252, 2 },
+    { "concretehatchet", "assets/prefabs/tools/lumberjack_tools/concrete_hatchet.entity.prefab", 1777756171U, "BaseMelee", 254, 3 },
+    { "concretepickaxe", "assets/prefabs/tools/lumberjack_tools/concrete_pickaxe.entity.prefab", 1480417083U, "BaseMelee", 257, 3 },
+    { "confetticannon", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 260, 2 },
+    { "connected.speaker", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 262, 2 },
+    { "cookingworkbench", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 264, 2 },
+    { "crossbow", "assets/prefabs/weapons/crossbow/crossbow.entity.prefab", 2727391082U, "CrossbowWeapon", 266, 5 },
+    { "crossbowbowless", "assets/prefabs/weapons/crossbow/skins/bowless/crossbow_bowless.entity.prefab", 777174364U, "CrossbowWeapon", 271, 5 },
+    { "cupboard.tool", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 276, 2 },
+    { "cupboard.tool.retro", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 278, 2 },
+    { "cupboard.tool.shockbyte", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 280, 2 },
+    { "cursedcauldron", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 282, 2 },
+    { "dartboard", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 284, 2 },
+    { "discoball", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 286, 2 },
+    { "discofloor", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 288, 2 },
+    { "discofloor.largetiles", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 290, 2 },
+    { "discord.plushie", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 292, 2 },
+    { "discord.trophy", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 294, 2 },
+    { "diverhatchet", "assets/prefabs/weapons/diverhatchet/diver_hatchet.entity.prefab", 1396987940U, "BaseMelee", 296, 3 },
+    { "diverpickaxe", "assets/prefabs/weapons/diverpickaxe/diver_pickaxe.entity.prefab", 190635670U, "BaseMelee", 299, 3 },
+    { "divertorch", "assets/prefabs/weapons/divertorch/diver_torch.entity.prefab", 1029607191U, "TorchWeapon", 302, 5 },
+    { "door.closer", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, "Deployer", 307, 2 },
+    { "door.double.hinged.bardoors", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 309, 2 },
+    { "door.double.hinged.metal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 311, 2 },
+    { "door.double.hinged.toptier", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 313, 2 },
+    { "door.double.hinged.wood", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 315, 2 },
+    { "door.hinged.boat.wood", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 317, 2 },
+    { "door.hinged.industrial.a", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 319, 2 },
+    { "door.hinged.metal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 321, 2 },
+    { "door.hinged.toptier", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 323, 2 },
+    { "door.hinged.wood", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 325, 2 },
+    { "dragondoorknocker", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, "Deployer", 327, 2 },
+    { "drone", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 329, 2 },
+    { "dropbox", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 331, 2 },
+    { "drumkit", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 333, 2 },
+    { "easel", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 335, 2 },
+    { "easterbasket", "assets/prefabs/misc/easter/easter basket/easter_basket.entity.prefab", 557749706U, "EasterBasket", 337, 3 },
+    { "easterdoorwreath", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, "Deployer", 340, 2 },
+    { "electric.andswitch", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 342, 2 },
+    { "electric.audioalarm", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 344, 2 },
+    { "electric.battery.rechargable.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 346, 2 },
+    { "electric.battery.rechargable.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 348, 2 },
+    { "electric.battery.rechargable.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 350, 2 },
+    { "electric.blocker", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 352, 2 },
+    { "electric.bulbstringlights", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 354, 2 },
+    { "electric.button", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 356, 2 },
+    { "electric.cabletunnel", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 358, 2 },
+    { "electric.chandelier", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 360, 2 },
+    { "electric.counter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 362, 2 },
+    { "electric.digitalclock", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 364, 2 },
+    { "electric.doorcontroller", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 366, 2 },
+    { "electric.fairylights", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 368, 2 },
+    { "electric.flasherlight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 370, 2 },
+    { "electric.fluorescentlight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 372, 2 },
+    { "electric.fluorescentlight.ceiling", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 374, 2 },
+    { "electric.fuelgenerator.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 376, 2 },
+    { "electric.furnace", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 378, 2 },
+    { "electric.generator.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 380, 2 },
+    { "electric.hbhfsensor", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 382, 2 },
+    { "electric.heater", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 384, 2 },
+    { "electric.igniter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 386, 2 },
+    { "electric.laserdetector", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 388, 2 },
+    { "electric.orswitch", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 390, 2 },
+    { "electric.pressurepad", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 392, 2 },
+    { "electric.random.switch", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 394, 2 },
+    { "electric.rf.broadcaster", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 396, 2 },
+    { "electric.rf.receiver", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 398, 2 },
+    { "electric.seismicsensor", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 400, 2 },
+    { "electric.simplelight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 402, 2 },
+    { "electric.sirenlight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 404, 2 },
+    { "electric.solarpanel.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 406, 2 },
+    { "electric.splitter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 408, 2 },
+    { "electric.spotlight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 410, 2 },
+    { "electric.spotlight.tripod", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 412, 2 },
+    { "electric.sprinkler", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 414, 2 },
+    { "electric.switch", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 416, 2 },
+    { "electric.tablelight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 418, 2 },
+    { "electric.teslacoil", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 420, 2 },
+    { "electric.timer", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 422, 2 },
+    { "electric.wallcabinet", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 424, 2 },
+    { "electric.xorswitch", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 426, 2 },
+    { "electrical.branch", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 428, 2 },
+    { "electrical.combiner", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 430, 2 },
+    { "electrical.memorycell", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 432, 2 },
+    { "elevator", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 434, 2 },
+    { "explosive.satchel", "assets/prefabs/weapons/satchelcharge/explosive.satchel.entity.prefab", 2671523489U, "ThrownWeapon", 436, 3 },
+    { "explosive.timed", "assets/prefabs/tools/c4/explosive.timed.entity.prefab", 1915331115U, "ThrownWeapon", 439, 3 },
+    { "factorydoor", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 442, 2 },
+    { "fireplace.stone", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 444, 2 },
+    { "firework.boomer.blue", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 446, 2 },
+    { "firework.boomer.champagne", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 448, 2 },
+    { "firework.boomer.green", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 450, 2 },
+    { "firework.boomer.orange", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 452, 2 },
+    { "firework.boomer.pattern", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 454, 2 },
+    { "firework.boomer.red", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 456, 2 },
+    { "firework.boomer.violet", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 458, 2 },
+    { "firework.boomer.white", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 460, 2 },
+    { "firework.romancandle.blue", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 462, 2 },
+    { "firework.romancandle.green", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 464, 2 },
+    { "firework.romancandle.red", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 466, 2 },
+    { "firework.romancandle.violet", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 468, 2 },
+    { "firework.volcano", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 470, 2 },
+    { "firework.volcano.red", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 472, 2 },
+    { "firework.volcano.violet", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 474, 2 },
+    { "fishingrod.handmade", "assets/prefabs/tools/fishing rod/fishing_rod.entity.prefab", 2057865657U, "BaseFishingRod", 476, 2 },
+    { "fishtrap.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 478, 2 },
+    { "fishtrophy", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 480, 2 },
+    { "flamethrower", "assets/prefabs/weapons/flamethrower/flamethrower.entity.prefab", 3717106868U, "FlameThrower", 482, 3 },
+    { "flameturret", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 485, 2 },
+    { "flare", "assets/prefabs/tools/flareold/flare.weapon.prefab", 2661658442U, "GrenadeWeapon", 487, 4 },
+    { "flashlight.held", "assets/prefabs/tools/flashlight/flashlight.entity.prefab", 72718095U, "FlashlightWeapon", 491, 5 },
+    { "floor.grill", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 496, 2 },
+    { "floor.ladder.hatch", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 498, 2 },
+    { "floor.ladder.hatch.toptier", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 500, 2 },
+    { "floor.triangle.grill", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 502, 2 },
+    { "floor.triangle.ladder.hatch", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 504, 2 },
+    { "floor.triangle.ladder.hatch.toptier", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 506, 2 },
+    { "fluid.combiner", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 508, 2 },
+    { "fluid.splitter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 510, 2 },
+    { "fluid.switch", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 512, 2 },
+    { "fogmachine", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 514, 2 },
+    { "frankensteintable", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 516, 2 },
+    { "fridge", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 518, 2 },
+    { "frontier_hatchet", "assets/prefabs/weapons/frontier hatchet/frontier_hatchet.entity.prefab", 3662083119U, "BaseMelee", 520, 3 },
+    { "frontiermirror.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 523, 2 },
+    { "frontiermirror.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 525, 2 },
+    { "frontiermirror.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 527, 2 },
+    { "frontiermirror.standing", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 529, 2 },
+    { "fun.bass", "assets/prefabs/instruments/bass/bass.weapon.prefab", 2465202152U, "InstrumentToolGuitar", 531, 3 },
+    { "fun.boomboxportable", "assets/prefabs/voiceaudio/boomboxportable/boomboxportable.weapon.prefab", 617635188U, "HeldBoomBox", 534, 2 },
+    { "fun.casetterecorder", "assets/prefabs/voiceaudio/cassetterecorder/cassetterecorder.weapon.prefab", 705457609U, "RecorderTool", 536, 4 },
+    { "fun.cowbell", "assets/prefabs/instruments/cowbell/cowbell.weapon.prefab", 52738779U, "InstrumentTool", 540, 2 },
+    { "fun.flute", "assets/prefabs/instruments/flute/flute.weapon.prefab", 3789219502U, "InstrumentTool", 542, 2 },
+    { "fun.guitar", "assets/prefabs/instruments/guitar/guitar.weapon.prefab", 4177390149U, "InstrumentToolGuitar", 544, 3 },
+    { "fun.jerrycanguitar", "assets/prefabs/instruments/jerrycanguitar/jerrycanguitar.weapon.prefab", 1977067472U, "InstrumentToolGuitar", 547, 3 },
+    { "fun.tambourine", "assets/prefabs/instruments/tambourine/tambourine.weapon.prefab", 1754256281U, "InstrumentTool", 550, 2 },
+    { "fun.trumpet", "assets/prefabs/instruments/trumpet/trumpet.weapon.prefab", 1050701358U, "InstrumentTool", 552, 2 },
+    { "fun.tuba", "assets/prefabs/instruments/tuba/tuba.weapon.prefab", 2388319642U, "InstrumentTool", 554, 2 },
+    { "furnace", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 556, 2 },
+    { "furnace.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 558, 2 },
+    { "gamesroom.minifridge", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 560, 2 },
+    { "gamesroom.shotgun.trap", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 562, 2 },
+    { "gates.external.high.adobe", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 564, 2 },
+    { "gates.external.high.legacy", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 566, 2 },
+    { "gates.external.high.stone", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 568, 2 },
+    { "gates.external.high.wood", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 570, 2 },
+    { "geiger.counter", "assets/prefabs/tools/geiger counter/geiger_counter.entity.prefab", 47304962U, "GeigerCounter", 572, 3 },
+    { "generator.biofuel", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 575, 2 },
+    { "generator.water", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 577, 2 },
+    { "generator.wind.scrap", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 579, 2 },
+    { "giantcandycanedecor", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 581, 2 },
+    { "giantlollipops", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 583, 2 },
+    { "goldframe.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 585, 2 },
+    { "goldframe.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 587, 2 },
+    { "goldframe.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 589, 2 },
+    { "goldframe.standing", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 591, 2 },
+    { "goldframe.xl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 593, 2 },
+    { "goldframe.xxl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 595, 2 },
+    { "goldmirror.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 597, 2 },
+    { "goldmirror.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 599, 2 },
+    { "goldmirror.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 601, 2 },
+    { "goldmirror.standing", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 603, 2 },
+    { "gravestone", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 605, 2 },
+    { "grenade.beancan", "assets/prefabs/weapons/beancan grenade/grenade.beancan.entity.prefab", 3654150932U, "GrenadeWeapon", 607, 4 },
+    { "grenade.bee", "assets/prefabs/weapons/bee grenade/grenade.bee.entity.prefab", 3444797639U, "GrenadeWeapon", 611, 4 },
+    { "grenade.f1", "assets/prefabs/weapons/f1 grenade/grenade.f1.entity.prefab", 45697420U, "GrenadeWeapon", 615, 4 },
+    { "grenade.flashbang", "assets/prefabs/weapons/flashbang/grenade.flashbang.entity.prefab", 758326244U, "GrenadeWeapon", 619, 4 },
+    { "grenade.molotov", "assets/prefabs/weapons/molotov cocktail/grenade.molotov.entity.prefab", 4104126979U, "MolotovCocktail", 623, 5 },
+    { "grenade.smoke", "assets/prefabs/tools/smoke grenade/smoke_grenade.weapon.prefab", 3642747736U, "GrenadeWeapon", 628, 4 },
+    { "gun.water", "assets/prefabs/misc/summer_dlc/watergun/watergun.entity.prefab", 37937194U, "LiquidWeapon", 632, 4 },
+    { "gunrack.horizontal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 636, 2 },
+    { "gunrack.single.1.horizontal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 638, 2 },
+    { "gunrack.single.2.horizontal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 640, 2 },
+    { "gunrack.single.3.horizontal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 642, 2 },
+    { "gunrack_stand", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 644, 2 },
+    { "gunrack_tall.horizontal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 646, 2 },
+    { "gunrack_wide.horizontal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 648, 2 },
+    { "guntrap", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 650, 2 },
+    { "half.bamboo.shelves", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 652, 2 },
+    { "halfheight.industrial.shelves", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 654, 2 },
+    { "hammer", "assets/prefabs/weapons/hammer/hammer.entity.prefab", 388861612U, "Hammer", 656, 4 },
+    { "hammer.salvaged", "assets/prefabs/weapons/salvaged_hammer/hammer_salvaged.entity.prefab", 1744180387U, "BaseMelee", 660, 3 },
+    { "handcuffs", "assets/prefabs/tools/handcuffs/handcuffs.entity.prefab", 3263286159U, "Handcuffs", 663, 4 },
+    { "hatchet", "assets/prefabs/weapons/hatchet/hatchet.entity.prefab", 365233245U, "BaseMelee", 667, 3 },
+    { "hazmat.plushy", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 670, 2 },
+    { "hazmatyoutooz", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 672, 2 },
+    { "heartballoon2025", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 674, 2 },
+    { "heavy.scientist.plushie", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 676, 2 },
+    { "heavyscientistyoutooz", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 678, 2 },
+    { "hitchtroughcombo", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 680, 2 },
+    { "hmlmg", "assets/prefabs/weapons/hmlmg/hmlmg.entity.prefab", 3459133190U, "BaseProjectile", 682, 3 },
+    { "hobobarrel", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 685, 2 },
+    { "homingmissile.launcher", "assets/prefabs/weapons/homingmissilelauncher/homing_missile_launcher.entity.prefab", 542600037U, "LockOnLauncher", 687, 5 },
+    { "hopper", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 692, 2 },
+    { "hosetool", "assets/prefabs/tools/hose/hosetool.entity.prefab", 3568270288U, "WireTool", 694, 2 },
+    { "huntingtrophylarge", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 696, 2 },
+    { "huntingtrophysmall", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 698, 2 },
+    { "icepick.salvaged", "assets/prefabs/weapons/salvaged_icepick/icepick_salvaged.entity.prefab", 109244214U, "BaseMelee", 700, 3 },
+    { "improvised.shield", "assets/prefabs/weapons/improvised_shield/improvisedshield.entity.prefab", 3088514867U, "Shield", 703, 2 },
+    { "industrial.autoturret", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 705, 2 },
+    { "industrial.combiner", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 707, 2 },
+    { "industrial.conveyor", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 709, 2 },
+    { "industrial.crafter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 711, 2 },
+    { "industrial.electric.furnace", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 713, 2 },
+    { "industrial.furnace.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 715, 2 },
+    { "industrial.garagedoor", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 717, 2 },
+    { "industrial.splitter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 719, 2 },
+    { "industrial.storage.horizontal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 721, 2 },
+    { "industrial.storage.vertical", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 723, 2 },
+    { "industrial.torch", "assets/prefabs/weapons/torch/skins/industrial_torch/industrial_torch.entity.prefab", 1288011403U, "IndustrialTorchWeapon", 725, 6 },
+    { "industrial.wall.light", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 731, 2 },
+    { "industrial.wall.light.blue", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 733, 2 },
+    { "industrial.wall.light.green", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 735, 2 },
+    { "industrial.wall.light.red", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 737, 2 },
+    { "innertube", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 739, 2 },
+    { "innertube.horse", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 741, 2 },
+    { "innertube.unicorn", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 743, 2 },
+    { "iotable", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 745, 2 },
+    { "jackhammer", "assets/prefabs/tools/jackhammer/jackhammer.entity.prefab", 3537156861U, "Jackhammer", 747, 4 },
+    { "jackolantern.angry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 751, 2 },
+    { "jackolantern.happy", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 753, 2 },
+    { "jukebox", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 755, 2 },
+    { "jungle.rock", "assets/prefabs/weapons/rock/skins/rock_a_jungle/rock.a.jungle.entity.prefab", 1746720686U, "BaseMelee", 757, 3 },
+    { "kayak", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 760, 2 },
+    { "keycard_blue", "assets/prefabs/tools/keycard/keycard.entity.prefab", 3773357817U, "Keycard", 762, 3 },
+    { "keycard_green", "assets/prefabs/tools/keycard/keycard.entity.prefab", 3773357817U, "Keycard", 765, 3 },
+    { "keycard_red", "assets/prefabs/tools/keycard/keycard.entity.prefab", 3773357817U, "Keycard", 768, 3 },
+    { "knife.bone", "assets/prefabs/weapons/bone knife/knife_bone.entity.prefab", 1483241467U, "BaseMelee", 771, 3 },
+    { "knife.bone.obsidian", "assets/prefabs/weapons/bone knife/skins/obsidian knife/bone.knife.obsidian.entity.prefab", 1443663060U, "BaseMelee", 774, 3 },
+    { "knife.butcher", "assets/prefabs/weapons/halloween/butcher knife/butcherknife.entity.prefab", 1362182970U, "BaseMelee", 777, 3 },
+    { "knife.combat", "assets/prefabs/weapons/knife/knife.combat.entity.prefab", 327944951U, "BaseMelee", 780, 3 },
+    { "knife.skinning", "assets/prefabs/misc/decor_dlc/skinning knife/skinningknife.entity.prefab", 995189561U, "BaseMelee", 783, 3 },
+    { "krieg.chainsword", "assets/prefabs/weapons/warhammer/krieg chainsword/krieg_chainsword.entity.prefab", 4148293472U, "Chainsaw", 786, 4 },
+    { "krieg.shotgun", "assets/prefabs/weapons/warhammer/krieg shotgun/krieg_shotgun.entity.prefab", 1896956209U, "BaseProjectile", 790, 3 },
+    { "krieg.storage.horizontal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 793, 2 },
+    { "krieg.storage.vertical", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 795, 2 },
+    { "ladder.wooden.boat", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 797, 2 },
+    { "ladder.wooden.wall", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 799, 2 },
+    { "lantern", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 801, 2 },
+    { "largecandles", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 803, 2 },
+    { "laserlight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 805, 2 },
+    { "latexballoon2025", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 807, 2 },
+    { "latexclumpballoon2025", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 809, 2 },
+    { "legacy bow", "assets/prefabs/weapons/legacy bow/legacybow.entity.prefab", 1400027705U, "BowWeapon", 811, 5 },
+    { "legacy.shelter.wood", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 816, 2 },
+    { "legacyfurnace", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 818, 2 },
+    { "lightup.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 820, 2 },
+    { "lightup.xl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 822, 2 },
+    { "lightup.xxl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 824, 2 },
+    { "lightupframe.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 826, 2 },
+    { "lightupframe.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 828, 2 },
+    { "lightupframe.standing", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 830, 2 },
+    { "lightupmirror.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 832, 2 },
+    { "lightupmirror.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 834, 2 },
+    { "lightupmirror.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 836, 2 },
+    { "lightupmirror.standing", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 838, 2 },
+    { "lmg.m249", "assets/prefabs/weapons/m249/m249.entity.prefab", 1440914039U, "BaseProjectile", 840, 3 },
+    { "lock.code", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, "Deployer", 843, 2 },
+    { "lock.code.a.pilot", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, "Deployer", 845, 2 },
+    { "lock.key", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, "Deployer", 847, 2 },
+    { "locker", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 849, 2 },
+    { "longsword", "assets/prefabs/weapons/sword big/longsword.entity.prefab", 3395979968U, "BaseMelee", 851, 3 },
+    { "lumberjack.hatchet", "assets/prefabs/tools/lumberjack_tools/lumberjack_axe.entity.prefab", 4035646930U, "BaseMelee", 854, 3 },
+    { "lumberjack.pickaxe", "assets/prefabs/tools/lumberjack_tools/lumberjack_pick.entity.prefab", 1725165540U, "BaseMelee", 857, 3 },
+    { "lunar.firecrackers", "assets/prefabs/misc/chinesenewyear/throwablefirecrackers/firecrackers.entity.prefab", 628064879U, "GrenadeWeapon", 860, 4 },
+    { "m16a2", "assets/prefabs/weapons/m16a2/m16a2.entity.prefab", 4258809631U, "BaseProjectile", 864, 3 },
+    { "mace", "assets/prefabs/weapons/mace/mace.entity.prefab", 2927698044U, "BaseMelee", 867, 3 },
+    { "mace.baseballbat", "assets/prefabs/weapons/halloween/baseballbat/mace.baseballbat.prefab", 1769459881U, "BaseMelee", 870, 3 },
+    { "machete", "assets/prefabs/weapons/machete/machete.weapon.prefab", 2942508801U, "BaseMelee", 873, 3 },
+    { "mailbox", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 876, 2 },
+    { "mannequin", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 878, 2 },
+    { "map", "assets/prefabs/tools/map/map.prefab", 491065559U, "MapEntity", 880, 2 },
+    { "medical.honey.bandage", "assets/prefabs/weapons/medicalhoneybandage/honeybandage.entity.prefab", 89391648U, "MedicalTool", 882, 3 },
+    { "medieval.box.wooden.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 885, 2 },
+    { "medieval.door.double.hinged.metal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 887, 2 },
+    { "medieval.door.hinged.metal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 889, 2 },
+    { "megaphone", "assets/prefabs/voiceaudio/megaphone/megaphone.weapon.prefab", 3942416854U, "Megaphone", 891, 2 },
+    { "metal.detector", "assets/prefabs/tools/metaldetector/metal_detector.entity.prefab", 892200099U, "BaseMetalDetector", 893, 2 },
+    { "metal.shield", "assets/prefabs/weapons/metal_shield/metalshield.entity.prefab", 3703020820U, "Shield", 895, 2 },
+    { "microphonestand", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 897, 2 },
+    { "military flamethrower", "assets/prefabs/weapons/military flamethrower/militaryflamethrower.entity.prefab", 1710208928U, "FlameThrower", 899, 3 },
+    { "minecart.planter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 902, 2 },
+    { "mini fridge", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 904, 2 },
+    { "minicrossbow", "assets/prefabs/weapons/mini crossbow/mini_crossbow.entity.prefab", 4274044420U, "MiniCrossbow", 906, 4 },
+    { "minigun", "assets/prefabs/weapons/minigun/minigun.entity.prefab", 4007138847U, "SpinUpWeapon", 910, 4 },
+    { "mining.pumpjack", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 914, 2 },
+    { "mining.quarry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 916, 2 },
+    { "mixedclumpballoon2025", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 918, 2 },
+    { "mixingtable", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 920, 2 },
+    { "mobilephone", "assets/prefabs/voiceaudio/mobilephone/mobilephone.weapon.prefab", 2342841515U, "MobilePhone", 922, 2 },
+    { "modularcarlift", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 924, 2 },
+    { "mortar.deployable", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 926, 2 },
+    { "multiplegrenadelauncher", "assets/prefabs/weapons/grenade launcher/mgl.entity.prefab", 1233562048U, "BaseLauncher", 928, 4 },
+    { "neonsigntr", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 932, 2 },
+    { "newyeargong", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 934, 2 },
+    { "outbreak.sprayer", "assets/prefabs/tools/outbreaksprayer/outbreak_sprayer.entity.prefab", 3864758412U, "GeigerCounter", 936, 3 },
+    { "paddle", "assets/prefabs/weapons/paddle/paddle.entity.prefab", 1850172004U, "Paddle", 939, 4 },
+    { "paddlingpool", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 943, 2 },
+    { "paintabletarget.reactive", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 945, 2 },
+    { "paintballgun", "assets/prefabs/weapons/paintball_gun/paintballgun.entity.prefab", 3749252572U, "PaintballGun", 947, 4 },
+    { "photoframe.landscape", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 951, 2 },
+    { "photoframe.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 953, 2 },
+    { "photoframe.portrait", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 955, 2 },
+    { "piano", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 957, 2 },
+    { "pickaxe", "assets/prefabs/weapons/pickaxe/pickaxe.entity.prefab", 1587077350U, "BaseMelee", 959, 3 },
+    { "pie.apple", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 962, 4 },
+    { "pie.apple.rich", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 966, 4 },
+    { "pie.bear", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 970, 4 },
+    { "pie.bear.rich", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 974, 4 },
+    { "pie.beef", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 978, 4 },
+    { "pie.beef.rich", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 982, 4 },
+    { "pie.bigcat", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 986, 4 },
+    { "pie.bigcat.rich", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 990, 4 },
+    { "pie.chicken", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 994, 4 },
+    { "pie.chicken.rich", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 998, 4 },
+    { "pie.crocodile", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 1002, 4 },
+    { "pie.fish", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 1006, 4 },
+    { "pie.fish.rich", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 1010, 4 },
+    { "pie.hunters", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 1014, 4 },
+    { "pie.hunters.rich", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 1018, 4 },
+    { "pie.mutton", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 1022, 4 },
+    { "pie.mutton.rich", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 1026, 4 },
+    { "pie.pork", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 1030, 4 },
+    { "pie.pork.rich", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 1034, 4 },
+    { "pie.pumpkin", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 1038, 4 },
+    { "pie.pumpkin.rich", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 1042, 4 },
+    { "pie.survivors", "assets/prefabs/food/pies/food_pie_generic.entity.prefab", 797425204U, "Food", 1046, 4 },
+    { "pilot.hazmat.box.wooden", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1050, 2 },
+    { "pinata", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1052, 2 },
+    { "pipetool", "assets/prefabs/tools/pipe/pipetool.entity.prefab", 3896504765U, "WireTool", 1054, 2 },
+    { "pistol.eoka", "assets/prefabs/weapons/eoka pistol/pistol_eoka.entity.prefab", 2176761593U, "FlintStrikeWeapon", 1056, 4 },
+    { "pistol.m92", "assets/prefabs/weapons/m92/m92.entity.prefab", 2293870814U, "BaseProjectile", 1060, 3 },
+    { "pistol.nailgun", "assets/prefabs/weapons/nailgun/nailgun.entity.prefab", 4279856314U, "BaseProjectile", 1063, 3 },
+    { "pistol.prototype17", "assets/prefabs/weapons/glockskin/glock.entity.prefab", 636374895U, "BaseProjectile", 1066, 3 },
+    { "pistol.python", "assets/prefabs/weapons/python/python.entity.prefab", 3305012504U, "BaseProjectile", 1069, 3 },
+    { "pistol.revolver", "assets/prefabs/weapons/revolver/pistol_revolver.entity.prefab", 2477536592U, "BaseProjectile", 1072, 3 },
+    { "pistol.semiauto", "assets/prefabs/weapons/semi auto pistol/pistol_semiauto.entity.prefab", 563371667U, "BaseProjectile", 1075, 3 },
+    { "pistol.semiauto.a.m15", "assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/pistol_semiauto.a.m15.entity.prefab", 2343718176U, "BaseProjectile", 1078, 3 },
+    { "pistol.water", "assets/prefabs/misc/summer_dlc/waterpistol/waterpistol.entity.prefab", 1502994528U, "LiquidWeapon", 1081, 4 },
+    { "pitchfork", "assets/prefabs/weapons/halloween/pitchfork/pitchfork.entity.prefab", 1009417331U, "BaseMelee", 1085, 3 },
+    { "plank", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1088, 2 },
+    { "planter.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1090, 2 },
+    { "planter.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1092, 2 },
+    { "planter.triangle", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1094, 2 },
+    { "plantpot.single", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1096, 2 },
+    { "pookie.bear", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1098, 2 },
+    { "pooltable", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1100, 2 },
+    { "powered.water.purifier", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1102, 2 },
+    { "ptz.cctv.camera", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1104, 2 },
+    { "pumpkinbasket", "assets/prefabs/misc/halloween/pumpkin_bucket/pumpkin_basket.entity.prefab", 2763047865U, "EasterBasket", 1106, 3 },
+    { "rail.road.planter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1109, 2 },
+    { "reinforced.wooden.shield", "assets/prefabs/weapons/reinforcedwoodshield/reinforcedwoodshield.entity.prefab", 2274489607U, "Shield", 1111, 2 },
+    { "research.table", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1113, 2 },
+    { "revolver.hc", "assets/prefabs/weapons/high caliber revolver/hc_revolver.entity.prefab", 2154182718U, "BaseProjectile", 1115, 3 },
+    { "rf.detonator", "assets/prefabs/tools/detonator/detonator.entity.prefab", 3503830994U, "Detonator", 1118, 2 },
+    { "rifle.ak", "assets/prefabs/weapons/ak47u/ak47u.entity.prefab", 1978739833U, "BaseProjectile", 1120, 3 },
+    { "rifle.ak.diver", "assets/prefabs/weapons/ak47u/diver/ak47u_diver.entity.prefab", 4096772971U, "BaseProjectile", 1123, 3 },
+    { "rifle.ak.glass", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.entity.prefab", 3842925800U, "BaseProjectile", 1126, 3 },
+    { "rifle.ak.glass.blue", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.blue.entity.prefab", 2408471514U, "BaseProjectile", 1129, 3 },
+    { "rifle.ak.glass.green", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.green.entity.prefab", 1246348333U, "BaseProjectile", 1132, 3 },
+    { "rifle.ak.glass.pink", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.pink.entity.prefab", 2779585845U, "BaseProjectile", 1135, 3 },
+    { "rifle.ak.glass.red", "assets/prefabs/weapons/ak47u/glass skin/ak47u.glass.red.entity.prefab", 3312136396U, "BaseProjectile", 1138, 3 },
+    { "rifle.ak.ice", "assets/prefabs/weapons/ak47u/iceskin/ak47u_ice.entity.prefab", 1942738569U, "BaseProjectile", 1141, 3 },
+    { "rifle.ak.jungle", "assets/prefabs/weapons/ak47u/jungle skin/ak47u_jungle.entity.prefab", 1934468549U, "BaseProjectile", 1144, 3 },
+    { "rifle.ak.med", "assets/prefabs/weapons/ak47u/medieval skin/ak47u_med.entity.prefab", 3192146626U, "BaseProjectile", 1147, 3 },
+    { "rifle.bolt", "assets/prefabs/weapons/bolt rifle/bolt_rifle.entity.prefab", 1665481300U, "BaseProjectile", 1150, 3 },
+    { "rifle.l96", "assets/prefabs/weapons/l96/l96.entity.prefab", 2620171289U, "BaseProjectile", 1153, 3 },
+    { "rifle.lr300", "assets/prefabs/weapons/lr300/lr300.entity.prefab", 844375121U, "BaseProjectile", 1156, 3 },
+    { "rifle.lr300.space", "assets/prefabs/weapons/lr300/skins/space/lr300_space.entity.prefab", 1407888186U, "BaseProjectile", 1159, 3 },
+    { "rifle.m39", "assets/prefabs/weapons/m39 emr/m39.entity.prefab", 1517089664U, "BaseProjectile", 1162, 3 },
+    { "rifle.semiauto", "assets/prefabs/weapons/semi auto rifle/semi_auto_rifle.entity.prefab", 4231282088U, "BaseProjectile", 1165, 3 },
+    { "rifle.sks", "assets/prefabs/weapons/sks/sks.entity.prefab", 4228529517U, "BaseProjectile", 1168, 3 },
+    { "rock", "assets/prefabs/weapons/rock/rock.entity.prefab", 3940068399U, "BaseMelee", 1171, 3 },
+    { "rocket.launcher", "assets/prefabs/weapons/rocketlauncher/rocket_launcher.entity.prefab", 601440135U, "BaseLauncher", 1174, 4 },
+    { "rocket.launcher.dragon", "assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/rocket_launcher_dragon.entity.prefab", 3704640358U, "BaseLauncher", 1178, 4 },
+    { "rocket.launcher.rpg7", "assets/prefabs/weapons/rocketlauncher/skins/rpg7/rpg7.entity.prefab", 3445264346U, "RPGLauncher", 1182, 5 },
+    { "rockingchair", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1187, 2 },
+    { "rockingchair.rockingchair2", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1189, 2 },
+    { "rockingchair.rockingchair3", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1191, 2 },
+    { "rug", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1193, 2 },
+    { "rug.bear", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1195, 2 },
+    { "rustige_egg_a", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1197, 2 },
+    { "rustige_egg_b", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1199, 2 },
+    { "rustige_egg_c", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1201, 2 },
+    { "rustige_egg_d", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1203, 2 },
+    { "rustige_egg_e", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1205, 2 },
+    { "rustige_egg_f", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1207, 2 },
+    { "rustige_egg_g", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1209, 2 },
+    { "rustige_egg_h", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1211, 2 },
+    { "sail", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1213, 2 },
+    { "salvaged.bamboo.shelves", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1215, 2 },
+    { "salvaged.cleaver", "assets/prefabs/weapons/cleaver big/salvaged_cleaver.entity.prefab", 3340056040U, "BaseMelee", 1217, 3 },
+    { "salvaged.industrial.shelves", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1220, 2 },
+    { "salvaged.sword", "assets/prefabs/weapons/sword/salvaged_sword.entity.prefab", 1663991785U, "BaseMelee", 1222, 3 },
+    { "samsite", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1225, 2 },
+    { "scarecrow", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1227, 2 },
+    { "scientist.plushie", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1229, 2 },
+    { "scrapframe.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1231, 2 },
+    { "scrapframe.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1233, 2 },
+    { "scrapframe.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1235, 2 },
+    { "scrapframe.standing", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1237, 2 },
+    { "scrapframe.xl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1239, 2 },
+    { "scrapframe.xxl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1241, 2 },
+    { "scrapmirror.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1243, 2 },
+    { "scrapmirror.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1245, 2 },
+    { "scrapmirror.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1247, 2 },
+    { "scrapmirror.standing", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1249, 2 },
+    { "sculpture.ice", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1251, 2 },
+    { "sculpture.rock", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1253, 2 },
+    { "searchlight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1255, 2 },
+    { "secretlabchair", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1257, 2 },
+    { "seed.black.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1259, 2 },
+    { "seed.blue.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1261, 2 },
+    { "seed.corn", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1263, 2 },
+    { "seed.green.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1265, 2 },
+    { "seed.hemp", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1267, 2 },
+    { "seed.orchid", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1269, 2 },
+    { "seed.potato", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1271, 2 },
+    { "seed.pumpkin", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1273, 2 },
+    { "seed.red.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1275, 2 },
+    { "seed.rose", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1277, 2 },
+    { "seed.sunflower", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1279, 2 },
+    { "seed.wheat", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1281, 2 },
+    { "seed.white.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1283, 2 },
+    { "seed.yellow.berry", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1285, 2 },
+    { "shelves", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1287, 2 },
+    { "shotgun.double", "assets/prefabs/weapons/doubleshotgun/double_shotgun.entity.prefab", 3474489095U, "BaseProjectile", 1289, 3 },
+    { "shotgun.m4", "assets/prefabs/weapons/m4 shotgun/m4_shotgun.entity.prefab", 2416998201U, "BaseProjectile", 1292, 3 },
+    { "shotgun.pump", "assets/prefabs/weapons/sawnoff_shotgun/shotgun_pump.entity.prefab", 554582418U, "BaseProjectile", 1295, 3 },
+    { "shotgun.spas12", "assets/prefabs/weapons/spas12/spas12.entity.prefab", 1877401463U, "BaseProjectile", 1298, 3 },
+    { "shotgun.waterpipe", "assets/prefabs/weapons/pipe shotgun/shotgun_waterpipe.entity.prefab", 2696589892U, "BaseProjectile", 1301, 3 },
+    { "shovel", "assets/prefabs/tools/shovel/shovel.entity.prefab", 3196650451U, "Shovel", 1304, 4 },
+    { "shutter.metal.embrasure.a", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1308, 2 },
+    { "shutter.metal.embrasure.b", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1310, 2 },
+    { "shutter.wood.a", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1312, 2 },
+    { "sickle", "assets/prefabs/weapons/halloween/sickle/sickle.entity.prefab", 124547093U, "BaseMelee", 1314, 3 },
+    { "siegetower", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1317, 2 },
+    { "sign.artistcanvas.l", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1319, 2 },
+    { "sign.artistcanvas.m", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1321, 2 },
+    { "sign.artistcanvas.s", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1323, 2 },
+    { "sign.artistcanvas.xl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1325, 2 },
+    { "sign.artistcanvas.xs", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1327, 2 },
+    { "sign.artistcanvas.xxl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1329, 2 },
+    { "sign.hanging", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1331, 2 },
+    { "sign.hanging.banner.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1333, 2 },
+    { "sign.hanging.ornate", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1335, 2 },
+    { "sign.neon.125x125", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1337, 2 },
+    { "sign.neon.125x215", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1339, 2 },
+    { "sign.neon.125x215.animated", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1341, 2 },
+    { "sign.neon.xl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1343, 2 },
+    { "sign.neon.xl.animated", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1345, 2 },
+    { "sign.pictureframe.landscape", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1347, 2 },
+    { "sign.pictureframe.portrait", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1349, 2 },
+    { "sign.pictureframe.tall", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1351, 2 },
+    { "sign.pictureframe.xl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1353, 2 },
+    { "sign.pictureframe.xxl", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1355, 2 },
+    { "sign.pole.banner.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1357, 2 },
+    { "sign.post.double", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1359, 2 },
+    { "sign.post.single", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1361, 2 },
+    { "sign.post.town", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1363, 2 },
+    { "sign.post.town.roof", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1365, 2 },
+    { "sign.wooden.huge", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1367, 2 },
+    { "sign.wooden.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1369, 2 },
+    { "sign.wooden.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1371, 2 },
+    { "sign.wooden.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1373, 2 },
+    { "single.shallow.wall.shelves", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1375, 2 },
+    { "skidoo", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1377, 2 },
+    { "skull", "assets/prefabs/weapons/halloween/skull_halloween/skull.entity.prefab", 1140399555U, "BaseMelee", 1379, 3 },
+    { "skull.trophy", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1382, 2 },
+    { "skull.trophy.jar", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1384, 2 },
+    { "skull.trophy.jar2", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1386, 2 },
+    { "skull.trophy.table", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1388, 2 },
+    { "skull_fire_pit", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1390, 2 },
+    { "skulldoorknocker", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, "Deployer", 1392, 2 },
+    { "skullspikes", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1394, 2 },
+    { "skullspikes.candles", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1396, 2 },
+    { "skullspikes.pumpkin", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1398, 2 },
+    { "skylantern", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1400, 2 },
+    { "skylantern.skylantern.green", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1402, 2 },
+    { "skylantern.skylantern.orange", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1404, 2 },
+    { "skylantern.skylantern.purple", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1406, 2 },
+    { "skylantern.skylantern.red", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1408, 2 },
+    { "sled", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1410, 2 },
+    { "sled.xmas", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1412, 2 },
+    { "sleepingbag", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1414, 2 },
+    { "small.oil.refinery", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1416, 2 },
+    { "small_ramp", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1418, 2 },
+    { "smallcandles", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1420, 2 },
+    { "smallengine", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1422, 2 },
+    { "smallwaterbottle", "assets/prefabs/food/small water bottle/smallwaterbottle.entity.prefab", 139849256U, "BaseLiquidVessel", 1424, 3 },
+    { "smart.alarm", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1427, 2 },
+    { "smart.switch", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1429, 2 },
+    { "smg.2", "assets/prefabs/weapons/smg/smg.entity.prefab", 3759841439U, "BaseProjectile", 1431, 3 },
+    { "smg.mp5", "assets/prefabs/weapons/mp5/mp5.entity.prefab", 2545523575U, "BaseProjectile", 1434, 3 },
+    { "smg.thompson", "assets/prefabs/weapons/thompson/thompson.entity.prefab", 3243900999U, "BaseProjectile", 1437, 3 },
+    { "snowball", "assets/prefabs/misc/xmas/snowball/snowball.entity.prefab", 591451995U, "BaseMelee", 1440, 3 },
+    { "snowballgun", "assets/prefabs/misc/xmas/snowballgun/snowballgun.entity.prefab", 3228215527U, "SnowballGun", 1443, 4 },
+    { "snowmachine", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1447, 2 },
+    { "snowman", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1449, 2 },
+    { "sofa", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1451, 2 },
+    { "sofa.pattern", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1453, 2 },
+    { "soundlight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1455, 2 },
+    { "spear.cny", "assets/prefabs/weapons/cnyspear/cny_spear.entity.prefab", 3814317397U, "BaseMelee", 1457, 3 },
+    { "spear.stone", "assets/prefabs/weapons/stone spear/spear_stone.entity.prefab", 1943636975U, "BaseMelee", 1460, 3 },
+    { "spear.wooden", "assets/prefabs/weapons/wooden spear/spear_wooden.entity.prefab", 2828546575U, "BaseMelee", 1463, 3 },
+    { "speargun", "assets/prefabs/weapons/speargun/speargun.entity.prefab", 4262383355U, "Speargun", 1466, 6 },
+    { "speechbubbleballoon2025", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1472, 2 },
+    { "spiderweb", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1474, 2 },
+    { "spikes.floor", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1476, 2 },
+    { "spikes.trap", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1478, 2 },
+    { "spinner.wheel", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1480, 2 },
+    { "spookyspeaker", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1482, 2 },
+    { "spraycan", "assets/prefabs/tools/spraycan/spraycan.weapon.prefab", 4251031431U, "SprayCan", 1484, 2 },
+    { "starballoon2025", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1486, 2 },
+    { "stash.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1488, 2 },
+    { "steeringwheel.boat", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1490, 2 },
+    { "stocking.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1492, 2 },
+    { "stocking.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1494, 2 },
+    { "stone.pickaxe", "assets/prefabs/weapons/stone pickaxe/stone_pickaxe.entity.prefab", 1450582435U, "BaseMelee", 1496, 3 },
+    { "stonehatchet", "assets/prefabs/weapons/stone hatchet/stonehatchet.entity.prefab", 3540736579U, "BaseMelee", 1499, 3 },
+    { "storage.monitor", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, "Deployer", 1502, 2 },
+    { "storage_barrel_a", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1504, 2 },
+    { "storage_barrel_b", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1506, 2 },
+    { "storage_barrel_c", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1508, 2 },
+    { "storageadaptor", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1510, 2 },
+    { "strobelight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1512, 2 },
+    { "sunken.knife", "assets/prefabs/weapons/knife/skins/sunkenknife/sunken.knife.combat.entity.prefab", 2957160983U, "BaseMelee", 1514, 3 },
+    { "supply.signal", "assets/prefabs/tools/supply signal/supplysignal.weapon.prefab", 775476535U, "GrenadeWeapon", 1517, 4 },
+    { "surveycharge", "assets/prefabs/tools/surveycharge/survey_charge.prefab", 2698594377U, "ThrownWeapon", 1521, 3 },
+    { "syringe.medical", "assets/prefabs/tools/medical syringe/syringe_medical.entity.prefab", 283937635U, "MedicalTool", 1524, 3 },
+    { "t1_smg", "assets/prefabs/weapons/t1 smg/t1_smg.entity.prefab", 4251501342U, "BaseProjectile", 1527, 3 },
+    { "table", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1530, 2 },
+    { "target.reactive", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1532, 2 },
+    { "telephone", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1534, 2 },
+    { "tincan.alarm", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1536, 2 },
+    { "tool.binoculars", "assets/prefabs/tools/binoculars/binocular.entity.prefab", 436023350U, "Binocular", 1538, 3 },
+    { "tool.camera", "assets/prefabs/tools/camera/tool_camera.prefab", 1410597758U, "CameraTool", 1541, 2 },
+    { "tool.instant_camera", "assets/prefabs/misc/summer_dlc/instantcamera/instant_camera.entity.prefab", 509717370U, "InstantCameraTool", 1543, 2 },
+    { "toolgun", "assets/prefabs/weapons/toolgun/toolgun.entity.prefab", 417347909U, "Toolgun", 1545, 5 },
+    { "torch", "assets/prefabs/weapons/torch/torch.entity.prefab", 1543342082U, "TorchWeapon", 1550, 5 },
+    { "torch.torch.skull", "assets/prefabs/weapons/halloween/skull torch/skulltorch.entity.prefab", 3258690150U, "TorchWeapon", 1555, 5 },
+    { "torchholder", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1560, 2 },
+    { "trap.bear", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1562, 2 },
+    { "trap.landmine", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1564, 2 },
+    { "triangle.rail.road.planter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1566, 2 },
+    { "trophy", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1568, 2 },
+    { "trophy2023", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1570, 2 },
+    { "tunalight", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1572, 2 },
+    { "twitchrivals2023desk", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1574, 2 },
+    { "twitchrivals2025sofa", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1576, 2 },
+    { "vampire.stake", "assets/prefabs/weapons/halloween/vampirestake/vampirestake.entity.prefab", 2186616991U, "BaseMelee", 1578, 3 },
+    { "vehicle.car_radio", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1581, 2 },
+    { "vending.machine", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1583, 2 },
+    { "wall.animal.fence", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1585, 2 },
+    { "wall.animal.fence.gate", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1587, 2 },
+    { "wall.external.high", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1589, 2 },
+    { "wall.external.high.adobe", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1591, 2 },
+    { "wall.external.high.ice", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1593, 2 },
+    { "wall.external.high.legacy", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1595, 2 },
+    { "wall.external.high.stone", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1597, 2 },
+    { "wall.frame.cell", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1599, 2 },
+    { "wall.frame.cell.gate", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1601, 2 },
+    { "wall.frame.fence", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1603, 2 },
+    { "wall.frame.fence.gate", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1605, 2 },
+    { "wall.frame.garagedoor", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1607, 2 },
+    { "wall.frame.lunar2025_a", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1609, 2 },
+    { "wall.frame.lunar2025_b", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1611, 2 },
+    { "wall.frame.lunar2025_c", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1613, 2 },
+    { "wall.frame.netting", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1615, 2 },
+    { "wall.frame.shopfront", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1617, 2 },
+    { "wall.frame.shopfront.metal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1619, 2 },
+    { "wall.graveyard.fence", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1621, 2 },
+    { "wall.ice.wall", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1623, 2 },
+    { "wall.shallow.industrial.shelves", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1625, 2 },
+    { "wall.window.bars.metal", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1627, 2 },
+    { "wall.window.bars.toptier", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1629, 2 },
+    { "wall.window.bars.wood", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1631, 2 },
+    { "wall.window.glass.reinforced", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1633, 2 },
+    { "wallpaper.tool", "assets/prefabs/wallpaper/wallpaper.tool.entity.prefab", 2811911262U, "WallpaperPlanner", 1635, 3 },
+    { "wantedposter", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1638, 2 },
+    { "wantedposter.wantedposter2", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1640, 2 },
+    { "wantedposter.wantedposter3", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1642, 2 },
+    { "wantedposter.wantedposter4", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1644, 2 },
+    { "watchtower.wood", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1646, 2 },
+    { "water.barrel", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1648, 2 },
+    { "water.catcher.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1650, 2 },
+    { "water.catcher.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1652, 2 },
+    { "water.purifier", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, "Deployer", 1654, 2 },
+    { "waterjug", "assets/prefabs/food/water jug/waterjug.entity.prefab", 366999130U, "BaseLiquidVessel", 1656, 3 },
+    { "waterpump", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1659, 2 },
+    { "wicker.barrel", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1661, 2 },
+    { "window.paintable", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1663, 2 },
+    { "wiretool", "assets/prefabs/tools/wire/wiretool.entity.prefab", 4258987144U, "WireTool", 1665, 2 },
+    { "woodcross", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1667, 2 },
+    { "wooden.shield", "assets/prefabs/weapons/wooden shield/woodenshield.entity.prefab", 3637711865U, "Shield", 1669, 2 },
+    { "woodframe.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1671, 2 },
+    { "woodframe.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1673, 2 },
+    { "woodframe.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1675, 2 },
+    { "woodframe.standing", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1677, 2 },
+    { "woodmirror.large", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1679, 2 },
+    { "woodmirror.medium", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1681, 2 },
+    { "woodmirror.small", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1683, 2 },
+    { "woodmirror.standing", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1685, 2 },
+    { "workbench1", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1687, 2 },
+    { "workbench2", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1689, 2 },
+    { "workbench3", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1691, 2 },
+    { "xmas.advent", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1693, 2 },
+    { "xmas.door.garland", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1695, 2 },
+    { "xmas.double.door.garland", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1697, 2 },
+    { "xmas.lightstring", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1699, 2 },
+    { "xmas.lightstring.advanced", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1701, 2 },
+    { "xmas.tree", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1703, 2 },
+    { "xmas.window.garland", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1705, 2 },
+    { "xmasdoorwreath", "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab", 2686008770U, "Deployer", 1707, 2 },
+    { "xylophone", "assets/prefabs/tools/planner/building_planner.entity.prefab", 3378931327U, "Planner", 1709, 2 }
 };
 
 inline const ItemTypeEntry* Get(const char* name) noexcept
@@ -2422,173 +2500,173 @@ inline const ItemTypeEntry* GetByPrefabId(std::uint32_t prefab_id) noexcept
     case 1148470020U: return &kData[7]; // apartment.master_key
     case 3826414185U: return &kData[10]; // axe.salvaged
     case 1383987667U: return &kData[14]; // bandage
-    case 996318821U: return &kData[36]; // blowpipe
-    case 2557812813U: return &kData[37]; // blunderbuss
-    case 2721033560U: return &kData[38]; // boat.planner
-    case 3097934597U: return &kData[40]; // bone.club
-    case 1402819630U: return &kData[43]; // boomerang
-    case 1851422019U: return &kData[44]; // botabag
-    case 1537401592U: return &kData[45]; // bow.compound
-    case 2836331625U: return &kData[46]; // bow.hunting
-    case 1182699531U: return &kData[50]; // bucket.water
-    case 1980046596U: return &kData[52]; // cakefiveyear
-    case 3331777431U: return &kData[54]; // candycaneclub
-    case 1802634117U: return &kData[63]; // chainsaw
-    case 2757054139U: return &kData[92]; // compass
-    case 1777756171U: return &kData[111]; // concretehatchet
-    case 1480417083U: return &kData[112]; // concretepickaxe
-    case 2727391082U: return &kData[116]; // crossbow
-    case 777174364U: return &kData[117]; // crossbowbowless
-    case 1396987940U: return &kData[128]; // diverhatchet
-    case 190635670U: return &kData[129]; // diverpickaxe
-    case 1029607191U: return &kData[130]; // divertorch
-    case 2686008770U: return &kData[131]; // door.closer
-    case 557749706U: return &kData[146]; // easterbasket
-    case 2671523489U: return &kData[195]; // explosive.satchel
-    case 1915331115U: return &kData[196]; // explosive.timed
-    case 2057865657U: return &kData[214]; // fishingrod.handmade
-    case 3717106868U: return &kData[217]; // flamethrower
-    case 2661658442U: return &kData[219]; // flare
-    case 72718095U: return &kData[220]; // flashlight.held
-    case 3662083119U: return &kData[233]; // frontier_hatchet
-    case 2465202152U: return &kData[238]; // fun.bass
-    case 617635188U: return &kData[239]; // fun.boomboxportable
-    case 705457609U: return &kData[240]; // fun.casetterecorder
-    case 52738779U: return &kData[241]; // fun.cowbell
-    case 3789219502U: return &kData[242]; // fun.flute
-    case 4177390149U: return &kData[243]; // fun.guitar
-    case 1977067472U: return &kData[244]; // fun.jerrycanguitar
-    case 1754256281U: return &kData[245]; // fun.tambourine
-    case 1050701358U: return &kData[246]; // fun.trumpet
-    case 2388319642U: return &kData[247]; // fun.tuba
-    case 47304962U: return &kData[256]; // geiger.counter
-    case 3654150932U: return &kData[272]; // grenade.beancan
-    case 3444797639U: return &kData[273]; // grenade.bee
-    case 45697420U: return &kData[274]; // grenade.f1
-    case 758326244U: return &kData[275]; // grenade.flashbang
-    case 4104126979U: return &kData[276]; // grenade.molotov
-    case 3642747736U: return &kData[277]; // grenade.smoke
-    case 37937194U: return &kData[278]; // gun.water
-    case 388861612U: return &kData[289]; // hammer
-    case 1744180387U: return &kData[290]; // hammer.salvaged
-    case 3263286159U: return &kData[291]; // handcuffs
-    case 365233245U: return &kData[292]; // hatchet
-    case 3459133190U: return &kData[299]; // hmlmg
-    case 542600037U: return &kData[301]; // homingmissile.launcher
-    case 3568270288U: return &kData[303]; // hosetool
-    case 109244214U: return &kData[306]; // icepick.salvaged
-    case 3088514867U: return &kData[307]; // improvised.shield
-    case 1288011403U: return &kData[318]; // industrial.torch
-    case 3537156861U: return &kData[327]; // jackhammer
-    case 1746720686U: return &kData[331]; // jungle.rock
-    case 3773357817U: return &kData[333]; // keycard_blue
-    case 1483241467U: return &kData[336]; // knife.bone
-    case 1443663060U: return &kData[337]; // knife.bone.obsidian
-    case 1362182970U: return &kData[338]; // knife.butcher
-    case 327944951U: return &kData[339]; // knife.combat
-    case 995189561U: return &kData[340]; // knife.skinning
-    case 4148293472U: return &kData[341]; // krieg.chainsword
-    case 1896956209U: return &kData[342]; // krieg.shotgun
-    case 1400027705U: return &kData[352]; // legacy bow
-    case 1440914039U: return &kData[365]; // lmg.m249
-    case 3395979968U: return &kData[370]; // longsword
-    case 4035646930U: return &kData[371]; // lumberjack.hatchet
-    case 1725165540U: return &kData[372]; // lumberjack.pickaxe
-    case 628064879U: return &kData[373]; // lunar.firecrackers
-    case 4258809631U: return &kData[374]; // m16a2
-    case 2927698044U: return &kData[375]; // mace
-    case 1769459881U: return &kData[376]; // mace.baseballbat
-    case 2942508801U: return &kData[377]; // machete
-    case 491065559U: return &kData[380]; // map
-    case 89391648U: return &kData[381]; // medical.honey.bandage
-    case 3942416854U: return &kData[385]; // megaphone
-    case 892200099U: return &kData[386]; // metal.detector
-    case 3703020820U: return &kData[387]; // metal.shield
-    case 1710208928U: return &kData[389]; // military flamethrower
-    case 4274044420U: return &kData[392]; // minicrossbow
-    case 4007138847U: return &kData[393]; // minigun
-    case 2342841515U: return &kData[398]; // mobilephone
-    case 1233562048U: return &kData[401]; // multiplegrenadelauncher
-    case 3864758412U: return &kData[404]; // outbreak.sprayer
-    case 1850172004U: return &kData[405]; // paddle
-    case 3749252572U: return &kData[408]; // paintballgun
-    case 1587077350U: return &kData[413]; // pickaxe
-    case 797425204U: return &kData[414]; // pie.apple
-    case 3896504765U: return &kData[426]; // pipetool
-    case 2176761593U: return &kData[427]; // pistol.eoka
-    case 2293870814U: return &kData[428]; // pistol.m92
-    case 4279856314U: return &kData[429]; // pistol.nailgun
-    case 636374895U: return &kData[430]; // pistol.prototype17
-    case 3305012504U: return &kData[431]; // pistol.python
-    case 2477536592U: return &kData[432]; // pistol.revolver
-    case 563371667U: return &kData[433]; // pistol.semiauto
-    case 2343718176U: return &kData[434]; // pistol.semiauto.a.m15
-    case 1502994528U: return &kData[435]; // pistol.water
-    case 1009417331U: return &kData[436]; // pitchfork
-    case 2763047865U: return &kData[446]; // pumpkinbasket
-    case 2274489607U: return &kData[448]; // reinforced.wooden.shield
-    case 2154182718U: return &kData[450]; // revolver.hc
-    case 3503830994U: return &kData[451]; // rf.detonator
-    case 1978739833U: return &kData[452]; // rifle.ak
-    case 4096772971U: return &kData[453]; // rifle.ak.diver
-    case 3842925800U: return &kData[454]; // rifle.ak.glass
-    case 2408471514U: return &kData[455]; // rifle.ak.glass.blue
-    case 1246348333U: return &kData[456]; // rifle.ak.glass.green
-    case 2779585845U: return &kData[457]; // rifle.ak.glass.pink
-    case 3312136396U: return &kData[458]; // rifle.ak.glass.red
-    case 1942738569U: return &kData[459]; // rifle.ak.ice
-    case 1934468549U: return &kData[460]; // rifle.ak.jungle
-    case 3192146626U: return &kData[461]; // rifle.ak.med
-    case 1665481300U: return &kData[462]; // rifle.bolt
-    case 2620171289U: return &kData[463]; // rifle.l96
-    case 844375121U: return &kData[464]; // rifle.lr300
-    case 1407888186U: return &kData[465]; // rifle.lr300.space
-    case 1517089664U: return &kData[466]; // rifle.m39
-    case 4231282088U: return &kData[467]; // rifle.semiauto
-    case 4228529517U: return &kData[468]; // rifle.sks
-    case 3940068399U: return &kData[469]; // rock
-    case 601440135U: return &kData[470]; // rocket.launcher
-    case 3704640358U: return &kData[471]; // rocket.launcher.dragon
-    case 3445264346U: return &kData[472]; // rocket.launcher.rpg7
-    case 3340056040U: return &kData[488]; // salvaged.cleaver
-    case 1663991785U: return &kData[490]; // salvaged.sword
-    case 3474489095U: return &kData[523]; // shotgun.double
-    case 2416998201U: return &kData[524]; // shotgun.m4
-    case 554582418U: return &kData[525]; // shotgun.pump
-    case 1877401463U: return &kData[526]; // shotgun.spas12
-    case 2696589892U: return &kData[527]; // shotgun.waterpipe
-    case 3196650451U: return &kData[528]; // shovel
-    case 124547093U: return &kData[532]; // sickle
-    case 1140399555U: return &kData[564]; // skull
-    case 139849256U: return &kData[586]; // smallwaterbottle
-    case 3759841439U: return &kData[589]; // smg.2
-    case 2545523575U: return &kData[590]; // smg.mp5
-    case 3243900999U: return &kData[591]; // smg.thompson
-    case 591451995U: return &kData[592]; // snowball
-    case 3228215527U: return &kData[593]; // snowballgun
-    case 3814317397U: return &kData[599]; // spear.cny
-    case 1943636975U: return &kData[600]; // spear.stone
-    case 2828546575U: return &kData[601]; // spear.wooden
-    case 4262383355U: return &kData[602]; // speargun
-    case 4251031431U: return &kData[609]; // spraycan
-    case 1450582435U: return &kData[615]; // stone.pickaxe
-    case 3540736579U: return &kData[616]; // stonehatchet
-    case 2957160983U: return &kData[623]; // sunken.knife
-    case 775476535U: return &kData[624]; // supply.signal
-    case 2698594377U: return &kData[625]; // surveycharge
-    case 283937635U: return &kData[626]; // syringe.medical
-    case 4251501342U: return &kData[627]; // t1_smg
-    case 436023350U: return &kData[632]; // tool.binoculars
-    case 1410597758U: return &kData[633]; // tool.camera
-    case 509717370U: return &kData[634]; // tool.instant_camera
-    case 417347909U: return &kData[635]; // toolgun
-    case 1543342082U: return &kData[636]; // torch
-    case 3258690150U: return &kData[637]; // torch.torch.skull
-    case 2186616991U: return &kData[647]; // vampire.stake
-    case 2811911262U: return &kData[673]; // wallpaper.tool
-    case 366999130U: return &kData[683]; // waterjug
-    case 4258987144U: return &kData[687]; // wiretool
-    case 3637711865U: return &kData[689]; // wooden.shield
+    case 996318821U: return &kData[39]; // blowpipe
+    case 2557812813U: return &kData[40]; // blunderbuss
+    case 2721033560U: return &kData[41]; // boat.planner
+    case 3097934597U: return &kData[43]; // bone.club
+    case 1402819630U: return &kData[46]; // boomerang
+    case 1851422019U: return &kData[47]; // botabag
+    case 1537401592U: return &kData[48]; // bow.compound
+    case 2836331625U: return &kData[49]; // bow.hunting
+    case 1182699531U: return &kData[53]; // bucket.water
+    case 1980046596U: return &kData[55]; // cakefiveyear
+    case 3331777431U: return &kData[57]; // candycaneclub
+    case 1802634117U: return &kData[66]; // chainsaw
+    case 2757054139U: return &kData[95]; // compass
+    case 1777756171U: return &kData[114]; // concretehatchet
+    case 1480417083U: return &kData[115]; // concretepickaxe
+    case 2727391082U: return &kData[119]; // crossbow
+    case 777174364U: return &kData[120]; // crossbowbowless
+    case 1396987940U: return &kData[131]; // diverhatchet
+    case 190635670U: return &kData[132]; // diverpickaxe
+    case 1029607191U: return &kData[133]; // divertorch
+    case 2686008770U: return &kData[134]; // door.closer
+    case 557749706U: return &kData[149]; // easterbasket
+    case 2671523489U: return &kData[198]; // explosive.satchel
+    case 1915331115U: return &kData[199]; // explosive.timed
+    case 2057865657U: return &kData[217]; // fishingrod.handmade
+    case 3717106868U: return &kData[220]; // flamethrower
+    case 2661658442U: return &kData[222]; // flare
+    case 72718095U: return &kData[223]; // flashlight.held
+    case 3662083119U: return &kData[236]; // frontier_hatchet
+    case 2465202152U: return &kData[241]; // fun.bass
+    case 617635188U: return &kData[242]; // fun.boomboxportable
+    case 705457609U: return &kData[243]; // fun.casetterecorder
+    case 52738779U: return &kData[244]; // fun.cowbell
+    case 3789219502U: return &kData[245]; // fun.flute
+    case 4177390149U: return &kData[246]; // fun.guitar
+    case 1977067472U: return &kData[247]; // fun.jerrycanguitar
+    case 1754256281U: return &kData[248]; // fun.tambourine
+    case 1050701358U: return &kData[249]; // fun.trumpet
+    case 2388319642U: return &kData[250]; // fun.tuba
+    case 47304962U: return &kData[259]; // geiger.counter
+    case 3654150932U: return &kData[276]; // grenade.beancan
+    case 3444797639U: return &kData[277]; // grenade.bee
+    case 45697420U: return &kData[278]; // grenade.f1
+    case 758326244U: return &kData[279]; // grenade.flashbang
+    case 4104126979U: return &kData[280]; // grenade.molotov
+    case 3642747736U: return &kData[281]; // grenade.smoke
+    case 37937194U: return &kData[282]; // gun.water
+    case 388861612U: return &kData[293]; // hammer
+    case 1744180387U: return &kData[294]; // hammer.salvaged
+    case 3263286159U: return &kData[295]; // handcuffs
+    case 365233245U: return &kData[296]; // hatchet
+    case 3459133190U: return &kData[303]; // hmlmg
+    case 542600037U: return &kData[305]; // homingmissile.launcher
+    case 3568270288U: return &kData[307]; // hosetool
+    case 109244214U: return &kData[310]; // icepick.salvaged
+    case 3088514867U: return &kData[311]; // improvised.shield
+    case 1288011403U: return &kData[322]; // industrial.torch
+    case 3537156861U: return &kData[331]; // jackhammer
+    case 1746720686U: return &kData[335]; // jungle.rock
+    case 3773357817U: return &kData[337]; // keycard_blue
+    case 1483241467U: return &kData[340]; // knife.bone
+    case 1443663060U: return &kData[341]; // knife.bone.obsidian
+    case 1362182970U: return &kData[342]; // knife.butcher
+    case 327944951U: return &kData[343]; // knife.combat
+    case 995189561U: return &kData[344]; // knife.skinning
+    case 4148293472U: return &kData[345]; // krieg.chainsword
+    case 1896956209U: return &kData[346]; // krieg.shotgun
+    case 1400027705U: return &kData[356]; // legacy bow
+    case 1440914039U: return &kData[369]; // lmg.m249
+    case 3395979968U: return &kData[374]; // longsword
+    case 4035646930U: return &kData[375]; // lumberjack.hatchet
+    case 1725165540U: return &kData[376]; // lumberjack.pickaxe
+    case 628064879U: return &kData[377]; // lunar.firecrackers
+    case 4258809631U: return &kData[378]; // m16a2
+    case 2927698044U: return &kData[379]; // mace
+    case 1769459881U: return &kData[380]; // mace.baseballbat
+    case 2942508801U: return &kData[381]; // machete
+    case 491065559U: return &kData[384]; // map
+    case 89391648U: return &kData[385]; // medical.honey.bandage
+    case 3942416854U: return &kData[389]; // megaphone
+    case 892200099U: return &kData[390]; // metal.detector
+    case 3703020820U: return &kData[391]; // metal.shield
+    case 1710208928U: return &kData[393]; // military flamethrower
+    case 4274044420U: return &kData[396]; // minicrossbow
+    case 4007138847U: return &kData[397]; // minigun
+    case 2342841515U: return &kData[402]; // mobilephone
+    case 1233562048U: return &kData[405]; // multiplegrenadelauncher
+    case 3864758412U: return &kData[408]; // outbreak.sprayer
+    case 1850172004U: return &kData[409]; // paddle
+    case 3749252572U: return &kData[412]; // paintballgun
+    case 1587077350U: return &kData[417]; // pickaxe
+    case 797425204U: return &kData[418]; // pie.apple
+    case 3896504765U: return &kData[442]; // pipetool
+    case 2176761593U: return &kData[443]; // pistol.eoka
+    case 2293870814U: return &kData[444]; // pistol.m92
+    case 4279856314U: return &kData[445]; // pistol.nailgun
+    case 636374895U: return &kData[446]; // pistol.prototype17
+    case 3305012504U: return &kData[447]; // pistol.python
+    case 2477536592U: return &kData[448]; // pistol.revolver
+    case 563371667U: return &kData[449]; // pistol.semiauto
+    case 2343718176U: return &kData[450]; // pistol.semiauto.a.m15
+    case 1502994528U: return &kData[451]; // pistol.water
+    case 1009417331U: return &kData[452]; // pitchfork
+    case 2763047865U: return &kData[462]; // pumpkinbasket
+    case 2274489607U: return &kData[464]; // reinforced.wooden.shield
+    case 2154182718U: return &kData[466]; // revolver.hc
+    case 3503830994U: return &kData[467]; // rf.detonator
+    case 1978739833U: return &kData[468]; // rifle.ak
+    case 4096772971U: return &kData[469]; // rifle.ak.diver
+    case 3842925800U: return &kData[470]; // rifle.ak.glass
+    case 2408471514U: return &kData[471]; // rifle.ak.glass.blue
+    case 1246348333U: return &kData[472]; // rifle.ak.glass.green
+    case 2779585845U: return &kData[473]; // rifle.ak.glass.pink
+    case 3312136396U: return &kData[474]; // rifle.ak.glass.red
+    case 1942738569U: return &kData[475]; // rifle.ak.ice
+    case 1934468549U: return &kData[476]; // rifle.ak.jungle
+    case 3192146626U: return &kData[477]; // rifle.ak.med
+    case 1665481300U: return &kData[478]; // rifle.bolt
+    case 2620171289U: return &kData[479]; // rifle.l96
+    case 844375121U: return &kData[480]; // rifle.lr300
+    case 1407888186U: return &kData[481]; // rifle.lr300.space
+    case 1517089664U: return &kData[482]; // rifle.m39
+    case 4231282088U: return &kData[483]; // rifle.semiauto
+    case 4228529517U: return &kData[484]; // rifle.sks
+    case 3940068399U: return &kData[485]; // rock
+    case 601440135U: return &kData[486]; // rocket.launcher
+    case 3704640358U: return &kData[487]; // rocket.launcher.dragon
+    case 3445264346U: return &kData[488]; // rocket.launcher.rpg7
+    case 3340056040U: return &kData[504]; // salvaged.cleaver
+    case 1663991785U: return &kData[506]; // salvaged.sword
+    case 3474489095U: return &kData[539]; // shotgun.double
+    case 2416998201U: return &kData[540]; // shotgun.m4
+    case 554582418U: return &kData[541]; // shotgun.pump
+    case 1877401463U: return &kData[542]; // shotgun.spas12
+    case 2696589892U: return &kData[543]; // shotgun.waterpipe
+    case 3196650451U: return &kData[544]; // shovel
+    case 124547093U: return &kData[548]; // sickle
+    case 1140399555U: return &kData[580]; // skull
+    case 139849256U: return &kData[602]; // smallwaterbottle
+    case 3759841439U: return &kData[605]; // smg.2
+    case 2545523575U: return &kData[606]; // smg.mp5
+    case 3243900999U: return &kData[607]; // smg.thompson
+    case 591451995U: return &kData[608]; // snowball
+    case 3228215527U: return &kData[609]; // snowballgun
+    case 3814317397U: return &kData[615]; // spear.cny
+    case 1943636975U: return &kData[616]; // spear.stone
+    case 2828546575U: return &kData[617]; // spear.wooden
+    case 4262383355U: return &kData[618]; // speargun
+    case 4251031431U: return &kData[625]; // spraycan
+    case 1450582435U: return &kData[631]; // stone.pickaxe
+    case 3540736579U: return &kData[632]; // stonehatchet
+    case 2957160983U: return &kData[639]; // sunken.knife
+    case 775476535U: return &kData[640]; // supply.signal
+    case 2698594377U: return &kData[641]; // surveycharge
+    case 283937635U: return &kData[642]; // syringe.medical
+    case 4251501342U: return &kData[643]; // t1_smg
+    case 436023350U: return &kData[648]; // tool.binoculars
+    case 1410597758U: return &kData[649]; // tool.camera
+    case 509717370U: return &kData[650]; // tool.instant_camera
+    case 417347909U: return &kData[651]; // toolgun
+    case 1543342082U: return &kData[652]; // torch
+    case 3258690150U: return &kData[653]; // torch.torch.skull
+    case 2186616991U: return &kData[663]; // vampire.stake
+    case 2811911262U: return &kData[691]; // wallpaper.tool
+    case 366999130U: return &kData[701]; // waterjug
+    case 4258987144U: return &kData[705]; // wiretool
+    case 3637711865U: return &kData[707]; // wooden.shield
     default: return nullptr;
     }
 }
