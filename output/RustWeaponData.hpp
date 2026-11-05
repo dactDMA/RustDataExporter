@@ -1,8 +1,8 @@
 //
 // Auto-generated Rust Weapon Data
-// Generated: 2026-10-01 21:33:03 UTC
-// Target: Protocol 2634.289.1 / Changeset 166494
-// Total entries: 60
+// Generated: 2026-11-05 22:31:47 UTC
+// Target: Protocol 2636.290.1 / Changeset 170220
+// Total entries: 61
 // Generator: RustDataExporter
 //
 // This file is generated from server-side Rust prefabs/components.
@@ -134,7 +134,7 @@ namespace RustData
 namespace Weapons
 {
 
-inline constexpr std::size_t kCount = 60;
+inline constexpr std::size_t kCount = 61;
 inline constexpr WeaponData kData[kCount == 0 ? 1 : kCount] =
 {
     // assets/content/vehicles/boats/ptboat/turrets/50cal/entities/50cal.base.entity.prefab
@@ -1049,6 +1049,22 @@ inline constexpr WeaponData kData[kCount == 0 ? 1 : kCount] =
         { 1.0f, 1.0f, -1.0f, -1.0f, 0.0f, 0.0f, 4.0f, false, 0.0f, 0.0f, 0.0f, true, true },
         { false, false, 8.0f, { 0.0f, 0.0f, 0.0f }, { 0.0f, 0.0f, 0.0f }, 1.0f }
     },
+    // assets/prefabs/weapons/uzi/uzi.entity.prefab
+    {
+        "smg.uzi", "smg_uzi", "assets/prefabs/weapons/uzi/uzi.entity.prefab", 1425335112ULL,
+        0.65f, 0.8f, 0.8f, true,
+        75.0f, 3.0f, 1.0f,
+        true, true, true, false, false,
+        0.3f, 32, false, 0.0f, false,
+        { 0.5f, 0.6f, -1.25f, -1.75f, 0.025f, 0.025f, 1.0f, 0.2f, -std::numeric_limits<float>::infinity(), 30, false, false, 1.5f, true, 3.0f, 1.0f, 1.0f },
+        { 0.2f, 3.0f, 0.25f, 1.0f, 0.15f, 0.15f, 1.0f },
+        { 3.3f, 0.0f, 0.0f, 0.0f, false, true },
+        { false, 0.8f, 0.8f, 0.8f },
+        { true, false, 0.35f, -1.0f },
+        { 0.6f, 0.08f, 0.0f },
+        { 1.0f, 1.0f, -1.0f, -1.0f, 0.0f, 0.0f, 5.0f, false, 0.0f, 0.0f, 0.0f, true, true },
+        { true, false, 8.0f, { 0.0f, 0.0f, 0.0f }, { 0.0f, 0.0f, 0.0f }, 1.0f }
+    },
     // assets/prefabs/misc/xmas/snowballgun/snowballgun.entity.prefab
     {
         "snowballgun", "snowballgun", "assets/prefabs/misc/xmas/snowballgun/snowballgun.entity.prefab", 3228215527ULL,
@@ -1084,7 +1100,7 @@ inline constexpr WeaponData kData[kCount == 0 ? 1 : kCount] =
     // assets/prefabs/weapons/t1 smg/t1_smg.entity.prefab
     {
         "t1_smg", "t1_smg", "assets/prefabs/weapons/t1 smg/t1_smg.entity.prefab", 4251501342ULL,
-        0.4f, 0.5f, 0.5f, true,
+        0.42f, 0.5f, 0.5f, true,
         75.0f, 3.0f, 1.0f,
         true, true, true, false, false,
         0.3f, 18, false, 0.0f, false,
@@ -1171,9 +1187,10 @@ inline const WeaponData* GetByHash(std::uint64_t hash) noexcept
     case 3759841439ULL: return &kData[54]; // smg.2
     case 2545523575ULL: return &kData[55]; // smg.mp5
     case 3243900999ULL: return &kData[56]; // smg.thompson
-    case 3228215527ULL: return &kData[57]; // snowballgun
-    case 4262383355ULL: return &kData[58]; // speargun
-    case 4251501342ULL: return &kData[59]; // t1_smg
+    case 1425335112ULL: return &kData[57]; // smg.uzi
+    case 3228215527ULL: return &kData[58]; // snowballgun
+    case 4262383355ULL: return &kData[59]; // speargun
+    case 4251501342ULL: return &kData[60]; // t1_smg
     default: return nullptr;
     }
 }

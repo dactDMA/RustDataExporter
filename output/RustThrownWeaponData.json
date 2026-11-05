@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-01 21:33:03",
-  "target_build": "Protocol 2634.289.1 / Changeset 166494",
+  "generated_utc": "2026-11-05 22:31:47",
+  "target_build": "Protocol 2636.290.1 / Changeset 170220",
   "count": 13,
   "data": [
     {
@@ -766,7 +766,7 @@
       },
       "throws_timed_explosive": true,
       "thrown_explosive_type": "StringFirecracker",
-      "max_throw_velocity": 3.0,
+      "max_throw_velocity": 7.0,
       "tumble_velocity": 0.0,
       "override_angle": {
         "x": 0.0,

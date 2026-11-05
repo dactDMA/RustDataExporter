@@ -1,7 +1,7 @@
 //
 // Auto-generated Rust ThrownWeapon Data
-// Generated: 2026-10-01 21:33:03 UTC
-// Target: Protocol 2634.289.1 / Changeset 166494
+// Generated: 2026-11-05 22:31:47 UTC
+// Target: Protocol 2636.290.1 / Changeset 170220
 // Total entries: 13
 // Generator: RustDataExporter
 //
@@ -261,7 +261,7 @@ inline constexpr ThrownWeaponData kData[kCount == 0 ? 1 : kCount] =
     {
         "lunar.firecrackers", "assets/prefabs/misc/chinesenewyear/throwablefirecrackers/firecrackers.entity.prefab", 628064879U, "GrenadeWeapon", 39, 4, 10, 1,
         { "assets/prefabs/misc/chinesenewyear/throwablefirecrackers/firecrackers.deployed.prefab", 3428971889U, true }, true, "StringFirecracker",
-        3.0f, 0.0f, { 0.0f, 0.0f, 0.0f }, true, true, true, "",
+        7.0f, 0.0f, { 0.0f, 0.0f, 0.0f }, true, true, true, "",
         { 1.0f, 0.5f, 0.0f },
         { 1.0f, 1.0f, -1.0f, -1.0f, 0.0f, 0.0f, 0.0f, false, 0.0f, 0.0f, 0.0f, true, true },
         { false, false, 0.0f, { 0.0f, 0.0f, 0.0f }, { 0.0f, 0.0f, 0.0f }, 1.0f },

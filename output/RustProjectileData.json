@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-01 21:33:03",
-  "target_build": "Protocol 2634.289.1 / Changeset 166494",
-  "count": 81,
+  "generated_utc": "2026-11-05 22:31:47",
+  "target_build": "Protocol 2636.290.1 / Changeset 170220",
+  "count": 72,
   "data": [
     {
       "name": "arrow_bone",
@@ -720,6 +720,21 @@
       "ammo_sources": [
         {
           "item_shortname": "knife.bone",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 20.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 20.0,
+          "average_velocity": 20.0,
+          "max_velocity": 20.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        },
+        {
+          "item_shortname": "shears",
           "ammo_type": "0",
           "ammo_sub_type": "0",
           "num_projectiles": 1,
@@ -1504,9 +1519,9 @@
       "create_decals": true
     },
     {
-      "name": "food_pie_apple_projectile",
-      "prefab_path": "assets/prefabs/food/pies/projectiles/food_pie_apple.projectile.prefab",
-      "hash": 352441036,
+      "name": "food_pie_generic_projectile",
+      "prefab_path": "assets/prefabs/food/pies/projectiles/food_pie_generic.projectile.prefab",
+      "hash": 1137745528,
       "initial_velocity": {
         "x": 0.0,
         "y": 0.0,
@@ -1571,52 +1586,7 @@
           "barrel_condition_loss": 0.0,
           "category": "bullet",
           "skinned_weapon_prefab_id": 0
-        }
-      ],
-      "remain_in_world": true,
-      "can_refract": true,
-      "penetrates_vehicles": false,
-      "create_decals": true
-    },
-    {
-      "name": "food_pie_bear_projectile",
-      "prefab_path": "assets/prefabs/food/pies/projectiles/food_pie_bear.projectile.prefab",
-      "hash": 353782585,
-      "initial_velocity": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "drag": 0.8,
-      "gravity_modifier": 1.0,
-      "thickness": 0.15,
-      "initial_distance": 0.0,
-      "initial_orientation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "penetration_power": 0.5,
-      "ricochet_chance": 0.0,
-      "stick_probability": 0.0,
-      "break_probability": 0.0,
-      "condition_loss": 0.04,
-      "water_integrity_loss": 0.1,
-      "damage_distances": {
-        "x": 10.0,
-        "y": 40.0
-      },
-      "damage_multipliers": {
-        "x": 1.0,
-        "y": 0.8
-      },
-      "damage_types": [
-        {
-          "type": "Blunt",
-          "amount": 10.0
-        }
-      ],
-      "ammo_sources": [
+        },
         {
           "item_shortname": "pie.bear",
           "ammo_type": "0",
@@ -1676,52 +1646,7 @@
           "barrel_condition_loss": 0.0,
           "category": "bullet",
           "skinned_weapon_prefab_id": 0
-        }
-      ],
-      "remain_in_world": true,
-      "can_refract": true,
-      "penetrates_vehicles": false,
-      "create_decals": true
-    },
-    {
-      "name": "food_pie_big_cat_projectile",
-      "prefab_path": "assets/prefabs/food/pies/projectiles/food_pie_big_cat.projectile.prefab",
-      "hash": 124739790,
-      "initial_velocity": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "drag": 0.8,
-      "gravity_modifier": 1.0,
-      "thickness": 0.15,
-      "initial_distance": 0.0,
-      "initial_orientation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "penetration_power": 0.5,
-      "ricochet_chance": 0.0,
-      "stick_probability": 0.0,
-      "break_probability": 0.0,
-      "condition_loss": 0.04,
-      "water_integrity_loss": 0.1,
-      "damage_distances": {
-        "x": 10.0,
-        "y": 40.0
-      },
-      "damage_multipliers": {
-        "x": 1.0,
-        "y": 0.8
-      },
-      "damage_types": [
-        {
-          "type": "Blunt",
-          "amount": 10.0
-        }
-      ],
-      "ammo_sources": [
+        },
         {
           "item_shortname": "pie.bigcat",
           "ammo_type": "0",
@@ -1751,52 +1676,7 @@
           "barrel_condition_loss": 0.0,
           "category": "bullet",
           "skinned_weapon_prefab_id": 0
-        }
-      ],
-      "remain_in_world": true,
-      "can_refract": true,
-      "penetrates_vehicles": false,
-      "create_decals": true
-    },
-    {
-      "name": "food_pie_chicken_projectile",
-      "prefab_path": "assets/prefabs/food/pies/projectiles/food_pie_chicken.projectile.prefab",
-      "hash": 3868670899,
-      "initial_velocity": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "drag": 0.8,
-      "gravity_modifier": 1.0,
-      "thickness": 0.15,
-      "initial_distance": 0.0,
-      "initial_orientation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "penetration_power": 0.5,
-      "ricochet_chance": 0.0,
-      "stick_probability": 0.0,
-      "break_probability": 0.0,
-      "condition_loss": 0.04,
-      "water_integrity_loss": 0.1,
-      "damage_distances": {
-        "x": 10.0,
-        "y": 40.0
-      },
-      "damage_multipliers": {
-        "x": 1.0,
-        "y": 0.8
-      },
-      "damage_types": [
-        {
-          "type": "Blunt",
-          "amount": 10.0
-        }
-      ],
-      "ammo_sources": [
+        },
         {
           "item_shortname": "pie.chicken",
           "ammo_type": "0",
@@ -1826,52 +1706,7 @@
           "barrel_condition_loss": 0.0,
           "category": "bullet",
           "skinned_weapon_prefab_id": 0
-        }
-      ],
-      "remain_in_world": true,
-      "can_refract": true,
-      "penetrates_vehicles": false,
-      "create_decals": true
-    },
-    {
-      "name": "food_pie_crocodile_projectile",
-      "prefab_path": "assets/prefabs/food/pies/projectiles/food_pie_crocodile.projectile.prefab",
-      "hash": 3109469561,
-      "initial_velocity": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "drag": 0.8,
-      "gravity_modifier": 1.0,
-      "thickness": 0.15,
-      "initial_distance": 0.0,
-      "initial_orientation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "penetration_power": 0.5,
-      "ricochet_chance": 0.0,
-      "stick_probability": 0.0,
-      "break_probability": 0.0,
-      "condition_loss": 0.04,
-      "water_integrity_loss": 0.1,
-      "damage_distances": {
-        "x": 10.0,
-        "y": 40.0
-      },
-      "damage_multipliers": {
-        "x": 1.0,
-        "y": 0.8
-      },
-      "damage_types": [
-        {
-          "type": "Blunt",
-          "amount": 10.0
-        }
-      ],
-      "ammo_sources": [
+        },
         {
           "item_shortname": "pie.crocodile",
           "ammo_type": "0",
@@ -1886,52 +1721,22 @@
           "barrel_condition_loss": 0.0,
           "category": "bullet",
           "skinned_weapon_prefab_id": 0
-        }
-      ],
-      "remain_in_world": true,
-      "can_refract": true,
-      "penetrates_vehicles": false,
-      "create_decals": true
-    },
-    {
-      "name": "food_pie_fish_projectile",
-      "prefab_path": "assets/prefabs/food/pies/projectiles/food_pie_fish.projectile.prefab",
-      "hash": 3669067830,
-      "initial_velocity": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "drag": 0.8,
-      "gravity_modifier": 1.0,
-      "thickness": 0.15,
-      "initial_distance": 0.0,
-      "initial_orientation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "penetration_power": 0.5,
-      "ricochet_chance": 0.0,
-      "stick_probability": 0.0,
-      "break_probability": 0.0,
-      "condition_loss": 0.04,
-      "water_integrity_loss": 0.1,
-      "damage_distances": {
-        "x": 10.0,
-        "y": 40.0
-      },
-      "damage_multipliers": {
-        "x": 1.0,
-        "y": 0.8
-      },
-      "damage_types": [
+        },
         {
-          "type": "Blunt",
-          "amount": 10.0
-        }
-      ],
-      "ammo_sources": [
+          "item_shortname": "pie.crocodile.rich",
+          "ammo_type": "0",
+          "ammo_sub_type": "0",
+          "num_projectiles": 1,
+          "projectile_spread": 1.0,
+          "projectile_velocity": 18.0,
+          "projectile_velocity_spread": 0.0,
+          "min_velocity": 18.0,
+          "average_velocity": 18.0,
+          "max_velocity": 18.0,
+          "barrel_condition_loss": 0.0,
+          "category": "bullet",
+          "skinned_weapon_prefab_id": 0
+        },
         {
           "item_shortname": "pie.fish",
           "ammo_type": "0",
@@ -1961,52 +1766,7 @@
           "barrel_condition_loss": 0.0,
           "category": "bullet",
           "skinned_weapon_prefab_id": 0
-        }
-      ],
-      "remain_in_world": true,
-      "can_refract": true,
-      "penetrates_vehicles": false,
-      "create_decals": true
-    },
-    {
-      "name": "food_pie_hunters_projectile",
-      "prefab_path": "assets/prefabs/food/pies/projectiles/food_pie_hunters.projectile.prefab",
-      "hash": 704560237,
-      "initial_velocity": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "drag": 0.8,
-      "gravity_modifier": 1.0,
-      "thickness": 0.15,
-      "initial_distance": 0.0,
-      "initial_orientation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "penetration_power": 0.5,
-      "ricochet_chance": 0.0,
-      "stick_probability": 0.0,
-      "break_probability": 0.0,
-      "condition_loss": 0.04,
-      "water_integrity_loss": 0.1,
-      "damage_distances": {
-        "x": 10.0,
-        "y": 40.0
-      },
-      "damage_multipliers": {
-        "x": 1.0,
-        "y": 0.8
-      },
-      "damage_types": [
-        {
-          "type": "Blunt",
-          "amount": 10.0
-        }
-      ],
-      "ammo_sources": [
+        },
         {
           "item_shortname": "pie.hunters",
           "ammo_type": "0",
@@ -2036,52 +1796,7 @@
           "barrel_condition_loss": 0.0,
           "category": "bullet",
           "skinned_weapon_prefab_id": 0
-        }
-      ],
-      "remain_in_world": true,
-      "can_refract": true,
-      "penetrates_vehicles": false,
-      "create_decals": true
-    },
-    {
-      "name": "food_pie_pork_projectile",
-      "prefab_path": "assets/prefabs/food/pies/projectiles/food_pie_pork.projectile.prefab",
-      "hash": 1238910629,
-      "initial_velocity": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "drag": 0.8,
-      "gravity_modifier": 1.0,
-      "thickness": 0.15,
-      "initial_distance": 0.0,
-      "initial_orientation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "penetration_power": 0.5,
-      "ricochet_chance": 0.0,
-      "stick_probability": 0.0,
-      "break_probability": 0.0,
-      "condition_loss": 0.04,
-      "water_integrity_loss": 0.1,
-      "damage_distances": {
-        "x": 10.0,
-        "y": 40.0
-      },
-      "damage_multipliers": {
-        "x": 1.0,
-        "y": 0.8
-      },
-      "damage_types": [
-        {
-          "type": "Blunt",
-          "amount": 10.0
-        }
-      ],
-      "ammo_sources": [
+        },
         {
           "item_shortname": "pie.mutton",
           "ammo_type": "0",
@@ -2141,52 +1856,7 @@
           "barrel_condition_loss": 0.0,
           "category": "bullet",
           "skinned_weapon_prefab_id": 0
-        }
-      ],
-      "remain_in_world": true,
-      "can_refract": true,
-      "penetrates_vehicles": false,
-      "create_decals": true
-    },
-    {
-      "name": "food_pie_pumkin_projectile",
-      "prefab_path": "assets/prefabs/food/pies/projectiles/food_pie_pumkin.projectile.prefab",
-      "hash": 1357070519,
-      "initial_velocity": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "drag": 0.8,
-      "gravity_modifier": 1.0,
-      "thickness": 0.15,
-      "initial_distance": 0.0,
-      "initial_orientation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "penetration_power": 0.5,
-      "ricochet_chance": 0.0,
-      "stick_probability": 0.0,
-      "break_probability": 0.0,
-      "condition_loss": 0.04,
-      "water_integrity_loss": 0.1,
-      "damage_distances": {
-        "x": 10.0,
-        "y": 40.0
-      },
-      "damage_multipliers": {
-        "x": 1.0,
-        "y": 0.8
-      },
-      "damage_types": [
-        {
-          "type": "Blunt",
-          "amount": 10.0
-        }
-      ],
-      "ammo_sources": [
+        },
         {
           "item_shortname": "pie.pumpkin",
           "ammo_type": "0",
@@ -2216,52 +1886,7 @@
           "barrel_condition_loss": 0.0,
           "category": "bullet",
           "skinned_weapon_prefab_id": 0
-        }
-      ],
-      "remain_in_world": true,
-      "can_refract": true,
-      "penetrates_vehicles": false,
-      "create_decals": true
-    },
-    {
-      "name": "food_pie_survivors_projectile",
-      "prefab_path": "assets/prefabs/food/pies/projectiles/food_pie_survivors.projectile.prefab",
-      "hash": 1526226691,
-      "initial_velocity": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "drag": 0.8,
-      "gravity_modifier": 1.0,
-      "thickness": 0.15,
-      "initial_distance": 0.0,
-      "initial_orientation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "penetration_power": 0.5,
-      "ricochet_chance": 0.0,
-      "stick_probability": 0.0,
-      "break_probability": 0.0,
-      "condition_loss": 0.04,
-      "water_integrity_loss": 0.1,
-      "damage_distances": {
-        "x": 10.0,
-        "y": 40.0
-      },
-      "damage_multipliers": {
-        "x": 1.0,
-        "y": 0.8
-      },
-      "damage_types": [
-        {
-          "type": "Blunt",
-          "amount": 10.0
-        }
-      ],
-      "ammo_sources": [
+        },
         {
           "item_shortname": "pie.survivors",
           "ammo_type": "0",

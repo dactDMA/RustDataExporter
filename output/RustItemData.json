@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-01 21:33:03",
-  "target_build": "Protocol 2634.289.1 / Changeset 166494",
-  "count": 1307,
+  "generated_utc": "2026-11-05 22:31:47",
+  "target_build": "Protocol 2636.290.1 / Changeset 170220",
+  "count": 1317,
   "data": [
     {
       "item_id": -866121090,
@@ -1028,90 +1028,6 @@
       "children": []
     },
     {
-      "item_id": -1896395719,
-      "shortname": "advancedblueprintfragment",
-      "definition_name": "advancedblueprintfragment",
-      "definition_type": "ItemDefinition",
-      "display_name": {
-        "token": "advancedblueprintfragment",
-        "english": "Advanced Blueprint Fragment"
-      },
-      "display_description": {
-        "token": "advancedblueprintfragment.desc",
-        "english": "Precision schematics with complex information, multiple fragments are necessary for crafting a Tier 3 Workbench."
-      },
-      "category": "Component",
-      "selection_panel": "None",
-      "era": "None",
-      "era_restrictions": "Default",
-      "loot_distribution_type": "None",
-      "rarity": "None",
-      "despawn_rarity": "VeryRare",
-      "item_type": "Generic",
-      "amount_type": "Count",
-      "occupy_slots": "0",
-      "occupy_slots_value": 0,
-      "max_draggable": 0,
-      "stackable": 100,
-      "crafting_stackable": 100,
-      "volume": 0,
-      "base_radioactivity": 0.0,
-      "apartment_tax_per_stack": 15.0,
-      "quick_despawn": false,
-      "block_stealing_in_safe_zone": false,
-      "allow_burying": false,
-      "tutorial_allowance": "None",
-      "supports_stackable_ownership": false,
-      "spawn_as_blueprint": false,
-      "hidden": false,
-      "flags": "0",
-      "flags_value": 0,
-      "hide_selected_panel": false,
-      "supports_accessories": false,
-      "traits": "Interesting",
-      "traits_value": 8,
-      "vehicle_item": false,
-      "vehicle_category": "Misc",
-      "is_holdable": false,
-      "is_usable": false,
-      "is_wearable": false,
-      "has_skins": false,
-      "built_in_skin_count": 0,
-      "workshop_skin_count": 0,
-      "parent_shortname": "",
-      "redirect_shortname": "",
-      "redirect_vending_behaviour": "NoListing",
-      "world_model_prefab": "assets/prefabs/resource/blueprint fragment/advanceblueprintfragment.worldmodel.prefab",
-      "held_entity_prefab": "",
-      "held_entity_prefab_id": 0,
-      "treat_as_component_for_repairs": false,
-      "align_world_model_on_drop": false,
-      "world_model_drop_offset": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "adjust_center_of_mass_on_drop": false,
-      "drop_center_of_mass": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "condition": {
-        "enabled": false,
-        "max": 0.0,
-        "repairable": false,
-        "maintain_max_condition": false,
-        "oven_condition": false,
-        "found_fraction_min": 1.0,
-        "found_fraction_max": 1.0,
-        "hide_condition_bar": false,
-        "break_effect_prefab": ""
-      },
-      "item_mod_types": [],
-      "children": []
-    },
-    {
       "item_id": -1498613415,
       "shortname": "advancedcoolingtea",
       "definition_name": "AdvancedCoolingTea.item",
@@ -1541,6 +1457,92 @@
         "break_effect_prefab": ""
       },
       "item_mod_types": [],
+      "children": []
+    },
+    {
+      "item_id": 1930628359,
+      "shortname": "alien.costume",
+      "definition_name": "alien.costume.item",
+      "definition_type": "ItemDefinition",
+      "display_name": {
+        "token": "alien.costume",
+        "english": "Alien Costume"
+      },
+      "display_description": {
+        "token": "attire.aliencostume.desc",
+        "english": "An inflatable alien costume. Acting as a replacement for bone armor, you can equip this item to look as silly as possible. Three varieties."
+      },
+      "category": "Attire",
+      "selection_panel": "None",
+      "era": "None",
+      "era_restrictions": "Default",
+      "loot_distribution_type": "None",
+      "rarity": "None",
+      "despawn_rarity": "None",
+      "item_type": "Generic",
+      "amount_type": "Count",
+      "occupy_slots": "None",
+      "occupy_slots_value": 1,
+      "max_draggable": 0,
+      "stackable": 1,
+      "crafting_stackable": 10,
+      "volume": 0,
+      "base_radioactivity": 0.0,
+      "apartment_tax_per_stack": 0.0749999955,
+      "quick_despawn": false,
+      "block_stealing_in_safe_zone": false,
+      "allow_burying": false,
+      "tutorial_allowance": "None",
+      "supports_stackable_ownership": false,
+      "spawn_as_blueprint": false,
+      "hidden": false,
+      "flags": "0",
+      "flags_value": 0,
+      "hide_selected_panel": false,
+      "supports_accessories": false,
+      "traits": "Interesting",
+      "traits_value": 8,
+      "vehicle_item": false,
+      "vehicle_category": "Misc",
+      "is_holdable": false,
+      "is_usable": false,
+      "is_wearable": true,
+      "has_skins": false,
+      "built_in_skin_count": 0,
+      "workshop_skin_count": 0,
+      "parent_shortname": "",
+      "redirect_shortname": "",
+      "redirect_vending_behaviour": "NoListing",
+      "world_model_prefab": "assets/prefabs/misc/halloween/alien.costume/alien.costume.wm.prefab",
+      "held_entity_prefab": "",
+      "held_entity_prefab_id": 0,
+      "treat_as_component_for_repairs": false,
+      "align_world_model_on_drop": false,
+      "world_model_drop_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "adjust_center_of_mass_on_drop": false,
+      "drop_center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "condition": {
+        "enabled": true,
+        "max": 80.0,
+        "repairable": true,
+        "maintain_max_condition": true,
+        "oven_condition": false,
+        "found_fraction_min": 1.0,
+        "found_fraction_max": 1.0,
+        "hide_condition_bar": false,
+        "break_effect_prefab": ""
+      },
+      "item_mod_types": [
+        "ItemModWearable"
+      ],
       "children": []
     },
     {
@@ -5236,7 +5238,7 @@
       "is_wearable": true,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 8,
+      "workshop_skin_count": 9,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -5322,7 +5324,7 @@
       "is_wearable": true,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 57,
+      "workshop_skin_count": 58,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -5495,7 +5497,7 @@
       "is_wearable": true,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 9,
+      "workshop_skin_count": 10,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -5925,7 +5927,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 1,
-      "workshop_skin_count": 17,
+      "workshop_skin_count": 20,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -7637,7 +7639,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 2,
+      "workshop_skin_count": 4,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -7723,7 +7725,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 2,
+      "workshop_skin_count": 4,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -7809,7 +7811,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 2,
+      "workshop_skin_count": 4,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -7895,7 +7897,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 2,
+      "workshop_skin_count": 4,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -8612,92 +8614,6 @@
       "children": []
     },
     {
-      "item_id": -143481979,
-      "shortname": "basicblueprintfragment",
-      "definition_name": "basicblueprintfragment",
-      "definition_type": "ItemDefinition",
-      "display_name": {
-        "token": "basicblueprintfragment",
-        "english": "Basic Blueprint Fragment"
-      },
-      "display_description": {
-        "token": "basicblueprintfragment.desc",
-        "english": "Damaged diagrams containing partial information to constuct a Tier 2 Workbench for advanced crafting. Several fragments are needed.\n\n20 Basic Fragments can be pieced together to make an Advanced Fragment."
-      },
-      "category": "Component",
-      "selection_panel": "None",
-      "era": "None",
-      "era_restrictions": "Default",
-      "loot_distribution_type": "None",
-      "rarity": "None",
-      "despawn_rarity": "VeryRare",
-      "item_type": "Generic",
-      "amount_type": "Count",
-      "occupy_slots": "0",
-      "occupy_slots_value": 0,
-      "max_draggable": 0,
-      "stackable": 100,
-      "crafting_stackable": 100,
-      "volume": 0,
-      "base_radioactivity": 0.0,
-      "apartment_tax_per_stack": 15.0,
-      "quick_despawn": false,
-      "block_stealing_in_safe_zone": false,
-      "allow_burying": false,
-      "tutorial_allowance": "None",
-      "supports_stackable_ownership": false,
-      "spawn_as_blueprint": false,
-      "hidden": false,
-      "flags": "0",
-      "flags_value": 0,
-      "hide_selected_panel": false,
-      "supports_accessories": false,
-      "traits": "Interesting",
-      "traits_value": 8,
-      "vehicle_item": false,
-      "vehicle_category": "Misc",
-      "is_holdable": false,
-      "is_usable": false,
-      "is_wearable": false,
-      "has_skins": false,
-      "built_in_skin_count": 0,
-      "workshop_skin_count": 0,
-      "parent_shortname": "",
-      "redirect_shortname": "",
-      "redirect_vending_behaviour": "NoListing",
-      "world_model_prefab": "assets/prefabs/resource/blueprint fragment/basicblueprintfragment.worldmodel.prefab",
-      "held_entity_prefab": "",
-      "held_entity_prefab_id": 0,
-      "treat_as_component_for_repairs": false,
-      "align_world_model_on_drop": false,
-      "world_model_drop_offset": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "adjust_center_of_mass_on_drop": false,
-      "drop_center_of_mass": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "condition": {
-        "enabled": false,
-        "max": 0.0,
-        "repairable": false,
-        "maintain_max_condition": false,
-        "oven_condition": false,
-        "found_fraction_min": 1.0,
-        "found_fraction_max": 1.0,
-        "hide_condition_bar": false,
-        "break_effect_prefab": ""
-      },
-      "item_mod_types": [
-        "ItemModUpgrade"
-      ],
-      "children": []
-    },
-    {
       "item_id": -1274093662,
       "shortname": "bathtub.planter",
       "definition_name": "bathtub.planter.item",
@@ -9087,7 +9003,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 13,
+      "workshop_skin_count": 14,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -10217,7 +10133,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 39,
+      "workshop_skin_count": 41,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -11044,7 +10960,8 @@
         "ItemModCompostable",
         "ItemModConsume",
         "ItemModFoodSpoiling",
-        "ItemModMenuOption"
+        "ItemModMenuOption",
+        "ItemModSwap"
       ],
       "children": []
     },
@@ -11476,7 +11393,8 @@
         "ItemModCompostable",
         "ItemModConsume",
         "ItemModFoodSpoiling",
-        "ItemModMenuOption"
+        "ItemModMenuOption",
+        "ItemModSwap"
       ],
       "children": []
     },
@@ -11822,6 +11740,260 @@
         "ItemModMenuOption",
         "ItemModStudyBlueprint"
       ],
+      "children": []
+    },
+    {
+      "item_id": -1896395719,
+      "shortname": "blueprintbook",
+      "definition_name": "blueprintbook",
+      "definition_type": "ItemDefinition",
+      "display_name": {
+        "token": "blueprintbook",
+        "english": "Blueprint Book"
+      },
+      "display_description": {
+        "token": "blueprintbook.desc",
+        "english": "A bound collection of precise schematics, used to research Workbench Level 3 items on the tech tree."
+      },
+      "category": "Component",
+      "selection_panel": "None",
+      "era": "None",
+      "era_restrictions": "Default",
+      "loot_distribution_type": "None",
+      "rarity": "None",
+      "despawn_rarity": "VeryRare",
+      "item_type": "Generic",
+      "amount_type": "Count",
+      "occupy_slots": "0",
+      "occupy_slots_value": 0,
+      "max_draggable": 0,
+      "stackable": 100,
+      "crafting_stackable": 100,
+      "volume": 0,
+      "base_radioactivity": 0.0,
+      "apartment_tax_per_stack": 15.0,
+      "quick_despawn": false,
+      "block_stealing_in_safe_zone": false,
+      "allow_burying": false,
+      "tutorial_allowance": "None",
+      "supports_stackable_ownership": false,
+      "spawn_as_blueprint": false,
+      "hidden": false,
+      "flags": "0",
+      "flags_value": 0,
+      "hide_selected_panel": false,
+      "supports_accessories": false,
+      "traits": "Interesting",
+      "traits_value": 8,
+      "vehicle_item": false,
+      "vehicle_category": "Misc",
+      "is_holdable": false,
+      "is_usable": false,
+      "is_wearable": false,
+      "has_skins": false,
+      "built_in_skin_count": 0,
+      "workshop_skin_count": 0,
+      "parent_shortname": "",
+      "redirect_shortname": "",
+      "redirect_vending_behaviour": "NoListing",
+      "world_model_prefab": "assets/prefabs/resource/blueprint book/blueprintbook.worldmodel.prefab",
+      "held_entity_prefab": "",
+      "held_entity_prefab_id": 0,
+      "treat_as_component_for_repairs": false,
+      "align_world_model_on_drop": false,
+      "world_model_drop_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "adjust_center_of_mass_on_drop": false,
+      "drop_center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintain_max_condition": false,
+        "oven_condition": false,
+        "found_fraction_min": 1.0,
+        "found_fraction_max": 1.0,
+        "hide_condition_bar": false,
+        "break_effect_prefab": ""
+      },
+      "item_mod_types": [],
+      "children": []
+    },
+    {
+      "item_id": -143481979,
+      "shortname": "blueprintfragment",
+      "definition_name": "blueprintfragment",
+      "definition_type": "ItemDefinition",
+      "display_name": {
+        "token": "blueprintfragment",
+        "english": "Blueprint Fragment"
+      },
+      "display_description": {
+        "token": "blueprintfragment.desc",
+        "english": "Damaged diagrams containing partial information, used to research Workbench Level 1 items on the tech tree.\n\n10 Blueprint Fragments can be pieced together to make a Blueprint Page."
+      },
+      "category": "Component",
+      "selection_panel": "None",
+      "era": "None",
+      "era_restrictions": "Default",
+      "loot_distribution_type": "None",
+      "rarity": "None",
+      "despawn_rarity": "VeryRare",
+      "item_type": "Generic",
+      "amount_type": "Count",
+      "occupy_slots": "0",
+      "occupy_slots_value": 0,
+      "max_draggable": 0,
+      "stackable": 100,
+      "crafting_stackable": 100,
+      "volume": 0,
+      "base_radioactivity": 0.0,
+      "apartment_tax_per_stack": 15.0,
+      "quick_despawn": false,
+      "block_stealing_in_safe_zone": false,
+      "allow_burying": false,
+      "tutorial_allowance": "None",
+      "supports_stackable_ownership": false,
+      "spawn_as_blueprint": false,
+      "hidden": false,
+      "flags": "0",
+      "flags_value": 0,
+      "hide_selected_panel": false,
+      "supports_accessories": false,
+      "traits": "Interesting",
+      "traits_value": 8,
+      "vehicle_item": false,
+      "vehicle_category": "Misc",
+      "is_holdable": false,
+      "is_usable": false,
+      "is_wearable": false,
+      "has_skins": false,
+      "built_in_skin_count": 0,
+      "workshop_skin_count": 0,
+      "parent_shortname": "",
+      "redirect_shortname": "",
+      "redirect_vending_behaviour": "NoListing",
+      "world_model_prefab": "assets/prefabs/resource/blueprint fragment/blueprintfragment.worldmodel.prefab",
+      "held_entity_prefab": "",
+      "held_entity_prefab_id": 0,
+      "treat_as_component_for_repairs": false,
+      "align_world_model_on_drop": false,
+      "world_model_drop_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "adjust_center_of_mass_on_drop": false,
+      "drop_center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintain_max_condition": false,
+        "oven_condition": false,
+        "found_fraction_min": 1.0,
+        "found_fraction_max": 1.0,
+        "hide_condition_bar": false,
+        "break_effect_prefab": ""
+      },
+      "item_mod_types": [
+        "ItemModUpgrade"
+      ],
+      "children": []
+    },
+    {
+      "item_id": -1716287874,
+      "shortname": "blueprintpage",
+      "definition_name": "blueprintpage",
+      "definition_type": "ItemDefinition",
+      "display_name": {
+        "token": "blueprintpage",
+        "english": "Blueprint Page"
+      },
+      "display_description": {
+        "token": "blueprintpage.desc",
+        "english": "A partially restored schematic page, used to research Workbench Level 2 items on the tech tree."
+      },
+      "category": "Component",
+      "selection_panel": "None",
+      "era": "None",
+      "era_restrictions": "Default",
+      "loot_distribution_type": "None",
+      "rarity": "None",
+      "despawn_rarity": "VeryRare",
+      "item_type": "Generic",
+      "amount_type": "Count",
+      "occupy_slots": "0",
+      "occupy_slots_value": 0,
+      "max_draggable": 0,
+      "stackable": 100,
+      "crafting_stackable": 100,
+      "volume": 0,
+      "base_radioactivity": 0.0,
+      "apartment_tax_per_stack": 15.0,
+      "quick_despawn": false,
+      "block_stealing_in_safe_zone": false,
+      "allow_burying": false,
+      "tutorial_allowance": "None",
+      "supports_stackable_ownership": false,
+      "spawn_as_blueprint": false,
+      "hidden": false,
+      "flags": "0",
+      "flags_value": 0,
+      "hide_selected_panel": false,
+      "supports_accessories": false,
+      "traits": "Interesting",
+      "traits_value": 8,
+      "vehicle_item": false,
+      "vehicle_category": "Misc",
+      "is_holdable": false,
+      "is_usable": false,
+      "is_wearable": false,
+      "has_skins": false,
+      "built_in_skin_count": 0,
+      "workshop_skin_count": 0,
+      "parent_shortname": "",
+      "redirect_shortname": "",
+      "redirect_vending_behaviour": "NoListing",
+      "world_model_prefab": "assets/prefabs/resource/blueprint fragment/blueprintpage.worldmodel.prefab",
+      "held_entity_prefab": "",
+      "held_entity_prefab_id": 0,
+      "treat_as_component_for_repairs": false,
+      "align_world_model_on_drop": false,
+      "world_model_drop_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "adjust_center_of_mass_on_drop": false,
+      "drop_center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintain_max_condition": false,
+        "oven_condition": false,
+        "found_fraction_min": 1.0,
+        "found_fraction_max": 1.0,
+        "hide_condition_bar": false,
+        "break_effect_prefab": ""
+      },
+      "item_mod_types": [],
       "children": []
     },
     {
@@ -13252,7 +13424,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 21,
-      "workshop_skin_count": 296,
+      "workshop_skin_count": 298,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -14037,7 +14209,7 @@
       "is_wearable": true,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 24,
+      "workshop_skin_count": 26,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -14123,7 +14295,7 @@
       "is_wearable": true,
       "has_skins": true,
       "built_in_skin_count": 1,
-      "workshop_skin_count": 34,
+      "workshop_skin_count": 35,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -14295,7 +14467,7 @@
       "is_wearable": true,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 24,
+      "workshop_skin_count": 25,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -16873,7 +17045,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 6,
-      "workshop_skin_count": 11,
+      "workshop_skin_count": 13,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -17180,7 +17352,7 @@
         "token": "charity.plushie01.desc",
         "english": "A soft and squishy plush that provides comfort in your base. First sold on the Rust store in October 2025 to support Cancer Research UK, each purchase helped fund real-world cancer research.\n\nwww.cancerresearchuk.org"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -17266,7 +17438,7 @@
         "token": "charity.plushie02.desc",
         "english": "A soft and squishy plush that provides comfort in your base. First sold on the Rust store in October 2025 to support Ronald McDonald House Charities UK, helping ease the burden on families by providing free ‘home away from home’ accommodation near hospitals.\n\nwww.rmhc.org.uk"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -17352,7 +17524,7 @@
         "token": "charity.plushie.rmhc.2026.desc",
         "english": "A soft and squishy plush that provides comfort in your base. First sold on the Rust store in July 2026 to support Ronald McDonald House Charities UK, helping ease the burden on families by providing free ‘home away from home’ accommodation near hospitals.\n\nwww.rmhc.org.uk"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -17438,7 +17610,7 @@
         "token": "charity.plushie.cancerresearch.2026.desc",
         "english": "A soft and squishy plush that provides comfort in your base.\n\nCancer Research UK (reg charity nos. 1089464, SC041666, 1103 and 247)\nwill get 100% of the net sales of the Cancer Research UK Plushie*.  \n\n*Net sales being gross sales less refunds and after Steam platform fees (20%) and sales tax typically around 10-11%."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -18314,7 +18486,7 @@
         "token": "circleballoon2025.desc",
         "english": "A circular balloon to use as decoration and for you to celebrate. You can write on it."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -20286,6 +20458,93 @@
       "children": []
     },
     {
+      "item_id": -593892104,
+      "shortname": "clothing.mod.armorinsert_wool",
+      "definition_name": "Wool_ArmorInsert.item",
+      "definition_type": "ItemDefinition",
+      "display_name": {
+        "token": "clothing.mod.armorinsert_wool.name",
+        "english": "Wool Armor Insert"
+      },
+      "display_description": {
+        "token": "clothing.mod.armorinsert_wool.desc",
+        "english": "Wool insert for clothing and armour. Adds cold, melee and projectile protection."
+      },
+      "category": "Items",
+      "selection_panel": "None",
+      "era": "None",
+      "era_restrictions": "Default",
+      "loot_distribution_type": "None",
+      "rarity": "Rare",
+      "despawn_rarity": "None",
+      "item_type": "Generic",
+      "amount_type": "Count",
+      "occupy_slots": "0",
+      "occupy_slots_value": 0,
+      "max_draggable": 0,
+      "stackable": 1,
+      "crafting_stackable": 10,
+      "volume": 0,
+      "base_radioactivity": 0.0,
+      "apartment_tax_per_stack": 0.5,
+      "quick_despawn": false,
+      "block_stealing_in_safe_zone": false,
+      "allow_burying": false,
+      "tutorial_allowance": "None",
+      "supports_stackable_ownership": false,
+      "spawn_as_blueprint": false,
+      "hidden": false,
+      "flags": "0",
+      "flags_value": 0,
+      "hide_selected_panel": false,
+      "supports_accessories": false,
+      "traits": "Interesting",
+      "traits_value": 8,
+      "vehicle_item": false,
+      "vehicle_category": "Misc",
+      "is_holdable": false,
+      "is_usable": false,
+      "is_wearable": false,
+      "has_skins": false,
+      "built_in_skin_count": 0,
+      "workshop_skin_count": 0,
+      "parent_shortname": "",
+      "redirect_shortname": "",
+      "redirect_vending_behaviour": "NoListing",
+      "world_model_prefab": "assets/prefabs/tools/armourplating/woolarmourplate.worldmodel.prefab",
+      "held_entity_prefab": "",
+      "held_entity_prefab_id": 0,
+      "treat_as_component_for_repairs": false,
+      "align_world_model_on_drop": false,
+      "world_model_drop_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "adjust_center_of_mass_on_drop": false,
+      "drop_center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "condition": {
+        "enabled": false,
+        "max": 300.0,
+        "repairable": false,
+        "maintain_max_condition": false,
+        "oven_condition": false,
+        "found_fraction_min": 1.0,
+        "found_fraction_max": 1.0,
+        "hide_condition_bar": false,
+        "break_effect_prefab": ""
+      },
+      "item_mod_types": [
+        "ItemModArmorInsert",
+        "ItemModSound"
+      ],
+      "children": []
+    },
+    {
       "item_id": 204391461,
       "shortname": "coal",
       "definition_name": "coal.item",
@@ -20853,7 +21112,7 @@
       "is_wearable": true,
       "has_skins": true,
       "built_in_skin_count": 1,
-      "workshop_skin_count": 122,
+      "workshop_skin_count": 123,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -24375,7 +24634,7 @@
       "rarity": "None",
       "despawn_rarity": "None",
       "item_type": "Generic",
-      "amount_type": "Count",
+      "amount_type": "ToolCupboardLimit",
       "occupy_slots": "0",
       "occupy_slots_value": 0,
       "max_draggable": 0,
@@ -24461,7 +24720,7 @@
       "rarity": "None",
       "despawn_rarity": "None",
       "item_type": "Generic",
-      "amount_type": "Count",
+      "amount_type": "ToolCupboardLimit",
       "occupy_slots": "0",
       "occupy_slots_value": 0,
       "max_draggable": 0,
@@ -24547,7 +24806,7 @@
       "rarity": "None",
       "despawn_rarity": "None",
       "item_type": "Generic",
-      "amount_type": "Count",
+      "amount_type": "ToolCupboardLimit",
       "occupy_slots": "0",
       "occupy_slots_value": 0,
       "max_draggable": 0,
@@ -25920,7 +26179,7 @@
         "token": "discord.plushie.desc",
         "english": "Exclusive to the Rust Shop on Discord!"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -26006,7 +26265,7 @@
         "token": "discord.trophy.desc",
         "english": "A companion that reminds you of your youth."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -26048,6 +26307,92 @@
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
       "world_model_prefab": "assets/content/props/discord trophy/discordtrophy.worldmodel.prefab",
+      "held_entity_prefab": "assets/prefabs/tools/planner/building_planner.entity.prefab",
+      "held_entity_prefab_id": 3378931327,
+      "treat_as_component_for_repairs": false,
+      "align_world_model_on_drop": false,
+      "world_model_drop_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "adjust_center_of_mass_on_drop": false,
+      "drop_center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintain_max_condition": false,
+        "oven_condition": false,
+        "found_fraction_min": 1.0,
+        "found_fraction_max": 1.0,
+        "hide_condition_bar": false,
+        "break_effect_prefab": ""
+      },
+      "item_mod_types": [
+        "ItemModEntity"
+      ],
+      "children": []
+    },
+    {
+      "item_id": -570638754,
+      "shortname": "discord.zombie.plushie",
+      "definition_name": "DiscordZombiePlushie.item",
+      "definition_type": "ItemDefinition",
+      "display_name": {
+        "token": "discord.zombie.plushie.name",
+        "english": "Zombie Wumpus Plush"
+      },
+      "display_description": {
+        "token": "discord.zombie.plushie.desc",
+        "english": "Exclusive to the Rust Shop on Discord!"
+      },
+      "category": "Fun",
+      "selection_panel": "None",
+      "era": "None",
+      "era_restrictions": "Default",
+      "loot_distribution_type": "None",
+      "rarity": "None",
+      "despawn_rarity": "None",
+      "item_type": "Generic",
+      "amount_type": "Count",
+      "occupy_slots": "0",
+      "occupy_slots_value": 0,
+      "max_draggable": 0,
+      "stackable": 1,
+      "crafting_stackable": 10,
+      "volume": 0,
+      "base_radioactivity": 0.0,
+      "apartment_tax_per_stack": 0.25,
+      "quick_despawn": false,
+      "block_stealing_in_safe_zone": false,
+      "allow_burying": false,
+      "tutorial_allowance": "None",
+      "supports_stackable_ownership": false,
+      "spawn_as_blueprint": false,
+      "hidden": false,
+      "flags": "0",
+      "flags_value": 0,
+      "hide_selected_panel": false,
+      "supports_accessories": false,
+      "traits": "Interesting",
+      "traits_value": 8,
+      "vehicle_item": false,
+      "vehicle_category": "Misc",
+      "is_holdable": true,
+      "is_usable": true,
+      "is_wearable": false,
+      "has_skins": false,
+      "built_in_skin_count": 0,
+      "workshop_skin_count": 0,
+      "parent_shortname": "",
+      "redirect_shortname": "",
+      "redirect_vending_behaviour": "NoListing",
+      "world_model_prefab": "assets/prefabs/deployable/discord zombie plush/discordzombieplushie.worldmodel.prefab",
       "held_entity_prefab": "assets/prefabs/tools/planner/building_planner.entity.prefab",
       "held_entity_prefab_id": 3378931327,
       "treat_as_component_for_repairs": false,
@@ -27164,7 +27509,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 1,
-      "workshop_skin_count": 83,
+      "workshop_skin_count": 85,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -27594,7 +27939,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 3,
-      "workshop_skin_count": 293,
+      "workshop_skin_count": 298,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -27766,7 +28111,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 101,
+      "workshop_skin_count": 103,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -28501,7 +28846,7 @@
         "token": "easel.desc",
         "english": "A portable easel for painting plein air!"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -36540,7 +36885,7 @@
         "token": "fishtrophy.desc",
         "english": "A wall mountable item to show off your greatest catches. Fish not included."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -37094,7 +37439,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 1,
+      "workshop_skin_count": 2,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -37178,9 +37523,9 @@
       "is_holdable": true,
       "is_usable": true,
       "is_wearable": false,
-      "has_skins": false,
+      "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 0,
+      "workshop_skin_count": 3,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -37352,7 +37697,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 1,
+      "workshop_skin_count": 3,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -37436,9 +37781,9 @@
       "is_holdable": true,
       "is_usable": true,
       "is_wearable": false,
-      "has_skins": false,
+      "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 0,
+      "workshop_skin_count": 2,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -40199,7 +40544,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 1,
-      "workshop_skin_count": 174,
+      "workshop_skin_count": 177,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -40541,7 +40886,7 @@
       "built_in_skin_count": 0,
       "workshop_skin_count": 0,
       "parent_shortname": "",
-      "redirect_shortname": "mini fridge",
+      "redirect_shortname": "minifridge",
       "redirect_vending_behaviour": "NoListing",
       "world_model_prefab": "",
       "held_entity_prefab": "assets/prefabs/tools/planner/building_planner.entity.prefab",
@@ -41960,7 +42305,7 @@
         "token": "goldframe.large.desc",
         "english": "A large ornate frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -42047,7 +42392,7 @@
         "token": "goldframe.medium.desc",
         "english": "A medium ornate frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -42134,7 +42479,7 @@
         "token": "goldframe.small.desc",
         "english": "A small ornate frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -42221,7 +42566,7 @@
         "token": "goldframe.standing.desc",
         "english": "A standing ornate frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -42308,7 +42653,7 @@
         "token": "goldframe.xl.desc",
         "english": "An extra large ornate frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -42395,7 +42740,7 @@
         "token": "goldframe.xxl.desc",
         "english": "An extra extra large ornate frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -43156,7 +43501,8 @@
         "ItemModCompostable",
         "ItemModConsume",
         "ItemModFoodSpoiling",
-        "ItemModMenuOption"
+        "ItemModMenuOption",
+        "ItemModSwap"
       ],
       "children": []
     },
@@ -45487,6 +45833,92 @@
       "children": []
     },
     {
+      "item_id": 139776459,
+      "shortname": "halloween.string.lights",
+      "definition_name": "halloween.stringlights.item",
+      "definition_type": "ItemDefinition",
+      "display_name": {
+        "token": "halloween.string.lights",
+        "english": "Halloween String Lights"
+      },
+      "display_description": {
+        "token": "halloween.string.lights.desc",
+        "english": "Spooky Halloween string lights for your base. Part of the Spooky Decor Bundle."
+      },
+      "category": "Items",
+      "selection_panel": "None",
+      "era": "None",
+      "era_restrictions": "Default",
+      "loot_distribution_type": "None",
+      "rarity": "None",
+      "despawn_rarity": "None",
+      "item_type": "Generic",
+      "amount_type": "Count",
+      "occupy_slots": "0",
+      "occupy_slots_value": 0,
+      "max_draggable": 0,
+      "stackable": 20,
+      "crafting_stackable": 20,
+      "volume": 0,
+      "base_radioactivity": 0.0,
+      "apartment_tax_per_stack": 7.9,
+      "quick_despawn": false,
+      "block_stealing_in_safe_zone": false,
+      "allow_burying": false,
+      "tutorial_allowance": "None",
+      "supports_stackable_ownership": false,
+      "spawn_as_blueprint": false,
+      "hidden": false,
+      "flags": "0",
+      "flags_value": 0,
+      "hide_selected_panel": false,
+      "supports_accessories": false,
+      "traits": "Interesting",
+      "traits_value": 8,
+      "vehicle_item": false,
+      "vehicle_category": "Misc",
+      "is_holdable": true,
+      "is_usable": true,
+      "is_wearable": false,
+      "has_skins": false,
+      "built_in_skin_count": 0,
+      "workshop_skin_count": 0,
+      "parent_shortname": "",
+      "redirect_shortname": "",
+      "redirect_vending_behaviour": "NoListing",
+      "world_model_prefab": "",
+      "held_entity_prefab": "assets/prefabs/tools/planner/building_planner.entity.prefab",
+      "held_entity_prefab_id": 3378931327,
+      "treat_as_component_for_repairs": false,
+      "align_world_model_on_drop": false,
+      "world_model_drop_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "adjust_center_of_mass_on_drop": false,
+      "drop_center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": false,
+        "maintain_max_condition": false,
+        "oven_condition": false,
+        "found_fraction_min": 1.0,
+        "found_fraction_max": 1.0,
+        "hide_condition_bar": false,
+        "break_effect_prefab": ""
+      },
+      "item_mod_types": [
+        "ItemModEntity"
+      ],
+      "children": []
+    },
+    {
       "item_id": -1785231475,
       "shortname": "halloween.surgeonsuit",
       "definition_name": "surgeon_suit.item",
@@ -45569,6 +46001,92 @@
       },
       "item_mod_types": [
         "ItemModWearable"
+      ],
+      "children": []
+    },
+    {
+      "item_id": 1174330346,
+      "shortname": "halloweenwreath",
+      "definition_name": "halloween.wreath.item",
+      "definition_type": "ItemDefinition",
+      "display_name": {
+        "token": "halloweenwreath",
+        "english": "Halloween Wreath"
+      },
+      "display_description": {
+        "token": "halloweenwreath.desc",
+        "english": "A spooky Halloween Wreath for the doors in your base. Part of the Spooky Decor Bundle."
+      },
+      "category": "Items",
+      "selection_panel": "None",
+      "era": "None",
+      "era_restrictions": "Default",
+      "loot_distribution_type": "None",
+      "rarity": "None",
+      "despawn_rarity": "None",
+      "item_type": "Generic",
+      "amount_type": "Count",
+      "occupy_slots": "0",
+      "occupy_slots_value": 0,
+      "max_draggable": 0,
+      "stackable": 1,
+      "crafting_stackable": 10,
+      "volume": 0,
+      "base_radioactivity": 0.0,
+      "apartment_tax_per_stack": 0.099999994,
+      "quick_despawn": false,
+      "block_stealing_in_safe_zone": false,
+      "allow_burying": false,
+      "tutorial_allowance": "None",
+      "supports_stackable_ownership": false,
+      "spawn_as_blueprint": false,
+      "hidden": false,
+      "flags": "0",
+      "flags_value": 0,
+      "hide_selected_panel": false,
+      "supports_accessories": false,
+      "traits": "Interesting",
+      "traits_value": 8,
+      "vehicle_item": false,
+      "vehicle_category": "Misc",
+      "is_holdable": true,
+      "is_usable": true,
+      "is_wearable": false,
+      "has_skins": false,
+      "built_in_skin_count": 0,
+      "workshop_skin_count": 0,
+      "parent_shortname": "",
+      "redirect_shortname": "",
+      "redirect_vending_behaviour": "NoListing",
+      "world_model_prefab": "",
+      "held_entity_prefab": "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab",
+      "held_entity_prefab_id": 2686008770,
+      "treat_as_component_for_repairs": false,
+      "align_world_model_on_drop": false,
+      "world_model_drop_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "adjust_center_of_mass_on_drop": false,
+      "drop_center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "maintain_max_condition": true,
+        "oven_condition": false,
+        "found_fraction_min": 1.0,
+        "found_fraction_max": 1.0,
+        "hide_condition_bar": false,
+        "break_effect_prefab": ""
+      },
+      "item_mod_types": [
+        "ItemModEntity"
       ],
       "children": []
     },
@@ -47689,7 +48207,7 @@
         "token": "hazmat.plushy.desc",
         "english": "A plushy of your favourite outfit made by the fabulous people at YouTooz.com"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -49681,7 +50199,7 @@
         "token": "heartballoon2025.desc",
         "english": "A heart-shaped balloon to use as decoration and for you to celebrate. You can write on it."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -50025,7 +50543,7 @@
         "token": "heavy.scientist.plushie.desc",
         "english": "Heavy Scientist Plushie"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -52805,7 +53323,7 @@
         "token": "huntingtrophylarge.desc",
         "english": "A large trophy stand to mount the head of killed animals or enemies."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -52891,7 +53409,7 @@
         "token": "huntingtrophysmall.desc",
         "english": "A trophy stand to mount the head of killed animals or enemies."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -57900,7 +58418,7 @@
         "token": "latexballoon2025.desc",
         "english": "A latex balloon to use as decoration and for you to celebrate. You can write on it."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -57986,7 +58504,7 @@
         "token": "latexclumpballoon2025.desc",
         "english": "A clump of latex balloons to use as decoration and for you to celebrate."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -58501,7 +59019,7 @@
         "token": "lightup.large.desc",
         "english": "A large light up frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -58589,7 +59107,7 @@
         "token": "lightup.xl.desc",
         "english": "An extra large light-up frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -58677,7 +59195,7 @@
         "token": "lightup.xxl.desc",
         "english": "An extra extra large light up frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -58765,7 +59283,7 @@
         "token": "lightupframe.medium.desc",
         "english": "A medium Light-up frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -58853,7 +59371,7 @@
         "token": "lightupframe.small.desc",
         "english": "A small light-up frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -58941,7 +59459,7 @@
         "token": "lightupframe.standing.desc",
         "english": "A standing light-up frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -59755,7 +60273,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 55,
+      "workshop_skin_count": 56,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -62437,7 +62955,7 @@
       "is_wearable": true,
       "has_skins": true,
       "built_in_skin_count": 2,
-      "workshop_skin_count": 204,
+      "workshop_skin_count": 205,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -62872,7 +63390,7 @@
       "is_wearable": true,
       "has_skins": true,
       "built_in_skin_count": 1,
-      "workshop_skin_count": 167,
+      "workshop_skin_count": 168,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -63775,92 +64293,6 @@
       "children": []
     },
     {
-      "item_id": 1174484438,
-      "shortname": "mini fridge",
-      "definition_name": "minifridge.item",
-      "definition_type": "ItemDefinition",
-      "display_name": {
-        "token": "mini fridge",
-        "english": "Mini Fridge"
-      },
-      "display_description": {
-        "token": "minifridge.desc",
-        "english": "Ideal for preserving food and keeping items cool."
-      },
-      "category": "Electrical",
-      "selection_panel": "None",
-      "era": "None",
-      "era_restrictions": "Default",
-      "loot_distribution_type": "None",
-      "rarity": "Common",
-      "despawn_rarity": "None",
-      "item_type": "Generic",
-      "amount_type": "Count",
-      "occupy_slots": "0",
-      "occupy_slots_value": 0,
-      "max_draggable": 0,
-      "stackable": 1,
-      "crafting_stackable": 10,
-      "volume": 0,
-      "base_radioactivity": 0.0,
-      "apartment_tax_per_stack": 0.5,
-      "quick_despawn": false,
-      "block_stealing_in_safe_zone": false,
-      "allow_burying": false,
-      "tutorial_allowance": "None",
-      "supports_stackable_ownership": false,
-      "spawn_as_blueprint": false,
-      "hidden": false,
-      "flags": "0",
-      "flags_value": 0,
-      "hide_selected_panel": false,
-      "supports_accessories": false,
-      "traits": "Interesting",
-      "traits_value": 8,
-      "vehicle_item": false,
-      "vehicle_category": "Misc",
-      "is_holdable": true,
-      "is_usable": true,
-      "is_wearable": false,
-      "has_skins": true,
-      "built_in_skin_count": 1,
-      "workshop_skin_count": 0,
-      "parent_shortname": "",
-      "redirect_shortname": "",
-      "redirect_vending_behaviour": "NoListing",
-      "world_model_prefab": "",
-      "held_entity_prefab": "assets/prefabs/tools/planner/building_planner.entity.prefab",
-      "held_entity_prefab_id": 3378931327,
-      "treat_as_component_for_repairs": false,
-      "align_world_model_on_drop": false,
-      "world_model_drop_offset": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "adjust_center_of_mass_on_drop": false,
-      "drop_center_of_mass": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "condition": {
-        "enabled": true,
-        "max": 100.0,
-        "repairable": true,
-        "maintain_max_condition": true,
-        "oven_condition": false,
-        "found_fraction_min": 1.0,
-        "found_fraction_max": 1.0,
-        "hide_condition_bar": false,
-        "break_effect_prefab": ""
-      },
-      "item_mod_types": [
-        "ItemModEntity"
-      ],
-      "children": []
-    },
-    {
       "item_id": -1334255764,
       "shortname": "minicopter",
       "definition_name": "minicopter.item",
@@ -64027,6 +64459,92 @@
       },
       "item_mod_types": [
         "ItemModContainer",
+        "ItemModEntity"
+      ],
+      "children": []
+    },
+    {
+      "item_id": 1174484438,
+      "shortname": "minifridge",
+      "definition_name": "minifridge.item",
+      "definition_type": "ItemDefinition",
+      "display_name": {
+        "token": "mini fridge",
+        "english": "Mini Fridge"
+      },
+      "display_description": {
+        "token": "minifridge.desc",
+        "english": "Ideal for preserving food and keeping items cool."
+      },
+      "category": "Electrical",
+      "selection_panel": "None",
+      "era": "None",
+      "era_restrictions": "Default",
+      "loot_distribution_type": "None",
+      "rarity": "Common",
+      "despawn_rarity": "None",
+      "item_type": "Generic",
+      "amount_type": "Count",
+      "occupy_slots": "0",
+      "occupy_slots_value": 0,
+      "max_draggable": 0,
+      "stackable": 1,
+      "crafting_stackable": 10,
+      "volume": 0,
+      "base_radioactivity": 0.0,
+      "apartment_tax_per_stack": 0.5,
+      "quick_despawn": false,
+      "block_stealing_in_safe_zone": false,
+      "allow_burying": false,
+      "tutorial_allowance": "None",
+      "supports_stackable_ownership": false,
+      "spawn_as_blueprint": false,
+      "hidden": false,
+      "flags": "0",
+      "flags_value": 0,
+      "hide_selected_panel": false,
+      "supports_accessories": false,
+      "traits": "Interesting",
+      "traits_value": 8,
+      "vehicle_item": false,
+      "vehicle_category": "Misc",
+      "is_holdable": true,
+      "is_usable": true,
+      "is_wearable": false,
+      "has_skins": true,
+      "built_in_skin_count": 1,
+      "workshop_skin_count": 0,
+      "parent_shortname": "",
+      "redirect_shortname": "",
+      "redirect_vending_behaviour": "NoListing",
+      "world_model_prefab": "",
+      "held_entity_prefab": "assets/prefabs/tools/planner/building_planner.entity.prefab",
+      "held_entity_prefab_id": 3378931327,
+      "treat_as_component_for_repairs": false,
+      "align_world_model_on_drop": false,
+      "world_model_drop_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "adjust_center_of_mass_on_drop": false,
+      "drop_center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "maintain_max_condition": true,
+        "oven_condition": false,
+        "found_fraction_min": 1.0,
+        "found_fraction_max": 1.0,
+        "hide_condition_bar": false,
+        "break_effect_prefab": ""
+      },
+      "item_mod_types": [
         "ItemModEntity"
       ],
       "children": []
@@ -64559,7 +65077,7 @@
         "token": "mixedclumpballoon2025.desc",
         "english": "A clump of mixed balloons to use as decoration and for you to celebrate."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -68281,7 +68799,7 @@
         "token": "photoframe.landscape.desc",
         "english": "A landscape oriented canvas for artists paintings."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -68368,7 +68886,7 @@
         "token": "photoframe.large.desc",
         "english": "A large frame for your photos."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -68455,7 +68973,7 @@
         "token": "photoframe.portrait.desc",
         "english": "A portrait oriented canvas for artists paintings."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -68785,7 +69303,8 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -68873,7 +69392,8 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -68961,7 +69481,8 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -69049,7 +69570,8 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -69137,7 +69659,8 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -69225,7 +69748,8 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -69313,7 +69837,8 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -69401,7 +69926,8 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -69489,7 +70015,8 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -69577,7 +70104,8 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -69592,7 +70120,7 @@
       },
       "display_description": {
         "token": "pie.crocodile.desc",
-        "english": "A pie made from crocodile meat, may cause a reptile dysfunction. Boosts hunger, health and hydration. Gives better night vision, including tree markings and ore hotspots, for a short time."
+        "english": "A pie made from crocodile meat, may cause a reptile dysfunction. Causes most animals to fear the player and keep their distance."
       },
       "category": "Food",
       "selection_panel": "None",
@@ -69665,7 +70193,97 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
+      ],
+      "children": []
+    },
+    {
+      "item_id": -1540865198,
+      "shortname": "pie.crocodile.rich",
+      "definition_name": "food_pie_crocodile_rich.item",
+      "definition_type": "ItemDefinition",
+      "display_name": {
+        "token": "pie.crocodile.rich.name",
+        "english": "Rich Crocodile Pie"
+      },
+      "display_description": {
+        "token": "pie.crocodile.rich.desc",
+        "english": "A crocodile pie enriched with cream, may cause a reptile dysfunction. Causes most animals to fear the player and keep their distance for longer."
+      },
+      "category": "Food",
+      "selection_panel": "None",
+      "era": "None",
+      "era_restrictions": "Default",
+      "loot_distribution_type": "None",
+      "rarity": "None",
+      "despawn_rarity": "None",
+      "item_type": "Generic",
+      "amount_type": "Count",
+      "occupy_slots": "0",
+      "occupy_slots_value": 0,
+      "max_draggable": 0,
+      "stackable": 3,
+      "crafting_stackable": 10,
+      "volume": 0,
+      "base_radioactivity": 0.0,
+      "apartment_tax_per_stack": 0.0,
+      "quick_despawn": false,
+      "block_stealing_in_safe_zone": false,
+      "allow_burying": false,
+      "tutorial_allowance": "None",
+      "supports_stackable_ownership": false,
+      "spawn_as_blueprint": false,
+      "hidden": false,
+      "flags": "0",
+      "flags_value": 0,
+      "hide_selected_panel": false,
+      "supports_accessories": false,
+      "traits": "Interesting, Food",
+      "traits_value": 24,
+      "vehicle_item": false,
+      "vehicle_category": "Misc",
+      "is_holdable": true,
+      "is_usable": true,
+      "is_wearable": false,
+      "has_skins": false,
+      "built_in_skin_count": 0,
+      "workshop_skin_count": 0,
+      "parent_shortname": "",
+      "redirect_shortname": "",
+      "redirect_vending_behaviour": "NoListing",
+      "world_model_prefab": "assets/prefabs/food/pies/food_pie_generic.worldmodel.prefab",
+      "held_entity_prefab": "assets/prefabs/food/pies/food_pie_generic.entity.prefab",
+      "held_entity_prefab_id": 797425204,
+      "treat_as_component_for_repairs": false,
+      "align_world_model_on_drop": false,
+      "world_model_drop_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "adjust_center_of_mass_on_drop": false,
+      "drop_center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintain_max_condition": false,
+        "oven_condition": false,
+        "found_fraction_min": 1.0,
+        "found_fraction_max": 1.0,
+        "hide_condition_bar": false,
+        "break_effect_prefab": ""
+      },
+      "item_mod_types": [
+        "ItemModConsume",
+        "ItemModCookingWorkbench",
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -69753,7 +70371,8 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -69841,7 +70460,8 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -69929,7 +70549,8 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -70017,7 +70638,8 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -70105,7 +70727,8 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -70193,7 +70816,8 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -70281,7 +70905,8 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -70369,7 +70994,8 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -70457,7 +71083,8 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -70545,7 +71172,8 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -70633,7 +71261,8 @@
       "item_mod_types": [
         "ItemModConsume",
         "ItemModCookingWorkbench",
-        "ItemModEntity"
+        "ItemModEntity",
+        "ItemModFoodVisual"
       ],
       "children": []
     },
@@ -71200,9 +71829,9 @@
       "is_holdable": true,
       "is_usable": true,
       "is_wearable": false,
-      "has_skins": false,
+      "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 0,
+      "workshop_skin_count": 3,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -71550,7 +72179,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 5,
-      "workshop_skin_count": 96,
+      "workshop_skin_count": 97,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -75394,7 +76023,8 @@
         "ItemModCompostable",
         "ItemModConsume",
         "ItemModFoodSpoiling",
-        "ItemModMenuOption"
+        "ItemModMenuOption",
+        "ItemModSwap"
       ],
       "children": []
     },
@@ -76218,7 +76848,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 12,
-      "workshop_skin_count": 336,
+      "workshop_skin_count": 338,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -77533,7 +78163,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 184,
+      "workshop_skin_count": 185,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -77620,7 +78250,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 18,
+      "workshop_skin_count": 20,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -77964,7 +78594,7 @@
       "is_wearable": true,
       "has_skins": true,
       "built_in_skin_count": 1,
-      "workshop_skin_count": 129,
+      "workshop_skin_count": 130,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -78051,7 +78681,7 @@
       "is_wearable": true,
       "has_skins": true,
       "built_in_skin_count": 1,
-      "workshop_skin_count": 135,
+      "workshop_skin_count": 136,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -78222,7 +78852,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 2,
-      "workshop_skin_count": 88,
+      "workshop_skin_count": 89,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -78308,7 +78938,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 2,
-      "workshop_skin_count": 37,
+      "workshop_skin_count": 38,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -79080,7 +79710,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 45,
+      "workshop_skin_count": 47,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -79166,7 +79796,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 10,
+      "workshop_skin_count": 11,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -80284,7 +80914,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 43,
+      "workshop_skin_count": 44,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -80849,7 +81479,7 @@
         "token": "scientist.plushie.desc",
         "english": "Scientist Plushie"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -81107,7 +81737,7 @@
         "token": "scrapframe.large.desc",
         "english": "A large shutter frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -81194,7 +81824,7 @@
         "token": "scrapframe.medium.desc",
         "english": "A medium shutter frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -81281,7 +81911,7 @@
         "token": "scrapframe.small.desc",
         "english": "A small shutter frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -81368,7 +81998,7 @@
         "token": "scrapframe.standing.desc",
         "english": "A standing shutter frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -81455,7 +82085,7 @@
         "token": "scrapframe.xl.desc",
         "english": "An extra large shutter frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -81542,7 +82172,7 @@
         "token": "scrapframe.xxl.desc",
         "english": "An extra extra large shutter frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -82492,7 +83122,7 @@
         "token": "sculpture.ice.desc",
         "english": "A block of ice you can sculpt and light up with electric power."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -82579,7 +83209,7 @@
         "token": "sculpture.rock.desc",
         "english": "A block of stone you can sculpt."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -84282,6 +84912,93 @@
       "children": []
     },
     {
+      "item_id": -1953695556,
+      "shortname": "shears",
+      "definition_name": "shears.item",
+      "definition_type": "ItemDefinition",
+      "display_name": {
+        "token": "shears",
+        "english": "Shears"
+      },
+      "display_description": {
+        "token": "shears.desc",
+        "english": "Used to shear wool from sheep. More effective than other weapons and will never hurt a sheep."
+      },
+      "category": "Tool",
+      "selection_panel": "None",
+      "era": "None",
+      "era_restrictions": "Default",
+      "loot_distribution_type": "None",
+      "rarity": "None",
+      "despawn_rarity": "None",
+      "item_type": "Generic",
+      "amount_type": "Count",
+      "occupy_slots": "0",
+      "occupy_slots_value": 0,
+      "max_draggable": 0,
+      "stackable": 1,
+      "crafting_stackable": 10,
+      "volume": 0,
+      "base_radioactivity": 0.0,
+      "apartment_tax_per_stack": 0.900000036,
+      "quick_despawn": false,
+      "block_stealing_in_safe_zone": false,
+      "allow_burying": true,
+      "tutorial_allowance": "None",
+      "supports_stackable_ownership": false,
+      "spawn_as_blueprint": false,
+      "hidden": false,
+      "flags": "0",
+      "flags_value": 0,
+      "hide_selected_panel": false,
+      "supports_accessories": false,
+      "traits": "Interesting",
+      "traits_value": 8,
+      "vehicle_item": false,
+      "vehicle_category": "Misc",
+      "is_holdable": true,
+      "is_usable": true,
+      "is_wearable": false,
+      "has_skins": false,
+      "built_in_skin_count": 0,
+      "workshop_skin_count": 0,
+      "parent_shortname": "",
+      "redirect_shortname": "",
+      "redirect_vending_behaviour": "NoListing",
+      "world_model_prefab": "assets/prefabs/tools/shears/shears.worldmodel.prefab",
+      "held_entity_prefab": "assets/prefabs/tools/shears/shears.entity.prefab",
+      "held_entity_prefab_id": 2123930769,
+      "treat_as_component_for_repairs": false,
+      "align_world_model_on_drop": false,
+      "world_model_drop_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "adjust_center_of_mass_on_drop": false,
+      "drop_center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "condition": {
+        "enabled": true,
+        "max": 200.0,
+        "repairable": true,
+        "maintain_max_condition": false,
+        "oven_condition": false,
+        "found_fraction_min": 1.0,
+        "found_fraction_max": 1.0,
+        "hide_condition_bar": false,
+        "break_effect_prefab": ""
+      },
+      "item_mod_types": [
+        "ItemModEntity",
+        "ItemModShearTool"
+      ],
+      "children": []
+    },
+    {
       "item_id": -1994909036,
       "shortname": "sheetmetal",
       "definition_name": "sheetmetal.item",
@@ -84673,7 +85390,7 @@
       "is_wearable": true,
       "has_skins": true,
       "built_in_skin_count": 6,
-      "workshop_skin_count": 98,
+      "workshop_skin_count": 99,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -85673,7 +86390,7 @@
         "token": "sign.artistcanvas.l.desc",
         "english": "A standing canvas for seamless murals"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -85760,7 +86477,7 @@
         "token": "sign.artistcanvas.m.desc",
         "english": "A large sized canvas for seamless murals"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -85847,7 +86564,7 @@
         "token": "sign.artistcanvas.s.desc",
         "english": "A medium canvas for seamless murals"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -85934,7 +86651,7 @@
         "token": "sign.artistcanvas.xl.desc",
         "english": "An extra large canvas for seamless murals"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -86021,7 +86738,7 @@
         "token": "sign.artistcanvas.xs.desc",
         "english": "A small canvas for seamless murals"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -86108,7 +86825,7 @@
         "token": "sign.artistcanvas.xxl.desc",
         "english": "An extra, extra large canvas for seamless murals"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -86891,7 +87608,7 @@
         "token": "sign.pictureframe.landscape.desc",
         "english": "A landscape oriented canvas for artists paintings."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -86978,7 +87695,7 @@
         "token": "sign.pictureframe.portrait.desc",
         "english": "A portrait oriented canvas for artists paintings."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -87065,7 +87782,7 @@
         "token": "sign.pictureframe.tall.desc",
         "english": "A tall canvas for artists paintings."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -87152,7 +87869,7 @@
         "token": "sign.pictureframe.xl.desc",
         "english": "An extra large canvas for artists paintings."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -87239,7 +87956,7 @@
         "token": "sign.pictureframe.xxl.desc",
         "english": "A double extra large canvas for artists paintings."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -90130,7 +90847,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 6,
-      "workshop_skin_count": 128,
+      "workshop_skin_count": 129,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -90388,7 +91105,7 @@
       "is_wearable": true,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 10,
+      "workshop_skin_count": 14,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -91082,7 +91799,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 86,
+      "workshop_skin_count": 87,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -91105,6 +91822,93 @@
       "condition": {
         "enabled": true,
         "max": 100.0,
+        "repairable": true,
+        "maintain_max_condition": false,
+        "oven_condition": false,
+        "found_fraction_min": 0.1,
+        "found_fraction_max": 0.2,
+        "hide_condition_bar": false,
+        "break_effect_prefab": ""
+      },
+      "item_mod_types": [
+        "ItemModContainer",
+        "ItemModEntity"
+      ],
+      "children": []
+    },
+    {
+      "item_id": 2125127001,
+      "shortname": "smg.uzi",
+      "definition_name": "uzi.item",
+      "definition_type": "ItemDefinition",
+      "display_name": {
+        "token": "smg.uzi",
+        "english": "Uzi"
+      },
+      "display_description": {
+        "token": "smg.uzi.desc",
+        "english": "A compact, fast-firing machine pistol. Hold [+firemode] to extend the stock for better control."
+      },
+      "category": "Weapon",
+      "selection_panel": "Modifications",
+      "era": "Modern",
+      "era_restrictions": "Default",
+      "loot_distribution_type": "Firearm",
+      "rarity": "Rare",
+      "despawn_rarity": "None",
+      "item_type": "Generic",
+      "amount_type": "Count",
+      "occupy_slots": "0",
+      "occupy_slots_value": 0,
+      "max_draggable": 0,
+      "stackable": 1,
+      "crafting_stackable": 10,
+      "volume": 0,
+      "base_radioactivity": 0.0,
+      "apartment_tax_per_stack": 6.0,
+      "quick_despawn": false,
+      "block_stealing_in_safe_zone": false,
+      "allow_burying": true,
+      "tutorial_allowance": "None",
+      "supports_stackable_ownership": false,
+      "spawn_as_blueprint": false,
+      "hidden": false,
+      "flags": "0",
+      "flags_value": 0,
+      "hide_selected_panel": false,
+      "supports_accessories": true,
+      "traits": "Interesting",
+      "traits_value": 8,
+      "vehicle_item": false,
+      "vehicle_category": "Misc",
+      "is_holdable": true,
+      "is_usable": true,
+      "is_wearable": false,
+      "has_skins": false,
+      "built_in_skin_count": 0,
+      "workshop_skin_count": 0,
+      "parent_shortname": "",
+      "redirect_shortname": "",
+      "redirect_vending_behaviour": "NoListing",
+      "world_model_prefab": "assets/prefabs/weapons/uzi/uzi.worldmodel.prefab",
+      "held_entity_prefab": "assets/prefabs/weapons/uzi/uzi.entity.prefab",
+      "held_entity_prefab_id": 1425335112,
+      "treat_as_component_for_repairs": false,
+      "align_world_model_on_drop": false,
+      "world_model_drop_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "adjust_center_of_mass_on_drop": false,
+      "drop_center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "condition": {
+        "enabled": true,
+        "max": 200.0,
         "repairable": true,
         "maintain_max_condition": false,
         "oven_condition": false,
@@ -92941,7 +93745,7 @@
         "token": "speechbubbleballoon2025.desc",
         "english": "A speech bubble-shaped balloon to use as decoration and for you to celebrate. You can write on it."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -93716,7 +94520,7 @@
         "token": "starballoon2025.desc",
         "english": "A star-shaped balloon to use as decoration and for you to celebrate. You can write on it."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -96775,7 +97579,7 @@
       "is_wearable": true,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 21,
+      "workshop_skin_count": 23,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -98364,7 +99168,7 @@
         "token": "trophy.desc",
         "english": "A trophy dedicated to the survivors of Rust Twitch Rivals"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -98450,7 +99254,7 @@
         "token": "trophy2023.desc",
         "english": "A trophy dedicated to the survivors of Rust Twitch Rivals 2023"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -98829,13 +99633,100 @@
       "is_holdable": true,
       "is_usable": true,
       "is_wearable": false,
-      "has_skins": false,
-      "built_in_skin_count": 0,
+      "has_skins": true,
+      "built_in_skin_count": 1,
       "workshop_skin_count": 0,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
       "world_model_prefab": "assets/prefabs/deployable/tuna can wall lamp/tunalight.worldmodel.prefab",
+      "held_entity_prefab": "assets/prefabs/tools/planner/building_planner.entity.prefab",
+      "held_entity_prefab_id": 3378931327,
+      "treat_as_component_for_repairs": false,
+      "align_world_model_on_drop": false,
+      "world_model_drop_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "adjust_center_of_mass_on_drop": false,
+      "drop_center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": false,
+        "maintain_max_condition": false,
+        "oven_condition": false,
+        "found_fraction_min": 1.0,
+        "found_fraction_max": 1.0,
+        "hide_condition_bar": false,
+        "break_effect_prefab": ""
+      },
+      "item_mod_types": [
+        "ItemModContainer",
+        "ItemModEntity"
+      ],
+      "children": []
+    },
+    {
+      "item_id": -1716340729,
+      "shortname": "tunalight.skull",
+      "definition_name": "tunalight.skull.item",
+      "definition_type": "ItemDefinition",
+      "display_name": {
+        "token": "tunalight.skull.name",
+        "english": "Skull Wall Lamp"
+      },
+      "display_description": {
+        "token": "tunalight.skull.desc",
+        "english": "Turn your enemies into something useful with this tasteful lamp."
+      },
+      "category": "Items",
+      "selection_panel": "Vessel",
+      "era": "None",
+      "era_restrictions": "Default",
+      "loot_distribution_type": "None",
+      "rarity": "None",
+      "despawn_rarity": "None",
+      "item_type": "Generic",
+      "amount_type": "Count",
+      "occupy_slots": "0",
+      "occupy_slots_value": 0,
+      "max_draggable": 0,
+      "stackable": 1,
+      "crafting_stackable": 10,
+      "volume": 0,
+      "base_radioactivity": 0.0,
+      "apartment_tax_per_stack": 0.0,
+      "quick_despawn": false,
+      "block_stealing_in_safe_zone": false,
+      "allow_burying": false,
+      "tutorial_allowance": "None",
+      "supports_stackable_ownership": false,
+      "spawn_as_blueprint": false,
+      "hidden": false,
+      "flags": "0",
+      "flags_value": 0,
+      "hide_selected_panel": false,
+      "supports_accessories": false,
+      "traits": "Interesting",
+      "traits_value": 8,
+      "vehicle_item": false,
+      "vehicle_category": "Misc",
+      "is_holdable": true,
+      "is_usable": true,
+      "is_wearable": false,
+      "has_skins": false,
+      "built_in_skin_count": 0,
+      "workshop_skin_count": 0,
+      "parent_shortname": "",
+      "redirect_shortname": "tunalight",
+      "redirect_vending_behaviour": "NoListing",
+      "world_model_prefab": "assets/prefabs/deployable/tuna can wall lamp/skins/skull wall lamp/tunalight.skull.worldmodel.prefab",
       "held_entity_prefab": "assets/prefabs/tools/planner/building_planner.entity.prefab",
       "held_entity_prefab_id": 3378931327,
       "treat_as_component_for_repairs": false,
@@ -102616,7 +103507,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 1,
-      "workshop_skin_count": 243,
+      "workshop_skin_count": 251,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -103819,7 +104710,7 @@
       "is_usable": false,
       "is_wearable": false,
       "has_skins": true,
-      "built_in_skin_count": 30,
+      "built_in_skin_count": 31,
       "workshop_skin_count": 0,
       "parent_shortname": "",
       "redirect_shortname": "",
@@ -103903,7 +104794,7 @@
       "is_usable": false,
       "is_wearable": false,
       "has_skins": true,
-      "built_in_skin_count": 40,
+      "built_in_skin_count": 41,
       "workshop_skin_count": 0,
       "parent_shortname": "",
       "redirect_shortname": "",
@@ -104073,7 +104964,7 @@
       "is_usable": false,
       "is_wearable": false,
       "has_skins": true,
-      "built_in_skin_count": 57,
+      "built_in_skin_count": 58,
       "workshop_skin_count": 0,
       "parent_shortname": "",
       "redirect_shortname": "",
@@ -104121,7 +105012,7 @@
         "token": "wantedposter.desc",
         "english": "A poster that can display a given player's face as wanted."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -104207,7 +105098,7 @@
         "token": "wantedposter.wantedposter2.desc",
         "english": "A poster that can display a given player's face as wanted."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -104293,7 +105184,7 @@
         "token": "wantedposter.wantedposter3.desc",
         "english": "A poster that can display a given player's face as wanted."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -104379,7 +105270,7 @@
         "token": "wantedposter.wantedposter2.desc",
         "english": "A poster that can display a given player's face as wanted."
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -105019,7 +105910,7 @@
       "is_wearable": false,
       "has_skins": true,
       "built_in_skin_count": 0,
-      "workshop_skin_count": 4,
+      "workshop_skin_count": 5,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -105240,7 +106131,7 @@
         "token": "waterjug.desc",
         "english": "A large jerry can for all kinds of water. Holds up to 5000ml. Careful not to throw it all away!"
       },
-      "category": "Food",
+      "category": "Items",
       "selection_panel": "Vessel",
       "era": "None",
       "era_restrictions": "Default",
@@ -105268,8 +106159,8 @@
       "flags_value": 0,
       "hide_selected_panel": false,
       "supports_accessories": false,
-      "traits": "Interesting, Food, Water",
-      "traits_value": 56,
+      "traits": "Interesting, Water",
+      "traits_value": 40,
       "vehicle_item": false,
       "vehicle_category": "Misc",
       "is_holdable": true,
@@ -107053,7 +107944,8 @@
         "ItemModCompostable",
         "ItemModConsume",
         "ItemModFoodSpoiling",
-        "ItemModMenuOption"
+        "ItemModMenuOption",
+        "ItemModSwap"
       ],
       "children": []
     },
@@ -107894,7 +108786,7 @@
       "is_wearable": true,
       "has_skins": true,
       "built_in_skin_count": 1,
-      "workshop_skin_count": 5,
+      "workshop_skin_count": 7,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -107980,7 +108872,7 @@
       "is_wearable": true,
       "has_skins": true,
       "built_in_skin_count": 1,
-      "workshop_skin_count": 5,
+      "workshop_skin_count": 7,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -108067,7 +108959,7 @@
       "is_wearable": true,
       "has_skins": true,
       "built_in_skin_count": 1,
-      "workshop_skin_count": 5,
+      "workshop_skin_count": 7,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -108154,7 +109046,7 @@
       "is_wearable": true,
       "has_skins": true,
       "built_in_skin_count": 1,
-      "workshop_skin_count": 2,
+      "workshop_skin_count": 3,
       "parent_shortname": "",
       "redirect_shortname": "",
       "redirect_vending_behaviour": "NoListing",
@@ -108377,7 +109269,7 @@
         "token": "woodframe.large.desc",
         "english": "A large wooden frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -108463,7 +109355,7 @@
         "token": "woodframe.medium.desc",
         "english": "A medium wooden frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -108549,7 +109441,7 @@
         "token": "woodmirror.small.desc",
         "english": "A small wooden frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -108635,7 +109527,7 @@
         "token": "woodframe.standing.desc",
         "english": "A standing wooden frame"
       },
-      "category": "Items",
+      "category": "Fun",
       "selection_panel": "None",
       "era": "None",
       "era_restrictions": "Default",
@@ -109926,7 +110818,7 @@
       },
       "display_description": {
         "token": "workbench.upgrade.prototype.desc",
-        "english": "Allows unlocking any tech tree item regardless of progression. Cost is doubled and there is a 25% chance of failure that still consumes resources."
+        "english": "Allows unlocking any tech tree item regardless of progression. Each attempt has a 25% chance to succeed, and a failed attempt still consumes resources."
       },
       "category": "Component",
       "selection_panel": "None",
@@ -110271,7 +111163,7 @@
       },
       "display_description": {
         "token": "workbench.upgrade.salvage.desc",
-        "english": "Reduces the scrap cost of all tech tree unlocks at this bench by 20%."
+        "english": "Each blueprint spent on tech tree unlocks at this bench has a 20% chance to not be consumed."
       },
       "category": "Component",
       "selection_panel": "None",
@@ -110461,7 +111353,7 @@
       "crafting_stackable": 10,
       "volume": 0,
       "base_radioactivity": 0.0,
-      "apartment_tax_per_stack": 1.5,
+      "apartment_tax_per_stack": 2.25,
       "quick_despawn": false,
       "block_stealing_in_safe_zone": false,
       "allow_burying": false,
@@ -110547,7 +111439,7 @@
       "crafting_stackable": 10,
       "volume": 0,
       "base_radioactivity": 0.0,
-      "apartment_tax_per_stack": 9.0,
+      "apartment_tax_per_stack": 17.5,
       "quick_despawn": false,
       "block_stealing_in_safe_zone": false,
       "allow_burying": false,
@@ -110633,7 +111525,7 @@
       "crafting_stackable": 10,
       "volume": 0,
       "base_radioactivity": 0.0,
-      "apartment_tax_per_stack": 30.0,
+      "apartment_tax_per_stack": 48.75,
       "quick_despawn": false,
       "block_stealing_in_safe_zone": false,
       "allow_burying": false,
@@ -112757,7 +113649,8 @@
         "ItemModCompostable",
         "ItemModConsume",
         "ItemModFoodSpoiling",
-        "ItemModMenuOption"
+        "ItemModMenuOption",
+        "ItemModSwap"
       ],
       "children": []
     },

@@ -1,7 +1,7 @@
 //
 // Auto-generated Rust TimedExplosive Data
-// Generated: 2026-10-01 21:33:03 UTC
-// Target: Protocol 2634.289.1 / Changeset 166494
+// Generated: 2026-11-05 22:31:47 UTC
+// Target: Protocol 2636.290.1 / Changeset 170220
 // Total entries: 45
 // Generator: RustDataExporter
 //

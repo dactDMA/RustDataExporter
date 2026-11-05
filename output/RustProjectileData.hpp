@@ -1,8 +1,8 @@
 //
 // Auto-generated Rust Projectile Data
-// Generated: 2026-10-01 21:33:03 UTC
-// Target: Protocol 2634.289.1 / Changeset 166494
-// Total entries: 81
+// Generated: 2026-11-05 22:31:47 UTC
+// Target: Protocol 2636.290.1 / Changeset 170220
+// Total entries: 72
 // Generator: RustDataExporter
 //
 // This file is generated from server-side Rust prefabs/components.
@@ -57,7 +57,7 @@ namespace RustData
 namespace Projectiles
 {
 
-inline constexpr std::size_t kCount = 81;
+inline constexpr std::size_t kCount = 72;
 inline constexpr ProjectileData kData[kCount == 0 ? 1 : kCount] =
 {
     // assets/prefabs/ammo/arrow/bone/arrow_bone.prefab
@@ -760,261 +760,9 @@ inline constexpr ProjectileData kData[kCount == 0 ? 1 : kCount] =
         },
         1, true, true, false, true
     },
-    // assets/prefabs/food/pies/projectiles/food_pie_apple.projectile.prefab
+    // assets/prefabs/food/pies/projectiles/food_pie_generic.projectile.prefab
     {
-        "food_pie_apple_projectile", "assets/prefabs/food/pies/projectiles/food_pie_apple.projectile.prefab", 352441036ULL,
-        { 0.0f, 0.0f, 0.0f }, 0.8f, 1.0f, 0.15f,
-        0.0f, { 0.0f, 0.0f, 0.0f },
-        0.5f, 0.0f, 0.0f, 0.0f,
-        0.04f, 0.1f,
-        { 10.0f, 40.0f }, { 1.0f, 0.8f },
-        {
-            { "Blunt", 10.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-        },
-        1, true, true, false, true
-    },
-    // assets/prefabs/food/pies/projectiles/food_pie_bear.projectile.prefab
-    {
-        "food_pie_bear_projectile", "assets/prefabs/food/pies/projectiles/food_pie_bear.projectile.prefab", 353782585ULL,
-        { 0.0f, 0.0f, 0.0f }, 0.8f, 1.0f, 0.15f,
-        0.0f, { 0.0f, 0.0f, 0.0f },
-        0.5f, 0.0f, 0.0f, 0.0f,
-        0.04f, 0.1f,
-        { 10.0f, 40.0f }, { 1.0f, 0.8f },
-        {
-            { "Blunt", 10.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-        },
-        1, true, true, false, true
-    },
-    // assets/prefabs/food/pies/projectiles/food_pie_big_cat.projectile.prefab
-    {
-        "food_pie_big_cat_projectile", "assets/prefabs/food/pies/projectiles/food_pie_big_cat.projectile.prefab", 124739790ULL,
-        { 0.0f, 0.0f, 0.0f }, 0.8f, 1.0f, 0.15f,
-        0.0f, { 0.0f, 0.0f, 0.0f },
-        0.5f, 0.0f, 0.0f, 0.0f,
-        0.04f, 0.1f,
-        { 10.0f, 40.0f }, { 1.0f, 0.8f },
-        {
-            { "Blunt", 10.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-        },
-        1, true, true, false, true
-    },
-    // assets/prefabs/food/pies/projectiles/food_pie_chicken.projectile.prefab
-    {
-        "food_pie_chicken_projectile", "assets/prefabs/food/pies/projectiles/food_pie_chicken.projectile.prefab", 3868670899ULL,
-        { 0.0f, 0.0f, 0.0f }, 0.8f, 1.0f, 0.15f,
-        0.0f, { 0.0f, 0.0f, 0.0f },
-        0.5f, 0.0f, 0.0f, 0.0f,
-        0.04f, 0.1f,
-        { 10.0f, 40.0f }, { 1.0f, 0.8f },
-        {
-            { "Blunt", 10.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-        },
-        1, true, true, false, true
-    },
-    // assets/prefabs/food/pies/projectiles/food_pie_crocodile.projectile.prefab
-    {
-        "food_pie_crocodile_projectile", "assets/prefabs/food/pies/projectiles/food_pie_crocodile.projectile.prefab", 3109469561ULL,
-        { 0.0f, 0.0f, 0.0f }, 0.8f, 1.0f, 0.15f,
-        0.0f, { 0.0f, 0.0f, 0.0f },
-        0.5f, 0.0f, 0.0f, 0.0f,
-        0.04f, 0.1f,
-        { 10.0f, 40.0f }, { 1.0f, 0.8f },
-        {
-            { "Blunt", 10.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-        },
-        1, true, true, false, true
-    },
-    // assets/prefabs/food/pies/projectiles/food_pie_fish.projectile.prefab
-    {
-        "food_pie_fish_projectile", "assets/prefabs/food/pies/projectiles/food_pie_fish.projectile.prefab", 3669067830ULL,
-        { 0.0f, 0.0f, 0.0f }, 0.8f, 1.0f, 0.15f,
-        0.0f, { 0.0f, 0.0f, 0.0f },
-        0.5f, 0.0f, 0.0f, 0.0f,
-        0.04f, 0.1f,
-        { 10.0f, 40.0f }, { 1.0f, 0.8f },
-        {
-            { "Blunt", 10.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-        },
-        1, true, true, false, true
-    },
-    // assets/prefabs/food/pies/projectiles/food_pie_hunters.projectile.prefab
-    {
-        "food_pie_hunters_projectile", "assets/prefabs/food/pies/projectiles/food_pie_hunters.projectile.prefab", 704560237ULL,
-        { 0.0f, 0.0f, 0.0f }, 0.8f, 1.0f, 0.15f,
-        0.0f, { 0.0f, 0.0f, 0.0f },
-        0.5f, 0.0f, 0.0f, 0.0f,
-        0.04f, 0.1f,
-        { 10.0f, 40.0f }, { 1.0f, 0.8f },
-        {
-            { "Blunt", 10.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-        },
-        1, true, true, false, true
-    },
-    // assets/prefabs/food/pies/projectiles/food_pie_pork.projectile.prefab
-    {
-        "food_pie_pork_projectile", "assets/prefabs/food/pies/projectiles/food_pie_pork.projectile.prefab", 1238910629ULL,
-        { 0.0f, 0.0f, 0.0f }, 0.8f, 1.0f, 0.15f,
-        0.0f, { 0.0f, 0.0f, 0.0f },
-        0.5f, 0.0f, 0.0f, 0.0f,
-        0.04f, 0.1f,
-        { 10.0f, 40.0f }, { 1.0f, 0.8f },
-        {
-            { "Blunt", 10.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-        },
-        1, true, true, false, true
-    },
-    // assets/prefabs/food/pies/projectiles/food_pie_pumkin.projectile.prefab
-    {
-        "food_pie_pumkin_projectile", "assets/prefabs/food/pies/projectiles/food_pie_pumkin.projectile.prefab", 1357070519ULL,
-        { 0.0f, 0.0f, 0.0f }, 0.8f, 1.0f, 0.15f,
-        0.0f, { 0.0f, 0.0f, 0.0f },
-        0.5f, 0.0f, 0.0f, 0.0f,
-        0.04f, 0.1f,
-        { 10.0f, 40.0f }, { 1.0f, 0.8f },
-        {
-            { "Blunt", 10.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-            { "", 0.0f },
-        },
-        1, true, true, false, true
-    },
-    // assets/prefabs/food/pies/projectiles/food_pie_survivors.projectile.prefab
-    {
-        "food_pie_survivors_projectile", "assets/prefabs/food/pies/projectiles/food_pie_survivors.projectile.prefab", 1526226691ULL,
+        "food_pie_generic_projectile", "assets/prefabs/food/pies/projectiles/food_pie_generic.projectile.prefab", 1137745528ULL,
         { 0.0f, 0.0f, 0.0f }, 0.8f, 1.0f, 0.15f,
         0.0f, { 0.0f, 0.0f, 0.0f },
         0.5f, 0.0f, 0.0f, 0.0f,
@@ -2367,62 +2115,53 @@ inline const ProjectileData* GetByHash(std::uint64_t hash) noexcept
     case 273669429ULL: return &kData[22]; // dart_wood
     case 1641313218ULL: return &kData[23]; // diver_hatchet_projectile
     case 343429ULL: return &kData[24]; // diver_pickaxe_projectile
-    case 352441036ULL: return &kData[25]; // food_pie_apple_projectile
-    case 353782585ULL: return &kData[26]; // food_pie_bear_projectile
-    case 124739790ULL: return &kData[27]; // food_pie_big_cat_projectile
-    case 3868670899ULL: return &kData[28]; // food_pie_chicken_projectile
-    case 3109469561ULL: return &kData[29]; // food_pie_crocodile_projectile
-    case 3669067830ULL: return &kData[30]; // food_pie_fish_projectile
-    case 704560237ULL: return &kData[31]; // food_pie_hunters_projectile
-    case 1238910629ULL: return &kData[32]; // food_pie_pork_projectile
-    case 1357070519ULL: return &kData[33]; // food_pie_pumkin_projectile
-    case 1526226691ULL: return &kData[34]; // food_pie_survivors_projectile
-    case 2365516520ULL: return &kData[35]; // frontier_hatchet_projectile
-    case 1094174291ULL: return &kData[36]; // hammer_salvaged_projectile
-    case 3767492197ULL: return &kData[37]; // handmade_shell_projectile
-    case 49111812ULL: return &kData[38]; // hatchet_projectile
-    case 2075930968ULL: return &kData[39]; // hatchet_stone_projectile
-    case 1410987015ULL: return &kData[40]; // helibullet
-    case 2329154564ULL: return &kData[41]; // icepick_salvaged_projectile
-    case 742765807ULL: return &kData[42]; // knife_combat_projectile
-    case 151139324ULL: return &kData[43]; // longsword_projectile
-    case 623030135ULL: return &kData[44]; // lumberjack_axe_projectile
-    case 3896353015ULL: return &kData[45]; // lumberjack_pick_projectile
-    case 1500539487ULL: return &kData[46]; // mace_baseballbat_projectile
-    case 3224207227ULL: return &kData[47]; // mace_projectile
-    case 1013976023ULL: return &kData[48]; // machete_projectile
-    case 2577479505ULL: return &kData[49]; // nail
-    case 4180286157ULL: return &kData[50]; // paddle_projectile
-    case 362629199ULL: return &kData[51]; // paintballpellet
-    case 2826373220ULL: return &kData[52]; // pickaxe_projectile
-    case 2421548478ULL: return &kData[53]; // pistolbullet
-    case 3575118940ULL: return &kData[54]; // pistolbullet_fire
-    case 294164989ULL: return &kData[55]; // pitchfork_projectile
-    case 1887514499ULL: return &kData[56]; // riflebullet
-    case 1798302402ULL: return &kData[57]; // riflebullet_explosive
-    case 2828814118ULL: return &kData[58]; // riflebullet_fire
-    case 1386261849ULL: return &kData[59]; // rock_a_jungle_projectile
-    case 3398080445ULL: return &kData[60]; // rock_projectile
-    case 3761252112ULL: return &kData[61]; // salvaged_cleaver_projectile
-    case 922652660ULL: return &kData[62]; // salvaged_sword_projectile
-    case 221559777ULL: return &kData[63]; // scientist2_clientbullet
-    case 3239136573ULL: return &kData[64]; // scientist2_clientricochet
-    case 1991236224ULL: return &kData[65]; // shotgunbullet
-    case 2206685111ULL: return &kData[66]; // shotgunbullet_fire
-    case 648078183ULL: return &kData[67]; // shotgunslug
-    case 1418103607ULL: return &kData[68]; // shovel_projectile
-    case 1396162423ULL: return &kData[69]; // sickle_projectile
-    case 2093157093ULL: return &kData[70]; // skinningknife_projectile
-    case 361494112ULL: return &kData[71]; // skull_projectile
-    case 2931445184ULL: return &kData[72]; // snowball_projectile
-    case 2018030618ULL: return &kData[73]; // snowballgunbullet
-    case 2551075186ULL: return &kData[74]; // speargun_spear
-    case 3575089225ULL: return &kData[75]; // stone_pickaxe_projectile
-    case 1516542433ULL: return &kData[76]; // stone_spear_projectile
-    case 465698672ULL: return &kData[77]; // sunkenknife_projectile
-    case 2237911942ULL: return &kData[78]; // trapbullet
-    case 950430757ULL: return &kData[79]; // vampirestake_projectile
-    case 3022308042ULL: return &kData[80]; // wooden_spear_projectile
+    case 1137745528ULL: return &kData[25]; // food_pie_generic_projectile
+    case 2365516520ULL: return &kData[26]; // frontier_hatchet_projectile
+    case 1094174291ULL: return &kData[27]; // hammer_salvaged_projectile
+    case 3767492197ULL: return &kData[28]; // handmade_shell_projectile
+    case 49111812ULL: return &kData[29]; // hatchet_projectile
+    case 2075930968ULL: return &kData[30]; // hatchet_stone_projectile
+    case 1410987015ULL: return &kData[31]; // helibullet
+    case 2329154564ULL: return &kData[32]; // icepick_salvaged_projectile
+    case 742765807ULL: return &kData[33]; // knife_combat_projectile
+    case 151139324ULL: return &kData[34]; // longsword_projectile
+    case 623030135ULL: return &kData[35]; // lumberjack_axe_projectile
+    case 3896353015ULL: return &kData[36]; // lumberjack_pick_projectile
+    case 1500539487ULL: return &kData[37]; // mace_baseballbat_projectile
+    case 3224207227ULL: return &kData[38]; // mace_projectile
+    case 1013976023ULL: return &kData[39]; // machete_projectile
+    case 2577479505ULL: return &kData[40]; // nail
+    case 4180286157ULL: return &kData[41]; // paddle_projectile
+    case 362629199ULL: return &kData[42]; // paintballpellet
+    case 2826373220ULL: return &kData[43]; // pickaxe_projectile
+    case 2421548478ULL: return &kData[44]; // pistolbullet
+    case 3575118940ULL: return &kData[45]; // pistolbullet_fire
+    case 294164989ULL: return &kData[46]; // pitchfork_projectile
+    case 1887514499ULL: return &kData[47]; // riflebullet
+    case 1798302402ULL: return &kData[48]; // riflebullet_explosive
+    case 2828814118ULL: return &kData[49]; // riflebullet_fire
+    case 1386261849ULL: return &kData[50]; // rock_a_jungle_projectile
+    case 3398080445ULL: return &kData[51]; // rock_projectile
+    case 3761252112ULL: return &kData[52]; // salvaged_cleaver_projectile
+    case 922652660ULL: return &kData[53]; // salvaged_sword_projectile
+    case 221559777ULL: return &kData[54]; // scientist2_clientbullet
+    case 3239136573ULL: return &kData[55]; // scientist2_clientricochet
+    case 1991236224ULL: return &kData[56]; // shotgunbullet
+    case 2206685111ULL: return &kData[57]; // shotgunbullet_fire
+    case 648078183ULL: return &kData[58]; // shotgunslug
+    case 1418103607ULL: return &kData[59]; // shovel_projectile
+    case 1396162423ULL: return &kData[60]; // sickle_projectile
+    case 2093157093ULL: return &kData[61]; // skinningknife_projectile
+    case 361494112ULL: return &kData[62]; // skull_projectile
+    case 2931445184ULL: return &kData[63]; // snowball_projectile
+    case 2018030618ULL: return &kData[64]; // snowballgunbullet
+    case 2551075186ULL: return &kData[65]; // speargun_spear
+    case 3575089225ULL: return &kData[66]; // stone_pickaxe_projectile
+    case 1516542433ULL: return &kData[67]; // stone_spear_projectile
+    case 465698672ULL: return &kData[68]; // sunkenknife_projectile
+    case 2237911942ULL: return &kData[69]; // trapbullet
+    case 950430757ULL: return &kData[70]; // vampirestake_projectile
+    case 3022308042ULL: return &kData[71]; // wooden_spear_projectile
     default: return nullptr;
     }
 }

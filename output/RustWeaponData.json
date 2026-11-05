@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-01 21:33:03",
-  "target_build": "Protocol 2634.289.1 / Changeset 166494",
-  "count": 60,
+  "generated_utc": "2026-11-05 22:31:47",
+  "target_build": "Protocol 2636.290.1 / Changeset 170220",
+  "count": 61,
   "data": [
     {
       "name": "50cal.base",
@@ -6103,6 +6103,113 @@
       }
     },
     {
+      "name": "smg.uzi",
+      "alias": "smg_uzi",
+      "prefab_path": "assets/prefabs/weapons/uzi/uzi.entity.prefab",
+      "hash": 1425335112,
+      "damage_scale": 0.65,
+      "distance_scale": 0.8,
+      "projectile_velocity_scale": 0.8,
+      "automatic": true,
+      "noise_radius": 75.0,
+      "aim_sway": 3.0,
+      "aim_sway_speed": 1.0,
+      "has_ads": true,
+      "can_change_fire_modes": true,
+      "default_on": true,
+      "manual_cycle": false,
+      "no_aiming_while_cycling": false,
+      "reset_duration": 0.3,
+      "magazine_capacity": 32,
+      "wants_recoil_comp": false,
+      "recoil_comp_delay_override": 0.0,
+      "no_headshots": false,
+      "recoil": {
+        "yaw_min": 0.5,
+        "yaw_max": 0.6,
+        "pitch_min": -1.25,
+        "pitch_max": -1.75,
+        "time_to_take_min": 0.025,
+        "time_to_take_max": 0.025,
+        "ads_scale": 1.0,
+        "movement_penalty": 0.2,
+        "clamp_pitch": "-Infinity",
+        "shots_until_max": 30,
+        "use_curves": false,
+        "curves_as_scalar": false,
+        "max_recoil_radius": 1.5,
+        "override_aimcone_with_curve": true,
+        "aimcone_curve_scale": 3.0,
+        "ammo_aimcone_scale_multi_projectile": 1.0,
+        "ammo_aimcone_scale_single_projectile": 1.0
+      },
+      "aimcone": {
+        "aim_cone": 0.2,
+        "hip_aim_cone": 3.0,
+        "penalty_per_shot": 0.25,
+        "penalty_max": 1.0,
+        "penalty_recover_time": 0.15,
+        "penalty_recover_delay": 0.15,
+        "stance_penalty_scale": 1.0
+      },
+      "reload": {
+        "time": 3.3,
+        "start_duration": 0.0,
+        "fraction_duration": 0.0,
+        "end_duration": 0.0,
+        "fractional": false,
+        "can_unload_ammo": true
+      },
+      "burst": {
+        "enabled": false,
+        "recoil_scale": 0.8,
+        "fire_rate_scale": 0.8,
+        "aim_cone_scale": 0.8
+      },
+      "turret": {
+        "usable": true,
+        "large_turret": false,
+        "damage_scale": 0.35,
+        "reload_duration_override": -1.0
+      },
+      "attack": {
+        "deploy_delay": 0.6,
+        "repeat_delay": 0.08,
+        "animation_delay": 0.0
+      },
+      "npc": {
+        "effective_range": 1.0,
+        "damage_scale": 1.0,
+        "attack_length_min": -1.0,
+        "attack_length_max": -1.0,
+        "attack_spacing": 0.0,
+        "aim_sway_offset": 0.0,
+        "aim_cone": 5.0,
+        "only_in_range": false,
+        "close_range_addition": 0.0,
+        "medium_range_addition": 0.0,
+        "long_range_addition": 0.0,
+        "can_use_at_medium_range": true,
+        "can_use_at_long_range": true
+      },
+      "held": {
+        "can_use_with_shield": true,
+        "is_building_tool": false,
+        "hostility_score": 8.0,
+        "first_person_arm_offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_arm_rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "first_person_rotation_strength": 1.0
+      }
+    },
+    {
       "name": "snowballgun",
       "alias": "snowballgun",
       "prefab_path": "assets/prefabs/misc/xmas/snowballgun/snowballgun.entity.prefab",
@@ -6321,7 +6428,7 @@
       "alias": "t1_smg",
       "prefab_path": "assets/prefabs/weapons/t1 smg/t1_smg.entity.prefab",
       "hash": 4251501342,
-      "damage_scale": 0.4,
+      "damage_scale": 0.42,
       "distance_scale": 0.5,
       "projectile_velocity_scale": 0.5,
       "automatic": true,

@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-01 21:33:03",
-  "target_build": "Protocol 2634.289.1 / Changeset 166494",
-  "count": 728,
+  "generated_utc": "2026-11-05 22:31:47",
+  "target_build": "Protocol 2636.290.1 / Changeset 170220",
+  "count": 735,
   "data": [
     {
       "name": "50cal.mounted",
@@ -1339,6 +1339,16 @@
     },
     {
       "name": "discord.trophy",
+      "prefab_id": 3378931327,
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "discord.zombie.plushie",
       "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
@@ -3004,6 +3014,26 @@
       "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
     },
     {
+      "name": "halloween.string.lights",
+      "prefab_id": 3378931327,
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "halloweenwreath",
+      "prefab_id": 2686008770,
+      "concrete_type": "Deployer",
+      "type_chain": [
+        "Deployer",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab"
+    },
+    {
       "name": "hammer",
       "prefab_id": 388861612,
       "concrete_type": "Hammer",
@@ -4068,16 +4098,6 @@
       "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
     },
     {
-      "name": "mini fridge",
-      "prefab_id": 3378931327,
-      "concrete_type": "Planner",
-      "type_chain": [
-        "Planner",
-        "HeldEntity"
-      ],
-      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
-    },
-    {
       "name": "minicrossbow",
       "prefab_id": 4274044420,
       "concrete_type": "MiniCrossbow",
@@ -4088,6 +4108,16 @@
         "HeldEntity"
       ],
       "prefab_path": "assets/prefabs/weapons/mini crossbow/mini_crossbow.entity.prefab"
+    },
+    {
+      "name": "minifridge",
+      "prefab_id": 3378931327,
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
     },
     {
       "name": "minigun",
@@ -4431,6 +4461,18 @@
     },
     {
       "name": "pie.crocodile",
+      "prefab_id": 797425204,
+      "concrete_type": "Food",
+      "type_chain": [
+        "Food",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/food/pies/food_pie_generic.entity.prefab"
+    },
+    {
+      "name": "pie.crocodile.rich",
       "prefab_id": 797425204,
       "concrete_type": "Food",
       "type_chain": [
@@ -5595,6 +5637,18 @@
       "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
     },
     {
+      "name": "shears",
+      "prefab_id": 2123930769,
+      "concrete_type": "Shears",
+      "type_chain": [
+        "Shears",
+        "BaseMelee",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/shears/shears.entity.prefab"
+    },
+    {
       "name": "shelves",
       "prefab_id": 3378931327,
       "concrete_type": "Planner",
@@ -6308,6 +6362,18 @@
       "prefab_path": "assets/prefabs/weapons/thompson/thompson.entity.prefab"
     },
     {
+      "name": "smg.uzi",
+      "prefab_id": 1425335112,
+      "concrete_type": "Uzi",
+      "type_chain": [
+        "Uzi",
+        "BaseProjectile",
+        "AttackEntity",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/weapons/uzi/uzi.entity.prefab"
+    },
+    {
       "name": "snowball",
       "prefab_id": 591451995,
       "concrete_type": "BaseMelee",
@@ -6857,6 +6923,16 @@
     },
     {
       "name": "tunalight",
+      "prefab_id": 3378931327,
+      "concrete_type": "Planner",
+      "type_chain": [
+        "Planner",
+        "HeldEntity"
+      ],
+      "prefab_path": "assets/prefabs/tools/planner/building_planner.entity.prefab"
+    },
+    {
+      "name": "tunalight.skull",
       "prefab_id": 3378931327,
       "concrete_type": "Planner",
       "type_chain": [
